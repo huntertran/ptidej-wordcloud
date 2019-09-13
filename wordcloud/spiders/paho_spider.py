@@ -7,25 +7,38 @@ class PahoSpider(scrapy.Spider):
 
     def extractBaseUrl(self, url):
         fragments = url.split('/')
-        self.baseUrl = fragments[0] + "//" + fragments[2]
+        return fragments[0] + "//" + fragments[2]
 
     def start_requests(self):
-        urls = [
-            'https://www.eclipse.org/paho/',
-        ]
-        for url in urls:
-            self.extractBaseUrl(url)
-            yield scrapy.Request(url=url, callback=self.parseUrls)
+        filePath = './wordcloud/spiders/sitelist.txt'
+        with open(filePath, 'r') as dataFile:
+            siteDataList = dataFile.readlines()
+        
+        index = 0
+        for line in siteDataList:
+            isScrapped = line.split(',')[0]
+            url = line.split(',')[1]
+            if isScrapped == '0':
+                siteDataList[index] = '1,' + url + '\n'
+                baseUrl = self.extractBaseUrl(url)
+                request = scrapy.Request(url,callback=self.parseRootUrl)
+                request.cb_kwargs['root'] = baseUrl
+                yield request
+            index += 1
+        
+        with open(filePath, 'w') as dataFile:
+            dataFile.writelines(siteDataList)
 
-    def parseUrls(self, response):
+    def parseRootUrl(self, response, root):
         urls = response.selector.xpath("//a/@href").getall()
 
         for url in urls:
             if url.startswith('#') == False:
                 if url.startswith('http'):
+                    self.log("end")
                     yield scrapy.Request(url, callback=self.parseUrl)
                 else:
-                    yield scrapy.Request(url=self.baseUrl + url, callback=self.parseUrl)
+                    yield scrapy.Request(url=root + url, callback=self.parseUrl)
 
     def cleanText(self, text):
         text = text.strip()
