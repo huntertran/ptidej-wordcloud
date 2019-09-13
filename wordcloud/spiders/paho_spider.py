@@ -8,7 +8,7 @@ class PahoSpider(scrapy.Spider):
         filePath = './wordcloud/spiders/sitelist.txt'
         with open(filePath, 'r') as dataFile:
             siteDataList = dataFile.readlines()
-        
+
         index = 0
         for line in siteDataList:
             siteData = line.split(',')
@@ -19,14 +19,13 @@ class PahoSpider(scrapy.Spider):
                 # TODO: edit here to stop re-scraping a site on different run
                 siteDataList[index] = '0,' + scrapLevel + ',' + url + '\n'
                 baseUrl = self.extractBaseUrl(url)
-                request = scrapy.Request(url,callback=self.parseRootUrl)
+                request = scrapy.Request(url, callback=self.parseRootUrl)
                 request.cb_kwargs['root'] = baseUrl
-                # TODO: convert scrapLevel to number
                 request.cb_kwargs['level'] = int(scrapLevel)
                 request.cb_kwargs['current_level'] = 0
                 yield request
             index += 1
-        
+
         with open(filePath, 'w') as dataFile:
             dataFile.writelines(siteDataList)
 
@@ -34,25 +33,30 @@ class PahoSpider(scrapy.Spider):
         fragments = url.split('/')
         return fragments[0] + "//" + fragments[2]
 
-    def parseRootUrl(self, response, root,level, current_level):
+    def parseRootUrl(self, response, root, level, current_level):
         urls = response.selector.xpath("//a/@href").getall()
 
         for url in urls:
             if url.startswith('#') == False:
                 urlToScrap = self.buildUrl(root, url)
 
-                request = self.buildRequest(root,urlToScrap,level,current_level)
+                request = self.buildRequest(
+                    root,
+                    urlToScrap,
+                    level,
+                    current_level)
 
                 yield request
+                # TODO: send request for the base level
 
-    def buildRequest(self,root, url, level, currentLevel):
+    def buildRequest(self, root, url, level, currentLevel):
         if level == currentLevel:
             request = scrapy.Request(url, callback=self.parseUrl)
         else:
             request = scrapy.Request(url, callback=self.parseRootUrl)
             request.cb_kwargs['root'] = root
             request.cb_kwargs['level'] = level
-            request.cb_kwargs['current_level'] = currentLevel +1
+            request.cb_kwargs['current_level'] = currentLevel + 1
         return request
 
     def buildUrl(self, root, url):
@@ -73,6 +77,5 @@ class PahoSpider(scrapy.Spider):
             text = self.cleanText(text)
             if len(text) != 0:
                 yield {
-                    'link': page,
-                    'text': text
+                    page, text
                 }
