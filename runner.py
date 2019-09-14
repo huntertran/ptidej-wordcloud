@@ -8,9 +8,7 @@ try:
         [
             'scrapy',
             'crawl',
-            'paho',
-            '-o',
-            'out.json',
+            'paho'
         ]
     )
 except SystemExit:

@@ -1,8 +1,11 @@
 import scrapy
+from scrapy.loader import ItemLoader
+from wordcloud.items import WordcloudItem
 
 
 class PahoSpider(scrapy.Spider):
     name = "paho"
+    urls = []
 
     def start_requests(self):
         filePath = './wordcloud/spiders/sitelist.txt'
@@ -12,18 +15,22 @@ class PahoSpider(scrapy.Spider):
         index = 0
         for line in siteDataList:
             siteData = line.split(',')
-            isScrapped = siteData[0]
-            scrapLevel = siteData[1]
-            url = siteData[2]
-            if isScrapped == '0':
-                # TODO: edit here to stop re-scraping a site on different run
-                siteDataList[index] = '0,' + scrapLevel + ',' + url + '\n'
-                baseUrl = self.extractBaseUrl(url)
-                request = scrapy.Request(url, callback=self.parseRootUrl)
-                request.cb_kwargs['root'] = baseUrl
-                request.cb_kwargs['level'] = int(scrapLevel)
-                request.cb_kwargs['current_level'] = 0
-                yield request
+            if len(siteData) > 1:
+                isScrapped = siteData[0]
+                scrapLevel = int(siteData[1])
+                url = siteData[2]
+                self.urls.append(url)
+                if isScrapped == 0:
+                    # TODO: edit here to stop re-scraping a site on different run
+                    siteDataList[index] = '0,' + scrapLevel + ',' + url + '\n'
+    
+                    request = scrapy.Request(url, callback=self.parseRootUrl)
+                    request.cb_kwargs['root'] = self.extractBaseUrl(url)
+                    request.cb_kwargs['projectRoot'] = self.extractProjectRoot(url)
+                    request.cb_kwargs['level'] = scrapLevel
+                    request.cb_kwargs['current_level'] = 0
+    
+                    yield request
             index += 1
 
         with open(filePath, 'w') as dataFile:
@@ -33,28 +40,38 @@ class PahoSpider(scrapy.Spider):
         fragments = url.split('/')
         return fragments[0] + "//" + fragments[2]
 
-    def parseRootUrl(self, response, root, level, current_level):
+    def extractProjectRoot(self, url):
+        fragments = url.split('/')
+        return fragments[0] + "//" + fragments[2] + "/" + fragments[3]
+
+    def parseRootUrl(self, response, root, projectRoot, level, current_level):
+
+        # response for base url
+        # self.parseUrl(response)
+
         urls = response.selector.xpath("//a/@href").getall()
 
         for url in urls:
             if url.startswith('#') == False:
                 urlToScrap = self.buildUrl(root, url)
+                if root in urlToScrap:
+                    request = self.buildRequest(
+                        root,
+                        projectRoot,
+                        urlToScrap,
+                        level,
+                        current_level)
 
-                request = self.buildRequest(
-                    root,
-                    urlToScrap,
-                    level,
-                    current_level)
+                    yield request
 
-                yield request
-                # TODO: send request for the base level
-
-    def buildRequest(self, root, url, level, currentLevel):
+    def buildRequest(self, root, projectRoot, url, level, currentLevel):
         if level == currentLevel:
             request = scrapy.Request(url, callback=self.parseUrl)
+            request.cb_kwargs['projectRoot'] = projectRoot
         else:
             request = scrapy.Request(url, callback=self.parseRootUrl)
             request.cb_kwargs['root'] = root
+            request.cb_kwargs['projectRoot'] = projectRoot
             request.cb_kwargs['level'] = level
             request.cb_kwargs['current_level'] = currentLevel + 1
         return request
@@ -70,12 +87,20 @@ class PahoSpider(scrapy.Spider):
         text = text.strip('\r').strip('\n')
         return text
 
-    def parseUrl(self, response):
+    def parseUrl(self, response, projectRoot):
+        # loader = ItemLoader(item=WordcloudItem(), response=response)
+
+        # loader.add_xpath('text', '//text()')
+        # loader.add_value('link', response.url)
+        # return loader.load_item()
+
         page = response.url
         texts = response.xpath('//text()').getall()
         for text in texts:
             text = self.cleanText(text)
             if len(text) != 0:
                 yield {
-                    page, text
+                    "projectRoot": projectRoot,
+                    "l": page,
+                    "t": text
                 }

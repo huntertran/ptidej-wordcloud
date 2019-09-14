@@ -11,4 +11,7 @@ import scrapy
 class WordcloudItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    projectRoot = scrapy.Field()
+    link = scrapy.Field()
+    text = scrapy.Field()
     pass
