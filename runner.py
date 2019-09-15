@@ -8,9 +8,11 @@ try:
         [
             'scrapy',
             'crawl',
-            'paho',
-            '-o',
-            'out.json'
+            'generic',
+            '-a'
+            'site_url=0,0,https://www.eclipse.org/paho/'
+            # '-o',
+            # 'out.json'
         ]
     )
 except SystemExit:

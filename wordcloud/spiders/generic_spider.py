@@ -2,28 +2,21 @@ import scrapy
 from scrapy.loader import ItemLoader
 from wordcloud.items import WordcloudItem
 
-class PahoSpider(scrapy.Spider):
-    name = "paho"
-    urls = []
+
+class GenericSpider(scrapy.Spider):
+    name = "generic"
 
     def start_requests(self):
-        filePath = './wordcloud/spiders/sitelist.txt'
-        with open(filePath, 'r') as dataFile:
-            siteDataList = dataFile.readlines()
-
-        index = 0
-        for line in siteDataList:
+        # index = 0
+        # for line in siteDataList:
+        line = getattr(self, 'site_url', None)
+        if line is not None:
             siteData = line.split(',')
             if len(siteData) > 1:
                 isScrapped = int(siteData[0])
                 scrapLevel = int(siteData[1])
                 url = siteData[2]
-                self.urls.append(url)
                 if isScrapped == 0:
-                    # TODO: edit here to stop re-scraping a site on different run
-                    siteDataList[index] = '0,' + \
-                        str(scrapLevel) + ',' + url + '\n'
-
                     request = scrapy.Request(url, callback=self.parseRootUrl)
                     request.cb_kwargs['root'] = self.extractBaseUrl(url)
                     request.cb_kwargs['projectRoot'] = self.extractProjectRoot(
@@ -32,10 +25,7 @@ class PahoSpider(scrapy.Spider):
                     request.cb_kwargs['current_level'] = 0
 
                     yield request
-            index += 1
-
-        with open(filePath, 'w') as dataFile:
-            dataFile.writelines(siteDataList)
+            # index += 1
 
     def extractBaseUrl(self, url):
         fragments = url.split('/')
@@ -89,7 +79,7 @@ class PahoSpider(scrapy.Spider):
 
     def parseUrl(self, response, projectRoot):
         page = response.url
-        texts = response.xpath('//text()').getall()
+        texts = response.xpath('//text()[not(ancestor::pre)]').getall()
         for text in texts:
             text = self.cleanText(text)
             if len(text) != 0:

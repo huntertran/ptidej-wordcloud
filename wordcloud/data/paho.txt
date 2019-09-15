@@ -1,0 +1,266 @@
+#midcolumn {  
+background-image: url('/proposals/proposal.gif');
+background-repeat: repeat-y
+}
+The Paho MQTT C Client is a fully featured MQTT client written in ANSI standard C.  
+C was chosen rather than C++ to maximize portability.  
+A
+In fact there are two C APIs.  "Synchronous" and "asynchronous" for which the API calls start with MQTTClient and MQTTAsync
+respectively.  The synchronous API is intended to be simpler and more helpful.  To this end, some of the calls will block until
+the operation has completed, which makes programming easier.  
+In contrast, only one call blocks in the asynchronous API - waitForCompletion.  
+Notifications of results are made by callbacks which makes the API suitable for use in environments where the application is not the main thread of control.
+The Paho Android Service is an MQTT client library written in
+            Java for developing applications on Android.
+The Paho Java Client is an MQTT client library written in Java
+            for developing applications that run on the JVM or other Java
+            compatible platforms such as Android
+The "full" Paho MQTT C client library was written with Linux and Windows in mind.  It assumes the existence of
+Posix or Windows libraries for networking (sockets), threads and memory allocation. The embedded libraries are intended to have these characteristics:
+Lots of organizations are using Eclipse Paho for their MQTT client needs.
+Check out our recent user stories.
+Android
+            Studio
+. Currently you will need the SDK for 19,21 and 22,
+            This will hopefully be simplified soon.
+.special-checkbox {
+      display: block;
+      width: 20px;
+      height: 20px;
+    }
+, our Golang robotics/IoT framework, has been using the Paho MQTT client for a while. Anything we can ever do to help out, please let us know.
+
+Anyhow, great job, and thanks again for all your collective work.
+This C++ client provides an interface which is intended to mirror the Paho Java API as closely as possible.  It requires
+the
+The aim of this project is to create a means by which it is easy to test both MQTT servers and client libraries, to
+ensure
+The Windows binaries are built with Visual Studio 2013 and 2015.  
+If you don't have the correct version installed already, you will need to install the 
+appropriate Visual C++ Redistributable Package for Visual Studio.
+for Linux and Mac, 
+and
+The MQTT-SN Transparent Gateway is a daemon, or small server, which accepts incoming
+MQTT-SN data over a number of transports (UDP, XBee) and converts it into
+MQTT appropriate for connecting to an MQTT server such as
+A description of how transparent and aggregating gateways are intended to
+work can be found in the
+The Paho project has been created to provide reliable
+            open-source implementations of open and standard messaging
+            protocols aimed at new, existing, and emerging applications for
+            Machine-to-Machine (M2M) and Internet of Things (IoT). Paho
+            reflects the inherent physical and cost constraints of device
+            connectivity. Its objectives include effective levels of decoupling
+            between devices and applications, designed to keep markets open and
+            encourage the rapid growth of scalable Web and Enterprise
+            middleware and applications.
+The Paho project has been created to provide reliable
+            open-source implementations of open and standard messaging
+            protocols aimed at new, existing, and emerging applications for
+            Machine-to-Machine (M2M) and Internet of Things (IoT). Paho
+            reflects the inherent physical and cost constraints of device
+            connectivity. Its objectives include effective levels of decoupling
+            between devices and applications, designed to keep markets open and
+            encourage the rapid growth of scalable Web and Enterprise
+            middleware and applications.
+The Windows build uses Visual Studio or Visual C++ and CMake.  
+A batch file, cbuild.bat, shows how to use CMake to build:
+Eclipse
+Technology Project
+This proposal is in the Project Proposal Phase (as defined in the
+Eclipse Development Process) and is written to declare its intent and
+scope. We solicit additional participation and input from the Eclipse
+community. Please send all feedback to the
+Command line utilities are included, paho_c_pub and paho_c_sub for publishing and subscribing respectively.  
+To start the publishing program, connecting to the Eclipse IoT sandbox:
+We now have the ability to
+measure, sense and monitor nearly anything in the physical world. Rapid advances
+in embedded platforms and wireless connectivity are driving growth of M2M
+(Machine-to-Machine) technology and the many industries it serves. By 2020, the
+number of connected physical world devices is expected to be in the range of 50
+billion, fueled by a 1000x increase in wireless broadband traffic. These
+factors are forming a significant industry shift that will not be limited to
+device connectivity.
+Machine-to-Machine (M2M) solutions such as industrial control, smart
+buildings, asset tracking, traffic control and healthcare monitoring, are an
+essential and integral part of nearly all industry, enterprise and daily life. Inherent
+to M2M is the need to connect objects in the physical world, via sensors,
+actuators and other devices, into monitoring, control, business, and consumer software
+systems, often over constrained wireless networks. Advances in wireless,
+embedded, internet and mobile technologies are now creating all manner of new
+objects that can sense, control and connect. Such smart objects not only create
+new M2M opportunities, but also expand the availability of device connectivity
+to Web and Enterprise IT developers. Whether looked at as an Internet of Things
+or a Smarter Planet, people, systems and objects will increasingly need to
+communicate and interact with each other in ways that today, cannot yet be
+entirely anticipated.
+Eclipse hosts a Nexus repository for those who want to use Maven
+            to manage their dependencies. The released libraries are also
+            available in the Maven Central repository.
+Add the repository definition and the dependency definition
+            shown below to your pom.xml.
+There are no pre-built downloads available. This code is intended to be used in
+the smallest pieces needed for the particular embedded system.
+The C++ client is built for Linux/Unix/Mac with CMake, and uses g++ or clang++ as the compiler. Because it requires a compliant C++11 compiler, only GCC 4.8.1 or clang 3.6 or later are supported.
+
+See the
+While smart objects and physical world systems are often integrated with Enterprise and Web middleware today, it is often done using proprietary integration models
+and combinations of a prolific number of custom protocols and industry standards.
+In most established M2M implementations of connected devices, the data
+producers and data consumers are programmed to interact in strict and well
+defined ways. For example, in a smart city, sensor-based systems can alert
+operators of a broken water main and report the extent of flooding in streets
+and subways. Well designed open messaging technology would enable solutions
+well beyond this, allowing public and private transit systems for example, to
+monitor these critical alerts, adjusting their routes and even notifying
+commuters and customers of alternative routes, transportation, lodging and
+meals. Social networks could subscribe, allowing residents and commuters to
+interact, adapt and even provide feedback and status to the city.
+In an example like this, the M2M system monitoring the water main would not,
+in its original design, have been able to communicate or interact with the
+traffic systems or residents. The next generation of messaging technology will
+support an architecture that enables a more spontaneous reuse and rerouting of
+data with minimal programming or reconfiguration of legacy monitoring systems.
+Open source messaging components are needed that can cater to the
+serendipitous nature of data and events from the physical world around us,
+accelerating and opening new markets. These components will of course have to support
+the open messaging models prevalent on the Web. They will have to meet high
+volume, low latency transaction requirements expected by Enterprise IT.  At
+the same time, they will have to work equally well across the constrained
+networks and embedded platforms that are inherent to physical world of machine-to-machine
+systems.  This will enable a paradigm shift from legacy point-to-point
+protocols and the limitations of protocols like SOAP or HTTP into more loosely
+coupled yet determinable models. It will bridge the SOA, REST, Pub/Sub and
+other middleware architectures already well understood by Web 2.0 and
+Enterprise IT shops today, with the embedded and wireless device architectures
+inherent to M2M.
+For Windows, CMake is used to generate a solution file for Visual Studio. Due to the C++11 requirement, the earliest version that can be used with the library is Visual Studio 2015.
+
+See the
+The scope of the Paho project is to provide open source implementations of open
+and standard messaging protocols that support current and emerging requirements
+of M2M integration with Web and Enterprise middleware and applications.  It
+will include client implementations for use on embedded platforms along with
+corresponding server support as determined by the community.
+In order for M2M device and client developers to integrate, develop and test
+messaging components end-to-end, Paho will address the development of
+frameworks and sample code needed to support testing and development of end-to-end
+device connectivity with a server. The project will make these available in an
+Eclipse M2M sever “sandbox”, as recommended by the Eclipse M2M Industry
+Working Group.
+The Paho project scope includes the development of tooling that will support
+effective use, integration and testing of the messaging components.
+for the nightly snapshots. Replace %VERSION% with the level
+            required. The latest release version is
+and the
+            current snapshot version is
+which is used to produce stable releases,
+                     and
+Architectural requirements for network, client and server support will be
+developed with the Eclipse Machine-to-Machine Industry Working Group and will
+include, but are not necessarily limited to:
+Bi-directional
+messaging that can handle both signals and commands from devices, as well as supporting
+the provisioning and configuration of physical world systems. Bi-directional
+messaging also enables an important characteristic of the next generation of
+M2M solutions: the ability to configure or move processing closer to the
+physical world systems as needed, in support of changing business requirements
+and the constant reshaping of the Web.
+Determinable
+delivery of messages to and from sensors, actuators, and other resource
+constrained devices connected by intermittent or constrained networks.
+Provide
+loose coupling in highly dynamic system environments where large volumes of
+physical word events and messages that need to be made available to the Enterprise, Web, and other consumers in ways that may not always be anticipated. This
+should include time, space and synchronization decoupling that will avoid
+unnecessarily tight binding between systems.
+Eclipse hosts a Nexus repository for those who want to use Maven
+            to manage their dependencies. The released libraries are also
+            available in the Maven Central repository.
+Add the repository definition and the dependency definition
+            shown below to your pom.xml.
+Constrained
+platforms: Instrumentation of the physical world must be supported in an
+extremely fragmented space where technologies, platforms and network choices
+are driven by very diverse equations of cost, technology and physical constraints.
+Eclipse has long had a focus on open tooling, runtimes, frameworks,
+standards and software architecture. The Eclipse Foundation has initiated an
+M2M Industry Working Group, recognizing the importance of growing and scaling
+device connectivity solutions needed to realize new business opportunities and
+keep markets open. Eclipse has a large and diverse membership, an established
+industry presence, and a proven track record on technology projects.  The
+industry working group will provide a forum for discussing the broad topics of
+machine-to-machine communications while the Paho open source project will make
+implementations of advanced messaging technology readily available to M2M, Web
+and Enterprise customers, working to improve adoption.
+The Paho project will have relationships with Equinox and
+other Eclipse projects, including the Koneki project and other tooling projects
+used by embedded, enterprise and Web developers.
+where active development is carried out. By
+            default cloning the git repository will download the
+The initial code contribution to Paho will include  Java and C client-side implementations
+the
+MQTT
+protocol
+, contributed by IBM. MQTT is a lightweight publish/subscribe
+protocol designed for mobile and remote devices, wireless connectivity, and dealing
+with lossy, constrained and/or intermittent network characteristics.
+Eurotech will contribute
+the implementation of a framework and sample applications which device and
+client developers can use when integrating and testing Paho messaging
+components. This will require the setup of an appropriate M2M test server which
+will be worked out with the Eclipse Foundation. The architecture for this
+sandbox will be coordinated with the M2M Industry Working Group.
+for the nightly snapshots. Replace %VERSION% with the level
+            required . The latest release version is
+and the
+            current snapshot version is
+make
+            sure you switch to the remote branch:
+git checkout -b develop
+            remotes/origin/develop
+If you are using Android Studio and / or Gradle to manage your
+            application dependencies and build then you can use the same
+            repository to get the Paho Android Service. Add the Eclipse
+            Maven repository to your
+file and then
+            add the Paho dependency to the
+This will build the client library without running the tests.
+            The jars for the library, source and javadoc can be found in the
+The following Architecture Council members will mentor this
+project:
+file that
+             contains both the Android service as well as it's dependencies, however this is still experimental.
+              If you wish to try it, remove the
+dependency
+             and append
+, once subscribed,
+                     it then publishes the message
+The following individuals, organisations, companies and projects have 
+expressed interest in this project:
+to the end of the Android Service dependency.
+              E.g.
+The included code below is a very basic sample that connects to
+            a server and publishes a message using the MqttClient synchronous
+            API. More extensive samples demonstrating the use of the
+            Asynchronous API can be found in the
+directory of the
+            source.
+November 28, 2011: Initial submission to Eclipse of MQTT Java and C client code. December
+16, 2011: Stable release 1 of MQTT Java and C client code
+Open a terminal and navigate to this directory
+                (org.eclipse.paho.android.service)
+./gradlew clean assemble
+                exportJar
+gradlew.bat clean
+                assemble exportJar
+Open the this current directory in Android Studio
+                (org.eclipse.paho.android.service).
+In the toolbar along the top, there should be a dropdown
+                menu. Make sure that it contains 'org.eclipse.android.sample'
+                then click the Green 'Run' Triangle. It should now build and
+                launch an Virtual Android Device to run the App. If you have an
+                Android device with developer mode turned on plugged in, you
+                will have the oppertunity to run it directly on that.
+If you have any problems, check out the Android Developer
+                Documentation for help:
