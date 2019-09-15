@@ -11,25 +11,25 @@ class FileDictionary(object):
         self.fileStream = fileStream
 
 class WordcloudPipeline(object):
-    files = []
+    # files = []
 
-    def open_spider(self, spider):
-        for url in spider.urls:
+    # def open_spider(self, spider):
+    #     for url in spider.urls:
             
-            filePath = "./wordcloud/data/" + url + ".txt"
-            projectFile = open(filePath,'w')
+    #         filePath = "./wordcloud/data/" + url + ".txt"
+    #         projectFile = open(filePath,'w')
 
-            fileDict = FileDictionary(url, projectFile)
+    #         fileDict = FileDictionary(url, projectFile)
 
-            self.files.append(fileDict)
+    #         self.files.append(fileDict)
 
-    def close_spider(self, spider):
-        for projectFile in self.files:
-            projectFile.fileStream.close()
+    # def close_spider(self, spider):
+    #     for projectFile in self.files:
+    #         projectFile.fileStream.close()
 
     def process_item(self, item, spider):
-        for fileDictItem in self.files:
-            if fileDictItem.projectRoot == item.projectRoot:
-                fileDictItem.projectFile.write(item.text + "\n")
-                break
+        # for fileDictItem in self.files:
+        #     if fileDictItem.projectRoot == item.projectRoot:
+        #         fileDictItem.projectFile.write(item.text + "\n")
+        #         break
         return item
