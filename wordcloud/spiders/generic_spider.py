@@ -1,4 +1,5 @@
 import scrapy
+import re
 from scrapy.loader import ItemLoader
 from wordcloud.items import WordcloudItem
 
@@ -73,8 +74,13 @@ class GenericSpider(scrapy.Spider):
             return root + url
 
     def cleanText(self, text):
+        # remove all trailing whitespaces
         text = text.strip()
+        # remove all redundant spaces
+        text = re.sub(r'\s+', ' ', text)
+        # remove newline chars
         text = text.strip('\r').strip('\n')
+
         return text
 
     def parseUrl(self, response, projectRoot):

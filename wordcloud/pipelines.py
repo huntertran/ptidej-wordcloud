@@ -35,13 +35,9 @@ class WordcloudPipeline(object):
     def close_spider(self, spider):
         self.outputFile.close()
 
-    def cleanText(self, text):
-        # return str.replace(text, "\n"," ")
-        return text
-
     def process_item(self, item, spider):
         text = item['t']
-        if not 'function' in text and '\n' in text:
+        if not 'function' in text and not '\n' in text:
             if not '\t' in text:
-                self.outputFile.write(self.cleanText(text) + "\n")
+                self.outputFile.write(text + "\n")
         return item

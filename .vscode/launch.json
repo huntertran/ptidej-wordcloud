@@ -10,6 +10,13 @@
             "request": "launch",
             "program": "${workspaceFolder}/runner.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Run Scrapy and NLTK",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/auto_runner.py",
+            "console": "integratedTerminal"
         }
     ]
 }
