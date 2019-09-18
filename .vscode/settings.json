@@ -5,6 +5,7 @@
     "cSpell.words": [
         "ROBOTSTXT",
         "chdir",
-        "cmdline"
+        "cmdline",
+        "nltk"
     ]
 }

@@ -3,6 +3,7 @@ from scrapy.utils.project import get_project_settings
 from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
 from wordcloud.spiders import generic_spider
+from nlp.preprocessing import combineStopwords
 
 settings = get_project_settings()
 configure_logging(settings=settings)
@@ -33,9 +34,13 @@ def crawl():
         index += 1
         with open(filePath, 'w') as dataFile:
             dataFile.writelines(siteDataList)
-
     reactor.stop()
 
+def nlp():
+    combineStopwords()
+    quit()
 
-crawl()
+
+# crawl()
+nlp()
 reactor.run()
