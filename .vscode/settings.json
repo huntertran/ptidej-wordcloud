@@ -7,6 +7,8 @@
         "ROBOTSTXT",
         "chdir",
         "cmdline",
-        "nltk"
+        "nltk",
+        "numpy",
+        "pyplot"
     ]
 }

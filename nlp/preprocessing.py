@@ -1,3 +1,6 @@
+from __future__ import absolute_import
+from wordcloud import WordCloud
+
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem import SnowballStemmer
@@ -9,6 +12,9 @@ import os
 import collections
 from nltk.stem import WordNetLemmatizer
 from nlp.model.keyword import Keyword
+import numpy as np
+from PIL import Image
+import matplotlib.pyplot as plt
 
 
 def loadRawDataFile():
@@ -27,6 +33,19 @@ def getProgrammingLanguageList():
             programmingLanguages.append(line.strip('\n'))
 
     return programmingLanguages
+
+def makeImage(text):
+    alice_mask = np.array(Image.open("alice_mask.png"))
+
+    # wc = WordCloud(background_color="white", max_words=1000, mask=alice_mask)
+    wc = WordCloud(background_color="white", max_words=1000)
+    # generate word cloud
+    wc.generate_from_frequencies(text)
+
+    # show
+    plt.imshow(wc, interpolation="bilinear")
+    plt.axis("off")
+    plt.show()
 
 def combineStopwords():
     programmingLanguages = getProgrammingLanguageList()
@@ -75,7 +94,8 @@ def combineStopwords():
     # for word in fd.items():
     #     result.append(Keyword(word[0], word[1]))
 
-    sortedFreqDist = sorted(fd.items(), key=lambda kv:kv[1], reverse=True)
+    # sortedFreqDist = sorted(fd.items(), key=lambda kv:kv[1], reverse=True)
+    sortedFreqDist = sorted(fd.most_common(50), key=lambda kv:kv[1], reverse=True)
     sortedProgrammingLanguagesFreqDist = sorted(plfd.items(), key=lambda kv:kv[1], reverse=True)
 
     createDataFolder()
@@ -86,6 +106,8 @@ def combineStopwords():
     with open('./nlp/data/paho-programmingLanguages.txt','w+',encoding='utf-8') as resultFile:
         for key, value in sortedProgrammingLanguagesFreqDist:
             resultFile.writelines(key + ':' + str(value) + '\n')
+
+    makeImage(fd.most_common(50))
         # resultFile.write(','.join(fd.items()))
 
     # print(fd.most_common(100))
