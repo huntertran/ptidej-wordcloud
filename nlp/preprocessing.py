@@ -1,4 +1,6 @@
 from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+from nltk.tokenize import sent_tokenize, word_tokenize
 
 
 def loadRawDataFile():
@@ -17,7 +19,14 @@ def combineStopwords():
     combinedStopwords.extend(customizedStopwords)
 
     dataLines = loadRawDataFile()
+    keywords = []
     for line in dataLines:
-        words = line.lower().split()
-        temp = [word for word in words if word not in combinedStopwords and word != '']
-        print(temp)
+        words = word_tokenize(line)
+
+        for index, word in enumerate(words):
+            words[index] = PorterStemmer().stem(word)
+
+        keywords.extend([word for word in words if word not in combinedStopwords and word != '' and '//' not in word])
+    
+    keywords.sort()
+    print(keywords)
