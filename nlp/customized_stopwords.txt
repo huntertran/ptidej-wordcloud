@@ -10,6 +10,11 @@
 !
 #
 %
+$
+@
+''
++
+-
 .jar
 .net
 /
@@ -26,6 +31,8 @@ subscribe
 app
 show
 've
+'re
+
 get
 applic
 It
