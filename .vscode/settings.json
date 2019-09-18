@@ -3,6 +3,7 @@
     "python.linting.enabled": true,
     "python.pythonPath": "C:\\Users\\cuoil\\Miniconda3\\python.exe",
     "cSpell.words": [
+        "Lemmatizer",
         "ROBOTSTXT",
         "chdir",
         "cmdline",
