@@ -1,7 +1,7 @@
 import scrapy
 import re
 from scrapy.loader import ItemLoader
-from wordcloud.items import WordcloudItem
+from ptidejWordcloud.items import WordcloudItem
 
 
 class GenericSpider(scrapy.Spider):

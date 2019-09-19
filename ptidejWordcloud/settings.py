@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for wordcloud project
+# Scrapy settings for ptidejWordcloud project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'wordcloud'
+BOT_NAME = 'ptidejWordcloud'
 
-SPIDER_MODULES = ['wordcloud.spiders']
-NEWSPIDER_MODULE = 'wordcloud.spiders'
+SPIDER_MODULES = ['ptidejWordcloud.spiders']
+NEWSPIDER_MODULE = 'ptidejWordcloud.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'wordcloud (+http://www.yourdomain.com)'
+#USER_AGENT = 'ptidejWordcloud (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'wordcloud.middlewares.WordcloudSpiderMiddleware': 543,
+#    'ptidejWordcloud.middlewares.WordcloudSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    'wordcloud.middlewares.WordcloudDownloaderMiddleware': 543,
+#    'ptidejWordcloud.middlewares.WordcloudDownloaderMiddleware': 543,
 # }
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'wordcloud.pipelines.WordcloudPipeline': 300,
+    'ptidejWordcloud.pipelines.WordcloudPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

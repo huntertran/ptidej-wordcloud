@@ -2,7 +2,7 @@ from twisted.internet import reactor, defer
 from scrapy.utils.project import get_project_settings
 from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
-from wordcloud.spiders import generic_spider
+from ptidejWordcloud.spiders import generic_spider
 from nlp.preprocessing import combineStopwords
 
 settings = get_project_settings()
@@ -15,7 +15,7 @@ def crawl():
 
     crawler = runner.spider_loader.list()[0]
 
-    filePath = './wordcloud/spiders/sitelist.txt'
+    filePath = './ptidejWordcloud/spiders/sitelist.txt'
 
     with open(filePath, 'r') as dataFile:
         siteDataList = dataFile.readlines()

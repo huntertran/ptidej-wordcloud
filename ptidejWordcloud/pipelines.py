@@ -9,7 +9,7 @@ import os
 
 
 class WordcloudPipeline(object):
-    dataFolder = "./wordcloud/data/"
+    dataFolder = "./ptidejWordcloud/data/"
 
     def getProjectName(self, fullUrl):
         nameSplitted = str.split(fullUrl, '/')

@@ -1,6 +1,3 @@
-from __future__ import absolute_import
-from wordcloud import WordCloud
-
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem import SnowballStemmer
@@ -15,10 +12,11 @@ from nlp.model.keyword import Keyword
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 
 
 def loadRawDataFile():
-    with open('./wordcloud/data/paho.txt', 'r', encoding="utf-8") as dataFile:
+    with open('./ptidejWordcloud/data/paho.txt', 'r', encoding="utf-8") as dataFile:
         return dataFile.readlines()
 
 def createDataFolder():
@@ -35,7 +33,7 @@ def getProgrammingLanguageList():
     return programmingLanguages
 
 def makeImage(text):
-    alice_mask = np.array(Image.open("alice_mask.png"))
+    # alice_mask = np.array(Image.open("alice_mask.png"))
 
     # wc = WordCloud(background_color="white", max_words=1000, mask=alice_mask)
     wc = WordCloud(background_color="white", max_words=1000)
@@ -107,7 +105,10 @@ def combineStopwords():
         for key, value in sortedProgrammingLanguagesFreqDist:
             resultFile.writelines(key + ':' + str(value) + '\n')
 
-    makeImage(fd.most_common(50))
+    mostCommonKeywords = fd.most_common(50)
+    imageSource = dict([keyword[0],keyword[1]] for keyword in mostCommonKeywords)
+
+    makeImage(imageSource)
         # resultFile.write(','.join(fd.items()))
 
     # print(fd.most_common(100))
