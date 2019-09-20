@@ -4,6 +4,9 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
 from ptidejWordcloud.spiders import generic_spider
 from nlp.NlpProcessing import process
+from model.Site import Site
+from helpers.ProjectHelper import ProjectHelper
+import json
 
 settings = get_project_settings()
 configure_logging(settings=settings)
@@ -15,29 +18,23 @@ def crawl():
 
     crawler = runner.spider_loader.list()[0]
 
-    filePath = './ptidejWordcloud/sitelist.txt'
+    filePath = './ptidejWordcloud/sitelist.json'
 
     with open(filePath, 'r') as dataFile:
-        siteDataList = dataFile.readlines()
+        siteDataList = json.load(dataFile, object_hook=Site.decode_Site)
 
     index = 0
-    for line in siteDataList:
-        line = line.strip('\n').strip('\r')
-        siteData = line.split(',')
-        if len(siteData) > 1:
-            isScrapped = int(siteData[0])
-            scrapLevel = int(siteData[1])
-            url = siteData[2]
-            if isScrapped == 0:
-                # TODO: edit here to stop re-scraping a site on different run
-                siteDataList[index] = '1,' + str(scrapLevel) + ',' + url + '\n'
-                yield runner.crawl(crawler, site_url=line)
+    for site in siteDataList:
+        if not site.IsCrawled:
+            # TODO: edit here to stop re-scraping a site on different run
+            siteDataList[index].IsCrawled = True
+            yield runner.crawl(crawler, site_url=site.SiteUrl)
         index += 1
         with open(filePath, 'w') as dataFile:
-            dataFile.writelines(siteDataList)
+            json.dump(siteDataList)
 
         # NLP Processing
-        process(url)
+        process(site.SiteUrl)
 
     reactor.stop()
 

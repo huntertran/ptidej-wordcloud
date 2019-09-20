@@ -17,3 +17,7 @@ class ProjectHelper:
     def createDataFolder(folderPath):
         if not os.path.exists(folderPath):
             os.makedirs(folderPath)
+
+    # @staticmethod
+    # def class_mapper(d):
+    #     return mapping[frozenset(d.keys())](**d)
