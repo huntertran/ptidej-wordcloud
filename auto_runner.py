@@ -3,7 +3,7 @@ from scrapy.utils.project import get_project_settings
 from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
 from ptidejWordcloud.spiders import generic_spider
-from nlp.preprocessing import combineStopwords
+from nlp.NlpProcessing import process
 
 settings = get_project_settings()
 configure_logging(settings=settings)
@@ -30,17 +30,22 @@ def crawl():
             if isScrapped == 0:
                 # TODO: edit here to stop re-scraping a site on different run
                 siteDataList[index] = '0,' + str(scrapLevel) + ',' + url + '\n'
-                yield runner.crawl(crawler, site_url=line)
+                # yield runner.crawl(crawler, site_url=line)
         index += 1
         with open(filePath, 'w') as dataFile:
             dataFile.writelines(siteDataList)
+
+        # NLP Processing
+        # NlpProcessing.process(url)
+        process(url)
+
     reactor.stop()
 
-def nlp():
-    combineStopwords()
-    quit()
+# def nlp():
+#     NlpProcessing.combineStopwords()
+#     quit()
 
 
-# crawl()
-nlp()
+crawl()
+# nlp()
 reactor.run()
