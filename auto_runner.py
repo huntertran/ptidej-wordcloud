@@ -15,13 +15,14 @@ def crawl():
 
     crawler = runner.spider_loader.list()[0]
 
-    filePath = './ptidejWordcloud/spiders/sitelist.txt'
+    filePath = './ptidejWordcloud/sitelist.txt'
 
     with open(filePath, 'r') as dataFile:
         siteDataList = dataFile.readlines()
 
     index = 0
     for line in siteDataList:
+        line = line.strip('\n').strip('\r')
         siteData = line.split(',')
         if len(siteData) > 1:
             isScrapped = int(siteData[0])
@@ -29,14 +30,13 @@ def crawl():
             url = siteData[2]
             if isScrapped == 0:
                 # TODO: edit here to stop re-scraping a site on different run
-                siteDataList[index] = '0,' + str(scrapLevel) + ',' + url + '\n'
-                # yield runner.crawl(crawler, site_url=line)
+                siteDataList[index] = '1,' + str(scrapLevel) + ',' + url + '\n'
+                yield runner.crawl(crawler, site_url=line)
         index += 1
         with open(filePath, 'w') as dataFile:
             dataFile.writelines(siteDataList)
 
         # NLP Processing
-        # NlpProcessing.process(url)
         process(url)
 
     reactor.stop()

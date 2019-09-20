@@ -6,7 +6,10 @@ class ProjectHelper:
         nameSplitted = str.split(fullUrl, '/')
         if len(nameSplitted) > 2:
             # https://www.eclipse.org/paho/
-            return nameSplitted[3]
+            lastName = nameSplitted.pop()
+            while lastName is '':
+                lastName = nameSplitted.pop()
+            return lastName
         else:
             return fullUrl
 

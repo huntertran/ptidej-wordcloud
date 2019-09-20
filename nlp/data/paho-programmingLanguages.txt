@@ -1,7 +1,0 @@
-C:89
-javascript:51
-java:48
-c++:39
-c/c++:25
-go:2
-java™:1
