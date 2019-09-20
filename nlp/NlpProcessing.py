@@ -80,6 +80,7 @@ def calculateFrequencyDistribution(keywords, takeMost=None):
 
 
 def writeDistributionListToFile(projectName, sortedFreqDist,  suffix=None):
+    ProjectHelper.createDataFolder(resultedDataPath)
     fileNameWithPath = resultedDataPath + projectName
     if suffix is not None:
         fileNameWithPath = fileNameWithPath + '-' + suffix
