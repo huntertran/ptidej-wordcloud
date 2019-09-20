@@ -1,16 +1,3 @@
 0,0,https://www.eclipse.org/paho/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 0,0,https://www.eclipse.org/kapua/
