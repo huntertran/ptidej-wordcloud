@@ -33,7 +33,7 @@ def crawl():
     with open(filePath, 'w') as dataFile:
         json.dump(siteDataList, dataFile, default=Site.encode_Site, indent=4)
 
-    reactor.stop()
+    # reactor.stop()
 
 def nlp():
     filePath = './ptidejWordcloud/sitelist.json'
@@ -55,6 +55,6 @@ def nlp():
     reactor.stop()
 
 crawl()
-reactor.run()
+# reactor.run()
 nlp()
 reactor.run()
