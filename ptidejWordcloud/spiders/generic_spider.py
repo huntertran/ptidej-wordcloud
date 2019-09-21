@@ -25,7 +25,12 @@ class GenericSpider(scrapy.Spider):
 
     def extractProjectRoot(self, url):
         fragments = url.split('/')
-        return fragments[0] + "//" + fragments[2] + "/" + fragments[3]
+        root = fragments[0] + "//" + fragments[2]
+        
+        if len(fragments) == 3:
+            return root
+        else:
+            return root + '/' + fragments[3]
 
     def parseRootUrl(self, response, root, projectRoot, level, current_level):
         urls = response.selector.xpath("//a/@href").getall()
