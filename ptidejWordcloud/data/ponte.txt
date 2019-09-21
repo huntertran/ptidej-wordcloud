@@ -1,0 +1,74 @@
+Ponte - Bringing Things to REST developers
+Toggle navigation
+Ponte
+Install
+Architecture
+API
+Source
+Subscribe to the Mailing List »
+Install »
+Protocols
+Ponte allows you to publish and receive the data using any protocol: HTTP, MQTT and CoAP. You can mix and match: submit with CoAP and subscribe via MQTT. Thanks to MQTT subscribes and CoAP observe, your devices can get updated in real-time. Thanks to MQTT-over-Websockets, your users can too!
+Learn more »
+Data Formats
+Ponte aims to convert multiple data formats, you will be able to publish your data in JSON, MsgPack, Byson, BSON and XML. Need another one? Use HTTP accept queries to get another version.
+We are building it..
+Security and Privacy
+Ponte will help you, the developer, in building a user-driven security solution to support the communication between all these devices. Thanks to Ponte, there will be no need to prepare a custom authentication for your things, and another for your users.
+We are building it..
+Architecture
+The diagram on the right shows Ponte's architecture. Ponte bridges three different application protocols: HTTP, MQTT and CoAP. The Internet of Things is about real-world events, so Ponte is based on some of most powerful publish/subscribe brokers:
+RabbitMQ
+and all implementations of the
+AMQP
+protocol.
+Redis
+, the fabulous key/value store by
+@antirez
+.
+Mosquitto
+and all implementations of the
+MQTT
+protocol.
+MongoDB
+, the documental NoSQL that is revolutioning how web apps are built.
+The Web is about accessing syndicated data: after a payload is published, it must be retained for supporting standard HTTP/REST access. Ponte supports
+MongoDB
+,
+Redis
+, and
+LevelDB
+as storage engines.
+HTTP API
+HTTP is an implementation of the REST pattern, where a resource can be manipulated using standard verbs: GET, PUT, POST and DELETE. This allows to syndicate the things resources in a very straighforward way over a database, by indexing their URIs.
+Each thing is available at:
+http://<your ponte>/resources/<your thing>
+MQTT API
+MQTT
+is an implementation of the publish/subscribe pattern. Ponte is based on
+Mosca
+which implements most of the MQTT 3.1 spec. In order to syndicate a value for HTTP access, publish with the 'retain' flag. Subscribe to your things to receive live updates. Each thing is available at:
+mqtt://<your ponte>/<your thing>
+CoAP API
+CoAP
+is an implementation of the REST pattern on the UDP protocol, where a resource can be manipulated using standard verbs: GET, PUT, POST and DELETE. This allows to syndicate the things resources in a very straighforward way over a database, by indexing their URIs. Ponte fully supports the
+observe
+spec, to receive live updates from you things. Each thing is available at:
+coap://<your ponte>/r/<your thing>
+Install
+The current implementation of Ponte is built on top of the
+Node.js
+framework that provides a fast event-loop. As an Eclipse project, we aim to have multiple implemantions of the same concepts, and the node.js implementation is the first.
+After installing node.js v0.10, just install the latest version from
+NPM
+:
+$ npm install ponte -g $ ponte
+See the
+README
+for the full docs.
+Copyright © 2013 The Eclipse Foundation. All Rights Reserved.
+Home
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal

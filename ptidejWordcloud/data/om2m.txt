@@ -1,0 +1,3644 @@
+Eclipse OM2M - Open Source platform for M2M communication
+.btn.active,.btn:focus, .btn:hover{ background-color: #FF4A1E; } .topic .container a.btn{ padding:10px; }
+What is Eclipse OM2M?
+The Eclipse OM2M project, initiated by
+LAAS-CNRS
+, is an open source implementation of
+oneM2M
+and
+SmartM2M
+standard. It provides a horizontal M2M service platform for developing services independently of the underlying network, with the aim to facilitate the deployment of vertical applications and heterogeneous devices.
+Wiki
+Forum
+Mailing List
+Bug Tracker
+Resources
+Team
+Community
+Roadmap
+Download
+Clone & Build
+Config & Start
+Web Interface
+REST API
+Add Your Plugin
+Open source project under EPL license. Contact us on:
+om2m-dev@eclipse.org
+Standard-based Platform
+OM2M implements
+oneM2M
+and
+SmartM2M
+standard. It provides a horizontal Service Common Entity (CSE) that can be deployed in an M2M server, a gateway, or a device. Each CSE provides Application Enablement, Security, Triggering, Notification, Persistency, Device Interworking, Device Management, etc.
+RESTful API
+OM2M exposes a
+RESTful API
+providing primitive procedures for machines authentication, resources discovery, applications registration, containers management, synchronous and asynchronous communications, access rights authorization, groups organisation, and re-targeting.
+Modularity & Extensibility
+OM2M is a Java implementation running on top of an
+OSGi
+Equinox runtime, making it highly extensible via plugins. It is built as an Eclipse product using
+Maven
+and
+Tycho
+Get and use OM2M
+You can get OM2M by cloning the
+repository
+, build it and get started following the
+OM2M Get Started
+.
+For all documentation, you can take a look at the
+OM2M Eclipse Wiki
+.
+New and Noteworthy
+New and Noteworthy
+is here to describe the new features of each release from the previous one.
+Prerequisites
+Git is required to clone OM2M.
+JAVA 1.7 or later is required to run OM2M.
+Maven 3 or later is required to build OM2M.
+Quick links
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
+Eclipse Home
+Market Place
+Eclipse Live
+Eclipse Planet
+About OM2M
+Follow us on Twitter
+@OpenM2M
+Copyright © 2015 The Eclipse Foundation. All Rights Reserved.
+Legal Resources | The Eclipse Foundation
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
+var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Eclipse Foundation Website Privacy Policy | The Eclipse Foundation
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
+var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Eclipse.org Terms of Use | The Eclipse Foundation
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
+var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Copyright Agent | The Eclipse Foundation
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
+var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Toggle navigation
+Breadcrumbs
+Home
+Legal
+Legal Resources
+Legal resource page for the Eclipse Foundation.
+Getting Started
+Agreement and Licenses
+Privacy and Trademarks
+Committer Agreements
+Committer Resources
+Getting Started
+The
+Guide to the Legal Documents
+provides an in-depth look at the many legal documents related to the Eclipse open source community. This content is of value to committers, contributors, redistributors of Eclipse content, developers of Eclipse-based products and users of Eclipse technologies;
+The
+Eclipse Public License
+(EPL) is the default license for Eclipse Project (please see the
+Eclipse Public License Frequently Asked Questions
+);
+Tycho home | The Eclipse Foundation
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
+var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Skip to main content
+Log in
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Legal
+Enabling Open Innovation & Collaboration | The Eclipse Foundation
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/2019-06-bg.jpg);}
+var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Eclipse Community Forums: OM2M
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+The
+Eclipse Foundation Legal Frequently Asked Questions
+answers some of the commonly asked questions about Eclipse.org licensing, contributions, working as a committer, and cryptography;
+Third Party Content Licenses
+provides a list of licenses that are approved for third party content used by Eclipse projects; or
+For other questions, email:
+license@eclipse.org
+.
+Agreements and Licenses
+Web Site Terms of Use:
+By accessing, browsing or using this web site, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
+Eclipse Public License
+(EPL): The fundamental license document for the Eclipse projects and community.
+Eclipse Distribution License
+(EDL): The BSD license used by some Eclipse projects which require dual-licensing along with the EPL. Other than for
+example code or build scripts
+.
+Eclipse Contributor Agreement:
+If you are contributing code or documentation to Eclipse Foundation projects you are required to complete this agreement.
+Developer Certificate of Origin:
+If you are contributing code or documentation to Eclipse Foundation projects, and using the git signed-off-by mechanism, you are agreeing to this certificate.
+Copyright Agent:
+Contact information for the Eclipse Foundation's Copyright Agent.
+Eclipse Foundation Software User Agreement:
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Eclipse Foundation Website Privacy ...
+Eclipse Foundation Website Privacy Policy
+May 24, 2018
+The Eclipse Foundation, Inc. ("Eclipse Foundation", "Us" or "We") is a member-supported not-for-profit foundation which acts as the steward of our open source projects, community, and ecosystem. We are committed to our community members’ rights to privacy. We promise to share transparently all aspects of how Eclipse Foundation projects and websites work in regards to privacy, terms, and personal data, and We are in full support of efforts to ensure your protection online. We only collect your personal data with your consent, and collect only as much as We need to provide you the service you request. For example, We need your personal data to register you to one of our conferences. Each time We collect additional personal data from you We will explain what We collect, why We need it, how We use it, how long We keep it, and how We protect it.
+You can withdraw consent anytime. We will respect your wishes.
+Personal Information on Eclipse Foundation Websites
+As a platform for open source innovation and collaboration, personal information on all Eclipse Foundation websites is either meant to be shared, for example records of your contributions to our open source projects, or protected, such as your name and email address when you subscribe to our newsletter.
+Any personal data you share with Us, We protect according to this Privacy policy.
+Individual Access to Personal Information
+We will respond within 30 days to your requests to have access to your personal information collected by Us. We will promptly correct inaccuracies, as the case may be, and We will delete it and/or anonymize it upon your request. Please contact
+privacy@eclipse.org
+to make such a request.
+Information Security and Quality
+We protect the integrity of your personal information with appropriate technical and organizational measures, such as using encryption for transmission of certain forms of information, to help keep it secure, accurate, current, and complete.
+Your personal information may be stored in Canada, the European Union and the United States, always with our same high security standards.
+One of the primary purposes of the Eclipse Foundation and its websites is to enable collaborative open source software development. Doing so necessarily requires Us to maintain records of authorship related to all contributions. Any personally identifiable information collected by virtue of your contributions will be publicly available on the Internet in unencrypted form and without access restriction.
+We also offer services to our community which provide the ability for users of Eclipse software to store data on Eclipse Foundation servers through services including, but not limited to, the User Storage Service and the Automated Error Reporting Initiative. Any data stored through these services will be publicly available on the Internet in unencrypted form and without access restriction. Therefore, you should not use these services to store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available.
+Clickstream Data and Cookies
+We sometimes collect anonymous information from visits and contributions to Eclipse Foundation websites to help provide better service. For example, We keep track of the domains from which people visit and We also measure visitor activity on Eclipse Foundation websites, but in ways that keep the information anonymous. This anonymous information is sometimes known as "clickstream data." We may use and aggregate this data to analyze trends and statistics and to help Us tailor our websites to better serve Eclipse participants.
+Business Relationships
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Legal
+Copyright Agent
+Copyright Agent
+We respect the intellectual property rights of others, and require that the people who use the Site do the same. We also maintain a policy under which the Web Site use privileges of users who are repeat infringers of intellectual property rights are terminated in appropriate circumstances. If you believe that your work has been copied in a way that constitutes copyright infringement, please forward the following information to Eclipse's Copyright Agent, designated as such pursuant to the Digital Millennium Copyright Act, 17 U.S.C. § 512(c)(2), named below:
+Your address, telephone number, and email address;
+A description of the copyrighted work that you claim has been infringed;
+A description of where the alleged infringing material is located;
+A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
+Skip to main content
+Downloads
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Legal
+Eclipse.org Terms of Use
+Eclipse.org Terms of Use
+April 5, 2019
+Terms and Conditions of Use for the Eclipse Foundation Web Site and Related Services
+As used herein, the term “you” means the individual accessing this Web site, as well as any person or entity which has granted to such individual the authority to enter into this agreement on its behalf. By accessing, browsing, or using this Web site, you acknowledge that you have read, understand, and agree to be bound by these terms.
+By downloading builds or accessing Eclipse Foundation source code repositories, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
+Approved Licenses for Non-Code, Example, and Other Content:
+The Board of Directors has approved the use of certain licenses for specific types of content on eclipse.org.
+Eclipse Foundation Update Manager Agreement:
+If you package "downloadable features" to be installed from your web site using the Eclipse Update Manager, you must read, understand, and agree to the terms and conditions contained in this agreement.
+Eclipse Foundation Specification License:
+The license used by Eclipse Foundation specifications created under the Eclipse Foundation Specification Process.
+Eclipse Foundation TCK License:
+The binary license used by Technology Compatibility Kits to demonstrate compatibility with their corresponding Specifications.
+Privacy and Trademarks
+Privacy Policy:
+Your privacy is important to us. This statement discloses the information practices for this web site, including what type of information is gathered and tracked, how the information is used, and with whom the information is shared.
+Trademark Usage Guidelines:
+Guidelines on permissable use of Eclipse logos and trademarks.
+Trademark Transfer Agreement:
+Pre-existing projects which move to the Eclipse Foundation will be required to execute this agreement to ensure that the Eclipse Foundation has rights to any trademarks associated with the project name.
+Trademark Attributions:
+Content on this web site may make reference to trademarks requiring attribution.
+Committer Agreements
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
+Notification of Changes
+This privacy statement was last updated on May 24, 2018. A notice will be posted on this website home page for thirty (30) days whenever this privacy statement is changed.
+Questions Regarding This Policy
+Questions regarding this Privacy policy should be directed to:
+privacy@eclipse.org
+.
+Related Links
+Legal resources
+Guide to legal documents
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
+EPL-2.0
+Plain HTML
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; and
+A statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
+Copyright Agent:
+Manager, Intellectual Property
+Eclipse Foundation, Inc.
+2934 Baseline Rd Suite 202
+Ottawa, Ontario
+Canada
+K2H 8T5
+Phone: +1.613.224.9461
+Fax: +1.212.918.1619
+Email: license@eclipse.org
+Related Links
+Legal resources
+Guide to legal documents
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+This Web site and related services are made available by the Eclipse Foundation. All software, documentation, information and/or other materials provided on and through this Web site ("Content") and all of the related services offered by the Eclipse Foundation may be used solely under the following terms and conditions ("Terms of Use").
+This Web site may contain other proprietary notices and copyright information, the terms of which must be observed and followed. The Content on this Web site may contain technical inaccuracies or typographical errors and may be changed or updated without notice. The Eclipse Foundation may also make improvements and/or changes to the Content at any time without notice.
+Neither the Eclipse Foundation nor its members ("Members") assume any responsibility regarding the accuracy of the Content and use of the Content is at the recipient’s own risk. Neither the Eclipse Foundation nor its Members provide any assurances that any reported problems with any Content will be resolved. Except as otherwise expressly stated herein or in another applicable license, by providing the Content, neither the Eclipse Foundation nor the Members grant any licenses to any copyrights, patents or any other intellectual property rights in the Content.
+The Eclipse Foundation and the Members do not want to receive confidential information from you through this Web site and related services. Please note that any information or material sent to The Eclipse Foundation or the Members will be deemed NOT to be confidential and will be publicly available.
+You are prohibited from posting, transmitting, or storing to or from this Web site or to any service offered by the Eclipse Foundation any unlawful, threatening, libelous, defamatory, obscene, scandalous, inflammatory, pornographic, or profane material, or any other material that could give rise to any civil or criminal liability under the law.
+If you believe that Content residing or accessible on or through this Web site or any UDS infringes a copyright, please send a notice of copyright infringement to our designated agent pursuant to the procedures set forth here:
+https://www.eclipse.org/legal/copyright.php
+User Data Services ("UDS")
+CC0 1.0 Creative Commons
+license, where, for purposes of that license, the Stored Information shall constitute the “Work” and you shall be the “Affirmer”. What that means is that anybody who accesses your information on the Internet has a worldwide, unrestricted, royalty free, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer the Stored Information without any obligation to you, including any obligation of attribution.
+Eclipse reserves the right to discontinue these services at any time or to remove any specific Stored Information from owned or controlled computer systems at any time, and Eclipse does not commit to making Stored Information available at all times in the future.
+Licenses
+Except for Content available through the UDS, and except as otherwise stated herein, the Content provided on this Web site is provided under the terms and conditions of the
+Eclipse Foundation Software User Agreement
+and those additional terms, conditions and notices referenced therein.
+If Content is licensed to you under the terms and conditions of a version of the Eclipse Public License ("
+EPL
+"), with respect to such Content, the term “Contributions” as used herein shall have the meaning provided in the EPL, and any such Contributions uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site shall be governed by the terms and conditions of the EPL and can be made available to others under the terms of the EPL.
+If Content is licensed to you under license terms and conditions other than the EPL ("Other License") with respect to such Content the term “Contributions “ as used herein shall mean any modifications, enhancements and/or other code and/or documentation related to such Content uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site, and such Contributions shall be subject to and governed by the terms and conditions of the Other License. In addition, with regard to such Contributions, you agree to provide the Contributions under the terms and conditions of the EPL, provided however that the Eclipse Foundation shall have the right to reject any Contributions if the acceptance by the Eclipse Foundation would be in any way inconsistent with the Eclipse Foundation's Intellectual Property Policy.
+In addition to the licenses granted above, you grant a non-exclusive, worldwide, perpetual, royalty-free license of all necessary rights under your copyright in and to your Contributions (the “Specification Grant”): (a) for the Eclipse Foundation (and its contributors solely as a part of Eclipse Foundation projects) to create, reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense specifications subject to the terms of the then-current
+Eclipse Foundation Specification License
+Member Committer and Contributor Agreement:
+This agreement is used by Member companies to cover all of their committers participating in Eclipse projects.
+Individual Committer Agreement:
+This agreement is used by committers participating in Eclipse projects who are not covered by a Member Committer Agreement.
+2019 Re-sign Exercise
+The Eclipse Foundation has updated its standard contributor and committer agreements, and all our committers and contributors, as well as those members who have member committer agreements, will need to re-sign their agreement with us.
+New Eclipse Foundation Committer and Contributor Agreements FAQ
+Resources for Committers
+Due Diligence Process:
+This document provides a quick pictorial overview of the due diligence process.
+Third Party Dependencies:
+This document contains the guidelines for the review of third-party dependencies.
+Committer Guidelines:
+This document outlines the issues to be aware of and the processes one should follow when working as a committer on Eclipse.org projects. A committer is a person that has been granted commit rights to systems on the Eclipse.org servers such as git repositories, web pages, download servers, mailing lists and so forth.
+Contribution Questionnaire:
+A Contribution Questionnaires (CQ) is the main interface between Eclipse committers and the Intellectual Property Management Team. Prior to committing a significant contribution of content to an Eclipse Foundation project, the committer must fill out this questionnaire and submit it to the Eclipse Management Organization (EMO) for approval. In addition to the EMO, the relevant PMC must also provide a technical review and approval of the contribution. Follow the link to find out more about what we mean by "significant contribution". Bug fixes or minor enhancements do not require PMC or EMO approval.
+"About" Templates:
+This provides templates for the "about.html" ("About") files used to describe EPL-licensed content.
+Default Copyright and License Notice:
+The standard copyright and license notice should appear in all source files where possible. Variations on this notice may be required (for example where a license other than the EPL governs the use of the file).
+IP Logs:
+Breadcrumbs
+Home
+Projects
+tycho
+Primary Links
+Eclipse Distribution, Update Site, Dropins
+Tutorials, Examples, Videos, Reference Documentation
+Bug Tracker, Newsgroup, Support
+Workspace Setup, Wiki, Committers
+Tycho - Building Eclipse plug-ins with maven
+Tycho is focused on a Maven-centric, manifest-first approach to building Eclipse plug-ins, features, update sites, RCP applications and OSGi bundles. Tycho is a set of Maven plugins and extensions for building Eclipse plugins and OSGi bundles with Maven. Eclipse plugins and OSGi bundles have their own metadata for expressing dependencies, source folder locations, etc. that are normally found in a Maven POM. Tycho uses native metadata for Eclipse plugins and OSGi bundles and uses the POM to configure and drive the build. Tycho supports bundles, fragments, features, update site projects and RCP applications. Tycho also knows how to run JUnit test plugins using OSGi runtime and there is also support for sharing build results using Maven artifact repositories. Tycho plugins introduce new packaging types and the corresponding lifecycle bindings that allow Maven to use OSGi and Eclipse metadata during a Maven build.
+OSGi rules are used to resolve project dependencies and package visibility restrictions are honoured by the OSGi-aware JDT-based compiler plugin. Tycho will use OSGi metadata and OSGi rules to calculate project dependencies dynamically and injects them into the Maven project model at build time. Tycho supports all attributes supported by the Eclipse OSGi resolver (Require-Bundle, Import-Package, Eclipse-GenericRequire, etc). Tycho will use proper classpath access rules during compilation. Tycho supports all project types supported by PDE and will use PDE/JDT project metadata where possible. One important design goal in Tycho is to make sure there is no duplication of metadata between POM and OSGi metadata.
+Contributors
+Redhat
+SAP
+Sonatype
+New and Noteworthy
+Tycho 1.4.0 was released. See the
+release notes
+for details.
+Back to the top
+Register for EclipseCon Europe 2019 today!
+Plain Text
+PDF
+FAQ
+EPL-1.0
+Plain HTML
+Plain Text
+FAQ
+Licenses
+Approved 3rd Party
+Non Approved
+Docs & examples
+Back to the top
+Eclipse IDE 2019-09
+Get the latest version of the Eclipse IDE.
+Download Now
+Learn More
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+The Platform for Open
+Innovation and Collaboration
+The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
+Members
+Working Groups
+Discover Projects
+Business Value
+Now Available
+Eclipse IDE 2019-09
+Get the latest version of the Eclipse IDE.
+Download Now
+Learn More
+Oracle
+Sponsored Ad
+Announcements
+2019/09/17
+The Eclipse Foundation Wins Duke's Choice Award for Open Source Contributions to the Java Ecosystem
+The Eclipse Foundation was awarded a Duke's Choice Award yesterday in recognition for outstanding open source contributi...
+2019/09/17
+The Eclipse Foundation Releases Eclipse Che 7, the First Kubernetes-Native IDE, to Make Creating Cloud Native Applications Easier, Faster, and More Secure
+EPL-2.0
+Plain HTML
+Plain Text
+PDF
+FAQ
+EPL-1.0
+Plain HTML
+Plain Text
+FAQ
+Licenses
+Approved 3rd Party
+Non Approved
+Docs & examples
+Back to the top
+Eclipse IDE 2019-09
+Get the latest version of the Eclipse IDE.
+Download Now
+Learn More
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Toggle navigation
+Breadcrumbs
+Home
+Projects
+Forums
+Eclipse Community Forums
+Forum Search:
+Search
+Help
+Register
+Login
+Home
+Home
+»
+Eclipse Projects
+»
+OM2M
+Show:
+Today's Messages
+::
+Unanswered Messages
+::
+Show Polls
+::
+, based on or derived from the Specification Content (as defined below) and (b) for recipients of such specifications to create, reproduce, and distribute implementations thereof based on the portion of your Contributions or material derived from them in the specifications, subject to the terms of the then-current
+Eclipse Foundation Specification License
+.
+“Specification Content” is the collection of interface definitions for the application or user interfaces (“Interfaces”) provided by the work to which your Contribution was made, descriptions of the structure and semantic behavior of those Interfaces, and data formats and protocols associated with those Interfaces, all of which as are reasonably necessary to enable the development of independent implementations of those Interfaces. For the sake of clarity, Specification Content does not include implementation detail of how the Eclipse project code or your Contribution implements the Interfaces in the Specification and the Specification Grant provide above would not cover such additional material.
+To the extent you submit or otherwise make available to an Eclipse Foundation Specification Project (as that term is defined by the Intellectual Property Policy) any ideas, concepts, methods or other information, you agree that you will not assert, based on such submissions, any intellectual property rights that are essential to any implementation of the submission, against the Eclipse Foundation, its contributors, or its licensees, with respect to any implementation of such Specification (as that term is defined by the Eclipse Foundation Specification Process). To further clarify, such submissions include, but are not limited to, submissions made to any public communications channel such as an email list, forum, or bug report.
+To the extent you wish to upload, submit, or otherwise make Non-Code Content (as defined below) available to the Eclipse Foundation and/or the Members and/or users of this Web site, you may make that material available under the terms and conditions of the EPL or any other license stipulated for that purpose at
+www.eclipse.org/legal
+. Non-Code Content is Content for which you own or control all rights, and which is not program code intended to be submitted to a Project (or documentation related to such code) and which is not Stored Information. For example, Non-Code Content would include white papers, dissertations, articles or other literary works, power point presentations, encyclopedias, anthologies, wikis, blogs, diagrams, drawings, sketches, photos or other images, audio content, video content and audiovisual materials.
+For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively "Material"), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+You represent and warrant that to your knowledge, you have sufficient rights in the Materials to grant the foregoing rights and licenses.
+All logos and trademarks contained on this Web site are and remain the property of their respective owners. No licenses or other rights in or to such logos and/or trademarks are granted to you.
+You can learn more about the
+Eclipse.org privacy practices
+on the Web.
+Disclaimers
+The Eclipse Foundation and the Members make no representations whatsoever about any other Web site that you may access through this Web site. When you access a non-Eclipse Foundation Web site, even one that may contain the organization’s name or mark, please understand that it is independent from the Eclipse Foundation, and that the Eclipse Foundation and the Members have no control over the content on such Web site. In addition, a link to a non-Eclipse Foundation Web site does not mean that the Eclipse Foundation or the Members endorse or accept any responsibility for the content, or the use, of such Web site. It is up to you to take precautions to ensure that whatever you select for your use is free of such items as viruses, worms, Trojan horses and other items of a destructive nature.
+IN NO EVENT WILL THE ECLIPSE FOUNDATION AND/OR THE MEMBERS BE LIABLE TO YOU (AN INDIVIDUAL OR ENTITY) OR ANY OTHER INDIVIDUAL OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL OR CONSEQUENTIAL DAMAGES RELATED TO ANY USE OF THIS WEB SITE, THE CONTENT, STORED INFORMATION, OR ANY OTHER HYPER LINKED WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, LOST SALES, LOST REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON YOUR OR OUR INFORMATION HANDLING SYSTEMS OR OTHERWISE, EVEN IF THE ECLIPSE FOUNDATION OR THE MEMBERS ARE EXPRESSLY ADVISED OR AWARE OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES.
+ALL CONTENT IS PROVIDED BY THE ECLIPSE FOUNDATION AND/OR THE MEMBERS ON AN "AS IS" BASIS ONLY. THE ECLIPSE FOUNDATION AND THE MEMBERS PROVIDE NO REPRESENTATIONS, CONDITIONS AND/OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT. THE ECLIPSE FOUNDATION MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SECURITY OF ANY INOFRMATION OR CONTENT STORED WITH THE ECLIPSE FOUNDATION.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
+The Eclipse Foundation and the Members reserve the right to seek all remedies available at law and in equity for violations of these Terms of Use, including but not limited to the right to block access from a particular Internet address to this Web site.
+Related Links
+An IP Log is a record of the intellectual property contributions to a project. This includes such as a list of all committers, past and present, that have worked on the code and (especially) those who have made contributions to the current code base.
+New Committer Process:
+The process for project leads and PMC members to add additional committers to an existing project.
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
+EPL-2.0
+Plain HTML
+Plain Text
+PDF
+FAQ
+EPL-1.0
+Plain HTML
+Plain Text
+FAQ
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+The Eclipse Foundation today announced at the Oracle Code One conference and tradeshow the release of Eclipse Che 7, the...
+2019/09/17
+Eclipse Community Continues to Deliver on Open Source Commitment
+Community is key. And the Eclipse Foundation's community is on a roll.
+2019/09/17
+EclipseCon Europe 2019 Keynotes Announced - Register Now!
+We are excited to announce the keynote speaker lineup for our community's biggest event of the year.
+View all
+Subscribe to our RSS-feed
+Community News
+2019/09/17
+Eclipse Che 7 is now available!
+Che 7 is the biggest release in Eclipse Che history - focused on simplifying writing, building and collaborating on clou...
+2019/09/11
+From building blocks to IoT solutions
+The Eclipse IoT ecosystem consists of around 40 different projects, ranging from embedded devices, to IoT gateways and u...
+2019/09/11
+Jakarta EE 8 Specifications Released by The Eclipse Foundation, Payara Platform Compatibility Coming Soon
+The Jakarta EE 8 Full Platform, Web Profile specifications and related TCKs have been officially released today (Septemb...
+2019/09/11
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Message Navigator
+Topic
+Replies
+Views
+Last message
+JSON content "con" attribute in ContentInstance
+By:
+Arnaud Moncade
+on
+Tue, 22 May 2018
+3
+1674
+Wed, 11 September 2019 13:52
+By:
+Kenshi Kamiya
+Subscription resource is deleted
+By:
+Sherzod Elamanov
+on
+Wed, 04 September 2019
+6
+349
+Legal resources
+Guide to legal documents
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
+EPL-2.0
+Plain HTML
+Plain Text
+PDF
+FAQ
+EPL-1.0
+Plain HTML
+Plain Text
+FAQ
+Licenses
+Approved 3rd Party
+Licenses
+Approved 3rd Party
+Non Approved
+Docs & examples
+Back to the top
+Eclipse IDE 2019-09
+Get the latest version of the Eclipse IDE.
+Download Now
+Learn More
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Open Liberty is Jakarta EE 8 compatible
+Today is a big day in the enterprise Java world. Two years ago, Oracle announced their intention to move Java EE to the ...
+View all
+Subscribe to our RSS-feed
+Eclipse Foundation by the Numbers
+360+
+Projects
+1550+
+Committers
+275+
+Members
+10
+Working Groups
+Back to the top
+Eclipse IDE 2019-09
+Get the latest version of the Eclipse IDE.
+Download Now
+Learn More
+Eclipse Foundation
+About Us
+Contact Us
+Fri, 06 September 2019 10:57
+By:
+Sherzod Elamanov
+problem to build om2m
+Unable to build the om2m, following official website given steps
+By:
+Draco IoT
+on
+Sat, 03 August 2019
+0
+77
+Sat, 03 August 2019 11:08
+By:
+Draco IoT
+Subscribe to MN-CSE CIN
+By:
+michael michael
+on
+Tue, 21 May 2019
+1
+24065
+Fri, 19 July 2019 14:12
+By:
+Guillaume Garzone
+Non Approved
+Docs & examples
+Back to the top
+Eclipse IDE 2019-09
+Get the latest version of the Eclipse IDE.
+Download Now
+Learn More
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Forwarding Request MQTT
+Using a central broker. All MN's an IN's connect through a central broker
+By:
+Jagan Nehra
+on
+Fri, 19 July 2019
+1
+445
+Fri, 19 July 2019 14:02
+By:
+Guillaume Garzone
+Discovery API
+API Not working 6.2.8.4 API-DIS-CRB, API-DIS-CRA
+By:
+Manju Nath
+on
+Mon, 01 July 2019
+1
+26992
+Wed, 03 July 2019 08:18
+By:
+Manju Nath
+GROUP ACTIVITY
+Documentation for GROUP Control/Read
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Back to the top
+By:
+Manju Nath
+on
+Mon, 24 June 2019
+3
+7007
+Wed, 26 June 2019 05:00
+By:
+Manju Nath
+Problem building om2m following step by step cloning guide
+By:
+Francesco Rinaldi
+on
+Wed, 13 June 2018
+2
+3207
+Sat, 22 June 2019 09:21
+By:
+Manju Nath
+CORS issue
+By:
+Muhammad Kamran
+on
+Thu, 08 March 2018
+1
+4390
+Tue, 28 May 2019 17:19
+By:
+Path Geek
+[REQUEST] Official Release with MQTT binding feature pre-built
+[Missing] MQTT binding enabled official release package in OM2M website
+By:
+Ilan t
+on
+Tue, 16 April 2019
+0
+39985
+Tue, 16 April 2019 07:09
+By:
+Ilan t
+org.eclipse.equinox.console bundle is missing
+By:
+Ahmad Arif
+on
+Mon, 26 March 2018
+4
+1561
+Tue, 16 April 2019 07:01
+By:
+Ilan t
+MQTT: Error in creating container/content instance on MN-CSE/IN-CSE
+By:
+Muhammad Kamran
+on
+Fri, 16 February 2018
+3
+4297
+Thu, 11 April 2019 13:35
+By:
+Ilan t
+Test OM2M
+The problem of how to build and test OM2M
+By:
+Liang-Yi Chen
+on
+Thu, 26 July 2018
+1
+3180
+Fri, 22 March 2019 09:33
+By:
+hieu tran
+Registration between two MN
+Registration between two MN
+By:
+hieu tran
+on
+Wed, 20 March 2019
+0
+17364
+Wed, 20 March 2019 09:13
+By:
+hieu tran
+Help Please! | Adding New Object to Wakaama client
+Would like to create a temperature sensor for LwM2M client using wakaama implementation
+By:
+Akil Mising name
+on
+Mon, 18 February 2019
+1
+427
+Mon, 18 February 2019 13:24
+By:
+Mahdi Ben Alaya
+Multiple Content Instance Delete under Container throwing an error
+I have created 10 Content Instances under a Container , while Retrieve i can able to get the Content Instances Data , but when i try to delete the Content Instances one by one i am facing an issue lik
+By:
+Palnati Dhanunjaya
+on
+Wed, 06 February 2019
+0
+6207
+Wed, 06 February 2019 06:42
+By:
+Palnati Dhanunjaya
+How to update content from http to mqtt?
+By:
+lai roven
+on
+Sat, 19 January 2019
+1
+1288
+Tue, 22 January 2019 01:58
+By:
+lai roven
+mqtt update content
+How to update contnt from http to mqtt?
+By:
+lai roven
+on
+Sat, 19 January 2019
+0
+2241
+Sat, 19 January 2019 11:17
+By:
+lai roven
+HTTPS notifications
+missing https client binding
+By:
+Regis DARGENT
+on
+Tue, 15 January 2019
+0
+2459
+Tue, 15 January 2019 10:30
+By:
+Regis DARGENT
+Error when building om2m
+I clone OM2M, but have some bug when building.
+By:
+hieu tran
+on
+Wed, 08 November 2017
+15
+6021
+Sat, 29 December 2018 08:07
+By:
+hieu tran
+ResourceType: 24 is not implemented
+the problem to create flexContainer
+By:
+eric pan
+on
+Sat, 24 November 2018
+2
+583
+Tue, 27 November 2018 08:04
+By:
+Cyrille Bareau
+Implementation of oneM2M, Application & Service layer CSF and Security CSF
+AE communication with a local CSE within an Application Service Node (ASN)
+By:
+Bilal Afzal
+on
+Thu, 11 October 2018
+0
+1430
+Thu, 11 October 2018 06:48
+By:
+Bilal Afzal
+coap Response byte structure
+By:
+Om2m lover
+on
+Mon, 06 August 2018
+0
+2154
+Mon, 06 August 2018 18:11
+By:
+Om2m lover
+Unable to receive Events(itemCommandEvent,ItemStateEvent) from ESH
+By:
+Paramesh Surakod
+on
+Thu, 26 July 2018
+1
+1286
+Fri, 27 July 2018 06:06
+By:
+Paramesh Surakod
+Use TLS for IN-CSE and MN-CSE communication
+By:
+Yorick Brunet
+on
+Mon, 02 July 2018
+0
+2279
+Mon, 02 July 2018 14:12
+By:
+Yorick Brunet
+Unable to retrieve instance when using MongoDB
+By:
+teak jin kim
+on
+Mon, 23 April 2018
+1
+5681
+Wed, 13 June 2018 14:57
+By:
+Cyrille Bareau
+OM2M MQTT-TLS
+Security over MQTT
+By:
+Loula Beck
+on
+Tue, 12 June 2018
+0
+2872
+Tue, 12 June 2018 08:40
+By:
+Loula Beck
+Reference to request query fields
+By:
+Yorick Brunet
+on
+Wed, 06 June 2018
+2
+728
+Wed, 06 June 2018 12:13
+By:
+Yorick Brunet
+A nullpointerException occur when i send CoAP message to IN-CSE
+CoAP, OM2M
+By:
+soyong kim
+on
+Sun, 29 April 2018
+2
+2233
+Fri, 01 June 2018 02:36
+By:
+soyong kim
+Using CoAP based applications (Copper vs Erbium)
+By:
+Fesseha Tsegaye
+on
+Fri, 07 November 2014
+30
+17231
+Sun, 27 May 2018 12:38
+By:
+soyong kim
+CoAP between App and in-cse
+Problem in CoAP App
+By:
+Paulo Araújo
+on
+Mon, 30 April 2018
+1
+3222
+Wed, 16 May 2018 19:10
+By:
+Paulo Araújo
+monitor on python or monitor.jar source code or explanation
+By:
+Jairo Ariza
+on
+Mon, 30 April 2018
+1
+3748
+Sat, 12 May 2018 15:04
+By:
+Jairo Ariza
+Connection between multiple servers or gateways.
+Connection between multiple servers or gateways.
+By:
+Jairo Ariza
+on
+Wed, 09 May 2018
+0
+4157
+Wed, 09 May 2018 16:26
+By:
+Jairo Ariza
+OM2M builds not working on RPI Board
+By:
+Ashok Athukuri
+on
+Tue, 10 January 2017
+4
+3432
+Mon, 07 May 2018 15:13
+By:
+Arnaud Moncade
+MN-CSE registered in other MN-CSE
+MN-CSE_machine_3 -> MN-CSE_machine_2 -> IN-CSE_machine_1
+By:
+Paulo Araújo
+on
+Mon, 23 April 2018
+0
+5344
+Mon, 23 April 2018 16:02
+By:
+Paulo Araújo
+Announce a resource
+Question about resource announcement
+By:
+Ferenc Unghváry
+on
+Mon, 16 April 2018
+0
+4842
+Mon, 16 April 2018 14:39
+By:
+Ferenc Unghváry
+Hybrid addressing of a resource
+Hybrid addressing of a resource
+By:
+Ferenc Unghváry
+on
+Tue, 03 April 2018
+0
+4435
+Tue, 03 April 2018 10:30
+By:
+Ferenc Unghváry
+ACP (access control policy) fails on second update
+By:
+Nguyen Lich
+on
+Tue, 03 April 2018
+0
+4510
+Tue, 03 April 2018 08:59
+By:
+Nguyen Lich
+Connection between two MN's and one IN
+MN's interconnected and also with a IN
+By:
+Paulo Araújo
+on
+Tue, 27 March 2018
+0
+3724
+Tue, 27 March 2018 11:24
+By:
+Paulo Araújo
+Posting data object with MQTT
+Posting data object with MQTT
+By:
+Jairo Ariza
+on
+Wed, 07 March 2018
+1
+4092
+Thu, 22 March 2018 15:38
+By:
+Loula Beck
+OM2M MQTT Response Parameters
+By:
+Loula Beck
+on
+Tue, 20 March 2018
+2
+1498
+Wed, 21 March 2018 15:34
+By:
+Loula Beck
+Connection Confusion IN-CSE and MN-CSE
+The communication between IN and MN nodes are not clear, rather confusing
+By:
+Ahmad Holpa
+on
+Fri, 02 December 2016
+3
+6407
+Sun, 18 March 2018 17:13
+By:
+Jairo Ariza
+Send data from gateway(mn) to server(in)
+Send data from gateway(mn) to server(in)
+By:
+Jairo Ariza
+on
+Wed, 07 March 2018
+4
+2183
+Sun, 18 March 2018 15:39
+By:
+Jairo Ariza
+Writing IPU plugins for non ip enabled technologies (Zwave, ZigBee)
+By:
+Klemen Petrovcic
+on
+Tue, 24 May 2016
+10
+8100
+Wed, 14 March 2018 11:16
+By:
+Umar Farooq
+Eclipse OM2M v1.3.0
+By:
+Muhammad Kamran
+on
+Wed, 07 March 2018
+6
+3041
+Wed, 14 March 2018 04:54
+By:
+Muhammad Kamran
+Create AE via MQTT Binding
+MQTT Binding
+By:
+teak jin kim
+on
+Thu, 01 June 2017
+25
+19122
+Mon, 12 March 2018 08:28
+By:
+Loula Beck
+Test MQTT blinding in OM2M
+Test MQTT blinding in OM2M
+By:
+hieu tran
+on
+Wed, 22 November 2017
+4
+6162
+Tue, 06 March 2018 12:48
+By:
+Loula Beck
+NM-CSE registration error
+The NM-CSE cannot registrer properly at second time
+By:
+Ferenc Unghváry
+on
+Sat, 24 February 2018
+0
+4349
+Sat, 24 February 2018 12:33
+By:
+Ferenc Unghváry
+connection between MN-CSE and IN-CSE
+By:
+Muhammad Kamran
+on
+Fri, 16 February 2018
+0
+3219
+Fri, 16 February 2018 12:36
+By:
+Muhammad Kamran
+Configure OM2M to connect to the server
+By:
+Sting Yong
+on
+Tue, 30 January 2018
+2
+1777
+Sat, 03 February 2018 09:08
+By:
+Sting Yong
+Achieving authentication on a public OM2M-IN
+By:
+Steffen Thielemans
+on
+Mon, 22 January 2018
+0
+4489
+Mon, 22 January 2018 12:37
+By:
+Steffen Thielemans
+Error when sending content in http from arduino sensor node
+By:
+Umar Farooq
+on
+Thu, 11 January 2018
+0
+4344
+Thu, 11 January 2018 04:58
+By:
+Umar Farooq
+OM2M Compile Error
+By:
+JAEHOON KONG
+on
+Fri, 05 January 2018
+1
+2068
+Mon, 08 January 2018 05:27
+By:
+JAEHOON KONG
+osgi in saaj environment
+how to deploy and monitor osgi bundle statuses with shell connection?
+By:
+Murat Güven
+on
+Tue, 26 December 2017
+0
+10905
+Tue, 26 December 2017 05:13
+By:
+Murat Güven
+add your plugin
+By:
+wiem amich
+on
+Thu, 03 March 2016
+16
+12643
+Sat, 09 December 2017 02:44
+By:
+zeaz ezct
+container class cast Exception (using mongodb)
+when create container
+By:
+Jingyu SUN
+on
+Fri, 24 November 2017
+1
+4446
+Mon, 04 December 2017 15:29
+By:
+Dorian Kurzaj
+Device Management with LwM2M
+Device Management with LwM2M
+By:
+Ramakrishnan Bala
+on
+Wed, 28 December 2016
+1
+10917
+Wed, 22 November 2017 09:44
+By:
+hieu tran
+How to connect a sensor node to om2m using http?
+By:
+Umar Farooq
+on
+Tue, 14 November 2017
+3
+2069
+Mon, 20 November 2017 10:49
+By:
+Dorian Kurzaj
+Is streaming camera video possible in OM2M?
+If yes, how can this be done if the sensor node is raspberry pi?
+By:
+Umar Farooq
+on
+Mon, 20 November 2017
+1
+1434
+Mon, 20 November 2017 07:33
+By:
+Thierry Monteil
+How to handle streaming data in OM2M?
+By:
+David Zheng
+on
+Mon, 25 April 2016
+1
+7220
+Sun, 19 November 2017 15:07
+By:
+Umar Farooq
+Child module problem when creating a new IPE plugin
+By:
+Son Duong
+on
+Sat, 08 October 2016
+1
+3656
+Thu, 16 November 2017 10:17
+By:
+hieu tran
+Issue after cloning OM2M v1.1
+got errors and warnings
+By:
+Fariz Alemuda
+on
+Tue, 24 October 2017
+5
+4206
+Wed, 15 November 2017 10:06
+By:
+Dorian Kurzaj
+MQTT?
+is it already there?
+By:
+Massimo Vecchio
+on
+Wed, 11 February 2015
+6
+5388
+Wed, 08 November 2017 09:46
+By:
+Xurxo Legaspi
+Notification over MQTT
+Problem when sending a notification over MQTT
+By:
+Maite Bezunartea
+on
+Mon, 15 May 2017
+1
+14501
+Wed, 08 November 2017 09:07
+By:
+Xurxo Legaspi
+communication between multiple IN-CSE
+By:
+Dennis Parchkov
+on
+Thu, 02 November 2017
+0
+3571
+Thu, 02 November 2017 12:19
+By:
+Dennis Parchkov
+MQTT Server Authorization (request/response topic)
+By:
+Brahim AIT ELHAJ
+on
+Wed, 21 June 2017
+2
+6959
+Fri, 27 October 2017 01:38
+By:
+Umar Farooq
+raspberry as gateway
+By:
+valentina vv95
+on
+Sat, 15 April 2017
+3
+26216
+Thu, 26 October 2017 17:45
+By:
+Umar Farooq
+om2m and Iot
+om2m and Iot
+By:
+soumya patra
+on
+Wed, 03 August 2016
+5
+7229
+Wed, 25 October 2017 03:37
+By:
+Umar Farooq
+Announced Resources handle in remote located IN-CSE
+By:
+Dejo Smith
+on
+Tue, 05 September 2017
+2
+13736
+Tue, 24 October 2017 22:26
+By:
+Dejo Smith
+IN-CSE is not showing Annc resources (Which are announced by MN-CSE)
+By:
+Devang Zalavadiya
+on
+Tue, 24 October 2017
+0
+3302
+Tue, 24 October 2017 10:50
+By:
+Devang Zalavadiya
+OM2M in-cse and mn-cse connection through SSH port forwarding
+By:
+Dennis Parchkov
+on
+Tue, 17 October 2017
+0
+2942
+Tue, 17 October 2017 13:47
+By:
+Dennis Parchkov
+Question about non-server-capable application for subscription/notification scenarios
+By:
+yoshida takuma
+on
+Sun, 09 October 2016
+1
+5151
+Mon, 18 September 2017 15:19
+By:
+Dorian Kurzaj
+New contentInstance is not created when a notification is received
+why new contentInstance is not created when a notification is received
+By:
+Son Duong
+on
+Fri, 15 July 2016
+2
+6860
+Wed, 13 September 2017 08:13
+By:
+David de la Bastida
+Docker image for OM2M
+By:
+David Zheng
+on
+Fri, 11 March 2016
+2
+4021
+Thu, 31 August 2017 10:14
+By:
+Naum Spaseski
+An easy way to switch DB
+i'm looking for the easiest way to switch to Cassandra
+By:
+Adrien Horcholle
+on
+Tue, 22 August 2017
+0
+9811
+Tue, 22 August 2017 15:09
+By:
+Adrien Horcholle
+Location creation
+LocationPolicy resource type not implemented
+By:
+Clement Courtais
+on
+Wed, 09 August 2017
+0
+5773
+Wed, 09 August 2017 13:26
+By:
+Clement Courtais
+OM2M performance for thousands of resources
+By:
+Nasuki Matamoto
+on
+Wed, 02 August 2017
+8
+16030
+Mon, 07 August 2017 01:27
+By:
+Nasuki Matamoto
+Usage of Postgre DB
+SQL Syntax exception in Postgre
+By:
+Alpay Ozturk
+on
+Mon, 12 June 2017
+0
+12216
+Mon, 12 June 2017 14:13
+By:
+Alpay Ozturk
+om2m
+By:
+Devang Zalavadiya
+on
+Wed, 07 June 2017
+0
+15152
+Wed, 07 June 2017 10:46
+By:
+Devang Zalavadiya
+CoAP blockwise transfer
+Californium 0.18.6 does not handle blockwise transfer correctly
+By:
+Regis DARGENT
+on
+Tue, 30 May 2017
+2
+3375
+Tue, 30 May 2017 18:44
+By:
+Thierry Monteil
+Query in OM2M
+How to discovery a resource in OM2M
+By:
+Fariz Alemuda
+on
+Sat, 27 May 2017
+0
+10730
+Sat, 27 May 2017 16:42
+By:
+Fariz Alemuda
+RESTAPI to access the OneM2M resources
+By:
+Ramakrishnan Bala
+on
+Wed, 26 April 2017
+1
+22128
+Sat, 27 May 2017 16:35
+By:
+Fariz Alemuda
+Eclipse OM2M roadmap for next releases
+Discuss new features and track implementations
+By:
+Mahdi Ben Alaya
+on
+Sun, 09 April 2017
+12
+26866
+Sun, 21 May 2017 18:10
+By:
+Mahdi Ben Alaya
+The difference
+Difference between horizontal and vertical platform iot
+By:
+Drici Abdelkrim
+on
+Mon, 06 February 2017
+1
+14008
+Wed, 10 May 2017 09:46
+By:
+Nicolas Seydoux
+Is Semantic Descriptor in OM2M implemented ?
+By:
+Ashok Athukuri
+on
+Tue, 17 January 2017
+1
+94059
+Wed, 10 May 2017 09:52
+By:
+Nicolas Seydoux
+TImeSeries and timeSeriesInstance
+By:
+Ramakrishnan Bala
+on
+Wed, 10 May 2017
+0
+34160
+Wed, 10 May 2017 07:41
+By:
+Ramakrishnan Bala
+OneM2M Device Onboarding
+How do an application onboard the devices
+By:
+SANTOS DAS
+on
+Fri, 05 May 2017
+1
+13371
+Tue, 09 May 2017 03:02
+By:
+hansong wang
+Is there any SDK to use in the device?
+hardware
+By:
+hansong wang
+on
+Fri, 05 May 2017
+0
+25283
+Fri, 05 May 2017 07:48
+By:
+hansong wang
+Access control policies (oneM2M)
+How to assign new ACPs to resources?
+By:
+Daan Ravesteijn
+on
+Fri, 09 December 2016
+2
+8600
+Fri, 05 May 2017 03:34
+By:
+Fariz Alemuda
+Group resource-Fanout content instance
+By:
+Ramakrishnan Bala
+on
+Thu, 27 April 2017
+2
+6927
+Fri, 28 April 2017 06:33
+By:
+Ramakrishnan Bala
+Create OneM2M subscription resource with MQTT
+By:
+Ramakrishnan Bala
+on
+Thu, 27 April 2017
+1
+7734
+Fri, 28 April 2017 06:28
+By:
+Ramakrishnan Bala
+CoAP tutorial
+how to deal with OM2M using CoAP and legacy devices
+By:
+yoshida takuma
+on
+Wed, 10 August 2016
+6
+12763
+Thu, 27 April 2017 04:46
+By:
+Ramakrishnan Bala
+waspmote on xbee
+By:
+valentina vv95
+on
+Sun, 09 April 2017
+2
+5791
+Sun, 23 April 2017 15:38
+By:
+valentina vv95
+OM2M :Method Not Allowed Update on ContentInstance is not Allowed
+unable to update a container instance
+By:
+Cyril FOTSO
+on
+Fri, 16 December 2016
+8
+4031
+Sun, 23 April 2017 15:27
+By:
+valentina vv95
+Problem with non blocking request (Synch)
+By:
+Matej AA
+on
+Sun, 19 March 2017
+6
+46009
+Wed, 19 April 2017 19:21
+By:
+Matej AA
+How does OM2M support the Device Management Protocol?
+By:
+yoshida takuma
+on
+Thu, 08 September 2016
+4
+12724
+Thu, 13 April 2017 17:27
+By:
+Ian Skerrett
+Integrate MongoDB or any nosql databases
+NoSQL databases for oneM2m
+By:
+Ramakrishnan Bala
+on
+Thu, 13 April 2017
+1
+4493
+Thu, 13 April 2017 13:19
+By:
+Mahdi Ben Alaya
+Mqtt notifications regarding a oneM2M Subscription
+By:
+Hagen Heermann
+on
+Mon, 10 April 2017
+0
+8723
+Mon, 10 April 2017 12:44
+By:
+Hagen Heermann
+Communication between MNs (Middle nodes) without the help of IN (Infrastructure Node)
+Is that possible?
+By:
+Paulo Araújo
+on
+Sat, 11 March 2017
+3
+7259
+Thu, 23 March 2017 14:30
+By:
+Mahdi Ben Alaya
+sending CoAP Get request to OM2M one by using Copper
+By:
+Kuan Lin Chen
+on
+Thu, 23 March 2017
+2
+3071
+Thu, 23 March 2017 14:27
+By:
+Mahdi Ben Alaya
+Regarding Subscription(onem2m)
+how to get notification of the sensor data in my application?
+By:
+swathi C
+on
+Wed, 22 March 2017
+0
+7975
+Wed, 22 March 2017 10:56
+By:
+swathi C
+Cannot access mn-cse resource from in-cse web interface
+with the LAMP sample
+By:
+Hai Bui
+on
+Thu, 16 March 2017
+1
+1419
+Thu, 16 March 2017 22:29
+By:
+Hai Bui
+OM2M Subscription, H2 and MongoDB
+By:
+Matej AA
+on
+Tue, 29 November 2016
+4
+8190
+Tue, 14 March 2017 11:57
+By:
+Guillaume Garzone
+Dynamically discovering and connecting remote CSEs and AEs.
+By:
+Kotaro Suzumura
+on
+Wed, 18 January 2017
+1
+99512
+Mon, 30 January 2017 12:10
+By:
+Kotaro Suzumura
+Problem in Custom Access Control Policy Creation
+Create Custom Access Control Policy, creation request originate from MN-AE
+By:
+Sabyasachi Majumdar
+on
+Thu, 19 January 2017
+0
+96608
+Thu, 19 January 2017 11:28
+By:
+Sabyasachi Majumdar
+Supports for mgmtCmd
+By:
+Putu Wiramaswara Widya
+on
+Thu, 12 January 2017
+0
+25848
+Thu, 12 January 2017 09:42
+By:
+Putu Wiramaswara Widya
+CoAP request Option ONEM2M_FRis not working
+CoAP request with Option Option(256, "admin:admin") is not working
+By:
+Ashok Athukuri
+on
+Mon, 09 January 2017
+1
+3652
+Wed, 11 January 2017 13:41
+By:
+Ashok Athukuri
+CoAP Authentication in Request Option Bug
+By:
+Ashok Athukuri
+on
+Wed, 11 January 2017
+1
+1516
+Wed, 11 January 2017 13:39
+By:
+Ashok Athukuri
+(XML or JSON) Serialization of the request and response primitives in MQTT protocol
+By:
+Klemen Petrovcic
+on
+Sun, 01 May 2016
+9
+6544
+Wed, 11 January 2017 10:24
+By:
+Guillaume Garzone
+MN-CSE Container Capacity
+By:
+Ahmad Holpa
+on
+Tue, 27 December 2016
+2
+11724
+Sat, 07 January 2017 05:10
+By:
+Ahmad Holpa
+What is the purpose of configuring RequestIdentifier?
+By:
+Yu-Hao Hsu
+on
+Thu, 05 January 2017
+1
+1870
+Fri, 06 January 2017 10:28
+By:
+Guillaume Garzone
+OM2M - Missing data in NSCL
+By:
+Matej AA
+on
+Sat, 10 December 2016
+10
+4444
+Thu, 05 January 2017 16:41
+By:
+Matej AA
+Develop Applications
+idea
+By:
+Drici Abdelkrim
+on
+Tue, 27 December 2016
+2
+11144
+Wed, 04 January 2017 11:12
+By:
+Drici Abdelkrim
+OMA DM support for Eclipse OM2M
+Is OMADM_mapping plugin supported?
+By:
+SANTOS DAS
+on
+Thu, 29 December 2016
+0
+15275
+Thu, 29 December 2016 18:20
+By:
+SANTOS DAS
+Develop oneM2M Applications
+applications
+By:
+Drici Abdelkrim
+on
+Tue, 27 December 2016
+0
+10171
+Tue, 27 December 2016 10:17
+By:
+Drici Abdelkrim
+MN-CSE dynamic IP
+By:
+Ahmad Holpa
+on
+Tue, 27 December 2016
+0
+9894
+Tue, 27 December 2016 02:08
+By:
+Ahmad Holpa
+Router Internal Error when running tutorial application
+By:
+Yu-Hao Hsu
+on
+Thu, 15 December 2016
+7
+6284
+Fri, 23 December 2016 14:53
+By:
+Mahdi Ben Alaya
+Security in OM2M release1
+By:
+Yu-Hao Hsu
+on
+Mon, 25 July 2016
+3
+4383
+Fri, 23 December 2016 08:32
+By:
+Yu-Hao Hsu
+reel sensor discovery on the beagleboard/raspberry pi
+How to push the date from the sensor to the gateway
+By:
+Cyril FOTSO
+on
+Sat, 03 December 2016
+5
+8038
+Mon, 19 December 2016 09:29
+By:
+Guillaume Garzone
+how to run OM2M Application from tutorial & what is the difference between application and plugi
+By:
+Yu-Hao Hsu
+on
+Thu, 01 December 2016
+2
+5427
+Thu, 15 December 2016 18:27
+By:
+Yu-Hao Hsu
+OM2M - Max throughput
+By:
+Matej AA
+on
+Wed, 07 December 2016
+1
+936
+Wed, 07 December 2016 23:28
+By:
+Matej AA
+new clone OM2M version (clone on 3.12.2016) not working?
+By:
+Son Duong
+on
+Sat, 03 December 2016
+2
+2870
+Sat, 03 December 2016 01:53
+By:
+Son Duong
+IPU Monitor
+IPU Monitor
+By:
+Bechir TALEB ALI
+on
+Mon, 28 November 2016
+3
+1749
+Thu, 01 December 2016 16:40
+By:
+Mahdi Ben Alaya
+How to use the DiscoveryController
+By:
+Son Duong
+on
+Sun, 27 November 2016
+0
+5354
+Sun, 27 November 2016 19:44
+By:
+Son Duong
+Missing start level 3 for in-cse product
+By:
+Yu-Hao Hsu
+on
+Tue, 22 November 2016
+2
+2371
+Tue, 22 November 2016 10:20
+By:
+Yu-Hao Hsu
+How to perform the Discovery request in OM2M
+By:
+Son Duong
+on
+Fri, 11 November 2016
+0
+41197
+Fri, 11 November 2016 12:27
+By:
+Son Duong
+cannot open Eclipse on mac
+By:
+Yu-Hao Hsu
+on
+Tue, 25 October 2016
+1
+1886
+Tue, 25 October 2016 13:28
+By:
+Mahdi Ben Alaya
+Add new MN-CSE or ASN-CSE
+how to add new MN-CSE or ASN-CSE
+By:
+Yu-Hao Hsu
+on
+Sun, 23 October 2016
+3
+1407
+Sun, 23 October 2016 17:32
+By:
+Mahdi Ben Alaya
+CoAPExchange Response Code
+CoAP,OM2M
+By:
+Trung Luu
+on
+Mon, 17 October 2016
+0
+14082
+Mon, 17 October 2016 08:12
+By:
+Trung Luu
+where is the OM2M-libs.rar
+OM2M
+By:
+HyoungRo Lee
+on
+Thu, 08 September 2016
+2
+2545
+Wed, 12 October 2016 16:00
+By:
+David Zheng
+MN-CSE levels
+Is it possible to configure an MN-CSE behind another MN-CSE ( cascading 2 levels of MN-CSE)?
+By:
+MC LM
+on
+Fri, 30 September 2016
+4
+4344
+Tue, 04 October 2016 20:11
+By:
+MC LM
+"Error 5000 java.lang.ClassCastException" when creating a subscription from an IN to ASN
+By:
+Son Duong
+on
+Tue, 04 October 2016
+0
+3127
+Tue, 04 October 2016 13:50
+By:
+Son Duong
+asking about receiving notification in OM2M
+By:
+Son Duong
+on
+Tue, 04 October 2016
+0
+2885
+Tue, 04 October 2016 08:14
+By:
+Son Duong
+Some question regardings the topic "Standard-Compliant Application"
+By:
+John Dough
+on
+Mon, 26 September 2016
+0
+5406
+Mon, 26 September 2016 13:48
+By:
+John Dough
+asking about OM2M component
+By:
+Son Duong
+on
+Wed, 21 September 2016
+4
+1999
+Fri, 23 September 2016 13:27
+By:
+Son Duong
+send SIP message to PhonerLite from IN-CSE
+By:
+Trung Luu
+on
+Wed, 14 September 2016
+1
+1158
+Wed, 14 September 2016 11:55
+By:
+yoshida takuma
+send SIP message to PhonerLite from IN-CSE
+By:
+Trung Luu
+on
+Wed, 14 September 2016
+0
+3352
+Wed, 14 September 2016 10:19
+By:
+Trung Luu
+How to start the plugin which not located in CSE
+By:
+Son Duong
+on
+Tue, 13 September 2016
+0
+3324
+Tue, 13 September 2016 09:02
+By:
+Son Duong
+Is the CoAP binding protocol not fully supported in OM2M?
+CoAP Rest Client can not be found in mn-cse
+By:
+yoshida takuma
+on
+Mon, 29 August 2016
+6
+4100
+Mon, 12 September 2016 09:28
+By:
+Son Duong
+Does end-user applications can interact directly with MN-CSE ?
+By:
+Laurent Lemke
+on
+Tue, 06 September 2016
+8
+3807
+Fri, 09 September 2016 14:07
+By:
+Laurent Lemke
+What is ASN-CSE and ADN-CSE?
+By:
+Son Duong
+on
+Thu, 08 September 2016
+2
+3630
+Fri, 09 September 2016 10:10
+By:
+Son Duong
+where is the OM2M-libs.rar
+where is the OM2M-libs.rar link?
+By:
+HyoungRo Lee
+on
+Fri, 09 September 2016
+0
+3523
+Fri, 09 September 2016 00:00
+By:
+HyoungRo Lee
+How to add a string to the body of contentInstance?
+By:
+Son Duong
+on
+Thu, 01 September 2016
+3
+32204
+Thu, 08 September 2016 09:18
+By:
+Dorian Kurzaj
+How to start the plugin automatically?
+By:
+yoshida takuma
+on
+Mon, 05 September 2016
+2
+1308
+Tue, 06 September 2016 08:55
+By:
+yoshida takuma
+Problems when Running CoAP monitor within a plug-in application
+By:
+Trung Luu
+on
+Thu, 01 September 2016
+1
+30246
+Mon, 05 September 2016 08:43
+By:
+Francois Aissaoui
+How to connect in-cse and mn-cse which located in different network
+By:
+Son Duong
+on
+Mon, 08 August 2016
+3
+2202
+Thu, 01 September 2016 12:45
+By:
+Son Duong
+Error code 4103 and 5000 when receiving notification response
+By:
+Son Duong
+on
+Fri, 26 August 2016
+2
+3289
+Tue, 30 August 2016 14:57
+By:
+Son Duong
+Error in OSGi console
+OM2M, OSGi, Linux Debian
+By:
+Trung Luu
+on
+Tue, 23 August 2016
+2
+4029
+Tue, 30 August 2016 14:49
+By:
+Trung Luu
+Router internal error when running in-cse
+When I run the in-cse, the in-cse waiting for new cse connecting! but the error happen!
+By:
+Äá»— SÃ­nh
+on
+Tue, 23 August 2016
+1
+3834
+Tue, 30 August 2016 14:40
+By:
+Francois Aissaoui
+Use REST client to change the attribute of Container
+By:
+Can LIU
+on
+Mon, 29 August 2016
+2
+2425
+Tue, 30 August 2016 14:06
+By:
+Francois Aissaoui
+responseStatusCode=5204, error when create subscription of IN data to MN(solved)
+By:
+Can LIU
+on
+Tue, 30 August 2016
+0
+31248
+Tue, 30 August 2016 09:20
+By:
+Can LIU
+OM2M semanticDescriptor resource
+OM2M semanticDescriptor resource
+By:
+Sandi Semrov
+on
+Fri, 26 August 2016
+1
+1325
+Fri, 26 August 2016 09:05
+By:
+Thierry Monteil
+Connect devices to your gateway
+Two mechanisms showing how to connect devices to the gateway.
+By:
+Mahdi Ben Alaya
+on
+Sat, 28 February 2015
+1
+4538
+Wed, 24 August 2016 13:40
+By:
+yoshida takuma
+Is the redirect request between CSE always HTTP Protocol?
+Is the redirect request between CSE always HTTP Protocol? CoAP request can not be sent using port 5684
+By:
+yoshida takuma
+on
+Tue, 23 August 2016
+0
+3249
+Tue, 23 August 2016 20:50
+By:
+yoshida takuma
+Router internal error when running in-cse in MAC OS
+I run in-cse in MAC OS but it occurs a problem with the notice like Router internal error! Please help me to solve this problem! Thank you so much!
+By:
+Äá»— SÃ­nh
+on
+Tue, 23 August 2016
+0
+3689
+Tue, 23 August 2016 05:33
+By:
+Äá»— SÃ­nh
+oneM2M and CoAP
+Tutorial required
+By:
+Andrew Cloete
+on
+Mon, 07 March 2016
+4
+3800
+Mon, 22 August 2016 11:14
+By:
+Klemen Petrovcic
+Add a new plugin in OM2M (without Eclipse)
+By:
+Can LIU
+on
+Wed, 22 June 2016
+3
+3377
+Tue, 16 August 2016 13:43
+By:
+Can LIU
+OM2M using COAP Protocol
+How to configure COAP binding in to eclipse IN-CSE and MN-CSE stack
+By:
+Nithyananth Sivasubramanian
+on
+Tue, 24 May 2016
+1
+3431
+Tue, 16 August 2016 12:17
+By:
+Son Duong
+Does OM2M support oneM2M Release 2 (i.e. Semantics)?
+By:
+Troy Harvey
+on
+Thu, 11 August 2016
+0
+4284
+Thu, 11 August 2016 03:07
+By:
+Troy Harvey
+Is it possible that the mn-cse running alone without registering to in-cse?
+By:
+Son Duong
+on
+Tue, 02 August 2016
+1
+2110
+Thu, 04 August 2016 10:01
+By:
+Dorian Kurzaj
+responseStatusCode=4103 (Unknown or unauthorized originator) when notify to AE resource
+By:
+Can LIU
+on
+Tue, 26 July 2016
+35
+11026
+Sat, 30 July 2016 23:15
+By:
+Son Duong
+how to set the POA address for AE correctly?
+By:
+Son Duong
+on
+Sat, 30 July 2016
+1
+1667
+Sat, 30 July 2016 15:19
+By:
+Mahdi Ben Alaya
+why do we need mn cse and in cse?
+why do we need mn cse and in cse in om2m and what are their differences?
+By:
+Son Duong
+on
+Tue, 26 July 2016
+6
+2260
+Thu, 28 July 2016 08:40
+By:
+Trung Luu
+Source code for OM2M v0.8
+By:
+Trung Luu
+on
+Wed, 27 July 2016
+2
+1170
+Wed, 27 July 2016 12:30
+By:
+Trung Luu
+OM2M on Android
+By:
+Can LIU
+on
+Tue, 19 July 2016
+3
+1879
+Sun, 24 July 2016 17:41
+By:
+Thierry Monteil
+Subscriptions
+How To Subscribe to GSCL resources
+By:
+Prem Vaithilingam
+on
+Fri, 04 July 2014
+18
+11396
+Fri, 15 July 2016 14:13
+By:
+Can LIU
+Two general questions: Managing library dependencies and referencing local directories
+By:
+Klemen Petrovcic
+on
+Wed, 13 July 2016
+0
+3278
+Wed, 13 July 2016 18:35
+By:
+Klemen Petrovcic
+Ask a question about subscribe a lamp event
+How to get DAO value?
+By:
+Emelie Chen
+on
+Sat, 18 June 2016
+4
+3410
+Wed, 13 July 2016 00:13
+By:
+Emelie Chen
+Communication between two plugins
+By:
+Fran Pelc
+on
+Tue, 15 December 2015
+11
+6059
+Fri, 08 July 2016 08:28
+By:
+Trung Luu
+Trouble with dependencies
+By:
+Klemen Petrovcic
+on
+Fri, 01 July 2016
+3
+2908
+Wed, 06 July 2016 15:49
+By:
+Mahdi Ben Alaya
+Running mn-cse in virtual machine.
+By:
+Trung Luu
+on
+Thu, 30 June 2016
+8
+3140
+Wed, 06 July 2016 15:46
+By:
+Mahdi Ben Alaya
+Create your own Plugin
+Error in given code
+By:
+Muhammad Shoaib
+on
+Thu, 16 June 2016
+2
+4618
+Wed, 06 July 2016 12:58
+By:
+Mahdi Ben Alaya
+How to send sensor value to actuator plug-in
+By:
+Trung Luu
+on
+Tue, 05 July 2016
+6
+2613
+Wed, 06 July 2016 12:53
+By:
+Mahdi Ben Alaya
+HTTP Error 404 when running om2m on Ubuntu 12.04
+By:
+Wenyuan Hu
+on
+Tue, 12 April 2016
+5
+10153
+Wed, 06 July 2016 12:41
+By:
+Mahdi Ben Alaya
+Building Java Application using OM2M
+By:
+Trung Luu
+on
+Fri, 01 July 2016
+0
+3954
+Fri, 01 July 2016 15:38
+By:
+Trung Luu
+Why the ID of lamp sample is 30??
+By:
+Trung Luu
+on
+Thu, 30 June 2016
+1
+1894
+Fri, 01 July 2016 09:11
+By:
+Francois Aissaoui
+Lifecycle error after cloning project from git repository
+Lifecycle error
+By:
+Son Duong
+on
+Tue, 28 June 2016
+1
+2752
+Fri, 01 July 2016 09:00
+By:
+Guillaume Garzone
+The question about Data storage in IN and MN
+By:
+Can LIU
+on
+Tue, 28 June 2016
+2
+1558
+Tue, 28 June 2016 12:56
+By:
+Can LIU
+what is the difference between ETSI-M2M standard and OneM2M Standard?
+what is the difference between ETSI-M2M standard and OneM2M Standard?
+By:
+Son Duong
+on
+Tue, 21 June 2016
+4
+3252
+Mon, 27 June 2016 11:37
+By:
+Son Duong
+The rule to name the resource?
+By:
+David Zheng
+on
+Tue, 07 June 2016
+3
+5509
+Mon, 27 June 2016 07:47
+By:
+Guillaume Garzone
+problem when try to add mn(in Raspberry Pi) in my IN(pc)
+By:
+Can LIU
+on
+Fri, 17 June 2016
+3
+1535
+Thu, 23 June 2016 14:23
+By:
+Can LIU
+Documentation about the M2M Topics
+Documentation about the M2M Topics
+By:
+Son Duong
+on
+Fri, 17 June 2016
+2
+4012
+Thu, 23 June 2016 14:22
+By:
+Son Duong
+New features and extensions discussion
+Discuss with us important features and extensions you want to see in OM2M.
+By:
+Mahdi Ben Alaya
+on
+Fri, 18 December 2015
+17
+16711
+Tue, 14 June 2016 05:32
+By:
+Muhammad Shoaib
+About discovery of resources
+By:
+jara sdp
+on
+Wed, 18 May 2016
+1
+4845
+Mon, 06 June 2016 09:32
+By:
+Guillaume Garzone
+Problem when executing the script "start.bat"
+By:
+abir gallala
+on
+Fri, 27 May 2016
+0
+3917
+Fri, 27 May 2016 09:36
+By:
+abir gallala
+Add the plugin to the OM2M product(s)
+By:
+Ravi Teja
+on
+Tue, 03 March 2015
+5
+3497
+Mon, 23 May 2016 06:07
+By:
+Nithyananth Sivasubramanian
+Does application has only one aPoCPath ?
+By:
+Luke Tang
+on
+Sun, 22 May 2016
+0
+2496
+Sun, 22 May 2016 18:02
+By:
+Luke Tang
+semantic description in om2m
+By:
+Salma Bradai
+on
+Wed, 19 November 2014
+7
+7020
+Sun, 22 May 2016 09:28
+By:
+Klemen Petrovcic
+Use of the retargeting concept in the oneM2M version
+By:
+Klemen Petrovcic
+on
+Sun, 01 May 2016
+22
+16840
+Wed, 18 May 2016 15:32
+By:
+Klemen Petrovcic
+REST API in smartM2M version
+By:
+Luke Tang
+on
+Sun, 15 May 2016
+2
+3095
+Mon, 16 May 2016 06:05
+By:
+Luke Tang
+How many condition tags are currently supported by OM2M v1 ?
+By:
+David Zheng
+on
+Thu, 05 May 2016
+1
+3843
+Fri, 06 May 2016 08:42
+By:
+Guillaume Garzone
+After successful build, but the NSCL and GSCL products were not generated by the building process.
+By:
+Can LIU
+on
+Tue, 03 May 2016
+2
+1804
+Tue, 03 May 2016 15:10
+By:
+Can LIU
+Run on different operating system
+fail execution on Windows and Raspberry Pi
+By:
+Michael Wang
+on
+Fri, 29 April 2016
+1
+4227
+Tue, 03 May 2016 14:05
+By:
+Mahdi Ben Alaya
+What kind of database is used by OM2M?
+By:
+David Zheng
+on
+Sun, 11 October 2015
+7
+6330
+Tue, 19 April 2016 15:55
+By:
+Naum Spaseski
+Error on starting .bat
+By:
+Thomas Leporcher
+on
+Fri, 15 April 2016
+1
+4021
+Tue, 19 April 2016 09:20
+By:
+Francois Aissaoui
+Error executing my plugin
+By:
+Marco Maggipinto
+on
+Tue, 12 April 2016
+1
+6006
+Tue, 19 April 2016 09:16
+By:
+Francois Aissaoui
+Using OM2M with Contiky or free RTOS
+By:
+Muhammad Shoaib
+on
+Mon, 18 April 2016
+0
+6157
+Mon, 18 April 2016 07:26
+By:
+Muhammad Shoaib
+OM2M and mBed
+By:
+Muhammad Shoaib
+on
+Fri, 08 April 2016
+3
+6519
+Tue, 12 April 2016 05:55
+By:
+Muhammad Shoaib
+Questions regarding the CoAP, MQTT and Bluetooth IPU implementation
+By:
+Klemen Petrovcic
+on
+Sun, 03 April 2016
+1
+7424
+Mon, 11 April 2016 08:51
+By:
+Francois Aissaoui
+Error loading bundle activator
+By:
+wiem amich
+on
+Tue, 08 March 2016
+7
+8369
+Thu, 31 March 2016 19:35
+By:
+Mahdi Ben Alaya
+Pages (2): [1
+2
+›
+»
+]
+Goto Forum:
+- Newcomers
+Newcomers
+- Language IDEs
+AJDT
+Andmore
+C / C++ IDE (CDT)
+Che
+Java Development Tools (JDT)
+Objectteams
+Orion
+PHP Development Tools (PDT)
+Eclipse Web Tools Platform Project (WTP)
+ServerTools (WTP)
+- Modeling
+AMP
+Amalgam
+ATL
+BPEL Designer
+Compare
+Ecore Tools
+EMF
+EMF "Technology" (Ecore Tools, EMFatic, etc)
+Epsilon
+eTrice
+Extended Editing Framework (READ ONLY)
+Eclipse Generation Factories (EGF)
+GMF (Graphical Modeling Framework)
+Graphiti
+M2T (model-to-text transformation)
+MDT (Model Development Tools)
+Modeling (top-level project)
+OCL
+Papyrus
+TMF (Xtext)
+UML2
+UML2 Tools
+XSD
+MoDisco
+Presentation Modeling Framework (PMF)
+Sphinx
+VIATRA
+Model-to-Model Transformation
+QVT-OML
+QVT-Relations
+EMF Diff/Merge
+EMF Parsley
+Eclipse Layout Kernel
+- Eclipse Projects
+4DIAC - Framework for Distributed Industrial Automation and Control
+ACTF
+Advanced Scripting Environment (EASE)
+Agile UML
+APP4MC
+Babel
+BIRT
+BPMN 2.0 Modeler
+Buckminster dev
+Buildship
+Californium (Cf) CoAP Framework
+Capra
+ChemClipse
+Cloud Application Management Framework
+Code Recommenders
+Code Recommenders Incubator
+Commercial
+Common Build Infrastructure
+Concierge
+Dali
+Dash
+Dirigible
+DSDP - Mobile Tools for Java (MTJ)
+DSDP - Real-Time Software Components (RTSC)
+DSDP - Target Management
+DTP
+Dynamic Languages Toolkit (DLTK)
+e(fx)clipse
+EATOP
+Eclipse 4
+Eclipse Advanced Visualization
+Eclipse Agail
+Eclipse Apogy
+Eclipse Avsys
+Eclipse Basyx
+Eclipse Bridge.IoT
+Eclipse Bundle Recipes
+Eclipse Cargotracker
+Eclipse Ceylon
+Eclipse Che4z
+Eclipse Codewind
+Eclipse CogniCrypt
+Eclipse Collections
+Eclipse Communications Framework (ECF)
+Eclipse Corrosion
+Eclipse Crossmeter
+Eclipse Cyclone DDS
+Eclipse Dartboard
+Eclipse Deeplearning4j
+Eclipse Ditto
+Eclipse Duttile
+Eclipse EclEmma
+Eclipse EMF Cloud
+Eclipse Enterprise for Java
+Eclipse fog05
+Eclipse Formal Modeling
+Eclipse GLSP
+Eclipse Grizzly
+Eclipse Hawk
+Eclipse iceoryx
+Eclipse Implementation of JAXB
+Eclipse ioFog
+Eclipse IOTA Trinity
+Eclipse Jakarta EE Platform
+Eclipse Jakarta EE TCK
+Eclipse January
+Eclipse JDT LS
+Eclipse Jemo
+Eclipse Jersey
+Eclipse JNoSQL
+Eclipse Kapua
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Krazo
+Eclipse Kuksa
+Eclipse LSP4J
+Eclipse Metro
+Eclipse Microprofile
+Eclipse Milo
+Eclipse Mojarra
+Eclipse MRAA
+Eclipse N4JS
+Eclipse Open Standard Business Platform
+Eclipse OpenJ9
+Eclipse openK User Modules
+Eclipse OpenMQ
+Eclipse ORB
+Eclipse Packager
+Eclipse Packages
+Eclipse Papyrus for xtUML
+Eclipse Passage
+Eclipse Picasso
+Eclipse Platform
+Eclipse Project for Common Annotations
+Eclipse Project for Concurrency Utilities
+Eclipse Project for EJB
+Eclipse Project for Enterprise Security
+Eclipse Project for Expression Language
+Eclipse Project for Interceptors
+Eclipse Project for JACC
+Eclipse Project for JAF
+Eclipse Project for JASPIC
+Eclipse Project for JavaMail
+Eclipse Project for JAX-RS
+Eclipse Project for JAX-WS
+Eclipse Project for JAXB
+Eclipse Project for JCA
+Eclipse Project for JMS
+Eclipse Project for JPA
+Eclipse Project for JSON Processing
+Eclipse Project for JSON-B
+Eclipse Project for JSP
+Eclipse Project for JSTL
+Eclipse Project for JTA
+Eclipse Project for Servlet
+Eclipse Project for Stable Jakarta EE APIs
+Eclipse Project for WebSocket
+Eclipse RedDeer
+Eclipse Repairnator
+Eclipse Rich Beans
+Eclipse RT (runtime)
+Eclipse SCADA
+Eclipse Scanning
+Eclipse sensiNact
+Eclipse Shellwax
+Eclipse Signalling Engineering Toolbox
+Eclipse sim@openPASS
+Eclipse SmartHome
+Eclipse Sprotty
+Eclipse SW360
+Eclipse SW360antenna
+Eclipse SWTChart
+Eclipse SystemFOCUS
+Eclipse Tahu
+Eclipse TEA
+Eclipse TeXlipse
+Eclipse Theia
+Eclipse ThingWeb
+Eclipse Titan
+Eclipse TM4E
+Eclipse Tyrus
+Eclipse UML Generators
+Eclipse UML Profiles Repository
+Eclipse UPM
+Eclipse USS SDK
+Eclipse VOLTTRON
+Eclipse Website
+Eclipse Wild Web Developer
+Eclipse XACC
+Eclipse Xpect
+Eclipse Xsemantics
+Eclipse Yasson
+EclipseLink
+eGerrit
+EGit / JGit
+eLogbook@openk
+EPF
+EPP
+Equinox
+eRCP
+Franca
+Fundamental Modeling Concepts
+GEF
+GEF3D
+Gemini
+GEMOC Studio
+Gendoc
+GlassFish
+GlassFish Tools
+Golo
+Handly
+hawkBit
+Hono
+Hudson
+Ignite
+Ignite|IoT
+IoT-Testware
+Jakarta Activation
+Jakarta Annotations
+Jakarta Authentication
+Jakarta Authorization
+Jakarta Batch
+Jakarta Bean Validation
+Jakarta Concurrency
+Jakarta Connectors
+Jakarta Contexts and Dependency Injection
+Jakarta EE Examples
+Jakarta EE Platform
+Jakarta Enterprise Beans
+Jakarta Expression Language
+Jakarta Interceptors
+Jakarta JSON Binding
+Jakarta JSON Processing
+Jakarta Mail
+Jakarta Messaging
+Jakarta NoSQL
+Jakarta Persistence
+Jakarta RESTful Web Services
+Jakarta Security
+Jakarta Server Faces
+Jakarta Server Pages
+Jakarta Servlet
+Jakarta Stable APIs
+Jakarta Standard Tag Library
+Jakarta Transactions
+Jakarta WebSocket
+Jakarta XML Binding
+Jakarta XML Web Services
+Java Workflow Tooling
+Java WorkFlow Tooling (JWT)
+JavaServer Faces
+JDT LS
+JFace
+Jubula
+Keti
+Kura
+Libra
+Linux Tools
+Linux Tools Project
+Lua Development Tools
+Lyo
+Mangrove
+Marketplace Client Project
+Maven Integration for Web Tools Platform
+Mbeddr
+MDM|BL
+Memory Analyzer
+Mita
+Model Driven Health Tools
+Model Focusing Tools
+Mosquitto
+Mylyn
+Mylyn Builds
+Mylyn Context
+Mylyn Intent
+Mylyn Versions
+NatTable
+Nebula
+Ogee
+OM2M
+OMR
+Oomph
+openK platform
+Orbit
+OSEE
+P2
+Package Drone
+Paho
+Paho Incubator
+Papyrus for Real Time
+Platform - User Assistance (UA)
+Plugin Development Environment (PDE)
+Ponte
+project_hip [archived]
+RasterFrames
+RCP Testing Tool
+RDF4J
+Remote Application Platform (RAP)
+Remus Information Management
+Requirements Modeling Framework
+Rich Client Platform (RCP)
+Riena
+Runtime Packaging
+Runtimes
+Sapphire
+Scanning
+scout
+SeMantic Information Logistics Architecture (SMILA)
+Service Oriented Architecture
+Simultaneous release
+Sirius
+Sisu
+Skalli
+Soteria
+Spatiotemporal Epidemiological Modeler (STEM)
+Standard Widget Toolkit (SWT)
+Subversive
+SWTBot
+Target Communication Framework
+Target Management
+Technology Project and PMC
+The Eclipse Integrated Computational Environment
+Thym
+Tigerstripe
+tinydtls
+Tools for Cloud Foundry
+Trace Compass
+Triquetrum
+Turkish Users
+Unide
+UOMo
+Vert.x
+Vex
+Virgo
+Vorto
+Wakaama
+Webtools incubator
+WindowBuilder
+XML Schema Definition (XSD)
+XWT
+- General (non-technical)
+Eclipse Foundation
+Project Proposals
+Jobs and employment
+Polish users
+Test
+- Eclipse Working Groups
+Automotive IWG
+Science WG
+- Proposals
+OSGi Enterprise Tools
+Eclipse Advanced Scripting Environment (EASE)
+DAWNSci
+Eclipse Sumo
+- Archived
+Potomac
+B3
+Tiaki
+MOFScript
+secRT
+Chinese users
+AMW
+Buckminster
+ATF
+Board committer reps
+Blinki
+COBOL
+Pulsar
+Albireo
+Apricot
+Service Oriented Architecture
+GMT (Generative Modeling Technologies)
+IDE4EDU
+Damos
+AM3
+openArchitectureWare
+BPMN Modeler
+EMF Store
+EMF Client
+Apogee
+C-Sharp
+Corona
+Hibachi
+Glimmer
+Maynstall
+DSDP - Device Debugging
+DSDP - Native Application Builder (NAB)
+eBPM
+ORMF
+eBAM
+DSDP - Tools for Mobile Linux (TML)
+Eclipse aCute
+Spaces
+ScalaModules
+Visual Editor (VE)
+Textual Concrete Syntax (TCS)
+P2 dev
+Cloud Deployment Toolkit
+Memory Analyzer (MAT)
+DSDP
+COSMOS
+Esl
+OFMP
+Faceted Project Framework
+UMLX
+IAM (Eclipse Integration for Apache Maven)
+M2M (model-to-model transformation)
+OHF
+Tycho
+Sketch
+IMP
+g-Eclipse
+Eclipse HIP
+Eclipse Examples
+EMF-IncQuery
+Eclipse Process Manager (Stardust)
+Swordfish
+Maven Integration (M2E)
+Koneki
+Mihini
+Test and Performance Tools Platform (TPTP)
+Voicetools
+Sequoyah
+Xtend
+Eclipse LSP4E
+Eclipse Monkey Project
+Runtime Analysis Tools
+Service Oriented Architecture
+GEMS
+WTP - PAVE
+Service Oriented Architecture Tools Platform (STP)
+MST
+OMCW
+Silverlight Development Toolkit (SLDT)
+Woolsey
+Winery
+Higgins
+EGL Development Tools
+Service Component Architecture (SCA) Tools
+Wazaabi
+MDM WEB
+Krikkit
+Gyrex
+StatET
+Edje
+RISE V2G
+Eclipse Whiskers
+Flux
+[
+Syndicate this forum (XML)
+] [
+]
+Legend
+New Messages
+No New messages
+Locked (w/ unread messages)
+Locked
+Moved to another forum
+Current Time:
+Sat Sep 21 19:47:22 GMT 2019
+Powered by
+FUDForum
+. Page generated in 0.02122 seconds
+.::
+Contact
+::
+Home
+::.
+Powered by: FUDforum 3.0.2.
+Copyright ©2001-2010
+FUDforum Bulletin Board Software
+Back to the top
+Sign up to our Newsletter
+A fresh new issue delivered monthly
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

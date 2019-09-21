@@ -21,16 +21,8 @@ Integrate Kapua services with IT applications through flexible message routing a
 Get Started
 Community
 Join the the growing community around Eclipse Kapua.
-Eclipse Public License | The Eclipse Foundation
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
-Skip to main content
 Join the
 mailing list
-Log in
-Manage Cookies
-Download
-Members
 Post your questions and comments on
 Discussion Forum
 Report an Issue
@@ -39,14 +31,6 @@ Contribute Code
 Who is Involved
 Acknowledgments
 Thanks to YourKit for providing us an open source license of YourKit Java Profiler!
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
 YourKit supports open source projects with innovative and intelligent tools for monitoring and profiling Java and .NET applications. YourKit is the creator of
 YourKit Java Profiler
 ,
@@ -56,16 +40,32 @@ YourKit YouMonitor
 .
 Privacy Policy
 Terms of Use
-Blogs
-Participate
-Report a Bug
-Forums
 Copyright Agent
 Eclipse Public License
 Legal
 Security
 Credits
 Copyright © 2016 The Eclipse Foundation. All Rights Reserved.
+Eclipse Public License | The Eclipse Foundation
+.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
+var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
 Mailing Lists
 Wiki
 IRC
@@ -142,14 +142,65 @@ Contributors may not remove or alter any copyright notices contained within the 
 Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.
 4. COMMERCIAL DISTRIBUTION
 Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor ("Commercial Contributor") hereby agrees to defend and indemnify every other Contributor ("Indemnified Contributor") against any losses, damages and costs (collectively "Losses") arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
-Eclipse Community Forums: Eclipse Kapua
 For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor’s responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
-Skip to main content
-Downloads
 5. NO WARRANTY
 EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
 6. DISCLAIMER OF LIABILITY
 EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+7. GENERAL
+If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
+All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
+Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
+This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+Related Links
+EPL in plain HTML
+The EPL on OSI’s site
+CPL to EPL conversion
+&nbsp
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+Back to the top
+Eclipse IDE 2019-09
+Get the latest version of the Eclipse IDE.
+Download Now
+Learn More
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Community Forums: Eclipse Kapua
+Skip to main content
+Downloads
 Members
 Working Groups
 Projects
@@ -157,29 +208,15 @@ Community
 Marketplace
 Events
 Planet Eclipse
-7. GENERAL
-If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
-If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
-All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
 Newsletter
 Videos
 Blogs
 Participate
 Report a Bug
 Forums
-Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
-This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
-Related Links
-EPL in plain HTML
 Mailing Lists
 Wiki
 IRC
-The EPL on OSI’s site
-CPL to EPL conversion
-&nbsp
-About Us
-Annual Report
-Foundation
 Eclipse IDE
 Download
 Documentation
@@ -187,13 +224,6 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-Governance
-Legal Resources
-Contact Us
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
 More
 Community
 Marketplace
@@ -201,56 +231,27 @@ Events
 Planet Eclipse
 Newsletter
 Videos
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
 Blogs
 Participate
 Report a Bug
 Forums
 Mailing Lists
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
 Wiki
 IRC
 Eclipse IDE
 Download
 Documentation
 Getting Started / Support
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
 How to Contribute
 IDE and Tools
 Newcomer Forum
 Toggle navigation
 Breadcrumbs
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
 Home
 Projects
 Forums
 Eclipse Community Forums
 Forum Search:
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Search
 Help
 Register
@@ -273,6 +274,16 @@ Topic
 Replies
 Views
 Last message
+Kapua jobs usage
+By:
+Pedro de Arquer
+on
+Wed, 18 September 2019
+0
+5782
+Wed, 18 September 2019 12:35
+By:
+Pedro de Arquer
 Kapua Hono messaging integration Roadmap 2019
 Kapua Messaging with eclipse Hono roadmap / future plans?
 By:
@@ -280,7 +291,7 @@ Oscar oafdin
 on
 Fri, 26 July 2019
 0
-28054
+28058
 Fri, 26 July 2019 09:24
 By:
 Oscar oafdin
@@ -290,7 +301,7 @@ Aistis K
 on
 Tue, 16 July 2019
 0
-22324
+22325
 Tue, 16 July 2019 13:15
 By:
 Aistis K
@@ -300,7 +311,7 @@ Pedro de Arquer
 on
 Thu, 20 June 2019
 2
-23504
+23508
 Mon, 15 July 2019 07:20
 By:
 Pedro de Arquer
@@ -322,7 +333,7 @@ kiran kumar
 on
 Thu, 03 August 2017
 1
-11220
+11224
 Mon, 01 July 2019 08:42
 By:
 Alberto Codutti
@@ -332,7 +343,7 @@ Riccardo Fontanini
 on
 Sat, 07 January 2017
 3
-18861
+18863
 Mon, 01 July 2019 08:51
 By:
 Alberto Codutti
@@ -343,7 +354,7 @@ Steelix Ruin
 on
 Mon, 11 September 2017
 2
-3435
+3436
 Mon, 01 July 2019 08:56
 By:
 Alberto Codutti
@@ -353,7 +364,7 @@ chebolu dinesh kumar
 on
 Tue, 31 October 2017
 1
-3928
+3929
 Mon, 01 July 2019 09:08
 By:
 Alberto Codutti
@@ -364,7 +375,7 @@ chandhu dangudubiyyam
 on
 Tue, 28 November 2017
 1
-3854
+3857
 Mon, 01 July 2019 09:19
 By:
 Alberto Codutti
@@ -374,7 +385,7 @@ chandhu dangudubiyyam
 on
 Fri, 01 December 2017
 1
-3725
+3728
 Mon, 01 July 2019 09:22
 By:
 Alberto Codutti
@@ -384,7 +395,7 @@ lin yanghuan
 on
 Mon, 15 January 2018
 4
-1586
+1590
 Mon, 01 July 2019 09:28
 By:
 Alberto Codutti
@@ -406,7 +417,7 @@ chandhu dangudubiyyam
 on
 Mon, 19 February 2018
 1
-4245
+4248
 Mon, 01 July 2019 09:39
 By:
 Alberto Codutti
@@ -417,7 +428,7 @@ Famory TOURE
 on
 Tue, 20 February 2018
 1
-4130
+4132
 Mon, 01 July 2019 09:48
 By:
 Alberto Codutti
@@ -438,7 +449,7 @@ Valentas Malakauskas
 on
 Tue, 20 March 2018
 1
-3914
+3915
 Mon, 01 July 2019 10:07
 By:
 Alberto Codutti
@@ -449,7 +460,7 @@ Hemant Sangle
 on
 Wed, 23 May 2018
 1
-3046
+3047
 Mon, 01 July 2019 10:10
 By:
 Alberto Codutti
@@ -459,7 +470,7 @@ lin yanghuan
 on
 Tue, 19 December 2017
 3
-5754
+5764
 Mon, 01 July 2019 10:13
 By:
 Alberto Codutti
@@ -470,7 +481,7 @@ Sean McCarthy
 on
 Sun, 28 April 2019
 3
-925
+928
 Mon, 01 July 2019 10:24
 By:
 Alberto Codutti
@@ -481,7 +492,7 @@ Florian Otto
 on
 Fri, 22 February 2019
 4
-7917
+7919
 Mon, 01 July 2019 10:35
 By:
 Alberto Codutti
@@ -491,7 +502,7 @@ xu taifeng
 on
 Fri, 15 March 2019
 1
-7121
+7122
 Mon, 01 July 2019 10:38
 By:
 Alberto Codutti
@@ -502,7 +513,7 @@ Entao Liang
 on
 Sat, 02 March 2019
 2
-31279
+31281
 Mon, 01 July 2019 10:44
 By:
 Alberto Codutti
@@ -513,7 +524,7 @@ fatih ayvaz
 on
 Wed, 11 October 2017
 5
-2710
+2724
 Mon, 01 July 2019 10:47
 By:
 Alberto Codutti
@@ -523,7 +534,7 @@ Aistis K
 on
 Tue, 18 June 2019
 2
-24662
+24665
 Thu, 04 July 2019 13:10
 By:
 Aistis K
@@ -533,7 +544,7 @@ Pedro de Arquer
 on
 Thu, 02 May 2019
 0
-28162
+28163
 Thu, 02 May 2019 14:02
 By:
 Pedro de Arquer
@@ -553,7 +564,7 @@ Thomas Hornstein
 on
 Fri, 11 January 2019
 0
-2266
+2268
 Fri, 11 January 2019 11:31
 By:
 Thomas Hornstein
@@ -574,7 +585,7 @@ Luigi Saetta
 on
 Sun, 09 December 2018
 0
-1565
+1569
 Sun, 09 December 2018 18:53
 By:
 Luigi Saetta
@@ -585,7 +596,7 @@ Güven Yücetürk
 on
 Thu, 29 November 2018
 0
-1448
+1449
 Thu, 29 November 2018 14:16
 By:
 Güven Yücetürk
@@ -596,7 +607,7 @@ Dusan Zivkovic
 on
 Thu, 30 November 2017
 6
-3946
+3958
 Fri, 09 November 2018 13:45
 By:
 Güven Yücetürk
@@ -607,7 +618,7 @@ Cris Danci
 on
 Thu, 20 September 2018
 1
-3979
+3984
 Thu, 18 October 2018 13:06
 By:
 Riccardo Modanese
@@ -617,7 +628,7 @@ Bruno Wandrey
 on
 Fri, 28 September 2018
 0
-630
+631
 Fri, 28 September 2018 14:15
 By:
 Bruno Wandrey
@@ -627,7 +638,7 @@ Wilfried Slamanig
 on
 Wed, 04 July 2018
 1
-2465
+2466
 Thu, 30 August 2018 18:01
 By:
 Wilfried Slamanig
@@ -637,7 +648,7 @@ Wilfried Slamanig
 on
 Wed, 16 May 2018
 2
-2856
+2859
 Thu, 30 August 2018 17:54
 By:
 Wilfried Slamanig
@@ -668,7 +679,7 @@ Javier A.
 on
 Tue, 12 December 2017
 3
-7051
+7054
 Mon, 26 February 2018 08:27
 By:
 Ahmad Arif
@@ -679,7 +690,7 @@ Hemant Sangle
 on
 Wed, 10 January 2018
 1
-1782
+1787
 Thu, 11 January 2018 14:10
 By:
 Milan Ggg
@@ -690,7 +701,7 @@ Rozen Chen
 on
 Sun, 07 January 2018
 0
-2552
+2553
 Sun, 07 January 2018 09:28
 By:
 Rozen Chen
@@ -700,7 +711,7 @@ Muhammad Kamran
 on
 Wed, 22 November 2017
 2
-4544
+4549
 Wed, 20 December 2017 13:08
 By:
 Milan Ggg
@@ -710,7 +721,7 @@ Raghu Akella
 on
 Tue, 05 September 2017
 1
-13131
+13132
 Thu, 14 December 2017 16:35
 By:
 Riccardo Modanese
@@ -720,7 +731,7 @@ lin yanghuan
 on
 Tue, 12 December 2017
 8
-4807
+4815
 Thu, 14 December 2017 06:14
 By:
 lin yanghuan
@@ -730,7 +741,7 @@ Roger Hislop
 on
 Tue, 28 November 2017
 6
-4455
+4460
 Mon, 11 December 2017 13:45
 By:
 Roger Hislop
@@ -762,7 +773,7 @@ chebolu dinesh kumar
 on
 Mon, 16 October 2017
 1
-2864
+2865
 Thu, 26 October 2017 13:41
 By:
 Milan Ggg
@@ -772,7 +783,7 @@ Joe Clark
 on
 Wed, 20 September 2017
 0
-9390
+9392
 Wed, 20 September 2017 11:16
 By:
 Joe Clark
@@ -783,7 +794,7 @@ Ramesh Babu Atta
 on
 Tue, 11 July 2017
 3
-11765
+11767
 Tue, 05 September 2017 08:53
 By:
 Milan Ggg
@@ -794,7 +805,7 @@ Ramesh Babu Atta
 on
 Thu, 13 July 2017
 1
-11396
+11397
 Thu, 24 August 2017 11:22
 By:
 Leonardo Gaube
@@ -805,7 +816,7 @@ Prz J
 on
 Mon, 17 July 2017
 2
-8741
+8747
 Thu, 24 August 2017 11:21
 By:
 Leonardo Gaube
@@ -816,7 +827,7 @@ yuval zohar
 on
 Thu, 22 December 2016
 1
-10061
+10063
 Thu, 24 August 2017 11:18
 By:
 Leonardo Gaube
@@ -826,7 +837,7 @@ Pablo Chacin
 on
 Tue, 29 November 2016
 3
-13166
+13171
 Thu, 24 August 2017 11:15
 By:
 Leonardo Gaube
@@ -837,7 +848,7 @@ sainath thota
 on
 Thu, 13 July 2017
 2
-5087
+5093
 Wed, 23 August 2017 06:16
 By:
 Leonardo Gaube
@@ -847,7 +858,7 @@ Eclipse Webmaster
 on
 Fri, 08 July 2016
 0
-910
+911
 Fri, 08 July 2016 17:55
 By:
 Eclipse Webmaster
@@ -952,6 +963,7 @@ Eclipse Deeplearning4j
 Eclipse Ditto
 Eclipse Duttile
 Eclipse EclEmma
+Eclipse EMF Cloud
 Eclipse Enterprise for Java
 Eclipse fog05
 Eclipse Formal Modeling
@@ -987,6 +999,7 @@ Eclipse openK User Modules
 Eclipse OpenMQ
 Eclipse ORB
 Eclipse Packager
+Eclipse Packages
 Eclipse Papyrus for xtUML
 Eclipse Passage
 Eclipse Picasso
@@ -1317,10 +1330,10 @@ Locked (w/ unread messages)
 Locked
 Moved to another forum
 Current Time:
-Wed Sep 18 02:33:50 GMT 2019
+Sat Sep 21 19:47:38 GMT 2019
 Powered by
 FUDForum
-. Page generated in 0.01062 seconds
+. Page generated in 0.01970 seconds
 .::
 Contact
 ::

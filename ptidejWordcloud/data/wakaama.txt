@@ -1,0 +1,59 @@
+Eclipse Wakaama
+Toggle navigation
+Overview
+Getting started
+Learn more
+OMA Lightweight M2M C implementation designed to be portable on POSIX compliant systems
+What is LWM2M?
+OMA Lightweight M2M is a protocol from the Open Mobile Alliance for M2M or IoT device management.
+On top of CoAP
+UDP and SMS transport layer support
+Simple Object based resource model
+DTLS based security
+Contact
+A problem? A missing feature? An idea? Contact the community.
+Mailing list
+Bug tracker
+Security Vulnerabilities
+What is Eclipse Wakaama?
+Wakaama is not a library but files to be built with an application. It is written in C and designed to be portable on POSIX compliant systems.
+Two compilation switches are used: LWM2M_CLIENT_MODE and LWM2M_SERVER_MODE. Defining LWM2M_CLIENT_MODE enables the LWM2M Client interfaces. Defining LWM2M_SERVER_MODE enables the LWM2M Server interfaces. Both can be defined at the same time.
+Wakaama is mono-threaded. An application can call a HandlePacket API to feed Wakaama with received LWM2M packets and a Step API to perform any pending LWM2M operations.
+Wakaama provides APIs for a server application to send commands to registered LWM2M Clients. On client applications, Wakaama checks received commands for syntax and access rights and then dispatches them to the relevant objects.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Main companies supporting this project over the last three months.
+Getting started
+Follow the examples
+Get the code by cloning the repository. Wakaama provides sample clients and server in its 'examples' directory. To try them just launch 'cmake' in any of its subdirectories then 'make'. You can find detailled instructions in the README at the root of the repository. You can try the wakaama sample client with the [Leshan Sandbox] by running:
+"./lwm2mclient -4 -h leshan.eclipse.org"
+Source Code & Examples
+Learn more
+Eclipse Leshan
+Leshan provides libraries that help people develop their own Lightweight M2M server and client
+Website
+Source Code
+Leshan & Wakaama in action
+Eclipse Foundation
+About us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+How to Contribute
+Mailing Lists
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Copyright © 2015 The Eclipse Foundation. All Rights Reserved.

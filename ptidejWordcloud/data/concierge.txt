@@ -1,0 +1,33 @@
+Concierge - A small-footprint implementation of the OSGi Core R5 Specification
+Toggle navigation
+Concierge
+Downloads
+Documentation
+Getting Started
+Advanced options
+Building and contributing
+Community
+Mailing List
+Issue Tracker
+Source Code
+Continuous Integration
+Concierge is an
+iot.eclipse.org
+project
+Concierge is a small-footprint implementation of the OSGi Core Specification R5 standard optimized for mobile and embedded devices.
+OSGi for mobile and embedded devices
+Concierge brings OSGi to your mobile and embedded devices such as the Raspberry Pi and Beaglebone black. Concierge also has support for running on Android's Dalvik VM.
+Small footprint implementation
+With a .jar size of around 250kb, Concierge is the smallest OSGi R5 implementation around. This results in a fast startup time and an efficient service registry. Also, the framework runs on current and upcoming Java embedded profiles (e.g. Java 8 compact profile).
+OSGi R5
+Concierge implements the
+OSGi R5
+APIs. We strictly adhere the OSGi Core specification, and omit any optional services to keep our low footprint. If needed, some extra services can be installed as separate bundles.
+Eclipse Home
+Market Place
+Eclipse Live
+Eclipse Planet
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
