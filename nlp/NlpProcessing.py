@@ -6,6 +6,7 @@ from nltk import FreqDist
 from nltk.probability import ConditionalFreqDist
 from nltk import pos_tag
 import os
+import re
 import collections
 from nltk.stem import WordNetLemmatizer
 from nlp.model.keyword import Keyword
@@ -47,6 +48,14 @@ def combineStopwords(projectName):
     return combinedStopwords
 
 
+def isMatchSpecialString(word):
+    match = re.match(r'\d*:', word)
+    if match:
+        return True
+    else:
+        return False
+
+
 def removeStopwords(projectName, stopwords):
     dataLines = loadRawDataFile(projectName)
     keywords = []
@@ -58,7 +67,7 @@ def removeStopwords(projectName, stopwords):
             words[index] = PorterStemmer().stem(word)
             # check for stop words
             programmingLanguages = getProgrammingLanguageList()
-            if words[index] not in stopwords and words[index] != '' and '//' not in words[index]:
+            if words[index] not in stopwords and words[index] != '' and '//' not in words[index] and not isMatchSpecialString(words[index]):
                 if words[index] in programmingLanguages:
                     programmingLanguageKeywords.append(words[index])
                 else:
@@ -97,6 +106,7 @@ def generateImageFile(projectName, mostCommonKeywords):
 
 
 def process(siteUrl):
+    print('NLP Proccessing for %d', siteUrl)
     projectName = ProjectHelper.getProjectName(siteUrl)
     stopwords = combineStopwords(projectName)
     keywordsTuple = removeStopwords(projectName, stopwords)
@@ -105,3 +115,4 @@ def process(siteUrl):
     keywordsDistribution = calculateFrequencyDistribution(keywords, 50)
     writeDistributionListToFile(projectName, keywordsDistribution)
     generateImageFile(projectName, keywordsDistribution)
+    print('Wordcloud generated for %d', siteUrl)
