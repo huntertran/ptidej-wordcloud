@@ -8,25 +8,16 @@ class GenericSpider(scrapy.Spider):
     name = "generic"
 
     def start_requests(self):
-        # index = 0
-        # for line in siteDataList:
-        line = getattr(self, 'site_url', None)
-        if line is not None:
-            siteData = line.split(',')
-            if len(siteData) > 1:
-                isScrapped = int(siteData[0])
-                scrapLevel = int(siteData[1])
-                url = siteData[2]
-                if isScrapped == 0:
-                    request = scrapy.Request(url, callback=self.parseRootUrl)
-                    request.cb_kwargs['root'] = self.extractBaseUrl(url)
-                    request.cb_kwargs['projectRoot'] = self.extractProjectRoot(
-                        url)
-                    request.cb_kwargs['level'] = scrapLevel
-                    request.cb_kwargs['current_level'] = 0
+        siteUrl = getattr(self, 'siteUrl', None)
+        crawlDepthLevel = getattr(self, 'crawlDepthLevel', 0)
 
-                    yield request
-            # index += 1
+        request = scrapy.Request(siteUrl, callback=self.parseRootUrl)
+        request.cb_kwargs['root'] = self.extractBaseUrl(siteUrl)
+        request.cb_kwargs['projectRoot'] = self.extractProjectRoot(siteUrl)
+        request.cb_kwargs['level'] = crawlDepthLevel
+        request.cb_kwargs['current_level'] = 0
+
+        yield request
 
     def extractBaseUrl(self, url):
         fragments = url.split('/')

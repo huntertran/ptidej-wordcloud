@@ -11,26 +11,11 @@ from helpers.ProjectHelper import ProjectHelper
 class WordcloudPipeline(object):
     dataFolder = "./ptidejWordcloud/data/"
 
-    # def getProjectName(self, fullUrl):
-    #     nameSplitted = str.split(fullUrl, '/')
-    #     if len(nameSplitted) > 2:
-    #         # https://www.eclipse.org/paho/
-    #         return nameSplitted[3]
-    #     else:
-    #         return fullUrl
-
-    # def createDataFolder(self):
-    #     if not os.path.exists(self.dataFolder):
-    #         os.makedirs(self.dataFolder)
-
     def open_spider(self, spider):
-        # line = getattr(self, 'site_url', None)
-        # self.createDataFolder()
         ProjectHelper.createDataFolder(self.dataFolder)
-        line = spider.site_url
-        if line is not None:
-            # projectName = self.getProjectName(line)
-            projectName = ProjectHelper.getProjectName(line)
+        siteUrl = spider.siteUrl
+        if siteUrl is not None:
+            projectName = ProjectHelper.getProjectName(siteUrl)
             filePath = self.dataFolder + projectName + ".txt"
             self.outputFile = open(filePath, 'w+', encoding='utf-8')
 
