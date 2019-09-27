@@ -35,10 +35,14 @@ After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawle
 **Install python packages**
 
 ```bash
+[sudo] python3 -m pip install Twisted
+# for windows:
+# pip install Twisted[windows_platform]
 [sudo] python3 -m pip install Scrapy
 [sudo] python3 -m pip install matplotlib
 [sudo] python3 -m pip install numpy
 [sudo] python3 -m pip install Pillow
+[sudo] python3 -m pip install Wordcloud
 ```
 
 Install Natural Language Processing toolkit (nltk)
@@ -54,10 +58,16 @@ Install Natural Language Processing toolkit (nltk)
 ```bash
 python3
 
->>> nltk.import()
+>>> import nltk
 >>> nltk.download('stopwords')
 >>> nltk.download('punkt')
 ```
+
+**For Windows Machine**
+
+Using python on Windows machine require Microsoft Visual C++ Build Tools.
+
+> You can get the build tools at [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/).
 
 [Here](https://www.nltk.org/data.html) is more about downloading nltk data
 
