@@ -139,7 +139,7 @@
     },
     {
         "IsCrawled": true,
-        "CrawlDepthLevel": 0,
+        "CrawlDepthLevel": 1,
         "IsWordcloudGenerated": true,
         "SiteUrl": "http://agile-iot.eu"
     },

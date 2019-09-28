@@ -11,13 +11,16 @@
 ]
 '
 !
+|
 #
 %
 $
 @
+?
 =
 ’
 -
+–
 ...
 
 ''
@@ -103,3 +106,17 @@ legal
 term
 use
 iframe
+jan
+january
+feb
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december

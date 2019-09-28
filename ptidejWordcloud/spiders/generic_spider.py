@@ -1,6 +1,7 @@
 import scrapy
 import re
 from scrapy.loader import ItemLoader
+from scrapy.http.response.text import TextResponse
 from ptidejWordcloud.items import WordcloudItem
 
 
@@ -88,12 +89,13 @@ class GenericSpider(scrapy.Spider):
 
     def parseUrl(self, response, projectRoot):
         page = response.url
-        texts = response.xpath('//text()[not(ancestor::pre)]').getall()
-        for text in texts:
-            text = self.cleanText(text)
-            if len(text) != 0 and not self.isLineMatchCode(text):
-                yield {
-                    # "projectRoot": projectRoot,
-                    "l": page,
-                    "t": text
-                }
+        if 'text' in response.headers['Content-Type'].decode('utf-8'):
+            texts = response.xpath('//text()[not(ancestor::pre)]').getall()
+            for text in texts:
+                text = self.cleanText(text)
+                if len(text) != 0 and not self.isLineMatchCode(text):
+                    yield {
+                        # "projectRoot": projectRoot,
+                        "l": page,
+                        "t": text
+                    }

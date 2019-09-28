@@ -13,7 +13,7 @@ from nlp.ResultGenerator import ResultGenerator
 from helpers.ProjectHelper import ProjectHelper
 from model.Site import StemmedWord
 
-dataPath = './data/'
+dataPath = './data/scrapy/'
 defaultEncoding = 'utf-8'
 resultedDataPath = './data/nlp/result/'
 
@@ -42,8 +42,9 @@ def combineStopwords(projectName):
     return combinedStopwords
 
 def isMatchSpecialString(word):
-    match = re.match(r'\d*:', word)
-    if match:
+    match = re.search(r'\d*:', word)
+    matchNumber = re.search(r'\d+', word)
+    if match or matchNumber:
         return True
     else:
         return False
