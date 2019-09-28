@@ -1,5 +1,4 @@
 Eclipse Mita | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"s4ZN3GsBckCicIK3UsbY8rc4FQ9860j2xmw7BEi3t0U","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"0":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
 Google Tag Manager
 Skip to main content
 Log in
@@ -91,10 +90,9 @@ Technology Types
 Internet of Things
 Language
 Modeling
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
 Eclipse Foundation
 About Us
 Contact Us
@@ -124,8 +122,7 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Internet of Things | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"h9WHSGAm01IE94krDCLQT1uYSKD5XvIhG9Dw1_ehTpM","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+Eclipse Public License 2.0 | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -176,6 +173,109 @@ Eclipse IDE
 Download
 Learn More
 Documentation
+Internet of Things | projects.eclipse.org
+Google Tag Manager
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Public License 2.0
+Eclipse Public License 2.0
+URL:
+http://www.eclipse.org/legal/epl-2.0
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IoT | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Eclipse IDE
+Download
+Learn More
+Documentation
 Getting Started / Support
 How to Contribute
 IDE and Tools
@@ -192,6 +292,37 @@ Internet of Things
 Eclipse Yasham is an Open & Extensible Cloud-Native Smart Living Platform for Consumer IoT.
 Read more...
 Learn more
+Modeling | projects.eclipse.org
+Language | projects.eclipse.org
+0.1.0 Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
 Toggle Dropdown
 Website
 Developer Resources
@@ -213,6 +344,115 @@ Governance
 Contact
 Eclipse VOLTTRON
 Internet of Things
+0.1.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Eclipse Mita | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
 The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
 Read more...
 Learn more
@@ -235,77 +475,30 @@ Governance
 Contact
 Eclipse fog05
 Internet of Things
-Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse HIP
-Archived
-Internet of Things
-Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Mita
-Internet of Things
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Latest release:
-0.1.0
-Download
-Eclipse Public License 2.0 | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"Oc4MSAziNvXPaP70wWdaAG4Ze9q66M7qiIgwhpu2hxg","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
 Working Groups
 Projects
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Thingweb
-Internet of Things
-The Eclipse Thingweb project will start with three sub-projects in the toolkit:
-Thingweb node-wot
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Cyclone DDS
-Internet of Things
-Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
-Read more...
-Latest release:
-0.1.0 (Preambule)
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
 Community
 Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
 Events
 Planet Eclipse
 Newsletter
@@ -328,145 +521,35 @@ IDE and Tools
 Newcomer Forum
 More
 Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Who's Involved
-Governance
-Contact
-Eclipse Kuksa
-Internet of Things
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
-Read more...
-Latest release:
-0.1-M1
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-1
-2
-3
-4
-5
-next
-last
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse Public License 2.0
-Eclipse Public License 2.0
-URL:
-http://www.eclipse.org/legal/epl-2.0
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Eclipse IoT | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"Euny0umy9PzmmxQBVTdhh8HLRaSjUutN1UzvBmsBPlk","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"0":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+Eclipse Mita | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
 Manage Cookies
 projects.eclipse.org
 Download
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Members
 Working Groups
 Projects
 Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
+Eclipse Mita | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Eclipse Mita | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
 IRC
 Research
 Eclipse IDE
@@ -487,6 +570,35 @@ Videos
 Blogs
 Participate
 Report a Bug
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
 Forums
 Mailing Lists
 Wiki
@@ -496,6 +608,8 @@ Eclipse IDE
 Download
 Learn More
 Documentation
+Getting Started / Support
+How to Contribute
 Getting Started / Support
 How to Contribute
 IDE and Tools
@@ -519,94 +633,27 @@ Frameworks and Services that abstract the complexity of hardware, communication 
 Tools that facilitate the development of connected systems
 Solutions that build ready-to-run solutions based on the other building blocks
 This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
-Licenses:
-Eclipse Distribution License 1.0 (BSD)
-Eclipse Public License 2.0
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Top Level Project Charter
+Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
+Read more...
+Learn more
+Toggle Dropdown
 Website
-Wiki
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse 4diac
-Eclipse Agail
-Eclipse Californium (Cf) CoAP Framework
-Eclipse Concierge
-Eclipse Cyclone DDS
-Eclipse Ditto
-Eclipse Duttile
-Eclipse fog05
-Eclipse hawkBit
-Eclipse Hono
-Eclipse Ignite|IoT
-Eclipse ioFog
-Eclipse IoT Packages
-Eclipse Kapua
-Eclipse Keti
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Kura
-Eclipse Leshan
-Eclipse Milo
-Eclipse Mita
-Eclipse Mosquitto
-Eclipse MRAA
-Eclipse NeoSCADA
-Eclipse OM2M
-Eclipse Paho
-Eclipse Paho Incubator
-Eclipse Ponte
-Eclipse SmartHome
-Eclipse Tahu
-Eclipse Thingweb
-Eclipse tinydtls
-Eclipse Unide
-Eclipse UPM
-Eclipse VOLTTRON
-Eclipse Vorto
-Eclipse Wakaama
-Eclipse Yasham
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
+Developer Resources
+Who's Involved
 Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-0.1.0 | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"VZxDqkGfn5Ihbb0CR1T1zQ-FYfl_hDVRosFKIf-8HhA","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","field_group":{"hidden":"full"},"bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+Contact
+Eclipse HIP
+Archived
+Internet of Things
+Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
 Google Tag Manager
 Skip to main content
 Log in
@@ -629,6 +676,21 @@ Forums
 Mailing Lists
 Wiki
 IRC
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
 Research
 Eclipse IDE
 Download
@@ -636,10 +698,6 @@ Learn More
 Documentation
 Getting Started / Support
 How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
 Marketplace
 Events
 Planet Eclipse
@@ -662,85 +720,6 @@ How to Contribute
 IDE and Tools
 Newcomer Forum
 Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Mita
-0.1.0
-Eclipse Mita 0.1.0
-Primary tabs
-Overview
-(active tab)
-Issues
-Release Plan
-Review Information
-This is the initial release of Eclipse Mita. Mita is a new programming language for IoT devices that targets developers who are new to embedded software development, specifically those who come from a cloud background. As a developer Mita feels like a modern programming language (in the vein of TypeScript), but translates to C code which compiles to native code running directly on the embedded hardware. Combining declarative configuration and powerful language features with code generation enables projects to scale their deployment over quantity - from the first prototype to shipping thousands of devices.
-This release serves as a foundation for the future. With a big upcoming change, a complete rewrite of the typesystem, this is the last stable point for a while.
-However Mita right now is pretty matured: there is a huge platform implemented, the XDK 110, as well as two smaller platforms that serve as a starting point for platform integrators.
-For this purpose different documentation exists, such as a contribution guide and a platform integrators guide to help newcomers.
-All the while this is a preview version and far from a 1.0 release, pertaining to the upcoming type system overhaul, improvements to the event system and a way to configure a more detailed life cycle for components.
-Release Date:
-Thursday, February 28, 2019
-Review:
-0.1.0 Release Review
-Release Type:
-Minor release
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Mita
-Tags
-Technology Types
-Internet of Things
-Language
-Modeling
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-0.1.0 Release Review | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"tQCsEg7nKjt2q7DUTKk9ACbvok08IUGnFnh3UFTjJWY","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Working Groups
-Projects
-Community
 Marketplace
 Events
 Planet Eclipse
@@ -763,6 +742,7 @@ How to Contribute
 IDE and Tools
 Newcomer Forum
 More
+Projects
 Community
 Marketplace
 Events
@@ -783,6 +763,73 @@ Learn More
 Documentation
 Getting Started / Support
 How to Contribute
+IDE and Tools
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Technology Type
+Modeling
+Modeling
+This project produces modeling frameworks, tooling, and/or standards implementations.
+Eclipse Capella
+Modeling
+Eclipse Capella
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Technology Type
+Language
+Language
+The project provides an implementation of a programming language.
+Eclipse ShellWax
+Language
+Tools
 IDE and Tools
 Newcomer Forum
 Toggle navigation
@@ -806,6 +853,226 @@ Release:
 0.1.0
 Description:
 This is the initial release of Eclipse Mita. Mita is a new programming language for IoT devices that targets developers who are new to embedded software development, specifically those who come from a cloud background. As a developer Mita feels like a modern programming language (in the vein of TypeScript), but translates to C code which compiles to native code running directly on the embedded hardware. Combining declarative configuration and powerful language features with code generation enables projects to scale their deployment over quantity - from the first prototype to shipping thousands of devices.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Top Level Project Charter
+Website
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse 4diac
+Eclipse Agail
+Eclipse Californium (Cf) CoAP Framework
+Eclipse Concierge
+Eclipse Cyclone DDS
+Eclipse Ditto
+Eclipse Mita
+Internet of Things
+Language
+Modeling
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+Read more...
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Thingweb
+Internet of Things
+The Eclipse Thingweb project will start with three sub-projects in the toolkit:
+Thingweb node-wot
+Read more...
+Eclipse Mita | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Mita
+0.1.0
+Eclipse Mita 0.1.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+This is the initial release of Eclipse Mita. Mita is a new programming language for IoT devices that targets developers who are new to embedded software development, specifically those who come from a cloud background. As a developer Mita feels like a modern programming language (in the vein of TypeScript), but translates to C code which compiles to native code running directly on the embedded hardware. Combining declarative configuration and powerful language features with code generation enables projects to scale their deployment over quantity - from the first prototype to shipping thousands of devices.
+This release serves as a foundation for the future. With a big upcoming change, a complete rewrite of the typesystem, this is the last stable point for a while.
+However Mita right now is pretty matured: there is a huge platform implemented, the XDK 110, as well as two smaller platforms that serve as a starting point for platform integrators.
+For this purpose different documentation exists, such as a contribution guide and a platform integrators guide to help newcomers.
+All the while this is a preview version and far from a 1.0 release, pertaining to the upcoming type system overhaul, improvements to the event system and a way to configure a more detailed life cycle for components.
+Release Date:
+Home
+Projects
+Eclipse IoT
+Eclipse Mita
+Contact Us
+Eclipse Mita
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+mita-dev
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Mita
+Tags
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+is a comprehensive, extensible and field-proven MBSE tool to successfully design system, software, and hardware architecture.
+Read more...
+Latest release:
+1.3.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Hawk
+Modeling
+Eclipse Hawk is a heterogeneous model indexing framework: it indexes collections of models transparently and incrementally into a NoSQL database, which can be queried in a more efficient and conven
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Eclipse ShellWax will provide editor for *.sh files with:
+Read more...
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dartboard
+Language
+Tools
+Dart is a recent programming language. Originally proposed by a team at Google in 2010, its main purposes were to be a flexible, but structured language for the web.
+Read more...
+Latest release:
+0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
 This release serves as a foundation for the future. With a big upcoming change, a complete rewrite of the typesystem, this is the last stable point for a while.
 However Mita right now is pretty matured: there is a huge platform implemented, the XDK 110, as well as two smaller platforms that serve as a starting point for platform integrators.
 For this purpose different documentation exists, such as a contribution guide and a platform integrators guide to help newcomers.
@@ -826,26 +1093,119 @@ on the core language and platforms
 A
 Getting Started guide
 for developers on how to contribute
-A Platform Integrators guide (TBD soon) to help with extending Mita with new platforms
-Conforms To UI/UX Guidelines:
-Not verified
-Usability Details:
-Our language editors are based on Xtext which provides syntax highlighting and well implemented support for auto complete, validation and so on.
-End of Life:
-Since this is the first release of Mita there are no deprecated or removed features.
-Standards:
-Not applicable
-Communities:
-Since the start of the project we have had increasing interest and interaction with end users in the form of bug reports and feature requests and some external contributions by pull requests.
-We have an implementation for communicating with Eclipse Hono.
-Bosch Connected Devices and Solutions has shipped Mita in three iterations of its XDK Workbench for their freely programmable IoT device "Cross Domain Development Kit" (XDK) so far and continues to support and use it.
-Sign in
-to post comments.
+Eclipse Duttile
+Eclipse fog05
+Eclipse hawkBit
+Eclipse Hono
+Eclipse Ignite|IoT
+Eclipse ioFog
+Eclipse IoT Packages
+Eclipse Kapua
+Eclipse Keti
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Kuksa
+Eclipse Kura
+Eclipse Leshan
+Eclipse Milo
+Eclipse Mita
+Eclipse Mosquitto
+Eclipse MRAA
+Eclipse NeoSCADA
+Eclipse OM2M
+Eclipse Paho
+Eclipse Paho Incubator
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Cyclone DDS
+Internet of Things
+Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
+Read more...
+Latest release:
+0.1.0 (Preambule)
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Kuksa
+Internet of Things
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -
+Internet of Things
+Language
+Modeling
+OSGi
+Runtime
+Specification
+Thursday, February 28, 2019
+Review:
+0.1.0 Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type A - License Compatibility Certification
 Related Projects
 Project Hierarchy:
 Eclipse IoT
 Eclipse Mita
 Tags
+Technology Types
+Internet of Things
+Language
+Modeling
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
 Technology Types
 Internet of Things
 Language
@@ -869,158 +1229,45 @@ Legal Resources
 Useful Links
 Report a Bug
 Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"-QrtKRBS__uo91xWKxMi0ba9fWQmHH2EpY87E2rvjVU","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_views\/js\/project-search.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"urlIsAjaxTrusted":{"\/list-of-projects":true},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
+Toggle navigation
+Home
 Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse Mita | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"D1Aj5IO8-KR6pP0DAVhQ2RHI_csKbNOCeQZzsRoXykc","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Eclipse Mita | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"9LTk6SAXXd0lWKvUsDLJxYVb0SUM95i_Ah2CIVOVKZg","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
+Eclipse IoT
+Eclipse Mita
+Governance
+Eclipse Mita
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+Eclipse Mita aims to build a new programming language for the embedded IoT including editor/IDE, compiler and an extensive test-suite. Mita inherits the syntax of modern general-purpose system-level languages (e.g. Swift or Rust), but compiles to near-production ready C code. It offers powerful abstractions for sensor access, connectivity and general purpose IO. Centered around developer experience, it is build as a DSL using Eclipse Xtext.
 IDE and Tools
 Newcomer Forum
 Toggle navigation
 Home
 Projects
-List of Projects
-List of Projects
-Search
-Technology Types
-- Any -
-Internet of Things
-Language
-Modeling
-OSGi
-Runtime
-Specification
-Testing
-Tools
-State
-- Any -
-Incubating
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
+Eclipse IoT
+Eclipse Mita
+Who's Involved
+Eclipse Mita
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
 Learn More
 Documentation
 Getting Started / Support
@@ -1043,8 +1290,119 @@ Developer Resources
 Governance
 Contact Us
 Download Eclipse Mita
-Update Sites:
-Version 0.1.0:
+Governance
+Contact
+Eclipse Mita
+Internet of Things
+Language
+Modeling
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+Read more...
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GEMOC Studio
+Modeling
+The Eclipse GEMOC Stud
+Read more...
+Latest release:
+3.0.0
+Who's Involved
+Governance
+Contact
+Eclipse Wild Web Developer
+Language
+Tools
+Eclipse Wild Web Developer integrates existing artifacts like TextMate grammars and Language Servers to provide a rich development experience to Web developers using typical programming languages f
+Read more...
+Latest release:
+0.6.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Mita
+Internet of Things
+Language
+Modeling
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+Read more...
+A Platform Integrators guide (TBD soon) to help with extending Mita with new platforms
+Conforms To UI/UX Guidelines:
+Not verified
+Usability Details:
+Our language editors are based on Xtext which provides syntax highlighting and well implemented support for auto complete, validation and so on.
+End of Life:
+Since this is the first release of Mita there are no deprecated or removed features.
+Standards:
+Not applicable
+Communities:
+Since the start of the project we have had increasing interest and interaction with end users in the form of bug reports and feature requests and some external contributions by pull requests.
+We have an implementation for communicating with Eclipse Hono.
+Bosch Connected Devices and Solutions has shipped Mita in three iterations of its XDK Workbench for their freely programmable IoT device "Cross Domain Development Kit" (XDK) so far and continues to support and use it.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Mita
+Tags
+Eclipse Ponte
+Eclipse SmartHome
+Eclipse Tahu
+Eclipse Thingweb
+Eclipse tinydtls
+Eclipse Unide
+Eclipse UPM
+Eclipse VOLTTRON
+Eclipse Vorto
+Eclipse Wakaama
+Eclipse Yasham
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
+The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
+Read more...
+Latest release:
+0.1-M1
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+next
+last
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+Marketplace
+Events
 Planet Eclipse
 Newsletter
 Videos
@@ -1061,14 +1419,11 @@ Download
 Learn More
 Documentation
 Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
+Testing
+Tools
+State
+- Any -
+Incubating
 Mature
 Include
 Archived Projects
@@ -1084,6 +1439,153 @@ Latest release:
 Download
 Toggle Dropdown
 Website
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Working Group:
+Internet of Things (IoT)
+Releases:
+Name
+Date
+0.1.0
+2019-02-28
+Reviews:
+Name
+Date
+0.1.0 Release Review
+2019-02-20
+Creation Review
+2018-03-07
+Project Links
+Proposal
+Current Release
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Mita
+Tags
+Technology Types
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Project Members:
+Project Leads
+Christian Weichel
+Simon Wegendt
+Committers
+Andreas Muelder
+Christian Weichel
+Robin Herrmann
+Simon Wegendt
+Thomas Kutz
+Mentor
+Pascal Rapicault
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Mita
+Tags
+Technology Types
+Internet of Things
+Update Sites:
+Version 0.1.0:
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Mita
+Tags
+Technology Types
+Internet of Things
+Language
+Modeling
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Technology Types
+Internet of Things
+Language
+Modeling
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Mita
+Developer Resources
+Eclipse Mita
 Developer Resources
 Who's Involved
 Governance
@@ -1094,12 +1596,12 @@ Modeling
 Tools
 Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
 Read more...
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Mita
-Tags
-Technology Types
+Latest release:
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Internet of Things
 Language
 Modeling
@@ -1122,31 +1624,170 @@ Legal Resources
 Useful Links
 Report a Bug
 Documentation
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
 How to Contribute
+Mailing Lists
+Language
+Modeling
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
 IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
+Community of Projects
+Working Groups
+Research@Eclipse
+Eclipse EMF Services
+Modeling
+EMF Services
+provides libraries that extend the core EMF framework with additional services or more powerful versions of services provided by EMF itself.
+Read more...
+Latest release:
+1.12.1
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Capra
+Modeling
+Eclipse Capra is a traceability management tool. It allows the creation of trace links between arbitrary artefacts, provides features to edit them and keep them consistent, and visualise the relationships between them.
+Read more...
+Latest release:
+0.7.1
+Download
+Toggle Dropdown
+Contact
+Eclipse Corrosion: the Eclipse IDE for Rust
+Language
+Tools
+Eclipse Corrosion provides development tools for Rust and Cargo inside the Eclipse IDE.
+Read more...
+Latest release:
+0.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse N4JS
+Language
+N4JS adds a static type system similar to that of Java to ECMAScript 2015. This type system supports nominal and structural typing, in both cases supporting generics similar to that of Java 8.
+Read more...
+Download
+Toggle Dropdown
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+mita - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/mita.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
 Eclipse IoT
 Eclipse Mita
-Governance
-Latest release:
+Tags
+Technology Types
+Internet of Things
 2019-09 (6.9.0)
 Download
 Toggle Dropdown
@@ -1167,12 +1808,18 @@ Download
 Toggle Dropdown
 Website
 Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse QVT Operational
-Language
-Modeling
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Documentation
 How to Contribute
 Mailing Lists
 Forums
@@ -1186,63 +1833,60 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Eclipse Mita
-Primary tabs
-Overview
-Downloads
-Who's Involved
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Website
 Developer Resources
+Who's Involved
 Governance
-(active tab)
-Contact Us
-Scope:
-Eclipse Mita aims to build a new programming language for the embedded IoT including editor/IDE, compiler and an extensive test-suite. Mita inherits the syntax of modern general-purpose system-level languages (e.g. Swift or Rust), but compiles to near-production ready C code. It offers powerful abstractions for sensor access, connectivity and general purpose IO. Centered around developer experience, it is build as a DSL using Eclipse Xtext.
-Working Group:
-Internet of Things (IoT)
-Releases:
-Name
-Date
-0.1.0
-2019-02-28
-Reviews:
-Name
-Date
-0.1.0 Release Review
-2019-02-20
-Creation Review
-2018-03-07
+Contact
+Eclipse Papyrus for xtUML
+Language
+Modeling
 Tools
-The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
-Operational QVT project provides a powerful Eclipse IDE:
-feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
-debugger (conditional breakpoints, variables view, expressions view, watches)
-metamodel browser, trace view
-project builders, launch configurations
-deployment facilities and Ant support
-Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
-support of Java Black-Box units and libraries
-seamless integration with JDT supporting co-development of QVTo and Java in single workspace
-Additional tooling QVTO Code Coverage provides:
-annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
-JUnit launch configuration to integrate with the JUnit test framework
+Eclipse Papyrus-xtUML is a tool which supplies the capability to edit, execute and translate xtUML models. Executable, translatable UML (xtUML) is an extension to UML based upon the Shlaer-Mellor Method of Model-Driven Architecture (MDA), which supports a powerful approach to Model-Driven Development (MDD). Papyrus-xtUML provides the system design community with access to xtUML editing, execution and translation capabilities, along with a forum to advance the use of this methodology.
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Formal Modeling Project
+Modeling
+[
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse LSP4E
+Language
+Tools
+The project includes the necessary code to integrate any language server (conforming to the
+Language Server Protocol specification
+) or Debug Adapter (conforming to the
+Debug Adapter Protocol
+) in the Eclipse IDE: it orchestrates the requests to the language servers or debug adapters and presents the response in the usual IDE metaphors so users can manipulate them. The default integration is to provide features into the Platform's Generic and Extensible editor, but some code may be used as API to let integration be done with other Eclipse-based editors. It's build on top of
+Eclipse LSP4J
+.
 Read more...
 Latest release:
-2019-09 (3.10.0)
+0.11.0
 Download
 Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
-Project Links
-Proposal
-Current Release
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Mita
-Tags
-Technology Types
-Internet of Things
+Governance
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Language
 Modeling
 Register for EclipseCon Europe 2019 today!
@@ -1260,6 +1904,93 @@ Privacy Policy
 Terms of Use
 Copyright Agent
 Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
+Operational QVT project provides a powerful Eclipse IDE:
+feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
+debugger (conditional breakpoints, variables view, expressions view, watches)
+metamodel browser, trace view
+project builders, launch configurations
+deployment facilities and Ant support
+Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
+support of Java Black-Box units and libraries
+seamless integration with JDT supporting co-development of QVTo and Java in single workspace
+Additional tooling QVTO Code Coverage provides:
+annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
+JUnit launch configuration to integrate with the JUnit test framework
+Read more...
+Latest release:
+2019-09 (3.10.0)
+page under construction...
+]
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse PMF
+Archived
+Modeling
+Eclipse PMF focuses in fact on high level presentation modeling concepts on GUI by ignoring the displaying technology artifacts such as appearence, layouts and data binding support.
+Read more...
+Latest release:
+0.4.1
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Contact
+Eclipse JDT Language Server
+Language
+Tools
+The Eclipse JDT Language Server is a Java language specific implementation of the language server protocol.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse LSP4J
+Language
+Tools
+Eclipse LSP4J is a Java implementation of VSCode's language server protocol intended to be consumed by tools and language servers implemented in Java.
+Read more...
+Latest release:
+0.8.1
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
 Governance
 Contact
 Eclipse Trace Compass
@@ -1276,6 +2007,50 @@ Website
 Developer Resources
 Who's Involved
 Governance
+Governance
+Contact
+Eclipse APP4MC
+Modeling
+Tools
+Application Platform Project for Multi Core
+Read more...
+Latest release:
+0.9.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse StatET: Tooling for the R language
+Language
+Tools
+Eclipse StatET is an Eclipse-based IDE for R.
+It offers a set of mature tools for R coding and package building. This includes
+Read more...
+Latest release:
+4.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
 Contact
 Apogy
 This project provides a multi-mission operations and planning software framework.
@@ -1284,23 +2059,6 @@ uses Eclipse Modeling Framework models to define the systems being controlled, t
 Read more...
 Download
 Toggle Dropdown
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Website
 Developer Resources
 Who's Involved
@@ -1314,6 +2072,59 @@ Eclipse Collections is a collections framework for Java.
 Read more...
 Latest release:
 10.0.0
+7
+next
+last
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+1
+2
+3
+next
+last
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
 Download
 Toggle Dropdown
 Website
@@ -1324,7 +2135,6 @@ Contact
 Eclipse GlassFish Tools
 Tools
 Read more...
-Language | projects.eclipse.org
 Download
 Toggle Dropdown
 Website
@@ -1341,51 +2151,31 @@ Download
 Toggle Dropdown
 Website
 Developer Resources
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Who's Involved
 Governance
 Contact
 Eclipse Ogee
 Modeling
 Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology.
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"yR7bX89QF30J-Zwof6lyw5hqBzlup5HLMqsEdodtpaI","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Eclipse Mita | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"hZeWyXeB0pjCApCZMpdhyhb9qwKkx4qxZP87PeRYsWo","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
 Read more...
 Latest release:
 0.7.0
@@ -1411,55 +2201,6 @@ Who's Involved
 Governance
 Contact
 Eclipse EMF Client Platform
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
 Modeling
 OSGi
 Runtime
@@ -1485,55 +2226,6 @@ is about providing Lua developers with an IDE providing the user experience deve
 Read more...
 Latest release:
 1.4.2
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Technology Type
-Language
-Language
-The project provides an implementation of a programming language.
-Eclipse ShellWax
-Language
-Tools
-Eclipse ShellWax will provide editor for *.sh files with:
-Read more...
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Modeling | projects.eclipse.org
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Mita
 Download
 Toggle Dropdown
 Website
@@ -1557,78 +2249,6 @@ Contact
 Eclipse Sirius
 Modeling
 Eclipse Sirius enables the specification of a modeling workbench in terms of
-Contact
-Eclipse Dartboard
-Language
-Tools
-Dart is a recent programming language. Originally proposed by a team at Google in 2010, its main purposes were to be a flexible, but structured language for the web.
-Read more...
-Latest release:
-0.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Wild Web Developer
-Language
-Tools
-Eclipse Wild Web Developer integrates existing artifacts like TextMate grammars and Language Servers to provide a rich development experience to Web developers using typical programming languages f
-Read more...
-Latest release:
-0.5.0
-Download
-Toggle Dropdown
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"JhBSOzCyoJ7PCYLLoPpm2f_QwSgWdnNcmhP1VBXB3D0","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Contact Us
-Eclipse Mita
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-(active tab)
-Developer Mailing List:
-mita-dev
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Mita
-Tags
-Technology Types
-Internet of Things
-Language
-Modeling
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
 graphical
 ,
 table
@@ -1653,78 +2273,6 @@ Read more...
 Latest release:
 3.15 (2019-09)
 Download
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Mita
-Internet of Things
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Corrosion: the Eclipse IDE for Rust
-Language
-Tools
-Eclipse Corrosion provides development tools for Rust and Cargo inside the Eclipse IDE.
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
 Toggle Dropdown
 Website
 Developer Resources
@@ -1751,61 +2299,6 @@ Read more...
 Latest release:
 0.11.2
 Download
-Read more...
-Latest release:
-0.4.2
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse N4JS
-Language
-N4JS adds a static type system similar to that of Java to ECMAScript 2015. This type system supports nominal and structural typing, in both cases supporting generics similar to that of Java 8.
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse LSP4E
-Language
-Tools
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Technology Type
-Modeling
-Modeling
-This project produces modeling frameworks, tooling, and/or standards implementations.
-Eclipse Capella
-Modeling
-Eclipse Capella
-is a comprehensive, extensible and field-proven MBSE tool to successfully design system, software, and hardware architecture.
-Read more...
-Latest release:
-1.3.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Toggle Dropdown
 Website
 Developer Resources
@@ -1828,58 +2321,6 @@ Governance
 Contact
 Eclipse January
 Read more...
-The project includes the necessary code to integrate any language server (conforming to the
-Language Server Protocol specification
-) or Debug Adapter (conforming to the
-Debug Adapter Protocol
-) in the Eclipse IDE: it orchestrates the requests to the language servers or debug adapters and presents the response in the usual IDE metaphors so users can manipulate them. The default integration is to provide features into the Platform's Generic and Extensible editor, but some code may be used as API to let integration be done with other Eclipse-based editors. It's build on top of
-Eclipse LSP4J
-.
-Read more...
-Latest release:
-0.11.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse JDT Language Server
-Language
-Tools
-The Eclipse JDT Language Server is a Java language specific implementation of the language server protocol.
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Mita
-Internet of Things
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse GEMOC Studio
-Modeling
-The Eclipse GEMOC Stud
-Read more...
-Latest release:
-3.0.0
-Download
-Toggle Dropdown
 Latest release:
 2.2.2
 Download
@@ -1901,477 +2342,9 @@ Contact
 …
 next ›
 last »
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Who's Involved
-Governance
-Contact
-Eclipse LSP4J
-Language
-Tools
-Eclipse LSP4J is a Java implementation of VSCode's language server protocol intended to be consumed by tools and language servers implemented in Java.
-Read more...
-Latest release:
-0.8.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse StatET: Tooling for the R language
-Language
-Tools
-Eclipse StatET is an Eclipse-based IDE for R.
-It offers a set of mature tools for R coding and package building. This includes
-Read more...
-Latest release:
-4.0.1
-Eclipse Mita | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"SjvxmprBuPufXtyM4tl2kx4rowrwUOC5EVvXDhSZoiE","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"0":1,"1":1,"2":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse EMF Services
-Modeling
-EMF Services
-provides libraries that extend the core EMF framework with additional services or more powerful versions of services provided by EMF itself.
-Read more...
-Latest release:
-1.12.1
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Capra
-Modeling
-Eclipse Capra is a traceability management tool. It allows the creation of trace links between arbitrary artefacts, provides features to edit them and keep them consistent, and visualise the relationships between them.
-Read more...
-Latest release:
-0.7.1
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-1
-2
-3
-next
-last
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Papyrus for xtUML
-Language
-Modeling
-Tools
-Eclipse Papyrus-xtUML is a tool which supplies the capability to edit, execute and translate xtUML models. Executable, translatable UML (xtUML) is an extension to UML based upon the Shlaer-Mellor Method of Model-Driven Architecture (MDA), which supports a powerful approach to Model-Driven Development (MDD). Papyrus-xtUML provides the system design community with access to xtUML editing, execution and translation capabilities, along with a forum to advance the use of this methodology.
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Formal Modeling Project
-Modeling
-[
-page under construction...
-]
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse PMF
-Archived
-Modeling
-Eclipse PMF focuses in fact on high level presentation modeling concepts on GUI by ignoring the displaying technology artifacts such as appearence, layouts and data binding support.
-Read more...
-Latest release:
-0.4.1
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse APP4MC
-Home
-Projects
-Eclipse IoT
-Eclipse Mita
-Who's Involved
-Eclipse Mita
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Contribution Activity:
-Commits on this project (last 12 months).
-Individual Contribution Activity:
-Commits on this project by individuals over the last three months.
-Organization Contribution Activity:
-Commits on this project by supporting organization over the last three months.
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Project Members:
-Project Leads
-Modeling
-Tools
-Application Platform Project for Multi Core
-Read more...
-Latest release:
-0.9.5
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Layout Kernel
-Modeling
-Visual languages are popular for visualizing concepts and systems. However, just being graphical in nature does not automatically make a diagram easy to understand. Its usefulness much rather depends on the placement of its elements, that is: on its
-layout
-. Getting the layout right is labour intensive and time consuming and can be made a lot easier by making algorithms do the work. The
-Eclipse Layout Kernel (ELK)
-provides such layout algorithms, as well as an infrastructure to connect them to diagram editors.
-Read more...
-Latest release:
-0.5.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Christian Weichel
-Simon Wegendt
-Committers
-Andreas Muelder
-Christian Weichel
-Robin Herrmann
-Simon Wegendt
-Thomas Kutz
-Mentor
-Pascal Rapicault
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Mita
-Tags
-Technology Types
-Internet of Things
-Language
-Modeling
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-1
-2
-3
-4
-5
-6
-7
-next
-last
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Mita | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"bGFR9ZIEMNrWJLjAcgdpdKzbgAYRso4cpRwfdJ270hQ","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Mita
-Developer Resources
-Eclipse Mita
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
-mita - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse/mita.git
-Browse Repository
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Mita
-Tags
-Technology Types
-Internet of Things
-Language
-Modeling
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
 Eclipse Foundation
 About Us
 Contact Us

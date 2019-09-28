@@ -5,7 +5,6 @@ implements:8
 http:7
 coap:7
 protocols:6
-<:6
 data:5
 api:4
 published:4
@@ -48,3 +47,4 @@ put:2
 post:2
 delete:2
 straighforward:2
+way:2

@@ -66,6 +66,37 @@ Bootstrapious
 .
 Ported to Hugo by
 DevCows
+About
+eclipseFdnVideos.replace();
+About - go to homepage
+Toggle Navigation
+Home
+About
+Blog
+Forum
+Contributing
+Resources
+PMI Community
+About
+January 30, 2018
+Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
+The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
+This ecosystem will provide a comprehensive environment across various frameworks and technologies for # the in-vehicle platform, # the cloud platform, and # an app development IDE - that is, the complete tooling stack for the connected vehicle domain (see Figure 1 below). Essential to this environment will be the capabilities for collecting, storing, and analysing vehicle data in the cloud as well as the transmission of diverse information such as cloud calculation results (e.g. improved routing), software maintenance updates or even complete new applications. While many IoT solutions exist in the Eclipse IoT ecosystem, Eclipse Kuksa combines the necessary existing technologies and fills the gaps for the specific requirements of the connected embedded real-time nature of the automotive domain.
+Search
+Categories
+dissemination (6)
+implementation (3)
+introduction (1)
+rover (1)
+use-cases (1)
+Tags
+appstore
+authentication
+ece18
+ecf18
+implementation
+iot
+koçsistem
 Blogs
 eclipseFdnVideos.replace();
 Blogs - go to homepage
@@ -74,6 +105,65 @@ Home
 About
 Blog
 Forum
+Contributing
+eclipseFdnVideos.replace();
+Contributing - go to homepage
+Toggle Navigation
+Home
+About
+Blog
+Forum
+Contributing
+Resources
+PMI Community
+Contributing
+HowTo contribute to Eclipse Kuksa
+Great that you are interested in contributing to Eclipse Kuksa. We really looking forward to receive your contribution!
+Resources
+eclipseFdnVideos.replace();
+Resources - go to homepage
+Toggle Navigation
+Home
+About
+Blog
+Forum
+Contributing
+Resources
+PMI Community
+Resources
+Getting Started
+A brief documentation link collection can be found
+here
+.
+magazine
+netaş
+otokar
+oulanka
+rover
+sumo
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Eclipse Security
+Eclipse Kuksa
+has its origins in the
+APPSTACLE project
+that is part of the European ITEA3 programme
+Copyright © 2019
+The Eclipse Foundation
+.
+All Rights Reserved.
+Template by
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Unable to connect to the database server at this time(eclipse).
+Unable to connect to the database server at this time(eclipse).
+SQL Trouble:
+Can't create a new thread (errno 11 "Resource temporarily unavailable"); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
 Contributing
 Resources
 PMI Community
@@ -96,6 +186,56 @@ dissemination
 February 15, 2019
 The Turkish consortium composed an article which is published in the monthly public magazine “Otokar Hattı” (“Otokar Production Line” in English). Check it out page 6-7, of the following pdf file: Otokar Hatti. The article is in Turkish Erdem Ergen KoçSistem
 Continue reading
+Get in touch! There is the
+kuksa-dev mailing list
+and a weekly
+Zoom meeting
+, every Thursday 1-2pm (CET/CEST).
+In the project we agreed upon the following approach to add contributions to the project.
+Meet the Definition of Done (DoD)
+A review took place for the code
+The new feature was at least once tested manually, deployed to a running test instance
+Clearly outline third party dependencies
+Definition of Done
+First, we have DoD for solved issues. Please check if you met all the items in the following list:
+File headers in file OK (see section
+License Headers
+for details)
+Each new feature is developed in a separate branch
+Development branches should be named like
+<github-nickname>/<issue>/<description>
+, e.g. bs-jokri/#2/fix-connection-handling
+Coding style
+Clean code is encouraged (see ‘Clean Code’ by Robert C. Martin or the
+Clean Code Cheatsheet
+. Reviewers might refer to specific clean code practices to help improve contributed code.
+GitHub Repositories
+The code is provided in the following Github repositories. Please note that issues are tracked and discussed in the repository of the respective sub-project.
+Eclipse Kuksa IDE:
+https://github.com/eclipse/kuksa.ide
+Browser-based IDE used by developers to create applications for the Eclipse Kuksa in-vehicle platform.
+Eclipse Kuksa Apps:
+https://github.com/eclipse/kuksa.apps
+Contains applications to showcase use-cases of Eclipse Kuksa
+Eclipse Kuksa Cloud:
+https://github.com/eclipse/kuksa.cloud
+The cloud-backend of Eclipse Kuksa, including the App Store
+Eclipse Kuksa In-Vehicle:
+https://github.com/eclipse/kuksa.invehicle
+The in-vehicle platform of Eclipse Kuksa
+Eclipse Kuksa Integration:
+https://github.com/eclipse/kuksa.integration
+Integration tests for Eclipse Kuksa
+Eclipse Kuksa Website:
+https://github.com/eclipse/kuksa.website
+The sources of the Eclipse Kuksa website
+Documentation
+Eclipse Che Kuksa IDE:
+https://gitlab-pages.idial.institute/pedro.cuadrachamorro/kuksa-ide/
+Bootstrapious
+.
+Ported to Hugo by
+DevCows
 Hackathon0119
 January 29, 2019
 Hackathon 2019 The Eclipse Kuksa team met once again for a Hackathon in January 2019 to address Eclipse Kuksa issues and open tasks of our roadmap. We could demo our progress! Appstacle is a running reality now!@BoschSI demoed the Kuksa car appstore pic.twitter.com/2qWCQCbrBv — Appstacle Project (@Appstacle) January 17, 2019 . @kocsystem demoed the Kuksa authentication use case pic.twitter.com/coerDzrzpj — Appstacle Project (@Appstacle) January 17, 2019 . @eTaskit demoed the appstacle hardware pic.
@@ -118,6 +258,50 @@ dissemination
 September 18, 2018
 Interview with Robert Höttger (Fachhochschule Dortmund - University of Applied Science and Arts). Robert presented the recent news about the APPSTACLE project.
 Continue reading
+Avoid (serious) compiler warnings
+All tests pass
+Unit testing as it is already present
+You have more - use them!
+Documentation
+Provide the necessary technical documentation of your feature in the respective Github repository that you contribute to. Documentation is in markdown and it either included in the top-level README.md file of the Github repository, or linked from there.
+Update the high-level overview of Kuksa in the
+kuksa.integration Wiki at Github
+. From the wiki, provide links to relevant technical documentation in the Github repositories.
+Commit style
+Please write brief and useful commit messages: Separate the subject from body with a blank line because the subject line is shown in the git history and should summarize the commit body. Use the body to explain what and why vs. how.
+https://chris.beams.io/posts/git-commit/#seven-rules
+has more tips and details.
+Before you push your commits to a repository, you can squash your commits into one or more logical units of work, e.g. if you want to add a new feature solely in a single commit.
+The
+Pro Git book
+has a great section on
+Rewriting History
+and a section on
+Squashing
+.
+Rebase during pull (i.e.
+Rover Docs:
+https://app4mc-rover.github.io/rover-docs/
+Rover API:
+https://app4mc-rover.github.io/rover-app/
+Rover Telemetry UI
+https://github.com/app4mc-rover/rover-telemetry-ui
+Eclipse Kuksa Wiki:
+https://wiki.eclipse.org/Kuksa
+Entry in Eclipse Foundation Project List:
+https://projects.eclipse.org/projects/iot.kuksa
+Mailing list
+Contact the project developers via the project’s “dev” list.
+https://dev.eclipse.org/mailman/listinfo/kuksa-dev
+Builds
+Jenkins Website:
+https://jenkins.eclipse.org/kuksa/
+APPSTACLE Deliverables and more
+Eclipse Kuksa was created as part of the APPSTACLE project. More information regarding the project and the deliverables is available at
+https://itea3.org/project/appstacle.html
+.
+Videos
+Automotive meets IoT: Innovating your future vehicle
 Eclipse Kuksa Hackathon 08.2018
 in
 Implementation
@@ -141,196 +325,27 @@ Older →
 Search
 Categories
 dissemination (6)
-implementation (3)
-introduction (1)
-rover (1)
-use-cases (1)
-Tags
-appstore
-authentication
-ece18
-ecf18
-implementation
-iot
-koçsistem
-Resources
-eclipseFdnVideos.replace();
-Resources - go to homepage
-Toggle Navigation
-Home
-About
-Blog
-Forum
-Contributing
-Resources
-PMI Community
-Resources
-Getting Started
-A brief documentation link collection can be found
-here
-.
-GitHub Repositories
-The code is provided in the following Github repositories. Please note that issues are tracked and discussed in the repository of the respective sub-project.
-Eclipse Kuksa IDE:
-https://github.com/eclipse/kuksa.ide
-Browser-based IDE used by developers to create applications for the Eclipse Kuksa in-vehicle platform.
-About
-eclipseFdnVideos.replace();
-About - go to homepage
-Toggle Navigation
-Home
-About
-Blog
-Forum
-Contributing
-Resources
-PMI Community
-About
-January 30, 2018
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
-This ecosystem will provide a comprehensive environment across various frameworks and technologies for # the in-vehicle platform, # the cloud platform, and # an app development IDE - that is, the complete tooling stack for the connected vehicle domain (see Figure 1 below). Essential to this environment will be the capabilities for collecting, storing, and analysing vehicle data in the cloud as well as the transmission of diverse information such as cloud calculation results (e.g. improved routing), software maintenance updates or even complete new applications. While many IoT solutions exist in the Eclipse IoT ecosystem, Eclipse Kuksa combines the necessary existing technologies and fills the gaps for the specific requirements of the connected embedded real-time nature of the automotive domain.
-Search
-Categories
-dissemination (6)
-Contributing
-eclipseFdnVideos.replace();
-Contributing - go to homepage
-Toggle Navigation
-Home
-About
-Blog
-Forum
-Contributing
-Resources
-PMI Community
-Contributing
-HowTo contribute to Eclipse Kuksa
-Great that you are interested in contributing to Eclipse Kuksa. We really looking forward to receive your contribution!
-Get in touch! There is the
-kuksa-dev mailing list
-and a weekly
-Zoom meeting
-magazine
-netaş
-otokar
-oulanka
-rover
-sumo
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Eclipse Security
-Eclipse Kuksa
-has its origins in the
-APPSTACLE project
-that is part of the European ITEA3 programme
-Copyright © 2019
-The Eclipse Foundation
-.
-All Rights Reserved.
-Template by
-Bootstrapious
-.
-Ported to Hugo by
-DevCows
-Eclipse Kuksa Apps:
-https://github.com/eclipse/kuksa.apps
-Contains applications to showcase use-cases of Eclipse Kuksa
-Eclipse Kuksa Cloud:
-https://github.com/eclipse/kuksa.cloud
-The cloud-backend of Eclipse Kuksa, including the App Store
-Eclipse Kuksa In-Vehicle:
-https://github.com/eclipse/kuksa.invehicle
-The in-vehicle platform of Eclipse Kuksa
-Eclipse Kuksa Integration:
-https://github.com/eclipse/kuksa.integration
-Integration tests for Eclipse Kuksa
-Eclipse Kuksa Website:
-https://github.com/eclipse/kuksa.website
-The sources of the Eclipse Kuksa website
-Documentation
-Eclipse Che Kuksa IDE:
-https://gitlab-pages.idial.institute/pedro.cuadrachamorro/kuksa-ide/
-Rover Docs:
-https://app4mc-rover.github.io/rover-docs/
-Rover API:
-https://app4mc-rover.github.io/rover-app/
-Rover Telemetry UI
-https://github.com/app4mc-rover/rover-telemetry-ui
-Eclipse Kuksa Wiki:
-https://wiki.eclipse.org/Kuksa
-Entry in Eclipse Foundation Project List:
-https://projects.eclipse.org/projects/iot.kuksa
-implementation (3)
-introduction (1)
-rover (1)
-use-cases (1)
-Tags
-appstore
-authentication
-ece18
-ecf18
-implementation
-iot
-koçsistem
-magazine
-netaş
-otokar
-oulanka
-rover
-sumo
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Eclipse Security
-Eclipse Kuksa
-has its origins in the
-, every Thursday 1-2pm (CET/CEST).
-In the project we agreed upon the following approach to add contributions to the project.
-Meet the Definition of Done (DoD)
-A review took place for the code
-The new feature was at least once tested manually, deployed to a running test instance
-Clearly outline third party dependencies
-Definition of Done
-First, we have DoD for solved issues. Please check if you met all the items in the following list:
-File headers in file OK (see section
-License Headers
-for details)
-Each new feature is developed in a separate branch
-Development branches should be named like
-<github-nickname>/<issue>/<description>
-, e.g. bs-jokri/#2/fix-connection-handling
-Coding style
-Clean code is encouraged (see ‘Clean Code’ by Robert C. Martin or the
-Clean Code Cheatsheet
-. Reviewers might refer to specific clean code practices to help improve contributed code.
-Avoid (serious) compiler warnings
-All tests pass
-Unit testing as it is already present
-You have more - use them!
-Documentation
-Provide the necessary technical documentation of your feature in the respective Github repository that you contribute to. Documentation is in markdown and it either included in the top-level README.md file of the Github repository, or linked from there.
-Update the high-level overview of Kuksa in the
-kuksa.integration Wiki at Github
-Mailing list
-Contact the project developers via the project’s “dev” list.
-https://dev.eclipse.org/mailman/listinfo/kuksa-dev
-Builds
-Jenkins Website:
-https://jenkins.eclipse.org/kuksa/
-APPSTACLE Deliverables and more
-Eclipse Kuksa was created as part of the APPSTACLE project. More information regarding the project and the deliverables is available at
-https://itea3.org/project/appstacle.html
-.
-Videos
-Automotive meets IoT: Innovating your future vehicle
+git pull --rebase
+) instead of merging so all commits can be signed off. You can also
+configure git to rebase by default
+you IDE will also have according configuration options.
+If you are not a committer to the project your commits need to be signed off with a valid Eclipse user account. Check the Eclipse handbook for details (
+Eclipse Project Handbook
+).
+Review
+If you conduct a code review, please look at the following issues:
+Is code style ok, not really formatting, but issues like style attributes in HTML tags or exception handling useful
+Are DoD items reached
+Are there any design / architecture issues
+Does the new feature fit the overall project goal, is it suitable for the community
+Manual Test
+If applicable the new feature should at least be deployed and tested by someone before actually merged to master. This could be done by the same person that is doing the review but could be performed by another person.
+After review and tests are finished it should be documented who actually did the review and the test. Do this with the following lines in the comments of the PR.
+and
+Third party dependencies
+If you use third party content (import / include …), you are required to list each third party content explicitly with its version number in the documentation or your pull-request comment. Please note that GPL software cannot be approved for Eclipse Kuksa.
+Licensing and file header
+All files contributed require headers - this will ensure the license and copyright clearing at the end. Also, all contributions must have the same license as the original source.
 Sebastian Schildt, Bosch
 Bridging Eclipse SUMO with Eclipse Kuksa
 Philipp Heisig, Fachhochschule Dortmund
@@ -347,10 +362,6 @@ APPSTACLE project
 that is part of the European ITEA3 programme
 Copyright © 2019
 The Eclipse Foundation
-APPSTACLE project
-that is part of the European ITEA3 programme
-Copyright © 2019
-The Eclipse Foundation
 .
 All Rights Reserved.
 Template by
@@ -358,53 +369,32 @@ Bootstrapious
 .
 Ported to Hugo by
 DevCows
-. From the wiki, provide links to relevant technical documentation in the Github repositories.
-Commit style
-Please write brief and useful commit messages: Separate the subject from body with a blank line because the subject line is shown in the git history and should summarize the commit body. Use the body to explain what and why vs. how.
-https://chris.beams.io/posts/git-commit/#seven-rules
-has more tips and details.
-Before you push your commits to a repository, you can squash your commits into one or more logical units of work, e.g. if you want to add a new feature solely in a single commit.
-The
-Pro Git book
-has a great section on
-Rewriting History
-and a section on
-Squashing
-.
-Rebase during pull (i.e.
-git pull --rebase
-) instead of merging so all commits can be signed off. You can also
-configure git to rebase by default
-you IDE will also have according configuration options.
-If you are not a committer to the project your commits need to be signed off with a valid Eclipse user account. Check the Eclipse handbook for details (
-Eclipse Project Handbook
-).
-Review
-If you conduct a code review, please look at the following issues:
-Is code style ok, not really formatting, but issues like style attributes in HTML tags or exception handling useful
-Are DoD items reached
-Are there any design / architecture issues
-Does the new feature fit the overall project goal, is it suitable for the community
-Manual Test
-.
-All Rights Reserved.
-Template by
-Bootstrapious
-.
-Ported to Hugo by
-DevCows
-Enabling Open Innovation & Collaboration | The Eclipse Foundation
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
-Skip to main content
-If applicable the new feature should at least be deployed and tested by someone before actually merged to master. This could be done by the same person that is doing the review but could be performed by another person.
-After review and tests are finished it should be documented who actually did the review and the test. Do this with the following lines in the comments of the PR.
-and
-Third party dependencies
-If you use third party content (import / include …), you are required to list each third party content explicitly with its version number in the documentation or your pull-request comment. Please note that GPL software cannot be approved for Eclipse Kuksa.
-Licensing and file header
-All files contributed require headers - this will ensure the license and copyright clearing at the end. Also, all contributions must have the same license as the original source.
+implementation (3)
+introduction (1)
+rover (1)
+use-cases (1)
+Tags
+appstore
+authentication
+ece18
+ecf18
+implementation
+iot
+koçsistem
+magazine
+netaş
+otokar
+oulanka
+rover
+sumo
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Eclipse Security
+Eclipse Kuksa
 https://www.eclipse.org/legal/epl-2.0/faq.php#h.q72cnghf29k0
 We recommend to use the releng copyright tool at:
 https://wiki.eclipse.org/Development_Resources/How_to_Use_Eclipse_Copyright_Tool
@@ -426,37 +416,10 @@ Eclipse Security
 Eclipse Kuksa
 has its origins in the
 APPSTACLE project
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
+that is part of the European ITEA3 programme
+Copyright © 2019
+has its origins in the
+APPSTACLE project
 that is part of the European ITEA3 programme
 Copyright © 2019
 The Eclipse Foundation
@@ -467,108 +430,11 @@ Bootstrapious
 .
 Ported to Hugo by
 DevCows
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-The Platform for Open
-Innovation and Collaboration
-The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
-Members
-Working Groups
-Discover Projects
-Business Value
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-EclipseFoundation
-Sponsored Ad
-Announcements
-2019/09/17
-The Eclipse Foundation Wins Duke's Choice Award for Open Source Contributions to the Java Ecosystem
-The Eclipse Foundation was awarded a Duke's Choice Award yesterday in recognition for outstanding open source contributi...
-2019/09/17
-The Eclipse Foundation Releases Eclipse Che 7, the First Kubernetes-Native IDE, to Make Creating Cloud Native Applications Easier, Faster, and More Secure
-The Eclipse Foundation today announced at the Oracle Code One conference and tradeshow the release of Eclipse Che 7, the...
-2019/09/17
-Eclipse Community Continues to Deliver on Open Source Commitment
-Community is key. And the Eclipse Foundation's community is on a roll.
-2019/09/17
-EclipseCon Europe 2019 Keynotes Announced - Register Now!
-We are excited to announce the keynote speaker lineup for our community's biggest event of the year.
-View all
-Subscribe to our RSS-feed
-Community News
-2019/09/17
-Eclipse Che 7 is now available!
-Che 7 is the biggest release in Eclipse Che history - focused on simplifying writing, building and collaborating on clou...
-2019/09/11
-From building blocks to IoT solutions
-The Eclipse IoT ecosystem consists of around 40 different projects, ranging from embedded devices, to IoT gateways and u...
-2019/09/11
-Jakarta EE 8 Specifications Released by The Eclipse Foundation, Payara Platform Compatibility Coming Soon
-The Jakarta EE 8 Full Platform, Web Profile specifications and related TCKs have been officially released today (Septemb...
-2019/09/11
-Open Liberty is Jakarta EE 8 compatible
-Today is a big day in the enterprise Java world. Two years ago, Oracle announced their intention to move Java EE to the ...
-View all
-Subscribe to our RSS-feed
-Eclipse Foundation by the Numbers
-360+
-Projects
-1550+
-Committers
-275+
-Members
-10
-Working Groups
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
+The Eclipse Foundation
+.
+All Rights Reserved.
+Template by
+Bootstrapious
+.
+Ported to Hugo by
+DevCows

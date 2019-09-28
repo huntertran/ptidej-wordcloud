@@ -5,8 +5,8 @@ Getting Started
 Documentation
 Community
 Latest News
-08/08/2019 -
-Kapua 1.0.7 has been released!
+26/09/2019 -
+Kapua 1.0.8 has been released!
 Eclipse Kapua™
 Modular IoT cloud platform to manage and integrate devices and their data.
 A solid integrated foundation of IoT services for any IoT application.
@@ -47,8 +47,6 @@ Security
 Credits
 Copyright © 2016 The Eclipse Foundation. All Rights Reserved.
 Eclipse Public License | The Eclipse Foundation
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
 Skip to main content
 Log in
 Manage Cookies
@@ -165,10 +163,9 @@ Governance
 Legal Resources
 Contact Us
 Back to the top
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
 Eclipse Foundation
 About Us
 Contact Us
@@ -274,13 +271,24 @@ Topic
 Replies
 Views
 Last message
+Using the Device Asset Write Rest API
+Trying to update the value of a channel using the RestAPI
+By:
+Patrick Sernetz
+on
+Tue, 24 September 2019
+0
+4788
+Tue, 24 September 2019 09:34
+By:
+Patrick Sernetz
 Kapua jobs usage
 By:
 Pedro de Arquer
 on
 Wed, 18 September 2019
 0
-5782
+9598
 Wed, 18 September 2019 12:35
 By:
 Pedro de Arquer
@@ -291,7 +299,7 @@ Oscar oafdin
 on
 Fri, 26 July 2019
 0
-28058
+28068
 Fri, 26 July 2019 09:24
 By:
 Oscar oafdin
@@ -301,7 +309,7 @@ Aistis K
 on
 Tue, 16 July 2019
 0
-22325
+22329
 Tue, 16 July 2019 13:15
 By:
 Aistis K
@@ -311,7 +319,7 @@ Pedro de Arquer
 on
 Thu, 20 June 2019
 2
-23508
+23516
 Mon, 15 July 2019 07:20
 By:
 Pedro de Arquer
@@ -322,7 +330,7 @@ Florian Otto
 on
 Mon, 17 June 2019
 2
-28271
+28275
 Wed, 10 July 2019 07:17
 By:
 Florian Otto
@@ -333,7 +341,7 @@ kiran kumar
 on
 Thu, 03 August 2017
 1
-11224
+11233
 Mon, 01 July 2019 08:42
 By:
 Alberto Codutti
@@ -343,7 +351,7 @@ Riccardo Fontanini
 on
 Sat, 07 January 2017
 3
-18863
+18868
 Mon, 01 July 2019 08:51
 By:
 Alberto Codutti
@@ -354,7 +362,7 @@ Steelix Ruin
 on
 Mon, 11 September 2017
 2
-3436
+3443
 Mon, 01 July 2019 08:56
 By:
 Alberto Codutti
@@ -364,7 +372,7 @@ chebolu dinesh kumar
 on
 Tue, 31 October 2017
 1
-3929
+3935
 Mon, 01 July 2019 09:08
 By:
 Alberto Codutti
@@ -375,7 +383,7 @@ chandhu dangudubiyyam
 on
 Tue, 28 November 2017
 1
-3857
+3862
 Mon, 01 July 2019 09:19
 By:
 Alberto Codutti
@@ -385,7 +393,7 @@ chandhu dangudubiyyam
 on
 Fri, 01 December 2017
 1
-3728
+3733
 Mon, 01 July 2019 09:22
 By:
 Alberto Codutti
@@ -395,7 +403,7 @@ lin yanghuan
 on
 Mon, 15 January 2018
 4
-1590
+1596
 Mon, 01 July 2019 09:28
 By:
 Alberto Codutti
@@ -406,7 +414,7 @@ Blanca Kremer
 on
 Wed, 14 February 2018
 1
-3335
+3344
 Mon, 01 July 2019 09:36
 By:
 Alberto Codutti
@@ -417,7 +425,7 @@ chandhu dangudubiyyam
 on
 Mon, 19 February 2018
 1
-4248
+4255
 Mon, 01 July 2019 09:39
 By:
 Alberto Codutti
@@ -428,7 +436,7 @@ Famory TOURE
 on
 Tue, 20 February 2018
 1
-4132
+4137
 Mon, 01 July 2019 09:48
 By:
 Alberto Codutti
@@ -439,7 +447,7 @@ Ahmad Arif
 on
 Wed, 21 February 2018
 2
-4135
+4139
 Mon, 01 July 2019 10:00
 By:
 Alberto Codutti
@@ -449,7 +457,7 @@ Valentas Malakauskas
 on
 Tue, 20 March 2018
 1
-3915
+3920
 Mon, 01 July 2019 10:07
 By:
 Alberto Codutti
@@ -460,7 +468,7 @@ Hemant Sangle
 on
 Wed, 23 May 2018
 1
-3047
+3052
 Mon, 01 July 2019 10:10
 By:
 Alberto Codutti
@@ -470,7 +478,7 @@ lin yanghuan
 on
 Tue, 19 December 2017
 3
-5764
+5781
 Mon, 01 July 2019 10:13
 By:
 Alberto Codutti
@@ -481,7 +489,7 @@ Sean McCarthy
 on
 Sun, 28 April 2019
 3
-928
+942
 Mon, 01 July 2019 10:24
 By:
 Alberto Codutti
@@ -492,7 +500,7 @@ Florian Otto
 on
 Fri, 22 February 2019
 4
-7919
+7928
 Mon, 01 July 2019 10:35
 By:
 Alberto Codutti
@@ -502,7 +510,7 @@ xu taifeng
 on
 Fri, 15 March 2019
 1
-7122
+7127
 Mon, 01 July 2019 10:38
 By:
 Alberto Codutti
@@ -513,7 +521,7 @@ Entao Liang
 on
 Sat, 02 March 2019
 2
-31281
+31288
 Mon, 01 July 2019 10:44
 By:
 Alberto Codutti
@@ -524,7 +532,7 @@ fatih ayvaz
 on
 Wed, 11 October 2017
 5
-2724
+2737
 Mon, 01 July 2019 10:47
 By:
 Alberto Codutti
@@ -534,7 +542,7 @@ Aistis K
 on
 Tue, 18 June 2019
 2
-24665
+24678
 Thu, 04 July 2019 13:10
 By:
 Aistis K
@@ -544,7 +552,7 @@ Pedro de Arquer
 on
 Thu, 02 May 2019
 0
-28163
+28169
 Thu, 02 May 2019 14:02
 By:
 Pedro de Arquer
@@ -554,7 +562,7 @@ Pearl Kemp
 on
 Wed, 20 February 2019
 0
-7076
+7080
 Wed, 20 February 2019 04:26
 By:
 Pearl Kemp
@@ -564,7 +572,7 @@ Thomas Hornstein
 on
 Fri, 11 January 2019
 0
-2268
+2272
 Fri, 11 January 2019 11:31
 By:
 Thomas Hornstein
@@ -575,7 +583,7 @@ Pedro de Arquer
 on
 Fri, 21 December 2018
 0
-511
+515
 Fri, 21 December 2018 11:01
 By:
 Pedro de Arquer
@@ -585,7 +593,7 @@ Luigi Saetta
 on
 Sun, 09 December 2018
 0
-1569
+1577
 Sun, 09 December 2018 18:53
 By:
 Luigi Saetta
@@ -596,7 +604,7 @@ Güven Yücetürk
 on
 Thu, 29 November 2018
 0
-1449
+1453
 Thu, 29 November 2018 14:16
 By:
 Güven Yücetürk
@@ -607,7 +615,7 @@ Dusan Zivkovic
 on
 Thu, 30 November 2017
 6
-3958
+3977
 Fri, 09 November 2018 13:45
 By:
 Güven Yücetürk
@@ -618,7 +626,7 @@ Cris Danci
 on
 Thu, 20 September 2018
 1
-3984
+3992
 Thu, 18 October 2018 13:06
 By:
 Riccardo Modanese
@@ -628,7 +636,7 @@ Bruno Wandrey
 on
 Fri, 28 September 2018
 0
-631
+636
 Fri, 28 September 2018 14:15
 By:
 Bruno Wandrey
@@ -638,7 +646,7 @@ Wilfried Slamanig
 on
 Wed, 04 July 2018
 1
-2466
+2472
 Thu, 30 August 2018 18:01
 By:
 Wilfried Slamanig
@@ -648,7 +656,7 @@ Wilfried Slamanig
 on
 Wed, 16 May 2018
 2
-2859
+2868
 Thu, 30 August 2018 17:54
 By:
 Wilfried Slamanig
@@ -658,7 +666,7 @@ Mohab Aly
 on
 Thu, 12 July 2018
 0
-1587
+1592
 Thu, 12 July 2018 14:05
 By:
 Mohab Aly
@@ -669,7 +677,7 @@ Boitumelo Mahlobo
 on
 Tue, 12 June 2018
 0
-2431
+2436
 Tue, 12 June 2018 07:54
 By:
 Boitumelo Mahlobo
@@ -679,7 +687,7 @@ Javier A.
 on
 Tue, 12 December 2017
 3
-7054
+7059
 Mon, 26 February 2018 08:27
 By:
 Ahmad Arif
@@ -690,7 +698,7 @@ Hemant Sangle
 on
 Wed, 10 January 2018
 1
-1787
+1798
 Thu, 11 January 2018 14:10
 By:
 Milan Ggg
@@ -701,7 +709,7 @@ Rozen Chen
 on
 Sun, 07 January 2018
 0
-2553
+2559
 Sun, 07 January 2018 09:28
 By:
 Rozen Chen
@@ -711,7 +719,7 @@ Muhammad Kamran
 on
 Wed, 22 November 2017
 2
-4549
+4560
 Wed, 20 December 2017 13:08
 By:
 Milan Ggg
@@ -721,7 +729,7 @@ Raghu Akella
 on
 Tue, 05 September 2017
 1
-13132
+13139
 Thu, 14 December 2017 16:35
 By:
 Riccardo Modanese
@@ -731,7 +739,7 @@ lin yanghuan
 on
 Tue, 12 December 2017
 8
-4815
+4832
 Thu, 14 December 2017 06:14
 By:
 lin yanghuan
@@ -741,7 +749,7 @@ Roger Hislop
 on
 Tue, 28 November 2017
 6
-4460
+4467
 Mon, 11 December 2017 13:45
 By:
 Roger Hislop
@@ -752,7 +760,7 @@ chebolu dinesh kumar
 on
 Tue, 07 November 2017
 1
-3438
+3444
 Fri, 10 November 2017 08:35
 By:
 Milan Ggg
@@ -762,7 +770,7 @@ Raghu Akella
 on
 Wed, 06 September 2017
 2
-14116
+14123
 Mon, 06 November 2017 09:16
 By:
 Milan Ggg
@@ -773,7 +781,7 @@ chebolu dinesh kumar
 on
 Mon, 16 October 2017
 1
-2865
+2869
 Thu, 26 October 2017 13:41
 By:
 Milan Ggg
@@ -783,7 +791,7 @@ Joe Clark
 on
 Wed, 20 September 2017
 0
-9392
+9397
 Wed, 20 September 2017 11:16
 By:
 Joe Clark
@@ -794,7 +802,7 @@ Ramesh Babu Atta
 on
 Tue, 11 July 2017
 3
-11767
+11775
 Tue, 05 September 2017 08:53
 By:
 Milan Ggg
@@ -805,7 +813,7 @@ Ramesh Babu Atta
 on
 Thu, 13 July 2017
 1
-11397
+11404
 Thu, 24 August 2017 11:22
 By:
 Leonardo Gaube
@@ -816,7 +824,7 @@ Prz J
 on
 Mon, 17 July 2017
 2
-8747
+8755
 Thu, 24 August 2017 11:21
 By:
 Leonardo Gaube
@@ -827,7 +835,7 @@ yuval zohar
 on
 Thu, 22 December 2016
 1
-10063
+10071
 Thu, 24 August 2017 11:18
 By:
 Leonardo Gaube
@@ -837,7 +845,7 @@ Pablo Chacin
 on
 Tue, 29 November 2016
 3
-13171
+13182
 Thu, 24 August 2017 11:15
 By:
 Leonardo Gaube
@@ -848,7 +856,7 @@ sainath thota
 on
 Thu, 13 July 2017
 2
-5093
+5104
 Wed, 23 August 2017 06:16
 By:
 Leonardo Gaube
@@ -858,7 +866,7 @@ Eclipse Webmaster
 on
 Fri, 08 July 2016
 0
-911
+915
 Fri, 08 July 2016 17:55
 By:
 Eclipse Webmaster
@@ -1330,10 +1338,10 @@ Locked (w/ unread messages)
 Locked
 Moved to another forum
 Current Time:
-Sat Sep 21 19:47:38 GMT 2019
+Sat Sep 28 19:59:08 GMT 2019
 Powered by
 FUDForum
-. Page generated in 0.01970 seconds
+. Page generated in 0.01719 seconds
 .::
 Contact
 ::

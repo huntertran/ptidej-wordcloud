@@ -78,8 +78,6 @@ Terms of Use
 ·
 Legal Resources
 Legal Resources | The Eclipse Foundation
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
 Skip to main content
 Log in
 Manage Cookies
@@ -210,6 +208,17 @@ This document contains the guidelines for the review of third-party dependencies
 Committer Guidelines:
 This document outlines the issues to be aware of and the processes one should follow when working as a committer on Eclipse.org projects. A committer is a person that has been granted commit rights to systems on the Eclipse.org servers such as git repositories, web pages, download servers, mailing lists and so forth.
 Contribution Questionnaire:
+Eclipse Foundation Website Privacy Policy | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
 A Contribution Questionnaires (CQ) is the main interface between Eclipse committers and the Intellectual Property Management Team. Prior to committing a significant contribution of content to an Eclipse Foundation project, the committer must fill out this questionnaire and submit it to the Eclipse Management Organization (EMO) for approval. In addition to the EMO, the relevant PMC must also provide a technical review and approval of the contribution. Follow the link to find out more about what we mean by "significant contribution". Bug fixes or minor enhancements do not require PMC or EMO approval.
 "About" Templates:
 This provides templates for the "about.html" ("About") files used to describe EPL-licensed content.
@@ -232,6 +241,30 @@ EPL-2.0
 Plain HTML
 Plain Text
 PDF
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
 FAQ
 EPL-1.0
 Plain HTML
@@ -254,6 +287,42 @@ Logo and Artwork
 Board of Directors
 Legal
 Privacy Policy
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Legal
+Eclipse Foundation Website Privacy ...
+Eclipse Foundation Website Privacy Policy
+Eclipse.org Terms of Use | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
 Terms of Use
 Copyright Agent
 Eclipse Public License
@@ -275,8 +344,6 @@ Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
 Copyright Agent | The Eclipse Foundation
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/2019-06-bg.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
 Skip to main content
 Log in
 Manage Cookies
@@ -285,28 +352,25 @@ Members
 Working Groups
 Projects
 Community
-Eclipse.org Terms of Use | The Eclipse Foundation
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Eclipse Foundation Website Privacy Policy | The Eclipse Foundation
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/2019-06-bg.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
 Marketplace
 Events
-Planet Eclipse
+May 24, 2018
+The Eclipse Foundation, Inc. ("Eclipse Foundation", "Us" or "We") is a member-supported not-for-profit foundation which acts as the steward of our open source projects, community, and ecosystem. We are committed to our community members’ rights to privacy. We promise to share transparently all aspects of how Eclipse Foundation projects and websites work in regards to privacy, terms, and personal data, and We are in full support of efforts to ensure your protection online. We only collect your personal data with your consent, and collect only as much as We need to provide you the service you request. For example, We need your personal data to register you to one of our conferences. Each time We collect additional personal data from you We will explain what We collect, why We need it, how We use it, how long We keep it, and how We protect it.
+You can withdraw consent anytime. We will respect your wishes.
+Personal Information on Eclipse Foundation Websites
+As a platform for open source innovation and collaboration, personal information on all Eclipse Foundation websites is either meant to be shared, for example records of your contributions to our open source projects, or protected, such as your name and email address when you subscribe to our newsletter.
+Any personal data you share with Us, We protect according to this Privacy policy.
+Individual Access to Personal Information
+We will respond within 30 days to your requests to have access to your personal information collected by Us. We will promptly correct inaccuracies, as the case may be, and We will delete it and/or anonymize it upon your request. Please contact
+privacy@eclipse.org
+to make such a request.
+Information Security and Quality
+We protect the integrity of your personal information with appropriate technical and organizational measures, such as using encryption for transmission of certain forms of information, to help keep it secure, accurate, current, and complete.
+Your personal information may be stored in Canada, the European Union and the United States, always with our same high security standards.
+One of the primary purposes of the Eclipse Foundation and its websites is to enable collaborative open source software development. Doing so necessarily requires Us to maintain records of authorship related to all contributions. Any personally identifiable information collected by virtue of your contributions will be publicly available on the Internet in unencrypted form and without access restriction.
+We also offer services to our community which provide the ability for users of Eclipse software to store data on Eclipse Foundation servers through services including, but not limited to, the User Storage Service and the Automated Error Reporting Initiative. Any data stored through these services will be publicly available on the Internet in unencrypted form and without access restriction. Therefore, you should not use these services to store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available.
+Clickstream Data and Cookies
+We sometimes collect anonymous information from visits and contributions to Eclipse Foundation websites to help provide better service. For example, We keep track of the domains from which people visit and We also measure visitor activity on Eclipse Foundation websites, but in ways that keep the information anonymous. This anonymous information is sometimes known as "clickstream data." We may use and aggregate this data to analyze trends and statistics and to help Us tailor our websites to better serve Eclipse participants.
 Newsletter
 Videos
 Blogs
@@ -331,86 +395,8 @@ Marketplace
 Events
 Planet Eclipse
 Newsletter
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-Enabling Open Innovation & Collaboration | The Eclipse Foundation
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
 Eclipse Community Forums: Eclipse SmartHome
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/2019-06-bg.jpg);}
-.featured-story-block-content:before {background-image:url(//www.eclipse.org/home/images/ece2019-register-today.jpg);}
-var eclipse_org_common = {"settings":{"cookies_class":{"name":"eclipse_settings","enabled":1}}}
+Enabling Open Innovation & Collaboration | The Eclipse Foundation
 Skip to main content
 Log in
 Manage Cookies
@@ -427,18 +413,6 @@ Videos
 Blogs
 Participate
 Report a Bug
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
 Forums
 Mailing Lists
 Wiki
@@ -450,6 +424,48 @@ Learn More
 Documentation
 Getting Started / Support
 How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Business Relationships
+This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
+Notification of Changes
+This privacy statement was last updated on May 24, 2018. A notice will be posted on this website home page for thirty (30) days whenever this privacy statement is changed.
+Questions Regarding This Policy
+Questions regarding this Privacy policy should be directed to:
+privacy@eclipse.org
+.
+Related Links
+Legal resources
+Guide to legal documents
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
+EPL-2.0
+Plain HTML
+Plain Text
+PDF
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
 Learn More
 Documentation
 Getting Started / Support
@@ -460,17 +476,10 @@ Toggle navigation
 Breadcrumbs
 Home
 Legal
-Copyright Agent
-Copyright Agent
-We respect the intellectual property rights of others, and require that the people who use the Site do the same. We also maintain a policy under which the Web Site use privileges of users who are repeat infringers of intellectual property rights are terminated in appropriate circumstances. If you believe that your work has been copied in a way that constitutes copyright infringement, please forward the following information to Eclipse's Copyright Agent, designated as such pursuant to the Digital Millennium Copyright Act, 17 U.S.C. § 512(c)(2), named below:
-Your address, telephone number, and email address;
-A description of the copyrighted work that you claim has been infringed;
-A description of where the alleged infringing material is located;
-A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
-An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; and
-A statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
-Copyright Agent:
-Manager, Intellectual Property
+Eclipse.org Terms of Use
+Eclipse.org Terms of Use
+April 5, 2019
+Terms and Conditions of Use for the Eclipse Foundation Web Site and Related Services
 Skip to main content
 Downloads
 Members
@@ -493,27 +502,15 @@ Eclipse IDE
 Download
 Documentation
 Getting Started / Support
+How to Contribute
 IDE and Tools
 Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Eclipse.org Terms of Use
-Eclipse.org Terms of Use
-April 5, 2019
-Terms and Conditions of Use for the Eclipse Foundation Web Site and Related Services
-As used herein, the term “you” means the individual accessing this Web site, as well as any person or entity which has granted to such individual the authority to enter into this agreement on its behalf. By accessing, browsing, or using this Web site, you acknowledge that you have read, understand, and agree to be bound by these terms.
-This Web site and related services are made available by the Eclipse Foundation. All software, documentation, information and/or other materials provided on and through this Web site ("Content") and all of the related services offered by the Eclipse Foundation may be used solely under the following terms and conditions ("Terms of Use").
-This Web site may contain other proprietary notices and copyright information, the terms of which must be observed and followed. The Content on this Web site may contain technical inaccuracies or typographical errors and may be changed or updated without notice. The Eclipse Foundation may also make improvements and/or changes to the Content at any time without notice.
-Neither the Eclipse Foundation nor its members ("Members") assume any responsibility regarding the accuracy of the Content and use of the Content is at the recipient’s own risk. Neither the Eclipse Foundation nor its Members provide any assurances that any reported problems with any Content will be resolved. Except as otherwise expressly stated herein or in another applicable license, by providing the Content, neither the Eclipse Foundation nor the Members grant any licenses to any copyrights, patents or any other intellectual property rights in the Content.
-The Eclipse Foundation and the Members do not want to receive confidential information from you through this Web site and related services. Please note that any information or material sent to The Eclipse Foundation or the Members will be deemed NOT to be confidential and will be publicly available.
-You are prohibited from posting, transmitting, or storing to or from this Web site or to any service offered by the Eclipse Foundation any unlawful, threatening, libelous, defamatory, obscene, scandalous, inflammatory, pornographic, or profane material, or any other material that could give rise to any civil or criminal liability under the law.
-If you believe that Content residing or accessible on or through this Web site or any UDS infringes a copyright, please send a notice of copyright infringement to our designated agent pursuant to the procedures set forth here:
-https://www.eclipse.org/legal/copyright.php
-User Data Services ("UDS")
-CC0 1.0 Creative Commons
-license, where, for purposes of that license, the Stored Information shall constitute the “Work” and you shall be the “Affirmer”. What that means is that anybody who accesses your information on the Internet has a worldwide, unrestricted, royalty free, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer the Stored Information without any obligation to you, including any obligation of attribution.
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
 Forums
 Mailing Lists
 Wiki
@@ -540,55 +537,63 @@ Report a Bug
 Forums
 Mailing Lists
 Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
 IDE and Tools
 Newcomer Forum
 Toggle navigation
 Breadcrumbs
 Home
 Legal
-Eclipse Foundation Website Privacy ...
-Eclipse Foundation Website Privacy Policy
-May 24, 2018
-The Eclipse Foundation, Inc. ("Eclipse Foundation", "Us" or "We") is a member-supported not-for-profit foundation which acts as the steward of our open source projects, community, and ecosystem. We are committed to our community members’ rights to privacy. We promise to share transparently all aspects of how Eclipse Foundation projects and websites work in regards to privacy, terms, and personal data, and We are in full support of efforts to ensure your protection online. We only collect your personal data with your consent, and collect only as much as We need to provide you the service you request. For example, We need your personal data to register you to one of our conferences. Each time We collect additional personal data from you We will explain what We collect, why We need it, how We use it, how long We keep it, and how We protect it.
-You can withdraw consent anytime. We will respect your wishes.
-Personal Information on Eclipse Foundation Websites
-As a platform for open source innovation and collaboration, personal information on all Eclipse Foundation websites is either meant to be shared, for example records of your contributions to our open source projects, or protected, such as your name and email address when you subscribe to our newsletter.
-Any personal data you share with Us, We protect according to this Privacy policy.
-Individual Access to Personal Information
-We will respond within 30 days to your requests to have access to your personal information collected by Us. We will promptly correct inaccuracies, as the case may be, and We will delete it and/or anonymize it upon your request. Please contact
-privacy@eclipse.org
-to make such a request.
-Information Security and Quality
-We protect the integrity of your personal information with appropriate technical and organizational measures, such as using encryption for transmission of certain forms of information, to help keep it secure, accurate, current, and complete.
-Your personal information may be stored in Canada, the European Union and the United States, always with our same high security standards.
-Eclipse Foundation, Inc.
-2934 Baseline Rd Suite 202
-Ottawa, Ontario
-Canada
-K2H 8T5
-Phone: +1.613.224.9461
-Fax: +1.212.918.1619
-Email: license@eclipse.org
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
+FAQ
+EPL-1.0
 Plain HTML
 Plain Text
-PDF
 FAQ
-How to Contribute
-IDE and Tools
-Newcomer Forum
+Licenses
+Approved 3rd Party
+Non Approved
+Docs & examples
+Back to the top
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+As used herein, the term “you” means the individual accessing this Web site, as well as any person or entity which has granted to such individual the authority to enter into this agreement on its behalf. By accessing, browsing, or using this Web site, you acknowledge that you have read, understand, and agree to be bound by these terms.
+This Web site and related services are made available by the Eclipse Foundation. All software, documentation, information and/or other materials provided on and through this Web site ("Content") and all of the related services offered by the Eclipse Foundation may be used solely under the following terms and conditions ("Terms of Use").
+This Web site may contain other proprietary notices and copyright information, the terms of which must be observed and followed. The Content on this Web site may contain technical inaccuracies or typographical errors and may be changed or updated without notice. The Eclipse Foundation may also make improvements and/or changes to the Content at any time without notice.
+Neither the Eclipse Foundation nor its members ("Members") assume any responsibility regarding the accuracy of the Content and use of the Content is at the recipient’s own risk. Neither the Eclipse Foundation nor its Members provide any assurances that any reported problems with any Content will be resolved. Except as otherwise expressly stated herein or in another applicable license, by providing the Content, neither the Eclipse Foundation nor the Members grant any licenses to any copyrights, patents or any other intellectual property rights in the Content.
+The Eclipse Foundation and the Members do not want to receive confidential information from you through this Web site and related services. Please note that any information or material sent to The Eclipse Foundation or the Members will be deemed NOT to be confidential and will be publicly available.
+You are prohibited from posting, transmitting, or storing to or from this Web site or to any service offered by the Eclipse Foundation any unlawful, threatening, libelous, defamatory, obscene, scandalous, inflammatory, pornographic, or profane material, or any other material that could give rise to any civil or criminal liability under the law.
+If you believe that Content residing or accessible on or through this Web site or any UDS infringes a copyright, please send a notice of copyright infringement to our designated agent pursuant to the procedures set forth here:
+https://www.eclipse.org/legal/copyright.php
+User Data Services ("UDS")
+CC0 1.0 Creative Commons
+license, where, for purposes of that license, the Stored Information shall constitute the “Work” and you shall be the “Affirmer”. What that means is that anybody who accesses your information on the Internet has a worldwide, unrestricted, royalty free, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer the Stored Information without any obligation to you, including any obligation of attribution.
+Eclipse reserves the right to discontinue these services at any time or to remove any specific Stored Information from owned or controlled computer systems at any time, and Eclipse does not commit to making Stored Information available at all times in the future.
+Licenses
+Except for Content available through the UDS, and except as otherwise stated herein, the Content provided on this Web site is provided under the terms and conditions of the
+Eclipse Foundation Software User Agreement
+and those additional terms, conditions and notices referenced therein.
+If Content is licensed to you under the terms and conditions of a version of the Eclipse Public License ("
+EPL
+"), with respect to such Content, the term “Contributions” as used herein shall have the meaning provided in the EPL, and any such Contributions uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site shall be governed by the terms and conditions of the EPL and can be made available to others under the terms of the EPL.
+If Content is licensed to you under license terms and conditions other than the EPL ("Other License") with respect to such Content the term “Contributions “ as used herein shall mean any modifications, enhancements and/or other code and/or documentation related to such Content uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site, and such Contributions shall be subject to and governed by the terms and conditions of the Other License. In addition, with regard to such Contributions, you agree to provide the Contributions under the terms and conditions of the EPL, provided however that the Eclipse Foundation shall have the right to reject any Contributions if the acceptance by the Eclipse Foundation would be in any way inconsistent with the Eclipse Foundation's Intellectual Property Policy.
 More
 Community
 Marketplace
@@ -607,26 +612,21 @@ Eclipse IDE
 Download
 Documentation
 Getting Started / Support
-Eclipse reserves the right to discontinue these services at any time or to remove any specific Stored Information from owned or controlled computer systems at any time, and Eclipse does not commit to making Stored Information available at all times in the future.
-Licenses
-Except for Content available through the UDS, and except as otherwise stated herein, the Content provided on this Web site is provided under the terms and conditions of the
-Eclipse Foundation Software User Agreement
-and those additional terms, conditions and notices referenced therein.
-If Content is licensed to you under the terms and conditions of a version of the Eclipse Public License ("
-EPL
-"), with respect to such Content, the term “Contributions” as used herein shall have the meaning provided in the EPL, and any such Contributions uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site shall be governed by the terms and conditions of the EPL and can be made available to others under the terms of the EPL.
-If Content is licensed to you under license terms and conditions other than the EPL ("Other License") with respect to such Content the term “Contributions “ as used herein shall mean any modifications, enhancements and/or other code and/or documentation related to such Content uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site, and such Contributions shall be subject to and governed by the terms and conditions of the Other License. In addition, with regard to such Contributions, you agree to provide the Contributions under the terms and conditions of the EPL, provided however that the Eclipse Foundation shall have the right to reject any Contributions if the acceptance by the Eclipse Foundation would be in any way inconsistent with the Eclipse Foundation's Intellectual Property Policy.
-In addition to the licenses granted above, you grant a non-exclusive, worldwide, perpetual, royalty-free license of all necessary rights under your copyright in and to your Contributions (the “Specification Grant”): (a) for the Eclipse Foundation (and its contributors solely as a part of Eclipse Foundation projects) to create, reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense specifications subject to the terms of the then-current
-Eclipse Foundation Specification License
-, based on or derived from the Specification Content (as defined below) and (b) for recipients of such specifications to create, reproduce, and distribute implementations thereof based on the portion of your Contributions or material derived from them in the specifications, subject to the terms of the then-current
-Eclipse Foundation Specification License
-.
-“Specification Content” is the collection of interface definitions for the application or user interfaces (“Interfaces”) provided by the work to which your Contribution was made, descriptions of the structure and semantic behavior of those Interfaces, and data formats and protocols associated with those Interfaces, all of which as are reasonably necessary to enable the development of independent implementations of those Interfaces. For the sake of clarity, Specification Content does not include implementation detail of how the Eclipse project code or your Contribution implements the Interfaces in the Specification and the Specification Grant provide above would not cover such additional material.
-To the extent you submit or otherwise make available to an Eclipse Foundation Specification Project (as that term is defined by the Intellectual Property Policy) any ideas, concepts, methods or other information, you agree that you will not assert, based on such submissions, any intellectual property rights that are essential to any implementation of the submission, against the Eclipse Foundation, its contributors, or its licensees, with respect to any implementation of such Specification (as that term is defined by the Eclipse Foundation Specification Process). To further clarify, such submissions include, but are not limited to, submissions made to any public communications channel such as an email list, forum, or bug report.
-To the extent you wish to upload, submit, or otherwise make Non-Code Content (as defined below) available to the Eclipse Foundation and/or the Members and/or users of this Web site, you may make that material available under the terms and conditions of the EPL or any other license stipulated for that purpose at
-www.eclipse.org/legal
-. Non-Code Content is Content for which you own or control all rights, and which is not program code intended to be submitted to a Project (or documentation related to such code) and which is not Stored Information. For example, Non-Code Content would include white papers, dissertations, articles or other literary works, power point presentations, encyclopedias, anthologies, wikis, blogs, diagrams, drawings, sketches, photos or other images, audio content, video content and audiovisual materials.
-For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively "Material"), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Projects
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
 IRC
 Research
 Eclipse IDE
@@ -643,63 +643,66 @@ Innovation and Collaboration
 The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
 Members
 Working Groups
-Discover Projects
-Business Value
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Itemis
-Sponsored Ad
-Announcements
-One of the primary purposes of the Eclipse Foundation and its websites is to enable collaborative open source software development. Doing so necessarily requires Us to maintain records of authorship related to all contributions. Any personally identifiable information collected by virtue of your contributions will be publicly available on the Internet in unencrypted form and without access restriction.
-We also offer services to our community which provide the ability for users of Eclipse software to store data on Eclipse Foundation servers through services including, but not limited to, the User Storage Service and the Automated Error Reporting Initiative. Any data stored through these services will be publicly available on the Internet in unencrypted form and without access restriction. Therefore, you should not use these services to store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available.
-Clickstream Data and Cookies
-We sometimes collect anonymous information from visits and contributions to Eclipse Foundation websites to help provide better service. For example, We keep track of the domains from which people visit and We also measure visitor activity on Eclipse Foundation websites, but in ways that keep the information anonymous. This anonymous information is sometimes known as "clickstream data." We may use and aggregate this data to analyze trends and statistics and to help Us tailor our websites to better serve Eclipse participants.
-Business Relationships
-This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
-Notification of Changes
-This privacy statement was last updated on May 24, 2018. A notice will be posted on this website home page for thirty (30) days whenever this privacy statement is changed.
-Questions Regarding This Policy
-Questions regarding this Privacy policy should be directed to:
-privacy@eclipse.org
-.
+Copyright Agent
+Copyright Agent
+We respect the intellectual property rights of others, and require that the people who use the Site do the same. We also maintain a policy under which the Web Site use privileges of users who are repeat infringers of intellectual property rights are terminated in appropriate circumstances. If you believe that your work has been copied in a way that constitutes copyright infringement, please forward the following information to Eclipse's Copyright Agent, designated as such pursuant to the Digital Millennium Copyright Act, 17 U.S.C. § 512(c)(2), named below:
+Your address, telephone number, and email address;
+A description of the copyrighted work that you claim has been infringed;
+A description of where the alleged infringing material is located;
+A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
+An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; and
+A statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
+Copyright Agent:
+Manager, Intellectual Property
+Eclipse Foundation, Inc.
+2934 Baseline Rd Suite 202
+Ottawa, Ontario
+Canada
+K2H 8T5
+Phone: +1.613.224.9461
+Fax: +1.212.918.1619
+Email: license@eclipse.org
 Related Links
 Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
 How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
 IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Projects
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+In addition to the licenses granted above, you grant a non-exclusive, worldwide, perpetual, royalty-free license of all necessary rights under your copyright in and to your Contributions (the “Specification Grant”): (a) for the Eclipse Foundation (and its contributors solely as a part of Eclipse Foundation projects) to create, reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense specifications subject to the terms of the then-current
+Eclipse Foundation Specification License
+, based on or derived from the Specification Content (as defined below) and (b) for recipients of such specifications to create, reproduce, and distribute implementations thereof based on the portion of your Contributions or material derived from them in the specifications, subject to the terms of the then-current
+Eclipse Foundation Specification License
+.
+“Specification Content” is the collection of interface definitions for the application or user interfaces (“Interfaces”) provided by the work to which your Contribution was made, descriptions of the structure and semantic behavior of those Interfaces, and data formats and protocols associated with those Interfaces, all of which as are reasonably necessary to enable the development of independent implementations of those Interfaces. For the sake of clarity, Specification Content does not include implementation detail of how the Eclipse project code or your Contribution implements the Interfaces in the Specification and the Specification Grant provide above would not cover such additional material.
+To the extent you submit or otherwise make available to an Eclipse Foundation Specification Project (as that term is defined by the Intellectual Property Policy) any ideas, concepts, methods or other information, you agree that you will not assert, based on such submissions, any intellectual property rights that are essential to any implementation of the submission, against the Eclipse Foundation, its contributors, or its licensees, with respect to any implementation of such Specification (as that term is defined by the Eclipse Foundation Specification Process). To further clarify, such submissions include, but are not limited to, submissions made to any public communications channel such as an email list, forum, or bug report.
+To the extent you wish to upload, submit, or otherwise make Non-Code Content (as defined below) available to the Eclipse Foundation and/or the Members and/or users of this Web site, you may make that material available under the terms and conditions of the EPL or any other license stipulated for that purpose at
+www.eclipse.org/legal
+. Non-Code Content is Content for which you own or control all rights, and which is not program code intended to be submitted to a Project (or documentation related to such code) and which is not Stored Information. For example, Non-Code Content would include white papers, dissertations, articles or other literary works, power point presentations, encyclopedias, anthologies, wikis, blogs, diagrams, drawings, sketches, photos or other images, audio content, video content and audiovisual materials.
+For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively "Material"), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+You represent and warrant that to your knowledge, you have sufficient rights in the Materials to grant the foregoing rights and licenses.
+All logos and trademarks contained on this Web site are and remain the property of their respective owners. No licenses or other rights in or to such logos and/or trademarks are granted to you.
+You can learn more about the
+Eclipse.org privacy practices
+on the Web.
+Disclaimers
+The Eclipse Foundation and the Members make no representations whatsoever about any other Web site that you may access through this Web site. When you access a non-Eclipse Foundation Web site, even one that may contain the organization’s name or mark, please understand that it is independent from the Eclipse Foundation, and that the Eclipse Foundation and the Members have no control over the content on such Web site. In addition, a link to a non-Eclipse Foundation Web site does not mean that the Eclipse Foundation or the Members endorse or accept any responsibility for the content, or the use, of such Web site. It is up to you to take precautions to ensure that whatever you select for your use is free of such items as viruses, worms, Trojan horses and other items of a destructive nature.
+IN NO EVENT WILL THE ECLIPSE FOUNDATION AND/OR THE MEMBERS BE LIABLE TO YOU (AN INDIVIDUAL OR ENTITY) OR ANY OTHER INDIVIDUAL OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL OR CONSEQUENTIAL DAMAGES RELATED TO ANY USE OF THIS WEB SITE, THE CONTENT, STORED INFORMATION, OR ANY OTHER HYPER LINKED WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, LOST SALES, LOST REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON YOUR OR OUR INFORMATION HANDLING SYSTEMS OR OTHERWISE, EVEN IF THE ECLIPSE FOUNDATION OR THE MEMBERS ARE EXPRESSLY ADVISED OR AWARE OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES.
+ALL CONTENT IS PROVIDED BY THE ECLIPSE FOUNDATION AND/OR THE MEMBERS ON AN "AS IS" BASIS ONLY. THE ECLIPSE FOUNDATION AND THE MEMBERS PROVIDE NO REPRESENTATIONS, CONDITIONS AND/OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT. THE ECLIPSE FOUNDATION MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SECURITY OF ANY INOFRMATION OR CONTENT STORED WITH THE ECLIPSE FOUNDATION.
 Forums
 Eclipse Community Forums
 Forum Search:
@@ -717,15 +720,61 @@ Show:
 Today's Messages
 ::
 Unanswered Messages
-You represent and warrant that to your knowledge, you have sufficient rights in the Materials to grant the foregoing rights and licenses.
-All logos and trademarks contained on this Web site are and remain the property of their respective owners. No licenses or other rights in or to such logos and/or trademarks are granted to you.
-You can learn more about the
-Eclipse.org privacy practices
-on the Web.
-Disclaimers
-The Eclipse Foundation and the Members make no representations whatsoever about any other Web site that you may access through this Web site. When you access a non-Eclipse Foundation Web site, even one that may contain the organization’s name or mark, please understand that it is independent from the Eclipse Foundation, and that the Eclipse Foundation and the Members have no control over the content on such Web site. In addition, a link to a non-Eclipse Foundation Web site does not mean that the Eclipse Foundation or the Members endorse or accept any responsibility for the content, or the use, of such Web site. It is up to you to take precautions to ensure that whatever you select for your use is free of such items as viruses, worms, Trojan horses and other items of a destructive nature.
-IN NO EVENT WILL THE ECLIPSE FOUNDATION AND/OR THE MEMBERS BE LIABLE TO YOU (AN INDIVIDUAL OR ENTITY) OR ANY OTHER INDIVIDUAL OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL OR CONSEQUENTIAL DAMAGES RELATED TO ANY USE OF THIS WEB SITE, THE CONTENT, STORED INFORMATION, OR ANY OTHER HYPER LINKED WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, LOST SALES, LOST REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON YOUR OR OUR INFORMATION HANDLING SYSTEMS OR OTHERWISE, EVEN IF THE ECLIPSE FOUNDATION OR THE MEMBERS ARE EXPRESSLY ADVISED OR AWARE OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES.
-ALL CONTENT IS PROVIDED BY THE ECLIPSE FOUNDATION AND/OR THE MEMBERS ON AN "AS IS" BASIS ONLY. THE ECLIPSE FOUNDATION AND THE MEMBERS PROVIDE NO REPRESENTATIONS, CONDITIONS AND/OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT. THE ECLIPSE FOUNDATION MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SECURITY OF ANY INOFRMATION OR CONTENT STORED WITH THE ECLIPSE FOUNDATION.
+::
+Show Polls
+::
+Message Navigator
+Topic
+Replies
+Discover Projects
+Business Value
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+IBM
+Sponsored Ad
+Announcements
+2019/09/24
+Call for Birds of Feather's (BoFs) for EclipseCon Europe 2019!
+Community Evening includes an Edge Computing hackathon, a Project Pitch game, Eclipse Night School, and - of course - Bo...
+2019/09/24
+Come to Eclipse Night School at EclipseCon Europe!
+Come to Night School, and learn all about what the Foundation staff does to make your (Eclipse) life better!
+2019/09/17
+The Eclipse Foundation Wins Duke's Choice Award for Open Source Contributions to the Java Ecosystem
+The Eclipse Foundation was awarded a Duke's Choice Award yesterday in recognition for outstanding open source contributi...
+2019/09/17
+The Eclipse Foundation Releases Eclipse Che 7, the First Kubernetes-Native IDE, to Make Creating Cloud Native Applications Easier, Faster, and More Secure
+The Eclipse Foundation today announced at the Oracle Code One conference and tradeshow the release of Eclipse Che 7, the...
+View all
+Subscribe to our RSS-feed
+Community News
+Guide to legal documents
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
+EPL-2.0
+Plain HTML
+Plain Text
+PDF
+FAQ
+EPL-1.0
+Plain HTML
+Plain Text
+FAQ
+Licenses
+Approved 3rd Party
+Non Approved
+Docs & examples
+Back to the top
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
 The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
 The Eclipse Foundation and the Members reserve the right to seek all remedies available at law and in equity for violations of these Terms of Use, including but not limited to the right to block access from a particular Internet address to this Web site.
 Related Links
@@ -740,35 +789,6 @@ Contact Us
 ECA
 Sign
 Validation Tool
-2019/09/17
-The Eclipse Foundation Wins Duke's Choice Award for Open Source Contributions to the Java Ecosystem
-The Eclipse Foundation was awarded a Duke's Choice Award yesterday in recognition for outstanding open source contributi...
-2019/09/17
-The Eclipse Foundation Releases Eclipse Che 7, the First Kubernetes-Native IDE, to Make Creating Cloud Native Applications Easier, Faster, and More Secure
-The Eclipse Foundation today announced at the Oracle Code One conference and tradeshow the release of Eclipse Che 7, the...
-2019/09/17
-Eclipse Community Continues to Deliver on Open Source Commitment
-Community is key. And the Eclipse Foundation's community is on a roll.
-2019/09/17
-EclipseCon Europe 2019 Keynotes Announced - Register Now!
-We are excited to announce the keynote speaker lineup for our community's biggest event of the year.
-View all
-Subscribe to our RSS-feed
-Community News
-2019/09/17
-Eclipse Che 7 is now available!
-Che 7 is the biggest release in Eclipse Che history - focused on simplifying writing, building and collaborating on clou...
-2019/09/11
-From building blocks to IoT solutions
-The Eclipse IoT ecosystem consists of around 40 different projects, ranging from embedded devices, to IoT gateways and u...
-2019/09/11
-Jakarta EE 8 Specifications Released by The Eclipse Foundation, Payara Platform Compatibility Coming Soon
-The Jakarta EE 8 Full Platform, Web Profile specifications and related TCKs have been officially released today (Septemb...
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
 EPL-2.0
 Plain HTML
 Plain Text
@@ -780,39 +800,6 @@ Plain Text
 FAQ
 Licenses
 Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-::
-Show Polls
-::
-Message Navigator
-Topic
-Replies
 Views
 Last message
 mvn build error
@@ -822,7 +809,7 @@ Divya Chauhan
 on
 Thu, 29 August 2019
 0
-123890
+123914
 Thu, 29 August 2019 10:45
 By:
 Divya Chauhan
@@ -830,30 +817,19 @@ Project currently stalled - do not expect answers here!
 By:
 Kai Kreuzer
 on
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
+Fri, 18 January 2019
+0
+2790
+Fri, 18 January 2019 12:57
+2019/09/17
+Eclipse Che 7 is now available!
+Che 7 is the biggest release in Eclipse Che history - focused on simplifying writing, building and collaborating on clou...
+2019/09/11
+From building blocks to IoT solutions
+The Eclipse IoT ecosystem consists of around 40 different projects, ranging from embedded devices, to IoT gateways and u...
+2019/09/11
+Jakarta EE 8 Specifications Released by The Eclipse Foundation, Payara Platform Compatibility Coming Soon
+The Jakarta EE 8 Full Platform, Web Profile specifications and related TCKs have been officially released today (Septemb...
 2019/09/11
 Open Liberty is Jakarta EE 8 compatible
 Today is a big day in the enterprise Java world. Two years ago, Oracle announced their intention to move Java EE to the ...
@@ -864,19 +840,9 @@ Eclipse Foundation by the Numbers
 Projects
 1550+
 Committers
-275+
-Members
-10
-Working Groups
-Back to the top
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
+Register
 Eclipse Foundation
 About Us
-Contact Us
-Donate
 Contact Us
 Donate
 Governance
@@ -898,13 +864,29 @@ Marketplace
 Other
 IDE and Tools
 Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Fri, 18 January 2019
-0
-2772
-Fri, 18 January 2019 12:57
+Non Approved
+Docs & examples
+Back to the top
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
 By:
 Kai Kreuzer
 By:
@@ -912,7 +894,7 @@ Kris Keen
 on
 Sun, 13 January 2019
 3
-1692
+1698
 Fri, 18 January 2019 09:58
 By:
 Henning Treu
@@ -922,29 +904,22 @@ Lukasz Dywicki
 on
 Fri, 04 January 2019
 1
-2282
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
+2298
+Mon, 14 January 2019 10:02
+By:
+Kai Kreuzer
+275+
+Members
+10
 Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
 Governance
 Logo and Artwork
 Board of Directors
@@ -958,6 +933,12 @@ Useful Links
 Report a Bug
 Documentation
 How to Contribute
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Mailing Lists
 Forums
 Marketplace
@@ -968,18 +949,14 @@ Working Groups
 Research@Eclipse
 Report a Vulnerability
 Service Status
-Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Mon, 14 January 2019 10:02
-By:
-Kai Kreuzer
 By:
 Kris Keen
 on
 Sun, 13 January 2019
 0
-2208
+2221
 Sun, 13 January 2019 22:22
 By:
 Kris Keen
@@ -989,19 +966,29 @@ Mark Hilbush
 on
 Sat, 22 December 2018
 3
-2278
+2293
 Thu, 03 January 2019 19:02
 By:
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Markus Rathgeb
 SOLVED:API Incompatibility still exist | Update of master done
 By:
 Ferdinand Trommsdorff
 on
 Sun, 23 December 2018
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 3
-903
+927
 Sat, 29 December 2018 20:18
 By:
 Ferdinand Trommsdorff
@@ -1011,7 +998,7 @@ Brian Leedy
 on
 Thu, 27 December 2018
 2
-894
+911
 Fri, 28 December 2018 15:26
 By:
 Brian Leedy
@@ -1021,7 +1008,7 @@ Mark Hilbush
 on
 Thu, 20 December 2018
 3
-652
+662
 Thu, 20 December 2018 20:39
 By:
 Mark Hilbush
@@ -1032,7 +1019,7 @@ Kiran Patil
 on
 Sat, 01 December 2018
 0
-1725
+1732
 Sat, 01 December 2018 07:58
 By:
 Kiran Patil
@@ -1042,7 +1029,7 @@ Alan Alberghini
 on
 Fri, 30 November 2018
 2
-530
+538
 Fri, 30 November 2018 11:00
 By:
 Alan Alberghini
@@ -1052,7 +1039,7 @@ Dominik Schlierf
 on
 Thu, 15 November 2018
 2
-1811
+1821
 Fri, 30 November 2018 08:52
 By:
 Markus Rathgeb
@@ -1062,7 +1049,7 @@ Grzegorz Michalski
 on
 Fri, 23 November 2018
 2
-538
+556
 Mon, 26 November 2018 13:55
 By:
 Grzegorz Michalski
@@ -1073,7 +1060,7 @@ Markus Michels
 on
 Fri, 23 November 2018
 3
-1000
+1014
 Sat, 24 November 2018 00:04
 By:
 Markus Michels
@@ -1084,7 +1071,7 @@ Paramesh Surakod
 on
 Fri, 23 November 2018
 1
-462
+487
 Fri, 23 November 2018 15:50
 By:
 Kai Kreuzer
@@ -1094,7 +1081,7 @@ Jon Evans
 on
 Tue, 20 November 2018
 1
-1315
+1323
 Fri, 23 November 2018 15:44
 By:
 Kai Kreuzer
@@ -1105,7 +1092,7 @@ Bartosz Kowalczyk
 on
 Thu, 06 September 2018
 5
-1423
+1439
 Thu, 15 November 2018 12:34
 By:
 Kiran Patil
@@ -1115,7 +1102,7 @@ Dominik Schlierf
 on
 Fri, 09 November 2018
 2
-1201
+1227
 Wed, 14 November 2018 06:16
 By:
 Dominik Schlierf
@@ -1125,7 +1112,7 @@ Dominik Schlierf
 on
 Mon, 05 November 2018
 3
-1608
+1634
 Wed, 14 November 2018 06:13
 By:
 Dominik Schlierf
@@ -1136,7 +1123,7 @@ Jon Evans
 on
 Tue, 06 November 2018
 2
-870
+881
 Wed, 07 November 2018 11:55
 By:
 Jon Evans
@@ -1146,7 +1133,7 @@ Christian Becker
 on
 Mon, 29 October 2018
 7
-1214
+1255
 Wed, 31 October 2018 14:21
 By:
 Christian Becker
@@ -1156,7 +1143,7 @@ Hilbrand Bouwkamp
 on
 Tue, 30 October 2018
 2
-666
+684
 Tue, 30 October 2018 15:58
 By:
 Markus Rathgeb
@@ -1166,7 +1153,7 @@ David Graeff
 on
 Thu, 03 August 2017
 16
-19129
+19169
 Mon, 29 October 2018 13:48
 By:
 Markus Rathgeb
@@ -1177,7 +1164,7 @@ ren Junhua
 on
 Fri, 20 January 2017
 6
-2488
+2513
 Wed, 24 October 2018 17:38
 By:
 Dalia El-Dib
@@ -1187,7 +1174,7 @@ Stavros Vagionitis
 on
 Thu, 07 June 2018
 5
-4016
+4037
 Wed, 24 October 2018 09:53
 By:
 David Graeff
@@ -1198,7 +1185,7 @@ liu rui
 on
 Tue, 23 October 2018
 1
-792
+811
 Tue, 23 October 2018 14:59
 By:
 Stefan Triller
@@ -1208,7 +1195,7 @@ Bhavana S
 on
 Thu, 04 October 2018
 3
-1412
+1434
 Mon, 08 October 2018 12:39
 By:
 Kiran Patil
@@ -1219,7 +1206,7 @@ Paramesh Surakod
 on
 Thu, 20 September 2018
 2
-4235
+4245
 Fri, 28 September 2018 12:45
 By:
 Paramesh Surakod
@@ -1230,7 +1217,7 @@ Vitalii vlasiuk
 on
 Mon, 26 February 2018
 3
-5030
+5041
 Thu, 13 September 2018 06:38
 By:
 Markus Rathgeb
@@ -1240,7 +1227,7 @@ Hanno Wagner
 on
 Fri, 20 July 2018
 9
-4244
+4281
 Mon, 27 August 2018 14:31
 By:
 Kai Kreuzer
@@ -1250,7 +1237,7 @@ Tim Roberts
 on
 Sun, 29 July 2018
 4
-2031
+2047
 Fri, 03 August 2018 08:19
 By:
 Kai Kreuzer
@@ -1261,7 +1248,7 @@ Dushan Aluth Patabendige
 on
 Wed, 01 August 2018
 1
-1822
+1830
 Fri, 03 August 2018 04:43
 By:
 Dushan Aluth Patabendige
@@ -1271,7 +1258,7 @@ Paramesh Surakod
 on
 Fri, 27 July 2018
 1
-2053
+2067
 Mon, 30 July 2018 14:12
 By:
 Stefan Triller
@@ -1282,7 +1269,7 @@ WeeMin Chan
 on
 Thu, 19 July 2018
 1
-1147
+1159
 Mon, 23 July 2018 13:49
 By:
 Stefan Triller
@@ -1292,7 +1279,7 @@ Bartosz Kowalczyk
 on
 Wed, 20 June 2018
 4
-1001
+1016
 Mon, 16 July 2018 22:23
 By:
 Lukasz Dywicki
@@ -1302,7 +1289,7 @@ Nils Billing
 on
 Sat, 09 December 2017
 9
-6258
+6313
 Tue, 03 July 2018 13:45
 By:
 Stefan Triller
@@ -1312,7 +1299,7 @@ Paramesh Surakod
 on
 Wed, 20 June 2018
 5
-2274
+2286
 Tue, 03 July 2018 08:32
 By:
 Stefan Triller
@@ -1322,7 +1309,7 @@ Zachary Christiansen
 on
 Wed, 27 June 2018
 1
-1227
+1237
 Thu, 28 June 2018 12:25
 By:
 Kai Kreuzer
@@ -1332,7 +1319,7 @@ Lukasz Dywicki
 on
 Fri, 08 June 2018
 5
-2273
+2298
 Thu, 14 June 2018 10:15
 By:
 Lukasz Dywicki
@@ -1343,7 +1330,7 @@ Martin Fogarty
 on
 Mon, 04 June 2018
 1
-1209
+1225
 Tue, 05 June 2018 08:06
 By:
 Stefan Triller
@@ -1353,7 +1340,7 @@ Kiran Patil
 on
 Tue, 27 March 2018
 6
-2361
+2404
 Mon, 21 May 2018 05:53
 By:
 Kiran Patil
@@ -1363,7 +1350,7 @@ Tim Roberts
 on
 Tue, 15 May 2018
 1
-1480
+1489
 Tue, 15 May 2018 12:06
 By:
 Henning Treu
@@ -1373,7 +1360,7 @@ Marcel Verpaalen
 on
 Tue, 14 November 2017
 2
-1837
+1851
 Thu, 03 May 2018 08:58
 By:
 Stefan Triller
@@ -1383,7 +1370,7 @@ Lukasz Dywicki
 on
 Mon, 30 April 2018
 2
-942
+954
 Tue, 01 May 2018 21:32
 By:
 Lukasz Dywicki
@@ -1393,7 +1380,7 @@ Lukasz Dywicki
 on
 Sun, 22 April 2018
 3
-1892
+1905
 Thu, 26 April 2018 08:57
 By:
 Stefan Triller
@@ -1404,7 +1391,7 @@ Lukasz Dywicki
 on
 Sun, 22 April 2018
 1
-2963
+2973
 Mon, 23 April 2018 13:07
 By:
 Kai Kreuzer
@@ -1415,7 +1402,7 @@ Juergen Messmer
 on
 Sat, 11 June 2016
 6
-4070
+4100
 Mon, 09 April 2018 20:56
 By:
 Flavio Costa
@@ -1425,7 +1412,7 @@ Dennis Nobel
 on
 Fri, 27 November 2015
 14
-11802
+11850
 Tue, 27 March 2018 18:22
 By:
 Kai Kreuzer
@@ -1436,7 +1423,7 @@ Josua Arndt
 on
 Tue, 13 March 2018
 3
-2540
+2553
 Fri, 16 March 2018 15:31
 By:
 Henning Treu
@@ -1446,7 +1433,7 @@ Chris Jackson
 on
 Sun, 11 March 2018
 1
-1509
+1522
 Mon, 12 March 2018 09:31
 By:
 Simon Kaufmann
@@ -1457,7 +1444,7 @@ SRIRAMACHANDRA MACHARAYYA GANGUMALLA
 on
 Mon, 12 February 2018
 8
-4364
+4397
 Thu, 01 March 2018 19:23
 By:
 Markus Rathgeb
@@ -1468,7 +1455,7 @@ SRIRAMACHANDRA MACHARAYYA GANGUMALLA
 on
 Mon, 12 February 2018
 1
-2637
+2653
 Wed, 28 February 2018 20:59
 By:
 Markus Rathgeb
@@ -1479,7 +1466,7 @@ Michael Hoyle
 on
 Tue, 27 February 2018
 1
-1617
+1623
 Wed, 28 February 2018 20:57
 By:
 Markus Rathgeb
@@ -1490,7 +1477,7 @@ Hilbrand Bouwkamp
 on
 Wed, 08 November 2017
 5
-3035
+3057
 Wed, 28 February 2018 19:00
 By:
 Flavio Costa
@@ -1501,7 +1488,7 @@ Saren Tasciyan
 on
 Sun, 25 February 2018
 2
-1879
+1898
 Tue, 27 February 2018 22:43
 By:
 Saren Tasciyan
@@ -1511,7 +1498,7 @@ Arne Plöse
 on
 Tue, 06 February 2018
 4
-1788
+1801
 Fri, 16 February 2018 10:11
 By:
 Stefan Triller
@@ -1521,7 +1508,7 @@ Bhavana S
 on
 Mon, 05 February 2018
 1
-2453
+2471
 Thu, 08 February 2018 11:49
 By:
 Kai Kreuzer
@@ -1531,7 +1518,7 @@ Arne Plöse
 on
 Thu, 01 February 2018
 2
-1818
+1831
 Mon, 05 February 2018 07:02
 By:
 Arne Plöse
@@ -1541,7 +1528,7 @@ Bhavana S
 on
 Fri, 02 February 2018
 4
-1769
+1781
 Fri, 02 February 2018 11:01
 By:
 Bhavana S
@@ -1551,7 +1538,7 @@ Tim Roberts
 on
 Wed, 03 January 2018
 5
-3262
+3274
 Tue, 30 January 2018 15:33
 By:
 Tim Roberts
@@ -1562,7 +1549,7 @@ Paramesh Surakod
 on
 Tue, 23 January 2018
 7
-4030
+4058
 Thu, 25 January 2018 06:56
 By:
 Paramesh Surakod
@@ -1572,7 +1559,7 @@ Martin Eskildsen
 on
 Tue, 23 January 2018
 2
-1904
+1915
 Wed, 24 January 2018 18:11
 By:
 Martin Eskildsen
@@ -1583,7 +1570,7 @@ Paramesh Surakod
 on
 Tue, 23 January 2018
 1
-977
+985
 Tue, 23 January 2018 15:44
 By:
 Simon Kaufmann
@@ -1593,7 +1580,7 @@ Michael Geramb
 on
 Sun, 21 January 2018
 2
-1644
+1658
 Mon, 22 January 2018 17:13
 By:
 Michael Geramb
@@ -1604,7 +1591,7 @@ Chiranjeevi B
 on
 Mon, 15 January 2018
 9
-4975
+5018
 Mon, 22 January 2018 05:29
 By:
 Chiranjeevi B
@@ -1614,7 +1601,7 @@ Martin Eskildsen
 on
 Tue, 16 January 2018
 4
-1960
+1982
 Wed, 17 January 2018 12:31
 By:
 Martin Eskildsen
@@ -1625,7 +1612,7 @@ jaya ala
 on
 Sat, 02 September 2017
 3
-6953
+6967
 Tue, 16 January 2018 22:11
 By:
 Mehmet Arziman
@@ -1636,7 +1623,7 @@ Michael Geramb
 on
 Thu, 04 January 2018
 4
-3462
+3489
 Mon, 08 January 2018 19:49
 By:
 Michael Geramb
@@ -1647,7 +1634,7 @@ Devang Gujarathi
 on
 Thu, 14 December 2017
 1
-1727
+1738
 Thu, 14 December 2017 09:50
 By:
 Kai Kreuzer
@@ -1658,7 +1645,7 @@ Dushan Aluth Patabendige
 on
 Fri, 08 December 2017
 2
-4737
+4765
 Tue, 12 December 2017 07:02
 By:
 Dushan Aluth Patabendige
@@ -1669,7 +1656,7 @@ Michael Tetteh
 on
 Sun, 25 October 2015
 6
-3105
+3139
 Sat, 09 December 2017 10:20
 By:
 Robert Jarzabek
@@ -1679,7 +1666,7 @@ Gabriel Klein
 on
 Thu, 23 November 2017
 9
-3305
+3342
 Tue, 05 December 2017 14:43
 By:
 Kenneth Anderson
@@ -1690,7 +1677,7 @@ Gabriel Klein
 on
 Sun, 26 November 2017
 2
-1539
+1558
 Tue, 05 December 2017 13:12
 By:
 Kai Kreuzer
@@ -1701,7 +1688,7 @@ Karel Goderis
 on
 Fri, 10 November 2017
 1
-4774
+4788
 Tue, 21 November 2017 16:09
 By:
 Kai Kreuzer
@@ -1712,7 +1699,7 @@ Kiran Patil
 on
 Thu, 16 November 2017
 4
-3475
+3501
 Tue, 21 November 2017 05:10
 By:
 Kiran Patil
@@ -1723,7 +1710,7 @@ Kiran Patil
 on
 Fri, 27 October 2017
 2
-5782
+5806
 Tue, 14 November 2017 08:49
 By:
 Kiran Patil
@@ -1733,7 +1720,7 @@ Jan Kemmler
 on
 Sun, 12 November 2017
 4
-1746
+1763
 Mon, 13 November 2017 11:21
 By:
 Simon Kaufmann
@@ -1743,7 +1730,7 @@ Patrick Fink
 on
 Wed, 25 October 2017
 5
-3320
+3336
 Fri, 10 November 2017 09:04
 By:
 Markus Rathgeb
@@ -1753,7 +1740,7 @@ Nils Billing
 on
 Fri, 20 October 2017
 2
-3701
+3710
 Thu, 09 November 2017 14:05
 By:
 Markus Rathgeb
@@ -1763,7 +1750,7 @@ Smart Home
 on
 Wed, 08 November 2017
 3
-1536
+1557
 Wed, 08 November 2017 16:54
 By:
 Simon Kaufmann
@@ -1774,7 +1761,7 @@ Karel Goderis
 on
 Wed, 01 November 2017
 2
-4280
+4288
 Wed, 08 November 2017 14:17
 By:
 Karel Goderis
@@ -1784,7 +1771,7 @@ Hilbrand Bouwkamp
 on
 Fri, 27 October 2017
 3
-2565
+2589
 Wed, 08 November 2017 11:29
 By:
 Kai Kreuzer
@@ -1795,7 +1782,7 @@ Martin K
 on
 Sun, 29 October 2017
 3
-2351
+2363
 Mon, 06 November 2017 10:12
 By:
 Henning Treu
@@ -1806,7 +1793,7 @@ JPH sProject
 on
 Sun, 29 October 2017
 6
-3508
+3537
 Tue, 31 October 2017 18:22
 By:
 Kai Kreuzer
@@ -1816,7 +1803,7 @@ Sevinj Shahmaliyeva
 on
 Fri, 27 October 2017
 2
-3080
+3101
 Mon, 30 October 2017 11:27
 By:
 Kai Kreuzer
@@ -1826,17 +1813,16 @@ Tim Roberts
 on
 Wed, 01 March 2017
 3
-9517
+9533
 Mon, 30 October 2017 08:45
 By:
 Kai Kreuzer
-Install extension via /extensions/url/{url}/install REST API
 By:
 Ryan R
 on
 Fri, 13 October 2017
 1
-2887
+2896
 Thu, 19 October 2017 13:48
 By:
 Henning Treu
@@ -1846,7 +1832,7 @@ markus petke
 on
 Mon, 16 October 2017
 2
-1407
+1416
 Tue, 17 October 2017 05:49
 By:
 markus petke
@@ -1856,7 +1842,7 @@ Nils Billing
 on
 Mon, 02 October 2017
 4
-7269
+7291
 Fri, 06 October 2017 16:35
 By:
 Kai Kreuzer
@@ -1866,7 +1852,7 @@ Massi Ti
 on
 Sun, 16 July 2017
 4
-7017
+7042
 Wed, 04 October 2017 20:07
 By:
 Massi Ti
@@ -1876,7 +1862,7 @@ Jabba Loon
 on
 Wed, 13 September 2017
 4
-10504
+10522
 Tue, 26 September 2017 14:35
 By:
 Stefan Triller
@@ -1887,7 +1873,7 @@ Felix Lo
 on
 Tue, 26 September 2017
 1
-4342
+4357
 Tue, 26 September 2017 14:26
 By:
 Markus Rathgeb
@@ -1898,7 +1884,7 @@ levven testing
 on
 Wed, 13 September 2017
 5
-8003
+8037
 Fri, 15 September 2017 00:29
 By:
 levven testing
@@ -1909,7 +1895,7 @@ Yi Liu
 on
 Wed, 13 September 2017
 1
-6796
+6811
 Thu, 14 September 2017 08:33
 By:
 Henning Treu
@@ -1919,7 +1905,7 @@ Jabba Loon
 on
 Sat, 09 September 2017
 3
-11231
+11249
 Tue, 12 September 2017 08:38
 By:
 Jabba Loon
@@ -1929,7 +1915,7 @@ Marco Ho
 on
 Mon, 11 September 2017
 2
-3296
+3308
 Mon, 11 September 2017 12:55
 By:
 Marco Ho
@@ -1940,7 +1926,7 @@ jaya ala
 on
 Sat, 02 September 2017
 3
-9309
+9325
 Mon, 11 September 2017 04:05
 By:
 David Graeff
@@ -1950,7 +1936,7 @@ Jabba Loon
 on
 Sat, 05 August 2017
 5
-9639
+9660
 Sat, 09 September 2017 15:06
 By:
 Jabba Loon
@@ -1960,7 +1946,7 @@ Jabba Loon
 on
 Sat, 05 August 2017
 2
-9271
+9282
 Sat, 09 September 2017 15:05
 By:
 Jabba Loon
@@ -1971,7 +1957,7 @@ jaya ala
 on
 Sat, 02 September 2017
 2
-7042
+7047
 Mon, 04 September 2017 06:34
 By:
 Stefan Triller
@@ -1981,7 +1967,7 @@ markus petke
 on
 Fri, 18 August 2017
 3
-12404
+12422
 Thu, 24 August 2017 07:56
 By:
 Stefan Triller
@@ -1992,7 +1978,7 @@ sebastian irimi
 on
 Sun, 06 August 2017
 4
-6148
+6158
 Sun, 20 August 2017 16:07
 By:
 sebastian irimi
@@ -2002,7 +1988,7 @@ Marcel Verpaalen
 on
 Sat, 12 August 2017
 2
-10296
+10301
 Thu, 17 August 2017 19:56
 By:
 Marcel Verpaalen
@@ -2012,7 +1998,7 @@ markus petke
 on
 Thu, 10 August 2017
 3
-9692
+9710
 Wed, 16 August 2017 13:09
 By:
 Kai Kreuzer
@@ -2023,7 +2009,7 @@ AMAR PULLI
 on
 Thu, 10 August 2017
 1
-8528
+8544
 Fri, 11 August 2017 07:10
 By:
 Kai Kreuzer
@@ -2033,7 +2019,7 @@ Jan N. Klug
 on
 Thu, 03 August 2017
 2
-4420
+4431
 Sat, 05 August 2017 14:03
 By:
 Jan N. Klug
@@ -2044,7 +2030,7 @@ jaya ala
 on
 Thu, 03 August 2017
 1
-4031
+4041
 Thu, 03 August 2017 09:47
 By:
 Kai Kreuzer
@@ -2054,7 +2040,7 @@ Marcel Verpaalen
 on
 Mon, 31 July 2017
 4
-6716
+6738
 Wed, 02 August 2017 17:57
 By:
 Chris Jackson
@@ -2065,7 +2051,7 @@ David Graeff
 on
 Mon, 31 July 2017
 5
-11569
+11585
 Wed, 02 August 2017 11:24
 By:
 Kai Kreuzer
@@ -2076,7 +2062,7 @@ Hans Jürgen Böhle
 on
 Fri, 14 July 2017
 2
-10514
+10533
 Wed, 19 July 2017 17:41
 By:
 Hans Jürgen Böhle
@@ -2086,7 +2072,7 @@ Thomas Biacsics
 on
 Thu, 13 July 2017
 3
-7434
+7453
 Fri, 14 July 2017 11:50
 By:
 Simon Kaufmann
@@ -2096,7 +2082,7 @@ David Graeff
 on
 Mon, 19 June 2017
 1
-10083
+10096
 Tue, 20 June 2017 12:04
 By:
 Henning Treu
@@ -2107,7 +2093,7 @@ Johannes Mayrhofer
 on
 Mon, 12 June 2017
 2
-7933
+7944
 Tue, 13 June 2017 09:45
 By:
 Simon Kaufmann
@@ -2117,7 +2103,7 @@ Thomas Quarendon
 on
 Tue, 06 June 2017
 1
-4750
+4758
 Tue, 06 June 2017 14:31
 By:
 Thomas Quarendon
@@ -2128,7 +2114,7 @@ Kiran Patil
 on
 Fri, 12 May 2017
 5
-31313
+31343
 Fri, 02 June 2017 20:37
 By:
 Hans-Jörg Merk
@@ -2139,7 +2125,7 @@ AMAR PULLI
 on
 Fri, 02 June 2017
 2
-6450
+6473
 Fri, 02 June 2017 09:52
 By:
 AMAR PULLI
@@ -2150,7 +2136,7 @@ AMAR PULLI
 on
 Wed, 31 May 2017
 3
-8348
+8366
 Thu, 01 June 2017 09:32
 By:
 Henning Treu
@@ -2160,7 +2146,7 @@ Tim Roberts
 on
 Thu, 04 May 2017
 7
-10641
+10660
 Tue, 30 May 2017 12:34
 By:
 Kiran Patil
@@ -2170,7 +2156,7 @@ Steven Wen
 on
 Tue, 30 May 2017
 0
-9254
+9261
 Tue, 30 May 2017 08:21
 By:
 Steven Wen
@@ -2181,7 +2167,7 @@ Kiran Patil
 on
 Mon, 29 May 2017
 1
-4272
+4289
 Mon, 29 May 2017 12:04
 By:
 Henning Treu
@@ -2191,7 +2177,7 @@ Juergen Baginski
 on
 Tue, 23 May 2017
 3
-7784
+7797
 Wed, 24 May 2017 13:16
 By:
 Simon Kaufmann
@@ -2202,7 +2188,7 @@ Peter Kreutzer
 on
 Mon, 22 May 2017
 2
-7258
+7267
 Tue, 23 May 2017 10:49
 By:
 Peter Kreutzer
@@ -2212,7 +2198,7 @@ Markus Rathgeb
 on
 Tue, 31 May 2016
 1
-4367
+4378
 Sun, 21 May 2017 20:40
 By:
 Peter Kreutzer
@@ -2222,7 +2208,7 @@ Jochen Hiller
 on
 Sat, 08 August 2015
 9
-7531
+7571
 Fri, 19 May 2017 14:39
 By:
 Svilen Valkanov
@@ -2233,7 +2219,7 @@ AMAR PULLI
 on
 Wed, 17 May 2017
 1
-3389
+3401
 Wed, 17 May 2017 14:55
 By:
 Kai Kreuzer
@@ -2244,7 +2230,7 @@ Yuv Mendel
 on
 Tue, 10 January 2017
 3
-15231
+15245
 Fri, 12 May 2017 09:45
 By:
 Kiran Patil
@@ -2255,7 +2241,7 @@ Sebastian Janzen
 on
 Fri, 03 February 2017
 6
-26530
+26540
 Thu, 11 May 2017 05:59
 By:
 Kiran Patil
@@ -2266,7 +2252,7 @@ jerome duquennoy
 on
 Fri, 05 May 2017
 2
-14149
+14161
 Tue, 09 May 2017 12:14
 By:
 jerome duquennoy
@@ -2277,7 +2263,7 @@ Markus Walter
 on
 Tue, 21 March 2017
 1
-8023
+8034
 Thu, 04 May 2017 15:26
 By:
 Markus Walter
@@ -2287,7 +2273,7 @@ Tim Roberts
 on
 Thu, 27 April 2017
 5
-9653
+9673
 Thu, 04 May 2017 11:45
 By:
 Tim Roberts
@@ -2298,7 +2284,7 @@ Andy T
 on
 Fri, 21 April 2017
 1
-28017
+28027
 Tue, 02 May 2017 12:57
 By:
 Simon Kaufmann
@@ -2309,7 +2295,7 @@ Charles Brouwers
 on
 Sun, 30 April 2017
 1
-7150
+7158
 Tue, 02 May 2017 09:43
 By:
 Simon Kaufmann
@@ -2320,7 +2306,7 @@ Andy T
 on
 Fri, 21 April 2017
 3
-12727
+12743
 Mon, 24 April 2017 16:40
 By:
 Andy T
@@ -2331,7 +2317,7 @@ Hanno Wagner
 on
 Thu, 20 April 2017
 7
-7935
+7973
 Fri, 21 April 2017 13:29
 By:
 Hanno Wagner
@@ -2342,7 +2328,7 @@ Smart Home
 on
 Sat, 12 December 2015
 5
-15619
+15638
 Mon, 17 April 2017 13:03
 By:
 Chris Jackson
@@ -2353,7 +2339,7 @@ Juergen Baginski
 on
 Fri, 10 March 2017
 3
-8437
+8456
 Sun, 16 April 2017 08:35
 By:
 Chris Jackson
@@ -2363,7 +2349,7 @@ Chris Jackson
 on
 Sat, 15 April 2017
 0
-22272
+22281
 Sat, 15 April 2017 15:53
 By:
 Chris Jackson
@@ -2374,7 +2360,7 @@ Charles Brouwers
 on
 Mon, 10 April 2017
 1
-8594
+8609
 Tue, 11 April 2017 07:20
 By:
 Simon Kaufmann
@@ -2385,7 +2371,7 @@ Stefan Oberdörfer
 on
 Thu, 23 March 2017
 3
-13672
+13689
 Mon, 10 April 2017 16:36
 By:
 Kai Kreuzer
@@ -2395,7 +2381,7 @@ David Bennett
 on
 Tue, 28 February 2017
 2
-13479
+13492
 Mon, 10 April 2017 14:32
 By:
 Simon Kaufmann
@@ -2405,7 +2391,7 @@ Charles Brouwers
 on
 Sun, 09 April 2017
 1
-4230
+4239
 Mon, 10 April 2017 14:17
 By:
 Simon Kaufmann
@@ -2415,7 +2401,7 @@ Markus Eckhardt
 on
 Wed, 25 January 2017
 4
-28835
+28863
 Mon, 10 April 2017 13:47
 By:
 Simon Kaufmann
@@ -2426,7 +2412,7 @@ Charles Brouwers
 on
 Sun, 09 April 2017
 2
-4550
+4567
 Mon, 10 April 2017 13:05
 By:
 Simon Kaufmann
@@ -2436,7 +2422,7 @@ Zocker 1996
 on
 Sun, 02 April 2017
 1
-10422
+10432
 Sat, 08 April 2017 20:17
 By:
 Kai Kreuzer
@@ -2446,7 +2432,7 @@ Zocker 1996
 on
 Thu, 06 April 2017
 1
-9090
+9102
 Sat, 08 April 2017 12:06
 By:
 Kai Kreuzer
@@ -2456,7 +2442,7 @@ Jaime Vaz
 on
 Tue, 07 March 2017
 1
-10996
+11002
 Thu, 23 March 2017 23:45
 By:
 Kai Kreuzer
@@ -2466,7 +2452,7 @@ Tim Roberts
 on
 Wed, 08 March 2017
 1
-12666
+12683
 Mon, 20 March 2017 10:32
 By:
 Simon Kaufmann
@@ -2476,7 +2462,7 @@ a b
 on
 Tue, 14 March 2017
 2
-2381
+2391
 Tue, 14 March 2017 15:16
 By:
 a b
@@ -2487,7 +2473,7 @@ Juergen Baginski
 on
 Sat, 11 March 2017
 1
-3914
+3923
 Sun, 12 March 2017 16:44
 By:
 Juergen Baginski
@@ -2497,7 +2483,7 @@ Tim Roberts
 on
 Fri, 03 March 2017
 4
-3030
+3045
 Fri, 03 March 2017 19:27
 By:
 Tim Roberts
@@ -2507,7 +2493,7 @@ Felix Lo
 on
 Sun, 05 February 2017
 5
-5685
+5705
 Fri, 03 March 2017 17:01
 By:
 Kai Kreuzer
@@ -2517,7 +2503,7 @@ David Bennett
 on
 Mon, 13 February 2017
 5
-6206
+6232
 Fri, 03 March 2017 07:59
 By:
 Kai Kreuzer
@@ -2527,7 +2513,7 @@ Julien Da Silva
 on
 Mon, 21 March 2016
 5
-8216
+8235
 Thu, 23 February 2017 04:22
 By:
 Steve Gao
@@ -2537,7 +2523,7 @@ Richard Lavoie
 on
 Thu, 16 February 2017
 1
-15367
+15380
 Mon, 20 February 2017 18:25
 By:
 Kai Kreuzer
@@ -2547,7 +2533,7 @@ Sebastian Janzen
 on
 Thu, 09 February 2017
 3
-10546
+10557
 Tue, 14 February 2017 16:31
 By:
 Sebastian Janzen
@@ -2557,7 +2543,7 @@ Markus Eckhardt
 on
 Wed, 25 January 2017
 2
-26278
+26286
 Tue, 14 February 2017 15:56
 By:
 Kai Kreuzer
@@ -2567,7 +2553,7 @@ Tim Roberts
 on
 Tue, 07 February 2017
 2
-10248
+10261
 Mon, 13 February 2017 18:52
 By:
 Tim Roberts
@@ -2578,7 +2564,7 @@ Kiran Patil
 on
 Thu, 09 February 2017
 4
-4246
+4261
 Mon, 13 February 2017 04:56
 By:
 Kiran Patil
@@ -2589,7 +2575,7 @@ Felix Lo
 on
 Sat, 03 December 2016
 5
-9345
+9362
 Mon, 06 February 2017 08:36
 By:
 Kai Kreuzer
@@ -2599,7 +2585,7 @@ Jan N. Klug
 on
 Fri, 30 December 2016
 3
-2916
+2935
 Sat, 04 February 2017 09:52
 By:
 Markus Rathgeb
@@ -2610,7 +2596,7 @@ Smart Home
 on
 Thu, 26 January 2017
 0
-20821
+20829
 Thu, 26 January 2017 15:06
 By:
 Smart Home
@@ -2620,7 +2606,7 @@ Lee Means
 on
 Tue, 17 January 2017
 5
-3392
+3423
 Tue, 24 January 2017 11:01
 By:
 Denis Dudnik
@@ -2630,7 +2616,7 @@ Nassos Michas
 on
 Sun, 08 January 2017
 3
-3745
+3755
 Mon, 16 January 2017 11:30
 By:
 Kai Kreuzer
@@ -2641,7 +2627,7 @@ Daniel Auer
 on
 Fri, 06 January 2017
 3
-8681
+8692
 Mon, 16 January 2017 10:44
 By:
 Kai Kreuzer
@@ -2651,7 +2637,7 @@ Michael Kolb
 on
 Thu, 12 January 2017
 1
-11011
+11023
 Mon, 16 January 2017 10:17
 By:
 Kai Kreuzer
@@ -2661,7 +2647,7 @@ Smart Home
 on
 Thu, 12 January 2017
 3
-1412
+1427
 Thu, 12 January 2017 21:06
 By:
 Kai Kreuzer
@@ -2672,7 +2658,7 @@ Konstantin Tkachuk
 on
 Fri, 16 December 2016
 2
-1471
+1482
 Sun, 18 December 2016 10:22
 By:
 Konstantin Tkachuk
@@ -2682,7 +2668,7 @@ Martin Herbst
 on
 Sat, 25 June 2016
 5
-6506
+6530
 Sat, 10 December 2016 16:57
 By:
 Martin Herbst
@@ -2693,7 +2679,7 @@ Nathan L.
 on
 Wed, 07 December 2016
 1
-5433
+5440
 Thu, 08 December 2016 13:45
 By:
 Kai Kreuzer
@@ -2704,7 +2690,7 @@ DUGNY Appart
 on
 Tue, 29 November 2016
 2
-3762
+3778
 Fri, 02 December 2016 07:08
 By:
 DUGNY Appart
@@ -2715,7 +2701,7 @@ Svilen Valkanov
 on
 Tue, 29 November 2016
 0
-5330
+5338
 Tue, 29 November 2016 10:58
 By:
 Svilen Valkanov
@@ -2726,7 +2712,7 @@ Markus Rathgeb
 on
 Tue, 13 January 2015
 20
-14882
+14961
 Sun, 27 November 2016 10:36
 By:
 Marcel Verpaalen
@@ -2737,7 +2723,7 @@ Smart Home
 on
 Tue, 22 November 2016
 0
-19890
+19905
 Tue, 22 November 2016 13:37
 By:
 Smart Home
@@ -2747,7 +2733,7 @@ Karel Goderis
 on
 Tue, 15 November 2016
 3
-27029
+27041
 Mon, 21 November 2016 15:18
 By:
 Stefan Bussweiler
@@ -2758,7 +2744,7 @@ Robert Raker
 on
 Tue, 15 November 2016
 1
-33112
+33119
 Fri, 18 November 2016 15:06
 By:
 Kai Kreuzer
@@ -2768,7 +2754,7 @@ Smart Home
 on
 Tue, 15 November 2016
 4
-7610
+7639
 Wed, 16 November 2016 15:59
 By:
 Kai Kreuzer
@@ -2779,7 +2765,7 @@ Nathan L.
 on
 Tue, 01 November 2016
 9
-5494
+5532
 Wed, 09 November 2016 01:54
 By:
 Nathan L.
@@ -2790,7 +2776,7 @@ Bernhard Boser
 on
 Sat, 05 November 2016
 3
-2599
+2618
 Tue, 08 November 2016 09:00
 By:
 Kai Kreuzer
@@ -2800,7 +2786,7 @@ Karel Goderis
 on
 Sat, 29 October 2016
 1
-1437
+1455
 Sun, 30 October 2016 22:23
 By:
 Kai Kreuzer
@@ -2811,7 +2797,7 @@ Roberti Foc Igor
 on
 Sat, 03 September 2016
 5
-2689
+2709
 Sat, 22 October 2016 07:44
 By:
 Karel Goderis
@@ -2822,7 +2808,7 @@ Abin Mathew Abraham
 on
 Thu, 22 September 2016
 7
-3977
+3998
 Wed, 19 October 2016 10:21
 By:
 Abin Mathew Abraham
@@ -2832,7 +2818,7 @@ Pascal Krahmer
 on
 Fri, 07 October 2016
 4
-3080
+3090
 Tue, 11 October 2016 10:53
 By:
 Pascal Krahmer
@@ -2842,7 +2828,7 @@ Tim Roberts
 on
 Mon, 03 October 2016
 3
-2385
+2415
 Fri, 07 October 2016 14:56
 By:
 Tim Roberts
@@ -2852,7 +2838,7 @@ Dan Cunningham
 on
 Tue, 04 October 2016
 2
-1545
+1570
 Wed, 05 October 2016 14:10
 By:
 Dan Cunningham
@@ -2863,7 +2849,7 @@ Korbinian Kram
 on
 Tue, 27 September 2016
 4
-2687
+2716
 Wed, 05 October 2016 10:50
 By:
 Kai Kreuzer
@@ -2873,7 +2859,7 @@ Jeff James
 on
 Wed, 28 September 2016
 2
-2075
+2099
 Fri, 30 September 2016 17:05
 By:
 Jeff James
@@ -2884,7 +2870,7 @@ Tim Roberts
 on
 Mon, 12 September 2016
 5
-3265
+3288
 Fri, 23 September 2016 05:17
 By:
 Kai Kreuzer
@@ -2894,7 +2880,7 @@ Abin Mathew Abraham
 on
 Thu, 08 September 2016
 4
-5647
+5660
 Fri, 16 September 2016 08:54
 By:
 Abin Mathew Abraham
@@ -2904,7 +2890,7 @@ Alan Alberghini
 on
 Tue, 06 September 2016
 4
-3265
+3282
 Wed, 14 September 2016 16:10
 By:
 Alan Alberghini
@@ -2914,7 +2900,7 @@ Tim Roberts
 on
 Fri, 09 September 2016
 4
-2465
+2496
 Wed, 14 September 2016 12:14
 By:
 Tim Roberts
@@ -2924,7 +2910,7 @@ Mehmet Arziman
 on
 Wed, 16 March 2016
 7
-8199
+8234
 Thu, 08 September 2016 21:53
 By:
 Mehmet Arziman
@@ -2935,7 +2921,7 @@ Mattias Tornblad
 on
 Fri, 30 October 2015
 7
-9819
+9855
 Fri, 26 August 2016 09:01
 By:
 Abin Mathew Abraham
@@ -2945,7 +2931,7 @@ Chris Jackson
 on
 Fri, 15 July 2016
 11
-5327
+5355
 Tue, 09 August 2016 11:24
 By:
 Markus Rathgeb
@@ -2955,7 +2941,7 @@ Dae-myeong Kang
 on
 Thu, 04 August 2016
 1
-1873
+1883
 Fri, 05 August 2016 15:08
 By:
 Kai Kreuzer
@@ -2965,7 +2951,7 @@ Dominic Lerbs
 on
 Sat, 18 June 2016
 6
-4215
+4241
 Tue, 02 August 2016 14:55
 By:
 Kai Kreuzer
@@ -2975,7 +2961,7 @@ Kai Kreuzer
 on
 Mon, 03 August 2015
 9
-5054
+5071
 Fri, 29 July 2016 11:29
 By:
 Joachim Hansen
@@ -2985,7 +2971,7 @@ gael lhopital
 on
 Thu, 21 July 2016
 1
-3827
+3835
 Mon, 25 July 2016 07:19
 By:
 Kai Kreuzer
@@ -2996,7 +2982,7 @@ Dae-myeong Kang
 on
 Thu, 21 July 2016
 3
-1753
+1767
 Fri, 22 July 2016 05:32
 By:
 Yordan Mihaylov
@@ -3007,7 +2993,7 @@ Jongmin Kim
 on
 Wed, 20 July 2016
 1
-1133
+1146
 Wed, 20 July 2016 07:12
 By:
 Kai Kreuzer
@@ -3017,7 +3003,7 @@ Markus Rathgeb
 on
 Sun, 17 July 2016
 10
-5431
+5465
 Tue, 19 July 2016 06:49
 By:
 Kai Kreuzer
@@ -3495,10 +3481,10 @@ Locked (w/ unread messages)
 Locked
 Moved to another forum
 Current Time:
-Sat Sep 21 19:46:58 GMT 2019
+Sat Sep 28 19:58:36 GMT 2019
 Powered by
 FUDForum
-. Page generated in 0.02023 seconds
+. Page generated in 0.01872 seconds
 .::
 Contact
 ::

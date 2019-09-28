@@ -1,5 +1,4 @@
 Eclipse Duttile | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"DXW4rPbkXjuo-xN6nsTS_hcC1qJn3eNEQ9CrX1UhyMg","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"0":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
 Google Tag Manager
 Skip to main content
 Log in
@@ -125,10 +124,9 @@ Eclipse Duttile
 Tags
 Technology Types
 Internet of Things
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
 Eclipse Foundation
 About Us
 Contact Us
@@ -159,7 +157,6 @@ Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
 Internet of Things | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"h9WHSGAm01IE94krDCLQT1uYSKD5XvIhG9Dw1_ehTpM","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
 Google Tag Manager
 Skip to main content
 Log in
@@ -185,7 +182,6 @@ IRC
 Research
 Eclipse IDE
 Download
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
 Learn More
 Documentation
 Getting Started / Support
@@ -211,38 +207,6 @@ Eclipse IDE
 Download
 Learn More
 Documentation
-Eclipse IoT | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"Euny0umy9PzmmxQBVTdhh8HLRaSjUutN1UzvBmsBPlk","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"0":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"-QrtKRBS__uo91xWKxMi0ba9fWQmHH2EpY87E2rvjVU","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_views\/js\/project-search.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"urlIsAjaxTrusted":{"\/list-of-projects":true},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
 Getting Started / Support
 How to Contribute
 IDE and Tools
@@ -263,6 +227,7 @@ Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
+Eclipse IoT | projects.eclipse.org
 Governance
 Contact
 Eclipse Keyple
@@ -272,6 +237,19 @@ Read more...
 Latest release:
 0.7.0 (Java 19/07)
 Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse VOLTTRON
+Internet of Things
+The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
+Read more...
+Google Tag Manager
+Skip to main content
+Log in
 Manage Cookies
 projects.eclipse.org
 Download
@@ -292,52 +270,6 @@ Mailing Lists
 Wiki
 IRC
 Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse VOLTTRON
-Internet of Things
-The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
-Read more...
 Learn more
 Toggle Dropdown
 Website
@@ -359,6 +291,16 @@ Contact
 Eclipse fog05
 Internet of Things
 Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
+Read more...
+Learn more
+Toggle Dropdown
+Website
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
@@ -377,53 +319,6 @@ Mailing Lists
 Wiki
 IRC
 Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse IoT
-List of Projects
-List of Projects
-Search
-Technology Types
-- Any -
-Internet of Things
-Language
-Modeling
-OSGi
-Runtime
-Specification
-Testing
-Tools
-State
-- Any -
-Incubating
-Mature
-Include
-Archived Projects
-Apply
-Eclipse EMFStore
-Modeling
-Runtime
-Tools
-Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
-Read more...
-Latest release:
-1.10.0
-Download
-Toggle Dropdown
-Read more...
-Learn more
-Toggle Dropdown
-Website
 Developer Resources
 Who's Involved
 Governance
@@ -442,14 +337,40 @@ Governance
 Contact
 Eclipse Mita
 Internet of Things
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Latest release:
-0.1.0
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
 Download
-Toggle Dropdown
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse IoT
 Primary tabs
 Overview
 (active tab)
@@ -461,51 +382,14 @@ Contact Us
 The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
 Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
 Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
-Tools that facilitate the development of connected systems
-Solutions that build ready-to-run solutions based on the other building blocks
-This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
-Licenses:
-Eclipse Distribution License 1.0 (BSD)
-Eclipse Public License 2.0
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Top Level Project Charter
-Website
-Wiki
-Related Projects
-Project Hierarchy:
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse OCL (Object Constraint Language)
 Language
 Modeling
-Tools
-Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
 Read more...
 Latest release:
-2019-09 (6.9.0)
+0.1.0
 Download
 Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Paho
-Internet of Things
-Runtime
-Tools
-The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
-Read more...
-Latest release:
-1.4.1
-Download
 Website
 Developer Resources
 Who's Involved
@@ -523,6 +407,81 @@ Developer Resources
 Who's Involved
 Governance
 Contact
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Creative Commons Attribution 4.0 (International) License | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Tools that facilitate the development of connected systems
+Solutions that build ready-to-run solutions based on the other building blocks
+This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Top Level Project Charter
+Website
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse 4diac
+Eclipse Agail
+Eclipse Californium (Cf) CoAP Framework
+Eclipse Concierge
+Eclipse Cyclone DDS
+Eclipse Ditto
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
 Eclipse Cyclone DDS
 Internet of Things
 Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
@@ -536,13 +495,94 @@ Developer Resources
 Who's Involved
 Governance
 Contact
-Eclipse IoT
-Eclipse 4diac
-Eclipse Agail
-Eclipse Californium (Cf) CoAP Framework
-Eclipse Concierge
-Eclipse Cyclone DDS
-Eclipse Ditto
+Eclipse Kuksa
+Internet of Things
+Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
+The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
+Read more...
+Latest release:
+0.1-M1
+Learn more
+Toggle Dropdown
+Website
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -
+Internet of Things
+Language
+Modeling
+OSGi
+Runtime
+Specification
+Testing
+Tools
+State
+- Any -
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
 Eclipse Duttile
 Eclipse fog05
 Eclipse hawkBit
@@ -565,42 +605,46 @@ Eclipse NeoSCADA
 Eclipse OM2M
 Eclipse Paho
 Eclipse Paho Incubator
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse QVT Operational
-Language
-Modeling
-Tools
-The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
-Operational QVT project provides a powerful Eclipse IDE:
-feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
-debugger (conditional breakpoints, variables view, expressions view, watches)
-metamodel browser, trace view
-project builders, launch configurations
-deployment facilities and Ant support
-Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
-support of Java Black-Box units and libraries
-seamless integration with JDT supporting co-development of QVTo and Java in single workspace
-Additional tooling QVTO Code Coverage provides:
-annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
-JUnit launch configuration to integrate with the JUnit test framework
-Read more...
-Latest release:
-2019-09 (3.10.0)
-Eclipse Kuksa
-Internet of Things
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
-Read more...
-Latest release:
-0.1-M1
-Learn more
-Toggle Dropdown
-Website
+Eclipse Ponte
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
 Developer Resources
 Who's Involved
 Governance
@@ -621,7 +665,119 @@ Contact Us
 Donate
 Governance
 Logo and Artwork
-Eclipse Ponte
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Incubating
+Mature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
+Read more...
+Latest release:
+1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Creative Commons Attribution 4.0 (International) License
 Eclipse SmartHome
 Eclipse Tahu
 Eclipse Thingweb
@@ -632,10 +788,484 @@ Eclipse VOLTTRON
 Eclipse Vorto
 Eclipse Wakaama
 Eclipse Yasham
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
 Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Governance
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Contact Us
+Eclipse Duttile
+Primary tabs
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Who's Involved
+Read more...
+Latest release:
+2019-09 (6.9.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
+Read more...
+Latest release:
+1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Creative Commons Attribution 4.0 (International) License
+This license been approved by the Board of Directors for use with Non-Code Content, as that term is defined in the
+Eclipse.org Terms of Use
+. For more information, please see
+Approved Licenses for Non-Code, Example, and Other Content
+.
+URL:
+https://creativecommons.org/licenses/by/4.0/
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Duttile
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+Eclipse Duttile produces a shared Agile/Lean methodology that links the tools and utilities available in the Eclipse IoT ecosystem.
+People that use Eclipse Duttile form a full delivery team that follow the AgileIoT manifesto philosophy, principles and practices, working in Agile and Lean manners to improve the efficacy and efficiency of their daily actions.
+Working Group:
+Internet of Things (IoT)
+Reviews:
+Name
+Date
+Creation Review
+2017-09-20
+Project Links
+Proposal
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+duttile-dev
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Eclipse Duttile
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
+Operational QVT project provides a powerful Eclipse IDE:
+feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
+debugger (conditional breakpoints, variables view, expressions view, watches)
+metamodel browser, trace view
+project builders, launch configurations
+deployment facilities and Ant support
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse IoT
+Eclipse Duttile
+Downloads
+Eclipse Duttile
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+You can download the full documents package (docx and pdf) clicking on the "Download Eclipse Duttile".
+Remember that Eclipse Duttile is hosted in the following git repository:
+href="https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/
+If you want to collaborate with us, please clone it and suggest your update.
+Download Eclipse Duttile
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Commits on this project (last 12 months).
+Project Members:
+Committers
+Alessandro Alpi
+Felice Pescatore
+Paolo Patierno
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
+support of Java Black-Box units and libraries
+seamless integration with JDT supporting co-development of QVTo and Java in single workspace
+Additional tooling QVTO Code Coverage provides:
+annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
+JUnit launch configuration to integrate with the JUnit test framework
+Read more...
+Latest release:
+2019-09 (3.10.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass
+is an open source application to solve performance and reliability issues by reading and analyzing
+Eclipse Duttile
+Developer Resources
+Eclipse Duttile
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+duttile/duttile -
+Clone:
+git://git.eclipse.org/gitroot/duttile/duttile.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
 Eclipse Foundation
 About Us
 Contact Us
@@ -651,17 +1281,46 @@ Eclipse Public License
 Legal Resources
 Useful Links
 Report a Bug
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Trace Compass
-Tools
-Eclipse Trace Compass
-is an open source application to solve performance and reliability issues by reading and analyzing
+Documentation
+How to Contribute
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
 lo
 Read more...
 Latest release:
@@ -682,6 +1341,20 @@ Download
 Toggle Dropdown
 Website
 Developer Resources
+Who's Involved
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
 Board of Directors
 Legal
 Privacy Policy
@@ -692,7 +1365,6 @@ Legal Resources
 Useful Links
 Report a Bug
 Documentation
-How to Contribute
 Mailing Lists
 Forums
 Marketplace
@@ -705,21 +1377,8 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Who's Involved
 Governance
 Contact
 Eclipse Collections
@@ -743,6 +1402,19 @@ Read more...
 Download
 Toggle Dropdown
 Website
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Developer Resources
 Who's Involved
 Governance
@@ -928,693 +1600,6 @@ Contact
 …
 next ›
 last »
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Creative Commons Attribution 4.0 (International) License | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"CRzJyuaX5wMNqtpNt9qm-8eK5W7UxnYNhcL8GUuX9dk","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Creative Commons Attribution 4.0 (International) License
-Creative Commons Attribution 4.0 (International) License
-This license been approved by the Board of Directors for use with Non-Code Content, as that term is defined in the
-Eclipse.org Terms of Use
-. For more information, please see
-Approved Licenses for Non-Code, Example, and Other Content
-.
-URL:
-https://creativecommons.org/licenses/by/4.0/
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Duttile | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"uhTozLUTxmnJptuOQ_Af7S0iBw0WivEUTHSWGCNg45w","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"0":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Who's Involved
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Members:
-Committers
-Alessandro Alpi
-Felice Pescatore
-Paolo Patierno
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Duttile | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"G_zUv04J46p0993p5khDlP7G3PTHKMrRrBMdrIqqlIw","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Eclipse Duttile | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"OIDb6NXJR1DfUivfsBqs05vfvyQncoqxBrnIeer4Gaw","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Contact Us
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Governance
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-(active tab)
-Developer Mailing List:
-duttile-dev
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Eclipse IDE 2019-09
-Get the latest version of the Eclipse IDE.
-Download Now
-Learn More
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Contact Us
-Scope:
-Eclipse Duttile produces a shared Agile/Lean methodology that links the tools and utilities available in the Eclipse IoT ecosystem.
-People that use Eclipse Duttile form a full delivery team that follow the AgileIoT manifesto philosophy, principles and practices, working in Agile and Lean manners to improve the efficacy and efficiency of their daily actions.
-Working Group:
-Internet of Things (IoT)
-Reviews:
-Name
-Date
-Creation Review
-2017-09-20
-Project Links
-Proposal
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Duttile | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"wzYV2tIGYePOWxYZGe-iHW_1tPjhP-XAAyG2jiSvqB4","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Downloads
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-You can download the full documents package (docx and pdf) clicking on the "Download Eclipse Duttile".
-Remember that Eclipse Duttile is hosted in the following git repository:
-href="https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/
-If you want to collaborate with us, please clone it and suggest your update.
-Download Eclipse Duttile
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Duttile | projects.eclipse.org
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_eclipse_projects","theme_token":"CBGt-pGRWK2ZsGtzZ-qfjf4n3Rzi8QdSdCQkkltj6r0","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/tray\/tray.js":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/javascript\/vendor\/cookieconsent\/default.min.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/custom\/pmi\/bugzilla\/bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/commons\/commons.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/pmi\/elections\/elections.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/pmi\/mailing_list\/mailing_list.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/projects.css":1,"sites\/all\/modules\/custom\/pmi\/projects_downloads\/projects_downloads.css":1,"sites\/all\/modules\/custom\/pmi\/projects_github\/projects_github.css":1,"sites\/all\/modules\/custom\/pmi\/projects\/project_blocks\/project_blocks.css":1,"sites\/all\/modules\/custom\/pmi\/project_reviews\/project_reviews.css":1,"sites\/all\/modules\/custom\/pmi\/project_state\/project_state.css":1,"sites\/all\/modules\/custom\/pmi\/releases_bugzilla\/releases_bugzilla.css":1,"sites\/all\/modules\/custom\/pmi\/simultaneous_releases\/release_picker\/release_picker.css":1,"sites\/all\/modules\/custom\/pmi\/summary_block\/summary_block.css":1,"sites\/all\/modules\/custom\/pmi\/user_profiles\/user_profiles.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/tray\/tray.css":1,"\/\/www.eclipse.org\/eclipse.org-common\/themes\/solstice\/public\/stylesheets\/vendor\/cookieconsent\/cookieconsent.min.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/projects.css":1}},"tray":{"trayPath":"tray\/load"},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Developer Resources
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
-duttile/duttile -
-Clone:
-git://git.eclipse.org/gitroot/duttile/duttile.git
-Browse Repository
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
