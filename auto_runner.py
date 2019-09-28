@@ -33,7 +33,11 @@ def crawl():
     with open(filePath, 'w') as dataFile:
         json.dump(siteDataList, dataFile, default=Site.encode_Site, indent=4)
 
-    reactor.stop()
+    if reactor.running:
+        reactor.stop()
+    else:
+        yield runner.crawl(crawler, siteUrl="http://www.msftconnecttest.com/connecttest.txt", crawlDepthLevel=0)
+        reactor.stop()
 
 def nlp():
     filePath = './ptidejWordcloud/sitelist.json'
