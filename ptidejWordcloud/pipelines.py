@@ -9,7 +9,7 @@ import os
 from helpers.ProjectHelper import ProjectHelper
 
 class WordcloudPipeline(object):
-    dataFolder = "./data/"
+    dataFolder = "./data/scrapy/"
 
     def open_spider(self, spider):
         ProjectHelper.createDataFolder(self.dataFolder)
