@@ -65,13 +65,14 @@ def removeStopwords(projectName, stopwords):
     keywords = []
     stemmedKeywords = []
     programmingLanguageKeywords = []
+    programmingLanguages = getProgrammingLanguageList()
+
     for line in dataLines:
         words = word_tokenize(line)
         for index, word in enumerate(words):
             # words[index] = SnowballStemmer('english').stem(word)
             words[index] = PorterStemmer().stem(word)
             # check for stop words
-            programmingLanguages = getProgrammingLanguageList()
             if words[index] not in stopwords and word.lower() not in stopwords and words[index] != '' and '//' not in words[index] and not isMatchSpecialString(words[index]):
                 if words[index] in programmingLanguages:
                     programmingLanguageKeywords.append(words[index])

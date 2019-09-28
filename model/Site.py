@@ -24,6 +24,7 @@ class StemmedWord(object):
         self.UnStemmed = defaultdict(int)
         self.Text = Text
         self._count = 0
+        self.addUnStemmed(UnStemmedWord)
     
     def count(self):
         if self._count == 0:
