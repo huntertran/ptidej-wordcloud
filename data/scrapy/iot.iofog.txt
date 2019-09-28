@@ -128,60 +128,7 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Eclipse Public License 2.0 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
 Internet of Things | projects.eclipse.org
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
 Google Tag Manager
 Skip to main content
 Log in
@@ -190,129 +137,6 @@ projects.eclipse.org
 Download
 Members
 Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse Public License 2.0
-Eclipse Public License 2.0
-URL:
-http://www.eclipse.org/legal/epl-2.0
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse IoT | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-1.1.0 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse ioFog | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
 Projects
 Community
 Marketplace
@@ -337,6 +161,17 @@ How to Contribute
 IDE and Tools
 Newcomer Forum
 More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
 Wiki
 IRC
 Research
@@ -361,7 +196,13 @@ Eclipse Yasham is an Open & Extensible Cloud-Native Smart Living Platform for Co
 Read more...
 Learn more
 Toggle Dropdown
-1.2.0 | projects.eclipse.org
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Keyple
+Eclipse IoT | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -369,83 +210,6 @@ Manage Cookies
 projects.eclipse.org
 Download
 Members
-Working Groups
-Projects
-Community
-Marketplace
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-1.3.0 | projects.eclipse.org
-Google Tag Manager
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-1.2.0 Release Review | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Keyple
 Internet of Things
 The goal of Eclipse Keyple is to allow developers to easily implement fast and secure off-line contactless transactions (using NFC cards, mobile phones, …) based on the Calypso standard.
 Read more...
@@ -462,20 +226,16 @@ Eclipse VOLTTRON
 Internet of Things
 The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
 Read more...
-Eclipse ioFog | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
 Working Groups
 Projects
 Community
 Marketplace
-Events
-Planet Eclipse
 Events
 Planet Eclipse
 Newsletter
@@ -495,22 +255,29 @@ Documentation
 Getting Started / Support
 How to Contribute
 IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
-Eclipse ioFog | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
+Contact
+Eclipse Tahu
+Internet of Things
+Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse fog05
+Internet of Things
+Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
 Newcomer Forum
 More
 Community
@@ -525,52 +292,6 @@ Report a Bug
 Forums
 Mailing Lists
 Wiki
-IRC
-Eclipse ioFog | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-1.1.0 Release Review | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
 IRC
 Research
 Eclipse IDE
@@ -579,6 +300,29 @@ Learn More
 Documentation
 Getting Started / Support
 How to Contribute
+Eclipse HIP
+Archived
+Internet of Things
+Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Mita
+Internet of Things
+Language
+Modeling
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+Read more...
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
+Website
 IDE and Tools
 Newcomer Forum
 Toggle navigation
@@ -593,9 +337,308 @@ Downloads
 Who's Involved
 Developer Resources
 Governance
+Contact Us
+The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
+Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
+Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
+Tools that facilitate the development of connected systems
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Thingweb
+Internet of Things
+The Eclipse Thingweb project will start with three sub-projects in the toolkit:
+Thingweb node-wot
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Cyclone DDS
+Internet of Things
+Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
+Read more...
+Latest release:
+Solutions that build ready-to-run solutions based on the other building blocks
+This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Top Level Project Charter
+Website
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse 4diac
+Eclipse Agail
+Eclipse Californium (Cf) CoAP Framework
+Eclipse Concierge
+Eclipse Cyclone DDS
+Eclipse Ditto
+0.1.0 (Preambule)
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Kuksa
+Internet of Things
+Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
+The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
+Read more...
+Latest release:
+0.1-M1
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+Eclipse Duttile
+Eclipse fog05
+Eclipse hawkBit
+Eclipse Hono
+Eclipse Ignite|IoT
+Eclipse ioFog
+Eclipse IoT Packages
+Eclipse Kapua
+Eclipse Keti
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Kuksa
+Eclipse Kura
+Eclipse Leshan
+Eclipse Milo
+Eclipse Mita
+Eclipse Mosquitto
+Eclipse MRAA
+Eclipse NeoSCADA
+Eclipse OM2M
+Eclipse Paho
+Eclipse Paho Incubator
+2
+3
+4
+5
+next
+last
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Eclipse Ponte
+Eclipse SmartHome
+Eclipse Tahu
+Eclipse Thingweb
+Eclipse tinydtls
+Eclipse Unide
+Eclipse UPM
+Eclipse VOLTTRON
+Eclipse Vorto
+Eclipse Wakaama
+Eclipse Yasham
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Eclipse Public License 2.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
 Members
 Working Groups
 Projects
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Home
+Projects
+Eclipse Public License 2.0
+Eclipse Public License 2.0
+URL:
+http://www.eclipse.org/legal/epl-2.0
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+1.1.0 Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
 Community
 Marketplace
 Events
@@ -624,21 +667,21 @@ Projects
 Eclipse IoT
 Eclipse ioFog
 1.1.0
-Eclipse ioFog 1.1.0
-Primary tabs
-Overview
-(active tab)
-Issues
-Release Plan
-Review Information
+1.1.0 Release Review
+Eclipse ioFog 1.1.0 Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, June 19, 2019
+Project:
+Eclipse ioFog
+Release:
+1.1.0
+Description:
 Agent (v1.0.14)
-Features
-Added support for setting and passing through environment variables in docker containers at runtime (see iofog-agent CLI)
-Added support for overriding container CMD directives at runtime (see iofog-agent cli)
-Agent Docker images now build from iofog-docker-images for stability
-Bugs
-Fix for deleting local images when registry was set to local
-Fix for when multiple Agents would removes other Agent's microservices on the same node
 Eclipse ioFog | projects.eclipse.org
 Google Tag Manager
 Skip to main content
@@ -649,255 +692,16 @@ Download
 Members
 Working Groups
 Projects
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Tahu
-Internet of Things
-Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse fog05
-Internet of Things
-Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
-Read more...
-Learn more
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
 Community
 Marketplace
 Events
-Planet Eclipse
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse ioFog
-Who's Involved
-Eclipse ioFog
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Contact Us
-The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
-Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
-Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
-Tools that facilitate the development of connected systems
-Solutions that build ready-to-run solutions based on the other building blocks
-This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
-Licenses:
-Eclipse Distribution License 1.0 (BSD)
-Eclipse Public License 2.0
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Top Level Project Charter
-Website
-Wiki
-Related Projects
-Project Hierarchy:
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
+Features
+Added support for setting and passing through environment variables in docker containers at runtime (see iofog-agent CLI)
+Added support for overriding container CMD directives at runtime (see iofog-agent cli)
+Agent Docker images now build from iofog-docker-images for stability
+Bugs
+Fix for deleting local images when registry was set to local
+Fix for when multiple Agents would removes other Agent's microservices on the same node
 Fixed for Private registries authentication
 Stop running microservices when iofog-agent package gets uninstalled (for real time this!)
 Controller
@@ -913,7 +717,16 @@ Available memory
 Controller Docker images now build from iofog-docker-images for stability
 Bugs
 Update microservice did always get picked up by Agent
-High CPU usage when Controller was running for couple of weeks
+1.2.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
 Community
 Marketplace
 Events
@@ -929,72 +742,6 @@ Wiki
 IRC
 Research
 Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse HIP
-Archived
-Internet of Things
-Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Mita
-Internet of Things
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse ioFog
-1.2.0
-Eclipse ioFog 1.2.0
-Primary tabs
-Overview
-(active tab)
-Issues
-Release Plan
-Review Information
-Release Date:
-Monday, October 7, 2019
-Review:
-1.2.0 Release Review
-Release Type:
-Minor release
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-New & Noteworthy URL:
-New and Noteworthy
-Related Projects
 Download
 Learn More
 Documentation
@@ -1008,165 +755,7 @@ Marketplace
 Events
 Planet Eclipse
 Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Contribution Activity:
-Commits on this project (last 12 months).
-Individual Contribution Activity:
-Commits on this project by individuals over the last three months.
-Organization Contribution Activity:
-Commits on this project by supporting organization over the last three months.
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Project Members:
-Project Lead
-Kilton Hopkins
-Committers
-Alex de Wergifosse
-Alexander Shpak
-Andrew Milson
-Darya Busel
-Eugene Pankov
-Ian Martin
-Jee Won Park
-Kilton Hopkins
-Luboš Krčál
-Maksim Chepelev
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse ioFog
-1.3.0
-Eclipse ioFog 1.3.0
-Primary tabs
-Overview
-(active tab)
-Issues
-Release Plan
-Review Information
-Release Date:
-Monday, October 21, 2019
-Release Type:
-Minor release
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Eclipse IoT
-Eclipse 4diac
-Eclipse Agail
-Eclipse Californium (Cf) CoAP Framework
-Eclipse Concierge
-Eclipse Cyclone DDS
-Eclipse Ditto
-Eclipse Duttile
-Eclipse fog05
-Eclipse hawkBit
-Eclipse Hono
-Eclipse Ignite|IoT
-Eclipse ioFog
-Eclipse IoT Packages
-Eclipse Kapua
-Eclipse Keti
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Kura
-Eclipse Leshan
-Eclipse Milo
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse ioFog
-1.2.0
-1.2.0 Release Review
-Eclipse ioFog 1.2.0 Release Review
-Type:
-Release
-State:
+High CPU usage when Controller was running for couple of weeks
 Fixed log rotation (should work infinitely now)
 Fixed regression where Ports public directive was not honored
 Connector (v1.0.4)
@@ -1190,6 +779,22 @@ iofog.org
 Features
 Added documentation to support new Environment variables for Docker Containers
 Added documentation to support new CMD override for Docker Containers
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
@@ -1214,31 +819,70 @@ Learn More
 Documentation
 Getting Started / Support
 How to Contribute
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Thingweb
-Internet of Things
-The Eclipse Thingweb project will start with three sub-projects in the toolkit:
-Thingweb node-wot
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
 Eclipse ioFog
+Updates to the Tutorial flow to support new Demo
+Project Wide Work
+Ported all CI to Azure Pipelines
+Simplified Packaging, Tagging and Release process for public artifacts
+Implemented initial cross component integration tests suite in Test Runner repo
+Added support for pushing snapshot/rc artifacts to PackageCloud
+Integrated Snyk for continual security and vulnerability analysis
+Cleaned up, refactored and retired old/crufty repos, branches and code we no longer needed
+API Certification:
+The project leadership certifies that the APIs in this release are "Eclipse Quality".
+Architectural Issues:
+We paid down a ton of legacy tech debt in this release, removing a slew of old repos, and defunct branches from the repos we wanted to keep. Additionally, we aligned all compoents to build from a new set of baseline docker images. Additionally, we reimplemented CI on top of Azure pipelines to give us true CI, not just periodic builds (which had been the case on Travis).
+For this release we have submitted all outstanding CQs and removed libs that were questionable from a license stand point.
+Lastly, a new Test Runner repo contains a full stack integration test suite (or at least the initial version of it) that will test a fully deployed system post CI snapshot builds.
+Security Issues:
+We have integrated Snyk as a tool into our build pipeline to immediately alert on security issues.
+Non-Code Aspects:
+New release artifacts are available on PackageCloud. Single one line install for most components. We have upgrade documentation at iofog.org and simplified the Demo and tutorial flow and experience for a completely new ioFog user.
+Conforms To UI/UX Guidelines:
+Not verified
+Communities:
+1.3.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse ioFog
+1.2.0
 Downloads
 Eclipse ioFog
 Primary tabs
@@ -1257,15 +901,193 @@ Eclipse ioFog
 Tags
 Technology Types
 Internet of Things
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+1.1.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+We have added new committers to the project, and actively supported all users on the ioFog Discuss forums.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
 Eclipse Foundation
 About Us
 Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Eclipse ioFog 1.2.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Release Date:
+Monday, October 7, 2019
+Review:
+1.2.0 Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+New & Noteworthy URL:
+New and Noteworthy
+Related Projects
 Project Hierarchy:
 Eclipse IoT
 Eclipse ioFog
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
 Tags
 Technology Types
 Internet of Things
@@ -1289,6 +1111,112 @@ Useful Links
 Report a Bug
 Documentation
 How to Contribute
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Eclipse ioFog
+1.3.0
+Eclipse ioFog 1.3.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Release Date:
+Monday, October 21, 2019
+Release Type:
+Minor release
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+1.2.0 Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
 Research
 Eclipse IDE
 Download
@@ -1313,239 +1241,29 @@ OSGi
 Runtime
 Specification
 Testing
-Projects
-Eclipse IoT
-Eclipse ioFog
-Governance
-Eclipse ioFog
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-Contact Us
-Scope:
-1. A software agent, called ioFog Agent, that provides a universal environment for edge computing microservices
-2. A distributable control plane, called ioFog Controller, that provides remote control and management of ioFog Agent instances
-3. A software overlay network component, called ioFog Connector, that provides secure connectivity between any edge microservices managed by ioFog
-4. Deployment and management software and tooling that makes it easier to manage ioFog systems at scale
-5. SDKs in multiple programming languages, allowing developers to program edge applications and micro-services
-Releases:
-Name
-Date
-1.3.0
-2019-10-21
-1.2.0
-Maryna Lipnitskaya
-Neha Naithani
-Saeid Rezaei Baghbidi
-Serge Radinovich
-Sergey Valevich
-Todd Papaioannou
-Mentor
-Pascal Rapicault
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Projects
-Eclipse IoT
-Eclipse ioFog
-Contact Us
-Eclipse ioFog
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-(active tab)
-Forums:
-Eclipse ioFog Discussion Forum
-Developer Mailing List:
-iofog-dev
-Project Links
-Forums
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
-Tags
-Technology Types
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Newcomer Forum
-Toggle navigation
 Home
 Projects
 Eclipse IoT
 Eclipse ioFog
 1.1.0
-1.1.0 Release Review
-Eclipse ioFog 1.1.0 Release Review
-Type:
-Release
-State:
-Successful
-End Date of the Review Period:
-Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
-Wednesday, June 19, 2019
-Project:
-Eclipse ioFog
-Release:
-1.1.0
-Description:
+Eclipse ioFog 1.1.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
 Agent (v1.0.14)
 Features
 Added support for setting and passing through environment variables in docker containers at runtime (see iofog-agent CLI)
-Eclipse Mita
-Eclipse Mosquitto
-Eclipse MRAA
-Eclipse NeoSCADA
-Eclipse OM2M
-Eclipse Paho
-Eclipse Paho Incubator
-Eclipse Ponte
-Eclipse SmartHome
-Eclipse Tahu
-Eclipse Thingweb
-Eclipse tinydtls
-Eclipse Unide
-Eclipse UPM
-Eclipse VOLTTRON
-Eclipse Vorto
-Eclipse Wakaama
-Eclipse Yasham
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
+Added support for overriding container CMD directives at runtime (see iofog-agent cli)
+Agent Docker images now build from iofog-docker-images for stability
+Bugs
+Fix for deleting local images when registry was set to local
+Fix for when multiple Agents would removes other Agent's microservices on the same node
+Fixed for Private registries authentication
 About Us
 Contact Us
-Donate
-Pending
-End Date of the Review Period:
-Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
-Wednesday, October 2, 2019
-Project:
-Eclipse ioFog
-Release:
-1.2.0
-Description:
-API Certification:
-The project leadership certifies that the APIs in this release are "Eclipse Quality".
-Architectural Issues:
-We have made major improvements in the architecture of Controller, simplifying deployment and unifying a new visualizer into the distro. Additionally, ioFog agent install now seamlessly supports making the necessary changes to ARM Docker envionrments to remove a bunch of headache for end users.
-The addition of iofogctl as a unified CLI drove us to expose further management and monitoring APIs via REST, so the entire platform is now configurabler and manageable via REST.
-Security Issues:
-Inceased identity verification between ioFog Connector and ioFog Controller to allow for widely distributed deployments to operate more securely.
-Non-Code Aspects:
-We have added further documentation tutorials that include
-ioFog platform deployment to kubernetes
-Installing ioFog via HELM to Kubernetes
-Updates to the Tutorial flow to support new Demo
-Project Wide Work
-Ported all CI to Azure Pipelines
-Simplified Packaging, Tagging and Release process for public artifacts
-Implemented initial cross component integration tests suite in Test Runner repo
-Added support for pushing snapshot/rc artifacts to PackageCloud
-Integrated Snyk for continual security and vulnerability analysis
-Cleaned up, refactored and retired old/crufty repos, branches and code we no longer needed
-Release Date:
-Wednesday, June 19, 2019
-Review:
-1.1.0 Release Review
-Release Type:
-Minor release
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
-Tags
-Technology Types
-Internet of Things
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse ioFog
-Developer Resources
-Eclipse ioFog
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Report a Bug
-View Help wanted Bugs
-View Open Bugs
-Summarize Bugs
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
-Contact
-Eclipse Cyclone DDS
-Internet of Things
-Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
-Read more...
-Latest release:
-0.1.0 (Preambule)
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Kuksa
-Internet of Things
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
 Donate
 Governance
 Logo and Artwork
@@ -1564,25 +1282,29 @@ Mailing Lists
 Forums
 Marketplace
 Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Mailing Lists
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
 Forums
-Marketplace
-Other
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
 IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
 Tools
 State
 - Any -
@@ -1605,98 +1327,6 @@ Website
 Developer Resources
 Who's Involved
 Governance
-Contact
-Eclipse OCL (Object Constraint Language)
-Language
-2019-10-07
-1.1.0
-2019-06-19
-Reviews:
-Name
-Date
-1.2.0 Release Review
-2019-10-02
-1.1.0 Release Review
-2019-06-19
-Creation Review
-2016-09-21
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-Project Links
-Next Release
-Proposal
-Current Release
-Plan
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
-Tags
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Added support for overriding container CMD directives at runtime (see iofog-agent cli)
-Agent Docker images now build from iofog-docker-images for stability
-Bugs
-Fix for deleting local images when registry was set to local
-Fix for when multiple Agents would removes other Agent's microservices on the same node
-Fixed for Private registries authentication
 Stop running microservices when iofog-agent package gets uninstalled (for real time this!)
 Controller
 (v1.0.38)
@@ -1714,23 +1344,11 @@ Update microservice did always get picked up by Agent
 High CPU usage when Controller was running for couple of weeks
 Fixed log rotation (should work infinitely now)
 Fixed regression where Ports public directive was not honored
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
+Connector (v1.0.4)
+Features
+Connector Docker images now build from iofog-docker-images for stability
+Bugs
+Improved and now return correct HTTP status codes when API call fails
 IDE and Tools
 Community of Projects
 Working Groups
@@ -1738,99 +1356,32 @@ Research@Eclipse
 Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-iofogctl command line tool and management/deployment of ioFog
-Updated all of the demo/tutorial documentation
-Improved the API documentation
-Conforms To UI/UX Guidelines:
-Not verified
-Sign in
-to post comments.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-iofog-platform - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-platform.git
-Browse Repository
-demo - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/demo.git
-Browse Repository
-iofog.org - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog.org.git
-Browse Repository
-iofog-operator - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-operator.git
-Browse Repository
-iofog-scheduler - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-scheduler.git
-Browse Repository
-iofog-kubelet - Project repository hosted on GitHub.
-Clone:
-Read more...
-Latest release:
-0.1-M1
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-1
-2
-3
-4
-5
-next
-last
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
 Back to the top
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
 Modeling
 Tools
 Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
@@ -1850,51 +1401,6 @@ Runtime
 Tools
 The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
 Read more...
-Latest release:
-1.4.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Connector (v1.0.4)
-Features
-Connector Docker images now build from iofog-docker-images for stability
-Bugs
-Improved and now return correct HTTP status codes when API call fails
 Demo
 Features
 Huge refactoring and consolidation of Demo repo
@@ -1912,84 +1418,38 @@ Features
 Added documentation to support new Environment variables for Docker Containers
 Added documentation to support new CMD override for Docker Containers
 Updates to the Tutorial flow to support new Demo
-Back to the top
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-https://github.com/eclipse-iofog/iofog-kubelet.git
-Browse Repository
-Agent - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/Agent.git
-Browse Repository
-Controller - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/Controller.git
-Browse Repository
-iofog-docker-images - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-docker-images.git
-Browse Repository
-example-microservices - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/example-microservices.git
-Browse Repository
-Connector - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/Connector.git
-Browse Repository
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
+Project Wide Work
+Ported all CI to Azure Pipelines
+Simplified Packaging, Tagging and Release process for public artifacts
+Implemented initial cross component integration tests suite in Test Runner repo
+Added support for pushing snapshot/rc artifacts to PackageCloud
+Eclipse ioFog
+1.2.0
+1.2.0 Release Review
+Eclipse ioFog 1.2.0 Release Review
+Type:
+Release
+State:
+Pending
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, October 2, 2019
+Project:
+Eclipse ioFog
+Release:
+1.2.0
+Description:
+API Certification:
+The project leadership certifies that the APIs in this release are "Eclipse Quality".
+Architectural Issues:
+We have made major improvements in the architecture of Controller, simplifying deployment and unifying a new visualizer into the distro. Additionally, ioFog agent install now seamlessly supports making the necessary changes to ARM Docker envionrments to remove a bunch of headache for end users.
+Latest release:
+1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
 Governance
 Contact
 Eclipse QVT Operational
@@ -2004,6 +1464,51 @@ metamodel browser, trace view
 project builders, launch configurations
 deployment facilities and Ant support
 Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
+Integrated Snyk for continual security and vulnerability analysis
+Cleaned up, refactored and retired old/crufty repos, branches and code we no longer needed
+Release Date:
+Wednesday, June 19, 2019
+Review:
+1.1.0 Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+The addition of iofogctl as a unified CLI drove us to expose further management and monitoring APIs via REST, so the entire platform is now configurabler and manageable via REST.
+Security Issues:
+Inceased identity verification between ioFog Connector and ioFog Controller to allow for widely distributed deployments to operate more securely.
+Non-Code Aspects:
+We have added further documentation tutorials that include
+ioFog platform deployment to kubernetes
+Installing ioFog via HELM to Kubernetes
+iofogctl command line tool and management/deployment of ioFog
+Updated all of the demo/tutorial documentation
+Improved the API documentation
+Conforms To UI/UX Guidelines:
+Not verified
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
 support of Java Black-Box units and libraries
 seamless integration with JDT supporting co-development of QVTo and Java in single workspace
 Additional tooling QVTO Code Coverage provides:
@@ -2013,63 +1518,6 @@ Read more...
 Latest release:
 2019-09 (3.10.0)
 Download
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Project Wide Work
-Ported all CI to Azure Pipelines
-Simplified Packaging, Tagging and Release process for public artifacts
-Implemented initial cross component integration tests suite in Test Runner repo
-Added support for pushing snapshot/rc artifacts to PackageCloud
-Integrated Snyk for continual security and vulnerability analysis
-Cleaned up, refactored and retired old/crufty repos, branches and code we no longer needed
-API Certification:
-The project leadership certifies that the APIs in this release are "Eclipse Quality".
-Architectural Issues:
-We paid down a ton of legacy tech debt in this release, removing a slew of old repos, and defunct branches from the repos we wanted to keep. Additionally, we aligned all compoents to build from a new set of baseline docker images. Additionally, we reimplemented CI on top of Azure pipelines to give us true CI, not just periodic builds (which had been the case on Travis).
-For this release we have submitted all outstanding CQs and removed libs that were questionable from a license stand point.
-Lastly, a new Test Runner repo contains a full stack integration test suite (or at least the initial version of it) that will test a fully deployed system post CI snapshot builds.
-Security Issues:
-We have integrated Snyk as a tool into our build pipeline to immediately alert on security issues.
-Non-Code Aspects:
-New release artifacts are available on PackageCloud. Single one line install for most components. We have upgrade documentation at iofog.org and simplified the Demo and tutorial flow and experience for a completely new ioFog user.
-Conforms To UI/UX Guidelines:
-Not verified
-Communities:
-We have added new committers to the project, and actively supported all users on the ioFog Discuss forums.
-iofog-python-sdk - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-python-sdk.git
-Browse Repository
-HardwareAbstraction - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/HardwareAbstraction.git
-Browse Repository
-common-logging - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/common-logging.git
-Browse Repository
-core-networking - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/core-networking.git
-Browse Repository
-iofog-go-sdk - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-go-sdk.git
-Browse Repository
-iofog-c-sdk - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-c-sdk.git
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Toggle Dropdown
 Website
 Developer Resources
@@ -2083,26 +1531,30 @@ is an open source application to solve performance and reliability issues by rea
 lo
 Read more...
 Latest release:
-5.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
+Donate
 Governance
-Contact
-Apogy
-This project provides a multi-mission operations and planning software framework.
-Sign in
-to post comments.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
 Register now and save! Early Bird pricing ends October 1.
 Register
 Eclipse Foundation
@@ -2115,29 +1567,27 @@ Board of Directors
 Legal
 Privacy Policy
 Terms of Use
-Browse Repository
-iofog-csharp-sdk - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-csharp-sdk.git
-Browse Repository
-restblue - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/restblue.git
-Browse Repository
-iofog-nodejs-sdk - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/iofog-nodejs-sdk.git
-Browse Repository
-test-message-generator - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-iofog/test-message-generator.git
-Browse Repository
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse ioFog
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+5.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Apogy
+This project provides a multi-mission operations and planning software framework.
 Apogy
 uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
 Read more...
@@ -2151,6 +1601,25 @@ Contact
 Eclipse Collections
 OSGi
 Testing
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse ioFog | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Tools
 Eclipse Collections is a collections framework for Java.
 Read more...
@@ -2162,46 +1631,6 @@ Website
 Developer Resources
 Who's Involved
 Governance
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
 Contact
 Eclipse GlassFish Tools
 Tools
@@ -2214,6 +1643,29 @@ Who's Involved
 Governance
 Contact
 Eclipse MDT UML2
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
 Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform.
 Read more...
 Latest release:
@@ -2225,20 +1677,6 @@ Developer Resources
 Who's Involved
 Governance
 Contact
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Eclipse Ogee
 Modeling
 Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology.
@@ -2251,6 +1689,29 @@ Website
 Developer Resources
 Who's Involved
 Governance
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
 Contact
 Eclipse Dynamic Languages Toolkit
 Language
@@ -2273,6 +1734,28 @@ Runtime
 Tools
 The Eclipse EMF Client Platform is a framework for building EMF-based client applications.
 Read more...
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse ioFog
+Who's Involved
+Eclipse ioFog
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
 Latest release:
 1.22.0
 Download
@@ -2296,6 +1779,28 @@ Download
 Toggle Dropdown
 Website
 Developer Resources
+Member companies supporting this project over the last three months.
+Project Members:
+Project Lead
+Kilton Hopkins
+Committers
+Alex de Wergifosse
+Alexander Shpak
+Andrew Milson
+Darya Busel
+Eugene Pankov
+Ian Martin
+Jee Won Park
+Kilton Hopkins
+Luboš Krčál
+Maksim Chepelev
+Maryna Lipnitskaya
+Neha Naithani
+Saeid Rezaei Baghbidi
+Serge Radinovich
+Sergey Valevich
+Todd Papaioannou
+Mentor
 Who's Involved
 Governance
 Contact
@@ -2319,6 +1824,29 @@ graphical
 ,
 table
 or
+Pascal Rapicault
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
 tree
 editors with validation rules and actions using declarative descriptions.
 Read more...
@@ -2342,6 +1870,23 @@ Download
 Toggle Dropdown
 Website
 Developer Resources
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Who's Involved
 Governance
 Contact
@@ -2435,6 +1980,462 @@ Other
 IDE and Tools
 Community of Projects
 Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse ioFog | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse ioFog
+Contact Us
+Eclipse ioFog
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Forums:
+Eclipse ioFog Discussion Forum
+Developer Mailing List:
+iofog-dev
+Project Links
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse ioFog | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse ioFog
+Developer Resources
+Eclipse ioFog
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Report a Bug
+View Help wanted Bugs
+Eclipse ioFog | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+View Open Bugs
+Summarize Bugs
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+iofog-platform - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-platform.git
+Browse Repository
+demo - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/demo.git
+Browse Repository
+iofog.org - Project repository hosted on GitHub.
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Clone:
+https://github.com/eclipse-iofog/iofog.org.git
+Browse Repository
+iofog-operator - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-operator.git
+Browse Repository
+iofog-scheduler - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-scheduler.git
+Browse Repository
+iofog-kubelet - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-kubelet.git
+Browse Repository
+Agent - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/Agent.git
+Browse Repository
+Controller - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/Controller.git
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Browse Repository
+iofog-docker-images - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-docker-images.git
+Browse Repository
+example-microservices - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/example-microservices.git
+Browse Repository
+Connector - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/Connector.git
+Browse Repository
+iofog-python-sdk - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-python-sdk.git
+Browse Repository
+HardwareAbstraction - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/HardwareAbstraction.git
+Browse Repository
+common-logging - Project repository hosted on GitHub.
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse ioFog
+Governance
+Eclipse ioFog
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+1. A software agent, called ioFog Agent, that provides a universal environment for edge computing microservices
+2. A distributable control plane, called ioFog Controller, that provides remote control and management of ioFog Agent instances
+Clone:
+https://github.com/eclipse-iofog/common-logging.git
+Browse Repository
+core-networking - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/core-networking.git
+Browse Repository
+iofog-go-sdk - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-go-sdk.git
+Browse Repository
+iofog-c-sdk - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-c-sdk.git
+Browse Repository
+iofog-csharp-sdk - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-csharp-sdk.git
+Browse Repository
+restblue - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/restblue.git
+Browse Repository
+3. A software overlay network component, called ioFog Connector, that provides secure connectivity between any edge microservices managed by ioFog
+4. Deployment and management software and tooling that makes it easier to manage ioFog systems at scale
+5. SDKs in multiple programming languages, allowing developers to program edge applications and micro-services
+Releases:
+Name
+Date
+1.3.0
+2019-10-21
+1.2.0
+2019-10-07
+1.1.0
+2019-06-19
+Reviews:
+Name
+Date
+1.2.0 Release Review
+2019-10-02
+1.1.0 Release Review
+2019-06-19
+Creation Review
+2016-09-21
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+iofog-nodejs-sdk - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/iofog-nodejs-sdk.git
+Browse Repository
+test-message-generator - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-iofog/test-message-generator.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+Project Links
+Next Release
+Proposal
+Current Release
+Plan
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse ioFog
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Research@Eclipse
 Report a Vulnerability
 Service Status

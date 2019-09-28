@@ -227,7 +227,6 @@ Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
-Eclipse IoT | projects.eclipse.org
 Governance
 Contact
 Eclipse Keyple
@@ -247,6 +246,12 @@ Eclipse VOLTTRON
 Internet of Things
 The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
 Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Eclipse IoT | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -258,23 +263,6 @@ Working Groups
 Projects
 Community
 Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
 Governance
 Contact
 Eclipse Tahu
@@ -295,18 +283,9 @@ Read more...
 Learn more
 Toggle Dropdown
 Website
+Developer Resources
+Who's Involved
 projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
 Events
 Planet Eclipse
 Newsletter
@@ -319,8 +298,16 @@ Mailing Lists
 Wiki
 IRC
 Research
-Developer Resources
-Who's Involved
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
 Governance
 Contact
 Eclipse HIP
@@ -337,6 +324,14 @@ Governance
 Contact
 Eclipse Mita
 Internet of Things
+Language
+Modeling
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+Read more...
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
 Google Tag Manager
 Skip to main content
 Log in
@@ -358,6 +353,24 @@ Report a Bug
 Forums
 Mailing Lists
 Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
 Eclipse IDE
 Download
 Learn More
@@ -371,25 +384,6 @@ Home
 Projects
 Eclipse IoT
 Eclipse IoT
-Primary tabs
-Overview
-(active tab)
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
-Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
-Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
@@ -407,11 +401,11 @@ Developer Resources
 Who's Involved
 Governance
 Contact
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
+Eclipse Cyclone DDS
+Internet of Things
+Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
+Read more...
+Latest release:
 Documentation
 Getting Started / Support
 How to Contribute
@@ -431,62 +425,15 @@ Forums
 Mailing Lists
 Wiki
 IRC
-Research
-Creative Commons Attribution 4.0 (International) License | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Tools that facilitate the development of connected systems
-Solutions that build ready-to-run solutions based on the other building blocks
-This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
-Licenses:
-Eclipse Distribution License 1.0 (BSD)
-Eclipse Public License 2.0
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Top Level Project Charter
-Website
-Wiki
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse 4diac
-Eclipse Agail
-Eclipse Californium (Cf) CoAP Framework
-Eclipse Concierge
-Eclipse Cyclone DDS
-Eclipse Ditto
-Eclipse Duttile | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Eclipse Cyclone DDS
-Internet of Things
-Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
-Read more...
-Latest release:
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
 0.1.0 (Preambule)
 Learn more
 Toggle Dropdown
@@ -505,35 +452,7 @@ Latest release:
 Learn more
 Toggle Dropdown
 Website
-Eclipse Duttile | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Eclipse Duttile | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
+Research
 Eclipse IDE
 Download
 Learn More
@@ -558,93 +477,30 @@ Runtime
 Specification
 Testing
 Tools
-State
-- Any -
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
+Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
+Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
+Tools that facilitate the development of connected systems
+Solutions that build ready-to-run solutions based on the other building blocks
+This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Top Level Project Charter
+Website
 Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Eclipse Duttile
-Eclipse fog05
-Eclipse hawkBit
-Eclipse Hono
-Eclipse Ignite|IoT
-Eclipse ioFog
-Eclipse IoT Packages
-Eclipse Kapua
-Eclipse Keti
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Kura
-Eclipse Leshan
-Eclipse Milo
-Eclipse Mita
-Eclipse Mosquitto
-Eclipse MRAA
-Eclipse NeoSCADA
-Eclipse OM2M
-Eclipse Paho
-Eclipse Paho Incubator
-Eclipse Ponte
-Eclipse Duttile | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse 4diac
+Eclipse Agail
+Eclipse Californium (Cf) CoAP Framework
+Eclipse Concierge
+Eclipse Cyclone DDS
 Developer Resources
 Who's Involved
 Governance
@@ -669,55 +525,8 @@ Board of Directors
 Legal
 Privacy Policy
 Terms of Use
-Copyright Agent
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
+State
+- Any -
 Incubating
 Mature
 Include
@@ -739,46 +548,73 @@ Who's Involved
 Governance
 Contact
 Eclipse OCL (Object Constraint Language)
+Eclipse Ditto
+Eclipse Duttile
+Eclipse fog05
+Eclipse hawkBit
+Eclipse Hono
+Eclipse Ignite|IoT
+Eclipse ioFog
+Eclipse IoT Packages
+Eclipse Kapua
+Eclipse Keti
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Kuksa
+Eclipse Kura
+Eclipse Leshan
+Eclipse Milo
+Eclipse Mita
+Eclipse Mosquitto
+Eclipse MRAA
+Eclipse NeoSCADA
+Eclipse OM2M
+Eclipse Paho
+Eclipse Paho Incubator
+Eclipse Ponte
+Eclipse SmartHome
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Language
 Modeling
 Tools
 Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
-Eclipse Duttile | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
+Read more...
+Latest release:
+2019-09 (6.9.0)
 Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
+Read more...
+Latest release:
+1.4.1
 Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Creative Commons Attribution 4.0 (International) License
-Eclipse SmartHome
 Eclipse Tahu
 Eclipse Thingweb
 Eclipse tinydtls
@@ -801,280 +637,10 @@ Board of Directors
 Legal
 Privacy Policy
 Terms of Use
-Copyright Agent
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Governance
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Contact Us
-Eclipse Duttile
-Primary tabs
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Duttile
-Who's Involved
-Read more...
-Latest release:
-2019-09 (6.9.0)
-Download
 Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
-Governance
-Contact
-Eclipse Paho
-Internet of Things
-Runtime
-Tools
-The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
-Read more...
-Latest release:
-1.4.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Creative Commons Attribution 4.0 (International) License
-This license been approved by the Board of Directors for use with Non-Code Content, as that term is defined in the
-Eclipse.org Terms of Use
-. For more information, please see
-Approved Licenses for Non-Code, Example, and Other Content
-.
-URL:
-https://creativecommons.org/licenses/by/4.0/
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-Contact Us
-Scope:
-Eclipse Duttile produces a shared Agile/Lean methodology that links the tools and utilities available in the Eclipse IoT ecosystem.
-People that use Eclipse Duttile form a full delivery team that follow the AgileIoT manifesto philosophy, principles and practices, working in Agile and Lean manners to improve the efficacy and efficiency of their daily actions.
-Working Group:
-Internet of Things (IoT)
-Reviews:
-Name
-Date
-Creation Review
-2017-09-20
-Project Links
-Proposal
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-(active tab)
-Developer Mailing List:
-duttile-dev
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Contribution Activity:
 Governance
 Contact
 Eclipse QVT Operational
@@ -1088,29 +654,13 @@ debugger (conditional breakpoints, variables view, expressions view, watches)
 metamodel browser, trace view
 project builders, launch configurations
 deployment facilities and Ant support
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
+Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
+support of Java Black-Box units and libraries
+seamless integration with JDT supporting co-development of QVTo and Java in single workspace
+Additional tooling QVTO Code Coverage provides:
+annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
+Copyright Agent
+Eclipse Public License
 Legal Resources
 Useful Links
 Report a Bug
@@ -1128,101 +678,6 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Eclipse IoT
-Eclipse Duttile
-Downloads
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-You can download the full documents package (docx and pdf) clicking on the "Download Eclipse Duttile".
-Remember that Eclipse Duttile is hosted in the following git repository:
-href="https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/
-If you want to collaborate with us, please clone it and suggest your update.
-Download Eclipse Duttile
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Commits on this project (last 12 months).
-Project Members:
-Committers
-Alessandro Alpi
-Felice Pescatore
-Paolo Patierno
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
-support of Java Black-Box units and libraries
-seamless integration with JDT supporting co-development of QVTo and Java in single workspace
-Additional tooling QVTO Code Coverage provides:
-annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
 JUnit launch configuration to integrate with the JUnit test framework
 Read more...
 Latest release:
@@ -1238,89 +693,6 @@ Eclipse Trace Compass
 Tools
 Eclipse Trace Compass
 is an open source application to solve performance and reliability issues by reading and analyzing
-Eclipse Duttile
-Developer Resources
-Eclipse Duttile
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
-duttile/duttile -
-Clone:
-git://git.eclipse.org/gitroot/duttile/duttile.git
-Browse Repository
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
 lo
 Read more...
 Latest release:
@@ -1342,43 +714,6 @@ Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
-Eclipse Duttile
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Governance
 Contact
 Eclipse Collections
@@ -1402,19 +737,6 @@ Read more...
 Download
 Toggle Dropdown
 Website
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Developer Resources
 Who's Involved
 Governance
@@ -1607,6 +929,684 @@ Eclipse Foundation
 About Us
 Contact Us
 Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creative Commons Attribution 4.0 (International) License | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Creative Commons Attribution 4.0 (International) License
+Creative Commons Attribution 4.0 (International) License
+This license been approved by the Board of Directors for use with Non-Code Content, as that term is defined in the
+Eclipse.org Terms of Use
+. For more information, please see
+Approved Licenses for Non-Code, Example, and Other Content
+.
+URL:
+https://creativecommons.org/licenses/by/4.0/
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Developer Resources
+Eclipse Duttile
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Governance
+Eclipse Duttile
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+duttile/duttile -
+Clone:
+git://git.eclipse.org/gitroot/duttile/duttile.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+Eclipse Duttile produces a shared Agile/Lean methodology that links the tools and utilities available in the Eclipse IoT ecosystem.
+People that use Eclipse Duttile form a full delivery team that follow the AgileIoT manifesto philosophy, principles and practices, working in Agile and Lean manners to improve the efficacy and efficiency of their daily actions.
+Working Group:
+Internet of Things (IoT)
+Reviews:
+Name
+Date
+Creation Review
+2017-09-20
+Project Links
+Proposal
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Tags
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Contact Us
+Eclipse Duttile
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+duttile-dev
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+Projects
+Eclipse IoT
+Eclipse Duttile
+Downloads
+Eclipse Duttile
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+You can download the full documents package (docx and pdf) clicking on the "Download Eclipse Duttile".
+Remember that Eclipse Duttile is hosted in the following git repository:
+href="https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/
+If you want to collaborate with us, please clone it and suggest your update.
+Download Eclipse Duttile
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Who's Involved
+Eclipse Duttile
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Members:
+Committers
+Alessandro Alpi
+Felice Pescatore
+Paolo Patierno
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Duttile
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Governance
 Logo and Artwork
 Board of Directors

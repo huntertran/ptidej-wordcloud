@@ -1,10 +1,8 @@
 discussions:585
 development:411
 community:400
-0:254
 foundation:218
 lists:211
-2019:169
 home:156
 mailing:154
 forums:143
@@ -14,8 +12,6 @@ contributions:124
 ides:121
 reports:117
 downloads:99
-1:98
-september:93
 documents:89
 groups:82
 research:81
@@ -48,3 +44,7 @@ governs:54
 generous:53
 processing:52
 web:52
+learning:51
+informs:51
+committers:51
+public:46

@@ -186,6 +186,7 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
+Search
 Toggle navigation
 Home
 Projects
@@ -197,6 +198,7 @@ Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
 Eclipse Foundation
+Internet of Things | projects.eclipse.org
 About Us
 Contact Us
 Donate
@@ -220,12 +222,6 @@ Other
 IDE and Tools
 Community of Projects
 Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Internet of Things | projects.eclipse.org
 Eclipse Distribution License 1.0 (BSD) | projects.eclipse.org
 Google Tag Manager
 Skip to main content
@@ -240,7 +236,6 @@ Community
 Marketplace
 Events
 Planet Eclipse
-Newsletter
 Google Tag Manager
 Skip to main content
 Log in
@@ -263,6 +258,15 @@ Forums
 Mailing Lists
 Wiki
 IRC
+Research
+Eclipse IDE
+Download
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Newsletter
 Videos
 Blogs
 Participate
@@ -286,9 +290,16 @@ Marketplace
 Events
 Planet Eclipse
 Newsletter
-Research
-Eclipse IDE
+Eclipse IoT | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
 Download
+Members
+Working Groups
+Projects
 Learn More
 Documentation
 Getting Started / Support
@@ -306,6 +317,13 @@ Blogs
 Participate
 Report a Bug
 Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
 Videos
 Blogs
 Participate
@@ -327,9 +345,17 @@ Toggle navigation
 Home
 Projects
 Eclipse Distribution License 1.0 (BSD)
-Eclipse Distribution License 1.0 (BSD)
-URL:
 projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
 Mailing Lists
 Wiki
 IRC
@@ -337,6 +363,16 @@ Research
 Eclipse IDE
 Download
 Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
 Documentation
 Getting Started / Support
 How to Contribute
@@ -353,6 +389,15 @@ Eclipse Yasham
 Internet of Things
 Eclipse Yasham is an Open & Extensible Cloud-Native Smart Living Platform for Consumer IoT.
 Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Distribution License 1.0 (BSD)
+URL:
 http://www.eclipse.org/org/documents/edl-v10.php
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
@@ -369,23 +414,6 @@ Privacy Policy
 Terms of Use
 Copyright Agent
 Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-Eclipse Cyclone DDS | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-Eclipse IoT | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Eclipse Cyclone DDS | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -394,20 +422,6 @@ projects.eclipse.org
 Download
 Members
 Working Groups
-Projects
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
 Newsletter
 Videos
 Blogs
@@ -416,13 +430,19 @@ Report a Bug
 Forums
 Mailing Lists
 Wiki
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
 Eclipse Keyple
 Internet of Things
 The goal of Eclipse Keyple is to allow developers to easily implement fast and secure off-line contactless transactions (using NFC cards, mobile phones, …) based on the Calypso standard.
@@ -438,16 +458,18 @@ Governance
 Contact
 Eclipse VOLTTRON
 Internet of Things
-Eclipse Cyclone DDS | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
+The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
 How to Contribute
 Mailing Lists
 Forums
@@ -461,31 +483,6 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Members
-Working Groups
 Projects
 Community
 Marketplace
@@ -509,403 +506,6 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-More
-0.1.0 (Preambule) | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Eclipse Cyclone DDS | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Tahu
-Internet of Things
-Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse fog05
-Internet of Things
-Eclipse Cyclone DDS | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-0.1.0 (Preambule) Release Review | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-List of Projects
-List of Projects
-Search
-Technology Types
-- Any -
-Internet of Things
-Language
-Modeling
-OSGi
-Runtime
-Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse HIP
-Archived
-Internet of Things
-Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Cyclone DDS
-Contact Us
-Eclipse Cyclone DDS
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-(active tab)
-Forums:
-Eclipse Cyclone DDS
-Developer Mailing List:
-cyclonedds-dev
-Project Links
-Forums
-Home
-Projects
 Eclipse IoT
 Eclipse IoT
 Primary tabs
@@ -925,6 +525,36 @@ This document describes the composition and organization of the project, roles a
 Licenses:
 Eclipse Distribution License 1.0 (BSD)
 Eclipse Public License 2.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Top Level Project Charter
+Contact
+Eclipse Tahu
+Internet of Things
+Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse fog05
+Internet of Things
+Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse HIP
 More
 Community
 Marketplace
@@ -949,198 +579,7 @@ How to Contribute
 IDE and Tools
 Newcomer Forum
 Toggle navigation
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
 Home
-Projects
-Eclipse IoT
-Home
-Projects
-Eclipse IoT
-Eclipse Cyclone DDS
-Governance
-Eclipse Cyclone DDS
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-Contact Us
-Scope:
-This project implements the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see http://www.omg.org/spec/DDSI-RTPS/ )
-Working Group:
-Internet of Things (IoT)
-Releases:
-Name
-Date
-0.1.0 (Preambule)
-2019-03-01
-Reviews:
-Specification
-Testing
-Tools
-State
-- Any -
-Incubating
-Mature
-Include
-Archived Projects
-Apply
-Eclipse EMFStore
-Modeling
-Runtime
-Tools
-Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
-Read more...
-Latest release:
-1.10.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Eclipse Mita
-Internet of Things
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Thingweb
-Internet of Things
-The Eclipse Thingweb project will start with three sub-projects in the toolkit:
-Thingweb node-wot
-Read more...
-Download
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Cyclone DDS
-Eclipse Cyclone DDS
-Developer Resources
-Eclipse Cyclone DDS
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
-cyclonedds - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse-cyclonedds/cyclonedds.git
-Browse Repository
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Cyclone DDS
-Tags
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Cyclone DDS
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Top Level Project Charter
 Website
 Wiki
 Related Projects
@@ -1159,202 +598,6 @@ Eclipse Hono
 Eclipse Ignite|IoT
 Eclipse ioFog
 Eclipse IoT Packages
-Home
-Projects
-Eclipse IoT
-Eclipse Cyclone DDS
-0.1.0 (Preambule)
-Eclipse Cyclone DDS 0.1.0 (Preambule)
-Primary tabs
-Overview
-(active tab)
-Issues
-Release Plan
-Review Information
-A long overdue first release for Cyclone, on request from the (small) community.
-Release Date:
-Friday, March 1, 2019
-Review:
-0.1.0 (Preambule) Release Review
-Release Type:
-Minor release
-IP Due Diligence Type:
-Type B - Full IP Due Diligience (License, Provenance, Scanning)
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Cyclone DDS
-Eclipse Cyclone DDS
-Who's Involved
-Eclipse Cyclone DDS
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Contribution Activity:
-Commits on this project (last 12 months).
-Individual Contribution Activity:
-Commits on this project by individuals over the last three months.
-Organization Contribution Activity:
-Commits on this project by supporting organization over the last three months.
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Project Members:
-Project Leads
-Hans van t Hag
-Name
-Date
-0.1.0 (Preambule) Release Review
-2019-02-20
-Creation Review
-2017-12-20
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-Project Links
-Proposal
-Current Release
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Cyclone DDS
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Governance
-Contact
-Eclipse OCL (Object Constraint Language)
-Language
-Modeling
-Tools
-Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
-Read more...
-Latest release:
-2019-09 (6.9.0)
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Paho
-Internet of Things
-Runtime
-Tools
-The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
-Read more...
-Latest release:
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Cyclone DDS
-Internet of Things
-Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
-Read more...
-Latest release:
-0.1.0 (Preambule)
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Kuksa
-Internet of Things
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-Downloads
-Eclipse Cyclone DDS
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-This project has not provided download information.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Cyclone DDS
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Eclipse Cyclone DDS
-0.1.0 (Preambule)
-0.1.0 (Preambule) Release Review
-Eclipse Cyclone DDS 0.1.0 (Preambule) Release Review
-Type:
-Release
-State:
-Successful
-End Date of the Review Period:
-Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
-Wednesday, February 20, 2019
-Project:
-Eclipse Cyclone DDS
-Release:
-0.1.0 (Preambule)
-Description:
-A long overdue first release for Cyclone, on request from the (small) community.
-Architectural Issues:
-Cyclone DDS supports Linux, macOS and Windows as first-tier platforms. The code builds cleanly on all of them and all tests consistently pass. The occasional build failures in the continuous integration builds are related to infrastructure issues where downloading prequisites (such as maven) sometimes fails. Use of static analysis tools is so far limited to Clang's static analyzer (clean there, too), and we're working on getting it checked by Coverity Scan for a more thorough analysis.
-The initial contribution was a combination of sources of various ages and with various different naming philosophies and programming styles. This needs addressing for two reasons in particular: firstly, it is well known that such discrepancies can easily hide bugs, and secondly, this is a barrier to new contributors. Eliminating these discrepancies is an ongoing process.
-Fortunately, there is evidence that the negative impact is minor: the number of known issues in the code is very small, it generally exhibits excellent performance and no nasty misbehaviours (based on our own observations and issues raised by the community). Secondly, although there are very few direct contributions from people in the community, they have suggested a number of improvements and some have also indicated that they have put in additional features they required. (We've invited them to contribute their fixes or enhancements, but so far no pull requests have come.)
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Eclipse Kapua
 Eclipse Keti
 Eclipse Keyple
@@ -1363,6 +606,55 @@ Eclipse Kuksa
 Eclipse Kura
 Eclipse Leshan
 Eclipse Milo
+Archived
+Internet of Things
+Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Mita
+Internet of Things
+Language
+Modeling
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+Read more...
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -
+Internet of Things
+Language
+Modeling
+OSGi
+Runtime
+Specification
+Testing
+Tools
+State
+- Any -
+Incubating
+Mature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
 Eclipse Mita
 Eclipse Mosquitto
 Eclipse MRAA
@@ -1379,52 +671,60 @@ Eclipse Unide
 Eclipse UPM
 Eclipse VOLTTRON
 Eclipse Vorto
-Tags
-Technology Types
-Internet of Things
+Eclipse Wakaama
+Eclipse Yasham
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
 Eclipse Foundation
 About Us
 Contact Us
-Donate
 Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Michiel Beemster
-Niels Kortstee
-Committers
-Angelo Corsaro
-Erik Boasson
-Hans van t Hag
-Jeroen Koekkoek
-Michiel Beemster
-Historical Committer
-Maurits de Jong
-Mentor
-Matthias Sohn
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Cyclone DDS
-Tags
-Technology Types
+Contact
+Eclipse Thingweb
 Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Contact Us
+The Eclipse Thingweb project will start with three sub-projects in the toolkit:
+Thingweb node-wot
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Cyclone DDS
+Internet of Things
+Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
+Read more...
+Latest release:
+0.1.0 (Preambule)
+Learn more
+Toggle Dropdown
+Website
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
+Read more...
+Latest release:
+1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
+Read more...
+Latest release:
+2019-09 (6.9.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
 Donate
 Governance
 Logo and Artwork
@@ -1448,31 +748,13 @@ Community of Projects
 Working Groups
 Research@Eclipse
 Report a Vulnerability
-Service Status
-1.4.1
-Download
-Toggle Dropdown
-Website
 Developer Resources
 Who's Involved
 Governance
 Contact
-Eclipse QVT Operational
-Language
-Modeling
-Tools
-The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
-Operational QVT project provides a powerful Eclipse IDE:
-feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
-debugger (conditional breakpoints, variables view, expressions view, watches)
-metamodel browser, trace view
-project builders, launch configurations
-deployment facilities and Ant support
-Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
-support of Java Black-Box units and libraries
-seamless integration with JDT supporting co-development of QVTo and Java in single workspace
-Additional tooling QVTO Code Coverage provides:
-annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
+Eclipse Kuksa
+Internet of Things
+Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
 The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
 Read more...
 Latest release:
@@ -1488,6 +770,31 @@ Contact
 2
 3
 4
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
+Read more...
+Latest release:
+1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 5
 next
 last
@@ -1497,7 +804,6 @@ Register
 Eclipse Foundation
 About Us
 Contact Us
-Contact Us
 Donate
 Governance
 Logo and Artwork
@@ -1513,113 +819,18 @@ Report a Bug
 Documentation
 How to Contribute
 Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Another area of ongoing improvement is that of modularisation of various internal components and making them pluggable. The aim here is to make it easier to alter the behaviour or provide optimised implementations for specific uses. These components cover such things as message representations, implementation of data storage on behalf of the application and networking interfaces. These changes will turn Cyclone DDS from a dedicated DDS implementation into a more general platform that can then be optimised for specific applications. Needless to say, anyone who simply wishes to use DDS will always be able to do so without being required to do such specialisation.
-Security Issues:
-Cyclone has does not rely on any of the projects listed in the Bug List. There are no known vulnerabilities in Cyclone itself at this time, but the overwhelming likelihood is that there are plenty but that no serious effort has yet been spent on finding them.
-Non-Code Aspects:
-Documentation is included in the sources and currently primarily aimed at generating a manual in PDF format. The generated PDF is hosted on GitHub and referenced from the project's top-level README. While this document is limited, it does include an API reference section, a "getting started" chapter and a guide to configuring Cyclone. Furthermore, a tool for editing the XML configuration file is included as well, which is relevant especially because it provides reference documentation for each of the settings.
-The documentation and examples appear to be adequate for new users to get started, as the questions asked on GitHub were all concerning rather more advanced problems. That said, as is often the case, the documentation and examples are in need of improvement. One area in particular has our current attention, and that is converting from a PDF format to a more convenient, web-hosted format. This will make it much more accessible in practice.
-Conforms To UI/UX Guidelines:
-Not verified
-Usability Details:
-There is no end-user tooling.
-End of Life:
-None.
-Standards:
-OMG DDS 1.4 (Minimum Profile with some of the Content Filtered Profile), but with an alternative API.
-OMG DDSI-RTPS 2.2
-Communities:
-Presentation at Eclipse IoT Asia; and otherwise a number of questions, comments and bugs on GitHub. The number of individuals is small, but the quality of the questions and comments has increased tremendously, showing that these people have really invested time in studying the code. Some small contributions have been made, but unfortunately as suggestions rather than as pull requests, despite inviting them to do a pull request.
-Sign in
-to post comments.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Wakaama
-Eclipse Yasham
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
+Operational QVT project provides a powerful Eclipse IDE:
+feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
+debugger (conditional breakpoints, variables view, expressions view, watches)
+metamodel browser, trace view
+project builders, launch configurations
+deployment facilities and Ant support
+Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
+support of Java Black-Box units and libraries
+seamless integration with JDT supporting co-development of QVTo and Java in single workspace
+Additional tooling QVTO Code Coverage provides:
+annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
 JUnit launch configuration to integrate with the JUnit test framework
 Read more...
 Latest release:
@@ -1631,6 +842,17 @@ Developer Resources
 Who's Involved
 Governance
 Contact
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Eclipse Trace Compass
 Tools
 Eclipse Trace Compass
@@ -1642,70 +864,6 @@ Latest release:
 Download
 Toggle Dropdown
 Website
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Back to the top
-Eclipse Cyclone DDS
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Developer Resources
 Who's Involved
 Governance
@@ -1729,21 +887,6 @@ Tools
 Eclipse Collections is a collections framework for Java.
 Read more...
 Latest release:
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 10.0.0
 Download
 Toggle Dropdown
@@ -1943,6 +1086,864 @@ Contact
 …
 next ›
 last »
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.1.0 (Preambule) | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.1.0 (Preambule)
+Eclipse Cyclone DDS 0.1.0 (Preambule)
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+A long overdue first release for Cyclone, on request from the (small) community.
+Release Date:
+Friday, March 1, 2019
+Review:
+0.1.0 (Preambule) Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Downloads
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.1.0 (Preambule) Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.1.0 (Preambule)
+0.1.0 (Preambule) Release Review
+Eclipse Cyclone DDS 0.1.0 (Preambule) Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, February 20, 2019
+Project:
+Eclipse Cyclone DDS
+Release:
+0.1.0 (Preambule)
+Description:
+A long overdue first release for Cyclone, on request from the (small) community.
+Architectural Issues:
+Cyclone DDS supports Linux, macOS and Windows as first-tier platforms. The code builds cleanly on all of them and all tests consistently pass. The occasional build failures in the continuous integration builds are related to infrastructure issues where downloading prequisites (such as maven) sometimes fails. Use of static analysis tools is so far limited to Clang's static analyzer (clean there, too), and we're working on getting it checked by Coverity Scan for a more thorough analysis.
+The initial contribution was a combination of sources of various ages and with various different naming philosophies and programming styles. This needs addressing for two reasons in particular: firstly, it is well known that such discrepancies can easily hide bugs, and secondly, this is a barrier to new contributors. Eliminating these discrepancies is an ongoing process.
+Fortunately, there is evidence that the negative impact is minor: the number of known issues in the code is very small, it generally exhibits excellent performance and no nasty misbehaviours (based on our own observations and issues raised by the community). Secondly, although there are very few direct contributions from people in the community, they have suggested a number of improvements and some have also indicated that they have put in additional features they required. (We've invited them to contribute their fixes or enhancements, but so far no pull requests have come.)
+Another area of ongoing improvement is that of modularisation of various internal components and making them pluggable. The aim here is to make it easier to alter the behaviour or provide optimised implementations for specific uses. These components cover such things as message representations, implementation of data storage on behalf of the application and networking interfaces. These changes will turn Cyclone DDS from a dedicated DDS implementation into a more general platform that can then be optimised for specific applications. Needless to say, anyone who simply wishes to use DDS will always be able to do so without being required to do such specialisation.
+Security Issues:
+Cyclone has does not rely on any of the projects listed in the Bug List. There are no known vulnerabilities in Cyclone itself at this time, but the overwhelming likelihood is that there are plenty but that no serious effort has yet been spent on finding them.
+Non-Code Aspects:
+Documentation is included in the sources and currently primarily aimed at generating a manual in PDF format. The generated PDF is hosted on GitHub and referenced from the project's top-level README. While this document is limited, it does include an API reference section, a "getting started" chapter and a guide to configuring Cyclone. Furthermore, a tool for editing the XML configuration file is included as well, which is relevant especially because it provides reference documentation for each of the settings.
+The documentation and examples appear to be adequate for new users to get started, as the questions asked on GitHub were all concerning rather more advanced problems. That said, as is often the case, the documentation and examples are in need of improvement. One area in particular has our current attention, and that is converting from a PDF format to a more convenient, web-hosted format. This will make it much more accessible in practice.
+Conforms To UI/UX Guidelines:
+Not verified
+Usability Details:
+There is no end-user tooling.
+End of Life:
+None.
+Standards:
+OMG DDS 1.4 (Minimum Profile with some of the Content Filtered Profile), but with an alternative API.
+OMG DDSI-RTPS 2.2
+Communities:
+Presentation at Eclipse IoT Asia; and otherwise a number of questions, comments and bugs on GitHub. The number of individuals is small, but the quality of the questions and comments has increased tremendously, showing that these people have really invested time in studying the code. Some small contributions have been made, but unfortunately as suggestions rather than as pull requests, despite inviting them to do a pull request.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Contact Us
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Forums:
+Eclipse Cyclone DDS
+Developer Mailing List:
+cyclonedds-dev
+Project Links
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Who's Involved
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Project Members:
+Project Leads
+Hans van t Hag
+Michiel Beemster
+Niels Kortstee
+Committers
+Angelo Corsaro
+Erik Boasson
+Hans van t Hag
+Jeroen Koekkoek
+Michiel Beemster
+Historical Committer
+Maurits de Jong
+Mentor
+Matthias Sohn
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Governance
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+This project implements the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see http://www.omg.org/spec/DDSI-RTPS/ )
+Working Group:
+Internet of Things (IoT)
+Releases:
+Name
+Date
+0.1.0 (Preambule)
+2019-03-01
+Reviews:
+Name
+Date
+0.1.0 (Preambule) Release Review
+2019-02-20
+Creation Review
+2017-12-20
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Proposal
+Current Release
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Developer Resources
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+cyclonedds - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-cyclonedds/cyclonedds.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register

@@ -156,6 +156,18 @@ Participate
 Report a Bug
 Forums
 Mailing Lists
+Eclipse Public License 2.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
 Wiki
 IRC
 Research
@@ -178,6 +190,27 @@ Blogs
 Participate
 Report a Bug
 Forums
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
 Mailing Lists
 Wiki
 IRC
@@ -199,25 +232,24 @@ Internet of Things
 Technology that supports wired or wireless communication between machines.
 Eclipse Yasham
 Internet of Things
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
 Eclipse Yasham is an Open & Extensible Cloud-Native Smart Living Platform for Consumer IoT.
 Read more...
 Learn more
 Toggle Dropdown
 Website
 Developer Resources
-Eclipse Public License 2.0 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
 Who's Involved
 Governance
 Contact
@@ -228,21 +260,6 @@ Read more...
 Latest release:
 0.7.0 (Java 19/07)
 Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
 IRC
 Research
 Eclipse IDE
@@ -253,6 +270,18 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
+Search
+Toggle navigation
+Home
+Projects
+Eclipse Public License 2.0
+Eclipse Public License 2.0
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
 Eclipse VOLTTRON
 Internet of Things
 The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
@@ -266,66 +295,6 @@ Governance
 Contact
 Eclipse Tahu
 Internet of Things
-Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Eclipse fog05
-Internet of Things
-Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse HIP
-Archived
-Internet of Things
-Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Home
-Projects
-Eclipse Public License 2.0
-Eclipse Public License 2.0
 URL:
 http://www.eclipse.org/legal/epl-2.0
 Register for EclipseCon Europe 2019 today!
@@ -343,17 +312,55 @@ Privacy Policy
 Terms of Use
 Copyright Agent
 Eclipse Public License
-0.1.0 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse fog05
+Internet of Things
+Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse HIP
+Archived
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
 Working Groups
-Projects
-Community
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Internet of Things
+Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
 Eclipse Mita
 Internet of Things
 Language
@@ -376,61 +383,6 @@ Thingweb node-wot
 Read more...
 Download
 Toggle Dropdown
-Eclipse Kuksa | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
 Website
 Developer Resources
 Who's Involved
@@ -457,110 +409,6 @@ Read more...
 Latest release:
 0.1-M1
 Learn more
-Eclipse hawkBit | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Kuksa
-0.1.0
-Eclipse IoT | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-automotive | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-0.1-M1 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Eclipse Kuksa | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-0.1.0 Release Review | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
 Toggle Dropdown
 Website
 Developer Resources
@@ -582,214 +430,6 @@ About Us
 Contact Us
 Donate
 Governance
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Eclipse Hono | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Kuksa 0.1.0
-Primary tabs
-Overview
-(active tab)
-Issues
-Release Plan
-Review Information
-Eclipse Kuksa Release 0.1.0
-Device owners within this environment can select applications over an Appstore and install them on their target device. Such applications can exchange data with or store data in the cloud. Therefore, required software on the device is directly included within images built for (ARM) platforms such as the Raspberry Pi3 via provided build scripts. Furthermore, developers can publish new applications to the Appstore and register new devices for specific Appstore users.
-For a more detailed description of the deliverables, please visit the
-release plan
-tab =>
-deliverables
-.
-Release Date:
-Monday, September 30, 2019
-Review:
-0.1.0 Release Review
-Release Type:
-Minor release
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
 Logo and Artwork
 Board of Directors
 Legal
@@ -814,31 +454,14 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
+0.1.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
 Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
+Members
 Working Groups
 Projects
 Community
@@ -865,28 +488,55 @@ IDE and Tools
 Newcomer Forum
 More
 Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
 Eclipse Kuksa
-Governance
-Eclipse Kuksa
+0.1.0
+Eclipse Kuksa 0.1.0
 Primary tabs
 Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
 (active tab)
-Contact Us
-Scope:
-Eclipse Kuksa unifies technologies across the vehicle, IoT, cloud, and security domains in order to provide an open source ecosystem to developers addressing challenges of the electrified and connected vehicle era. In-vehicle and cloud applications as well as their development infrastructure, maintenance approaches, security, and over-the-air (OTA) update and upgrade management are, with a few exceptions, completely within the scope of Eclipse Kuksa.
-Currently, vehicle connectivity applies to mobile networks (and related infrastructure such as clouds, servers, etc.), other vehicles, and local infrastructures (traffic lights, local entities cf. edge computing). Although proprietary approaches provide partial solutions, developers have no access to either open source solutions nor comprehensive ecosystems that allow common connected vehicle development initiatives across suppliers, original equipment manufacturer (OEM), and tooling enterprises. Eclipse Kuksa brings comprehensive connectivity solutions to the public while combining diverse technologies of vehicle, IoT, cloud, and security domains.
-While safety is out of scope, Eclipse Kuksa addresses maintenance through providing, but not applying, OTA updates or upgrades, Cloud, and in-vehicle applications, as well as state-of-the-art platforms and technologies for in-vehicle communication and data transmission. Demonstration applications will be made available, but sophisticated cloud and in-vehicle applications are generally subject to community or closed-source development processes. Working with this premise, Eclipse Kuksa will support all the necessary development technologies required for such applications.
-Working Group:
-Internet of Things (IoT)
-Research
-Releases:
-Name
-Date
-0.1.0
+Issues
+Release Plan
+Review Information
+Eclipse Kuksa Release 0.1.0
+Device owners within this environment can select applications over an Appstore and install them on their target device. Such applications can exchange data with or store data in the cloud. Therefore, required software on the device is directly included within images built for (ARM) platforms such as the Raspberry Pi3 via provided build scripts. Furthermore, developers can publish new applications to the Appstore and register new devices for specific Appstore users.
+For a more detailed description of the deliverables, please visit the
+release plan
+tab =>
+deliverables
+.
+Release Date:
+Monday, September 30, 2019
+Review:
+0.1.0 Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type A - License Compatibility Certification
 Project Links
 Getting Started
 Twitter account
@@ -911,7 +561,10 @@ Eclipse Foundation
 About Us
 Contact Us
 Donate
-Eclipse Kuksa | projects.eclipse.org
+Governance
+Logo and Artwork
+Board of Directors
+Eclipse IoT | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -919,20 +572,52 @@ Manage Cookies
 projects.eclipse.org
 Download
 Members
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Working Groups
 Projects
 Community
 Marketplace
 Events
 Planet Eclipse
-Eclipse Kuksa | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
 Download
-Members
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
 More
 Community
 Marketplace
@@ -955,6 +640,111 @@ Documentation
 Getting Started / Support
 How to Contribute
 IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse IoT
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
+Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
+Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
+Tools that facilitate the development of connected systems
+Solutions that build ready-to-run solutions based on the other building blocks
+This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Top Level Project Charter
+Website
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse 4diac
+Eclipse Agail
+Eclipse Californium (Cf) CoAP Framework
+Eclipse Concierge
+Eclipse Cyclone DDS
+Eclipse Ditto
+Eclipse Duttile
+Eclipse fog05
+Eclipse hawkBit
+Eclipse Hono
+Eclipse Ignite|IoT
+Eclipse ioFog
+Eclipse IoT Packages
+Eclipse Kapua
+Eclipse Keti
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Kuksa
+Eclipse Kura
+Eclipse Leshan
+Eclipse Milo
+Eclipse Mita
+Eclipse Mosquitto
+Eclipse MRAA
+Eclipse NeoSCADA
+Eclipse OM2M
+Eclipse Paho
+Eclipse Paho Incubator
+Eclipse Ponte
+Eclipse SmartHome
+Eclipse Tahu
+Eclipse Thingweb
+Eclipse tinydtls
+Eclipse Unide
+Eclipse UPM
+Eclipse VOLTTRON
+Eclipse Vorto
+Eclipse Wakaama
+Eclipse Yasham
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Eclipse Kuksa | projects.eclipse.org
 Google Tag Manager
 Skip to main content
@@ -969,8 +759,6 @@ Community
 Marketplace
 Events
 Planet Eclipse
-Events
-Planet Eclipse
 Newsletter
 Videos
 Blogs
@@ -989,12 +777,9 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-Toggle navigation
-Home
-Projects
-Free Tags
-automotive
-automotive
+More
+Community
+Marketplace
 Events
 Planet Eclipse
 Newsletter
@@ -1020,29 +805,104 @@ Home
 Projects
 Eclipse IoT
 Eclipse Kuksa
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
+Downloads
 Eclipse Kuksa
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
 Contact Us
+This project has not provided download information.
+Project Links
+Website
+Getting Started
+Twitter account
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Hono
+Eclipse hawkBit
+0.1.0 Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Project Hierarchy:
+Eclipse IoT
 Eclipse Kuksa
+Tags
+Technology Types
+Internet of Things
+Other Tags
+automotive
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Events
+Planet Eclipse
 Newsletter
 Videos
 Blogs
@@ -1070,272 +930,6 @@ Eclipse Kuksa
 0.1.0 Release Review
 Eclipse Kuksa 0.1.0 Release Review
 Type:
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
-Eclipse IoT
-Eclipse hawkBit
-Eclipse hawkBit
-Primary tabs
-Overview
-(active tab)
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-Project hawkBit aims to create a
-domain independent back end
-solution for rolling out
-software updates
-to constrained edge
-devices
-as well as more powerful controllers and gateways connected to IP based networking infrastructure. Devices can be connected to the hawkBit server either directly through an optimized interface or indirectly through federated device management servers.
-hawkBit is device and communication channel neutral by means of supporting:
-Software
-and Operating system updates for M2M gateways (typically but not necessarily running Linux) and
-Firmware
-updates for embedded devices
-both for
-cable
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-2019-09-30
-0.1-M1
-2019-02-12
-Reviews:
-Name
-Date
-0.1.0 Release Review
-2019-09-18
-Creation Review
-2017-12-06
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-Project Links
-Next Release
-Proposal
-Twitter account
-Getting Started
-Website
-Current Release
-Wiki
-Plan
-Related Projects
-Related Projects:
-Eclipse IoT
-Eclipse Hono
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse IoT
-Primary tabs
-Overview
-(active tab)
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
-Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
-Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
-Tools that facilitate the development of connected systems
-Solutions that build ready-to-run solutions based on the other building blocks
-This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
-Licenses:
-Eclipse Distribution License 1.0 (BSD)
-Eclipse Public License 2.0
-Active Member Companies:
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Eclipse Kuksa
-Internet of Things
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
-Read more...
-Latest release:
-0.1-M1
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse MDM|BL
-Tools
-The Eclipse MDM|BL comprises a bottom to top architecture view of three parts.
-Read more...
-Latest release:
-5.0.0
-Download
-Toggle Dropdown
-0.1-M1
-Eclipse Kuksa 0.1-M1
-Primary tabs
-Overview
-(active tab)
-Issues
-Release Plan
-Review Information
-The first Eclipse Kuksa Milestone release 0.1-M1 contains:
-In-Vehicle repo:
-agl-kuksa - Scripts to automate AGL build system with the meta-kuksa layers.
-elm327-visdatafeeder - ELM 327 app that reads OBDII data from the vehicle and feeds data to the w3c-visserver.
-kuksa-hawkbit - Barebone API for connecting with Hawkbit. Will be shortly replaced with kuksa-appmanager.
-w3c-visserver-api - W3C Vehicle Information Specification API.
-direct-access-api - Enables sending CAN messages from the cloud to vehicle using Websocket.
-datalogger-http - Example app that sends data from the vehicle to an Eclipse Hono instance with http.
-datalogger-mqtt - Example app that sends data from the vehicle to an Eclipse Hono instance with mqtt.
-remoteAccess - Example app that subscribes to control topic with Hono and receives commands sent.
-kuksa-appmanager - Hawkbit appmanager which deploys in-vehicle apps as docker conatiners and more..
-email-notifier - Example app that talks to an email-server and sends e-mails to the configured email address. Used at the moment only for internal demos
-Cloud repo:
-HonoInfluxDBConnector: A Spring-Boot application that connects a running Eclipse Hono instance with a running InfluxDB instance so that messages received by Hono can be stored in InfluxDB. This is especially useful if one wants to easily create a visualization of some measurements eg with Grafana.
-AppStore: A Spring-Boot application that connects a running Eclipse HawkBit instance and provides a GUI to manage vehicle (and eventually cloud) applications
-Integration repo:
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-(active tab)
-Developer Mailing List:
-kuksa-dev
-Project Mailing Lists:
-kuksa-dev
-The Kuksa-Dev mailing list is used for technical discussions for any matters regarding the Eclipse Kuska project.
-Project Links
-Website
-Getting Started
-Twitter account
-Wiki
-Related Projects
-Related Projects:
-Eclipse IoT
-Eclipse Hono
-Eclipse hawkBit
-Project Hierarchy:
 Release
 State:
 Successful
@@ -1357,254 +951,6 @@ deliverables
 Architectural Issues:
 The development around the Eclipse Kuksa cloud is so far more a proof-of-concept and not intended to provide a direct production ready and secure deployment.
 The integrated services often use the respective standard credentials (e.g. admin/admin)
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-or
-over the air
-(OTA) connected devices
-Features at a glance:
-A device and software repository.
-Artifact content delivery.
-Software update and roll out management.
-Reporting and monitoring.
-Interfaces:
-for direct device control.
-for IoT solutions or applications to manage the repository and the roll outs.
-for device management federation (i.e. indirect device control)
-and a user interface to operators to manage and run the roll outs.
-Licenses:
-Eclipse Public License 1.0
-Latest Releases:
-From June 15th, 2018 to June 15th, 2018
-Name
-Date
-Review
-0.2.0
-2018-06-15
-Active Member Companies:
-Eclipse Hono
-Eclipse Hono
-Primary tabs
-Overview
-(active tab)
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-The Eclipse IoT Working Group has therefore discussed a more generic, cloud-based IoT platform architecture which better supports the implementation of IoT solutions without requiring developers to solve some of the recurring (technical) challenges over and over again. The diagram below provides an overview of the IoT Server Platform as discussed in the working group.
-The diagram shows how devices in the field are connected to a cloud-based back end either via a Field Gateway (e.g. something like Eclipse Kura) or directly to so-called
-Protocol Adapters
-Telemetry
-Data
-flowing downstream (left to right) from devices to the back end to a consumer like a Business Application or the Device Management component usually
-consists of
-a small set of discrete values like
-sensor readings
-Eclipse hawkBit
-Project Hierarchy:
-Eclipse IoT
-Eclipse Kuksa
-Tags
-Technology Types
-Internet of Things
-Other Tags
-automotive
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Back to the top
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Kuksa
-Downloads
-Eclipse Kuksa
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Top Level Project Charter
-Website
-Wiki
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse 4diac
-Eclipse Agail
-Eclipse Californium (Cf) CoAP Framework
-Eclipse Concierge
-Eclipse Cyclone DDS
-Eclipse Ditto
-Eclipse Duttile
-Eclipse fog05
-Eclipse hawkBit
-Eclipse Hono
-Eclipse Ignite|IoT
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Eclipse HONO API (including MQTT) and Hawkbit API tests.
-App repo:
-A simple KUKSA app that can send location data to the Traccar GPS tracking suite
-IDE repo:
-An adapted Eclipse Che stack featuring an AGL and Yocto stacks
-Target and YoctoSDK definition possibilities
-Build configuration commands for AGL
-Please note that there is a critical issue not solved in this milestone release: https://github.com/eclipse/kuksa.ide/issues/2
-Release Date:
-Tuesday, February 12, 2019
-Release Type:
-Service release (bug fixes only)
-IP Due Diligence Type:
-Type A - License Compatibility Certification
-Project Links
-Getting Started
-Twitter account
-Website
-Related Projects
-Related Projects:
-Eclipse IoT
-Eclipse Hono
-Eclipse hawkBit
-Project Hierarchy:
-Eclipse IoT
-Eclipse Kuksa
-Tags
-Technology Types
-Internet of Things
-Other Tags
-automotive
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
 The Eclipse Kuksa cloud uses certificates from Let’s Encrypt which should be replaced for commercial deployments
 Eclipse Kuksa integrates Eclipse Hono 0.8 which is not the newest version
 Security Issues:
@@ -1627,14 +973,54 @@ Readme.md
 file
 End of Life:
 Since this is the first release of Eclipse Kuksa, there are no deprecated or removed features.
+Standards:
+MQTT for communication between In-Vehicle platform and Cloud backend
+Communities:
+Issues
+In-Vehicle issues
+Cloud issues
+Apps issues
+IDE issues
+(links to be updated with tags as soon as release tag is available)
+Sign in
+to post comments.
+Project Links
+Getting Started
+Twitter account
+Website
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Hono
+Eclipse Kuksa | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
 Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
+Members
+Eclipse hawkBit
+Project Hierarchy:
+Eclipse IoT
+Eclipse Kuksa
+Tags
+Technology Types
+Internet of Things
+Other Tags
+automotive
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Working Groups
+Projects
 Community
 Marketplace
 Events
@@ -1648,47 +1034,17 @@ Forums
 Mailing Lists
 Wiki
 IRC
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Website
+Research
+Eclipse IDE
+Download
+Learn More
 Documentation
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse hawkBit
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-or status property values. In most cases these messages are one-way only, i.e. devices sending this kind of data usually do not expect a reply from the back end.
-Command & Control
-Messages
-flowing upstream (right to left) from back end components like Business Applications often
-represent invocations of services
-It seems reasonable to assume that the number of messages flowing upstream (Telemetry) will be orders of magnitude larger than the number of messages flowing downstream (Command & Control). The aggregated overall number of messages flowing upstream is expected to be in the range of several hundred thousand to millions per second. Note that in this architecture the same (cloud-based) infrastructure is shared by multiple solutions.
-The IoT Connector component provides the central link between the device-facing Protocol Adapters, additional re-usable back end components, e.g. Device Management or Software Provisioning, and last but not least the IoT solutions leveraging the devices' data and services. Solution developers can use the IoT Connector to uniformly and transparently interact with all kinds of devices without the need for caring about the particular communication protocol(s) the devices use. Multiple solutions can use the same IoT Connector instance
-running in a shared cloud environment
-in order to
-. The IoT Connector ensures that only those components can consume data and control devices that have been granted authorization by the device owner. In this regard the IoT Connector can be considered an IoT specific message broker targeted at cloud deployment scenarios.
-The IoT Connector component needs to fulfill a set of
-, in particular regarding
-horizontal scalability
-, that are specific to both the deployment environment (cloud) and the intended architectural platform characteristics (as opposed to embedding a connectivity layer into applications individually). However, these requirements are not specific to any particular application domain. From a technical point of view it makes no difference if a sensor reading received via a LWM2M protocol adapter represents a temperature or the relative humidity. In both cases the IoT Connector's responsibility is to forward the messages containing the values to (potentially multiple) authorized consumers without introducing too much latency.
-Features at a glance
-Secure message dispatching
-Support for different message exchange patterns
-Used for cloud service federation
+Getting Started / Support
+How to Contribute
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
 Eclipse Public License
 Legal Resources
 Useful Links
@@ -1707,28 +1063,40 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-This project has not provided download information.
-Project Links
-Website
-Getting Started
-Twitter account
-Wiki
-Related Projects
-Related Projects:
-Eclipse IoT
-Eclipse Hono
-Eclipse hawkBit
-Project Hierarchy:
-Eclipse IoT
 IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+automotive | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
 Newcomer Forum
 Toggle navigation
 Home
@@ -1749,125 +1117,21 @@ Contribution Activity:
 Commits on this project (last 12 months).
 Individual Contribution Activity:
 Commits on this project by individuals over the last three months.
-Eclipse ioFog
-Eclipse IoT Packages
-Eclipse Kapua
-Eclipse Keti
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Kura
-Eclipse Leshan
-Eclipse Milo
-Eclipse Mita
-Eclipse Mosquitto
-Eclipse MRAA
-Eclipse NeoSCADA
-Eclipse OM2M
-Eclipse Paho
-Eclipse Paho Incubator
-Eclipse Ponte
-Eclipse SmartHome
-Eclipse Tahu
-Eclipse Thingweb
-Eclipse tinydtls
-Eclipse Unide
-Eclipse Kuksa
-Developer Resources
-Eclipse Kuksa
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Report a Bug
-View Help wanted Bugs
-View Open Bugs
-Summarize Bugs
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
-kuksa.apps - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse/kuksa.apps.git
-Browse Repository
-kuksa.cloud - Project repository hosted on GitHub.
-Clone:
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Community
 Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse IoT
-Eclipse Kuksa
-Tags
-Technology Types
-Internet of Things
-Other Tags
-automotive
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Documentation
-How to Contribute
-Mailing Lists
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
 Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Standards:
-MQTT for communication between In-Vehicle platform and Cloud backend
-Communities:
-Issues
-In-Vehicle issues
-Cloud issues
-Apps issues
-IDE issues
-(links to be updated with tags as soon as release tag is available)
-Sign in
-to post comments.
-Project Links
-Getting Started
-Twitter account
-Website
-Related Projects
-Related Projects:
-Eclipse IoT
-Eclipse Hono
-Eclipse hawkBit
-Project Hierarchy:
+Mailing Lists
+Wiki
+IRC
 Research
 Eclipse IDE
 Download
@@ -1877,94 +1141,9 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-Toggle navigation
-Home
-Projects
-List of Projects
-List of Projects
-Search
-Technology Types
-- Any -
-Internet of Things
-Language
-Modeling
-OSGi
-Runtime
-Specification
-Testing
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
+More
+Community
 Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Provides interfaces to support implementation of protocol adaptors which allow:
-Sending telemetry data
-Receiving device control messages (from applications/solutions)
-Registering authorized consumers of telemetry data received from connected devices
-Licenses:
-Eclipse Public License 2.0
-Latest Releases:
-From February 12th, 2018 to October 17th, 2019
-Name
-Date
-Review
-1.0.0
-2019-10-17
-0.9
-2019-02-25
-0.8
-2018-11-21
-0.7
-2018-08-16
-0.6
-2018-05-16
-0.5
-2018-02-12
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Eclipse Kuksa
-Tags
-Technology Types
-Internet of Things
-Other Tags
-automotive
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Organization Contribution Activity:
-Commits on this project by supporting organization over the last three months.
 Active Member Companies:
 Member companies supporting this project over the last three months.
 Project Members:
@@ -1985,156 +1164,40 @@ Susan Iwai
 Sven Erik Jeroschewski
 Tobias Rawald
 Historical Committer
-Eclipse UPM
-Eclipse VOLTTRON
-Eclipse Vorto
-Eclipse Wakaama
-Eclipse Yasham
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-https://github.com/eclipse/kuksa.cloud.git
-Browse Repository
-kuksa.ide - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse/kuksa.ide.git
-Browse Repository
-kuksa.integration - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse/kuksa.integration.git
-Browse Repository
-kuksa.invehicle - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse/kuksa.invehicle.git
-Browse Repository
-kuksa.website - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse/kuksa.website.git
-Browse Repository
-Project Links
-Wiki
-Twitter account
-Getting Started
-Website
-Dev Mailing List
-Related Projects
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse IoT
-Eclipse Kuksa
-Tags
-Technology Types
-Internet of Things
-Other Tags
-automotive
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Tools
-State
-- Any -
-Incubating
-Mature
-Include
-Archived Projects
-Apply
-Eclipse EMFStore
-Modeling
-Runtime
-Tools
-Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
-Read more...
-Latest release:
-1.10.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Getting Started
-Website
-Documentation
-Related Projects
-Related Projects:
-Eclipse RT
-Eclipse Vert.x
-Eclipse IoT
-Eclipse Kapua
-Eclipse Ditto
-Eclipse Kura
-Eclipse Paho
-Eclipse Californium (Cf) CoAP Framework
-Project Hierarchy:
-Eclipse IoT
-Eclipse Hono
-Tags
-Technology Types
-Internet of Things
-Build Technologies
-Jenkins
-Maven
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Joerg Tessmer
 Mentor
+0.1-M1 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
 Jim Hughes
 Project Links
 Website
@@ -2160,6 +1223,151 @@ Register
 Eclipse Foundation
 About Us
 Contact Us
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Free Tags
+automotive
+automotive
+Eclipse Kuksa
+Internet of Things
+Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
+The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
+Read more...
+Latest release:
+0.1-M1
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDM|BL
+Tools
+The Eclipse MDM|BL comprises a bottom to top architecture view of three parts.
+Read more...
+Latest release:
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+5.0.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse IoT
+Eclipse Kuksa
+0.1-M1
+Eclipse Kuksa 0.1-M1
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+The first Eclipse Kuksa Milestone release 0.1-M1 contains:
+In-Vehicle repo:
+agl-kuksa - Scripts to automate AGL build system with the meta-kuksa layers.
+elm327-visdatafeeder - ELM 327 app that reads OBDII data from the vehicle and feeds data to the w3c-visserver.
+kuksa-hawkbit - Barebone API for connecting with Hawkbit. Will be shortly replaced with kuksa-appmanager.
+w3c-visserver-api - W3C Vehicle Information Specification API.
+direct-access-api - Enables sending CAN messages from the cloud to vehicle using Websocket.
+datalogger-http - Example app that sends data from the vehicle to an Eclipse Hono instance with http.
+datalogger-mqtt - Example app that sends data from the vehicle to an Eclipse Hono instance with mqtt.
+remoteAccess - Example app that subscribes to control topic with Hono and receives commands sent.
+kuksa-appmanager - Hawkbit appmanager which deploys in-vehicle apps as docker conatiners and more..
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
 Documentation
 How to Contribute
 Mailing Lists
@@ -2174,6 +1382,90 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+email-notifier - Example app that talks to an email-server and sends e-mails to the configured email address. Used at the moment only for internal demos
+Cloud repo:
+HonoInfluxDBConnector: A Spring-Boot application that connects a running Eclipse Hono instance with a running InfluxDB instance so that messages received by Hono can be stored in InfluxDB. This is especially useful if one wants to easily create a visualization of some measurements eg with Grafana.
+AppStore: A Spring-Boot application that connects a running Eclipse HawkBit instance and provides a GUI to manage vehicle (and eventually cloud) applications
+Integration repo:
+Eclipse HONO API (including MQTT) and Hawkbit API tests.
+App repo:
+A simple KUKSA app that can send location data to the Traccar GPS tracking suite
+IDE repo:
+An adapted Eclipse Che stack featuring an AGL and Yocto stacks
+Target and YoctoSDK definition possibilities
+Build configuration commands for AGL
+Please note that there is a critical issue not solved in this milestone release: https://github.com/eclipse/kuksa.ide/issues/2
+Release Date:
+Tuesday, February 12, 2019
+Release Type:
+Service release (bug fixes only)
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Getting Started
+Twitter account
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Eclipse Kuksa | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Website
+Related Projects
 Related Projects:
 Eclipse IoT
 Eclipse Hono
@@ -2194,8 +1486,62 @@ About Us
 Contact Us
 Donate
 Governance
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -
+Internet of Things
+Language
+Modeling
+OSGi
+Runtime
+Specification
+Testing
+Tools
+State
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
 Logo and Artwork
 Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
 Report a Bug
 Documentation
 How to Contribute
@@ -2210,11 +1556,54 @@ Research@Eclipse
 Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
+- Any -
+Incubating
+Mature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
+Read more...
+Latest release:
+1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
 Governance
 Contact
 Eclipse OCL (Object Constraint Language)
 Language
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Kuksa
+Back to the top
 Modeling
 Tools
 Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
@@ -2233,79 +1622,33 @@ Internet of Things
 Runtime
 Tools
 The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
-Other Tags
-mqtt m2m iot messaging amqp coap
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Read more...
 Latest release:
 1.4.1
 Download
+Contact Us
+Eclipse Kuksa
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+kuksa-dev
+Project Mailing Lists:
+kuksa-dev
+The Kuksa-Dev mailing list is used for technical discussions for any matters regarding the Eclipse Kuska project.
+Project Links
+Website
+Getting Started
+Twitter account
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
 Toggle Dropdown
 Website
 Developer Resources
@@ -2323,24 +1666,42 @@ debugger (conditional breakpoints, variables view, expressions view, watches)
 metamodel browser, trace view
 project builders, launch configurations
 deployment facilities and Ant support
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
 support of Java Black-Box units and libraries
 seamless integration with JDT supporting co-development of QVTo and Java in single workspace
 Additional tooling QVTO Code Coverage provides:
 annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
+Eclipse hawkBit | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Eclipse Hono
+Eclipse hawkBit
+Project Hierarchy:
+Eclipse IoT
+Eclipse Kuksa
+Tags
+Technology Types
+Internet of Things
+Other Tags
+automotive
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
 JUnit launch configuration to integrate with the JUnit test framework
 Read more...
 Latest release:
@@ -2363,6 +1724,46 @@ Latest release:
 Download
 Toggle Dropdown
 Website
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Developer Resources
 Who's Involved
 Governance
@@ -2386,6 +1787,30 @@ Tools
 Eclipse Collections is a collections framework for Java.
 Read more...
 Latest release:
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
 10.0.0
 Download
 Toggle Dropdown
@@ -2407,6 +1832,28 @@ Contact
 Eclipse MDT UML2
 Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform.
 Read more...
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse hawkBit
+Eclipse hawkBit
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Project hawkBit aims to create a
+domain independent back end
+solution for rolling out
+software updates
+to constrained edge
+devices
 Latest release:
 5.5.0
 Download
@@ -2428,6 +1875,28 @@ Website
 Developer Resources
 Who's Involved
 Governance
+as well as more powerful controllers and gateways connected to IP based networking infrastructure. Devices can be connected to the hawkBit server either directly through an optimized interface or indirectly through federated device management servers.
+hawkBit is device and communication channel neutral by means of supporting:
+Software
+and Operating system updates for M2M gateways (typically but not necessarily running Linux) and
+Firmware
+updates for embedded devices
+both for
+cable
+or
+over the air
+(OTA) connected devices
+Features at a glance:
+A device and software repository.
+Artifact content delivery.
+Software update and roll out management.
+Reporting and monitoring.
+Interfaces:
+for direct device control.
+for IoT solutions or applications to manage the repository and the roll outs.
+for device management federation (i.e. indirect device control)
+and a user interface to operators to manage and run the roll outs.
+Licenses:
 Contact
 Eclipse Dynamic Languages Toolkit
 Language
@@ -2450,6 +1919,31 @@ Runtime
 Tools
 The Eclipse EMF Client Platform is a framework for building EMF-based client applications.
 Read more...
+Eclipse Public License 1.0
+Latest Releases:
+From June 15th, 2018 to June 15th, 2018
+Name
+Date
+Review
+0.2.0
+2018-06-15
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Website
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse hawkBit
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
 Latest release:
 1.22.0
 Download
@@ -2474,6 +1968,29 @@ Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
 Governance
 Contact
 Eclipse Nebula - Supplemental Widgets for SWT
@@ -2497,6 +2014,20 @@ graphical
 table
 or
 tree
+Eclipse Hono | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 editors with validation rules and actions using declarative descriptions.
 Read more...
 Latest release:
@@ -2517,6 +2048,29 @@ Latest release:
 3.15 (2019-09)
 Download
 Toggle Dropdown
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
 Website
 Developer Resources
 Who's Involved
@@ -2540,6 +2094,28 @@ Modeling
 Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided.
 Read more...
 Latest release:
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
 0.11.2
 Download
 Toggle Dropdown
@@ -2563,6 +2139,26 @@ Who's Involved
 Governance
 Contact
 Eclipse January
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Hono
+Eclipse Hono
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Eclipse IoT Working Group has therefore discussed a more generic, cloud-based IoT platform architecture which better supports the implementation of IoT solutions without requiring developers to solve some of the recurring (technical) challenges over and over again. The diagram below provides an overview of the IoT Server Platform as discussed in the working group.
+The diagram shows how devices in the field are connected to a cloud-based back end either via a Field Gateway (e.g. something like Eclipse Kura) or directly to so-called
+Protocol Adapters
+Telemetry
 Read more...
 Latest release:
 2.2.2
@@ -2584,7 +2180,412 @@ Contact
 9
 …
 next ›
+Data
+flowing downstream (left to right) from devices to the back end to a consumer like a Business Application or the Device Management component usually
+consists of
+a small set of discrete values like
+sensor readings
+or status property values. In most cases these messages are one-way only, i.e. devices sending this kind of data usually do not expect a reply from the back end.
+Command & Control
+Messages
+flowing upstream (right to left) from back end components like Business Applications often
+represent invocations of services
+It seems reasonable to assume that the number of messages flowing upstream (Telemetry) will be orders of magnitude larger than the number of messages flowing downstream (Command & Control). The aggregated overall number of messages flowing upstream is expected to be in the range of several hundred thousand to millions per second. Note that in this architecture the same (cloud-based) infrastructure is shared by multiple solutions.
+The IoT Connector component provides the central link between the device-facing Protocol Adapters, additional re-usable back end components, e.g. Device Management or Software Provisioning, and last but not least the IoT solutions leveraging the devices' data and services. Solution developers can use the IoT Connector to uniformly and transparently interact with all kinds of devices without the need for caring about the particular communication protocol(s) the devices use. Multiple solutions can use the same IoT Connector instance
+running in a shared cloud environment
+in order to
+. The IoT Connector ensures that only those components can consume data and control devices that have been granted authorization by the device owner. In this regard the IoT Connector can be considered an IoT specific message broker targeted at cloud deployment scenarios.
+The IoT Connector component needs to fulfill a set of
 last »
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+, in particular regarding
+horizontal scalability
+, that are specific to both the deployment environment (cloud) and the intended architectural platform characteristics (as opposed to embedding a connectivity layer into applications individually). However, these requirements are not specific to any particular application domain. From a technical point of view it makes no difference if a sensor reading received via a LWM2M protocol adapter represents a temperature or the relative humidity. In both cases the IoT Connector's responsibility is to forward the messages containing the values to (potentially multiple) authorized consumers without introducing too much latency.
+Features at a glance
+Secure message dispatching
+Support for different message exchange patterns
+Used for cloud service federation
+Provides interfaces to support implementation of protocol adaptors which allow:
+Sending telemetry data
+Receiving device control messages (from applications/solutions)
+Registering authorized consumers of telemetry data received from connected devices
+Licenses:
+Eclipse Public License 2.0
+Latest Releases:
+From February 12th, 2018 to October 17th, 2019
+Name
+Date
+Review
+1.0.0
+2019-10-17
+0.9
+Eclipse Kuksa | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+2019-02-25
+0.8
+2018-11-21
+0.7
+2018-08-16
+0.6
+2018-05-16
+0.5
+2018-02-12
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Getting Started
+Website
+Documentation
+Related Projects
+Related Projects:
+Eclipse RT
+Eclipse Vert.x
+Eclipse IoT
+Eclipse Kapua
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Eclipse Ditto
+Eclipse Kura
+Eclipse Paho
+Eclipse Californium (Cf) CoAP Framework
+Project Hierarchy:
+Eclipse IoT
+Eclipse Hono
+Tags
+Technology Types
+Internet of Things
+Build Technologies
+Jenkins
+Maven
+Other Tags
+mqtt m2m iot messaging amqp coap
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Home
+Projects
+Eclipse IoT
+Eclipse Kuksa
+Governance
+Eclipse Kuksa
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+Eclipse Kuksa unifies technologies across the vehicle, IoT, cloud, and security domains in order to provide an open source ecosystem to developers addressing challenges of the electrified and connected vehicle era. In-vehicle and cloud applications as well as their development infrastructure, maintenance approaches, security, and over-the-air (OTA) update and upgrade management are, with a few exceptions, completely within the scope of Eclipse Kuksa.
+Currently, vehicle connectivity applies to mobile networks (and related infrastructure such as clouds, servers, etc.), other vehicles, and local infrastructures (traffic lights, local entities cf. edge computing). Although proprietary approaches provide partial solutions, developers have no access to either open source solutions nor comprehensive ecosystems that allow common connected vehicle development initiatives across suppliers, original equipment manufacturer (OEM), and tooling enterprises. Eclipse Kuksa brings comprehensive connectivity solutions to the public while combining diverse technologies of vehicle, IoT, cloud, and security domains.
+While safety is out of scope, Eclipse Kuksa addresses maintenance through providing, but not applying, OTA updates or upgrades, Cloud, and in-vehicle applications, as well as state-of-the-art platforms and technologies for in-vehicle communication and data transmission. Demonstration applications will be made available, but sophisticated cloud and in-vehicle applications are generally subject to community or closed-source development processes. Working with this premise, Eclipse Kuksa will support all the necessary development technologies required for such applications.
+Working Group:
+Internet of Things (IoT)
+Research
+Releases:
+Name
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Date
+0.1.0
+2019-09-30
+0.1-M1
+2019-02-12
+Reviews:
+Name
+Date
+0.1.0 Release Review
+2019-09-18
+Creation Review
+2017-12-06
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Next Release
+Proposal
+Twitter account
+Getting Started
+Website
+Current Release
+Wiki
+Plan
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Hono
+Eclipse hawkBit
+Project Hierarchy:
+Eclipse IoT
+Eclipse Kuksa
+Tags
+Technology Types
+Internet of Things
+Other Tags
+automotive
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Kuksa | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Kuksa
+Developer Resources
+Eclipse Kuksa
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Report a Bug
+View Help wanted Bugs
+View Open Bugs
+Summarize Bugs
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+kuksa.apps - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/kuksa.apps.git
+Browse Repository
+kuksa.cloud - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/kuksa.cloud.git
+Browse Repository
+kuksa.ide - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/kuksa.ide.git
+Browse Repository
+kuksa.integration - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/kuksa.integration.git
+Browse Repository
+kuksa.invehicle - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/kuksa.invehicle.git
+Browse Repository
+kuksa.website - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/kuksa.website.git
+Browse Repository
+Project Links
+Wiki
+Twitter account
+Getting Started
+Website
+Dev Mailing List
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Hono
+Eclipse hawkBit
+Project Hierarchy:
+Eclipse IoT
+Eclipse Kuksa
+Tags
+Technology Types
+Internet of Things
+Other Tags
+automotive
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register

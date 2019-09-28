@@ -1,8 +1,5 @@
 wakaama:10
-lwm2m:6
 clients:6
-?:5
-m2m:4
 server:4
 licenses:4
 leshan:4
@@ -29,8 +26,6 @@ mailing:2
 lists:2
 bug:2
 library:2
-lwm2m_client_mode:2
-lwm2m_server_mode:2
 enables:2
 interfaces:2
 received:2
@@ -48,3 +43,8 @@ overview:1
 implementation:1
 protocol:1
 mobile:1
+alliance:1
+iot:1
+device:1
+management:1
+top:1

@@ -1,7 +1,6 @@
 concierge:8
 osgi:8
 implements:5
-r5:5
 embedded:4
 core:3
 mobile:3
@@ -41,10 +40,11 @@ dalvik:1
 vm:1
 small:1
 size:1
-250kb:1
 smallest:1
 results:1
 fast:1
 startup:1
 time:1
 efficient:1
+registry:1
+framework:1

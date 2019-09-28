@@ -116,17 +116,6 @@ reproduce, prepare derivative works of, publicly display, publicly perform, dist
 b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide,
 royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.
 c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient’s responsibility to acquire that license before distributing the Program.
-Features - Eclipse hawkBit
-Features
-Eclipse hawkBit™
-eclipse/hawkbit
-Sandbox
-Stars
-–
-What is hawkBit
-Getting started
-Guides
-Features
 d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
 3. REQUIREMENTS
 A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:
@@ -145,9 +134,75 @@ Each Contributor must identify itself as the originator of its Contribution, if 
 Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor ("Commercial Contributor") hereby agrees to defend and indemnify every other Contributor ("Indemnified Contributor") against any losses, damages and costs (collectively "Losses") arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
 For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor’s responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
 5. NO WARRANTY
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
+6. DISCLAIMER OF LIABILITY
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+7. GENERAL
+If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
+All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
+Features - Eclipse hawkBit
+Features
+Eclipse hawkBit™
+eclipse/hawkbit
+Sandbox
+Stars
+–
+What is hawkBit
+Getting started
+Guides
+Features
 Concepts
 Architecture
 Management UI
+Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
+This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+Related Links
+EPL in plain HTML
+The EPL on OSI’s site
+CPL to EPL conversion
+&nbsp
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+Back to the top
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Community - Eclipse hawkBit
+Community
+Eclipse hawkBit™
+eclipse/hawkbit
+Sandbox
+Stars
+–
+What is hawkBit
+Getting started
+Guides
+Features
+Concepts
+Release notes - Eclipse hawkBit
+Release notes
+Eclipse hawkBit™
+eclipse/hawkbit
+Sandbox
+Stars
+–
+What is hawkBit
+Getting started
+Guides
+Features
+Concepts
+Architecture
 APIs
 Community
 Release notes
@@ -162,36 +217,6 @@ Update handling is independent of the device type, integration approach or conne
 Management UI
 Create/Read/Update/Delete operations for provisioning targets (i.e. devices) and repository content (i.e. software).
 Manage and monitor software update operations.
-EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
-6. DISCLAIMER OF LIABILITY
-EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-7. GENERAL
-If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
-If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
-All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
-Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
-This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
-Related Links
-EPL in plain HTML
-The EPL on OSI’s site
-CPL to EPL conversion
-&nbsp
-About Us
-Annual Report
-Foundation
-Guides - Eclipse hawkBit
-Guides
-Eclipse hawkBit™
-eclipse/hawkbit
-Sandbox
-Stars
-–
-What is hawkBit
-Getting started
-Guides
-Features
-Concepts
-Architecture
 Optimized for professional users, e.g. administrators, developers and 2nd/3rd level support staff.
 Ease of use drag-and-drop paradigm.
 Flexible grouping of data.
@@ -201,34 +226,6 @@ Lazy loading of data.
 All information on one page.
 Optional integration with Bosch IoT Permissions service for full multi user support with fine granular permission based authorization.
 Artifact Content Delivery
-Partial downloads supported.
-Download resume supported (RFC7233).
-Content management by RESTful API and UI (see above).
-Authorization based on software assignment, i.e. a device can only download what has been assigned to it in the first place.
-Delta artifact hosting supported.
-Artifact signature hosting supported.
-Rollout/Campaign Management
-Secure handling of large volumes of devices at rollout creation time.
-Flexible deployment group definition as part of a rollout.
-Monitoring of the rollout progress.
-Emergency rollout shutdown in case of update failures.
-Interfaces
-Management API
-RESTful API
-Create/Read/Update/Delete operations for provisioning targets (i.e. devices) and repository content (i.e. software).
-Governance
-Legal Resources
-Contact Us
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
 Board of Directors
 Legal
 Privacy Policy
@@ -239,115 +236,14 @@ Legal Resources
 Useful Links
 Report a Bug
 Documentation
-Getting Started - Eclipse hawkBit
-Getting Started
-Eclipse hawkBit™
-eclipse/hawkbit
-Sandbox
-Stars
-–
-What is hawkBit
-Getting started
-Guides
-Features
-Concepts
-Architecture
-Management UI
-Community - Eclipse hawkBit
-Community
-Eclipse hawkBit™
-eclipse/hawkbit
-Sandbox
-Stars
-–
-What is hawkBit
-Getting started
-Guides
-Features
-Concepts
-Architecture
-Management UI
-APIs
-Management UI - Eclipse hawkBit
-Management UI
-Eclipse hawkBit™
-eclipse/hawkbit
-Sandbox
-Stars
-Management UI
-APIs
-Community
-Release notes
-Pages in Guides
-Run hawkBit
-In this guide we describe how to run a full featured hawkBit setup based on a production ready infrastructure. It is based on the hawkBit example modules and update server.
-[...]
-Feign Client
-In this guide we describe how to create a
-Feign
-Rest Client based on a
-Spring Boot
-Application.
-[...]
-Clustering
-hawkBit is able to run in a cluster with some constraints. This guide provides insights in the basic concepts and how to setup your own cluster. You can find additional information in the
-hawkBit runtimes’s README
-.
-Manage and monitor software update operations.
-Online API documentation.
-JSON payload with Hypermedia support.
-Supports filtering, sorting and paging.
-Direct Device Integration API
-RESTful HTTP based API for direct device integration
-JSON payload.
-Traffic optimized (content based Etag generation, not modified).
-Feedback channel from device.
-TLS encryption.
-Device Management Federation API
-Indirect device integration through a device management service or application into hawkBit.
-Optimized for high service to service throughput with
-AMQP
-messaging interface.
-Separate AMQP vHost per tenant for maximum security.
-© 2019 The Eclipse hawkBit Project – Documentation built with
-Hugo
-using the
-Material
-theme.
-> Privacy Policy
-Concepts - Eclipse hawkBit
-Concepts
-Eclipse hawkBit™
-eclipse/hawkbit
-Sandbox
-Stars
-–
-What is hawkBit
-Getting started
-Guides
-Features
-Concepts
-Architecture
-Management UI
-APIs
-Community
-Release notes
-Pages in Concepts
-Release notes - Eclipse hawkBit
-Release notes
-Eclipse hawkBit™
-eclipse/hawkbit
-Sandbox
-Stars
-–
-What is hawkBit
-Getting started
-Guides
-Features
-Concepts
-Architecture
-Management UI
-APIs
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
 Architecture - Eclipse hawkBit
 Architecture
 Eclipse hawkBit™
@@ -361,8 +257,6 @@ Guides
 Features
 Concepts
 Architecture
-Management UI
-APIs
 Apis - Eclipse hawkBit
 Apis
 Eclipse hawkBit™
@@ -378,46 +272,8 @@ Concepts
 Architecture
 Management UI
 APIs
-Community
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-APIs
-Community
-Release notes
-Getting Started
-On Sandbox
-We offer a sandbox installation that is free for everyone to try out hawkBit’s
-Management UI
-,
-Management API
-, and
-Direct Device Integration API
-:
-https://hawkbit.eclipse.org
-The sandbox is a shared installation that will be reset from time to time. Therefore, it is not allowed to upload any personal data.
-In addition, the following vendors offer free trial accounts for their Eclipse hawkBit compatible products:
-Bosch IoT Rollouts
-(by
-Bosch Software Innovations GmbH
-)
-From Docker Image
-Overview
-Service / Container
-A
-B
-What is hawkBit? - Eclipse hawkBit
-What is hawkBit?
+Concepts - Eclipse hawkBit
+Concepts
 Eclipse hawkBit™
 eclipse/hawkbit
 Sandbox
@@ -429,7 +285,18 @@ Guides
 Features
 Concepts
 Architecture
+Management UI - Eclipse hawkBit
 Management UI
+Eclipse hawkBit™
+eclipse/hawkbit
+Sandbox
+Stars
+–
+What is hawkBit
+Getting started
+Architecture
+Management UI
+APIs
 Community
 Release notes
 Community
@@ -445,19 +312,174 @@ slides
 video
 -
 slides
-03/20/2017 - Eclipse IoT Day SanJose, CA -
-video
--
-slides
-09/12/2017 - Eclipse IoT Day ThingMonk 2017 -
-video
-01/10/2018 - Eclipse Virtual IoT Meetup -
-video
--
-slides
+Management UI
+APIs
+Community
+Release notes
+Release notes
+0.3.0M5
+Release Date:
+Tuesday, July 29, 2019
+Tag
+/
+Release
+0.3.0M4
+Release Date:
+Thursday, June 6, 2019
+Tag
+/
+Release
+0.3.0M3
+Release Date:
+Tuesday, May 21, 2019
+Tag
+/
+Release
+Partial downloads supported.
+Download resume supported (RFC7233).
+Content management by RESTful API and UI (see above).
+Authorization based on software assignment, i.e. a device can only download what has been assigned to it in the first place.
+Delta artifact hosting supported.
+Artifact signature hosting supported.
+Rollout/Campaign Management
+Secure handling of large volumes of devices at rollout creation time.
+Flexible deployment group definition as part of a rollout.
+Monitoring of the rollout progress.
+Emergency rollout shutdown in case of update failures.
+Interfaces
+Management API
+RESTful API
+Create/Read/Update/Delete operations for provisioning targets (i.e. devices) and repository content (i.e. software).
+Manage and monitor software update operations.
+Online API documentation.
+JSON payload with Hypermedia support.
+Supports filtering, sorting and paging.
+Direct Device Integration API
+RESTful HTTP based API for direct device integration
+JSON payload.
+Traffic optimized (content based Etag generation, not modified).
+Guides - Eclipse hawkBit
+Guides
+Eclipse hawkBit™
+eclipse/hawkbit
+Sandbox
+Stars
 –
 What is hawkBit
 Getting started
+Guides
+Features
+Concepts
+Architecture
+Enabling Open Innovation & Collaboration | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+What is hawkBit? - Eclipse hawkBit
+What is hawkBit?
+Eclipse hawkBit™
+eclipse/hawkbit
+Sandbox
+Stars
+–
+What is hawkBit
+Getting started
+Guides
+Features
+Concepts
+Architecture
+Getting Started - Eclipse hawkBit
+Getting Started
+Eclipse hawkBit™
+eclipse/hawkbit
+Sandbox
+Stars
+–
+What is hawkBit
+Getting started
+Guides
+Features
+Concepts
+Architecture
+Management UI
+APIs
+Community
+Release notes
+Architecture
+Overview of hawkBit modules and used 3rd party technology:
+© 2019 The Eclipse hawkBit Project – Documentation built with
+Hugo
+using the
+Material
+theme.
+> Privacy Policy
+> Terms of Use
+> Copyright Agent
+> Legal
+> License
+Previous
+Management UI
+Next
+Target State Machine
+var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
+hljs.initHighlightingOnLoad();
+Community
+Release notes
+Pages in Apis
+Management API
+The Management API is a RESTful API that enables to perform Create/Read/Update/Delete operations for provisioning targets (i.e. devices) and repository content (i.e. software).
+[...]
+Direct Device Integration API
+The hawkBit
+update server
+provides REST resources which are consumed by the device to retrieve software update tasks. This API is based on HTTP standards and a polling mechanism.
+[...]
+Device Management Federation API
+The DMF API provides Java classes which allows that the message body can be deserialized at runtime into a Java object. Also Java classes can be used to serialize Java objects into JSON bodies to send a message to hawkBit. Currently, bodies of messages are based on JSON.
+[...]
+© 2019 The Eclipse hawkBit Project – Documentation built with
+Hugo
+using the
+Material
+theme.
+> Privacy Policy
+> Terms of Use
+> Copyright Agent
+> Legal
+Management UI
+APIs
+Community
+Release notes
+Pages in Concepts
+Authentication
+A hawkBit update server can be accessed in four different ways:
+Direct Device Integration (DDI) API
+by
+targets
+.
+Management API
+by 3rd party
+applications
+.
+Device Management Federation (DMF) API
+by 3rd party
+applications
+through AMQP.
+Management UI
+by
+users
 Guides
 Features
 Concepts
@@ -479,165 +501,18 @@ view to manage target filters that can be used both in Deployment and Rollout Ma
 Rollout Management
 for large scale rollout orchestration.
 Deployment Management
-[...]
-Custom Theme
-This guide provides details about using and creating themes that control the visual look of Eclipse hawkBit Management UI. Theme customization is done using Sass, which is an extension of CSS (Cascading Style Sheets).
-[...]
-© 2019 The Eclipse hawkBit Project – Documentation built with
-Hugo
-using the
-Material
-theme.
-> Privacy Policy
-> Terms of Use
-> Copyright Agent
-> Legal
-> License
-var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
-hljs.initHighlightingOnLoad();
-> Terms of Use
-> Copyright Agent
-> Legal
-> License
-Previous
-Authentication
-Next
-Custom Theme
-var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
-hljs.initHighlightingOnLoad();
-Authentication
-A hawkBit update server can be accessed in four different ways:
-Direct Device Integration (DDI) API
-by
-targets
-.
-Management API
-by 3rd party
-applications
-.
-Device Management Federation (DMF) API
-by 3rd party
-applications
-through AMQP.
-Management UI
-by
-users
-.
-[...]
-Authorization
-Authorization is handled separately for
-Direct Device Integration (DDI) API
-and
-Device Management Federation (DMF) API
-Community
-Release notes
-Release notes
-0.3.0M5
-Release Date:
-Tuesday, July 29, 2019
-Tag
-/
-Release
-0.3.0M4
-Release Date:
-Thursday, June 6, 2019
-Tag
-/
-Release
-0.3.0M3
-Release Date:
-Tuesday, May 21, 2019
-Tag
-/
-Community
-Release notes
-Architecture
-Overview of hawkBit modules and used 3rd party technology:
-© 2019 The Eclipse hawkBit Project – Documentation built with
-Hugo
-using the
-Material
-theme.
-> Privacy Policy
-> Terms of Use
-> Copyright Agent
-> Legal
-> License
-Previous
-Release notes
-Pages in Apis
-Management API
-The Management API is a RESTful API that enables to perform Create/Read/Update/Delete operations for provisioning targets (i.e. devices) and repository content (i.e. software).
-[...]
-Direct Device Integration API
-The hawkBit
-update server
-provides REST resources which are consumed by the device to retrieve software update tasks. This API is based on HTTP standards and a polling mechanism.
-[...]
-Device Management Federation API
-The DMF API provides Java classes which allows that the message body can be deserialized at runtime into a Java object. Also Java classes can be used to serialize Java objects into JSON bodies to send a message to hawkBit. Currently, bodies of messages are based on JSON.
-[...]
-© 2019 The Eclipse hawkBit Project – Documentation built with
-Hugo
-using the
-Material
-theme.
-> Privacy Policy
-> Terms of Use
-Enabling Open Innovation & Collaboration | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-C
-hawkBit Update Server
-✓
-✓
-✓
-hawkBit Device Simulator
-✓
-MySQL
-✓
-✓
-RabbitMQ
-✓
-✓
-A: Run hawkBit Update Server as Docker Container
-Start the hawkBit Update Server as a single container
-B: Run hawkBit Update Server with services as Docker Compose
-Start the hawkBit Update Server together with an MySQL and RabbitMQ instance as containers
-C: Run hawkBit Update Server with services as Docker Stack
-Start the hawkBit Update Server and Device Simulator together with an MySQL and RabbitMQ instance as services within a swarm
-From Sources
-1: Clone and build hawkBit
-2: Start hawkBit
-APIs
-Community
-Release notes
-What is hawkBit?
-Eclipse hawkBit™ is an domain-independent back-end framework for rolling out software updates to constrained edge devices as well as more powerful controllers and gateways connected to IP based networking infrastructure.
-Why Software Updates in IoT?
-Having software update capabilities ensures a secure IoT by means that it gives IoT projects a fighting chance against pandora’s box that they opened the moment their devices got connected. From that moment on devices are at the forefront of IT security threats many embedded software developers historically never had to face. Shipping for instance a Linux powered device connected to the Internet without any security updates ever applied during its lifetime is kind of a suicidal act these days.
-A more charming argument for software update is that it enables agile development for hardware and hardware near development. Concepts like a minimum viable product can be applied for devices as not all features need to be ready at manufacturing time. Changes on the cloud side of the IoT project can be applied to the devices at runtime as well.
-Sometimes Software Update is a business model on its own as it makes devices much more attractive to the customer if they are updateable, i.e. they do not only buy a product because of its current feature set but make also a bet on its future capabilities. In addition new revenue streams may arise from the fact that feature extensions can potentially be monetized (e.g. Apps) without the need to design, manufacture and ship a new device (revision).
-Why hawkBit?
-Updating software
-(components) on constrained edge devices as well as more powerful controllers and gateways is as mentioned before a
-common requirement
-in most IoT scenarios.
-At the time being, this process is
-usually handled by the IoT solution itself
-, sometimes backed by a full fledged device management system. We believe that this approach generates unnecessary
-duplicate work
-in the IoT space, in particular when considering the challenges of implementing a safe and reliable remote software update process: the software update process must never fail and also must never be compromised as, at the one hand, it can be used to fix almost any issue/problem on the device but at the same time also poses the greatest security threat if mis-used to introduce malicious code to the device.
-In addition we believe the software update process to be relatively
-independent from particular application domains
-when seen from the back-end (cloud) perspective. Updating the software for an entire car may differ from updating the firmware of a single sensor with regard to the connectivity of the device to the cloud and also to the complexity of the software package update process on the device. However, the process of rolling out the software, e.g. uploading an artifact to the repository, assigning it to eligible devices, managing the roll out campaign for a large number of devices, orchestrating content delivery networks to distribute the package, monitoring and reporting the progress of the roll-out and last but not least requirements regarding security and reliability are quite similar.
+Purpose
+Target status overview, target management and manual deployments.
+03/20/2017 - Eclipse IoT Day SanJose, CA -
+video
+-
+slides
+09/12/2017 - Eclipse IoT Day ThingMonk 2017 -
+video
+01/10/2018 - Eclipse Virtual IoT Meetup -
+video
+-
+slides
 10/22/2018 - Community Day EclipseCon Europe 2018 -
 slides
 Articles
@@ -652,62 +527,6 @@ article
 Chat
 Questions? Problems? Searching for a quick response from the team behind hawkBit and from the hawkBit community, join the
 Gitter Chat
-.
-Mailing List
-A great way to stay up to date with hawkBit activity is to subscribe to the Mailing list provided by Eclipse. Sign up for the mailing list
-here
-.
-Issue Tracker
-Issues and bugs related to hawkBit are tracked with the Github Issue tracking system. If you find any issues, please report them
-here
-.
-Contributing
-An overview of the contribution process is
-Purpose
-Target status overview, target management and manual deployments.
-Feature explained
-Target Status: check status of all targets.
-Target list allows filters based on:
-Assigned/installed
-DistributionSet
-(drag and drop a set on the filter icon on the top of the list)
-Target update status: click 1-X status to reduce the list of targets that have one of them.
-Target tag: click 1-X tags to reduce the list to targets that have one of them.
-Name, description: use search button on the top of the list.
-DistributionSet
-list allows filters based on:
-DistributionSet
-tag: click 1-X tags to reduce the list of sets that have one of them.
-Name, description: use search button on the top of the list.
-Start roll out by drag and drop targets on a DS.
-Target list supports CTRL-A for “select all”.
-Delete sets, tags or targets by dragging them on delete icon.
-Select
-Target
-(where successful authentication includes full authorization) and
-Management API
-and
-UI
-which is based on Spring security
-authorities
-.
-[...]
-Data Model
-The hawkBit data model was designed to have enough flexibility to define complex software structures (e.g. operating system, runtimes, apps, different kind of artifacts) on one side and simplicity compared to the capabilities of a full blown configuration management on the other.
-[...]
-Rollout Management
-Software update operations in large scale IoT scenarios with hundreds of thousands of devices require special handling.
-[...]
-Target State Machine
-A target has a current state which reflects the provisioning status of the device at this point in time. State changes are driven either by the update server by means of starting an update or by the controller on the provisioning target that gives feedback to the update server, e.g. “I am here”, “I am working on a provisioning”, “I have finished a provisioning”.
-[...]
-© 2019 The Eclipse hawkBit Project – Documentation built with
-Hugo
-using the
-Material
-theme.
-> Privacy Policy
-Release
 0.3.0M2
 Release Date:
 Tuesday, April 2, 2019
@@ -733,18 +552,53 @@ Tag
 /
 Release
 0.2.3
-Release Date:
-Management UI
-Next
-Target State Machine
-var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
-hljs.initHighlightingOnLoad();
+Feedback channel from device.
+TLS encryption.
+Device Management Federation API
+Indirect device integration through a device management service or application into hawkBit.
+Optimized for high service to service throughput with
+AMQP
+messaging interface.
+Separate AMQP vHost per tenant for maximum security.
+© 2019 The Eclipse hawkBit Project – Documentation built with
+Hugo
+using the
+Material
+theme.
+> Privacy Policy
+> Terms of Use
 > Copyright Agent
 > Legal
 > License
+Previous
+Authentication
+Next
+Custom Theme
 var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
-hljs.initHighlightingOnLoad();
-Events
+Management UI
+APIs
+Community
+Release notes
+Pages in Guides
+Run hawkBit
+In this guide we describe how to run a full featured hawkBit setup based on a production ready infrastructure. It is based on the hawkBit example modules and update server.
+[...]
+Feign Client
+In this guide we describe how to create a
+Feign
+Rest Client based on a
+Spring Boot
+Application.
+[...]
+Clustering
+hawkBit is able to run in a cluster with some constraints. This guide provides insights in the basic concepts and how to setup your own cluster. You can find additional information in the
+hawkBit runtimes’s README
+.
+[...]
+Custom Theme
+This guide provides details about using and creating themes that control the visual look of Eclipse hawkBit Management UI. Theme customization is done using Sass, which is an extension of CSS (Cascading Style Sheets).
+[...]
+© 2019 The Eclipse hawkBit Project – Documentation built with
 Planet Eclipse
 Newsletter
 Videos
@@ -770,14 +624,107 @@ Marketplace
 Events
 Planet Eclipse
 Newsletter
-Videos
-Blogs
-update server
-3: Build hawkBit examples
-4: Start hawkBit
-Device Simulator
-5: Generate Getting Started data with
-Example Management API Client
+Management UI
+APIs
+Community
+Release notes
+What is hawkBit?
+Eclipse hawkBit™ is an domain-independent back-end framework for rolling out software updates to constrained edge devices as well as more powerful controllers and gateways connected to IP based networking infrastructure.
+Why Software Updates in IoT?
+Having software update capabilities ensures a secure IoT by means that it gives IoT projects a fighting chance against pandora’s box that they opened the moment their devices got connected. From that moment on devices are at the forefront of IT security threats many embedded software developers historically never had to face. Shipping for instance a Linux powered device connected to the Internet without any security updates ever applied during its lifetime is kind of a suicidal act these days.
+A more charming argument for software update is that it enables agile development for hardware and hardware near development. Concepts like a minimum viable product can be applied for devices as not all features need to be ready at manufacturing time. Changes on the cloud side of the IoT project can be applied to the devices at runtime as well.
+Sometimes Software Update is a business model on its own as it makes devices much more attractive to the customer if they are updateable, i.e. they do not only buy a product because of its current feature set but make also a bet on its future capabilities. In addition new revenue streams may arise from the fact that feature extensions can potentially be monetized (e.g. Apps) without the need to design, manufacture and ship a new device (revision).
+Why hawkBit?
+Updating software
+(components) on constrained edge devices as well as more powerful controllers and gateways is as mentioned before a
+common requirement
+in most IoT scenarios.
+At the time being, this process is
+usually handled by the IoT solution itself
+, sometimes backed by a full fledged device management system. We believe that this approach generates unnecessary
+duplicate work
+in the IoT space, in particular when considering the challenges of implementing a safe and reliable remote software update process: the software update process must never fail and also must never be compromised as, at the one hand, it can be used to fix almost any issue/problem on the device but at the same time also poses the greatest security threat if mis-used to introduce malicious code to the device.
+In addition we believe the software update process to be relatively
+Management UI
+APIs
+Community
+Release notes
+Getting Started
+On Sandbox
+We offer a sandbox installation that is free for everyone to try out hawkBit’s
+Management UI
+,
+Management API
+, and
+Direct Device Integration API
+:
+https://hawkbit.eclipse.org
+The sandbox is a shared installation that will be reset from time to time. Therefore, it is not allowed to upload any personal data.
+In addition, the following vendors offer free trial accounts for their Eclipse hawkBit compatible products:
+Bosch IoT Rollouts
+(by
+Bosch Software Innovations GmbH
+)
+> License
+var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
+hljs.initHighlightingOnLoad();
+.
+[...]
+Authorization
+Authorization is handled separately for
+Direct Device Integration (DDI) API
+and
+Device Management Federation (DMF) API
+(where successful authentication includes full authorization) and
+Management API
+and
+UI
+which is based on Spring security
+authorities
+.
+[...]
+Data Model
+The hawkBit data model was designed to have enough flexibility to define complex software structures (e.g. operating system, runtimes, apps, different kind of artifacts) on one side and simplicity compared to the capabilities of a full blown configuration management on the other.
+[...]
+Rollout Management
+Software update operations in large scale IoT scenarios with hundreds of thousands of devices require special handling.
+Feature explained
+Target Status: check status of all targets.
+Target list allows filters based on:
+Assigned/installed
+DistributionSet
+(drag and drop a set on the filter icon on the top of the list)
+Target update status: click 1-X status to reduce the list of targets that have one of them.
+Target tag: click 1-X tags to reduce the list to targets that have one of them.
+Name, description: use search button on the top of the list.
+DistributionSet
+list allows filters based on:
+DistributionSet
+tag: click 1-X tags to reduce the list of sets that have one of them.
+Name, description: use search button on the top of the list.
+Start roll out by drag and drop targets on a DS.
+Target list supports CTRL-A for “select all”.
+Delete sets, tags or targets by dragging them on delete icon.
+Select
+Target
+to see
+Action
+History.
+.
+Mailing List
+A great way to stay up to date with hawkBit activity is to subscribe to the Mailing list provided by Eclipse. Sign up for the mailing list
+here
+.
+Issue Tracker
+Issues and bugs related to hawkBit are tracked with the Github Issue tracking system. If you find any issues, please report them
+here
+.
+Contributing
+An overview of the contribution process is
+here
+. Checkout the
+Contribution Guidelines
+on the Eclipse hawkBit GitHub Repository.
 © 2019 The Eclipse hawkBit Project – Documentation built with
 Hugo
 using the
@@ -788,12 +735,60 @@ theme.
 > Copyright Agent
 > Legal
 > License
-Previous
-Run hawkBit
-Next
-What is hawkBit?
+Release Date:
+Monday, October 1, 2018
+Tag
+/
+Release
+0.2.2
+Release Date:
+Thursday, September 21, 2018
+Tag
+/
+Release
+0.2.1
+Release Date:
+Friday, July 6, 2018
+Tag
+/
+Release
+0.2.0
+First Eclipse hawkBit release including:
+hljs.initHighlightingOnLoad();
+Hugo
+using the
+Material
+theme.
+> Privacy Policy
+> Terms of Use
+> Copyright Agent
+> Legal
+> License
 var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
 hljs.initHighlightingOnLoad();
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+The Platform for Open
+Innovation and Collaboration
+The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
+independent from particular application domains
+when seen from the back-end (cloud) perspective. Updating the software for an entire car may differ from updating the firmware of a single sensor with regard to the connectivity of the device to the cloud and also to the complexity of the software package update process on the device. However, the process of rolling out the software, e.g. uploading an artifact to the repository, assigning it to eligible devices, managing the roll out campaign for a large number of devices, orchestrating content delivery networks to distribute the package, monitoring and reporting the progress of the roll-out and last but not least requirements regarding security and reliability are quite similar.
 Existing
 device management systems
 usually
@@ -811,16 +806,35 @@ needed by large scale IoT projects.
 that at the same time is
 focused on software updates
 in the IoT space
-and that is able to work on its own for simple scenarios while having the capability to integrate with existing device management systems and protocols.
-Cloud Ready
-Technical Scalability
-: connect millions of devices and ship terabytes of software on a global scale.
-Functional Scalability
-: rollouts with hundreds of thousands of individual devices in it.
-here
-. Checkout the
-Contribution Guidelines
-on the Eclipse hawkBit GitHub Repository.
+From Docker Image
+Overview
+Service / Container
+A
+B
+C
+hawkBit Update Server
+✓
+✓
+✓
+hawkBit Device Simulator
+✓
+MySQL
+✓
+✓
+RabbitMQ
+✓
+✓
+A: Run hawkBit Update Server as Docker Container
+Start the hawkBit Update Server as a single container
+B: Run hawkBit Update Server with services as Docker Compose
+Start the hawkBit Update Server together with an MySQL and RabbitMQ instance as containers
+C: Run hawkBit Update Server with services as Docker Stack
+Start the hawkBit Update Server and Device Simulator together with an MySQL and RabbitMQ instance as services within a swarm
+From Sources
+[...]
+Target State Machine
+A target has a current state which reflects the provisioning status of the device at this point in time. State changes are driven either by the update server by means of starting an update or by the controller on the provisioning target that gives feedback to the update server, e.g. “I am here”, “I am working on a provisioning”, “I have finished a provisioning”.
+[...]
 © 2019 The Eclipse hawkBit Project – Documentation built with
 Hugo
 using the
@@ -831,15 +845,8 @@ theme.
 > Copyright Agent
 > Legal
 > License
-Previous
-Release notes
-Next
-Device Management Federation API
 var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
 hljs.initHighlightingOnLoad();
-to see
-Action
-History.
 Bulk target upload: create bulk targets by upload.
 Hints for bulk upload: - Expected file type : csv. - Expected file format : Each line with two values (ControllerID,Target Name). ControllerID is mandatory. - Example:
 Distribution Management
@@ -861,30 +868,15 @@ Upload and delete software artifacts for a module.
 Rollout Management
 Purpose
 Software rollout in large scale, rollout status overview and rollout management.
-> Terms of Use
-> Copyright Agent
-> Legal
-> License
+Features explained
+Create, update, copy and delete of rollouts.
+Start, pause and resume of rollouts.
+Previous
+Release notes
+Next
+Device Management Federation API
 var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
 hljs.initHighlightingOnLoad();
-Monday, October 1, 2018
-Tag
-/
-Release
-0.2.2
-Release Date:
-Thursday, September 21, 2018
-Tag
-/
-Release
-0.2.1
-Release Date:
-Friday, July 6, 2018
-Tag
-/
-Release
-0.2.0
-First Eclipse hawkBit release including:
 Core features:
 Device and Software Repository
 Update Management Management UI/Console
@@ -892,25 +884,24 @@ Artifact Content Delivery
 Rollout/Campaign Management
 Interfaces:
 Management API
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-The Platform for Open
-Innovation and Collaboration
-The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
+Direct Device Integration (DDI) API
+Device Management Federation (DMF) API
+Release Date:
+Friday, June 15, 2018
+Tag
+/
+Release
+/
+Eclipse
+© 2019 The Eclipse hawkBit Project – Documentation built with
+Hugo
+using the
+Material
+theme.
+> Privacy Policy
+> Terms of Use
+> Copyright Agent
+> Legal
 Members
 Working Groups
 Discover Projects
@@ -918,7 +909,28 @@ Business Value
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
-Oracle
+CEA
+Sponsored Ad
+Announcements
+2019/09/24
+Call for Birds of Feather's (BoFs) for EclipseCon Europe 2019!
+Community Evening includes an Edge Computing hackathon, a Project Pitch game, Eclipse Night School, and - of course - Bo...
+2019/09/24
+Come to Eclipse Night School at EclipseCon Europe!
+Come to Night School, and learn all about what the Foundation staff does to make your (Eclipse) life better!
+2019/09/17
+The Eclipse Foundation Wins Duke's Choice Award for Open Source Contributions to the Java Ecosystem
+The Eclipse Foundation was awarded a Duke's Choice Award yesterday in recognition for outstanding open source contributi...
+2019/09/17
+The Eclipse Foundation Releases Eclipse Che 7, the First Kubernetes-Native IDE, to Make Creating Cloud Native Applications Easier, Faster, and More Secure
+The Eclipse Foundation today announced at the Oracle Code One conference and tradeshow the release of Eclipse Che 7, the...
+View all
+and that is able to work on its own for simple scenarios while having the capability to integrate with existing device management systems and protocols.
+Cloud Ready
+Technical Scalability
+: connect millions of devices and ship terabytes of software on a global scale.
+Functional Scalability
+: rollouts with hundreds of thousands of individual devices in it.
 Reliability
 : software update as the last line of defense against device faults and vulnerabilities.
 Managed device complexity
@@ -938,12 +950,28 @@ theme.
 Previous
 Getting Started
 Next
-Targets API
-var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
-hljs.initHighlightingOnLoad();
-Features explained
-Create, update, copy and delete of rollouts.
-Start, pause and resume of rollouts.
+1: Clone and build hawkBit
+2: Start hawkBit
+update server
+3: Build hawkBit examples
+4: Start hawkBit
+Device Simulator
+5: Generate Getting Started data with
+Example Management API Client
+© 2019 The Eclipse hawkBit Project – Documentation built with
+Hugo
+using the
+Material
+theme.
+> Privacy Policy
+> Terms of Use
+> Copyright Agent
+> Legal
+> License
+Previous
+Run hawkBit
+Next
+What is hawkBit?
 Progress monitoring for the entire rollout and the individual groups.
 Drill down to see the groups in a rollout and targets in each group.
 Rollout attributes:
@@ -964,45 +992,16 @@ Purpose
 Custom target filter overview and filter management.
 Features explained
 Custom target filter allows user to filter targets by defining custom query.
-Direct Device Integration (DDI) API
-Device Management Federation (DMF) API
-Release Date:
-Friday, June 15, 2018
-Tag
-/
-Release
-/
-Eclipse
-© 2019 The Eclipse hawkBit Project – Documentation built with
-Hugo
-using the
-Material
-theme.
-> Privacy Policy
-> Terms of Use
-> Copyright Agent
-> Legal
+Displays custom target filter list and user can search any particular filter.
+Create, update and delete features are supported for target filters.
+Auto assignment of a distribution set to filtered targets.
+How to Filter
 > License
 Previous
 Next
 Community
 var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
 hljs.initHighlightingOnLoad();
-Sponsored Ad
-Announcements
-2019/09/24
-Call for Birds of Feather's (BoFs) for EclipseCon Europe 2019!
-Community Evening includes an Edge Computing hackathon, a Project Pitch game, Eclipse Night School, and - of course - Bo...
-2019/09/24
-Come to Eclipse Night School at EclipseCon Europe!
-Come to Night School, and learn all about what the Foundation staff does to make your (Eclipse) life better!
-2019/09/17
-The Eclipse Foundation Wins Duke's Choice Award for Open Source Contributions to the Java Ecosystem
-The Eclipse Foundation was awarded a Duke's Choice Award yesterday in recognition for outstanding open source contributi...
-2019/09/17
-The Eclipse Foundation Releases Eclipse Che 7, the First Kubernetes-Native IDE, to Make Creating Cloud Native Applications Easier, Faster, and More Secure
-The Eclipse Foundation today announced at the Oracle Code One conference and tradeshow the release of Eclipse Che 7, the...
-View all
 Subscribe to our RSS-feed
 Community News
 2019/09/17
@@ -1011,10 +1010,26 @@ Che 7 is the biggest release in Eclipse Che history - focused on simplifying wri
 2019/09/11
 From building blocks to IoT solutions
 The Eclipse IoT ecosystem consists of around 40 different projects, ranging from embedded devices, to IoT gateways and u...
-Displays custom target filter list and user can search any particular filter.
-Create, update and delete features are supported for target filters.
-Auto assignment of a distribution set to filtered targets.
-How to Filter
+2019/09/11
+Jakarta EE 8 Specifications Released by The Eclipse Foundation, Payara Platform Compatibility Coming Soon
+The Jakarta EE 8 Full Platform, Web Profile specifications and related TCKs have been officially released today (Septemb...
+2019/09/11
+Open Liberty is Jakarta EE 8 compatible
+Today is a big day in the enterprise Java world. Two years ago, Oracle announced their intention to move Java EE to the ...
+View all
+Subscribe to our RSS-feed
+Eclipse Foundation by the Numbers
+360+
+Projects
+1550+
+Committers
+275+
+Members
+Targets API
+var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
+hljs.initHighlightingOnLoad();
+var base_url = 'https:\/\/www.eclipse.org\/hawkbit\/'; var repo_id = 'eclipse\/hawkbit';
+hljs.initHighlightingOnLoad();
 The basic syntax to filter is:
 field<basic_operator>value <composite_operator> field<basic_operator>value <...>
 field
@@ -1036,21 +1051,7 @@ and
 or
 Use
 =IN=
-2019/09/11
-Jakarta EE 8 Specifications Released by The Eclipse Foundation, Payara Platform Compatibility Coming Soon
-The Jakarta EE 8 Full Platform, Web Profile specifications and related TCKs have been officially released today (Septemb...
-2019/09/11
-Open Liberty is Jakarta EE 8 compatible
-Today is a big day in the enterprise Java world. Two years ago, Oracle announced their intention to move Java EE to the ...
-View all
-Subscribe to our RSS-feed
-Eclipse Foundation by the Numbers
-360+
-Projects
-1550+
-Committers
-275+
-Members
+for ‘in’ parameter.(Example: name=IN=(target1,target2).
 10
 Working Groups
 Back to the top
@@ -1061,7 +1062,19 @@ Eclipse Foundation
 About Us
 Contact Us
 Donate
-for ‘in’ parameter.(Example: name=IN=(target1,target2).
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
 Use
 *
 for wildcard matches.
@@ -1083,19 +1096,6 @@ Gives all targets with their name starting with ‘CCU’ and which are in ‘pe
 (assignedds.name==‘ECU-DS’ and description==test) or updatestatus!=error
 Gives all targets which are either assigned to ‘ECU-DS’ and have description equals to ‘test’ or which are not in error status.
 (updatestatus!=In_sync or updatestatus!=error) and name==*SHC1*
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
 Mailing Lists
 Forums
 Marketplace
@@ -1107,6 +1107,7 @@ Research@Eclipse
 Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Gives all targets that do not have the update status In_sync or error and that contains the term SHC1 in their name.
 (updatestatus!=error or updatestatus!=pending) and (name==*CCU* or description==*CCU*)
 Gives all targets that either have the term ‘CCU’ in their name or their description and that either have the
@@ -1129,7 +1130,6 @@ Hugo
 using the
 Material
 theme.
-Back to the top
 > Privacy Policy
 > Terms of Use
 > Copyright Agent

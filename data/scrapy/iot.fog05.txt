@@ -147,7 +147,7 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Eclipse IoT | projects.eclipse.org
+Eclipse Public License 2.0 | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -179,7 +179,97 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-Eclipse Public License 2.0 | projects.eclipse.org
+More
+Community
+Marketplace
+Events
+Internet of Things | projects.eclipse.org
+Google Tag Manager
+Eclipse IoT | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Home
+Projects
+Eclipse Public License 2.0
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
 Google Tag Manager
 Skip to main content
 Log in
@@ -195,10 +285,60 @@ Events
 Planet Eclipse
 Newsletter
 Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse Public License 2.0
+URL:
+http://www.eclipse.org/legal/epl-2.0
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
 More
 Community
 Marketplace
 Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
 Planet Eclipse
 Newsletter
 Videos
@@ -220,14 +360,10 @@ IDE and Tools
 Newcomer Forum
 Toggle navigation
 Home
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
+Projects
+Eclipse IoT
+Eclipse IoT
+Primary tabs
 Eclipse IDE
 Download
 Learn More
@@ -247,10 +383,47 @@ Blogs
 Participate
 Report a Bug
 Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
 Projects
-Eclipse IoT
-Eclipse IoT
-Primary tabs
+Technology Type
+Internet of Things
+Internet of Things
+Technology that supports wired or wireless communication between machines.
+Eclipse Yasham
+Internet of Things
+Eclipse Yasham is an Open & Extensible Cloud-Native Smart Living Platform for Consumer IoT.
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
 Overview
 (active tab)
 Downloads
@@ -272,15 +445,8 @@ Member companies supporting this project over the last three months.
 Contribution Activity:
 Commits on this project (last 12 months).
 Project Links
-Internet of Things | projects.eclipse.org
-Google Tag Manager
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
+Top Level Project Charter
+Website
 Documentation
 Getting Started / Support
 How to Contribute
@@ -289,30 +455,36 @@ Newcomer Forum
 Toggle navigation
 Home
 Projects
-Eclipse Public License 2.0
-Eclipse Public License 2.0
-URL:
-http://www.eclipse.org/legal/epl-2.0
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Eclipse fog05 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -
+Internet of Things
+Language
+Modeling
+OSGi
+Runtime
+Specification
+Testing
+Governance
+Contact
+Eclipse Keyple
+Internet of Things
+The goal of Eclipse Keyple is to allow developers to easily implement fast and secure off-line contactless transactions (using NFC cards, mobile phones, …) based on the Calypso standard.
+Read more...
+Latest release:
+0.7.0 (Java 19/07)
 Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Top Level Project Charter
+Toggle Dropdown
 Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse VOLTTRON
+Internet of Things
+The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
 Wiki
 Related Projects
 Project Hierarchy:
@@ -335,80 +507,40 @@ Eclipse Keti
 Eclipse Keyple
 Eclipse Kiso
 Eclipse Kuksa
-Eclipse Kura
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Contact Us
-Donate
+Tools
+State
+- Any -
+Incubating
+Mature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
+Read more...
+Latest release:
+1.10.0
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
 Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
+Contact
+Eclipse Tahu
+Internet of Things
+Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
+Read more...
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Eclipse Kura
 Eclipse Leshan
 Eclipse Milo
 Eclipse Mita
@@ -427,546 +559,10 @@ Eclipse Unide
 Eclipse UPM
 Eclipse VOLTTRON
 Eclipse Vorto
-Eclipse Wakaama
-Eclipse Yasham
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse fog05 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse fog05 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse fog05 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Technology Type
-Internet of Things
-Internet of Things
-Technology that supports wired or wireless communication between machines.
-Eclipse Yasham
-Internet of Things
-Eclipse Yasham is an Open & Extensible Cloud-Native Smart Living Platform for Consumer IoT.
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Eclipse fog05
-Developer Resources
-Eclipse fog05
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-The project has not provided information for this page.
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse fog05
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-List of Projects
-List of Projects
-Search
-Technology Types
-- Any -
-Internet of Things
-Language
-Modeling
-OSGi
-Runtime
-Specification
-Testing
-Tools
-State
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Who's Involved
-Governance
-Contact
-Eclipse Keyple
-Internet of Things
-The goal of Eclipse Keyple is to allow developers to easily implement fast and secure off-line contactless transactions (using NFC cards, mobile phones, …) based on the Calypso standard.
-Read more...
-Latest release:
-0.7.0 (Java 19/07)
 Download
 Toggle Dropdown
 Website
 Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse VOLTTRON
-Internet of Things
-The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
-Read more...
-Learn more
-Toggle Dropdown
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse fog05
-- Any -
-Incubating
-Mature
-Include
-Archived Projects
-Apply
-Eclipse EMFStore
-Modeling
-Runtime
-Tools
-Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
-Read more...
-Latest release:
-1.10.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Eclipse fog05
-Contact Us
-Eclipse fog05
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-(active tab)
-Developer Mailing List:
-fog05-dev
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse fog05
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Tahu
-Internet of Things
-Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse fog05
-Internet of Things
-Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
-Read more...
-Learn more
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse fog05
-Who's Involved
-Eclipse fog05
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Contribution Activity:
-Commits on this project (last 12 months).
-Individual Contribution Activity:
-Commits on this project by individuals over the last three months.
-Organization Contribution Activity:
-Commits on this project by supporting organization over the last three months.
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Governance
-Eclipse fog05
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-Contact Us
-Scope:
-Eclipse fog05
-aims at providing a fog computing platform that provides the equivalent of cloud IaaS along with some foundational PaaS services.
-In other terms, the main focus of
-fog05
-is in providing a scalable infrastructure to:
-Virtualise compute, storage and communication end-to-end -- from cloud to thing.
-Provide a unified abstraction to provision, manage and monitor
-applications
-that may be deployed in the cloud to things continuum.
-Provide data virtualisation, as this is a foundational service upon which fog-based analytics, monitoring, etc. will be built.
-Whilst monitoring and management is in the scope of
-Eclipse fog05 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
 Who's Involved
 Governance
 Contact
@@ -981,14 +577,29 @@ Latest release:
 Download
 Toggle Dropdown
 Website
+Governance
+Contact
+Eclipse fog05
+Internet of Things
+Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
+Read more...
+Learn more
+Toggle Dropdown
+Website
 Developer Resources
 Who's Involved
 Governance
 Contact
-Eclipse Paho
+Eclipse HIP
+Archived
 Internet of Things
-Runtime
-Tools
+Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
+Read more...
+Eclipse Wakaama
+Eclipse Yasham
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
 Eclipse Foundation
 About Us
 Contact Us
@@ -999,6 +610,44 @@ Board of Directors
 Legal
 Privacy Policy
 Terms of Use
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
+Read more...
+Latest release:
+1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Mita
+Internet of Things
+Language
+Modeling
+Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+Read more...
+Latest release:
+0.1.0
+Download
+Toggle Dropdown
+Website
 Copyright Agent
 Eclipse Public License
 Legal Resources
@@ -1013,107 +662,9 @@ Other
 IDE and Tools
 Community of Projects
 Working Groups
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse HIP
-Archived
-Internet of Things
-Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Mita
-Internet of Things
-Language
-Modeling
-Project Members:
-Project Leads
-Angelo Corsaro
-Gabriele Baldoni
-Committers
-Angelo Corsaro
-Erik Boasson
-Gabriele Baldoni
-Julien Enoch
-Olivier HECART
-Mentors
-Pascal Rapicault
-Wayne Beaton
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse fog05
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-fog05
-, and dynamic resource management is one of the main area in which we plan to contribute, tools for visualisation are out of scope. Third party tools or other projects will leverage
-fog05
-API to provide
-Working Group:
-Internet of Things (IoT)
-Reviews:
-Name
-Date
-Creation Review
-2018-05-16
-Project Links
-Proposal
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse fog05
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
-Read more...
-Latest release:
-1.4.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse QVT Operational
+Research@Eclipse
+Report a Vulnerability
+Service Status
 Language
 Modeling
 Tools
@@ -1122,18 +673,15 @@ Operational QVT project provides a powerful Eclipse IDE:
 feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
 debugger (conditional breakpoints, variables view, expressions view, watches)
 metamodel browser, trace view
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
+project builders, launch configurations
+deployment facilities and Ant support
+Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
+support of Java Black-Box units and libraries
+seamless integration with JDT supporting co-development of QVTo and Java in single workspace
+Additional tooling QVTO Code Coverage provides:
+annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
+JUnit launch configuration to integrate with the JUnit test framework
 Read more...
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
-Website
 Developer Resources
 Who's Involved
 Governance
@@ -1148,85 +696,11 @@ Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
 Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-project builders, launch configurations
-deployment facilities and Ant support
-Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
-support of Java Black-Box units and libraries
-seamless integration with JDT supporting co-development of QVTo and Java in single workspace
-Additional tooling QVTO Code Coverage provides:
-annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
-JUnit launch configuration to integrate with the JUnit test framework
-Read more...
+Contact
+Eclipse Cyclone DDS
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Latest release:
 2019-09 (3.10.0)
 Download
@@ -1238,9 +712,12 @@ Governance
 Contact
 Eclipse Trace Compass
 Tools
-Governance
-Contact
-Eclipse Cyclone DDS
+Eclipse Trace Compass
+is an open source application to solve performance and reliability issues by reading and analyzing
+lo
+Read more...
+Latest release:
+5.1.0
 Internet of Things
 Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
 Read more...
@@ -1258,49 +735,6 @@ Internet of Things
 Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
 The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
 Read more...
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse fog05
-Downloads
-Eclipse fog05
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-This project has not provided download information.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse fog05
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Eclipse Trace Compass
-is an open source application to solve performance and reliability issues by reading and analyzing
-lo
-Read more...
-Latest release:
-5.1.0
 Download
 Toggle Dropdown
 Website
@@ -1318,6 +752,7 @@ Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
+Governance
 Latest release:
 0.1-M1
 Learn more
@@ -1336,39 +771,6 @@ next
 last
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Governance
 Contact
 Eclipse Collections
 OSGi
@@ -1388,9 +790,13 @@ Contact
 Eclipse GlassFish Tools
 Tools
 Read more...
-Download
-Toggle Dropdown
-Website
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
 Board of Directors
 Legal
 Privacy Policy
@@ -1399,18 +805,9 @@ Copyright Agent
 Eclipse Public License
 Legal Resources
 Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
+Download
+Toggle Dropdown
+Website
 Developer Resources
 Who's Involved
 Governance
@@ -1422,11 +819,13 @@ Latest release:
 5.5.0
 Download
 Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
 IDE and Tools
 Community of Projects
 Working Groups
@@ -1435,6 +834,11 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
 Eclipse Ogee
 Modeling
 Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology.
@@ -1604,6 +1008,603 @@ Contact
 …
 next ›
 last »
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse fog05 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse fog05
+Governance
+Eclipse fog05
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+Eclipse fog05
+aims at providing a fog computing platform that provides the equivalent of cloud IaaS along with some foundational PaaS services.
+In other terms, the main focus of
+fog05
+is in providing a scalable infrastructure to:
+Virtualise compute, storage and communication end-to-end -- from cloud to thing.
+Provide a unified abstraction to provision, manage and monitor
+applications
+that may be deployed in the cloud to things continuum.
+Provide data virtualisation, as this is a foundational service upon which fog-based analytics, monitoring, etc. will be built.
+Whilst monitoring and management is in the scope of
+fog05
+, and dynamic resource management is one of the main area in which we plan to contribute, tools for visualisation are out of scope. Third party tools or other projects will leverage
+fog05
+API to provide
+Working Group:
+Internet of Things (IoT)
+Reviews:
+Name
+Date
+Creation Review
+2018-05-16
+Project Links
+Proposal
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse fog05
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse fog05 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse fog05
+Downloads
+Eclipse fog05
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse fog05
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse fog05 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse fog05
+Developer Resources
+Eclipse fog05
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+The project has not provided information for this page.
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse fog05
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse fog05 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse fog05
+Who's Involved
+Eclipse fog05
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Project Members:
+Project Leads
+Angelo Corsaro
+Gabriele Baldoni
+Committers
+Angelo Corsaro
+Erik Boasson
+Gabriele Baldoni
+Julien Enoch
+Olivier HECART
+Mentors
+Pascal Rapicault
+Wayne Beaton
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse fog05
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse fog05 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse fog05
+Contact Us
+Eclipse fog05
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+fog05-dev
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse fog05
+Tags
+Technology Types
+Internet of Things
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register

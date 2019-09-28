@@ -1,6 +1,5 @@
 kuksa:63
 appstacle:26
-2019:22
 contributions:21
 https:20
 reading:19
@@ -8,7 +7,6 @@ vehicles:18
 otokar:16
 continue:15
 resources:14
-2018:14
 connectivity:13
 cloud:13
 platforms:13
@@ -25,7 +23,6 @@ coding:10
 scenarios:9
 software:9
 sumo:9
-january:9
 licensing:9
 repository:9
 commits:9
@@ -36,15 +33,18 @@ turkish:8
 issues:8
 new:8
 documented:8
-1:8
 community:7
 in-vehicle:7
 public:7
 following:7
 parts:7
 foundation:7
-reviewers:7
-please:7
 dissemination:7
 implementation:7
 rover:7
+reviewers:7
+please:7
+integration:6
+technologies:6
+ecosystem:6
+driver:6

@@ -1,12 +1,8 @@
 iot:22
-2019:12
 community:7
 leshan:6
 resources:6
 solutions:6
-m2m:5
-lwm2m:5
-?:5
 devices:5
 based:5
 foundation:5
@@ -37,7 +33,6 @@ members:3
 building:3
 ecosystem:3
 jun:3
-october:3
 toggle:2
 navigation:2
 learn:2
@@ -48,3 +43,8 @@ dtls:2
 security:2
 libraries:2
 help:2
+code:2
+documentation:2
+started:2
+test:2
+connect:2

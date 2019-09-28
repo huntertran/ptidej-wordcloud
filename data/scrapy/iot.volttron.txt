@@ -200,17 +200,6 @@ Governance
 Contact
 Eclipse VOLTTRON
 Internet of Things
-Eclipse IoT | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
 The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
 Read more...
 Learn more
@@ -228,31 +217,12 @@ Learn more
 Toggle Dropdown
 Website
 Developer Resources
+Eclipse IoT | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
 Who's Involved
 Governance
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
 Contact
 Eclipse fog05
 Internet of Things
@@ -275,10 +245,6 @@ Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
-Apache License, Version 2.0 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
 Manage Cookies
 projects.eclipse.org
 Download
@@ -286,9 +252,6 @@ Members
 Working Groups
 Projects
 Community
-Marketplace
-Events
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
 Marketplace
 Events
 Planet Eclipse
@@ -307,8 +270,6 @@ Download
 Learn More
 Documentation
 Getting Started / Support
-How to Contribute
-IDE and Tools
 Governance
 Contact
 Eclipse Mita
@@ -330,6 +291,17 @@ Eclipse Thingweb
 Internet of Things
 The Eclipse Thingweb project will start with three sub-projects in the toolkit:
 Thingweb node-wot
+Read more...
+Download
+Toggle Dropdown
+Website
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
 Planet Eclipse
 Newsletter
 Videos
@@ -349,31 +321,31 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-More
-Community
-Marketplace
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-Newcomer Forum
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Cyclone DDS
+Internet of Things
+Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
+Read more...
+Latest release:
+0.1.0 (Preambule)
+Learn more
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Kuksa
+Internet of Things
+Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
+The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
+Read more...
+Latest release:
+0.1-M1
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
 Toggle navigation
 Home
 Projects
@@ -394,33 +366,6 @@ Tools that facilitate the development of connected systems
 Solutions that build ready-to-run solutions based on the other building blocks
 This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
 Licenses:
-Eclipse VOLTTRON | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Cyclone DDS
-Internet of Things
-Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
-Read more...
-Latest release:
-0.1.0 (Preambule)
 Learn more
 Toggle Dropdown
 Website
@@ -428,6 +373,32 @@ Developer Resources
 Who's Involved
 Governance
 Contact
+1
+2
+3
+4
+5
+next
+last
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
 Events
 Planet Eclipse
 Newsletter
@@ -441,64 +412,6 @@ Wiki
 IRC
 Research
 Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse VOLTTRON | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Eclipse VOLTTRON | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
 Eclipse Distribution License 1.0 (BSD)
 Eclipse Public License 2.0
 Active Member Companies:
@@ -522,73 +435,6 @@ Eclipse Duttile
 Eclipse fog05
 Eclipse hawkBit
 Eclipse Hono
-Eclipse Ignite|IoT
-Eclipse VOLTTRON | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Eclipse Kuksa
-Internet of Things
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
-Read more...
-Latest release:
-0.1-M1
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-1
-2
-3
-4
-5
-next
-last
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Apache License, Version 2.0
-Apache License, Version 2.0
-URL:
-http://opensource.org/licenses/Apache-2.0
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
 Logo and Artwork
 Board of Directors
 Legal
@@ -600,7 +446,77 @@ Legal Resources
 Useful Links
 Report a Bug
 Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Apache License, Version 2.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
 Planet Eclipse
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse Ignite|IoT
+Eclipse ioFog
+Eclipse IoT Packages
+Eclipse Kapua
+Eclipse Keti
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Kuksa
+Eclipse Kura
+Eclipse Leshan
+Eclipse Milo
+Eclipse Mita
+Eclipse Mosquitto
+Eclipse MRAA
+Eclipse NeoSCADA
+Eclipse OM2M
+Eclipse Paho
+Eclipse Paho Incubator
+Eclipse Ponte
+Eclipse SmartHome
+Eclipse Tahu
+Eclipse Thingweb
+Back to the top
 Newsletter
 Videos
 Blogs
@@ -624,30 +540,6 @@ Community
 Marketplace
 Events
 Planet Eclipse
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Research
 Eclipse IDE
 Download
 Learn More
@@ -671,210 +563,12 @@ OSGi
 Runtime
 Specification
 Testing
-Eclipse VOLTTRON | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Eclipse ioFog
-Eclipse IoT Packages
-Eclipse Kapua
-Eclipse Keti
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Kura
-Eclipse Leshan
-Eclipse Milo
-Eclipse Mita
-Eclipse Mosquitto
-Eclipse MRAA
-Eclipse NeoSCADA
-Eclipse OM2M
-Eclipse Paho
-Eclipse Paho Incubator
-Eclipse Ponte
-Eclipse SmartHome
-Eclipse Tahu
-Eclipse Thingweb
+Tools
+State
 Eclipse tinydtls
 Eclipse Unide
 Eclipse UPM
 Eclipse VOLTTRON
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Tools
-State
-- Any -
-Incubating
-Mature
-Include
-Archived Projects
-Apply
-Eclipse EMFStore
-Modeling
-Runtime
-Tools
-Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
-Read more...
-Latest release:
-1.10.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
 Eclipse Vorto
 Eclipse Wakaama
 Eclipse Yasham
@@ -895,9 +589,6 @@ Copyright Agent
 Eclipse Public License
 Legal Resources
 Useful Links
-Marketplace
-Events
-Planet Eclipse
 Newsletter
 Videos
 Blogs
@@ -919,87 +610,72 @@ Newcomer Forum
 Toggle navigation
 Home
 Projects
-Eclipse IoT
-Eclipse IoT
-Eclipse VOLTTRON
-Downloads
-Eclipse VOLTTRON
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-This project has not provided download information.
-Project Links
+Apache License, Version 2.0
+Apache License, Version 2.0
+URL:
+http://opensource.org/licenses/Apache-2.0
+- Any -
+Incubating
+Mature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
+Read more...
+Latest release:
+1.10.0
+Download
+Toggle Dropdown
 Website
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse VOLTTRON
-Tags
-Technology Types
-Internet of Things
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Home
-Projects
-Eclipse IoT
-Eclipse VOLTTRON
-Contact Us
-Eclipse VOLTTRON
-Primary tabs
-Overview
-Downloads
-Who's Involved
 Developer Resources
-Governance
-Contact Us
-(active tab)
-Forums:
-Eclipse VOLTTRON Forum
-Developer Mailing List:
-volttron-dev
-Project Links
-Website
-Forums
-Related Projects
-Project Hierarchy:
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse VOLTTRON
-Developer Resources
-Eclipse VOLTTRON
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-The project has not provided information for this page.
-Project Links
-Website
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse VOLTTRON
-Tags
 Who's Involved
 Governance
 Contact
 Eclipse OCL (Object Constraint Language)
 Language
 Modeling
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
 Tools
 Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
 Read more...
@@ -1019,36 +695,11 @@ Tools
 The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
 Read more...
 Latest release:
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
+1.4.1
 Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
+Toggle Dropdown
+Website
+Developer Resources
 Other
 IDE and Tools
 Community of Projects
@@ -1058,101 +709,6 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Eclipse VOLTTRON
-Governance
-Eclipse VOLTTRON
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-Contact Us
-Scope:
-Eclipse VOLTTRON provides secure, extensible, and modular integration middleware for the Internet of Things, that supports the development of a wide range of loosely coupled, but tightly integrated connected applications.
-Reviews:
-Name
-Date
-Creation Review
-2018-06-20
-Project Links
-Website
-Proposal
-Related Projects
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Eclipse IoT
-Eclipse VOLTTRON
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-1.4.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
 Who's Involved
 Governance
 Contact
@@ -1173,91 +729,6 @@ seamless integration with JDT supporting co-development of QVTo and Java in sing
 Additional tooling QVTO Code Coverage provides:
 annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
 JUnit launch configuration to integrate with the JUnit test framework
-Projects
-Eclipse IoT
-Eclipse VOLTTRON
-Who's Involved
-Eclipse VOLTTRON
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Project Members:
-Project Lead
-George Hernandez
-Committers
-George Hernandez
-Jereme Haack
-Historical Committer
-Bora Akyol
-Mentors
-Jens Reimann
-Wayne Beaton
-Project Links
-Project Hierarchy:
-Eclipse IoT
-Eclipse VOLTTRON
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Read more...
 Latest release:
 2019-09 (3.10.0)
@@ -1283,43 +754,6 @@ Developer Resources
 Who's Involved
 Governance
 Contact
-Website
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse VOLTTRON
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Apogy
 This project provides a multi-mission operations and planning software framework.
 Apogy
@@ -1342,22 +776,6 @@ Latest release:
 10.0.0
 Download
 Toggle Dropdown
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Website
 Developer Resources
 Who's Involved
@@ -1554,6 +972,588 @@ Contact
 …
 next ›
 last »
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse VOLTTRON | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse VOLTTRON
+Downloads
+Eclipse VOLTTRON
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse VOLTTRON
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Eclipse VOLTTRON | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse VOLTTRON
+Who's Involved
+Eclipse VOLTTRON
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Project Members:
+Project Lead
+George Hernandez
+Committers
+George Hernandez
+Jereme Haack
+Historical Committer
+Bora Akyol
+Mentors
+Jens Reimann
+Wayne Beaton
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse VOLTTRON
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse VOLTTRON | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse VOLTTRON
+Governance
+Eclipse VOLTTRON
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+Eclipse VOLTTRON provides secure, extensible, and modular integration middleware for the Internet of Things, that supports the development of a wide range of loosely coupled, but tightly integrated connected applications.
+Reviews:
+Name
+Date
+Creation Review
+2018-06-20
+Project Links
+Website
+Proposal
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse VOLTTRON
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse VOLTTRON | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse VOLTTRON
+Developer Resources
+Eclipse VOLTTRON
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+The project has not provided information for this page.
+Project Links
+Website
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse VOLTTRON
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse VOLTTRON | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse VOLTTRON
+Contact Us
+Eclipse VOLTTRON
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Forums:
+Eclipse VOLTTRON Forum
+Developer Mailing List:
+volttron-dev
+Project Links
+Website
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse VOLTTRON
+Tags
+Technology Types
+Internet of Things
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register

@@ -105,30 +105,13 @@ The Platform for Open
 Innovation and Collaboration
 The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
 Members
-Road Map :: Eclipse Hono™
-Road Map - go to homepage
-Toggle Navigation
-Getting started
-Documentation
-Download
-Sandbox
-FAQ
-Community
-Contributing
-Resources
-Get in Touch
-Road Map
-Road Map
-We are trying our best to anticipate the needs and requirements of users based on the feedback we get from users. From this information we maintain a
-Road Map
-for the next several releases.
 Working Groups
 Discover Projects
 Business Value
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
-YATTA
+Obeo
 Sponsored Ad
 Announcements
 2019/09/24
@@ -145,41 +128,6 @@ The Eclipse Foundation Releases Eclipse Che 7, the First Kubernetes-Native IDE, 
 The Eclipse Foundation today announced at the Oracle Code One conference and tradeshow the release of Eclipse Che 7, the...
 View all
 Subscribe to our RSS-feed
-Get in Touch :: Eclipse Hono™
-Get in Touch - go to homepage
-Toggle Navigation
-Getting started
-Documentation
-Download
-Sandbox
-FAQ
-Community
-Contributing
-Resources
-Get in Touch
-Road Map
-Get in Touch
-Wanna tell us what you think about Eclipse Hono™? What we can improve? Which feature is missing? Or just discuss architectural issues?
-Ask a Question
-We try to maintain a steady pace of releases every three months with milestones in between. However, due to changes in requirements over time and because we all have only limited time to spend on Hono, the scope of the releases may change over time as well. The best way to make sure that a certain feature that you anticipate or need the most actually makes it into a release, is by
-becoming a contributor
-and/or committer to Hono yourself.
-More
-GitHub Repository
-Twitter
-Thank you
-Eclipse Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Legal
-License
-Report a Vulnerability
-© 2019 The Eclipse Hono Project
-Template by
-Bootstrapious
-. Ported to Hugo by
-DevCows
 Community News
 2019/09/17
 Eclipse Che 7 is now available!
@@ -201,69 +149,14 @@ Projects
 1550+
 Committers
 275+
-Contributing :: Eclipse Hono™
-Contributing - go to homepage
-Toggle Navigation
-Getting started
-Documentation
-Download
-Sandbox
-FAQ
-Community
-Contributing
-Resources
-Get in Touch
-We would be delighted to answer your questions regarding the usage of Hono on
-StackOverflow
-. Make sure to add the
-eclipse-hono
-tag to your question so that we can easily find (and answer) it.
-Report an Issue
-The easiest way to tell us about a problem you experience with Hono is by
-opening an issue on our GitHub page
-.
-Please make sure to search the existing issues for similar symptoms before you open a new issue.
-Chat
-The most direct way of interacting with the Hono developers is by means of
-joining our room on Gitter
-.
-Keep in mind, though, that our Gitter room is mainly used by committers and contributors for discussing issues related to development of new features and organizational stuff. The preferred way of posting questions regarding usage of Hono is via
-StackOverflow
-.
-Mailing List
-An excellent way to get the latest news and announcements around Hono is to
-join the mailing list
-Resources :: Eclipse Hono™
-Resources - go to homepage
-Toggle Navigation
-Getting started
-Documentation
-Download
-Sandbox
-FAQ
-Community
-Contributing
-Resources
-Get in Touch
-Road Map
-Resources
-Frequently Asked Questions :: Eclipse Hono™
-Frequently Asked Questions - go to homepage
-Toggle Navigation
-Getting started
-Documentation
-Download
-Sandbox
-FAQ
-Community
-Contributing
-Resources
-Get in Touch
-Road Map
-Frequently Asked Questions
-Technical Questions
 Members
 10
+Eclipse Public License 2.0 | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
 Working Groups
 Back to the top
 Register for EclipseCon Europe 2019 today!
@@ -283,17 +176,155 @@ Copyright Agent
 Eclipse Public License
 Legal Resources
 Useful Links
-Eclipse Public License 2.0 | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Downloads :: Eclipse Hono™
-Downloads - go to homepage
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Frequently Asked Questions :: Eclipse Hono™
+Frequently Asked Questions - go to homepage
 Toggle Navigation
 Getting started
 Documentation
 Download
+Sandbox
+FAQ
+Community
+Contributing
+Resources
+Get in Touch
+Road Map
+Frequently Asked Questions
+Technical Questions
+Why do I get
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Resources :: Eclipse Hono™
+Resources - go to homepage
+Toggle Navigation
+Getting started
+Documentation
+Download
+Sandbox
+FAQ
+Community
+Contributing
+Resources
+Get in Touch
+Road Map
+Resources
+Get in Touch :: Eclipse Hono™
+Get in Touch - go to homepage
+Toggle Navigation
+Getting started
+Documentation
+Download
+Sandbox
+FAQ
+Community
+Contributing
+Resources
+Get in Touch
+Road Map
+Get in Touch
+Wanna tell us what you think about Eclipse Hono™? What we can improve? Which feature is missing? Or just discuss architectural issues?
+Ask a Question
+We would be delighted to answer your questions regarding the usage of Hono on
+Contributing :: Eclipse Hono™
+Contributing - go to homepage
+Toggle Navigation
+Getting started
+Documentation
+Download
+Sandbox
+FAQ
+Community
+Contributing
+Resources
+Get in Touch
+Road Map
+Contributing
+HTTP/1.1 503 Service Unavailable
+when sending messages to the HTTP protocol adapter?
+Please check if you have a
+consumer connected
+and that your consumer is for the same type of message (telemetry or event) that you are sending.
+Why do I get the exception
+io.vertx.core.VertxException: OpenSSL is not available
+during startup of a protocol adapter?
+Please check if you have set the property
+nativeTlsRequired
+in the protocol adapter’s configuration to
+true
+. The default Hono containers do not contain
+netty-tcnative
+. To enable this option, please follow the explanation in the
+Admin Guide
+or build your own container images.
+Why do I see
+ConnectionLimitManager - Connection limit (<VALUE>) exceeded
+in the logs of a protocol adapter?
+The configured maximum number of concurrent connections is exceeded and the protocol adapter refuses to accept more connections to prevent running out of resources. This limit is either configured on the protocol adapter (
+MQTT
+,
+AMQP
+) or if not set, the protocol adapter determines a reasonable value based on the available resources like memory and CPU.
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
 Sandbox :: Eclipse Hono™
 Sandbox - go to homepage
 Toggle Navigation
@@ -307,50 +338,10 @@ Contributing
 Resources
 Get in Touch
 Road Map
-Road Map
-Contributing
-Thank you for considering to contribute to Eclipse Hono™. We really appreciate the time and effort you want to spend helping to improve things around here. And help we can use :-)
-Here is a (non-exclusive, non-prioritized) list of things you might be able to help us with:
-bug reports
-bug fixes
-improvements regarding code quality e.g. improving readability, performance, modularity etc.
-documentation (Getting Started guide, Examples, Deployment instructions for cloud environments)
-features (both ideas and code are welcome)
-You might also want to take a look at our GitHub Issues page (see drawer on the left) and see if you can help out with any of the issues listed. We have put a
-help wanted
-label on those issues that we are particularly keen on receiving contributions for.
-Legal Requirements
-In order to get you started as fast as possible we need to go through some organizational issues first, though.
-Hono is an
-Eclipse IoT
-project and as such is governed by the Eclipse Development process. This process helps us in creating great open source software within a safe legal framework.
-For you as a contributor, the following preliminary steps are required in order for us to be able to accept your contribution:
-Sign the
-Eclipse Foundation Contributor License Agreement
-. This is the place where we announce new releases and discuss architectural issues of greater impact.
-Project Call
-There is a bi-weekly community call which is open to everyone interested in the development of Hono. You can join by using the following link:
-https://bluejeans.com/494114785
-You can also import the calendar file
-project-call.ics
-which contains more information about joining by computer or telephone.
-More
-GitHub Repository
-Twitter
-Thank you
-Eclipse Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Legal
-License
-Report a Vulnerability
-© 2019 The Eclipse Hono Project
-Template by
-Bootstrapious
-. Ported to Hugo by
-Getting started with Eclipse Hono :: Eclipse Hono™
-Getting started with Eclipse Hono - go to homepage
+Sandbox
+We are providing a publicly accessible Eclipse Hono™
+Road Map :: Eclipse Hono™
+Road Map - go to homepage
 Toggle Navigation
 Getting started
 Documentation
@@ -358,6 +349,15 @@ Download
 Sandbox
 FAQ
 Community
+Contributing
+Resources
+Get in Touch
+Road Map
+Road Map
+We are trying our best to anticipate the needs and requirements of users based on the feedback we get from users. From this information we maintain a
+Road Map
+for the next several releases.
+We try to maintain a steady pace of releases every three months with milestones in between. However, due to changes in requirements over time and because we all have only limited time to spend on Hono, the scope of the releases may change over time as well. The best way to make sure that a certain feature that you anticipate or need the most actually makes it into a release, is by
 On this page you can find links to arbitrary resources covering Eclipse Hono™ which have been presented at events, conferences and meet-ups or are available online.
 “X.509 based device authentication in Eclipse Hono” (Blog post February 2019)
 Author: Kai Hudalla (Bosch Software Innovations)
@@ -381,206 +381,53 @@ Article
 Virtual IoT Meetup
 hosted by Eclipse Foundation (October 11, 2017)
 Speakers : Kai Hudalla (Bosch Software Innovations),
-Why do I get
-HTTP/1.1 503 Service Unavailable
-when sending messages to the HTTP protocol adapter?
-Please check if you have a
-consumer connected
-and that your consumer is for the same type of message (telemetry or event) that you are sending.
-Why do I get the exception
-io.vertx.core.VertxException: OpenSSL is not available
-during startup of a protocol adapter?
-Please check if you have set the property
-nativeTlsRequired
-in the protocol adapter’s configuration to
-true
-. The default Hono containers do not contain
-netty-tcnative
-. To enable this option, please follow the explanation in the
-Admin Guide
-or build your own container images.
-Why do I see
-ConnectionLimitManager - Connection limit (<VALUE>) exceeded
-in the logs of a protocol adapter?
-The configured maximum number of concurrent connections is exceeded and the protocol adapter refuses to accept more connections to prevent running out of resources. This limit is either configured on the protocol adapter (
-MQTT
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-Sandbox
-FAQ
-Community
-Contributing
-Resources
-Get in Touch
-Road Map
-Downloads
-Binaries
-Eclipse Hono’s service components are provided by means of pre-built Docker images available from
-Docker Hub
-. These container images can be deployed to popular container orchestration platforms like Kubernetes and OpenShift.
-The release archive contains all files necessary to deploy Hono to a Kubernetes cluster using the
-Helm package manager
+Paolo Patierno
+(Red Hat)
+StackOverflow
+. Make sure to add the
+eclipse-hono
+tag to your question so that we can easily find (and answer) it.
+Report an Issue
+The easiest way to tell us about a problem you experience with Hono is by
+opening an issue on our GitHub page
 .
-Eclipse Hono 1.0-M7 Archive
-Download and extract the archive and follow the
-deployment guide
+Please make sure to search the existing issues for similar symptoms before you open a new issue.
+Chat
+The most direct way of interacting with the Hono developers is by means of
+joining our room on Gitter
 .
-A Java based command line client for consuming telemetry data and events from Hono is available for download as well:
-Sandbox
-We are providing a publicly accessible Eclipse Hono™
-sandbox
-environment at
-hono.eclipse.org
-. The main purpose of the system is to provide an environment for experimenting with devices and how to connect them to Hono without the need for setting up a local instance.
-The sandbox hosts a Hono instance consisting of the same components as described in the
-Getting started Guide
-. All services are exposed via the same ports as used in the guide.
-Take note
-The sandbox is intended for
-testing purposes only
-. Under no circumstances should it be used for any production use case. It is also
-not allowed
-to register with nor publish any personally identifiable information to any of the sandbox’s services.
-You can use the sandbox without revealing who you are or any information about yourself. The APIs of the Device Registry running on the sandbox can be used anonymously for creating tenants, register devices and add credentials. However, data can only be added but
-cannot be updated or removed
-using the corresponding APIs. This is to prevent others from tampering with your tenants/devices/credentials. In order to minimize the risk of dissemination of data, all tenants, devices and credentials are
-deleted periodically
+Keep in mind, though, that our Gitter room is mainly used by committers and contributors for discussing issues related to development of new features and organizational stuff. The preferred way of posting questions regarding usage of Hono is via
+StackOverflow
 .
-Thank you :: Eclipse Hono™
-Thank you - go to homepage
-Toggle Navigation
-Getting started
-Documentation
-Download
-Sandbox
-FAQ
-Community
-Contributing
-Resources
-Get in Touch
-Road Map
-Thank you
-YourKit is kindly supporting this open source project with its full-featured Java Profiler. YourKit, LLC is the creator of innovative and intelligent tools for profiling Java and .NET applications. Take a look at YourKit’s leading software products:
-YourKit Java Profiler
-and
-Documentation :: Eclipse Hono™
-var baseurl = "https:\/\/www.eclipse.org\/hono\/docs\/";
-Concepts
-Device Identity
-Multi-Tenancy
-Device Notifications
-Command & Control
-Resource limits
-Connection Events
-User Guide
-Device Registry
-HTTP Adapter
+Mailing List
+An excellent way to get the latest news and announcements around Hono is to
+join the mailing list
+. This is the place where we announce new releases and discuss architectural issues of greater impact.
+Project Call
+There is a bi-weekly community call which is open to everyone interested in the development of Hono. You can join by using the following link:
+Thank you for considering to contribute to Eclipse Hono™. We really appreciate the time and effort you want to spend helping to improve things around here. And help we can use :-)
+Here is a (non-exclusive, non-prioritized) list of things you might be able to help us with:
+bug reports
+bug fixes
+improvements regarding code quality e.g. improving readability, performance, modularity etc.
+documentation (Getting Started guide, Examples, Deployment instructions for cloud environments)
+features (both ideas and code are welcome)
+You might also want to take a look at our GitHub Issues page (see drawer on the left) and see if you can help out with any of the issues listed. We have put a
+help wanted
+label on those issues that we are particularly keen on receiving contributions for.
+Legal Requirements
+In order to get you started as fast as possible we need to go through some organizational issues first, though.
+Hono is an
+Eclipse IoT
+project and as such is governed by the Eclipse Development process. This process helps us in creating great open source software within a safe legal framework.
+For you as a contributor, the following preliminary steps are required in order for us to be able to accept your contribution:
+Sign the
+Eclipse Foundation Contributor License Agreement
 . In order to do so:
 Obtain an Eclipse Foundation user ID. Anyone who currently uses Eclipse Bugzilla or Gerrit systems already has one of those. If you don’t already have an account simply
 register on the Eclipse web site
 .
 Once you have your account, log in to the
-Eclipse Project Portal
-, select
-My Account
-and then the
-Contributor License Agreement
-tab.
-Add your GiHub username to your Eclipse Foundation account. Log in to Eclipse and go to
-Edit my account
-.
-The easiest way to contribute code/patches/whatever is by creating a GitHub pull request (PR). When you do, make sure that you
-Sign-off
-your commit records using the same email address used for your Eclipse account.
-You do this by adding the
--s
-flag when you make the commit(s), e.g.
-You can find all the details in the
-Contributing via Git
-DevCows
-Contributing
-Resources
-Get in Touch
-Road Map
-Getting started with Eclipse Hono
-This guide will walk you through an interactive example usage scenario of Eclipse Hono. You will learn how devices can use Hono’s protocol adapters to publish telemetry data and events using both HTTP and/or MQTT. You will also see how a downstream application can consume this data using Hono’s north bound API without requiring the application to know anything about the specifics of the communication protocols used by the devices.
-Prerequisites for the Getting started Guide
-This guide requires several tools to be installed on your computer. During the course of this guide, the devices publishing data will be represented by means of running some command line tools for posting HTTP requests and for publishing MQTT packets.
-Curl HTTP Command Line Client
-The
-curl
-command is used in this guide for registering devices with Hono and for simulating a device publishing data using HTTP. On most *nix like systems
-curl
-will probably already be installed. Otherwise, please refer to the
-Curl project page
-for installation instructions.
-Mosquitto MQTT Command Line Client
-The
-mosquitto_pub
-command is used in this guide for simulating a device publishing data using the MQTT protocol. Please refer to the
-Mosquitto project page
-for installation instructions, if you do not have it installed already.
-NB
-Paolo Patierno
-(Red Hat)
-Video
-and
-slides
-“Eclipse Hono: Connect. Command. Control.” at Eclipse Day Milan 2017
-Eclipse Day Milan 2017
-(September 22, 2017)
-Speaker :
-Paolo Patierno
-(Red Hat)
-Slides
-More
-GitHub Repository
-Twitter
-Thank you
-Eclipse Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Legal
-License
-,
-AMQP
-) or if not set, the protocol adapter determines a reasonable value based on the available resources like memory and CPU.
 Why do I see
 MemoryBasedConnectionLimitStrategy - Not enough memory
 in the logs of a protocol adapter?
@@ -601,71 +448,250 @@ HTTP
 ).
 Organizational Questions
 Will you add feature
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
+x
+to Hono?
+To find out about the future development you can have a look at the
+Roadmap
+Breadcrumbs
+Home
+Legal
+Eclipse Public License 2.0
+Eclipse Public License - v 2.0
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (“AGREEMENT”). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+1. DEFINITIONS
+“Contribution” means:
+a) in the case of the initial Contributor, the initial content Distributed under this Agreement, and
+b) in the case of each subsequent Contributor:
+i) changes to the Program, and
+ii) additions to the Program;
+where such changes and/or additions to the Program originate from and are Distributed by that particular Contributor. A Contribution “originates” from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include changes or additions to the Program that are not Modified Works.
+“Contributor” means any person or entity that Distributes the Program.
+“Licensed Patents” mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
+“Program” means the Contributions Distributed in accordance with this Agreement.
+“Recipient” means anyone who receives the Program under this Agreement or any Secondary License (as applicable), including Contributors.
+“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+“Modified Works” shall mean any work in Source Code or other form that results from an addition to, deletion from, or modification of the contents of the Program, including, for purposes of clarity any new file in Source Code form that contains any contents of the Program. Modified Works shall not include works that contain only declarations, interfaces, types, classes, structures, or files of the Program solely in each case in order to link to, bind by name, or subclass the Program or Modified Works thereof.
+“Distribute” means the acts of a) distributing or b) making available in any manner that enables the transfer of a copy.
+“Source Code” means the form of a Program preferred for making modifications, including but not limited to software source code, documentation source, and configuration files.
+“Secondary License” means either the GNU General Public License, Version 2.0, or any later versions of that license, including any exceptions or additional permissions as identified by the initial Contributor.
+Getting started with Eclipse Hono :: Eclipse Hono™
+Getting started with Eclipse Hono - go to homepage
+Toggle Navigation
+Getting started
 Documentation
-Eclipse Hono 1.0-M7 Command Line Client
-The client requires a Java 11 runtime environment to run.
-Please refer to the
-Admin Guide
-for details regarding the command line options that the client supports.
-Source Code
-The source code can be cloned (using
-Git
-) or downloaded from the
-Eclipse Hono GitHub repository
-. The
-Building from Source
-guide provides instructions on how to build Hono locally.
-Release Notes
-For a list of the changes in this release, take a look at the
-release notes
+Download
+Sandbox
+FAQ
+Community
+Thank you :: Eclipse Hono™
+Thank you - go to homepage
+Toggle Navigation
+Getting started
+Documentation
+Download
+Sandbox
+FAQ
+Community
+Contributing
+Resources
+Get in Touch
+Road Map
+Thank you
+YourKit is kindly supporting this open source project with its full-featured Java Profiler. YourKit, LLC is the creator of innovative and intelligent tools for profiling Java and .NET applications. Take a look at YourKit’s leading software products:
+YourKit Java Profiler
+and
+Downloads :: Eclipse Hono™
+Downloads - go to homepage
+Toggle Navigation
+Getting started
+Documentation
+Download
+Sandbox
+FAQ
+Community
+Contributing
+Resources
+Get in Touch
+Road Map
+Downloads
+Binaries
+Eclipse Hono’s service components are provided by means of pre-built Docker images available from
+sandbox
+environment at
+hono.eclipse.org
+. The main purpose of the system is to provide an environment for experimenting with devices and how to connect them to Hono without the need for setting up a local instance.
+The sandbox hosts a Hono instance consisting of the same components as described in the
+Getting started Guide
+. All services are exposed via the same ports as used in the guide.
+Take note
+The sandbox is intended for
+testing purposes only
+. Under no circumstances should it be used for any production use case. It is also
+not allowed
+to register with nor publish any personally identifiable information to any of the sandbox’s services.
+You can use the sandbox without revealing who you are or any information about yourself. The APIs of the Device Registry running on the sandbox can be used anonymously for creating tenants, register devices and add credentials. However, data can only be added but
+cannot be updated or removed
+using the corresponding APIs. This is to prevent others from tampering with your tenants/devices/credentials. In order to minimize the risk of dissemination of data, all tenants, devices and credentials are
+deleted periodically
 .
-Older versions
-These versions are no longer supported and are listed here for reference purposes only.
-Eclipse Hono 0.9 Archive
-Eclipse Hono 0.9 Command Line Client
-More
 We do not collect nor share with third parties any of the data you provide when registering tenants, devices and credentials. We also do not inspect nor collect nor share with third parties any of the data your devices publish to the sandbox.
 Play fair!
 The sandbox’s computing resources are (quite) limited. The number of devices that can be registered per tenant is therefore limited to 100.
 The sandbox will be running the latest Hono release or milestone (if available). However, we may also deploy a more recent nightly build without further notice.
-In order to minimize the risk of collisions of device identities and credentials and to reduce the risk of others
-guessing
-your identifiers, you are advised to use
-non-trivial, hard-to-guess
-tenant and device identifiers (e.g. a UUID).
-The Apache Artemis instance we use for brokering events is configured with a maximum queue size of 1MB, i.e. you can only buffer up to 1 MB of events (per tenant) without having any consumer connected that actually processes the events. Once that limit is reached, no more events will be accepted by the protocol adapters for the corresponding tenant. In addition to that, events that are not consumed will automatically be removed from the queue(s) after five minutes.
-The sandbox exposes its API endpoints on both a TLS secured as well as an unsecured port. The secure ports use a Let’s Encrypt certificate so you should not need to configure a specific trust store on your client in order to interact with them. Please note that when using the unsecured ports, the information you exchange with the sandbox might be exposed to eavesdroppers. We therefore
-strongly suggest
-that you use the secure ports only, if possible! When using the
-Hono client
-to access the sandbox’ Telemetry and/or Event APIs, make sure to not set a trust store explicitly but instead set the
-tlsEnabled
-property to
-true
-. The command line client binary is available from the
-downloads page
-and can be used to consume telemetry/event messages from the sandbox as below:
+becoming a contributor
+and/or committer to Hono yourself.
+More
+GitHub Repository
+Twitter
+Thank you
+Eclipse Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
+License
+Report a Vulnerability
+© 2019 The Eclipse Hono Project
+Template by
+Bootstrapious
+. Ported to Hugo by
+DevCows
+Video
+and
+slides
+“Eclipse Hono: Connect. Command. Control.” at Eclipse Day Milan 2017
+Eclipse Day Milan 2017
+(September 22, 2017)
+Speaker :
+Paolo Patierno
+(Red Hat)
+Slides
+More
+GitHub Repository
+Twitter
+Thank you
+Eclipse Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
+License
+Report a Vulnerability
+© 2019 The Eclipse Hono Project
+https://bluejeans.com/494114785
+You can also import the calendar file
+project-call.ics
+which contains more information about joining by computer or telephone.
+More
+GitHub Repository
+Twitter
+Thank you
+Eclipse Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
+License
+Report a Vulnerability
+© 2019 The Eclipse Hono Project
+Template by
+Bootstrapious
+. Ported to Hugo by
+DevCows
+Documentation :: Eclipse Hono™
+var baseurl = "https:\/\/www.eclipse.org\/hono\/docs\/";
+Concepts
+Device Identity
+Multi-Tenancy
+Device Notifications
+Command & Control
+Resource limits
+Connection Events
+User Guide
+Device Registry
+HTTP Adapter
+MQTT Adapter
+Eclipse Project Portal
+, select
+My Account
+and then the
+Contributor License Agreement
+tab.
+Add your GiHub username to your Eclipse Foundation account. Log in to Eclipse and go to
+Edit my account
+.
+The easiest way to contribute code/patches/whatever is by creating a GitHub pull request (PR). When you do, make sure that you
+Sign-off
+your commit records using the same email address used for your Eclipse account.
+You do this by adding the
+-s
+flag when you make the commit(s), e.g.
+You can find all the details in the
+Contributing via Git
+document on the Eclipse web site.
+Conventions
+The
+groupId
+of all Hono modules is
+org.eclipse.hono
+,
+or
+get in touch
+with the Hono developers.
+More
+GitHub Repository
+Twitter
+Thank you
+Eclipse Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
+License
+Report a Vulnerability
+© 2019 The Eclipse Hono Project
+Template by
+Bootstrapious
+. Ported to Hugo by
+DevCows
+2. GRANT OF RIGHTS
+a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, Distribute and sublicense the Contribution of such Contributor, if any, and such Derivative Works.
+b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in Source Code or other form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.
+c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to Distribute the Program, it is Recipient's responsibility to acquire that license before distributing the Program.
+d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
+e) Notwithstanding the terms of any Secondary License, no Contributor makes additional grants to any Recipient (other than those set forth in this Agreement) as a result of such Recipient's receipt of the Program under the terms of a Secondary License (if permitted under the terms of Section 3).
+3. REQUIREMENTS
+3.1 If a Contributor Distributes the Program in any form, then:
+a) the Program must also be made available as Source Code, in accordance with section 3.2, and the Contributor must accompany the Program with a statement that the Source Code for the Program is available under this Agreement, and informs Recipients how to obtain it in a reasonable manner on or through a medium customarily used for software exchange; and
+b) the Contributor may Distribute the Program under a license different than this Agreement, provided that such license:
+i) effectively disclaims on behalf of all other Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;
+ii) effectively excludes on behalf of all other Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;
+iii) does not attempt to limit or alter the recipients' rights in the Source Code under section 3.2; and
+iv) requires any subsequent distribution of the Program by any party to be under a license that satisfies the requirements of this section 3.
+3.2 When the Program is Distributed as Source Code:
+a) it must be made available under this Agreement, or if the Program (i) is combined with other material in a separate file or files made available under a Secondary License, and (ii) the initial Contributor attached to the Source Code the notice described in Exhibit A of this Agreement, then the Program may be made available under the terms of such Secondary Licenses, and
+b) a copy of this Agreement must be included with each copy of the Program.
+3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.
+Contributing
+Resources
+Get in Touch
+Road Map
+Getting started with Eclipse Hono
+This guide will walk you through an interactive example usage scenario of Eclipse Hono. You will learn how devices can use Hono’s protocol adapters to publish telemetry data and events using both HTTP and/or MQTT. You will also see how a downstream application can consume this data using Hono’s north bound API without requiring the application to know anything about the specifics of the communication protocols used by the devices.
+Prerequisites for the Getting started Guide
+This guide requires several tools to be installed on your computer. During the course of this guide, the devices publishing data will be represented by means of running some command line tools for posting HTTP requests and for publishing MQTT packets.
+Curl HTTP Command Line Client
+The
+curl
+command is used in this guide for registering devices with Hono and for simulating a device publishing data using HTTP. On most *nix like systems
+curl
+will probably already be installed. Otherwise, please refer to the
+Curl project page
+for installation instructions.
+Mosquitto MQTT Command Line Client
+The
+mosquitto_pub
+command is used in this guide for simulating a device publishing data using the MQTT protocol. Please refer to the
 YourKit .NET Profiler
 .
 More
@@ -684,7 +710,52 @@ Template by
 Bootstrapious
 . Ported to Hugo by
 DevCows
-MQTT Adapter
+Docker Hub
+. These container images can be deployed to popular container orchestration platforms like Kubernetes and OpenShift.
+The release archive contains all files necessary to deploy Hono to a Kubernetes cluster using the
+Helm package manager
+.
+Eclipse Hono 1.0-M7 Archive
+Download and extract the archive and follow the
+deployment guide
+.
+A Java based command line client for consuming telemetry data and events from Hono is available for download as well:
+Eclipse Hono 1.0-M7 Command Line Client
+The client requires a Java 11 runtime environment to run.
+Please refer to the
+Admin Guide
+for details regarding the command line options that the client supports.
+Source Code
+The source code can be cloned (using
+Git
+) or downloaded from the
+Eclipse Hono GitHub repository
+In order to minimize the risk of collisions of device identities and credentials and to reduce the risk of others
+guessing
+your identifiers, you are advised to use
+non-trivial, hard-to-guess
+tenant and device identifiers (e.g. a UUID).
+The Apache Artemis instance we use for brokering events is configured with a maximum queue size of 1MB, i.e. you can only buffer up to 1 MB of events (per tenant) without having any consumer connected that actually processes the events. Once that limit is reached, no more events will be accepted by the protocol adapters for the corresponding tenant. In addition to that, events that are not consumed will automatically be removed from the queue(s) after five minutes.
+The sandbox exposes its API endpoints on both a TLS secured as well as an unsecured port. The secure ports use a Let’s Encrypt certificate so you should not need to configure a specific trust store on your client in order to interact with them. Please note that when using the unsecured ports, the information you exchange with the sandbox might be exposed to eavesdroppers. We therefore
+strongly suggest
+that you use the secure ports only, if possible! When using the
+Hono client
+to access the sandbox’ Telemetry and/or Event APIs, make sure to not set a trust store explicitly but instead set the
+tlsEnabled
+property to
+true
+. The command line client binary is available from the
+downloads page
+and can be used to consume telemetry/event messages from the sandbox as below:
+Note that only the
+receiver
+profile is activated but not the
+ssl
+profile.
+Template by
+Bootstrapious
+. Ported to Hugo by
+DevCows
 AMQP Adapter
 Kura Adapter
 Sigfox Adapter
@@ -706,13 +777,9 @@ Developer Guide
 Building from Source
 Consuming Messages from Java
 Implement a Custom Hono HTTP Protocol Adapter
-document on the Eclipse web site.
-Conventions
-The
-groupId
-of all Hono modules is
-org.eclipse.hono
-,
+API
+Telemetry API
+Event API
 artifactId
 always starts with
 hono-
@@ -728,6 +795,37 @@ services
 Making your Changes
 Fork the repository on GitHub
 .
+Create a new
+feature branch
+for your changes.
+Make your changes.
+Make sure your code complies with the formatting rules defined by the settings files in the
+eclipse
+folder.
+If you are creating new class files, make sure that they include a
+4. COMMERCIAL DISTRIBUTION
+Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (“Commercial Contributor”) hereby agrees to defend and indemnify every other Contributor (“Indemnified Contributor”) against any losses, damages and costs (collectively “Losses”) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
+For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
+5. NO WARRANTY
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE PROGRAM IS PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
+6. DISCLAIMER OF LIABILITY
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+7. GENERAL
+If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
+All Recipient's rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient's rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient's obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
+Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be Distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to Distribute the Program (including its Contributions) under the new version.
+Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved. Nothing in this Agreement is intended to be enforceable by any entity that is not a Contributor or Recipient. No third-party beneficiary rights are created under this Agreement.
+Exhibit A – Form of Secondary Licenses Notice
+Simply including a copy of this Agreement, including this Exhibit A is not sufficient to license the Source Code under Secondary Licenses.
+If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.
+You may add additional accurate notices of copyright ownership.
+Eclipse Projects that Use EPL 2.0
+Eclipse Cloud Development
+Eclipse Che4z
+Mosquitto project page
+for installation instructions, if you do not have it installed already.
+NB
 The installation of the Mosquitto command line client is optional. If you do not install it then you will not be able to simulate an MQTT based device but otherwise will be able to get the same results described in this guide.
 Hono Command Line Client
 The Hono command line client is used in this guide for simulating an application that consumes telemetry data and events published by devices. The client is available from
@@ -748,21 +846,17 @@ Overview of Hono Components
 However, if the
 curl
 command yielded different output, you will need to set up Hono locally as described in the next section.
-Setting up a local Hono Instance
-In case you cannot access the Hono Sandbox as described above, you will need to set up an instance of Hono running on your local computer. For evaluation purposes a single node
-Report a Vulnerability
-© 2019 The Eclipse Hono Project
-Template by
-Bootstrapious
-. Ported to Hugo by
-DevCows
-x
-to Hono?
-To find out about the future development you can have a look at the
-Roadmap
-or
-get in touch
-with the Hono developers.
+. The
+Building from Source
+guide provides instructions on how to build Hono locally.
+Release Notes
+For a list of the changes in this release, take a look at the
+release notes
+.
+Older versions
+These versions are no longer supported and are listed here for reference purposes only.
+Eclipse Hono 0.9 Archive
+Eclipse Hono 0.9 Command Line Client
 More
 GitHub Repository
 Twitter
@@ -775,52 +869,6 @@ Legal
 License
 Report a Vulnerability
 © 2019 The Eclipse Hono Project
-Template by
-Bootstrapious
-. Ported to Hugo by
-DevCows
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Eclipse Public License 2.0
-Eclipse Public License - v 2.0
-THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (“AGREEMENT”). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
-1. DEFINITIONS
-“Contribution” means:
-a) in the case of the initial Contributor, the initial content Distributed under this Agreement, and
-b) in the case of each subsequent Contributor:
-i) changes to the Program, and
-ii) additions to the Program;
-where such changes and/or additions to the Program originate from and are Distributed by that particular Contributor. A Contribution “originates” from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include changes or additions to the Program that are not Modified Works.
-“Contributor” means any person or entity that Distributes the Program.
-“Licensed Patents” mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
-“Program” means the Contributions Distributed in accordance with this Agreement.
-“Recipient” means anyone who receives the Program under this Agreement or any Secondary License (as applicable), including Contributors.
-GitHub Repository
-Twitter
-Thank you
-Eclipse Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Legal
-License
-Report a Vulnerability
-© 2019 The Eclipse Hono Project
-Template by
-Bootstrapious
-. Ported to Hugo by
-DevCows
-Note that only the
-receiver
-profile is activated but not the
-ssl
-profile.
 Warning
 Everybody who knows your tenant identifier will be able to consume data published by your devices and everybody who also knows the device identifier can read the registration information of that device.
 More
@@ -839,9 +887,6 @@ Template by
 Bootstrapious
 . Ported to Hugo by
 DevCows
-API
-Telemetry API
-Event API
 Command & Control API
 Tenant API
 Device Connection API
@@ -860,14 +905,10 @@ Component View
 Authentication/Authorization
 Hono Home
 Getting Started
-Create a new
-feature branch
-for your changes.
-Make your changes.
-Make sure your code complies with the formatting rules defined by the settings files in the
-eclipse
-folder.
-If you are creating new class files, make sure that they include a
+Version:
+stable (1.0-M7)
+dev
+© 2019
 proper copyright header
 at the top. Any new file created should contain a header based on the following template:
 Do not forget to add yourself or your organization to the copyright holder list in the NOTICE file in the parent folder if you haven’t already done so in a previous contribution.
@@ -881,6 +922,44 @@ Squash multiple commits related to the same feature/issue into a single one, if 
 Make sure you use the
 -s
 flag when committing as explained above.
+Push your changes to your branch in your forked repository.
+Submitting the Changes
+Submit a pull request via the normal GitHub UI.
+After Submitting
+Do not use your
+feature branch
+for any other development, otherwise further changes that you make will be visible in the PR.
+More
+GitHub Repository
+Twitter
+Thank you
+Eclipse Codewind
+Eclipse EMF Cloud
+Eclipse GLSP
+Eclipse Sprotty
+Eclipse Theia
+Eclipse Project
+Eclipse Equinox
+Eclipse Java development tools
+Eclipse Plug-in Development Environment
+Eclipse Platform
+Eclipse Enterprise for Java
+Jakarta Annotations
+Jakarta Concurrency
+EclipseLink
+Jakarta Enterprise Beans
+Jakarta Expression Language
+Jakarta Security
+Jakarta Server Faces
+Eclipse GlassFish
+Eclipse Grizzly
+Jakarta Interceptors
+Jakarta Authorization
+Jakarta Activation
+Jakarta EE Platform
+Jakarta Stable APIs
+Setting up a local Hono Instance
+In case you cannot access the Hono Sandbox as described above, you will need to set up an instance of Hono running on your local computer. For evaluation purposes a single node
 Minikube
 cluster is sufficient to deploy Hono to.
 Please refer to the
@@ -901,29 +980,10 @@ Hono Instance
 An
 HTTP Adapter
 instance that exposes Hono’s Telemetry and Event APIs as URI resources.
-An
-“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
-“Modified Works” shall mean any work in Source Code or other form that results from an addition to, deletion from, or modification of the contents of the Program, including, for purposes of clarity any new file in Source Code form that contains any contents of the Program. Modified Works shall not include works that contain only declarations, interfaces, types, classes, structures, or files of the Program solely in each case in order to link to, bind by name, or subclass the Program or Modified Works thereof.
-“Distribute” means the acts of a) distributing or b) making available in any manner that enables the transfer of a copy.
-“Source Code” means the form of a Program preferred for making modifications, including but not limited to software source code, documentation source, and configuration files.
-“Secondary License” means either the GNU General Public License, Version 2.0, or any later versions of that license, including any exceptions or additional permissions as identified by the initial Contributor.
-2. GRANT OF RIGHTS
-a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, Distribute and sublicense the Contribution of such Contributor, if any, and such Derivative Works.
-b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in Source Code or other form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.
-c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to Distribute the Program, it is Recipient's responsibility to acquire that license before distributing the Program.
-d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
-e) Notwithstanding the terms of any Secondary License, no Contributor makes additional grants to any Recipient (other than those set forth in this Agreement) as a result of such Recipient's receipt of the Program under the terms of a Secondary License (if permitted under the terms of Section 3).
-3. REQUIREMENTS
-3.1 If a Contributor Distributes the Program in any form, then:
-a) the Program must also be made available as Source Code, in accordance with section 3.2, and the Contributor must accompany the Program with a statement that the Source Code for the Program is available under this Agreement, and informs Recipients how to obtain it in a reasonable manner on or through a medium customarily used for software exchange; and
-b) the Contributor may Distribute the Program under a license different than this Agreement, provided that such license:
-i) effectively disclaims on behalf of all other Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;
-ii) effectively excludes on behalf of all other Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;
-iii) does not attempt to limit or alter the recipients' rights in the Source Code under section 3.2; and
-Version:
-stable (1.0-M7)
-dev
-© 2019
+Template by
+Bootstrapious
+. Ported to Hugo by
+DevCows
 The Eclipse Hono Project
 Documentation built with
 Hugo
@@ -934,17 +994,6 @@ navigation
 Documentation
 Learn about Hono™ and look-up details.
 hljs.initHighlightingOnLoad();
-Push your changes to your branch in your forked repository.
-Submitting the Changes
-Submit a pull request via the normal GitHub UI.
-After Submitting
-Do not use your
-feature branch
-for any other development, otherwise further changes that you make will be visible in the PR.
-More
-GitHub Repository
-Twitter
-Thank you
 Eclipse Legal
 Privacy Policy
 Terms of Use
@@ -957,6 +1006,27 @@ Template by
 Bootstrapious
 . Ported to Hugo by
 DevCows
+Eclipse Jakarta EE TCK
+Jakarta Authentication
+Jakarta RESTful Web Services
+Jakarta Connectors
+Eclipse Jersey
+Jakarta Messaging
+Jakarta Persistence
+Jakarta JSON Binding
+Jakarta JSON Processing
+Jakarta Server Pages
+Jakarta Standard Tag Library
+Jakarta Transactions
+Jakarta Mail
+Eclipse Mojarra
+Jakarta NoSQL
+Eclipse OpenMQ
+Eclipse ORB
+Jakarta Servlet
+Eclipse Soteria
+Eclipse Tyrus
+An
 MQTT Adapter
 instance that exposes Hono’s Telemetry and Event APIs as a generic MQTT topic hierarchy.
 An
@@ -977,26 +1047,34 @@ Apache ActiveMQ Artemis
 instance serving as the persistence store for events.
 Monitoring Infrastructure
 A
-iv) requires any subsequent distribution of the Program by any party to be under a license that satisfies the requirements of this section 3.
-3.2 When the Program is Distributed as Source Code:
-a) it must be made available under this Agreement, or if the Program (i) is combined with other material in a separate file or files made available under a Secondary License, and (ii) the initial Contributor attached to the Source Code the notice described in Exhibit A of this Agreement, then the Program may be made available under the terms of such Secondary Licenses, and
-b) a copy of this Agreement must be included with each copy of the Program.
-3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.
-4. COMMERCIAL DISTRIBUTION
-Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (“Commercial Contributor”) hereby agrees to defend and indemnify every other Contributor (“Indemnified Contributor”) against any losses, damages and costs (collectively “Losses”) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
-For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
-5. NO WARRANTY
-EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE PROGRAM IS PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
-6. DISCLAIMER OF LIABILITY
-EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-7. GENERAL
-If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
-If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
-All Recipient's rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient's rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient's obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
-Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be Distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to Distribute the Program (including its Contributions) under the new version.
-Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved. Nothing in this Agreement is intended to be enforceable by any entity that is not a Contributor or Recipient. No third-party beneficiary rights are created under this Agreement.
 Prometheus
 instance for storing metrics data from services and protocol adapters.
+Jakarta WebSocket
+Eclipse IoT
+Eclipse 4DIAC
+Eclipse Cyclone DDS
+Eclipse Ditto
+Eclipse fog05
+Eclipse project_hip [archived]
+Eclipse Hono
+Eclipse ioFog
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Kuksa
+Eclipse Mita
+Eclipse Packages
+Eclipse SmartHome
+Eclipse Tahu
+Eclipse Thingweb
+Eclipse Wakaama
+LocationTech
+Eclipse Modeling Project
+Eclipse Agile UML
+Eclipse Avsys
+Eclipse Capra
+Eclipse EMF
+Eclipse Epsilon
+Eclipse Hawk
 A
 Grafana
 instance providing a dash board visualizing the collected metrics data.
@@ -1017,144 +1095,9 @@ You will receive a randomly generated tenantId value. It will probably be differ
 Adding a Device to the Tenant
 Register a device using Hono’s Device Registry’s management HTTP API (a random device identifier will be assigned):
 Random device ID value
-Exhibit A – Form of Secondary Licenses Notice
-Simply including a copy of this Agreement, including this Exhibit A is not sufficient to license the Source Code under Secondary Licenses.
-If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.
-You may add additional accurate notices of copyright ownership.
-Eclipse Projects that Use EPL 2.0
-Eclipse Cloud Development
-Eclipse Che4z
-Eclipse Codewind
-Eclipse EMF Cloud
-Eclipse GLSP
-Eclipse Sprotty
-Eclipse Theia
-Eclipse Project
-Eclipse Equinox
-Eclipse Java development tools
-Eclipse Plug-in Development Environment
-Eclipse Platform
-Eclipse Enterprise for Java
-Jakarta Annotations
-Jakarta Concurrency
-EclipseLink
-Jakarta Enterprise Beans
 You will receive a randomly generated deviceId value. It will probably be different than the value given in this example. Make sure to export it to an environment variable to make the following steps easier:
 Setting a Password for the Device
 Choose a (random) password and register it using Hono’s Device Registry’s management HTTP API (replace
-my-pwd
-with your password):
-Starting the example Application
-Telemetry
-and
-Event API
-s using the AMQP 1.0 transport protocol, subscribe to all telemetry and event messages and log the messages to the console.
-Open a new terminal window and set the
-AMQP_NETWORK_IP
-environment variable. If you are using the Sandbox server:
-Otherwise, if you are using a local Minikube cluster:
-The client can then be started from the command line as follows (make sure to replace
-my-tenant
-with your tenant identifier):
-Publishing Telemetry Data to the HTTP Adapter
-Now that the downstream application is running, devices can start publishing telemetry data and events using Hono’s protocol adapters. First, you will simulate a device publishing data to Hono using the HTTP protocol. Go back to the original terminal and run:
-Jakarta Expression Language
-Jakarta Security
-Jakarta Server Faces
-Eclipse GlassFish
-Eclipse Grizzly
-Jakarta Interceptors
-Jakarta Authorization
-Jakarta Activation
-Jakarta EE Platform
-Jakarta Stable APIs
-Eclipse Jakarta EE TCK
-Jakarta Authentication
-Jakarta RESTful Web Services
-Jakarta Connectors
-Eclipse Jersey
-Jakarta Messaging
-Jakarta Persistence
-Jakarta JSON Binding
-Jakarta JSON Processing
-Jakarta Server Pages
-Jakarta Standard Tag Library
-Jakarta Transactions
-If you have started the downstream application as described above, you should now see the telemetry message being logged to the application’s console in the other terminal. The output should look something like this:
-You can publish more data simply by re-running the
-curl
-command above with arbitrary payload.
-Service Unavailable
-When you invoke the command above for the first time, you may get the following response:
-This is because the first request to publish data for a given tenant is used as the trigger to establish a tenant specific sender link with the AMQP 1.0 Messaging Network to forward the data over. However, the HTTP adapter may not receive credits quickly enough for the request to be served immediately. You can simply ignore this response and re-submit the command.
-If you haven’t started the application you will always get
-503 Resource Unavailable
-responses because Hono does not accept any telemetry data from devices if there aren’t any consumers connected that are interested in the data. The reason for this is that Hono
-never
-persists Telemetry data and thus it doesn’t make any sense to accept and process telemetry data if there is no consumer to deliver it to.
-The HTTP Adapter also supports publishing telemetry messages using
-at least once
-delivery semantics. For information on how that works and additional examples for interacting with Hono via HTTP, please refer to the
-HTTP Adapter’s User Guide
-.
-Publishing Events to the HTTP Adapter
-In a similar way you can upload events:
-Again, you should see the event being logged to the console of the downstream application.
-Jakarta Mail
-Eclipse Mojarra
-Jakarta NoSQL
-Eclipse OpenMQ
-Eclipse ORB
-Jakarta Servlet
-Eclipse Soteria
-Eclipse Tyrus
-Jakarta WebSocket
-Eclipse IoT
-Eclipse 4DIAC
-Eclipse Cyclone DDS
-Eclipse Ditto
-Eclipse fog05
-Eclipse project_hip [archived]
-Eclipse Hono
-Eclipse ioFog
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Mita
-Eclipse Packages
-Publishing Telemetry Data to the MQTT Adapter
-Devices can also publish data to Hono using the MQTT protocol. If you have installed the
-mosquitto_pub
-command line client, you can run the following command to publish arbitrary telemetry data to Hono’s MQTT adapter using QoS 0:
-Again, you should now see the telemetry message being logged to console of the downstream application.
-The MQTT Adapter also supports publishing telemetry messages using QoS 1. For information on how that works and additional examples for interacting with Hono via MQTT, please refer to the
-MQTT Adapter’s User Guide
-.
-Publishing Events to the MQTT Adapter
-In a similar way you can upload events:
-Again, you should now see the telemetry message being logged to console of the downstream application.
-Congratulations
-You have successfully connected a device to Hono and published sensor data for consumption by an application connected to Hono’s north bound API. The application used the AMQP 1.0 protocol to receive messages regardless of the transport protocol used by the device to publish the data.
-What to try next?
-Continue with the next sections to learn how applications can send commands to devices by means of the
-Command & Control API
-.
-Take a look at some of the metrics collected by Hono’s components by opening the Hono dashboard. On the Sandbox server the dashboard is available at
-https://hono.eclipse.org:3000
-. When running a local Minikube cluster, please refer to
-Opening the Dashboard
-Eclipse SmartHome
-Eclipse Tahu
-Eclipse Thingweb
-Eclipse Wakaama
-LocationTech
-Eclipse Modeling Project
-Eclipse Agile UML
-Eclipse Avsys
-Eclipse Capra
-Eclipse EMF
-Eclipse Epsilon
-Eclipse Hawk
 Eclipse eTrice
 Eclipse OCL
 Eclipse Papyrus
@@ -1164,27 +1107,6 @@ Eclipse QVT-OML
 Eclipse QVTd
 Eclipse VIATRA
 Eclipse Mylyn Docs
-for instructions.
-Check out the
-User Guides
-to explore more options for devices to connect to Hono using different transport protocols.
-Learn more about the managing tenants, devices and credentials using the
-Device Registry’s HTTP API
-.
-Advanced: Sending Commands to a Device
-The following example will guide you through an advanced feature of Hono. You will see how an application can send a command to a device and receive a response with the result of processing the command on the device. The communication direction here is exactly the other way round than with telemetry and events.
-The following assumes that the steps in the
-Prerequisites for the Getting started Guide
-and
-Registering Devices
-sections above have been completed. To simulate the device, you can use the Mosquitto tools again while the Hono Command Line Client simulates the application as before.
-Receiving a Command
-With the
-mosquitto_sub
-command you simulate an MQTT device that receives a command. Create a subscription to the command topic in the terminal for the simulated device (don’t forget to set the environment variables
-MQTT_ADAPTER_IP
-,
-MY_TENANT
 PolarSys B612
 Eclipse Safety Framework
 PolarSys LibIMS
@@ -1201,33 +1123,32 @@ Eclipse Winery
 Eclipse Technology
 Eclipse APP4MC
 Eclipse Basyx
+my-pwd
+with your password):
+Starting the example Application
+Telemetry
+and
+Event API
+s using the AMQP 1.0 transport protocol, subscribe to all telemetry and event messages and log the messages to the console.
+Open a new terminal window and set the
+AMQP_NETWORK_IP
+environment variable. If you are using the Sandbox server:
+Otherwise, if you are using a local Minikube cluster:
+The client can then be started from the command line as follows (make sure to replace
+my-tenant
+with your tenant identifier):
+Publishing Telemetry Data to the HTTP Adapter
+Now that the downstream application is running, devices can start publishing telemetry data and events using Hono’s protocol adapters. First, you will simulate a device publishing data to Hono using the HTTP protocol. Go back to the original terminal and run:
+If you have started the downstream application as described above, you should now see the telemetry message being logged to the application’s console in the other terminal. The output should look something like this:
+You can publish more data simply by re-running the
+curl
+command above with arbitrary payload.
+Service Unavailable
 Eclipse Bridge.IoT
 Eclipse CogniCrypt
 Eclipse Dynamic Languages Toolkit
 Eclipse Git Team Provider
 Eclipse Golo
-and
-MY_DEVICE
-)
-Now that the device is waiting to receive commands, the application can start sending them. Start the Command Line Client in the terminal for the application side (don’t forget to set the environment variables
-AMQP_NETWORK_IP
-,
-MY_TENANT
-and
-MY_DEVICE
-)
-Note that this time the profile is
-command
-instead of
-receiver
-, which enables a different mode of the Command Line Client.
-The client will prompt you to enter the command’s name, the payload to send and the payload’s content type. The example below illustrates how a one-way command to set the volume with a JSON payload is sent to the device.
-In the terminal for the simulated device you should see the received command as follows
-Sending a Response to a Command
-Now that you have sent a one-way command to the device, you may get to know
-request/response
-commands where the device sends a response to the application. A
-request/response
 Eclipse Handly
 Eclipse Jemo
 Eclipse LSP4J
@@ -1246,6 +1167,28 @@ Eclipse sim@openPASS
 Eclipse Sumo
 Eclipse SW360antenna
 Eclipse SystemFOCUS
+When you invoke the command above for the first time, you may get the following response:
+This is because the first request to publish data for a given tenant is used as the trigger to establish a tenant specific sender link with the AMQP 1.0 Messaging Network to forward the data over. However, the HTTP adapter may not receive credits quickly enough for the request to be served immediately. You can simply ignore this response and re-submit the command.
+If you haven’t started the application you will always get
+503 Resource Unavailable
+responses because Hono does not accept any telemetry data from devices if there aren’t any consumers connected that are interested in the data. The reason for this is that Hono
+never
+persists Telemetry data and thus it doesn’t make any sense to accept and process telemetry data if there is no consumer to deliver it to.
+The HTTP Adapter also supports publishing telemetry messages using
+at least once
+delivery semantics. For information on how that works and additional examples for interacting with Hono via HTTP, please refer to the
+HTTP Adapter’s User Guide
+.
+Publishing Events to the HTTP Adapter
+In a similar way you can upload events:
+Again, you should see the event being logged to the console of the downstream application.
+Publishing Telemetry Data to the MQTT Adapter
+Devices can also publish data to Hono using the MQTT protocol. If you have installed the
+mosquitto_pub
+command line client, you can run the following command to publish arbitrary telemetry data to Hono’s MQTT adapter using QoS 0:
+Again, you should now see the telemetry message being logged to console of the downstream application.
+The MQTT Adapter also supports publishing telemetry messages using QoS 1. For information on how that works and additional examples for interacting with Hono via MQTT, please refer to the
+MQTT Adapter’s User Guide
 Eclipse Tools Project
 Eclipse C/C++ Development Tools
 Eclipse Corrosion
@@ -1254,6 +1197,123 @@ Eclipse Linux Tools
 Eclipse LSPHub
 Eclipse PHP Development Tools
 Eclipse Parallel Tools Platform
+Eclipse Photran
+Eclipse Shellwax
+Eclipse Wild Web Developer
+Eclipse Web Tools Platform Project
+Eclipse GlassFish Tools
+About Us
+Annual Report
+Foundation
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
+EPL-2.0
+.
+Publishing Events to the MQTT Adapter
+In a similar way you can upload events:
+Again, you should now see the telemetry message being logged to console of the downstream application.
+Congratulations
+You have successfully connected a device to Hono and published sensor data for consumption by an application connected to Hono’s north bound API. The application used the AMQP 1.0 protocol to receive messages regardless of the transport protocol used by the device to publish the data.
+What to try next?
+Continue with the next sections to learn how applications can send commands to devices by means of the
+Command & Control API
+.
+Take a look at some of the metrics collected by Hono’s components by opening the Hono dashboard. On the Sandbox server the dashboard is available at
+https://hono.eclipse.org:3000
+. When running a local Minikube cluster, please refer to
+Opening the Dashboard
+for instructions.
+Check out the
+User Guides
+to explore more options for devices to connect to Hono using different transport protocols.
+Learn more about the managing tenants, devices and credentials using the
+Device Registry’s HTTP API
+.
+Advanced: Sending Commands to a Device
+The following example will guide you through an advanced feature of Hono. You will see how an application can send a command to a device and receive a response with the result of processing the command on the device. The communication direction here is exactly the other way round than with telemetry and events.
+Plain HTML
+Plain Text
+PDF
+FAQ
+EPL-1.0
+Plain HTML
+Plain Text
+FAQ
+Licenses
+Approved 3rd Party
+Non Approved
+Docs & examples
+Back to the top
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+The following assumes that the steps in the
+Prerequisites for the Getting started Guide
+and
+Registering Devices
+sections above have been completed. To simulate the device, you can use the Mosquitto tools again while the Hono Command Line Client simulates the application as before.
+Receiving a Command
+With the
+mosquitto_sub
+command you simulate an MQTT device that receives a command. Create a subscription to the command topic in the terminal for the simulated device (don’t forget to set the environment variables
+MQTT_ADAPTER_IP
+,
+MY_TENANT
+and
+MY_DEVICE
+)
+Now that the device is waiting to receive commands, the application can start sending them. Start the Command Line Client in the terminal for the application side (don’t forget to set the environment variables
+AMQP_NETWORK_IP
+,
+MY_TENANT
+and
+MY_DEVICE
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+)
+Note that this time the profile is
+command
+instead of
+receiver
+, which enables a different mode of the Command Line Client.
+The client will prompt you to enter the command’s name, the payload to send and the payload’s content type. The example below illustrates how a one-way command to set the volume with a JSON payload is sent to the device.
+In the terminal for the simulated device you should see the received command as follows
+Sending a Response to a Command
+Now that you have sent a one-way command to the device, you may get to know
+request/response
+commands where the device sends a response to the application. A
+request/response
 command received from an application contains an identifier that is unique to each new command. The device must include this identifier in its response so that the application can correctly correlate the response with the request.
 If you send a
 request/response
@@ -1274,27 +1334,6 @@ The
 200
 at the end of the topic is an HTTP status code that reports the result of processing the command to the application.
 If the Command Line Client has successfully received the response in time, it will print it to the console. This looks like this:
-Eclipse Photran
-Eclipse Shellwax
-Eclipse Wild Web Developer
-Eclipse Web Tools Platform Project
-Eclipse GlassFish Tools
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
 If the 60 seconds have already expired, an error message is logged. In this case you can send a new command or restart the Command Line Client with a higher timeout (append
 --command.timeoutInSeconds=120
 ).
@@ -1315,51 +1354,12 @@ Terms of Use
 Copyright Agent
 Legal
 License
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
 Report a Vulnerability
 © 2019 The Eclipse Hono Project
 Template by
 Bootstrapious
 . Ported to Hugo by
 DevCows
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Development Resources/Process Guidelines/What is Incubation - Eclipsepedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
 Skip to main content

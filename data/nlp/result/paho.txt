@@ -10,8 +10,8 @@ builds:59
 available:56
 embedded:55
 downloads:55
-https:54
 licensing:54
+https:54
 library:53
 apis:53
 development:52

@@ -155,17 +155,28 @@ Copyright Agent:
 Contact information for the Eclipse Foundation's Copyright Agent.
 Eclipse Foundation Software User Agreement:
 By downloading builds or accessing Eclipse Foundation source code repositories, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
-Approved Licenses for Non-Code, Example, and Other Content:
-The Board of Directors has approved the use of certain licenses for specific types of content on eclipse.org.
-Eclipse Foundation Update Manager Agreement:
-If you package "downloadable features" to be installed from your web site using the Eclipse Update Manager, you must read, understand, and agree to the terms and conditions contained in this agreement.
-Eclipse Foundation Specification License:
 Copyright Agent | The Eclipse Foundation
 Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
 Eclipse.org Terms of Use | The Eclipse Foundation
 Skip to main content
 Log in
 Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
 Eclipse Foundation Website Privacy Policy | The Eclipse Foundation
 Skip to main content
 Log in
@@ -178,7 +189,11 @@ Community
 Marketplace
 Events
 Planet Eclipse
-Newsletter
+Approved Licenses for Non-Code, Example, and Other Content:
+The Board of Directors has approved the use of certain licenses for specific types of content on eclipse.org.
+Eclipse Foundation Update Manager Agreement:
+If you package "downloadable features" to be installed from your web site using the Eclipse Update Manager, you must read, understand, and agree to the terms and conditions contained in this agreement.
+Eclipse Foundation Specification License:
 The license used by Eclipse Foundation specifications created under the Eclipse Foundation Specification Process.
 Eclipse Foundation TCK License:
 The binary license used by Technology Compatibility Kits to demonstrate compatibility with their corresponding Specifications.
@@ -197,59 +212,8 @@ This agreement is used by Member companies to cover all of their committers part
 Individual Committer Agreement:
 This agreement is used by committers participating in Eclipse projects who are not covered by a Member Committer Agreement.
 2019 Re-sign Exercise
-The Eclipse Foundation has updated its standard contributor and committer agreements, and all our committers and contributors, as well as those members who have member committer agreements, will need to re-sign their agreement with us.
-New Eclipse Foundation Committer and Contributor Agreements FAQ
-Resources for Committers
-Due Diligence Process:
-This document provides a quick pictorial overview of the due diligence process.
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
 Planet Eclipse
 Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
 Videos
 Blogs
 Participate
@@ -274,6 +238,55 @@ Events
 Planet Eclipse
 Newsletter
 Videos
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+The Eclipse Foundation has updated its standard contributor and committer agreements, and all our committers and contributors, as well as those members who have member committer agreements, will need to re-sign their agreement with us.
+New Eclipse Foundation Committer and Contributor Agreements FAQ
+Resources for Committers
+Due Diligence Process:
+This document provides a quick pictorial overview of the due diligence process.
 Third Party Dependencies:
 This document contains the guidelines for the review of third-party dependencies.
 Committer Guidelines:
@@ -291,57 +304,6 @@ The process for project leads and PMC members to add additional committers to an
 About Us
 Annual Report
 Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
 Blogs
 Participate
 Report a Bug
@@ -362,9 +324,62 @@ Toggle navigation
 Breadcrumbs
 Home
 Legal
-Eclipse Foundation Website Privacy ...
-Eclipse Foundation Website Privacy Policy
-May 24, 2018
+Copyright Agent
+Copyright Agent
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Unable to connect to the database server at this time(eclipse).
+Unable to connect to the database server at this time(eclipse).
+SQL Trouble:
+Can't create a new thread (errno 11 "Resource temporarily unavailable"); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Governance
+Legal Resources
+Contact Us
+ECA
+Sign
+Validation Tool
 EPL-2.0
 Plain HTML
 Plain Text
@@ -379,31 +394,6 @@ Approved 3rd Party
 Non Approved
 Docs & examples
 Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Unable to connect to the database server at this time(eclipse).
-Unable to connect to the database server at this time(eclipse).
-SQL Trouble:
-Can't create a new thread (errno 11 "Resource temporarily unavailable"); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Copyright Agent
-Copyright Agent
 We respect the intellectual property rights of others, and require that the people who use the Site do the same. We also maintain a policy under which the Web Site use privileges of users who are repeat infringers of intellectual property rights are terminated in appropriate circumstances. If you believe that your work has been copied in a way that constitutes copyright infringement, please forward the following information to Eclipse's Copyright Agent, designated as such pursuant to the Digital Millennium Copyright Act, 17 U.S.C. § 512(c)(2), named below:
 Your address, telephone number, and email address;
 A description of the copyrighted work that you claim has been infringed;
@@ -417,9 +407,13 @@ Eclipse Foundation, Inc.
 2934 Baseline Rd Suite 202
 Ottawa, Ontario
 Canada
-Getting Started / Support
-How to Contribute
-IDE and Tools
+K2H 8T5
+Phone: +1.613.224.9461
+Fax: +1.212.918.1619
+Email: license@eclipse.org
+Related Links
+Legal resources
+Guide to legal documents
 Newcomer Forum
 Toggle navigation
 Breadcrumbs
@@ -438,6 +432,10 @@ You are prohibited from posting, transmitting, or storing to or from this Web si
 If you believe that Content residing or accessible on or through this Web site or any UDS infringes a copyright, please send a notice of copyright infringement to our designated agent pursuant to the procedures set forth here:
 https://www.eclipse.org/legal/copyright.php
 User Data Services ("UDS")
+Legal
+Eclipse Foundation Website Privacy ...
+Eclipse Foundation Website Privacy Policy
+May 24, 2018
 The Eclipse Foundation, Inc. ("Eclipse Foundation", "Us" or "We") is a member-supported not-for-profit foundation which acts as the steward of our open source projects, community, and ecosystem. We are committed to our community members’ rights to privacy. We promise to share transparently all aspects of how Eclipse Foundation projects and websites work in regards to privacy, terms, and personal data, and We are in full support of efforts to ensure your protection online. We only collect your personal data with your consent, and collect only as much as We need to provide you the service you request. For example, We need your personal data to register you to one of our conferences. Each time We collect additional personal data from you We will explain what We collect, why We need it, how We use it, how long We keep it, and how We protect it.
 You can withdraw consent anytime. We will respect your wishes.
 Personal Information on Eclipse Foundation Websites
@@ -454,8 +452,15 @@ One of the primary purposes of the Eclipse Foundation and its websites is to ena
 We also offer services to our community which provide the ability for users of Eclipse software to store data on Eclipse Foundation servers through services including, but not limited to, the User Storage Service and the Automated Error Reporting Initiative. Any data stored through these services will be publicly available on the Internet in unencrypted form and without access restriction. Therefore, you should not use these services to store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available.
 Clickstream Data and Cookies
 We sometimes collect anonymous information from visits and contributions to Eclipse Foundation websites to help provide better service. For example, We keep track of the domains from which people visit and We also measure visitor activity on Eclipse Foundation websites, but in ways that keep the information anonymous. This anonymous information is sometimes known as "clickstream data." We may use and aggregate this data to analyze trends and statistics and to help Us tailor our websites to better serve Eclipse participants.
-Business Relationships
-This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
 Board of Directors
 Legal
 Privacy Policy
@@ -468,24 +473,6 @@ Report a Bug
 Documentation
 How to Contribute
 Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-K2H 8T5
-Phone: +1.613.224.9461
-Fax: +1.212.918.1619
-Email: license@eclipse.org
-Related Links
-Legal resources
-Guide to legal documents
 About Us
 Annual Report
 Foundation
@@ -504,6 +491,10 @@ EPL-1.0
 Plain HTML
 Plain Text
 FAQ
+Licenses
+Approved 3rd Party
+Non Approved
+Docs & examples
 CC0 1.0 Creative Commons
 license, where, for purposes of that license, the Stored Information shall constitute the “Work” and you shall be the “Affirmer”. What that means is that anybody who accesses your information on the Internet has a worldwide, unrestricted, royalty free, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer the Stored Information without any obligation to you, including any obligation of attribution.
 Eclipse reserves the right to discontinue these services at any time or to remove any specific Stored Information from owned or controlled computer systems at any time, and Eclipse does not commit to making Stored Information available at all times in the future.
@@ -523,7 +514,8 @@ Eclipse Foundation Specification License
 “Specification Content” is the collection of interface definitions for the application or user interfaces (“Interfaces”) provided by the work to which your Contribution was made, descriptions of the structure and semantic behavior of those Interfaces, and data formats and protocols associated with those Interfaces, all of which as are reasonably necessary to enable the development of independent implementations of those Interfaces. For the sake of clarity, Specification Content does not include implementation detail of how the Eclipse project code or your Contribution implements the Interfaces in the Specification and the Specification Grant provide above would not cover such additional material.
 To the extent you submit or otherwise make available to an Eclipse Foundation Specification Project (as that term is defined by the Intellectual Property Policy) any ideas, concepts, methods or other information, you agree that you will not assert, based on such submissions, any intellectual property rights that are essential to any implementation of the submission, against the Eclipse Foundation, its contributors, or its licensees, with respect to any implementation of such Specification (as that term is defined by the Eclipse Foundation Specification Process). To further clarify, such submissions include, but are not limited to, submissions made to any public communications channel such as an email list, forum, or bug report.
 To the extent you wish to upload, submit, or otherwise make Non-Code Content (as defined below) available to the Eclipse Foundation and/or the Members and/or users of this Web site, you may make that material available under the terms and conditions of the EPL or any other license stipulated for that purpose at
-www.eclipse.org/legal
+Business Relationships
+This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
 Notification of Changes
 This privacy statement was last updated on May 24, 2018. A notice will be posted on this website home page for thirty (30) days whenever this privacy statement is changed.
 Questions Regarding This Policy
@@ -542,17 +534,17 @@ Contact Us
 ECA
 Sign
 Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Back to the top
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
@@ -572,6 +564,10 @@ Eclipse Public License
 Legal Resources
 Useful Links
 Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+www.eclipse.org/legal
 . Non-Code Content is Content for which you own or control all rights, and which is not program code intended to be submitted to a Project (or documentation related to such code) and which is not Stored Information. For example, Non-Code Content would include white papers, dissertations, articles or other literary works, power point presentations, encyclopedias, anthologies, wikis, blogs, diagrams, drawings, sketches, photos or other images, audio content, video content and audiovisual materials.
 For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively "Material"), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
 You represent and warrant that to your knowledge, you have sufficient rights in the Materials to grant the foregoing rights and licenses.
@@ -590,7 +586,13 @@ Legal resources
 Guide to legal documents
 About Us
 Annual Report
-Foundation
+EPL-2.0
+Plain HTML
+Plain Text
+PDF
+FAQ
+EPL-1.0
+Plain HTML
 Plain Text
 FAQ
 Licenses
@@ -607,15 +609,6 @@ Contact Us
 Donate
 Governance
 Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Documentation
-How to Contribute
-Mailing Lists
 Forums
 Marketplace
 Other
@@ -627,6 +620,7 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
+Foundation
 Governance
 Legal Resources
 Contact Us
@@ -645,9 +639,12 @@ FAQ
 Licenses
 Approved 3rd Party
 Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
 Legal Resources
 Useful Links
 Report a Bug
@@ -664,7 +661,9 @@ Research@Eclipse
 Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Docs & examples
 Back to the top
+Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
 Eclipse Foundation
@@ -683,6 +682,7 @@ Legal Resources
 Useful Links
 Report a Bug
 Documentation
+Back to the top
 How to Contribute
 Mailing Lists
 Forums

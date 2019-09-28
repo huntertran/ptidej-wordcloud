@@ -117,7 +117,51 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
+Eclipse Public License 1.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
 Internet of Things | projects.eclipse.org
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
 Google Tag Manager
 Skip to main content
 Log in
@@ -144,6 +188,33 @@ Research
 Eclipse IDE
 Download
 Learn More
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Public License 1.0
+Eclipse Public License 1.0
+URL:
+http://www.eclipse.org/org/documents/epl-v10.php
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
 Documentation
 Getting Started / Support
 How to Contribute
@@ -168,6 +239,29 @@ Eclipse IDE
 Download
 Learn More
 Documentation
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Getting Started / Support
 How to Contribute
 IDE and Tools
@@ -206,19 +300,6 @@ Contact
 Eclipse VOLTTRON
 Internet of Things
 The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
-Eclipse Paho Incubator | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
 Read more...
 Learn more
 Toggle Dropdown
@@ -242,41 +323,12 @@ Eclipse fog05
 Internet of Things
 Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
 Read more...
-Eclipse Public License 1.0 | projects.eclipse.org
+Learn more
+Toggle Dropdown
+Eclipse IoT | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Learn more
-Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
@@ -295,29 +347,14 @@ Who's Involved
 Governance
 Contact
 Eclipse Mita
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
+Internet of Things
+Language
+Manage Cookies
+projects.eclipse.org
 Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-More
+Members
+Working Groups
+Projects
 Community
 Marketplace
 Events
@@ -335,19 +372,6 @@ Research
 Eclipse IDE
 Download
 Learn More
-Documentation
-Eclipse IoT | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Internet of Things
-Language
 Modeling
 Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
 Read more...
@@ -368,51 +392,17 @@ Read more...
 Download
 Toggle Dropdown
 Website
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Cyclone DDS
 Documentation
 Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-Toggle navigation
-Home
-Projects
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Developer Resources
-Eclipse Paho Incubator
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+More
 Community
 Marketplace
 Events
@@ -429,18 +419,6 @@ IRC
 Research
 Eclipse IDE
 Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Cyclone DDS
 Internet of Things
 Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
 Read more...
@@ -459,166 +437,28 @@ Because today's software-intensive automotive systems are still developed in sil
 The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
 Read more...
 Latest release:
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse Paho Incubator | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Eclipse Public License 1.0
-Eclipse Public License 1.0
-URL:
-http://www.eclipse.org/org/documents/epl-v10.php
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-Eclipse Paho Incubator | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-paho.incubator/org.eclipse.paho.mqtt.lua -
-Clone:
-git://git.eclipse.org/gitroot/paho.incubator/org.eclipse.paho.mqtt.lua.git
-Browse Repository
-paho.incubator/smidge - An MQTT-SN client and gateway...
-Clone:
-git://git.eclipse.org/gitroot/paho.incubator/smidge.git
-Browse Repository
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Paho Incubator | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Eclipse Paho Incubator | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-The MIT License (MIT) | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
+0.1-M1
 Learn More
 Documentation
 Getting Started / Support
 How to Contribute
 IDE and Tools
-Eclipse Paho | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-0.1-M1
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse IoT
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
+Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
 Learn more
 Toggle Dropdown
 Website
@@ -638,373 +478,14 @@ Register now and save! Early Bird pricing ends October 1.
 Register
 Eclipse Foundation
 About Us
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Eclipse Foundation
-About Us
 Contact Us
 Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse IoT
-Primary tabs
-Overview
-(active tab)
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
-Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
 Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
 Tools that facilitate the development of connected systems
 Solutions that build ready-to-run solutions based on the other building blocks
 This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
 Licenses:
 Eclipse Distribution License 1.0 (BSD)
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-List of Projects
-List of Projects
-Search
-Technology Types
-- Any -
-Internet of Things
-Language
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
 Eclipse Public License 2.0
 Active Member Companies:
 Member companies supporting this project over the last three months.
@@ -1020,12 +501,239 @@ Eclipse IoT
 Eclipse 4diac
 Eclipse Agail
 Eclipse Californium (Cf) CoAP Framework
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
 Eclipse Concierge
 Eclipse Cyclone DDS
 Eclipse Ditto
 Eclipse Duttile
 Eclipse fog05
 Eclipse hawkBit
+Eclipse Hono
+Eclipse Ignite|IoT
+Eclipse ioFog
+Eclipse IoT Packages
+Eclipse Kapua
+Eclipse Keti
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Kuksa
+Eclipse Kura
+Eclipse Leshan
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Milo
+Eclipse Mita
+Eclipse Mosquitto
+Eclipse MRAA
+Eclipse NeoSCADA
+Eclipse OM2M
+Eclipse Paho
+Eclipse Paho Incubator
+Eclipse Ponte
+Eclipse SmartHome
+Eclipse Tahu
+Eclipse Thingweb
+Eclipse tinydtls
+Eclipse Unide
+Eclipse UPM
+Eclipse VOLTTRON
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Eclipse Vorto
+Eclipse Wakaama
+Eclipse Yasham
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Eclipse Paho | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -
+Internet of Things
+Language
+Modeling
+OSGi
+Runtime
+Specification
+Testing
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Tools
+State
+- Any -
+Incubating
+Mature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
+Read more...
+Latest release:
+1.10.0
+Download
+Toggle Dropdown
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
+Read more...
+Latest release:
+2019-09 (6.9.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
 Newcomer Forum
 More
 Community
@@ -1048,155 +756,26 @@ Learn More
 Documentation
 Getting Started / Support
 How to Contribute
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Modeling
-OSGi
-Runtime
-Specification
-Testing
-Tools
-State
-- Any -
-Incubating
-Mature
-Include
-Archived Projects
-Apply
-Eclipse EMFStore
-Modeling
+Internet of Things
 Runtime
 Tools
-Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
 Read more...
-Projects
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Downloads
-Eclipse Paho Incubator
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
+Latest release:
+1.4.1
+Download
+Toggle Dropdown
+Website
 Developer Resources
-Governance
-Contact Us
-This project has not provided download information.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Tags
-Technology Types
-Home
-Projects
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Contact Us
-Eclipse Paho Incubator
-Primary tabs
-Overview
-Downloads
 Who's Involved
-Developer Resources
 Governance
-Contact Us
-(active tab)
-Developer Mailing List:
-paho.incubator-dev
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Paho
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Who's Involved
-Eclipse Paho Incubator
-Primary tabs
-Overview
-Downloads
-Who's Involved
-(active tab)
-Developer Resources
-Governance
-Contact Us
-Contribution Activity:
-Commits on this project (last 12 months).
-Home
-Projects
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Governance
-Eclipse Paho Incubator
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-Contact Us
-The project has not provided information for this page.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Projects
-The MIT License (MIT)
-The MIT License (MIT)
-URL:
-http://opensource.org/licenses/MIT
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Eclipse Hono
-Eclipse Ignite|IoT
-Eclipse ioFog
-Eclipse IoT Packages
-Eclipse Kapua
-Eclipse Keti
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Kura
-Eclipse Leshan
-Eclipse Milo
-Eclipse Mita
-Eclipse Mosquitto
-Eclipse MRAA
-Eclipse NeoSCADA
-Eclipse OM2M
-Eclipse Paho
-Eclipse Paho Incubator
-Eclipse Ponte
-Eclipse SmartHome
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
+Operational QVT project provides a powerful Eclipse IDE:
 IDE and Tools
 Newcomer Forum
 Toggle navigation
@@ -1216,10 +795,20 @@ Contact Us
 The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and Internet of Things (IoT).
 Paho reflects the inherent physical and cost constraints of device connectivity. Its objectives include effective levels of decoupling between devices and applications, designed to keep markets open and encourage the rapid growth of scalable Web and Enterprise middleware and applications. Paho contains
 MQTT
-publish/subscribe client implementations for use on embedded platforms, along with corresponding server support as determined by the community.
-This project is part of
+feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
+debugger (conditional breakpoints, variables view, expressions view, watches)
+metamodel browser, trace view
+project builders, launch configurations
+deployment facilities and Ant support
+Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
+support of Java Black-Box units and libraries
+seamless integration with JDT supporting co-development of QVTo and Java in single workspace
+Additional tooling QVTO Code Coverage provides:
+annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
+JUnit launch configuration to integrate with the JUnit test framework
+Read more...
 Latest release:
-1.10.0
+2019-09 (3.10.0)
 Download
 Toggle Dropdown
 Website
@@ -1227,138 +816,8 @@ Developer Resources
 Who's Involved
 Governance
 Contact
-Eclipse OCL (Object Constraint Language)
-Language
-Modeling
-Tools
-Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
-Read more...
-Latest release:
-2019-09 (6.9.0)
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Eclipse Paho Incubator
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Project Members:
-Project Lead
-Ian Craggs
-Committers
-Al Stockdill-Mander
-Ian Craggs
-Kevin KIN-FOO
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Tahu
-Eclipse Thingweb
-Eclipse tinydtls
-Eclipse Unide
-Eclipse UPM
-Eclipse VOLTTRON
-Eclipse Vorto
-Eclipse Wakaama
-Eclipse Yasham
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
+publish/subscribe client implementations for use on embedded platforms, along with corresponding server support as determined by the community.
+This project is part of
 Eclipse Photon
 ,
 Eclipse Oxygen
@@ -1380,17 +839,14 @@ Review
 1.4.0 (Photon)
 2018-06-27
 1.3.0 (Oxygen)
-Who's Involved
-Governance
-Contact
-Eclipse Paho
-Internet of Things
-Runtime
+Eclipse Trace Compass
 Tools
-The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
+Eclipse Trace Compass
+is an open source application to solve performance and reliability issues by reading and analyzing
+lo
 Read more...
 Latest release:
-1.4.1
+5.1.0
 Download
 Toggle Dropdown
 Website
@@ -1398,92 +854,13 @@ Developer Resources
 Who's Involved
 Governance
 Contact
-Eclipse QVT Operational
-Language
-Modeling
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Apogy
+This project provides a multi-mission operations and planning software framework.
+Apogy
+uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
 2017-06-28
 1.2.0 (Neon)
 2016-06-17
@@ -1506,100 +883,6 @@ MQTT protocol discussion Google Group
 Wiki
 Related Projects
 Related Projects:
-Tools
-The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
-Operational QVT project provides a powerful Eclipse IDE:
-feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
-debugger (conditional breakpoints, variables view, expressions view, watches)
-metamodel browser, trace view
-project builders, launch configurations
-deployment facilities and Ant support
-Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
-support of Java Black-Box units and libraries
-seamless integration with JDT supporting co-development of QVTo and Java in single workspace
-Additional tooling QVTO Code Coverage provides:
-annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
-JUnit launch configuration to integrate with the JUnit test framework
-Read more...
-Latest release:
-2019-09 (3.10.0)
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Back to the top
-Eclipse IoT
-Eclipse Mosquitto
-Eclipse Kura
-Project Hierarchy:
-Eclipse IoT
-Eclipse Paho
-Eclipse Paho Incubator
-Tags
-Technology Types
-Internet of Things
-Runtime
-Tools
-Build Technologies
-Hudson
-Maven
-Other Tags
-mqtt
-m2m
-paho
-messaging
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Who's Involved
-Governance
-Contact
-Eclipse Trace Compass
-Tools
-Eclipse Trace Compass
-is an open source application to solve performance and reliability issues by reading and analyzing
-lo
-Read more...
-Latest release:
-5.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Apogy
-This project provides a multi-mission operations and planning software framework.
-Apogy
-uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Read more...
-Download
-Toggle Dropdown
 Website
 Developer Resources
 Who's Involved
@@ -1619,16 +902,24 @@ Website
 Developer Resources
 Who's Involved
 Governance
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Contact
+Eclipse IoT
+Eclipse Mosquitto
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Tags
+Technology Types
+Internet of Things
+Runtime
+Tools
+Build Technologies
+Hudson
+Maven
+Other Tags
+mqtt
 Eclipse GlassFish Tools
 Tools
 Read more...
@@ -1648,6 +939,24 @@ Download
 Toggle Dropdown
 Website
 Developer Resources
+m2m
+paho
+messaging
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
 Who's Involved
 Governance
 Contact
@@ -1670,6 +979,23 @@ Tools
 The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages.
 Read more...
 Latest release:
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 5.11
 Download
 Toggle Dropdown
@@ -1810,6 +1136,7 @@ Governance
 Contact
 1
 2
+Eclipse Paho Incubator | projects.eclipse.org
 3
 4
 5
@@ -1818,8 +1145,130 @@ Contact
 8
 9
 …
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
 next ›
 last »
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Contact Us
+Eclipse Paho Incubator
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+paho.incubator-dev
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Eclipse Paho Incubator
+Tags
+Technology Types
+Internet of Things
 Register for EclipseCon Europe 2019 today!
 Register now and save! Early Bird pricing ends October 1.
 Register
@@ -1830,6 +1279,557 @@ Donate
 Governance
 Logo and Artwork
 Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Downloads
+Eclipse Paho Incubator
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Paho Incubator | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Governance
+Eclipse Paho Incubator
+Eclipse Paho Incubator | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+The project has not provided information for this page.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Tags
+Technology Types
+Internet of Things
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Developer Resources
+Eclipse Paho Incubator
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Eclipse Paho Incubator | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+paho.incubator/org.eclipse.paho.mqtt.lua -
+Clone:
+git://git.eclipse.org/gitroot/paho.incubator/org.eclipse.paho.mqtt.lua.git
+Browse Repository
+paho.incubator/smidge - An MQTT-SN client and gateway...
+Clone:
+git://git.eclipse.org/gitroot/paho.incubator/smidge.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Tags
+Technology Types
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+The MIT License (MIT) | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Who's Involved
+Eclipse Paho Incubator
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Members:
+Project Lead
+Ian Craggs
+Committers
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Al Stockdill-Mander
+Ian Craggs
+Kevin KIN-FOO
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Paho
+Eclipse Paho Incubator
+Tags
+Technology Types
+Internet of Things
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+The MIT License (MIT)
+The MIT License (MIT)
+URL:
+http://opensource.org/licenses/MIT
+Register for EclipseCon Europe 2019 today!
+Register now and save! Early Bird pricing ends October 1.
+Register
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Back to the top
 Legal
 Privacy Policy
 Terms of Use
