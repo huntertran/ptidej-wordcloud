@@ -15,7 +15,7 @@ def crawl():
 
     crawler = runner.spider_loader.list()[0]
 
-    filePath = './ptidejWordcloud/sitelist.json'
+    filePath = './data/sitelist.json'
 
     with open(filePath, 'r') as dataFile:
         siteDataList = json.load(dataFile, object_hook=Site.decode_Site)
@@ -40,7 +40,7 @@ def crawl():
         reactor.stop()
 
 def nlp():
-    filePath = './ptidejWordcloud/sitelist.json'
+    filePath = './data/sitelist.json'
 
     with open(filePath, 'r') as dataFile:
         siteDataList = json.load(dataFile, object_hook=Site.decode_Site)

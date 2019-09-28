@@ -13,9 +13,9 @@ from nlp.ResultGenerator import ResultGenerator
 from helpers.ProjectHelper import ProjectHelper
 from model.Site import StemmedWord
 
-dataPath = './ptidejWordcloud/data/'
+dataPath = './data/'
 defaultEncoding = 'utf-8'
-resultedDataPath = './nlp/data/'
+resultedDataPath = './data/nlp/result/'
 
 
 def loadRawDataFile(projectName):
@@ -24,7 +24,7 @@ def loadRawDataFile(projectName):
 
 def getProgrammingLanguageList():
     programmingLanguages = []
-    with open('./nlp/programming_languages.txt', 'r', encoding=defaultEncoding) as programmingLanguagesFile:
+    with open('./data/nlp/programming_languages.txt', 'r', encoding=defaultEncoding) as programmingLanguagesFile:
         lines = programmingLanguagesFile.readlines()
         for line in lines:
             programmingLanguages.append(line.strip('\n'))
@@ -33,14 +33,13 @@ def getProgrammingLanguageList():
 
 def combineStopwords(projectName):
     customizedStopwords = []
-    with open('./nlp/customized_stopwords.txt', 'r', encoding=defaultEncoding) as customizedStopwordsFile:
+    with open('./data/nlp/customized_stopwords.txt', 'r', encoding=defaultEncoding) as customizedStopwordsFile:
         customizedStopwords = customizedStopwordsFile.readlines()
         for index, word in enumerate(customizedStopwords):
             customizedStopwords[index] = word.strip('\r').strip('\n')
     combinedStopwords = stopwords.words('english')
     combinedStopwords.extend(customizedStopwords)
     return combinedStopwords
-
 
 def isMatchSpecialString(word):
     match = re.match(r'\d*:', word)
@@ -146,4 +145,4 @@ def process(siteUrl):
     writeDistributionListToFile(projectName, keywordsDistribution)
     # generateImageFile(projectName, keywordsDistribution)
     ResultGenerator.makeImage(keywordsDistribution, projectName)
-    print('Wordcloud generated for ', siteUrl)
+    print('Wordcloud generated for ', projectName)

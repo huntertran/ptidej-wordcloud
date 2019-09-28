@@ -79,12 +79,19 @@ class GenericSpider(scrapy.Spider):
 
         return text
 
+    def isLineMatchCode(self, line):
+        matchCode = re.search(r'\S+\s?\{(.+)\}', line)
+        if matchCode:
+            return True
+        else:
+            return False
+
     def parseUrl(self, response, projectRoot):
         page = response.url
         texts = response.xpath('//text()[not(ancestor::pre)]').getall()
         for text in texts:
             text = self.cleanText(text)
-            if len(text) != 0:
+            if len(text) != 0 and not self.isLineMatchCode(text):
                 yield {
                     # "projectRoot": projectRoot,
                     "l": page,

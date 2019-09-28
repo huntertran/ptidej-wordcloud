@@ -17,4 +17,4 @@ class ResultGenerator:
         # show
         plt.imshow(wc, interpolation="bilinear")
         plt.axis("off")
-        plt.savefig('./nlp/data/' + projectName + '.png')
+        plt.savefig('./data/nlp/result/' + projectName + '.png')
