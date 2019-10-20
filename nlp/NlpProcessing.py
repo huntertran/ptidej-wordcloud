@@ -132,18 +132,21 @@ def generateImageFile(projectName, mostCommonKeywords):
 def process(siteUrl):
     print('NLP Proccessing for ', siteUrl)
     projectName = ProjectHelper.getProjectName(siteUrl)
-    stopwords = combineStopwords(projectName)
-    keywordsTuple = removeStopwords(projectName, stopwords)
+    # stopwords = combineStopwords(projectName)
+    # keywordsTuple = removeStopwords(projectName, stopwords)
 
-    # keywords
-    # keywords = keywordsTuple[1]
-    # keywordsDistribution = calculateFrequencyDistribution(keywords, 50)
+    # # keywords
+    # # keywords = keywordsTuple[1]
+    # # keywordsDistribution = calculateFrequencyDistribution(keywords, 50)
 
-    # restore stem
-    keywords = keywordsTuple[2]
-    keywordsDistribution = calculateFrequencyDistributionFromStemmedList(keywords, 50)
+    # # restore stem
+    # keywords = keywordsTuple[2]
+    # keywordsDistribution = calculateFrequencyDistributionFromStemmedList(keywords, 50)
 
-    writeDistributionListToFile(projectName, keywordsDistribution)
+    # writeDistributionListToFile(projectName, keywordsDistribution)
+
+    resultGenerator = ResultGenerator
     # generateImageFile(projectName, keywordsDistribution)
-    ResultGenerator.makeImage(keywordsDistribution, projectName)
+    ResultGenerator.makeMask(projectName)
+    # ResultGenerator.makeImage(keywordsDistribution, projectName)
     print('Wordcloud generated for ', projectName)
