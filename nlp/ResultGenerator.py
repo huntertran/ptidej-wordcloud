@@ -38,12 +38,29 @@ class ResultGenerator:
         image = Image.new('RGB', size, (255, 255, 255))
         draw = ImageDraw.Draw(image)
 
-        draw.multiline_text(
-            xy=(0, -100),
-            text=projectName,
-            font=font,
-            spacing=1,
-            align="left",
-            fill=(0, 0, 0))
+        spaceBetweenChar = -80
+
+        specialChars = ['a', 'v']
+
+        offset = -draw.textsize(
+            text=projectName[0],
+            font=font, spacing=1)[0] - spaceBetweenChar
+
+        for char in projectName:
+            offset = draw.textsize(
+                text=char,
+                font=font,
+                spacing=1)[0] + offset + spaceBetweenChar
+
+            if char.lower() in specialChars:
+                offset = offset + spaceBetweenChar
+
+            draw.multiline_text(
+                xy=(offset, -100),
+                text=char,
+                font=font,
+                spacing=1,
+                align="left",
+                fill=(0, 0, 0))
 
         image.save('./data/nlp/result/' + projectName + '-mask.png')

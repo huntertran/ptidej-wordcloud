@@ -155,6 +155,6 @@ def process(siteUrl):
 
     resultGenerator = ResultGenerator
     # generateImageFile(projectName, keywordsDistribution)
-    ResultGenerator.makeMask(projectName)
+    ResultGenerator.makeMask(projectName.upper())
     ResultGenerator.makeImage(keywordsDistribution, projectName)
     print('Wordcloud generated for ', projectName)
