@@ -17,7 +17,6 @@ rights:25
 privacy:24
 agreements:24
 lists:23
-vorto:21
 downloading:21
 bug:20
 mailing:20
@@ -48,3 +47,4 @@ websites:15
 pages:15
 materials:15
 incubation:15
+contact:14

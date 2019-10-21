@@ -1,4 +1,3 @@
-kapua:57
 contributors:51
 agreement:40
 programs:39
@@ -48,3 +47,4 @@ mailing:8
 shall:8
 conditions:8
 damages:8
+pedro:8

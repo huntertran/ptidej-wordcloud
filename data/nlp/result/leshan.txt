@@ -1,6 +1,5 @@
 iot:22
 community:7
-leshan:6
 resources:6
 solutions:6
 devices:5
@@ -48,3 +47,4 @@ documentation:2
 started:2
 test:2
 connect:2
+sandboxes:2

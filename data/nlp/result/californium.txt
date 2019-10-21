@@ -1,5 +1,4 @@
 coap:19
-californium:12
 cf:7
 iot:7
 repository:7
@@ -48,3 +47,4 @@ learn:1
 powerful:1
 targetting:1
 back-end:1
+smaller:1

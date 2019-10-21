@@ -1,5 +1,4 @@
 managing:82
-hawkbit:79
 devices:71
 updating:56
 targets:55
@@ -48,3 +47,4 @@ agent:13
 time:13
 date:13
 server:13
+states:12

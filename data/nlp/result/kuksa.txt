@@ -1,4 +1,3 @@
-kuksa:63
 appstacle:26
 contributions:21
 https:20
@@ -48,3 +47,4 @@ integration:6
 technologies:6
 ecosystem:6
 driver:6
+consortium:6
