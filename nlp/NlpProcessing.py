@@ -22,6 +22,7 @@ def loadRawDataFile(projectName):
     with open(dataPath + projectName + '.txt', 'r', encoding=defaultEncoding) as dataFile:
         return dataFile.readlines()
 
+
 def getProgrammingLanguageList():
     programmingLanguages = []
     with open('./data/nlp/programming_languages.txt', 'r', encoding=defaultEncoding) as programmingLanguagesFile:
@@ -41,6 +42,7 @@ def combineStopwords(projectName):
     combinedStopwords.extend(customizedStopwords)
     return combinedStopwords
 
+
 def isMatchSpecialString(word):
     match = re.search(r'\d*:', word)
     matchNumber = re.search(r'\d+', word)
@@ -49,6 +51,7 @@ def isMatchSpecialString(word):
     else:
         return False
 
+
 def insertStemmedKeywordWithUnStemmedCount(newStemmed, newUnStemmed, stemmedWordList):
     isExisted = False
     for stemmed in stemmedWordList:
@@ -56,9 +59,10 @@ def insertStemmedKeywordWithUnStemmedCount(newStemmed, newUnStemmed, stemmedWord
             stemmed.addUnStemmed(newUnStemmed)
             isExisted = True
             break
-    
+
     if not isExisted:
         stemmedWordList.append(StemmedWord(newStemmed, newUnStemmed))
+
 
 def removeStopwords(projectName, stopwords):
     dataLines = loadRawDataFile(projectName)
@@ -77,8 +81,10 @@ def removeStopwords(projectName, stopwords):
                 if words[index] in programmingLanguages:
                     programmingLanguageKeywords.append(words[index])
                 else:
-                    keywords.append(words[index])
-                    insertStemmedKeywordWithUnStemmedCount(words[index], word, stemmedKeywords)
+                    if words[index] != projectName:
+                        keywords.append(words[index])
+                        insertStemmedKeywordWithUnStemmedCount(
+                            words[index], word, stemmedKeywords)
     return programmingLanguageKeywords, keywords, stemmedKeywords
 
 
@@ -93,6 +99,7 @@ def calculateFrequencyDistribution(keywords, takeMost=None):
         key=lambda kv: kv[1],
         reverse=True)
     return sortedFreqDist
+
 
 def calculateFrequencyDistributionFromStemmedList(stemmedWordList, takeMost=None):
     sortedStemmedWordList = sorted(
@@ -132,21 +139,22 @@ def generateImageFile(projectName, mostCommonKeywords):
 def process(siteUrl):
     print('NLP Proccessing for ', siteUrl)
     projectName = ProjectHelper.getProjectName(siteUrl)
-    # stopwords = combineStopwords(projectName)
-    # keywordsTuple = removeStopwords(projectName, stopwords)
+    stopwords = combineStopwords(projectName)
+    keywordsTuple = removeStopwords(projectName, stopwords)
 
-    # # keywords
-    # # keywords = keywordsTuple[1]
-    # # keywordsDistribution = calculateFrequencyDistribution(keywords, 50)
+    # keywords
+    # keywords = keywordsTuple[1]
+    # keywordsDistribution = calculateFrequencyDistribution(keywords, 50)
 
-    # # restore stem
-    # keywords = keywordsTuple[2]
-    # keywordsDistribution = calculateFrequencyDistributionFromStemmedList(keywords, 50)
+    # restore stem
+    keywords = keywordsTuple[2]
+    keywordsDistribution = calculateFrequencyDistributionFromStemmedList(
+        keywords, 50)
 
-    # writeDistributionListToFile(projectName, keywordsDistribution)
+    writeDistributionListToFile(projectName, keywordsDistribution)
 
     resultGenerator = ResultGenerator
     # generateImageFile(projectName, keywordsDistribution)
     ResultGenerator.makeMask(projectName)
-    # ResultGenerator.makeImage(keywordsDistribution, projectName)
+    ResultGenerator.makeImage(keywordsDistribution, projectName)
     print('Wordcloud generated for ', projectName)

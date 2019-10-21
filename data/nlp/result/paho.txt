@@ -1,6 +1,5 @@
 mqtt:210
 clients:144
-paho:128
 foundation:88
 messaging:83
 android:74
@@ -48,3 +47,4 @@ servers:29
 repository:29
 needs:28
 planet:28
+examples:27
