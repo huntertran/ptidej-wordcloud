@@ -41,6 +41,7 @@ class ResultGenerator:
         spaceBetweenChar = -80
 
         specialChars = ['a', 'v']
+        reducedSpaceChars = ['i']
 
         offset = -draw.textsize(
             text=projectName[0],
@@ -55,6 +56,9 @@ class ResultGenerator:
             if char.lower() in specialChars:
                 offset = offset + spaceBetweenChar
 
+            if char.lower() in reducedSpaceChars:
+                offset = offset - spaceBetweenChar*3
+
             draw.multiline_text(
                 xy=(offset, -100),
                 text=char,
@@ -63,4 +67,7 @@ class ResultGenerator:
                 align="left",
                 fill=(0, 0, 0))
 
-        image.save('./data/nlp/result/' + projectName + '-mask.png')
+            if char.lower() in reducedSpaceChars:
+                offset = offset + spaceBetweenChar*3
+
+        image.save('./data/nlp/result/' + projectName.lower() + '-mask.png')

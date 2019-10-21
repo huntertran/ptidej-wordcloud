@@ -124,8 +124,6 @@ def writeDistributionListToFile(projectName, sortedFreqDist,  suffix=None):
         fileNameWithPath = fileNameWithPath + '-' + suffix
     fileNameWithPath = fileNameWithPath + '.txt'
     with open(fileNameWithPath, 'w+', encoding=defaultEncoding) as resultFile:
-        # for key, value in sortedFreqDist:
-        #     resultFile.writelines(key + ':' + str(value) + '\n')
         for key in sortedFreqDist:
             resultFile.writelines(key + ':' + str(sortedFreqDist[key]) + '\n')
 
@@ -153,8 +151,6 @@ def process(siteUrl):
 
     writeDistributionListToFile(projectName, keywordsDistribution)
 
-    resultGenerator = ResultGenerator
-    # generateImageFile(projectName, keywordsDistribution)
     ResultGenerator.makeMask(projectName.upper())
     ResultGenerator.makeImage(keywordsDistribution, projectName)
     print('Wordcloud generated for ', projectName)
