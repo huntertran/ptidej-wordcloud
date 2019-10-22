@@ -17,10 +17,6 @@ class ResultGenerator:
         wc.generate_from_frequencies(keywords)
         wc.to_file('./data/nlp/result/' + projectName + '.png')
 
-        # plt.imshow(wc, interpolation="bilinear")
-        # plt.axis("off")
-        # plt.savefig('./data/nlp/result/' + projectName + '.png')
-
     @staticmethod
     def getMaskTextColor(word, font_size, position, orientation, random_state=None, **kwargs):
         return "hsl(0, 0%, 0%)"
@@ -28,6 +24,7 @@ class ResultGenerator:
     @staticmethod
     def makeMask(projectName):
         font_path = './data/Modak-Regular.ttf'
+        projectName = projectName.upper()
 
         image = Image.new('RGB', (800, 800), (255, 255, 255))
         font = ImageFont.truetype(font_path, 900)

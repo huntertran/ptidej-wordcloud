@@ -81,7 +81,7 @@ def removeStopwords(projectName, stopwords):
                 if words[index] in programmingLanguages:
                     programmingLanguageKeywords.append(words[index])
                 else:
-                    if words[index] != projectName:
+                    if words[index].lower() != projectName.lower():
                         keywords.append(words[index])
                         insertStemmedKeywordWithUnStemmedCount(
                             words[index], word, stemmedKeywords)
@@ -151,6 +151,6 @@ def process(siteUrl):
 
     writeDistributionListToFile(projectName, keywordsDistribution)
 
-    ResultGenerator.makeMask(projectName.upper())
+    ResultGenerator.makeMask(projectName)
     ResultGenerator.makeImage(keywordsDistribution, projectName)
     print('Wordcloud generated for ', projectName)
