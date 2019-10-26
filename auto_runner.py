@@ -4,6 +4,7 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
 from nlp.NlpProcessing import process
 from model.Site import Site
+from nlp.Linker import create_link
 import json
 
 settings = get_project_settings()
@@ -61,3 +62,4 @@ def nlp():
 crawl()
 reactor.run()
 nlp()
+create_link()
