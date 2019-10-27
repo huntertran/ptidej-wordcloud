@@ -60,7 +60,7 @@ def create_link():
         index += 1
 
     for siteNode in projectNodes:
-        relationships.append([0] * len(projectNodes))
+        relationships.append([[]] * len(projectNodes))
 
     print("End creating connected graph")
 
@@ -78,6 +78,8 @@ def create_link():
             index += 1
 
         projectName = ProjectHelper.getProjectName(site.SiteUrl)
+        siteKey = getSiteKey(site.SiteUrl)
+
         textLines = loadRawDataFile(projectName)
 
         for textLine in textLines:
@@ -85,9 +87,12 @@ def create_link():
 
             for sentence in sentences:
                 for node in projectNodes:
+                    if(node == siteKey):
+                        continue
+
                     if node in sentence:
                         row = projectNodes[node]
-                        col = projectNodes.get(getSiteKey(site.SiteUrl))
-                        relationships[row][col] = 1
+                        col = projectNodes.get(siteKey)
+                        relationships[row][col].append(sentence)
 
     print_graph(relationships, projectNodes)
