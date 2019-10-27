@@ -2,30 +2,18 @@ import json
 from model.Site import Site
 from model.SiteNode import SiteNode
 from helpers.ProjectHelper import ProjectHelper
+from tabulate import tabulate
 
 dataPath = './data/scrapy/'
 defaultEncoding = 'utf-8'
 resultedDataPath = './data/nlp/result/'
 
-
 def print_graph(relationships, siteNodes):
-    # print headers
-    print('', end='\t', flush=True)
+    projectKeys = []
     for node in siteNodes:
-        print(node.key, end='\t', flush=True)
-    print('\n')
+        projectKeys.append(node.key)
 
-    index = 0
-    for row in relationships:
-        print(siteNodes[index].key, end='\t', flush=True)
-
-        for col in row:
-            print(col, end='\t', flush=True)
-        
-        print('\n')
-        index += 1
-
-
+    print(tabulate(relationships, headers=projectKeys, showindex=projectKeys, tablefmt='fancy_grid'))
 
 def create_link():
     projectNodes = []
@@ -56,7 +44,6 @@ def create_link():
         index += 1
 
     for siteNode in projectNodes:
-        print(siteNode.key)
         relationships.append([0] * len(projectNodes))
 
     print("End creating connected graph")
