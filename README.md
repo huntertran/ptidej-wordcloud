@@ -5,15 +5,14 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
 
 <!-- TOC -->
 
-- [1. Steps](#1-steps)
-- [2. Install package](#2-install-package)
-- [3. Run the project:](#3-run-the-project)
-- [4. Debug](#4-debug)
+- [Steps](#steps)
+- [Install package](#install-package)
+- [Run the project:](#run-the-project)
+- [Debug](#debug)
 
 <!-- /TOC -->
 
 # 1. Steps
-<a id="markdown-steps" name="steps"></a>
 
 1. Define a project list (a simple .json file, with 4 attribute for each project: IsCrawled, CrawDepthLevel, IsWordcloudGenerated, SiteUrl. The steps follow will repeat for all the project in the list)
 2. Crawl the site with re-defined depth level, extract all text into a .txt file (a series of paragraph, we can use this later to find out relationship between projects)
@@ -28,7 +27,6 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
     2. Feed the drawing python lib to create the picture above, then save/serve the picture
 
 # 2. Install package
-<a id="markdown-install-package" name="install-package"></a>
 
 After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawled or wordcloud generated with `true` value. Modify these values if you want to re-run any project
 
@@ -43,6 +41,7 @@ After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawle
 [sudo] python3 -m pip install numpy
 [sudo] python3 -m pip install Pillow
 [sudo] python3 -m pip install Wordcloud
+[sudo] python3 -m pip install tabulate
 ```
 
 Install Natural Language Processing toolkit (nltk)
@@ -72,7 +71,6 @@ Using python on Windows machine require Microsoft Visual C++ Build Tools.
 [Here](https://www.nltk.org/data.html) is more about downloading nltk data
 
 # 3. Run the project:
-<a id="markdown-run-the-project" name="run-the-project"></a>
 
 ```bash
 cd rootProjectFolder
@@ -80,7 +78,6 @@ cd rootProjectFolder
 ```
 
 # 4. Debug
-<a id="markdown-debug" name="debug"></a>
 
 For debugging with Visual Studio Code:
 
