@@ -9,6 +9,7 @@
         "imshow",
         "nltk",
         "numpy",
-        "pyplot"
+        "pyplot",
+        "tablefmt"
     ]
 }

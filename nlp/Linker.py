@@ -20,8 +20,10 @@ def print_graph(relationships, siteNodes):
     for node in siteNodes:
         projectKeys.append(node)
 
-    print(tabulate(relationships, headers=projectKeys,
-                   showindex=projectKeys, tablefmt='fancy_grid'))
+    print(tabulate(relationships,
+                   headers=projectKeys,
+                   showindex=projectKeys,
+                   tablefmt='fancy_grid'))
 
 
 def getSiteKey(siteUrl):
@@ -34,6 +36,13 @@ def getSiteKey(siteUrl):
         siteName = 'agile'
 
     return siteName
+
+
+def sort_num(first, second):
+    if(first > second):
+        return second, first
+    else:
+        return first, second
 
 
 def create_link():
@@ -93,6 +102,13 @@ def create_link():
                     if node in sentence:
                         row = projectNodes[node]
                         col = projectNodes.get(siteKey)
-                        relationships[row][col].append(sentence)
+                        # relationships[row][col].append(sentence)
+                        # old_list = relationships[row][col]
+                        # old_list.append(1)
+                        # print(old_list)
+
+                        sorted_row_col = sort_num(row, col)
+
+                        relationships[sorted_row_col[0]][sorted_row_col[1]] = 1
 
     print_graph(relationships, projectNodes)
