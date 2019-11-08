@@ -1,0 +1,410 @@
+,paho,smarthome,milo,mosquitto,californium,ditto,leshan,hawkbit,kura,om2m,ponte,eclipsescada,concierge,wakaama,paho incubator,vorto,4diac,tinydtls,hono,kapua,ignite,unide,iofog,agile,keti,duttile,kuksa,kuksa,cyclonedds,thingweb,mita,hip,fog05,tahu,volttron,keyple,yasham
+paho,,,,"That said, you can easily set up a broker with Mosquitto (http://mosquitto.org/), the open source dedicated MQTT broker, if you wish.
+paho-dev
+General development discussions for paho project
+paho.incubator-dev
+paho.incubator developer discussions
+paho.incubator community discussions",,,,,"paho.incubator community discussions
+paho-dev
+General development discussions for paho project
+paho.incubator-dev
+paho.incubator developer discussions",,,,,,"paho
+paho.incubator-dev
+paho.incubator/org.eclipse.paho.mqtt.lua -
+git://git.eclipse.org/gitroot/paho.incubator/org.eclipse.paho.mqtt.lua.git
+paho.incubator/smidge - An MQTT-SN client and gateway...
+git://git.eclipse.org/gitroot/paho.incubator/smidge.git",,,,,,,,,,,,,,,,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+paho-dev
+General development discussions for paho project
+paho.incubator-dev
+paho.incubator developer discussions
+paho.incubator community discussions",,,,,
+smarthome,,,,smarthome-dev,,,,,smarthome-dev,,,,,,,,,tinydtls,,,,,,,,,,,,,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+Buildship
+project_hip [archived]
+smarthome-dev",Eclipse fog05,,,,
+milo,,,,"milo community discussions
+milo-dev
+milo developer discussions",,,,,"milo community discussions
+milo-dev
+milo developer discussions",,,,,,,,Eclipse 4diac,Eclipse tinydtls,,,,,,,,,,,,,,"milo-dev
+milo developer discussions
+milo community discussions","Eclipse fog05
+Eclipse fog05",,,,
+mosquitto,,,,,,"ditto-dev
+ditto developer discussions
+ditto community discussions","leshan-dev
+leshan developer discussions","hawkbit-dev
+hawkbit developer discussions
+hawkbit community discussions","kura-dev
+mosquitto-dev
+General development discussions for the mosquitto project",om2m-dev,ponte-dev,,concierge-dev,wakaama-dev,,"vorto-dev
+vorto developer discussions
+vorto community discussions","4diac-dev
+4diac developer discussions
+4diac community discussions","tinydtls-dev
+tinydtls developer discussions
+tinydtls
+tinydtls community discussions
+tinydtls","hono-dev
+hono developer discussions
+honolulu-ec
+mosquitto_pub
+mosquitto_pub
+mosquitto_sub
+mosquitto_sub","iot-kapua-sp
+iot-kapua-sp
+kapua-dev
+kapua developer discussions
+kapua community discussions","ignite-dev
+ignite developer discussions
+ignite community discussions
+ignite community discussions","unide-dev
+unide developer discussions
+unide community discussions","iofog-dev
+iofog developer discussions
+iofog community discussions","agileuml-dev
+agileuml developer discussions
+agileuml community discussions","Supported by our member organizations, the Eclipse Foundation provides our community with Intellectual Property, Mentorship, Marketing, Event and IT Services
+Take advantage of marketing programs that target the Eclipse developer community, including advertising on eclipse.org, preferential listing on Eclipse Marketplace, exposure for commercial products on Eclipse Marketplace Client, organizing Eclipse Demo Camps, plus other programs.
+He has direct management responsibility for product development, business development, sales & marketing as well as HR, finance & controlling.
+A unique aspect of the Eclipse community and the role of the Eclipse Foundation is the active marketing and promotion of Eclipse projects and wider Eclipse ecosystem.
+To assist in the development of the Eclipse ecosystem, the Eclipse Foundation organizes a number of activities, including co-operative marketing events with Member companies,
+eclipse.org-european-marketing-wg
+Eclipse European Marketing list
+eclipse.org-member-marketing
+Member Marketing communitcations
+keti-dev
+keti developer discussions
+keti community discussions","duttile-dev
+duttile developer discussions
+duttile community discussions",,"kuksa-dev
+kuksa community discussions","cyclonedds-dev
+cyclonedds developer discussions
+cyclonedds community discussions","thingweb-dev
+thingweb developer discussions
+thingweb community discussions","With a vast ecosystem of plug-ins from an active community, do everything you want to do, without limitation.
+3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.
+For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
+mita-dev
+mita developer discussions
+mita community discussions","Eclipse Membership Benefits | The Eclipse Foundation
+Eclipse Membership
+Supported by our member organizations, the Eclipse Foundation provides our community with Intellectual Property, Mentorship, Marketing, Event and IT Services
+Discounts on sponsorship and registration fees for Eclipse Foundation events, including EclipseCon North America, EclipseCon Europe and EclipseCon France.
+Membership Prospectus
+Learn about Eclipse Foundation membership, and how you can become a member.
+Contact us about membership
+We encourage corporate users of Eclipse technologies to support the community by becoming a member and/or joining the Corporate Sponsorship Program.
+“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+Membership Agreement:
+The Membership Agreement describes the rights and responsibilities for each class of member in the Eclipse Foundation.
+membership (at) eclipse.org
+Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+You may add additional accurate notices of copyright ownership.
+Membership
+As part of this process, the Foundation organizes member community reviews for projects to ensure consistent interaction between the projects and the broader membership.
+Eclipse project_hip [archived]
+Membership
+buildship-dev
+buildship developer discussions
+Buildship
+buildship community discussions
+Eclipse Membership and Committer List
+eclipse.org-membership-at-large
+Eclipse Memberhip At Large
+eclipse.org-project-leadership
+JakartaEE Spec Project Leadership discussions
+Buildship plug-in: Cannot complete the install because of a conflicting dependency.
+project_hip [archived]
+hip community discussions
+Buildship
+project_hip [archived]
+hip community discussions
+mosquitto-dev
+General development discussions for the mosquitto project","Eclipse fog05
+fog05-dev
+fog05 developer discussions
+Eclipse fog05
+fog05 community discussions
+Eclipse fog05","tahu community discussions
+tahu-dev
+tahu developer discussions","volttron community discussions
+volttron-dev
+volttron developer discussions","keyple-dev
+keyple developer discussions
+keyple community discussions",
+californium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ditto,,,,,,,,,"ditto community discussions
+ditto-dev
+ditto developer discussions",,,,,,,,,tinydtls,,,,,,,,,,,,,"3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.
+For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+You may add additional accurate notices of copyright ownership.
+Eclipse project_hip [archived]
+Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+Buildship
+project_hip [archived]
+ditto-dev
+ditto developer discussions
+ditto community discussions","Eclipse fog05
+Eclipse fog05",,,,
+leshan,,,,,,,,,"leshan-dev
+leshan developer discussions",,,,,"""./lwm2mclient -4 -h leshan.eclipse.org""",,,4days of 4diac,,,,,,,,,,,,,,,"Membership
+Membership Benefits
+leshan-dev
+leshan developer discussions",,,,,
+hawkbit,,,,,,,,,"hawkbit community discussions
+hawkbit-dev
+hawkbit developer discussions",,,,,,,,,,,,,,,A more charming argument for software update is that it enables agile development for hardware and hardware near development.,,,,kuksa-hawkbit - Barebone API for connecting with Hawkbit.,,,,"Shipping for instance a Linux powered device connected to the Internet without any security updates ever applied during its lifetime is kind of a suicidal act these days.
+Apps) without the need to design, manufacture and ship a new device (revision).
+: connect millions of devices and ship terabytes of software on a global scale.
+hawkbit-dev
+hawkbit developer discussions
+hawkbit community discussions",,,,,
+kura,,,,,,,,,,om2m-dev,ponte-dev,,concierge-dev,wakaama-dev,,"vorto community discussions
+vorto-dev
+vorto developer discussions","4diac community discussions
+4diac-dev
+4diac developer discussions","tinydtls
+tinydtls community discussions
+tinydtls-dev
+tinydtls developer discussions","hono-dev
+hono developer discussions
+honolulu-ec","kapua community discussions
+iot-kapua-sp
+iot-kapua-sp
+kapua-dev
+kapua developer discussions
+mqtts connection not working with kapua/kura
+changing the default password for kura-sys
+connecting kura with kapua","ignite community discussions
+ignite community discussions
+ignite-dev
+ignite developer discussions","unide community discussions
+unide-dev
+unide developer discussions","iofog community discussions
+iofog-dev
+iofog developer discussions","agileuml community discussions
+agileuml-dev
+agileuml developer discussions","He has direct management responsibility for product development, business development, sales & marketing as well as HR, finance & controlling.
+A unique aspect of the Eclipse community and the role of the Eclipse Foundation is the active marketing and promotion of Eclipse projects and wider Eclipse ecosystem.
+To assist in the development of the Eclipse ecosystem, the Eclipse Foundation organizes a number of activities, including co-operative marketing events with Member companies,
+eclipse.org-european-marketing-wg
+Eclipse European Marketing list
+eclipse.org-member-marketing
+Member Marketing communitcations
+keti community discussions
+keti-dev
+keti developer discussions","duttile community discussions
+duttile-dev
+duttile developer discussions",,"kuksa community discussions
+kuksa-dev","cyclonedds community discussions
+cyclonedds-dev
+cyclonedds developer discussions","thingweb community discussions
+thingweb-dev
+thingweb developer discussions","For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
+3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.
+mita community discussions
+mita-dev
+mita developer discussions","Membership Agreement:
+The Membership Agreement describes the rights and responsibilities for each class of member in the Eclipse Foundation.
+membership (at) eclipse.org
+Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+Membership
+As part of this process, the Foundation organizes member community reviews for projects to ensure consistent interaction between the projects and the broader membership.
+Membership
+“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+You may add additional accurate notices of copyright ownership.
+Eclipse project_hip [archived]
+Buildship
+buildship community discussions
+buildship-dev
+buildship developer discussions
+Eclipse Membership and Committer List
+eclipse.org-membership-at-large
+Eclipse Memberhip At Large
+eclipse.org-project-leadership
+JakartaEE Spec Project Leadership discussions
+project_hip [archived]
+hip community discussions
+hip community discussions
+kura-dev","Eclipse fog05
+Eclipse fog05
+fog05 community discussions
+fog05-dev
+fog05 developer discussions","tahu community discussions
+tahu-dev
+tahu developer discussions","volttron community discussions
+volttron-dev
+volttron developer discussions","keyple community discussions
+keyple-dev
+keyple developer discussions",
+om2m,,,,,,,,,,,,,,Would like to create a temperature sensor for LwM2M client using wakaama implementation,,,,tinydtls,OSGi rules are used to resolve project dependencies and package visibility restrictions are honoured by the OSGi-aware JDT-based compiler plugin.,,,,,,,,,,,,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+Buildship
+project_hip [archived]
+om2m-dev",Eclipse fog05,,,,
+ponte,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ponte-dev,,,,,
+eclipsescada,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+membership (at) eclipse.org",,,,,
+concierge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,concierge-dev,,,,,
+wakaama,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,wakaama-dev,,,,,
+paho incubator,,,,,,,,,,,,,,,,,Eclipse 4diac,Eclipse tinydtls,,,,,,,,,,,,,,,"Eclipse fog05
+Eclipse fog05",,,,
+vorto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+vorto-dev
+vorto developer discussions
+vorto community discussions",,,,,
+4diac,,,,,,,,,,,,,,,,,,Eclipse 4diac,,,Eclipse 4diac,,Eclipse 4diac,,Eclipse 4diac,Eclipse 4diac,,Eclipse 4diac,Eclipse 4diac,Eclipse 4diac,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
+Eclipse 4diac","Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+4diac-dev
+4diac developer discussions
+4diac community discussions",Eclipse 4diac,Eclipse 4diac,Eclipse 4diac,Eclipse 4diac,Eclipse 4diac
+tinydtls,,,,,,,,,,,,,,,,,,,,tinydtls,Eclipse tinydtls,,Eclipse tinydtls,,Eclipse tinydtls,Eclipse tinydtls,,Eclipse tinydtls,Eclipse tinydtls,Eclipse tinydtls,Eclipse tinydtls,"tinydtls-dev
+tinydtls developer discussions
+tinydtls
+tinydtls community discussions","Eclipse fog05
+Eclipse fog05
+Eclipse tinydtls",Eclipse tinydtls,Eclipse tinydtls,Eclipse tinydtls,Eclipse tinydtls
+hono,,,,,,,,,,,,,,,,,,,,,,,"Fixed regression where Ports public directive was not honored
+Fixed regression where Ports public directive was not honored",,,,,,,,"3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.","“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+You may add additional accurate notices of copyright ownership.
+Eclipse project_hip [archived]
+hono-dev
+hono developer discussions
+honolulu-ec",Eclipse fog05,,,,
+kapua,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"What are the limitations?
+Where are the limitations of Kapua?","Buildship
+project_hip [archived]
+iot-kapua-sp
+iot-kapua-sp
+kapua-dev
+kapua developer discussions
+kapua community discussions",Eclipse fog05,,,,
+ignite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ignite-dev
+ignite developer discussions
+ignite community discussions
+ignite community discussions","Eclipse fog05
+Eclipse fog05",,,,
+unide,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","Nowadays, brand new machines and software are often shipped with powerful communication capabilities.
+Doing so necessarily requires Us to maintain records of authorship related to all contributions.
+Business Relationships
+unide-dev
+unide developer discussions
+unide community discussions",,,,,
+iofog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"The project leadership certifies that the APIs in this release are ""Eclipse Quality"".
+The project leadership certifies that the APIs in this release are ""Eclipse Quality"".
+iofog-dev
+iofog developer discussions
+iofog community discussions","Eclipse fog05
+Eclipse fog05",,,,
+agile,,,,,,,,,,,,,,,,,,,,,,,,,,,,We really enjoyed hosting @EclipseCon France these neat research projects and their representatives @Appstacle @agile_iot @AMASSproject @crossminer @gemocinitiative @stamp_project.,,,,"allows the generation of partnership to speed-up the go-to-market strategy in new markets for FlairBit.
+Since a subcontractor that would carry out part of the work of the project would work without the direct supervision of your organisation and without a relationship of subordination, subcontracting can only be allowed for non-core task (e.g.
+One-chip color area sensor
+One-chip color area sensor
+questioned our relationship with objects in a near future
+allows the generation of partnership to speed-up the go-to-market strategy in new markets for FlairBit.
+It’s flagship product
+It’s flagship product
+allows the generation of partnership to speed-up the go-to-market strategy in new markets for FlairBit.
+allows the generation of partnership to speed-up the go-to-market strategy in new markets for FlairBit.
+allows the generation of partnership to speed-up the go-to-market strategy in new markets for FlairBit.
+allows the generation of partnership to speed-up the go-to-market strategy in new markets for FlairBit.
+“Still touchable?” explores our relationships to information.
+The physical relationships we had with the media, such as letters, postcards, newspapers, CD, which started to disappear as the touch, feel, memories and emotions we had with them are disappearing.
+Encountering this paradox of existence, we invite people to reflect on our physical relationship to the information: Who replaced our bookstores, record shop and post offices?
+Can we recuperate our physical relationships with the information nowadays?
+questioned our relationship with objects in a near future
+As an active collaborator with medical professionals, he led doctors in a 3D medical data visualization venture at The University of California San Francisco entrepreneurship program.
+questioned our relationship with objects in a near future
+questioned our relationship with objects in a near future
+questioned our relationship with objects in a near future
+One-chip color area sensor
+agileuml-dev
+agileuml developer discussions
+agileuml community discussions",,,,,
+keti,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Supported by our member organizations, the Eclipse Foundation provides our community with Intellectual Property, Mentorship, Marketing, Event and IT Services
+Take advantage of marketing programs that target the Eclipse developer community, including advertising on eclipse.org, preferential listing on Eclipse Marketplace, exposure for commercial products on Eclipse Marketplace Client, organizing Eclipse Demo Camps, plus other programs.
+He has direct management responsibility for product development, business development, sales & marketing as well as HR, finance & controlling.
+A unique aspect of the Eclipse community and the role of the Eclipse Foundation is the active marketing and promotion of Eclipse projects and wider Eclipse ecosystem.
+To assist in the development of the Eclipse ecosystem, the Eclipse Foundation organizes a number of activities, including co-operative marketing events with Member companies,
+eclipse.org-european-marketing-wg
+Eclipse European Marketing list
+eclipse.org-member-marketing
+Member Marketing communitcations
+keti-dev
+keti developer discussions
+keti community discussions","Eclipse fog05
+Eclipse fog05",,,"It manages the advanced security features of Calypso but is also able to manage non-Calypso smartcard solutions, for ticketing or payment.
+Ticketing applications relies on a high-level
+Allows the cast of ReaderPlugin & SeReader native classes: could cause a misusage of the API by ticketing application.
+Allows the cast of ReaderPlugin & SeReader native classes: could cause a misusage of the API by ticketing application.",
+duttile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Coordinate External Manufacturing, managing the relationship with the external manufacturing team responsible for implementing the Smart Things:
+duttile-dev
+duttile developer discussions
+duttile community discussions","Eclipse fog05
+Eclipse fog05",,,,
+kuksa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kuksa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"kuksa-dev
+kuksa community discussions","Eclipse fog05
+Eclipse fog05",,,,
+cyclonedds,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"cyclonedds-dev
+cyclonedds developer discussions
+cyclonedds community discussions","Eclipse fog05
+Eclipse fog05",,,,
+thingweb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"thingweb-dev
+thingweb developer discussions
+thingweb community discussions","Eclipse fog05
+Eclipse fog05",,,,
+mita,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It allows the creation of trace links between arbitrary artefacts, provides features to edit them and keep them consistent, and visualise the relationships between them.
+Combining declarative configuration and powerful language features with code generation enables projects to scale their deployment over quantity - from the first prototype to shipping thousands of devices.
+Bosch Connected Devices and Solutions has shipped Mita in three iterations of its XDK Workbench for their freely programmable IoT device ""Cross Domain Development Kit"" (XDK) so far and continues to support and use it.
+Combining declarative configuration and powerful language features with code generation enables projects to scale their deployment over quantity - from the first prototype to shipping thousands of devices.
+3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.
+With a vast ecosystem of plug-ins from an active community, do everything you want to do, without limitation.
+For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
+The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
+mita-dev
+mita developer discussions
+mita community discussions","Eclipse fog05
+Eclipse fog05
+The cloud-centric paradigm quickly shows its limitations in the context of Industrial IoT (IIoT) and in general with Cyber Physical Systems (CPS).
+Fog computing has emerged as an architectural approach to deal with the limitations exposed by cloud-centric architectures in the context of CPS and IIoT applications.",,,,
+hip,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Eclipse fog05
+fog05-dev
+fog05 developer discussions
+Eclipse fog05
+fog05 community discussions","tahu-dev
+tahu developer discussions
+tahu community discussions","volttron-dev
+volttron developer discussions
+volttron community discussions","keyple-dev
+keyple developer discussions
+keyple community discussions",
+fog05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Eclipse fog05
+Eclipse fog05","Eclipse fog05
+Eclipse fog05","Eclipse fog05
+Eclipse fog05","Eclipse fog05
+Eclipse fog05"
+tahu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+volttron,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+keyple,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+yasham,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

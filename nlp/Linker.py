@@ -4,6 +4,7 @@ from model.SiteNode import SiteNode
 from helpers.ProjectHelper import ProjectHelper
 from tabulate import tabulate
 from nltk.tokenize import sent_tokenize
+import pandas
 
 dataPath = './data/scrapy/'
 defaultEncoding = 'utf-8'
@@ -48,6 +49,7 @@ def sort_num(first, second):
 def create_link():
     projectNodes = {}
     relationships = []
+    projectNames = []
 
     filePath = './data/sitelist.json'
 
@@ -57,34 +59,28 @@ def create_link():
     index = 0
     for site in siteDataList:
         siteKey = getSiteKey(site.SiteUrl)
-        # siteNode = SiteNode(index, siteKey)
-        # siteNode = {siteKey: index}
 
-        # TODO: REMOVE AFTER DEBUG
-        if(index > 5):
-            break
+        # # TODO: REMOVE AFTER DEBUG
+        # if(index > 5):
+        #     break
 
-        # projectNodes.update({siteKey: index})
         projectNodes[siteKey] = index
+        projectNames.append(siteKey)
         index += 1
-
-    for siteNode in projectNodes:
-        relationships.append([[]] * len(projectNodes))
 
     print("End creating connected graph")
 
-    print_graph(relationships, projectNodes)
-
     # analyze
     index = 0
+    dataFrame = pandas.DataFrame(columns=projectNames, index=projectNames)
 
     for site in siteDataList:
 
-        # TODO: REMOVE AFTER DEBUG
-        if(index > 5):
-            break
-        else:
-            index += 1
+        # # TODO: REMOVE AFTER DEBUG
+        # if(index > 5):
+        #     break
+        # else:
+        #     index += 1
 
         projectName = ProjectHelper.getProjectName(site.SiteUrl)
         siteKey = getSiteKey(site.SiteUrl)
@@ -102,13 +98,15 @@ def create_link():
                     if node in sentence:
                         row = projectNodes[node]
                         col = projectNodes.get(siteKey)
-                        # relationships[row][col].append(sentence)
-                        # old_list = relationships[row][col]
-                        # old_list.append(1)
-                        # print(old_list)
 
-                        sorted_row_col = sort_num(row, col)
+                        sorted_row_col = sort_num(col, row)
+                        stringToAppend = ""
+                        if pandas.isna(dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]]):
+                            dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]] = ''
+                            stringToAppend = sentence
+                        else:
+                            stringToAppend = dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]] + '\n' + sentence
 
-                        relationships[sorted_row_col[0]][sorted_row_col[1]] = 1
+                        dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]] = stringToAppend
 
-    print_graph(relationships, projectNodes)
+    dataFrame.to_csv('./data/nlp/connections.csv')

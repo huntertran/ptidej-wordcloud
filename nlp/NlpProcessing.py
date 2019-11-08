@@ -19,13 +19,17 @@ resultedDataPath = './data/nlp/result/'
 
 
 def loadRawDataFile(projectName):
-    with open(dataPath + projectName + '.txt', 'r', encoding=defaultEncoding) as dataFile:
+    with open(dataPath + projectName + '.txt',
+              'r',
+              encoding=defaultEncoding) as dataFile:
         return dataFile.readlines()
 
 
 def getProgrammingLanguageList():
     programmingLanguages = []
-    with open('./data/nlp/programming_languages.txt', 'r', encoding=defaultEncoding) as programmingLanguagesFile:
+    with open('./data/nlp/programming_languages.txt',
+              'r',
+              encoding=defaultEncoding) as programmingLanguagesFile:
         lines = programmingLanguagesFile.readlines()
         for line in lines:
             programmingLanguages.append(line.strip('\n'))
@@ -34,7 +38,9 @@ def getProgrammingLanguageList():
 
 def combineStopwords(projectName):
     customizedStopwords = []
-    with open('./data/nlp/customized_stopwords.txt', 'r', encoding=defaultEncoding) as customizedStopwordsFile:
+    with open('./data/nlp/customized_stopwords.txt',
+              'r',
+              encoding=defaultEncoding) as customizedStopwordsFile:
         customizedStopwords = customizedStopwordsFile.readlines()
         for index, word in enumerate(customizedStopwords):
             customizedStopwords[index] = word.strip('\r').strip('\n')
