@@ -1,0 +1,15 @@
+@startuml stemmed_word
+
+class StemmedWord
+
+class UnStemmed {
+    word: String
+    count: Integer
+}
+
+StemmedWord "1"--|>"many" UnStemmed
+
+
+hide empty members
+
+@enduml
