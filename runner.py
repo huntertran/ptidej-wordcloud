@@ -10,7 +10,9 @@ try:
             'crawl',
             'generic',
             '-a'
-            'site_url=0,0,https://www.eclipse.org/paho/'
+            'siteUrl=https://www.eclipse.org/paho/',
+            '-a'
+            'crawlDepthLevel=0'
             # '-o',
             # 'out.json'
         ]

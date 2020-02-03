@@ -3,6 +3,7 @@ import re
 from scrapy.loader import ItemLoader
 from scrapy.http.response.text import TextResponse
 from ptidejWordcloud.items import WordcloudItem
+from helpers.ProjectHelper import ProjectHelper
 
 
 class GenericSpider(scrapy.Spider):
@@ -17,6 +18,7 @@ class GenericSpider(scrapy.Spider):
         request.cb_kwargs['projectRoot'] = self.extractProjectRoot(siteUrl)
         request.cb_kwargs['level'] = crawlDepthLevel
         request.cb_kwargs['current_level'] = 0
+        request.cb_kwargs['project_name'] = ProjectHelper.getProjectName(siteUrl)
 
         yield request
 
@@ -27,32 +29,35 @@ class GenericSpider(scrapy.Spider):
     def extractProjectRoot(self, url):
         fragments = url.split('/')
         root = fragments[0] + "//" + fragments[2]
-        
+
         if len(fragments) == 3:
             return root
         else:
             return root + '/' + fragments[3]
 
-    def parseRootUrl(self, response, root, projectRoot, level, current_level):
+    def parseRootUrl(self, response, root, projectRoot, level, current_level, project_name):
         urls = response.selector.xpath("//a/@href").getall()
 
         for url in urls:
             if url.startswith('#') == False:
                 urlToScrap = self.buildUrl(root, url)
                 if root in urlToScrap:
+                    # if root in urlToScrap and project_name in urlToScrap.lower():
+                    # if project_name in urlToScrap.lower():
                     request = self.buildRequest(
                         root,
                         projectRoot,
                         urlToScrap,
                         level,
-                        current_level)
+                        current_level,
+                        project_name)
 
                     yield request
 
         for item in self.parseUrl(response, projectRoot):
             yield item
 
-    def buildRequest(self, root, projectRoot, url, level, currentLevel):
+    def buildRequest(self, root, projectRoot, url, level, currentLevel, project_name):
         if level == currentLevel:
             request = scrapy.Request(url, callback=self.parseUrl)
             request.cb_kwargs['projectRoot'] = projectRoot
@@ -61,7 +66,8 @@ class GenericSpider(scrapy.Spider):
             request.cb_kwargs['root'] = root
             request.cb_kwargs['projectRoot'] = projectRoot
             request.cb_kwargs['level'] = level
-            request.cb_kwargs['current_level'] = currentLevel + 1
+            request.cb_kwargs['current_level'] = currentLevel + 1,
+            request.cb_kwargs['project_name'] = project_name
         return request
 
     def buildUrl(self, root, url):
