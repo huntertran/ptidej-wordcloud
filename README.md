@@ -30,6 +30,8 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
 
 After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawled or wordcloud generated with `true` value. Modify these values if you want to re-run any project
 
+> Requirement: python 3.7 and above
+
 **Install python packages**
 
 ```bash
@@ -42,6 +44,7 @@ After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawle
 [sudo] python3 -m pip install Pillow
 [sudo] python3 -m pip install Wordcloud
 [sudo] python3 -m pip install tabulate
+[sudo] python3 -m pip install pandas
 ```
 
 Install Natural Language Processing toolkit (nltk)
