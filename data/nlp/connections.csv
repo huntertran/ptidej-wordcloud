@@ -1,5 +1,11 @@
 ,paho,smarthome,milo,mosquitto,californium,ditto,leshan,hawkbit,kura,om2m,ponte,eclipsescada,concierge,wakaama,paho incubator,vorto,4diac,tinydtls,hono,kapua,ignite,unide,iofog,agile,keti,duttile,kuksa,kuksa,cyclonedds,thingweb,mita,hip,fog05,tahu,volttron,keyple,yasham
 paho,,,,"That said, you can easily set up a broker with Mosquitto (http://mosquitto.org/), the open source dedicated MQTT broker, if you wish.
+mosquitto_pub
+mosquitto_sub
+'mosquitto_pub -t ""mosquittodemo/test"" -m ""Hi""'
+mosquitto_sub
+mosquitto
+mosquitto_sub
 paho-dev
 General development discussions for paho project
 paho.incubator-dev
@@ -13,9 +19,13 @@ paho.incubator-dev
 paho.incubator/org.eclipse.paho.mqtt.lua -
 git://git.eclipse.org/gitroot/paho.incubator/org.eclipse.paho.mqtt.lua.git
 paho.incubator/smidge - An MQTT-SN client and gateway...
-git://git.eclipse.org/gitroot/paho.incubator/smidge.git",,,,,,,,,,,,,,,,"For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively ""Material""), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
-The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.","Doing so necessarily requires Us to maintain records of authorship related to all contributions.
-Business Relationships
+git://git.eclipse.org/gitroot/paho.incubator/smidge.git",,,,,,,,,,"Marketing
+marketing@infoq.com",,,,,,This will enable a paradigm shift from legacy point-to-point protocols and the limitations of protocols like SOAP or HTTP into more loosely coupled yet determinable models.,"Eclipse has a large and diverse membership, an established industry presence, and a proven track record on technology projects.
+The Paho project will have relationships with Equinox and other Eclipse projects, including the Koneki project and other tooling projects used by embedded, enterprise and Web developers.
+Leadership
+Software Craftmanship
+is consolidating its leadership as the standard protocol for
+The chip we are using only has standard commands Fibcom
 paho-dev
 General development discussions for paho project
 paho.incubator-dev
