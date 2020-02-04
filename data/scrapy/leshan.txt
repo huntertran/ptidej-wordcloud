@@ -60,90 +60,100 @@ IDE and Tools
 Community of Projects
 Working Groups
 Copyright © 2015 The Eclipse Foundation. All Rights Reserved.
-Eclipse IoT | IoT development made simple - iot.eclipse.org
-Toggle navigation
-Getting Started
-Resources
-Sandboxes
-Technology
-Constrained Devices
-Gateways & Smart Devices
-IoT Cloud Platforms
-Open Standards
-Open Testbeds
-Browse the Projects
-Resources
-White Papers
-IoT Developer Surveys
-Case Studies
-Articles & Videos
-Market Reports
+Mailing list: leshan-dev (175 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Members
+Working Groups
+Projects
 Community
-News
+Marketplace
 Events
-Open IoT Challenge
-Virtual IoT Meetup
-Membership
-Join Eclipse IoT
-Member Testimonials
-Membership Benefits
-Explore Our Members
-Open Source
-for
-IoT
-Eclipse IoT provides the technology needed to build IoT Solutions.
-Constrained Devices
-Gateways
-Cloud Platforms
-Standards
-Implementations of IoT standards like MQTT, CoAP, LWM2M and OneM2M
-Open Testbeds
-Solutions based on open source & commercial software from our member ecosystem
-All projects
-Check out all our IoT open source projects
-Community
-Latest News
-/ Sep 10, 2019 /
-From building blocks to IoT solutions
-The Eclipse IoT ecosystem consists of around 40 different projects, ranging from embedded devices, to IoT gateways and up to cloud scale solutions. Many of those projects stand alone as “building blocks”, rather than ready to run solutions.
-/ Jun 28, 2019 /
-Registration is now open for EclipseCon Europe 2019!
-Registration is now open for EclipseCon Europe 2019 in Ludwigsburg, Germany, October 21-24. We’re using a new registration system for 2019, and the process is notably different from previous years. Even if this is not your first EclipseCon Europe, please read the detailed instructions on the registration page. Happy registering!
-/ Jun 27, 2019 /
-The latest IoT Newsletter is here!
-Welcome to the second issue of the Eclipse IoT Newsletter for 2019, a newsletter tailored to share Eclipse IoT community and industry news.
-/ Jun 25, 2019 /
-Eclipse ioFog: Evolving Toward Native Kubernetes Orchestration at the Edge
-The Eclipse Foundation is excited to support the announcement of the initial availability of ioFog features that make any Kubernetes distribution edge-aware.
-More News
-Submit News
-Stay in touch
-Subscribe to our newsletter
-Subscribe
-Upcoming events
-Eclipse Keyple Meet up
-October 17, 2019
-Paris, France
-EclipseCon Europe 2019
-October 21-24, 2019
-Ludwigsburg, Germany
-4days of 4diac
-November 11-14, 2019
-Linz, Austria
-More Events
-Submit Events
-Resources
-Case Studies
-White Papers
+Planet Eclipse
 Newsletter
-Virtual IoT Meetup
-Working Group
-The
-Eclipse IoT Working Group
-is an industry collaboration of companies who invest and promote an open source community for IoT.
-Join Us
-!
-Ecosystem
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: leshan-dev
+(175 subscribers)
+leshan developer discussions
+About leshan-dev
+leshan developer discussions
+Using leshan-dev
+To post a message to all the list members, send email to
+leshan-dev@eclipse.org
+. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
+leshan-dev Archives
+or subscribe to this list's
+RSS feed
+Subscribing leshan-dev
+All contributions you make to our web site are governed by our
+Terms Of Use
+. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
+Privacy Policy
+.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the
+Mailing List
+page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: leshan-dev
+RSS Feed
+Archive
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
 About Us
 Contact Us
@@ -169,5 +179,7 @@ IDE and Tools
 Community of Projects
 Working Groups
 Research@Eclipse
+Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

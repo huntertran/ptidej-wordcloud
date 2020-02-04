@@ -20,1526 +20,238 @@ State management for digital twins
 Differ between reported (last known), desired (target) and current state (live) of devices, including support for synchronization and publishing of state changes.
 Organize your set of digital twins
 Who's using Eclipse Ditto?
-©2019 Eclipse Ditto. Site last generated: Sep 19, 2019
+©2020 Eclipse Ditto. Site last generated: Jan 31, 2020
 > Privacy Policy
 > Terms of Use
 > Copyright Agent
 > Legal
 > License
 > Report a Vulnerability
-Eclipse Public License 2.0 | The Eclipse Foundation
+Dashboard [Jenkins]
+var isRunAsTest=false; var rootURL="/ditto"; var resURL="/ditto/static/27718d45";
+crumb.init("Jenkins-Crumb", "7e87d1d8f2528fc8def15dc9aec3605016afda0192dbd2c8b340eb8c16d4a528");
+var Q=jQuery.noConflict()
+Skip to content
+log in
+createSearchBox("/ditto/search/");
+ENABLE AUTO REFRESH
+Jenkins
+People
+Build History
+Project Relationship
+Check File Fingerprint
+Build Queue
+No builds in the queue.
+refreshPart('buildQueue',"/ditto/ajaxBuildQueue");
+Build Executor Status
+refreshPart('executors',"/ditto/ajaxExecutors");
+All
+S
+W
+Name
+Last Success
+Last Failure
+Last Duration
+W
+Description
+%
+Build stability: 1 out of the last 5 builds failed.
+80
+Test Result: 0 tests failing out of a total of 7,371 tests.
+100
+ditto
+-ci
+13 hr -
+#517
+3 days 11 hr -
+#515
+38 min
+W
+Description
+%
+Build stability: 4 out of the last 5 builds failed.
+20
+ditto
+-client
+-java
+-ci
+13 days -
+#44
+12 hr -
+#46
+2 min 49 sec
+W
+Description
+%
+Build stability: 1 out of the last 5 builds failed.
+80
+Test Result: 0 tests failing out of a total of 210 tests.
+100
+ditto
+-client
+-java
+-release
+1 mo 23 days -
+1.0.0
+3 mo 1 day -
+1.0.0-M2
+4 min 55 sec
+W
+Description
+%
+Build stability: 3 out of the last 5 builds failed.
+40
+ditto
+-client
+-javascript
+-ci
+11 days -
+#886
+12 days -
+#884
+7 min 25 sec
+W
+Description
+%
+Build stability: 2 out of the last 5 builds failed.
+60
+ditto
+-client
+-javascript
+-release
+1 mo 23 days -
+1.0_1.0.0
+1 mo 23 days -
+1.0_1.0.0
+4 min 57 sec
+W
+Description
+%
+Test Result: 0 tests failing out of a total of 7,221 tests.
+100
+Build stability: No recent builds failed.
+100
+ditto
+-release
+1 mo 23 days -
+1.0.0
+4 mo 19 days -
+1.0.0-M1 ​- ​Maven ​Central ​publishing
+1 hr 11 min
+W
+Description
+%
+Build stability: No recent builds failed.
+100
+ditto
+-website
+-build
+-and
+-deploy
+3 days 11 hr -
+#12
+11 days -
+#4
+6 min 5 sec
+W
+Description
+%
+Build stability: No recent builds failed.
+100
+update
+-github
+-ssh
+-key
+1 yr 4 mo -
+Index of ditto-dev for January 2020
 Skip to main content
-Log in
+Edit my account
 Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Eclipse Public License 2.0
-Eclipse Public License - v 2.0
-THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (“AGREEMENT”). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
-1. DEFINITIONS
-“Contribution” means:
-a) in the case of the initial Contributor, the initial content Distributed under this Agreement, and
-b) in the case of each subsequent Contributor:
-i) changes to the Program, and
-ii) additions to the Program;
-where such changes and/or additions to the Program originate from and are Distributed by that particular Contributor. A Contribution “originates” from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include changes or additions to the Program that are not Modified Works.
-“Contributor” means any person or entity that Distributes the Program.
-“Licensed Patents” mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
-“Program” means the Contributions Distributed in accordance with this Agreement.
-“Recipient” means anyone who receives the Program under this Agreement or any Secondary License (as applicable), including Contributors.
-“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
-“Modified Works” shall mean any work in Source Code or other form that results from an addition to, deletion from, or modification of the contents of the Program, including, for purposes of clarity any new file in Source Code form that contains any contents of the Program. Modified Works shall not include works that contain only declarations, interfaces, types, classes, structures, or files of the Program solely in each case in order to link to, bind by name, or subclass the Program or Modified Works thereof.
-“Distribute” means the acts of a) distributing or b) making available in any manner that enables the transfer of a copy.
-“Source Code” means the form of a Program preferred for making modifications, including but not limited to software source code, documentation source, and configuration files.
-“Secondary License” means either the GNU General Public License, Version 2.0, or any later versions of that license, including any exceptions or additional permissions as identified by the initial Contributor.
-2. GRANT OF RIGHTS
-a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, Distribute and sublicense the Contribution of such Contributor, if any, and such Derivative Works.
-b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in Source Code or other form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.
-c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to Distribute the Program, it is Recipient's responsibility to acquire that license before distributing the Program.
-d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
-e) Notwithstanding the terms of any Secondary License, no Contributor makes additional grants to any Recipient (other than those set forth in this Agreement) as a result of such Recipient's receipt of the Program under the terms of a Secondary License (if permitted under the terms of Section 3).
-3. REQUIREMENTS
-3.1 If a Contributor Distributes the Program in any form, then:
-a) the Program must also be made available as Source Code, in accordance with section 3.2, and the Contributor must accompany the Program with a statement that the Source Code for the Program is available under this Agreement, and informs Recipients how to obtain it in a reasonable manner on or through a medium customarily used for software exchange; and
-b) the Contributor may Distribute the Program under a license different than this Agreement, provided that such license:
-i) effectively disclaims on behalf of all other Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;
-ii) effectively excludes on behalf of all other Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;
-iii) does not attempt to limit or alter the recipients' rights in the Source Code under section 3.2; and
-iv) requires any subsequent distribution of the Program by any party to be under a license that satisfies the requirements of this section 3.
-3.2 When the Program is Distributed as Source Code:
-a) it must be made available under this Agreement, or if the Program (i) is combined with other material in a separate file or files made available under a Secondary License, and (ii) the initial Contributor attached to the Source Code the notice described in Exhibit A of this Agreement, then the Program may be made available under the terms of such Secondary Licenses, and
-b) a copy of this Agreement must be included with each copy of the Program.
-3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.
-4. COMMERCIAL DISTRIBUTION
-Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (“Commercial Contributor”) hereby agrees to defend and indemnify every other Contributor (“Indemnified Contributor”) against any losses, damages and costs (collectively “Losses”) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
-For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
-5. NO WARRANTY
-EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE PROGRAM IS PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
-6. DISCLAIMER OF LIABILITY
-EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-7. GENERAL
-If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
-If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
-All Recipient's rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient's rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient's obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
-Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be Distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to Distribute the Program (including its Contributions) under the new version.
-Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved. Nothing in this Agreement is intended to be enforceable by any entity that is not a Contributor or Recipient. No third-party beneficiary rights are created under this Agreement.
-Exhibit A – Form of Secondary Licenses Notice
-Simply including a copy of this Agreement, including this Exhibit A is not sufficient to license the Source Code under Secondary Licenses.
-If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.
-You may add additional accurate notices of copyright ownership.
-Eclipse Projects that Use EPL 2.0
-Eclipse Cloud Development
-Eclipse Che4z
-Eclipse Codewind
-Eclipse EMF Cloud
-Eclipse GLSP
-Eclipse Sprotty
-Eclipse Theia
-Eclipse Project
-Eclipse Equinox
-Eclipse Java development tools
-Eclipse Plug-in Development Environment
-Eclipse Platform
-Eclipse Enterprise for Java
-Jakarta Annotations
-Jakarta Concurrency
-EclipseLink
-Jakarta Enterprise Beans
-Jakarta Expression Language
-Jakarta Security
-Jakarta Server Faces
-Eclipse GlassFish
-Eclipse Grizzly
-Jakarta Interceptors
-Jakarta Authorization
-Jakarta Activation
-Jakarta EE Platform
-Jakarta Stable APIs
-Eclipse Jakarta EE TCK
-Jakarta Authentication
-Jakarta RESTful Web Services
-Jakarta Connectors
-Eclipse Jersey
-Jakarta Messaging
-Jakarta Persistence
-Jakarta JSON Binding
-Jakarta JSON Processing
-Jakarta Server Pages
-Jakarta Standard Tag Library
-Jakarta Transactions
-Jakarta Mail
-Eclipse Mojarra
-Jakarta NoSQL
-Eclipse OpenMQ
-Eclipse ORB
-Eclipse Foundation Website Privacy Policy | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Eclipse.org Terms of Use | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Copyright Agent | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Jakarta Servlet
-Eclipse Soteria
-Eclipse Tyrus
-Jakarta WebSocket
-Eclipse IoT
-Eclipse 4DIAC
-Eclipse Cyclone DDS
-Eclipse Ditto
-Eclipse fog05
-Eclipse project_hip [archived]
-Eclipse Hono
-Eclipse ioFog
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Mita
-Eclipse Packages
-Eclipse SmartHome
-Eclipse Tahu
-Eclipse Thingweb
-Eclipse Wakaama
-LocationTech
-Eclipse Modeling Project
-Eclipse Agile UML
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Eclipse Avsys
-Eclipse Capra
-Eclipse EMF
-Eclipse Epsilon
-Eclipse Hawk
-Eclipse eTrice
-Eclipse OCL
-Eclipse Papyrus
-Eclipse UML2
-Eclipse XSD
-Eclipse QVT-OML
-Eclipse QVTd
-Eclipse VIATRA
-Eclipse Mylyn Docs
-PolarSys B612
-Eclipse Safety Framework
-PolarSys LibIMS
-PolarSys OpenCert
-PolarSys Time4Sys
-Eclipse Runtime Project
-Eclipse Vert.x
-Eclipse Science
-Eclipse StatET
-Eclipse SWTChart
-Eclipse Triquetrum
-Eclipse Service Oriented Architecture
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Community Forums: Eclipse Ditto
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Eclipse.org Terms of Use
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Eclipse Winery
-Eclipse Technology
-Eclipse APP4MC
-Eclipse Basyx
-Eclipse Bridge.IoT
-Eclipse CogniCrypt
-Eclipse Dynamic Languages Toolkit
-Eclipse Git Team Provider
-Eclipse Golo
-Eclipse Handly
-Eclipse Jemo
-Eclipse LSP4J
-Eclipse MDM|BL
-Eclipse OMR
-Eclipse OpenJ9
-Eclipse openK User Modules
-Eclipse Packager
-Eclipse Marketplace Client Project
-Eclipse Passage
-Eclipse RedDeer
-Legal Resources | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Legal
-Eclipse Foundation Website Privacy ...
-Eclipse Foundation Website Privacy Policy
-May 24, 2018
-The Eclipse Foundation, Inc. ("Eclipse Foundation", "Us" or "We") is a member-supported not-for-profit foundation which acts as the steward of our open source projects, community, and ecosystem. We are committed to our community members’ rights to privacy. We promise to share transparently all aspects of how Eclipse Foundation projects and websites work in regards to privacy, terms, and personal data, and We are in full support of efforts to ensure your protection online. We only collect your personal data with your consent, and collect only as much as We need to provide you the service you request. For example, We need your personal data to register you to one of our conferences. Each time We collect additional personal data from you We will explain what We collect, why We need it, how We use it, how long We keep it, and how We protect it.
-You can withdraw consent anytime. We will respect your wishes.
-Personal Information on Eclipse Foundation Websites
-As a platform for open source innovation and collaboration, personal information on all Eclipse Foundation websites is either meant to be shared, for example records of your contributions to our open source projects, or protected, such as your name and email address when you subscribe to our newsletter.
-Any personal data you share with Us, We protect according to this Privacy policy.
-Individual Access to Personal Information
-We will respond within 30 days to your requests to have access to your personal information collected by Us. We will promptly correct inaccuracies, as the case may be, and We will delete it and/or anonymize it upon your request. Please contact
-privacy@eclipse.org
-to make such a request.
-Information Security and Quality
-We protect the integrity of your personal information with appropriate technical and organizational measures, such as using encryption for transmission of certain forms of information, to help keep it secure, accurate, current, and complete.
-Your personal information may be stored in Canada, the European Union and the United States, always with our same high security standards.
-One of the primary purposes of the Eclipse Foundation and its websites is to enable collaborative open source software development. Doing so necessarily requires Us to maintain records of authorship related to all contributions. Any personally identifiable information collected by virtue of your contributions will be publicly available on the Internet in unencrypted form and without access restriction.
-We also offer services to our community which provide the ability for users of Eclipse software to store data on Eclipse Foundation servers through services including, but not limited to, the User Storage Service and the Automated Error Reporting Initiative. Any data stored through these services will be publicly available on the Internet in unencrypted form and without access restriction. Therefore, you should not use these services to store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available.
-Skip to main content
-Downloads
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Eclipse.org Terms of Use
-April 5, 2019
-Terms and Conditions of Use for the Eclipse Foundation Web Site and Related Services
-As used herein, the term “you” means the individual accessing this Web site, as well as any person or entity which has granted to such individual the authority to enter into this agreement on its behalf. By accessing, browsing, or using this Web site, you acknowledge that you have read, understand, and agree to be bound by these terms.
-This Web site and related services are made available by the Eclipse Foundation. All software, documentation, information and/or other materials provided on and through this Web site ("Content") and all of the related services offered by the Eclipse Foundation may be used solely under the following terms and conditions ("Terms of Use").
-This Web site may contain other proprietary notices and copyright information, the terms of which must be observed and followed. The Content on this Web site may contain technical inaccuracies or typographical errors and may be changed or updated without notice. The Eclipse Foundation may also make improvements and/or changes to the Content at any time without notice.
-Neither the Eclipse Foundation nor its members ("Members") assume any responsibility regarding the accuracy of the Content and use of the Content is at the recipient’s own risk. Neither the Eclipse Foundation nor its Members provide any assurances that any reported problems with any Content will be resolved. Except as otherwise expressly stated herein or in another applicable license, by providing the Content, neither the Eclipse Foundation nor the Members grant any licenses to any copyrights, patents or any other intellectual property rights in the Content.
-The Eclipse Foundation and the Members do not want to receive confidential information from you through this Web site and related services. Please note that any information or material sent to The Eclipse Foundation or the Members will be deemed NOT to be confidential and will be publicly available.
-You are prohibited from posting, transmitting, or storing to or from this Web site or to any service offered by the Eclipse Foundation any unlawful, threatening, libelous, defamatory, obscene, scandalous, inflammatory, pornographic, or profane material, or any other material that could give rise to any civil or criminal liability under the law.
-If you believe that Content residing or accessible on or through this Web site or any UDS infringes a copyright, please send a notice of copyright infringement to our designated agent pursuant to the procedures set forth here:
-https://www.eclipse.org/legal/copyright.php
-User Data Services ("UDS")
-CC0 1.0 Creative Commons
-license, where, for purposes of that license, the Stored Information shall constitute the “Work” and you shall be the “Affirmer”. What that means is that anybody who accesses your information on the Internet has a worldwide, unrestricted, royalty free, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer the Stored Information without any obligation to you, including any obligation of attribution.
-Eclipse reserves the right to discontinue these services at any time or to remove any specific Stored Information from owned or controlled computer systems at any time, and Eclipse does not commit to making Stored Information available at all times in the future.
-Licenses
-Except for Content available through the UDS, and except as otherwise stated herein, the Content provided on this Web site is provided under the terms and conditions of the
-Copyright Agent
-Copyright Agent
-We respect the intellectual property rights of others, and require that the people who use the Site do the same. We also maintain a policy under which the Web Site use privileges of users who are repeat infringers of intellectual property rights are terminated in appropriate circumstances. If you believe that your work has been copied in a way that constitutes copyright infringement, please forward the following information to Eclipse's Copyright Agent, designated as such pursuant to the Digital Millennium Copyright Act, 17 U.S.C. § 512(c)(2), named below:
-Your address, telephone number, and email address;
-A description of the copyrighted work that you claim has been infringed;
-A description of where the alleged infringing material is located;
-A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
-An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; and
-A statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
-Copyright Agent:
-Manager, Intellectual Property
-Eclipse Foundation, Inc.
-2934 Baseline Rd Suite 202
-Ottawa, Ontario
-Canada
-K2H 8T5
-Phone: +1.613.224.9461
-Fax: +1.212.918.1619
-Email: license@eclipse.org
-Related Links
-Legal resources
-Guide to legal documents
-Eclipse Repairnator
-Eclipse SCAVA
-Eclipse Signalling Engineering Toolbox
-Eclipse sim@openPASS
-Eclipse Sumo
-Eclipse SW360antenna
-Eclipse SystemFOCUS
-Eclipse Tools Project
-Eclipse C/C++ Development Tools
-Eclipse Corrosion
-Eclipse Dartboard
-Eclipse Linux Tools
-Eclipse LSPHub
-Eclipse PHP Development Tools
-Eclipse Parallel Tools Platform
-Eclipse Photran
-Eclipse Shellwax
-Eclipse Wild Web Developer
-Eclipse Web Tools Platform Project
-Eclipse GlassFish Tools
-About Us
-Annual Report
-Foundation
-Governance
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Clickstream Data and Cookies
-We sometimes collect anonymous information from visits and contributions to Eclipse Foundation websites to help provide better service. For example, We keep track of the domains from which people visit and We also measure visitor activity on Eclipse Foundation websites, but in ways that keep the information anonymous. This anonymous information is sometimes known as "clickstream data." We may use and aggregate this data to analyze trends and statistics and to help Us tailor our websites to better serve Eclipse participants.
-Business Relationships
-This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
-Notification of Changes
-This privacy statement was last updated on May 24, 2018. A notice will be posted on this website home page for thirty (30) days whenever this privacy statement is changed.
-Questions Regarding This Policy
-Questions regarding this Privacy policy should be directed to:
-privacy@eclipse.org
-.
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Eclipse Foundation Software User Agreement
-and those additional terms, conditions and notices referenced therein.
-If Content is licensed to you under the terms and conditions of a version of the Eclipse Public License ("
-EPL
-"), with respect to such Content, the term “Contributions” as used herein shall have the meaning provided in the EPL, and any such Contributions uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site shall be governed by the terms and conditions of the EPL and can be made available to others under the terms of the EPL.
-If Content is licensed to you under license terms and conditions other than the EPL ("Other License") with respect to such Content the term “Contributions “ as used herein shall mean any modifications, enhancements and/or other code and/or documentation related to such Content uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site, and such Contributions shall be subject to and governed by the terms and conditions of the Other License. In addition, with regard to such Contributions, you agree to provide the Contributions under the terms and conditions of the EPL, provided however that the Eclipse Foundation shall have the right to reject any Contributions if the acceptance by the Eclipse Foundation would be in any way inconsistent with the Eclipse Foundation's Intellectual Property Policy.
-In addition to the licenses granted above, you grant a non-exclusive, worldwide, perpetual, royalty-free license of all necessary rights under your copyright in and to your Contributions (the “Specification Grant”): (a) for the Eclipse Foundation (and its contributors solely as a part of Eclipse Foundation projects) to create, reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense specifications subject to the terms of the then-current
-Eclipse Foundation Specification License
-, based on or derived from the Specification Content (as defined below) and (b) for recipients of such specifications to create, reproduce, and distribute implementations thereof based on the portion of your Contributions or material derived from them in the specifications, subject to the terms of the then-current
-Eclipse Foundation Specification License
-.
-“Specification Content” is the collection of interface definitions for the application or user interfaces (“Interfaces”) provided by the work to which your Contribution was made, descriptions of the structure and semantic behavior of those Interfaces, and data formats and protocols associated with those Interfaces, all of which as are reasonably necessary to enable the development of independent implementations of those Interfaces. For the sake of clarity, Specification Content does not include implementation detail of how the Eclipse project code or your Contribution implements the Interfaces in the Specification and the Specification Grant provide above would not cover such additional material.
-To the extent you submit or otherwise make available to an Eclipse Foundation Specification Project (as that term is defined by the Intellectual Property Policy) any ideas, concepts, methods or other information, you agree that you will not assert, based on such submissions, any intellectual property rights that are essential to any implementation of the submission, against the Eclipse Foundation, its contributors, or its licensees, with respect to any implementation of such Specification (as that term is defined by the Eclipse Foundation Specification Process). To further clarify, such submissions include, but are not limited to, submissions made to any public communications channel such as an email list, forum, or bug report.
-To the extent you wish to upload, submit, or otherwise make Non-Code Content (as defined below) available to the Eclipse Foundation and/or the Members and/or users of this Web site, you may make that material available under the terms and conditions of the EPL or any other license stipulated for that purpose at
-www.eclipse.org/legal
-. Non-Code Content is Content for which you own or control all rights, and which is not program code intended to be submitted to a Project (or documentation related to such code) and which is not Stored Information. For example, Non-Code Content would include white papers, dissertations, articles or other literary works, power point presentations, encyclopedias, anthologies, wikis, blogs, diagrams, drawings, sketches, photos or other images, audio content, video content and audiovisual materials.
-For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively "Material"), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
-You represent and warrant that to your knowledge, you have sufficient rights in the Materials to grant the foregoing rights and licenses.
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Legal Resources
-Legal resource page for the Eclipse Foundation.
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
 Donate
-Governance
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
+Members
+Working Groups
 Projects
-Forums
-Eclipse Community Forums
-Forum Search:
-Search
-Help
-Register
-Login
-Home
-Home
-»
-Eclipse Projects
-»
-Eclipse Ditto
-Show:
-Today's Messages
-All logos and trademarks contained on this Web site are and remain the property of their respective owners. No licenses or other rights in or to such logos and/or trademarks are granted to you.
-You can learn more about the
-Eclipse.org privacy practices
-on the Web.
-Disclaimers
-The Eclipse Foundation and the Members make no representations whatsoever about any other Web site that you may access through this Web site. When you access a non-Eclipse Foundation Web site, even one that may contain the organization’s name or mark, please understand that it is independent from the Eclipse Foundation, and that the Eclipse Foundation and the Members have no control over the content on such Web site. In addition, a link to a non-Eclipse Foundation Web site does not mean that the Eclipse Foundation or the Members endorse or accept any responsibility for the content, or the use, of such Web site. It is up to you to take precautions to ensure that whatever you select for your use is free of such items as viruses, worms, Trojan horses and other items of a destructive nature.
-IN NO EVENT WILL THE ECLIPSE FOUNDATION AND/OR THE MEMBERS BE LIABLE TO YOU (AN INDIVIDUAL OR ENTITY) OR ANY OTHER INDIVIDUAL OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL OR CONSEQUENTIAL DAMAGES RELATED TO ANY USE OF THIS WEB SITE, THE CONTENT, STORED INFORMATION, OR ANY OTHER HYPER LINKED WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, LOST SALES, LOST REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON YOUR OR OUR INFORMATION HANDLING SYSTEMS OR OTHERWISE, EVEN IF THE ECLIPSE FOUNDATION OR THE MEMBERS ARE EXPRESSLY ADVISED OR AWARE OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES.
-ALL CONTENT IS PROVIDED BY THE ECLIPSE FOUNDATION AND/OR THE MEMBERS ON AN "AS IS" BASIS ONLY. THE ECLIPSE FOUNDATION AND THE MEMBERS PROVIDE NO REPRESENTATIONS, CONDITIONS AND/OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT. THE ECLIPSE FOUNDATION MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SECURITY OF ANY INOFRMATION OR CONTENT STORED WITH THE ECLIPSE FOUNDATION.
-The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
-The Eclipse Foundation and the Members reserve the right to seek all remedies available at law and in equity for violations of these Terms of Use, including but not limited to the right to block access from a particular Internet address to this Web site.
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
+Community
 Marketplace
-Other
-Getting Started
-Agreement and Licenses
-Privacy and Trademarks
-Committer Agreements
-Committer Resources
-Getting Started
-The
-Guide to the Legal Documents
-provides an in-depth look at the many legal documents related to the Eclipse open source community. This content is of value to committers, contributors, redistributors of Eclipse content, developers of Eclipse-based products and users of Eclipse technologies;
-The
-Eclipse Public License
-(EPL) is the default license for Eclipse Project (please see the
-Eclipse Public License Frequently Asked Questions
-);
-The
-Eclipse Foundation Legal Frequently Asked Questions
-answers some of the commonly asked questions about Eclipse.org licensing, contributions, working as a committer, and cryptography;
-Third Party Content Licenses
-provides a list of licenses that are approved for third party content used by Eclipse projects; or
-For other questions, email:
-license@eclipse.org
-.
-Agreements and Licenses
-Web Site Terms of Use:
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-::
-Unanswered Messages
-::
-Show Polls
-::
-Message Navigator
-Topic
-Replies
-Views
-Last message
-Behaviour Modelling
-Features planned on modelling things
-By:
-Aditya Bhola
-on
-Mon, 10 December 2018
-1
-799
-Thu, 13 December 2018 06:54
-By:
-Thomas Jaeckle
-Cannot find the Concierge service container
-By:
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-By accessing, browsing or using this web site, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
-Eclipse Public License
-(EPL): The fundamental license document for the Eclipse projects and community.
-Eclipse Distribution License
-(EDL): The BSD license used by some Eclipse projects which require dual-licensing along with the EPL. Other than for
-example code or build scripts
-.
-Eclipse Contributor Agreement:
-If you are contributing code or documentation to Eclipse Foundation projects you are required to complete this agreement.
-Developer Certificate of Origin:
-If you are contributing code or documentation to Eclipse Foundation projects, and using the git signed-off-by mechanism, you are agreeing to this certificate.
-Copyright Agent:
-Contact information for the Eclipse Foundation's Copyright Agent.
-Eclipse Foundation Software User Agreement:
-By downloading builds or accessing Eclipse Foundation source code repositories, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
-Approved Licenses for Non-Code, Example, and Other Content:
-The Board of Directors has approved the use of certain licenses for specific types of content on eclipse.org.
-Eclipse Foundation Update Manager Agreement:
-If you package "downloadable features" to be installed from your web site using the Eclipse Update Manager, you must read, understand, and agree to the terms and conditions contained in this agreement.
-Jian Kong
-on
-Thu, 24 May 2018
-1
-26610
-Thu, 09 August 2018 07:20
-By:
-Thomas Jaeckle
-Goto Forum:
-- Newcomers
-Newcomers
-- Language IDEs
-AJDT
-Andmore
-C / C++ IDE (CDT)
-Che
-Java Development Tools (JDT)
-Objectteams
-Orion
-PHP Development Tools (PDT)
-Eclipse Web Tools Platform Project (WTP)
-ServerTools (WTP)
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Foundation Specification License:
-The license used by Eclipse Foundation specifications created under the Eclipse Foundation Specification Process.
-Eclipse Foundation TCK License:
-The binary license used by Technology Compatibility Kits to demonstrate compatibility with their corresponding Specifications.
-Privacy and Trademarks
-Privacy Policy:
-Your privacy is important to us. This statement discloses the information practices for this web site, including what type of information is gathered and tracked, how the information is used, and with whom the information is shared.
-Trademark Usage Guidelines:
-Guidelines on permissable use of Eclipse logos and trademarks.
-Trademark Transfer Agreement:
-Pre-existing projects which move to the Eclipse Foundation will be required to execute this agreement to ensure that the Eclipse Foundation has rights to any trademarks associated with the project name.
-Trademark Attributions:
-Content on this web site may make reference to trademarks requiring attribution.
-Committer Agreements
-Member Committer and Contributor Agreement:
-This agreement is used by Member companies to cover all of their committers participating in Eclipse projects.
-Individual Committer Agreement:
-This agreement is used by committers participating in Eclipse projects who are not covered by a Member Committer Agreement.
-2019 Re-sign Exercise
-The Eclipse Foundation has updated its standard contributor and committer agreements, and all our committers and contributors, as well as those members who have member committer agreements, will need to re-sign their agreement with us.
-New Eclipse Foundation Committer and Contributor Agreements FAQ
-Resources for Committers
-Due Diligence Process:
-This document provides a quick pictorial overview of the due diligence process.
-- Modeling
-AMP
-Amalgam
-ATL
-BPEL Designer
-Compare
-Ecore Tools
-EMF
-EMF "Technology" (Ecore Tools, EMFatic, etc)
-Epsilon
-eTrice
-Extended Editing Framework (READ ONLY)
-Eclipse Generation Factories (EGF)
-GMF (Graphical Modeling Framework)
-Graphiti
-M2T (model-to-text transformation)
-MDT (Model Development Tools)
-Modeling (top-level project)
-OCL
-Papyrus
-TMF (Xtext)
-UML2
-UML2 Tools
-XSD
-Third Party Dependencies:
-This document contains the guidelines for the review of third-party dependencies.
-Committer Guidelines:
-This document outlines the issues to be aware of and the processes one should follow when working as a committer on Eclipse.org projects. A committer is a person that has been granted commit rights to systems on the Eclipse.org servers such as git repositories, web pages, download servers, mailing lists and so forth.
-Contribution Questionnaire:
-A Contribution Questionnaires (CQ) is the main interface between Eclipse committers and the Intellectual Property Management Team. Prior to committing a significant contribution of content to an Eclipse Foundation project, the committer must fill out this questionnaire and submit it to the Eclipse Management Organization (EMO) for approval. In addition to the EMO, the relevant PMC must also provide a technical review and approval of the contribution. Follow the link to find out more about what we mean by "significant contribution". Bug fixes or minor enhancements do not require PMC or EMO approval.
-"About" Templates:
-This provides templates for the "about.html" ("About") files used to describe EPL-licensed content.
-Default Copyright and License Notice:
-The standard copyright and license notice should appear in all source files where possible. Variations on this notice may be required (for example where a license other than the EPL governs the use of the file).
-IP Logs:
-An IP Log is a record of the intellectual property contributions to a project. This includes such as a list of all committers, past and present, that have worked on the code and (especially) those who have made contributions to the current code base.
-New Committer Process:
-The process for project leads and PMC members to add additional committers to an existing project.
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-MoDisco
-Presentation Modeling Framework (PMF)
-Sphinx
-VIATRA
-Model-to-Model Transformation
-QVT-OML
-QVT-Relations
-EMF Diff/Merge
-EMF Parsley
-Eclipse Layout Kernel
-- Eclipse Projects
-4DIAC - Framework for Distributed Industrial Automation and Control
-ACTF
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Advanced Scripting Environment (EASE)
-Agile UML
-APP4MC
-Babel
-BIRT
-BPMN 2.0 Modeler
-Buckminster dev
-Buildship
-Californium (Cf) CoAP Framework
-Capra
-ChemClipse
-Cloud Application Management Framework
-Code Recommenders
-Code Recommenders Incubator
-Commercial
-Common Build Infrastructure
-Concierge
-Dali
-Dash
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Dirigible
-DSDP - Mobile Tools for Java (MTJ)
-DSDP - Real-Time Software Components (RTSC)
-DSDP - Target Management
-DTP
-Dynamic Languages Toolkit (DLTK)
-e(fx)clipse
-EATOP
-Eclipse 4
-Eclipse Advanced Visualization
-Eclipse Agail
-Eclipse Apogy
-Eclipse Avsys
-Eclipse Basyx
-Eclipse Bridge.IoT
-Eclipse Bundle Recipes
-Eclipse Cargotracker
-Eclipse Ceylon
-Eclipse Che4z
-Eclipse Codewind
-Eclipse CogniCrypt
-Eclipse Collections
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Communications Framework (ECF)
-Eclipse Corrosion
-Eclipse Crossmeter
-Eclipse Cyclone DDS
-Eclipse Dartboard
-Eclipse Deeplearning4j
-Eclipse Ditto
-Eclipse Duttile
-Eclipse EclEmma
-Eclipse EMF Cloud
-Eclipse Enterprise for Java
-Eclipse fog05
-Eclipse Formal Modeling
-Eclipse GLSP
-Eclipse Grizzly
-Eclipse Hawk
-Eclipse iceoryx
-Eclipse Implementation of JAXB
-Eclipse ioFog
-Eclipse IOTA Trinity
-Eclipse Jakarta EE Platform
-Eclipse Jakarta EE TCK
-Eclipse January
-Eclipse JDT LS
-Eclipse Jemo
-Eclipse Jersey
-Eclipse JNoSQL
-Eclipse Kapua
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Krazo
-Eclipse Kuksa
-Eclipse LSP4J
-Eclipse Metro
-Eclipse Microprofile
-Eclipse Milo
-Eclipse Mojarra
-Eclipse MRAA
-Eclipse N4JS
-Eclipse Open Standard Business Platform
-Eclipse OpenJ9
-Eclipse openK User Modules
-Eclipse OpenMQ
-Eclipse ORB
-Eclipse Packager
-Eclipse Packages
-Eclipse Papyrus for xtUML
-Eclipse Passage
-Eclipse Picasso
-Eclipse Platform
-Eclipse Project for Common Annotations
-Eclipse Project for Concurrency Utilities
-Eclipse Project for EJB
-Eclipse Project for Enterprise Security
-Eclipse Project for Expression Language
-Eclipse Project for Interceptors
-Eclipse Project for JACC
-Eclipse Project for JAF
-Eclipse Project for JASPIC
-Eclipse Project for JavaMail
-Eclipse Project for JAX-RS
-Eclipse Project for JAX-WS
-Eclipse Project for JAXB
-Eclipse Project for JCA
-Eclipse Project for JMS
-Eclipse Project for JPA
-Eclipse Project for JSON Processing
-Eclipse Project for JSON-B
-Eclipse Project for JSP
-Eclipse Project for JSTL
-Eclipse Project for JTA
-Eclipse Project for Servlet
-Eclipse Project for Stable Jakarta EE APIs
-Eclipse Project for WebSocket
-Eclipse RedDeer
-Eclipse Repairnator
-Eclipse Rich Beans
-Eclipse RT (runtime)
-Eclipse SCADA
-Eclipse Scanning
-Eclipse sensiNact
-Eclipse Shellwax
-Eclipse Signalling Engineering Toolbox
-Eclipse sim@openPASS
-Eclipse SmartHome
-Eclipse Sprotty
-Eclipse SW360
-Eclipse SW360antenna
-Eclipse SWTChart
-Eclipse SystemFOCUS
-Eclipse Tahu
-Eclipse TEA
-Eclipse TeXlipse
-Eclipse Theia
-Eclipse ThingWeb
-Eclipse Titan
-Eclipse TM4E
-Eclipse Tyrus
-Eclipse UML Generators
-Eclipse UML Profiles Repository
-Eclipse UPM
-Eclipse USS SDK
-Eclipse VOLTTRON
-Eclipse Website
-Eclipse Wild Web Developer
-Eclipse XACC
-Eclipse Xpect
-Eclipse Xsemantics
-Eclipse Yasson
-EclipseLink
-eGerrit
-EGit / JGit
-eLogbook@openk
-EPF
-EPP
-Equinox
-eRCP
-Franca
-Fundamental Modeling Concepts
-GEF
-GEF3D
-Gemini
-GEMOC Studio
-Gendoc
-GlassFish
-GlassFish Tools
-Golo
-Handly
-hawkBit
-Hono
-Hudson
-Ignite
-Ignite|IoT
-IoT-Testware
-Jakarta Activation
-Jakarta Annotations
-Jakarta Authentication
-Jakarta Authorization
-Jakarta Batch
-Jakarta Bean Validation
-Jakarta Concurrency
-Jakarta Connectors
-Jakarta Contexts and Dependency Injection
-Jakarta EE Examples
-Jakarta EE Platform
-Jakarta Enterprise Beans
-Jakarta Expression Language
-Jakarta Interceptors
-Jakarta JSON Binding
-Jakarta JSON Processing
-Jakarta Mail
-Jakarta Messaging
-Jakarta NoSQL
-Jakarta Persistence
-Jakarta RESTful Web Services
-Jakarta Security
-Jakarta Server Faces
-Jakarta Server Pages
-Jakarta Servlet
-Jakarta Stable APIs
-Jakarta Standard Tag Library
-Jakarta Transactions
-Jakarta WebSocket
-Jakarta XML Binding
-Jakarta XML Web Services
-Java Workflow Tooling
-Java WorkFlow Tooling (JWT)
-JavaServer Faces
-JDT LS
-JFace
-Jubula
-Keti
-Kura
-Libra
-Linux Tools
-Linux Tools Project
-Lua Development Tools
-Lyo
-Mangrove
-Marketplace Client Project
-Maven Integration for Web Tools Platform
-Mbeddr
-MDM|BL
-Memory Analyzer
-Mita
-Model Driven Health Tools
-Model Focusing Tools
-Mosquitto
-Mylyn
-Mylyn Builds
-Mylyn Context
-Mylyn Intent
-Mylyn Versions
-NatTable
-Nebula
-Ogee
-OM2M
-OMR
-Oomph
-openK platform
-Orbit
-OSEE
-P2
-Package Drone
-Paho
-Paho Incubator
-Papyrus for Real Time
-Platform - User Assistance (UA)
-Plugin Development Environment (PDE)
-Ponte
-project_hip [archived]
-RasterFrames
-RCP Testing Tool
-RDF4J
-Remote Application Platform (RAP)
-Remus Information Management
-Requirements Modeling Framework
-Rich Client Platform (RCP)
-Riena
-Runtime Packaging
-Runtimes
-Sapphire
-Scanning
-scout
-SeMantic Information Logistics Architecture (SMILA)
-Service Oriented Architecture
-Simultaneous release
-Sirius
-Sisu
-Skalli
-Soteria
-Spatiotemporal Epidemiological Modeler (STEM)
-Standard Widget Toolkit (SWT)
-Subversive
-SWTBot
-Target Communication Framework
-Target Management
-Technology Project and PMC
-The Eclipse Integrated Computational Environment
-Thym
-Tigerstripe
-tinydtls
-Tools for Cloud Foundry
-Trace Compass
-Triquetrum
-Turkish Users
-Unide
-UOMo
-Vert.x
-Vex
-Virgo
-Vorto
-Wakaama
-Webtools incubator
-WindowBuilder
-XML Schema Definition (XSD)
-XWT
-- General (non-technical)
-Eclipse Foundation
-Project Proposals
-Jobs and employment
-Polish users
-Test
-- Eclipse Working Groups
-Automotive IWG
-Science WG
-- Proposals
-OSGi Enterprise Tools
-Eclipse Advanced Scripting Environment (EASE)
-DAWNSci
-Eclipse Sumo
-- Archived
-Potomac
-B3
-Tiaki
-MOFScript
-secRT
-Chinese users
-AMW
-Buckminster
-ATF
-Board committer reps
-Blinki
-COBOL
-Pulsar
-Albireo
-Apricot
-Service Oriented Architecture
-GMT (Generative Modeling Technologies)
-IDE4EDU
-Damos
-AM3
-openArchitectureWare
-BPMN Modeler
-EMF Store
-EMF Client
-Apogee
-C-Sharp
-Corona
-Hibachi
-Glimmer
-Maynstall
-DSDP - Device Debugging
-DSDP - Native Application Builder (NAB)
-eBPM
-ORMF
-eBAM
-DSDP - Tools for Mobile Linux (TML)
-Eclipse aCute
-Spaces
-ScalaModules
-Visual Editor (VE)
-Textual Concrete Syntax (TCS)
-P2 dev
-Cloud Deployment Toolkit
-Memory Analyzer (MAT)
-DSDP
-COSMOS
-Esl
-OFMP
-Faceted Project Framework
-UMLX
-IAM (Eclipse Integration for Apache Maven)
-M2M (model-to-model transformation)
-OHF
-Tycho
-Sketch
-IMP
-g-Eclipse
-Eclipse HIP
-Eclipse Examples
-EMF-IncQuery
-Eclipse Process Manager (Stardust)
-Swordfish
-Maven Integration (M2E)
-Koneki
-Mihini
-Test and Performance Tools Platform (TPTP)
-Voicetools
-Sequoyah
-Xtend
-Eclipse LSP4E
-Eclipse Monkey Project
-Runtime Analysis Tools
-Service Oriented Architecture
-GEMS
-WTP - PAVE
-Service Oriented Architecture Tools Platform (STP)
-MST
-OMCW
-Silverlight Development Toolkit (SLDT)
-Woolsey
-Winery
-Higgins
-EGL Development Tools
-Service Component Architecture (SCA) Tools
-Wazaabi
-MDM WEB
-Krikkit
-Gyrex
-StatET
-Edje
-RISE V2G
-Eclipse Whiskers
-Flux
-[
-Syndicate this forum (XML)
-] [
-]
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+#2
+N/A
+0.24 sec
+Icon:
+S
+M
+L
 Legend
-New Messages
-No New messages
-Locked (w/ unread messages)
-Locked
-Moved to another forum
-Current Time:
-Sat Sep 28 21:13:12 GMT 2019
-Powered by
-FUDForum
-. Page generated in 0.01064 seconds
-.::
-Contact
-::
+RSS for all
+RSS for failures
+RSS for just latest builds
+Page generated: Feb 3, 2020 9:36:39 PM EST
+REST API
+Jenkins ver. 2.190.1
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
 Home
-::.
-Powered by: FUDforum 3.0.2.
-Copyright ©2001-2010
-FUDforum Bulletin Board Software
+Contribute
+Source code
+Index of ditto-dev for January 2020
+Index by Thread
+Index by Year
+[
+First Page
+] [
+Prev Page
+][Next Page] [
+Last Page
+]
+January 14, 2020
+[ditto-dev] Small Example of a digital twin of a Siemens S7 using PLC4X and Ditto
+Posted 12:30 by Julian Feinauer
+Mail converted by
+MHonArc
 Back to the top
-Sign up to our Newsletter
-A fresh new issue delivered monthly
 Eclipse Foundation
 About Us
 Contact Us
@@ -1565,6 +277,431 @@ IDE and Tools
 Community of Projects
 Working Groups
 Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Ditto - Sandbox
+- Sandbox
+Welcome to the Eclipse Ditto sandbox.
+You can use this sandbox to gather first experiences with the Eclipse Ditto
+HTTP API
+.
+The Swagger UI for exploring the API will require authentication.
+Visit the Eclipse Ditto
+documentation
+in order to learn more about the project.
+Please consider that this sandbox has (very) limited resources - so don't expect a high performance setup.
+Authentication
+When using the
+HTTP API
+you can authenticate with your Google account in order to use an user ID belonging to only you.
+WARNING
+: This currently won't work due to a missing feature in swagger-ui 3.x:
+swagger-ui #4084
+and due to a missing feature in Ditto that Google 'accept_token' are not supported:
+Ditto #114
+.
+Alternatively (also in order to connect to the WebSocket API) you can use one of the pre-defined user/password combinations (which may be used by anyone) and provide them via "basic auth"
+Authorization
+header:
+demo1:demo
+demo2:demo
+...
+demo9:demo
+If you create any entity, either your Google user ID or some of the "basic auth" user's ID will be added to that entity in order to authorize you work with it.
+Health
+Statistics
+persisted
+Things
+in the Ditto sandbox
+currently "hot"
+Things
+(accessed within the last 2 hours) in the Ditto sandbox
+eclipse/ditto - Gitter
+Where communities thrive
+Join over
+1.5M+ people
+Join over
+100K+ communities
+Free
+without limits
+Create
+your own community
+Explore more communities
+eclipse/ditto
+Eclipse Ditto - Digital Twins for Eclipse IoT
+People
+Repo info
+Activity
+Julian
+@JulianFeinauer
+I have another question... Are there reasons why the number of features should be limited? Or should it be fine to have a huge amount of features?
+Thomas Jaeckle
+@thjaeckle
+Hi. I don't see any reason to limit the amount. The only limitation (which is also configurable) is the total size of a thing being 100kB.
+Other IoT platforms like AWS or Azure IoT limit the digital twin size even to 8kB.
+Julian
+@JulianFeinauer
+Hey
+@thjaeckle
+thanks for the fast reply. We have an application where we calculate hourly metrics like produced amount, downtime ratio, … for large machines. How would you store that in ditto (as this would be a good gateway, I guess)
+Thomas Jaeckle
+@thjaeckle
+I would think about putting them in separate features only if e.g. different authorizations (via policies) should be applied. So eg some users or other systems may see the produced amount, other may see more metrics. Or split by components of the complete machine delivering the data, each being one feature. I guess there is no right or wrong here. If you think about using Eclipse Vorto, you might want to think about reusability of models, so that you can have machines of different vendors having features following the same Vorto Functionblock (Ditto features can be modeled
+Julian
+@JulianFeinauer
+Thanks... Indeed I am considering that and make myself comfortable with vorto a bit :)
+But it could lead to an explosion of properties if we just store hourly stats basically forever
+Atul Kumar
+@writetoatul_twitter
+can anyone share the default username and password for ditto devops
+i tried
+ditto:foobar
+devops:devopsPw1!
+But none of them worked
+Julian
+@JulianFeinauer
+If I remember correctly it's devops:foobar
+But
+@writetoatul_twitter
+I would advice you to have a look at the Bosch iot things managed service. I think this could fit you better than running ditto yourself
+Atul Kumar
+@writetoatul_twitter
+Sorry but business requirement is a local solution
+@JulianFeinauer
+that could run without internet
+ottlukas
+@ottlukas
+ok default is indeed devops:foobar and works for me in my test installation ;)
+Julian
+@JulianFeinauer
+:+1:
+Atul Kumar
+@writetoatul_twitter
+https://stackoverflow.com/questions/59817541/connecting-eclipse-hono-and-eclipse-ditto-on-same-local-machine
+Thomas Jaeckle
+@thjaeckle
+I'll quote what
+@ottlukas
+said once again, when you read carefully you should find the credentials in his answer:
+ok default is indeed devops:foobar and works for me in my test installation ;)
+Atul Kumar
+@writetoatul_twitter
+what is the minimm system requirement for ditto?
+Julian
+@JulianFeinauer
+I guess a System to run it on?
+Thomas Jaeckle
+@thjaeckle
+I would recommend 4 CPUs and min. 4GB of RAM
+Thomas Jaeckle
+@thjaeckle
+ah, that is for single instances of course - if you need a high available cluster (meaning 3 instances for each of the 6 Ditto services = 18 containers) I would recommend at least 10-12 CPUs and 12GB of RAM
+best in a Kubernetes cluster with several masters and e.g. using at least 3 worker nodes
+Florian Fendt
+@ffendt
+should we add that information to the official docs?
+Thomas Jaeckle
+@thjaeckle
+well, I just "guessed" - best would of course to try it out and get as low as possible :D
+Julian
+@JulianFeinauer
+Do you see any possibility to have an alternative backend other than Mongo db in the near future? Ideally even pluggable?
+Thomas Jaeckle
+@thjaeckle
+@JulianFeinauer
+yes and no ;)
+for the EventSourcing persistence Cassandra should be quite easy to add by additionally making use of the Akka persistence cassandra plugin:
+https://github.com/akka/akka-persistence-cassandra
+a few time ago we did a PoC and got that running
+so for the persistence we could easily have a pluggable option of MongoDB vs Cassandra
+however - the "no" part - for the search-index replacing MongoDB with Cassandra will not work (at least I'm quite sure that Cassandra is not built for doing JSON document based search queries)
+so for that part of Ditto another option to MongoDB would be Elasticsearch (which we also already positively evaluated)
+however that would be quite an effort of supporting using Elasticsearch - nothing we have on our mid-term agenda
+Julian
+@JulianFeinauer
+@thjaeckle
+thansk for the response… woudl you think that postgres could be an option with their JSON / JSONB Support (
+). My point is that Mongo and Cassandra scale well and are nice as a Service but self hosted mostly a pain in the ass
+and Good old Postgres is just simple and easy to administrate and rock solid : )
+Thomas Jaeckle
+@thjaeckle
+that could work when using persistence plugins:
+https://github.com/akka/akka-persistence-jdbc
+or
+https://github.com/WegenenVerkeer/akka-persistence-postgresql
+we as maintainers however have no interest in adding support for those, so that would have to be lead by the community and only in a way which does not break the existing persistence ;)
+Julian
+@JulianFeinauer
+So what you say is, a PR should be raather „mediocre“ amount of work and you would generally accept it, is that right
+@thjaeckle
+? :P
+Thomas Jaeckle
+@thjaeckle
+"mediocore" amount of work: yes and no :D
+for the Akka persistence it should be easy, yes (although we also have some "special queries" against MongoDB in our own codebase which would also have to get an alternative for Postgres)
+for the Search index it should be quite complex
+if you manage to get that all working w/o breaking existing stuff, we would accept a PR - but to be honest that is a big "IF" ;)
+Kai Hudalla
+@sophokles73
+Julian
+@JulianFeinauer
+@sophokles73
+thanks for the hint. I am not very used in how this is handled at eclipse or in these projects specific. But, if we would implement that then we would also use it and thus, of course maintain it. Thats way to big of a feature to do it „just for fun“. So indeed I would also welcome to be invited as a contributor in that case. And, I generally agree, that it is important to keep an eye on these things!
+Thomas Jaeckle
+@thjaeckle
+yes, thanks for the input on that
+I guees I implicitly assumed that when going through the work of such a major contribution, the contributing side already brings in some commitment to maintain "its baby" ;)
+Julian
+@JulianFeinauer
+Perhaps MongoDB is not that baaad … :D
+Yannic Klem
+@Yannic92
+:D
+Thomas Jaeckle
+@thjaeckle
+btw: Ditto can totally run with MongoDB 3.6 - if it is the new MongoDB license you are concerned about
+Julian
+@JulianFeinauer
+No its more the management. Without their Atlas service its hard administrate (backups are not easy to make) and those things
+Patrick Sernetz
+@patrickse
+I am looking for a way to list all of the configured connections from ditto. I´ve tried to look through the code and documentation but haven´t found a suitable devops command. Is there a way to list connections?
+Thomas Jaeckle
+@thjaeckle
+hi
+@patrickse
+unfortunately there is no way to do this via an API yet - it currently only is possible by doing a query against MongoDB
+We got the same question earlier in the chat and this was my answer:
+hi
+@BobClaerhout
+- that should be possible by doing a Mongo query against the
+connectivity
+database, e.g.:
+db.connection_journal.disctinct('pid')
+you could create a GitHub issue for that, I think it's a totally valid use case
+Patrick Sernetz
+@patrickse
+@thjaeckle
+great.. thanks for the feedback. I will create an issue for that request
+Patrick Sernetz
+@patrickse
+I got another question on javascript payload mapping. I´ve got a thing with 3 features and I retrieve a mqtt message which can contain 2..3 fields. I´ve tried to setup a single javascript payload mapping to just update 2 features of the 3 thing features. But I got no clue. I´ve already tried a few things:
+Return an array of ditto protocol messages from the mapper to do iterative updates on the thing, where every feature is treated as a single ditto protocol message. But it looks its not possible to return an array (would be quite handy).
+Retrieve the current state of the thing, update the fields and push the changed thing back to ditto, but I think that is not possible due to sandboxing inside the javascript mapper.
+To sum up... I just want to do a partial upgrade of a thing inside a javascript mapper.
+Thomas Jaeckle
+@thjaeckle
+hm, returning a JavaScript array with several DittoProtocol message should work, we added that prior to the Ditto 1.0.0 release
+https://www.eclipse.org/ditto/connectivity-mapping.html#mapping-incoming-messages
+does that not work for you?
+Patrick Sernetz
+@patrickse
+I will have another look.. I had something in my mind... that this should work.. but I had failure on the mapping... I will test that out..
+Thanks for the reply
+@thjaeckle
+Patrick Sernetz
+@patrickse
+@thjaeckle
+stupid me... it´s working. Got another problem with initializing headers as an array and not as an object while create the response message... Thanks a lot ;)
+now everything is fixed and working as intended
+Thomas Jaeckle
+@thjaeckle
+cool :+1:
+_
+Sign in to start talking
+window.webpackPublicPath = '//cdn02.gitter.im/_s/b4fd4d026/js/';
+Eclipse Ditto | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ditto
+Eclipse Ditto
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse Ditto is a framework for providing the "Digital Twin" pattern for IoT applications in order to interact with IoT devices.
+That means that Ditto mirrors physical devices as digital representations in the cloud.
+As a web or mobile app developer you can interact with those digital twins as if they were any other web service, that's why Ditto enables a "device as a service" paradigm.
+A few of the main features are access control, a search over all twin data and push notifications.
+There are various APIs in order to interact with the devices: an HTTP and WebSocket API, additionally the capability to integrate with other systems via AMQP, MQTT and Apache Kafka.
+Ditto scales horizontally, so managing millions of twins is what it is designed for.
+The benefit when developing IoT applications or solutions is that no own backend must be implemented, the focus can be set on the use case: for example device integration and app or web UI implementation.
+Device-as-a-Service
+IoT solutions have to interact with a heterogeneous set of device types, device protocols and communication patterns.
+To bring back simplicity to IoT developers, Eclipse Ditto exposes a unified resource-based API that can be used to interact with devices, abstracting from the complexity of different device types and how devices are connected. It helps to structure the devices
+As devices are equipped with a public API (potentially public on the Internet), it is crucial to define on a device level which individuals are allowed interact with the devices. Ditto ensures that access to the device API is only granted for authorized individuals. Authentication is not scope of Ditto and delegated to existing identity providers.
+With this approach your devices are turned into services with a hosted, always accessible and available API.
+Devices managed by Ditto are usable as easy as any of the other services (like weather, maps, ...) within your application.
+State management for Digital Twins
+A digital representation of physical devices consists at its heart of the state these devices.
+For IoT solutions the following information regarding state is most relevant:
+Device and sensor properties like temperature, location, level, fault information, etc.
+Configuration properties of sensors and actors like thresholds, intervals, ranges, toggles and limits, etc.
+A good representation of this state in a Digital Twin should support different perspectives for these properties:
+Reported property values based on the last transmission to the back end
+Desired target property value for configuration properties
+Live perspective reflecting the properties values at the current point of time
+The state management provides access to all three different perspectives and helps in synchronizing between them.
+Organize your set of Digital Twins
+When interacting with huge amounts of devices, it can get difficult to keep track of which devices and devices types are there and how they are related (e.g. spatially).
+It is wise to add meta data like e.g. manufacturer, model information, static geographic location, serial number or software version to devices in order to find them again later.
+That meta data as well as the state data is automatically indexed by Ditto which leads to fast search responses provided by the search API, even when there are millions of devices to search in.
+When working with sets of devices authorization information is used to determine the visibility of devices to individuals and control who can change device data.
+Features at a glance
+Unified resource-based HTTP JSON API representing devices
+Definition of a simple "Digital Twin State Management Protocol" using JSON for command- and events-based interaction with devices
+Websocket API based on this protocol in addition to the resource-based HTTP API
+Establishing and maintaining connections to AMQP 0.9.1, AMQP 1.0, MQTT and Apache Kafka endpoints
+Managing device meta data via APIs
+Optionally configure and enforce a schema for device state (via Eclipse Vorto)
+Schema evolution support for schema based device state
+Accessing and setting different state perspectives
+Live
+Reported
+Desired
+Notification about changes of device resources via HTTP Server-sent events (SSE)
+Authorization/Access control at device API enforcing that only allowed individuals may read/write
+Search HTTP API accepting predicate-based query language
+Emit events resulting from state changes of devices which can be used
+for building up a "transaction log" (e.g. using Apache Kafka)
+as source for stream processing (e.g. via Apache Spark Streaming)
+for building up additional persistence representations (e.g. into an InfluxDB providing optimized access to the history of a device's state properties)
+for transmitting data into data analytic tools (e.g. into an Apache Hadoop HDFS)
+Out-of-box integration with Eclipse Hono for communication with devices using standard or custom device protocols
+Integrate Ditto in a IoT landscape
+Ditto is especially useful in the context of a larger IoT landscape. In this landscape the other important aspects of a IoT solution like device communication or data analytics are covered by distinct components.
+The most important integration aspect is the device communication. This is essential for the Digital Twins to really be twins of real-world physical devices.
+In addition to provide a custom device communication layer Ditto will provide an out-of-the-box integration with Eclipse Hono to support device communication.
+In this scenario Ditto uses Eclipse Hono in order to receive messages (e.g. state changes) from devices and to send messages (e.g. configuration changes) to devices.
+Licenses:
+Eclipse Public License 2.0
+Latest Releases:
+From November 29th, 2018 to March 26th, 2020
+Name
+Date
+Review
+1.1.0
+2020-03-26
+1.0.0
+2019-12-12
+0.9.0
+2019-07-10
+0.8.0
+2018-11-29
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Website
+Documentation
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Hono
+Eclipse Vorto
+Eclipse Technology
+Eclipse OpenJ9
+Project Hierarchy:
+Eclipse IoT
+Eclipse Ditto
+Tags
+Technology Types
+Internet of Things
+Other Tags
+twin
+iot
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top

@@ -1,69 +1,60 @@
-Californium (Cf) CoAP framework
-Toggle navigation
-Californium (Cf)
-About
-Sources
+Eclipse Californium™
+Eclipse Californium
 Getting Started
-Tools
-Learn more
-iot.eclipse.org
-CoAP in Java.
-Californium is a powerful CoAP framework targetting back-end services communicating with smaller Internet of Things devices. Stronger Internet of Things devices may use Californium also. It provides a convenient API for RESTful Web services that support all of CoAP's features.
-Perfect for IoT cloud services.
-Californium has an extremely scalable architecture and outperforms high-performance HTTP servers. CoAP's low overhead allows to handle millions of IoT devices with a single service instance. The flexible concurrency model allows to implement whatever is best for your application.
-Standards compliant.
+Community
+Star
+Back to top
+Eclipse Californium™
+CoAP in Java
+CoAP in Java
+Californium is a powerful CoAP framework targeting back-end services communicating with smaller Internet of Things devices. Stronger Internet of Things devices may use Californium as well. It provides a convenient API for RESTful Web services that support all of CoAP’s features.
+Standards compliant
+Standards compliant
 Californium has been running code for the IETF and is passing all ETSI Plugtest test specifications.
-Californium (Cf) core
-The project is divided into five sub-projects. The Californium (Cf) core provides the central framework with the protocol implementation to build your Internet of Things applications. This repository also includes example projects to get you started. All Californium sources are hosted on GitHub, so you can easily contribute through pull requests.
+Perfect for IoT cloud services
+Perfect for IoT cloud services
+Californium has an extremely scalable architecture and outperforms high-performance HTTP servers. CoAP’s low overhead allows to handle millions of IoT devices with a single service instance. The flexible concurrency model allows to implement whatever is best for your application.
+Californium (Cf) Core
+The project is divided into five sub-projects. The Californium (Cf) Core provides the central framework with the protocol implementation to build your Internet of Things applications. The repository also includes example projects to get you started. All Californium sources are hosted on GitHub, so you can easily contribute through pull requests.
 Californium (Cf) is dual-licensed under EPL and EDL. The latter is a BSD-like license, which means the Cf CoAP framework can be used together with proprietary code to implement your IoT product!
-Cf is available in Maven Central and very easy to consume in your Java project. We have got your back covered from OSGi wrapper to HTTP-CoAP cross-proxy to advanced test suites that have been used at the ETSI Plugtests.
-Repository »
+Cf is available from Maven Central and very easy to consume in your Java project. We have got your back covered from OSGi wrapper to HTTP-CoAP cross-proxy to advanced test suites that have been used at the ETSI Plugtests.
+Repository
 Scandium (Sc)
-The Scandium (Sc) sub-project provides security for Californium. It implements DTLS 1.2 to secure your application through ECC with pre-shared keys, certificates, or raw public keys.
-Repository »
+The Scandium (Sc) sub-module provides security for Californium. It implements DTLS 1.2 to secure your application through ECC with pre-shared keys, certificates, or raw public keys.
+Repository
 Actinium (Ac)
 Actinium (Ac) is the app-server for Californium to realize IoT mashups! Your JavaScript apps become available as RESTful resources and can directly talk to IoT devices using our CoapRequest object API.
-Repository »
-CoAP tools
-This repository provides CoAP tools that also serve as examples. Use CoAPBench to benchmark your CoAP solutions or simply use our cf-client to interact with your devices from the command line.
-Repository »
+Repository
+Getting Started
+Learn how to use Californium
+The Internet of Things if growing, but how can you build your own connected objects? Together with MQTT, CoAP is one of the popular IoT protocols. It provides answers to the typical IoT constraints: it is bandwidth efficient and fits in constrained embedded environment while providing friendly and discoverable RESTful API.
+Take the Tutorial
+More Components
+Connector
 Connector
 The element-connector abstracts from the different transports CoAP can use. It provides the basic UDPConnector as well as the interface to implement new connectors like the DtlsConnector of Scandium.
-Repository »
-Getting started.
-Take the tutorial.
-The Internet of Things if growing, but how can you build your own connected objects? Together with MQTT, CoAP is one of the popular IoT protocols. It provides answers to the typical IoT constraints: it is bandwidth efficient and fits in constrained embedded environment while providing friendly and discoverable RESTful API.
-More tools.
-Get the full CoAP experience.
-The Copper (Cu) CoAP user-agent is an add-on for the Firefox Web browser. It allows browsing, bookmarking, and direct interaction with CoAP resources. Simply enter a CoAP URI into the address bar. To get started you can test the following CoAP sandboxes:
-coap://californium.eclipse.org/
-coap://vs0.inf.ethz.ch/
-coap://coap.me/
-Check
-coap.technology
-for more material.
-Eclipse Foundation
-About us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
+Tools
+Tools
+This repository provides CoAP tools that also serve as examples. Use CoAPBench to benchmark your CoAP solutions or simply use our cf-client to interact with your devices from the command line.
+Get in Touch
+Wanna tell us what you think about Californium? What we can improve? Which feature is missing? Or just discuss architectural issues?
+Report an Issue
+Report an Issue
+The easiest way to tell us about a problem you experience with Californium is by opening an issue on our GitHub page.
+Please make sure to search the existing issues for similar symptoms before you open a new issue.
+Mailing List
+Mailing List
+This is the place where we announce new releases and discuss architectural issues of greater impact.
+However, questions and problems should be raised using a GitHug issue.
+Eclipse Legal
 Privacy Policy
 Terms of Use
 Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Copyright © 2014 The Eclipse Foundation. All Rights Reserved.
+Legal
+License
+Report a Vulnerability
+© Copyright 2019
+by Eclipse Californium project
+Website based on
+Syna
+×

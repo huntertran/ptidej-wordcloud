@@ -89,9 +89,9 @@ Eclipse Milo
 Tags
 Technology Types
 Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
 About Us
 Contact Us
@@ -121,7 +121,7 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Eclipse Distribution License 1.0 (BSD) | projects.eclipse.org
+Eclipse Milo | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -179,13 +179,29 @@ Newcomer Forum
 Toggle navigation
 Home
 Projects
-Eclipse Distribution License 1.0 (BSD)
-Eclipse Distribution License 1.0 (BSD)
-URL:
-http://www.eclipse.org/org/documents/edl-v10.php
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
+Eclipse IoT
+Eclipse Milo
+Downloads
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
 About Us
 Contact Us
@@ -252,6 +268,17 @@ Community
 Marketplace
 Events
 Planet Eclipse
+Eclipse Milo | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
 Newsletter
 Videos
 Blogs
@@ -288,77 +315,6 @@ Wednesday, May 15, 2019
 Project:
 Eclipse Milo
 Release:
-0.3.0
-Description:
-Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
-Major User-facing Changes
-Client
-New state machines to manage channel and session state.
-Server
-New AddressSpace and NodeManager APIs that replace old Namespace API in most cases.
-Generated new ObjectNodes and ObjectTypeNodes with MethodNode getters.
-Generated new method stubs for server methods.
-General
-Compatibility with Java 11.
-Updated most dependencies to their latest versions.
-Removed many deprecated and unused classes.
-Migrated usages of BasicProperty to QualifiedProperty.
-Security Issues:
-No known security issues.
-Conforms To UI/UX Guidelines:
-Not verified
-Sign in
-to post comments.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Milo
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Public License 1.0 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
 Marketplace
 Events
 Planet Eclipse
@@ -400,19 +356,348 @@ Download
 Learn More
 Documentation
 Getting Started / Support
+0.3.0
+Description:
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Major User-facing Changes
+Client
+New state machines to manage channel and session state.
+Server
+New AddressSpace and NodeManager APIs that replace old Namespace API in most cases.
+Generated new ObjectNodes and ObjectTypeNodes with MethodNode getters.
+Generated new method stubs for server methods.
+General
+Compatibility with Java 11.
+Updated most dependencies to their latest versions.
+Removed many deprecated and unused classes.
+Migrated usages of BasicProperty to QualifiedProperty.
+Security Issues:
+No known security issues.
+Conforms To UI/UX Guidelines:
+Not verified
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
 How to Contribute
 IDE and Tools
 Newcomer Forum
 Toggle navigation
 Home
 Projects
-Eclipse Public License 1.0
-Eclipse Public License 1.0
-URL:
-http://www.eclipse.org/org/documents/epl-v10.php
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
+Eclipse IoT
+Eclipse Milo
+Contact Us
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+milo-dev
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
+Eclipse Foundation
+About Us
+Contact Us
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Milo | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Eclipse Milo | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Developer Resources
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+milo - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/milo.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Governance
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+The project provides:
+a stack implementation, compatible with the latest version (1.03) of the UA specifications.
+a SDK built on the stack that enables development of compliant UA client and server applications.
+The separation between stack and SDK may seem arbitrary at first, but the distinction is common within the OPC-UA community and vendors as it allows SDKs that serve different needs to be built upon a common stack.
+Working Group:
+Internet of Things (IoT)
+Releases:
+Name
+Date
+0.3.0
+2019-04-29
+0.1.0
+2016-12-07
+Reviews:
+Name
+Date
+0.3.0 Release Review
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+2019-05-15
+0.1.0 Release Review
+2016-12-21
+Creation Review
+2016-04-06
+Project Links
+Proposal
+Current Release
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
 About Us
 Contact Us
@@ -528,9 +813,9 @@ Eclipse Milo
 Tags
 Technology Types
 Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
 About Us
 Contact Us
@@ -560,7 +845,7 @@ Report a Vulnerability
 Service Status
 Copyright © Eclipse Foundation, Inc. All Rights Reserved.
 Back to the top
-Eclipse Milo | projects.eclipse.org
+0.1.0 Release Review | projects.eclipse.org
 Google Tag Manager
 Skip to main content
 Log in
@@ -620,18 +905,37 @@ Home
 Projects
 Eclipse IoT
 Eclipse Milo
-Contact Us
+0.1.0
+0.1.0 Release Review
+Eclipse Milo 0.1.0 Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, December 21, 2016
+Project:
 Eclipse Milo
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-(active tab)
-Developer Mailing List:
-milo-dev
+Release:
+0.1.0
+Description:
+[1]
+will be provided in an Eclipse compliant way.
+Milo is an open-source implementation of OPC-UA. It includes a high-performance stack (channels, serialization, data structures, security) as well as client and server SDKs built on top of the stack.
+[1]
+https://github.com/digitalpetri
+Standards:
+Eclipse Milo does implement the binary protocol of OPC UA also know as IEC 62541. It will provide client and server SDK beside the core protocol stack.
+Communities:
+Eclipse Milo does have an active user base coming from the original project at "digitalpetri". It was presented as a new project during EclipseCon Europe 2016 and several IoT projects are interested in interfacing or integrating Eclipse Milo.
+During the first release a new commiter was added to the project.
+Due to the fact that Milo is a library/module with no direct end user involvement it is hard to give any details about end user activities.
+The community is working on GitHub at
+https://github.com/eclipse/milo
+.
+Sign in
+to post comments.
 Related Projects
 Project Hierarchy:
 Eclipse IoT
@@ -639,20 +943,10 @@ Eclipse Milo
 Tags
 Technology Types
 Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
-0.3.0 | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
 About Us
 Contact Us
 Donate
@@ -673,6 +967,24 @@ Mailing Lists
 Forums
 Marketplace
 Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.3.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
 Community
 Marketplace
 Events
@@ -694,14 +1006,6 @@ Documentation
 Getting Started / Support
 How to Contribute
 IDE and Tools
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Newcomer Forum
 More
 Community
@@ -726,15 +1030,6 @@ Getting Started / Support
 How to Contribute
 IDE and Tools
 Newcomer Forum
-0.1.0 Release Review | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
 Toggle navigation
 Home
 Projects
@@ -755,30 +1050,6 @@ New state machines to manage channel and session state.
 Server
 New AddressSpace and NodeManager APIs that replace old Namespace API in most cases.
 Generated new ObjectNodes and ObjectTypeNodes with MethodNode getters.
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
 Generated new method stubs for server methods.
 General
 Compatibility with Java 11.
@@ -800,1107 +1071,9 @@ Eclipse Milo
 Tags
 Technology Types
 Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Eclipse IoT
-Eclipse Milo
-0.1.0
-0.1.0 Release Review
-Eclipse Milo 0.1.0 Release Review
-Type:
-Release
-State:
-Successful
-End Date of the Review Period:
-Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
-Wednesday, December 21, 2016
-Project:
-Eclipse Milo
-Release:
-0.1.0
-Description:
-[1]
-will be provided in an Eclipse compliant way.
-Milo is an open-source implementation of OPC-UA. It includes a high-performance stack (channels, serialization, data structures, security) as well as client and server SDKs built on top of the stack.
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-[1]
-https://github.com/digitalpetri
-Standards:
-Eclipse Milo does implement the binary protocol of OPC UA also know as IEC 62541. It will provide client and server SDK beside the core protocol stack.
-Communities:
-Eclipse Milo does have an active user base coming from the original project at "digitalpetri". It was presented as a new project during EclipseCon Europe 2016 and several IoT projects are interested in interfacing or integrating Eclipse Milo.
-During the first release a new commiter was added to the project.
-Due to the fact that Milo is a library/module with no direct end user involvement it is hard to give any details about end user activities.
-The community is working on GitHub at
-https://github.com/eclipse/milo
-.
-Sign in
-to post comments.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Milo
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Internet of Things | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Technology Type
-Internet of Things
-Internet of Things
-Technology that supports wired or wireless communication between machines.
-Eclipse Yasham
-Internet of Things
-Eclipse Yasham is an Open & Extensible Cloud-Native Smart Living Platform for Consumer IoT.
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Who's Involved
-Governance
-Contact
-Eclipse Keyple
-Internet of Things
-The goal of Eclipse Keyple is to allow developers to easily implement fast and secure off-line contactless transactions (using NFC cards, mobile phones, …) based on the Calypso standard.
-Read more...
-Latest release:
-0.7.0 (Java 19/07)
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse VOLTTRON
-Internet of Things
-The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud.
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Tahu
-Internet of Things
-Eclipse Tahu addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse fog05
-Internet of Things
-Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within t
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-List of Projects
-List of Projects
-Search
-Technology Types
-- Any -
-Internet of Things
-Language
-Modeling
-OSGi
-Runtime
-Specification
-Testing
-Contact
-Eclipse HIP
-Archived
-Internet of Things
-Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm, b
-Read more...
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Mita
-Internet of Things
-Language
-Modeling
-Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g.
-Read more...
-Tools
-State
-- Any -
-Incubating
-Mature
-Include
-Archived Projects
-Apply
-Eclipse EMFStore
-Modeling
-Runtime
-Tools
-Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models.
-Read more...
-Latest release:
-1.10.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse OCL (Object Constraint Language)
-Language
-Latest release:
-0.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Thingweb
-Internet of Things
-The Eclipse Thingweb project will start with three sub-projects in the toolkit:
-Thingweb node-wot
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Modeling
-Tools
-Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models.
-Read more...
-Latest release:
-2019-09 (6.9.0)
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Contact
-Eclipse Cyclone DDS
-Internet of Things
-Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and th
-Read more...
-Latest release:
-0.1.0 (Preambule)
-Learn more
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Kuksa
-Internet of Things
-Because today's software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
-The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
-Read more...
-Latest release:
-0.1-M1
-Learn more
-Governance
-Contact
-Eclipse Paho
-Internet of Things
-Runtime
-Tools
-The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In
-Read more...
-Latest release:
-1.4.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse QVT Operational
-Language
-Modeling
-Tools
-The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). In long term, it aims to provide a complete implementation of the operational part of the standard.
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-1
-2
-3
-4
-5
-next
-last
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Operational QVT project provides a powerful Eclipse IDE:
-feature-rich editor (syntax highlighting, hovers, hyperlinks, code completion, templates, outlines, markers, etc.)
-debugger (conditional breakpoints, variables view, expressions view, watches)
-metamodel browser, trace view
-project builders, launch configurations
-deployment facilities and Ant support
-Java API for executing QVT transformations programmatically, support for the standalone execution of transformations
-support of Java Black-Box units and libraries
-seamless integration with JDT supporting co-development of QVTo and Java in single workspace
-Additional tooling QVTO Code Coverage provides:
-annotate the Operational QVT Editor to highlight covered and non-covered parts of transformation
-JUnit launch configuration to integrate with the JUnit test framework
-Read more...
-Latest release:
-2019-09 (3.10.0)
-Download
-Toggle Dropdown
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Trace Compass
-Tools
-Eclipse Trace Compass
-is an open source application to solve performance and reliability issues by reading and analyzing
-lo
-Read more...
-Latest release:
-5.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Apogy
-This project provides a multi-mission operations and planning software framework.
-Apogy
-uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Collections
-OSGi
-Testing
-Tools
-Eclipse Collections is a collections framework for Java.
-Read more...
-Latest release:
-10.0.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse GlassFish Tools
-Tools
-Read more...
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse MDT UML2
-Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform.
-Read more...
-Latest release:
-5.5.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Ogee
-Modeling
-Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology.
-Read more...
-Latest release:
-0.7.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Dynamic Languages Toolkit
-Language
-Tools
-The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages.
-Read more...
-Latest release:
-5.11
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse EMF Client Platform
-Modeling
-OSGi
-Runtime
-Tools
-The Eclipse EMF Client Platform is a framework for building EMF-based client applications.
-Read more...
-Latest release:
-1.22.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Lua Development Tools
-Language
-Tools
-Eclipse
-Lua Development Tools
-(LDT)
-is about providing Lua developers with an IDE providing the user experience developers expect fr
-Read more...
-Latest release:
-1.4.2
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Nebula - Supplemental Widgets for SWT
-Runtime
-Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and r
-Read more...
-Latest release:
-2.2.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Sirius
-Modeling
-Eclipse Sirius enables the specification of a modeling workbench in terms of
-graphical
-,
-table
-or
-tree
-editors with validation rules and actions using declarative descriptions.
-Read more...
-Latest release:
-6.2.3
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Web Tools Platform Project
-Language
-Tools
-The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications.
-Read more...
-Latest release:
-3.15 (2019-09)
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse ATL
-Modeling
-Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit.
-Read more...
-Latest release:
-4.1.0
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse EMF Diff/Merge
-Modeling
-Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided.
-Read more...
-Latest release:
-0.11.2
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse Graphiti
-Modeling
-Eclipse Milo | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Runtime
-The goal of Eclipse Graphiti is to support the fast and easy creation of graphical tools, which can display and edit underlying domain models using a tool-defined graphical notation.
-Read more...
-Latest release:
-0.16.1
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Contact
-Eclipse January
-Read more...
-Latest release:
-2.2.2
-Download
-Toggle Dropdown
-Website
-Developer Resources
-Who's Involved
-Governance
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Contact
-1
-2
-3
-4
-5
-6
-7
-8
-9
-…
-next ›
-last »
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Milo
-Downloads
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Milo
-Primary tabs
-Overview
-Downloads
-(active tab)
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-This project has not provided download information.
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Milo
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Milo | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Milo
-Governance
-Eclipse Milo
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-Governance
-(active tab)
-Contact Us
-Scope:
-The project provides:
-a stack implementation, compatible with the latest version (1.03) of the UA specifications.
-a SDK built on the stack that enables development of compliant UA client and server applications.
-The separation between stack and SDK may seem arbitrary at first, but the distinction is common within the OPC-UA community and vendors as it allows SDKs that serve different needs to be built upon a common stack.
-Working Group:
-Internet of Things (IoT)
-Releases:
-Name
-Date
-0.3.0
-2019-04-29
-0.1.0
-2016-12-07
-Reviews:
-Name
-Date
-0.3.0 Release Review
-2019-05-15
-0.1.0 Release Review
-2016-12-21
-Creation Review
-2016-04-06
-Project Links
-Proposal
-Current Release
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Milo
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse Milo | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse Milo
-Developer Resources
-Eclipse Milo
-Primary tabs
-Overview
-Downloads
-Who's Involved
-Developer Resources
-(active tab)
-Governance
-Contact Us
-Source Repositories:
-You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
-milo - Project repository hosted on GitHub.
-Clone:
-https://github.com/eclipse/milo.git
-Browse Repository
-Project Links
-Dev Mailing List
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse Milo
-Tags
-Technology Types
-Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
 About Us
 Contact Us
@@ -2021,168 +1194,9 @@ Eclipse Milo
 Tags
 Technology Types
 Internet of Things
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Eclipse IoT | projects.eclipse.org
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-projects.eclipse.org
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Home
-Projects
-Eclipse IoT
-Eclipse IoT
-Primary tabs
-Overview
-(active tab)
-Downloads
-Who's Involved
-Developer Resources
-Governance
-Contact Us
-The mission of the top-level project is to provide open source technology that will be used to build IoT solutions for industry and consumers. It will focus on:
-Standards and Protocols implementations that can easily be consumed by end solution developers as well as framework developers
-Frameworks and Services that abstract the complexity of hardware, communication and data stack manipulation
-Tools that facilitate the development of connected systems
-Solutions that build ready-to-run solutions based on the other building blocks
-This document describes the composition and organization of the project, roles and responsibilities of the participants, and development process for the project.
-Licenses:
-Eclipse Distribution License 1.0 (BSD)
-Eclipse Public License 2.0
-Active Member Companies:
-Member companies supporting this project over the last three months.
-Contribution Activity:
-Commits on this project (last 12 months).
-Project Links
-Top Level Project Charter
-Website
-Wiki
-Related Projects
-Project Hierarchy:
-Eclipse IoT
-Eclipse 4diac
-Eclipse Agail
-Eclipse Californium (Cf) CoAP Framework
-Eclipse Concierge
-Eclipse Cyclone DDS
-Eclipse Ditto
-Eclipse Duttile
-Eclipse fog05
-Eclipse hawkBit
-Eclipse Hono
-Eclipse Ignite|IoT
-Eclipse ioFog
-Eclipse IoT Packages
-Eclipse Kapua
-Eclipse Keti
-Eclipse Keyple
-Eclipse Kiso
-Eclipse Kuksa
-Eclipse Kura
-Eclipse Leshan
-Eclipse Milo
-Eclipse Mita
-Eclipse Mosquitto
-Eclipse MRAA
-Eclipse NeoSCADA
-Eclipse OM2M
-Eclipse Paho
-Eclipse Paho Incubator
-Eclipse Ponte
-Eclipse SmartHome
-Eclipse Tahu
-Eclipse Thingweb
-Eclipse tinydtls
-Eclipse Unide
-Eclipse UPM
-Eclipse VOLTTRON
-Eclipse Vorto
-Eclipse Wakaama
-Eclipse Yasham
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
 Eclipse Foundation
 About Us
 Contact Us

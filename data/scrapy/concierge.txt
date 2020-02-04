@@ -31,3 +31,499 @@ Privacy Policy
 Terms of Use
 Copyright Agent
 Legal
+Dashboard [Jenkins]
+var isRunAsTest=false; var rootURL="/concierge"; var resURL="/concierge/static/b9704ec9";
+crumb.init("Jenkins-Crumb", "ff5f53d760d98e094d462b386ea3d726c8c32fd021083ba24d6d11266bbb54d1");
+var Q=jQuery.noConflict()
+Skip to content
+log in
+createSearchBox("/concierge/search/");
+ENABLE AUTO REFRESH
+Jenkins
+People
+Build History
+Project Relationship
+Check File Fingerprint
+Build Queue
+No builds in the queue.
+refreshPart('buildQueue',"/concierge/ajaxBuildQueue");
+Build Executor Status
+refreshPart('executors',"/concierge/ajaxExecutors");
+All
+CI_CD
+Maven-Publish-R5.0.0
+Release-5.1.0
+test jobs
+S
+W
+Name
+Last Success
+Last Failure
+Last Duration
+W
+Description
+%
+Test Result: 0 tests failing out of a total of 107 tests.
+100
+Build stability: No recent builds failed.
+100
+Build
+-5
+.1
+.0
+1 yr 2 mo -
+#9
+N/A
+2 min 47 sec
+W
+Description
+%
+Build stability: No recent builds failed.
+100
+Concierge
+-Release
+(5
+.0
+.0)
+1 yr 3 mo -
+#16
+N/A
+1 min 24 sec
+W
+Description
+%
+Build stability: 4 out of the last 5 builds failed.
+20
+Concierge
+-Release
+(5
+.0
+.0) - Eclipse Maven
+1 yr 3 mo -
+#7
+1 yr 3 mo -
+#6
+28 sec
+ConciergeDistributio
+nPublishRelease
+N/A
+N/A
+N/A
+W
+Description
+%
+Test Result: 0 tests failing out of a total of 111 tests.
+100
+Build stability: No recent builds failed.
+100
+Master
+_Build
+2 mo 29 days -
+#315
+1 yr 3 mo -
+#291
+2 min 10 sec
+W
+Description
+%
+Build stability: 1 out of the last 2 builds failed.
+50
+Master
+_PublishRelease
+1 yr 2 mo -
+#2
+1 yr 2 mo -
+#1
+1 min 48 sec
+W
+Description
+%
+Build stability: 3 out of the last 5 builds failed.
+40
+Master
+_PublishSnapshots
+9 mo 1 day -
+#211
+2 mo 29 days -
+#214
+1 min 38 sec
+W
+Description
+%
+Build stability: 1 out of the last 2 builds failed.
+50
+Master
+_PublishWebsite
+1 yr 2 mo -
+#5
+3 mo 11 days -
+#6
+14 sec
+W
+Description
+%
+Build stability: No recent builds failed.
+100
+Publish
+-5
+.1
+.0
+1 yr 2 mo -
+#7
+N/A
+3 min 49 sec
+W
+Description
+%
+Test Result: 0 tests failing out of a total of 111 tests.
+100
+Build stability: No recent builds failed.
+100
+R6
+.0
+.0
+_nightly
+_branch
+_master
+18 hr -
+#819
+2 mo 10 days -
+#753
+1 min 44 sec
+W
+Description
+%
+Build stability: All recent builds failed.
+0
+R6
+.0
+.0
+_nightly
+_branch
+_r6
+8 mo 24 days -
+#550
+17 hr -
+#810
+1 min 31 sec
+W
+Description
+%
+Build stability: All recent builds failed.
+0
+test
+-buildFeatureBranch
+N/A
+2 yr 3 mo -
+#4
+1.1 sec
+W
+Description
+%
+Build stability: All recent builds failed.
+0
+Test
+-Deploy
+-5
+.0
+.0
+-Snapshot
+-EclipseMaven
+N/A
+1 yr 3 mo -
+#4
+2.2 sec
+W
+Description
+%
+Build stability: No recent builds failed.
+100
+test
+-script
+-on
+-demand
+1 yr 1 mo -
+#27
+1 yr 1 mo -
+#19
+0.1 sec
+W
+Description
+%
+Build stability: 2 out of the last 3 builds failed.
+33
+Test
+-Sign
+-Artifacts
+-With
+-Maven
+1 yr 3 mo -
+#3
+1 yr 3 mo -
+#2
+3.3 sec
+Icon:
+S
+M
+L
+Legend
+RSS for all
+RSS for failures
+RSS for just latest builds
+Page generated: Feb 3, 2020 9:36:51 PM EST
+REST API
+Jenkins ver. 2.190.1
+Mailing list: concierge-dev (53 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: concierge-dev
+(53 subscribers)
+Concierge developer discussions
+About concierge-dev
+Concierge developer discussions
+Using concierge-dev
+To post a message to all the list members, send email to
+concierge-dev@eclipse.org
+. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
+concierge-dev Archives
+or subscribe to this list's
+RSS feed
+Subscribing concierge-dev
+All contributions you make to our web site are governed by our
+Terms Of Use
+. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
+Privacy Policy
+.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the
+Mailing List
+page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: concierge-dev
+RSS Feed
+Archive
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Concierge | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Concierge
+Downloads
+Eclipse Concierge
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+CI Builds:
+https://ci.eclipse.org/concierge/job/Master_Build/lastBuild/
+Snapshot Builds:
+http://download.eclipse.org/concierge/download/snapshots/?d
+Latest Snapshot Build:
+concierge-incubation-SNAPSHOT-latest.tar.gz
+concierge-incubation-SNAPSHOT-latest.zip
+Releases and Milestones:
+Downloads:
+Concierge Incubation 5.1.0 (tar.gz)
+Concierge Incubation 5.1.0 (zip)
+Concierge Incubation 5.0.0 (tar.gz)
+Concierge Incubation 5.0.0 (zip)
+Project Links
+Website
+Related Projects
+Related Projects:
+Eclipse Project
+Eclipse Equinox
+Project Hierarchy:
+Eclipse IoT
+Eclipse Concierge
+Tags
+Technology Types
+Internet of Things
+OSGi
+Runtime
+Build Technologies
+Jenkins
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

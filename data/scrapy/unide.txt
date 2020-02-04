@@ -28,282 +28,6 @@ Terms of Use
 Copyright Agent
 Security reports
 Legal
-Legal Resources | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Legal Resources
-Legal resource page for the Eclipse Foundation.
-Getting Started
-Agreement and Licenses
-Privacy and Trademarks
-Committer Agreements
-Committer Resources
-Getting Started
-The
-Guide to the Legal Documents
-provides an in-depth look at the many legal documents related to the Eclipse open source community. This content is of value to committers, contributors, redistributors of Eclipse content, developers of Eclipse-based products and users of Eclipse technologies;
-The
-Eclipse Public License
-(EPL) is the default license for Eclipse Project (please see the
-Eclipse Public License Frequently Asked Questions
-);
-The
-Eclipse Foundation Legal Frequently Asked Questions
-Eclipse Foundation Website Privacy Policy | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Eclipse.org Terms of Use | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Copyright Agent | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-answers some of the commonly asked questions about Eclipse.org licensing, contributions, working as a committer, and cryptography;
-Third Party Content Licenses
-provides a list of licenses that are approved for third party content used by Eclipse projects; or
-For other questions, email:
-license@eclipse.org
-.
-Agreements and Licenses
-Web Site Terms of Use:
-By accessing, browsing or using this web site, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
-Eclipse Public License
-(EPL): The fundamental license document for the Eclipse projects and community.
-Eclipse Distribution License
-(EDL): The BSD license used by some Eclipse projects which require dual-licensing along with the EPL. Other than for
-example code or build scripts
-.
-Eclipse Contributor Agreement:
-If you are contributing code or documentation to Eclipse Foundation projects you are required to complete this agreement.
-Developer Certificate of Origin:
-If you are contributing code or documentation to Eclipse Foundation projects, and using the git signed-off-by mechanism, you are agreeing to this certificate.
-Copyright Agent:
-Contact information for the Eclipse Foundation's Copyright Agent.
-Eclipse Foundation Software User Agreement:
-By downloading builds or accessing Eclipse Foundation source code repositories, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Approved Licenses for Non-Code, Example, and Other Content:
-The Board of Directors has approved the use of certain licenses for specific types of content on eclipse.org.
-Eclipse Foundation Update Manager Agreement:
-If you package "downloadable features" to be installed from your web site using the Eclipse Update Manager, you must read, understand, and agree to the terms and conditions contained in this agreement.
-Eclipse Foundation Specification License:
-The license used by Eclipse Foundation specifications created under the Eclipse Foundation Specification Process.
-Eclipse Foundation TCK License:
-The binary license used by Technology Compatibility Kits to demonstrate compatibility with their corresponding Specifications.
-Privacy and Trademarks
-Privacy Policy:
-Your privacy is important to us. This statement discloses the information practices for this web site, including what type of information is gathered and tracked, how the information is used, and with whom the information is shared.
-Trademark Usage Guidelines:
-Guidelines on permissable use of Eclipse logos and trademarks.
-Trademark Transfer Agreement:
-Pre-existing projects which move to the Eclipse Foundation will be required to execute this agreement to ensure that the Eclipse Foundation has rights to any trademarks associated with the project name.
-Trademark Attributions:
-Content on this web site may make reference to trademarks requiring attribution.
-Committer Agreements
-Member Committer and Contributor Agreement:
-This agreement is used by Member companies to cover all of their committers participating in Eclipse projects.
-Individual Committer Agreement:
-This agreement is used by committers participating in Eclipse projects who are not covered by a Member Committer Agreement.
-2019 Re-sign Exercise
-The Eclipse Foundation has updated its standard contributor and committer agreements, and all our committers and contributors, as well as those members who have member committer agreements, will need to re-sign their agreement with us.
-Eclipse unide - Welcome
-Home
-Proposal
-Specification
-Blog Archives
-FAQ
-What is Unide?
-Noticeably in the recent years, there’s a continuous increase in demand, price pressure and complexity in manufacturing. Things need to move faster, be more flexible, and fulfill higher quality standards. Often, optimization in this regard is referred to as Production Performance Management (PPM). The basis for this optimization is information from the machines and devices related to a product, such as:
-Torque and angle for a tightening process
-Influx / efflux of throttle plate test station
-Energy consumption of spindles in a cutting process
-Nowadays, brand new machines and software are often shipped with powerful communication capabilities. For older machines, smaller factories and SMEs (Small and Medium Enterprises), it can be a challenge to catch up with the complex IT standards that come along. In fact, sometimes the hardware itself imposes limits.
-Nevertheless, in a manufacturing environment, monitoring makes most sense if there are no blind spots. To achieve that, upgrading machines and software is one option, retrofitting another. For the latter, the hurdle should be as low as possible. Yet, there should be a few guidelines for a one-way exchange of the most necessary information (machine messages, measurements):
-The structure of the data shall be:
-flexible enough to be carried via multiple protocols,
-in order to not reinvent the wheel and leverage on existing technology
-Eclipse unide - Recent Posts
-Home
-Proposal
-Specification
-Blog Archives
-FAQ
-Recent Posts
-PPMP Version 3 release candidate
-March 01, 2019
-PPMP Use Cases: Template for PPMP transformation
-September 04, 2018
-Unide 0.2.0 released
-March 26, 2018, 12:39
-PPMP Use Cases: Unide and the Eclipse Production Performance Management Testbed
-February 13, 2018
-PPMP Use Cases: Simple Transformation with Apache Camel
-February 11, 2018
-Recent Posts
-PPMP Version 3 release candidate
-PPMP Use Cases: Template for PPMP transformation
-Unide 0.2.0 released
-Eclipse unide - Specification
-Home
-Proposal
-Specification
-Blog Archives
-FAQ
-PPMP Specification
-Rationale
-Noticeably in recent years, there is a continuous increase in demand, price pressure and complexity in manufacturing. Things need to move faster, be more flexible, and fulfill higher quality standards forcing manufacturers to optimize their processes.
-Production facilities and their performance have a huge impact on the overall performance of manufacturing processes. However, to identify bottlenecks and possibilities for improvements detailed data from machines are required.
-Such data is surely provided by machines either via modern protocols such as OPC UA or via proprietary access methods but it is not provided in a common and easily accessible format, which can be used to do performance analysis and optimization. This renders holistic process improvement efforts infeasible for many, especially smaller organizations.
-The Production Performance Management Protocol (PPMP) specifies a format that allows to capture data that is required to do performance analysis of production facilities. It allows monitoring backends to collect and evaluate key metrics of machines in the context of a production process. It is doing that by allowing to relate the machine status with currently produced parts.
-The specification is structured into three payload formats: Measurement payload, message payload and process payload. The Measurement payload contains measurements from machines such as the temperature of a machine at a specific point in time together with the currently produced part. The message payload contains arbitrary messages sent by a machine, e.g. alerts or the like. A process message consists of information about a discrete e.g. tightening or welding process with all their characterizing data, which are needed to describe and analyze it.
-The default way of transporting the json payload is via http to allow for an easy integration into various backend systems. Other transportation methods are possible and welcome.
-Version 3 is still marked with a star (*), because it is not finally released with server and binding implementations and might be subject to minor fixes (addressed via
-github
-)
 Eclipse unide - Frequently asked questions
 Home
 Proposal
@@ -323,165 +47,6 @@ you-nice
 .
 What's the difference between Unide and PPMP?
 The Production Performance Mangement Protocol (PPMP) is the name of the structure of the
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Eclipse Foundation Website Privacy ...
-Eclipse Foundation Website Privacy Policy
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-New Eclipse Foundation Committer and Contributor Agreements FAQ
-Resources for Committers
-Due Diligence Process:
-This document provides a quick pictorial overview of the due diligence process.
-Third Party Dependencies:
-This document contains the guidelines for the review of third-party dependencies.
-Committer Guidelines:
-This document outlines the issues to be aware of and the processes one should follow when working as a committer on Eclipse.org projects. A committer is a person that has been granted commit rights to systems on the Eclipse.org servers such as git repositories, web pages, download servers, mailing lists and so forth.
-Contribution Questionnaire:
-A Contribution Questionnaires (CQ) is the main interface between Eclipse committers and the Intellectual Property Management Team. Prior to committing a significant contribution of content to an Eclipse Foundation project, the committer must fill out this questionnaire and submit it to the Eclipse Management Organization (EMO) for approval. In addition to the EMO, the relevant PMC must also provide a technical review and approval of the contribution. Follow the link to find out more about what we mean by "significant contribution". Bug fixes or minor enhancements do not require PMC or EMO approval.
-"About" Templates:
-This provides templates for the "about.html" ("About") files used to describe EPL-licensed content.
-Default Copyright and License Notice:
-The standard copyright and license notice should appear in all source files where possible. Variations on this notice may be required (for example where a license other than the EPL governs the use of the file).
-IP Logs:
-An IP Log is a record of the intellectual property contributions to a project. This includes such as a list of all committers, past and present, that have worked on the code and (especially) those who have made contributions to the current code base.
-New Committer Process:
-The process for project leads and PMC members to add additional committers to an existing project.
-About Us
-Annual Report
-Foundation
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Unable to connect to the database server at this time(eclipse).
-Unable to connect to the database server at this time(eclipse).
-SQL Trouble:
-Can't create a new thread (errno 11 "Resource temporarily unavailable"); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
-similar in each case,
-to be able to use the same software to interpret the data
-easily understandable,
-so that implementation in a custom environment won’t be a hurdle
-as simple as possible,
-to not produce an opinionated framework
-and yet containing enough information for the use cases,
-We decided the least common denominator of necessary information are the mandatory fields, common relevant information to be optional, and the possibility for further extension points through metadata.
-Industry benefits of Unide
-This open source project aims to make PPM affordable for smaller organizations by reducing cost and complexity of data communication. Through sample implementations of a simple information structure (Production Performance Management Protocol - PPMP) tailored to manufacturing environments, we want to encourage the community to use, share, and evolve this structure together.
-PPMP has already been introduced as part of a PPM testbed at a medium-sized Bosch plant, working with many SMEs as partners and suppliers. Furthermore, this testbed aims to create an ecosystem which allows SMEs and larger companies to collaborate efficiently.
-The PPMP takes an important role by ensuring interoperability between different types of devices and software. It is designed to gather and aggregate machine and sensor data from different devices. It focuses on defining the JSON payload which can be transferred via a variety of transports (REST, AMQP, MQTT). The primary goals of PPMP are:
-Integrating devices (across domains; e.g. manufacturing or energy) for data aggregation and gathering purposes
-Providing a very lightweight and easy-to-use solution for small and medium-sized enterprises (SMEs)
-Scope
-The Eclipse Unide project publishes the current version of Production Performance Management Protocol (PPMP) and develops simple server/client implementations. The implementations store the payloads in a database and displays them through a simple user interface. Everyone can then use these samples for their custom condition monitoring applications.
-The project will contain:
-PPMP Use Cases: Unide and the Eclipse Production Performance Management Testbed
-PPMP Use Cases: Simple Transformation with Apache Camel
-Blog Archives
-April 2019
-(1)
-October 2018
-(1)
-April 2018
-(1)
-March 2018
-(2)
-February 2018
-(1)
-November 2017
-(2)
-July 2017
-(2)
-April 2017
-(1)
-October 2016
-(4)
-Eclipse Foundation
-Privacy Policy
-Overview
-Machine Message
-(v
-2
-/
-3*
-)
-Measurement Message
-(v
-2
-/
-3*
-)
-Process Message
-(v
-2
-/
-3*
-)
-Communicating Parties
-Two parties are involved in a PPMP message exchange: the sender and the receiver. The sender pushes a message to the receiver. Usually the sender is a machine or a sensor of a machine.
-The receiver waits for messages. It offers a API that allows for sending either measurement payloads or message payloads.
-The communication is unidirectional. Only the sender can contact the receiver and send messages. No feedback from receiver to sender is provided.
 payload
 whereas Unide is the project that aims to provide sample implementations and further development of this protocol in and with the Eclipse Open Source community. Nevertheless, PPMP is an open suggestion, and everyone is welcome to using it, even without contributing to the Unide project.
 Why introducing another industry protocol?
@@ -505,80 +70,183 @@ objects with time as key (
 When parsing, we had to recognize, that unsigned long int for time and floating point measurements are of different types. Also, all former variants are more verbose due to additional brackets, commas or quotation marks. We believe that the current version is a good compromise between readability and structure.
 I'm interested in Unide/PPMP. How can I contribute?
 The first goal of Unide is to provide sample client/server implementations of PPMP. Secondly, we're looking forward to improving PPMP in future versions together with the eclipse community.
-May 24, 2018
-The Eclipse Foundation, Inc. ("Eclipse Foundation", "Us" or "We") is a member-supported not-for-profit foundation which acts as the steward of our open source projects, community, and ecosystem. We are committed to our community members’ rights to privacy. We promise to share transparently all aspects of how Eclipse Foundation projects and websites work in regards to privacy, terms, and personal data, and We are in full support of efforts to ensure your protection online. We only collect your personal data with your consent, and collect only as much as We need to provide you the service you request. For example, We need your personal data to register you to one of our conferences. Each time We collect additional personal data from you We will explain what We collect, why We need it, how We use it, how long We keep it, and how We protect it.
-You can withdraw consent anytime. We will respect your wishes.
-Personal Information on Eclipse Foundation Websites
-As a platform for open source innovation and collaboration, personal information on all Eclipse Foundation websites is either meant to be shared, for example records of your contributions to our open source projects, or protected, such as your name and email address when you subscribe to our newsletter.
-Any personal data you share with Us, We protect according to this Privacy policy.
-Individual Access to Personal Information
-We will respond within 30 days to your requests to have access to your personal information collected by Us. We will promptly correct inaccuracies, as the case may be, and We will delete it and/or anonymize it upon your request. Please contact
-privacy@eclipse.org
-to make such a request.
-Information Security and Quality
-We protect the integrity of your personal information with appropriate technical and organizational measures, such as using encryption for transmission of certain forms of information, to help keep it secure, accurate, current, and complete.
-Your personal information may be stored in Canada, the European Union and the United States, always with our same high security standards.
-One of the primary purposes of the Eclipse Foundation and its websites is to enable collaborative open source software development. Doing so necessarily requires Us to maintain records of authorship related to all contributions. Any personally identifiable information collected by virtue of your contributions will be publicly available on the Internet in unencrypted form and without access restriction.
-Toggle navigation
-Breadcrumbs
+If you want to contribute with source code, use cases or implementing it in your devices, let us know and discuss in the
+unide forum
+or by forking / filing an issue on
+github
+.
+Why have you included content-spec uri, if that can also be expressed in the a REST url already?
+content-spec
+is included in the payload, because PPMP does not rely on a specific transport protocol (like REST).
+Recent Posts
+PPMP Version 3 final
+PPMP Version 3 release candidate
+PPMP Use Cases: Template for PPMP transformation
+Unide 0.2.0 released
+PPMP Use Cases: Unide and the Eclipse Production Performance Management Testbed
+Blog Archives
+December 2019
+(1)
+April 2019
+(1)
+October 2018
+(1)
+April 2018
+(1)
+March 2018
+(2)
+February 2018
+(1)
+November 2017
+(2)
+July 2017
+(2)
+April 2017
+(1)
+October 2016
+(4)
+Eclipse Foundation
+Privacy Policy
+Terms of Use
+Copyright Agent
+Security reports
+Legal
+Eclipse unide - Specification
 Home
-Legal
-Eclipse.org Terms of Use
-Eclipse.org Terms of Use
-April 5, 2019
-Terms and Conditions of Use for the Eclipse Foundation Web Site and Related Services
-As used herein, the term “you” means the individual accessing this Web site, as well as any person or entity which has granted to such individual the authority to enter into this agreement on its behalf. By accessing, browsing, or using this Web site, you acknowledge that you have read, understand, and agree to be bound by these terms.
-This Web site and related services are made available by the Eclipse Foundation. All software, documentation, information and/or other materials provided on and through this Web site ("Content") and all of the related services offered by the Eclipse Foundation may be used solely under the following terms and conditions ("Terms of Use").
-This Web site may contain other proprietary notices and copyright information, the terms of which must be observed and followed. The Content on this Web site may contain technical inaccuracies or typographical errors and may be changed or updated without notice. The Eclipse Foundation may also make improvements and/or changes to the Content at any time without notice.
-Neither the Eclipse Foundation nor its members ("Members") assume any responsibility regarding the accuracy of the Content and use of the Content is at the recipient’s own risk. Neither the Eclipse Foundation nor its Members provide any assurances that any reported problems with any Content will be resolved. Except as otherwise expressly stated herein or in another applicable license, by providing the Content, neither the Eclipse Foundation nor the Members grant any licenses to any copyrights, patents or any other intellectual property rights in the Content.
-The Eclipse Foundation and the Members do not want to receive confidential information from you through this Web site and related services. Please note that any information or material sent to The Eclipse Foundation or the Members will be deemed NOT to be confidential and will be publicly available.
-You are prohibited from posting, transmitting, or storing to or from this Web site or to any service offered by the Eclipse Foundation any unlawful, threatening, libelous, defamatory, obscene, scandalous, inflammatory, pornographic, or profane material, or any other material that could give rise to any civil or criminal liability under the law.
-If you believe that Content residing or accessible on or through this Web site or any UDS infringes a copyright, please send a notice of copyright infringement to our designated agent pursuant to the procedures set forth here:
-https://www.eclipse.org/legal/copyright.php
-User Data Services ("UDS")
-Legal
-Copyright Agent
-Copyright Agent
-We respect the intellectual property rights of others, and require that the people who use the Site do the same. We also maintain a policy under which the Web Site use privileges of users who are repeat infringers of intellectual property rights are terminated in appropriate circumstances. If you believe that your work has been copied in a way that constitutes copyright infringement, please forward the following information to Eclipse's Copyright Agent, designated as such pursuant to the Digital Millennium Copyright Act, 17 U.S.C. § 512(c)(2), named below:
-Your address, telephone number, and email address;
-A description of the copyrighted work that you claim has been infringed;
-A description of where the alleged infringing material is located;
-A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
-An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; and
-A statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
-Copyright Agent:
-Manager, Intellectual Property
-Eclipse Foundation, Inc.
-2934 Baseline Rd Suite 202
-Ottawa, Ontario
-Canada
-K2H 8T5
-Phone: +1.613.224.9461
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
+Proposal
+Specification
+Blog Archives
 FAQ
-EPL-1.0
-Plain HTML
-Plain Text
+PPMP Specification
+Rationale
+Noticeably in recent years, there is a continuous increase in demand, price pressure and complexity in manufacturing. Things need to move faster, be more flexible, and fulfill higher quality standards forcing manufacturers to optimize their processes.
+Production facilities and their performance have a huge impact on the overall performance of manufacturing processes. However, to identify bottlenecks and possibilities for improvements detailed data from machines are required.
+Such data is surely provided by machines either via modern protocols such as OPC UA or via proprietary access methods but it is not provided in a common and easily accessible format, which can be used to do performance analysis and optimization. This renders holistic process improvement efforts infeasible for many, especially smaller organizations.
+The Production Performance Management Protocol (PPMP) specifies a format that allows to capture data that is required to do performance analysis of production facilities. It allows monitoring backends to collect and evaluate key metrics of machines in the context of a production process. It is doing that by allowing to relate the machine status with currently produced parts.
+The specification is structured into three payload formats: Measurement payload, message payload and process payload. The Measurement payload contains measurements from machines such as the temperature of a machine at a specific point in time together with the currently produced part. The message payload contains arbitrary messages sent by a machine, e.g. alerts or the like. A process message consists of information about a discrete e.g. tightening or welding process with all their characterizing data, which are needed to describe and analyze it.
+The default way of transporting the json payload is via http to allow for an easy integration into various backend systems. Other transportation methods are possible and welcome.
+Validation
+Did you know that you can easily validate your PPMP payload against the published online version of PPMP? For exapmle,
+jsonschemavalidator.net
+provides an online validation frontend. Just use your payload as JSON input and the respective github link to the PPMP specification as a
+$ref
+in the schema. For example:
+Overview
+Machine Message
+(v
+2
+/
+3
+)
+Measurement Message
+(v
+2
+/
+3
+)
+Process Message
+(v
+2
+/
+3
+)
+Communicating Parties
+Two parties are involved in a PPMP message exchange: the sender and the receiver. The sender pushes a message to the receiver. Usually the sender is a machine or a sensor of a machine.
+The receiver waits for messages. It offers a API that allows for sending either measurement payloads or message payloads.
+The communication is unidirectional. Only the sender can contact the receiver and send messages. No feedback from receiver to sender is provided.
+Eclipse unide - Recent Posts
+Home
+Proposal
+Specification
+Blog Archives
 FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
+Recent Posts
+PPMP Version 3 final
+November 26, 2019
+PPMP Version 3 release candidate
+March 01, 2019
+PPMP Use Cases: Template for PPMP transformation
+September 04, 2018
+Unide 0.2.0 released
+March 26, 2018, 12:39
+PPMP Use Cases: Unide and the Eclipse Production Performance Management Testbed
+February 13, 2018
+Recent Posts
+PPMP Version 3 final
+PPMP Version 3 release candidate
+PPMP Use Cases: Template for PPMP transformation
+Unide 0.2.0 released
+PPMP Use Cases: Unide and the Eclipse Production Performance Management Testbed
+Blog Archives
+December 2019
+(1)
+April 2019
+(1)
+October 2018
+(1)
+April 2018
+(1)
+March 2018
+(2)
+February 2018
+(1)
+November 2017
+(2)
+July 2017
+(2)
+April 2017
+(1)
+October 2016
+(4)
+Eclipse Foundation
+Privacy Policy
+Terms of Use
+Eclipse unide - Welcome
+Home
+Proposal
+Specification
+Blog Archives
+FAQ
+What is Unide?
+Noticeably in the recent years, there’s a continuous increase in demand, price pressure and complexity in manufacturing. Things need to move faster, be more flexible, and fulfill higher quality standards. Often, optimization in this regard is referred to as Production Performance Management (PPM). The basis for this optimization is information from the machines and devices related to a product, such as:
+Torque and angle for a tightening process
+Influx / efflux of throttle plate test station
+Energy consumption of spindles in a cutting process
+Nowadays, brand new machines and software are often shipped with powerful communication capabilities. For older machines, smaller factories and SMEs (Small and Medium Enterprises), it can be a challenge to catch up with the complex IT standards that come along. In fact, sometimes the hardware itself imposes limits.
+Nevertheless, in a manufacturing environment, monitoring makes most sense if there are no blind spots. To achieve that, upgrading machines and software is one option, retrofitting another. For the latter, the hurdle should be as low as possible. Yet, there should be a few guidelines for a one-way exchange of the most necessary information (machine messages, measurements):
+The structure of the data shall be:
+flexible enough to be carried via multiple protocols,
+in order to not reinvent the wheel and leverage on existing technology
+similar in each case,
+to be able to use the same software to interpret the data
+easily understandable,
+so that implementation in a custom environment won’t be a hurdle
+as simple as possible,
+to not produce an opinionated framework
+and yet containing enough information for the use cases,
+We decided the least common denominator of necessary information are the mandatory fields, common relevant information to be optional, and the possibility for further extension points through metadata.
+Industry benefits of Unide
+This open source project aims to make PPM affordable for smaller organizations by reducing cost and complexity of data communication. Through sample implementations of a simple information structure (Production Performance Management Protocol - PPMP) tailored to manufacturing environments, we want to encourage the community to use, share, and evolve this structure together.
+PPMP has already been introduced as part of a PPM testbed at a medium-sized Bosch plant, working with many SMEs as partners and suppliers. Furthermore, this testbed aims to create an ecosystem which allows SMEs and larger companies to collaborate efficiently.
+The PPMP takes an important role by ensuring interoperability between different types of devices and software. It is designed to gather and aggregate machine and sensor data from different devices. It focuses on defining the JSON payload which can be transferred via a variety of transports (REST, AMQP, MQTT). The primary goals of PPMP are:
+Integrating devices (across domains; e.g. manufacturing or energy) for data aggregation and gathering purposes
+Providing a very lightweight and easy-to-use solution for small and medium-sized enterprises (SMEs)
+Scope
+The Eclipse Unide project publishes the current version of Production Performance Management Protocol (PPMP) and develops simple server/client implementations. The implementations store the payloads in a database and displays them through a simple user interface. Everyone can then use these samples for their custom condition monitoring applications.
+The project will contain:
 PPMP Specification:
 Machine message and measurement interfaces
 JSON based
 Versioned
+Eclipse Foundation
+Privacy Policy
+Terms of Use
+Copyright Agent
+Security reports
+Legal
+Copyright Agent
+Security reports
+Legal
 Client:
 Chrome / nw.js App
 For Industry Machines and Devices
@@ -597,129 +265,6 @@ Hono
 Paho
 or
 Kura
-Terms of Use
-Copyright Agent
-Security reports
-Legal
-Eclipse Foundation
-Privacy Policy
-Terms of Use
-Copyright Agent
-Security reports
-Legal
-If you want to contribute with source code, use cases or implementing it in your devices, let us know and discuss in the
-unide forum
-or by forking / filing an issue on
-github
-.
-Why have you included content-spec uri, if that can also be expressed in the a REST url already?
-content-spec
-is included in the payload, because PPMP does not rely on a specific transport protocol (like REST).
-Recent Posts
-PPMP Version 3 release candidate
-PPMP Use Cases: Template for PPMP transformation
-Unide 0.2.0 released
-PPMP Use Cases: Unide and the Eclipse Production Performance Management Testbed
-PPMP Use Cases: Simple Transformation with Apache Camel
-Blog Archives
-April 2019
-(1)
-October 2018
-(1)
-April 2018
-(1)
-March 2018
-(2)
-February 2018
-(1)
-We also offer services to our community which provide the ability for users of Eclipse software to store data on Eclipse Foundation servers through services including, but not limited to, the User Storage Service and the Automated Error Reporting Initiative. Any data stored through these services will be publicly available on the Internet in unencrypted form and without access restriction. Therefore, you should not use these services to store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available.
-Clickstream Data and Cookies
-We sometimes collect anonymous information from visits and contributions to Eclipse Foundation websites to help provide better service. For example, We keep track of the domains from which people visit and We also measure visitor activity on Eclipse Foundation websites, but in ways that keep the information anonymous. This anonymous information is sometimes known as "clickstream data." We may use and aggregate this data to analyze trends and statistics and to help Us tailor our websites to better serve Eclipse participants.
-Business Relationships
-This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
-Notification of Changes
-This privacy statement was last updated on May 24, 2018. A notice will be posted on this website home page for thirty (30) days whenever this privacy statement is changed.
-Questions Regarding This Policy
-Questions regarding this Privacy policy should be directed to:
-privacy@eclipse.org
-.
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-CC0 1.0 Creative Commons
-license, where, for purposes of that license, the Stored Information shall constitute the “Work” and you shall be the “Affirmer”. What that means is that anybody who accesses your information on the Internet has a worldwide, unrestricted, royalty free, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer the Stored Information without any obligation to you, including any obligation of attribution.
-Eclipse reserves the right to discontinue these services at any time or to remove any specific Stored Information from owned or controlled computer systems at any time, and Eclipse does not commit to making Stored Information available at all times in the future.
-Licenses
-Except for Content available through the UDS, and except as otherwise stated herein, the Content provided on this Web site is provided under the terms and conditions of the
-Eclipse Foundation Software User Agreement
-and those additional terms, conditions and notices referenced therein.
-If Content is licensed to you under the terms and conditions of a version of the Eclipse Public License ("
-EPL
-"), with respect to such Content, the term “Contributions” as used herein shall have the meaning provided in the EPL, and any such Contributions uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site shall be governed by the terms and conditions of the EPL and can be made available to others under the terms of the EPL.
-If Content is licensed to you under license terms and conditions other than the EPL ("Other License") with respect to such Content the term “Contributions “ as used herein shall mean any modifications, enhancements and/or other code and/or documentation related to such Content uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site, and such Contributions shall be subject to and governed by the terms and conditions of the Other License. In addition, with regard to such Contributions, you agree to provide the Contributions under the terms and conditions of the EPL, provided however that the Eclipse Foundation shall have the right to reject any Contributions if the acceptance by the Eclipse Foundation would be in any way inconsistent with the Eclipse Foundation's Intellectual Property Policy.
-In addition to the licenses granted above, you grant a non-exclusive, worldwide, perpetual, royalty-free license of all necessary rights under your copyright in and to your Contributions (the “Specification Grant”): (a) for the Eclipse Foundation (and its contributors solely as a part of Eclipse Foundation projects) to create, reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense specifications subject to the terms of the then-current
-Eclipse Foundation Specification License
-, based on or derived from the Specification Content (as defined below) and (b) for recipients of such specifications to create, reproduce, and distribute implementations thereof based on the portion of your Contributions or material derived from them in the specifications, subject to the terms of the then-current
-Eclipse Foundation Specification License
-.
-“Specification Content” is the collection of interface definitions for the application or user interfaces (“Interfaces”) provided by the work to which your Contribution was made, descriptions of the structure and semantic behavior of those Interfaces, and data formats and protocols associated with those Interfaces, all of which as are reasonably necessary to enable the development of independent implementations of those Interfaces. For the sake of clarity, Specification Content does not include implementation detail of how the Eclipse project code or your Contribution implements the Interfaces in the Specification and the Specification Grant provide above would not cover such additional material.
-To the extent you submit or otherwise make available to an Eclipse Foundation Specification Project (as that term is defined by the Intellectual Property Policy) any ideas, concepts, methods or other information, you agree that you will not assert, based on such submissions, any intellectual property rights that are essential to any implementation of the submission, against the Eclipse Foundation, its contributors, or its licensees, with respect to any implementation of such Specification (as that term is defined by the Eclipse Foundation Specification Process). To further clarify, such submissions include, but are not limited to, submissions made to any public communications channel such as an email list, forum, or bug report.
-To the extent you wish to upload, submit, or otherwise make Non-Code Content (as defined below) available to the Eclipse Foundation and/or the Members and/or users of this Web site, you may make that material available under the terms and conditions of the EPL or any other license stipulated for that purpose at
-Fax: +1.212.918.1619
-Email: license@eclipse.org
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
 .
 Interested Parties
 CONTACT Software GmbH
@@ -736,94 +281,14 @@ RAMPF Machine Systems GmbH & Co. KG
 J. Schmalz GmbH
 Bosch Software Innovations GmbH
 Recent Posts
+PPMP Version 3 final
 PPMP Version 3 release candidate
 PPMP Use Cases: Template for PPMP transformation
 Unide 0.2.0 released
 PPMP Use Cases: Unide and the Eclipse Production Performance Management Testbed
-PPMP Use Cases: Simple Transformation with Apache Camel
-November 2017
-(2)
-July 2017
-(2)
-April 2017
-(1)
-October 2016
-(4)
-Eclipse Foundation
-Privacy Policy
-Terms of Use
-Copyright Agent
-Security reports
-Legal
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-www.eclipse.org/legal
-. Non-Code Content is Content for which you own or control all rights, and which is not program code intended to be submitted to a Project (or documentation related to such code) and which is not Stored Information. For example, Non-Code Content would include white papers, dissertations, articles or other literary works, power point presentations, encyclopedias, anthologies, wikis, blogs, diagrams, drawings, sketches, photos or other images, audio content, video content and audiovisual materials.
-For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively "Material"), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
-You represent and warrant that to your knowledge, you have sufficient rights in the Materials to grant the foregoing rights and licenses.
-All logos and trademarks contained on this Web site are and remain the property of their respective owners. No licenses or other rights in or to such logos and/or trademarks are granted to you.
-You can learn more about the
-Eclipse.org privacy practices
-on the Web.
-Disclaimers
-The Eclipse Foundation and the Members make no representations whatsoever about any other Web site that you may access through this Web site. When you access a non-Eclipse Foundation Web site, even one that may contain the organization’s name or mark, please understand that it is independent from the Eclipse Foundation, and that the Eclipse Foundation and the Members have no control over the content on such Web site. In addition, a link to a non-Eclipse Foundation Web site does not mean that the Eclipse Foundation or the Members endorse or accept any responsibility for the content, or the use, of such Web site. It is up to you to take precautions to ensure that whatever you select for your use is free of such items as viruses, worms, Trojan horses and other items of a destructive nature.
-IN NO EVENT WILL THE ECLIPSE FOUNDATION AND/OR THE MEMBERS BE LIABLE TO YOU (AN INDIVIDUAL OR ENTITY) OR ANY OTHER INDIVIDUAL OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL OR CONSEQUENTIAL DAMAGES RELATED TO ANY USE OF THIS WEB SITE, THE CONTENT, STORED INFORMATION, OR ANY OTHER HYPER LINKED WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, LOST SALES, LOST REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON YOUR OR OUR INFORMATION HANDLING SYSTEMS OR OTHERWISE, EVEN IF THE ECLIPSE FOUNDATION OR THE MEMBERS ARE EXPRESSLY ADVISED OR AWARE OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES.
-ALL CONTENT IS PROVIDED BY THE ECLIPSE FOUNDATION AND/OR THE MEMBERS ON AN "AS IS" BASIS ONLY. THE ECLIPSE FOUNDATION AND THE MEMBERS PROVIDE NO REPRESENTATIONS, CONDITIONS AND/OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT. THE ECLIPSE FOUNDATION MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SECURITY OF ANY INOFRMATION OR CONTENT STORED WITH THE ECLIPSE FOUNDATION.
-The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
-The Eclipse Foundation and the Members reserve the right to seek all remedies available at law and in equity for violations of these Terms of Use, including but not limited to the right to block access from a particular Internet address to this Web site.
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Blog Archives
+December 2019
+(1)
 April 2019
 (1)
 October 2018
@@ -848,98 +313,3 @@ Terms of Use
 Copyright Agent
 Security reports
 Legal
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top

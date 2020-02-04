@@ -1,6 +1,6 @@
 [
     {
-        "IsCrawled": false,
+        "IsCrawled": true,
         "CrawlDepthLevel": 0,
         "IsWordcloudGenerated": true,
         "SiteUrl": "http://www.eclipse.org/paho/"

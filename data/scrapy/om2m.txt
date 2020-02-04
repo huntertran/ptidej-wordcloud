@@ -69,363 +69,7 @@ About OM2M
 Follow us on Twitter
 @OpenM2M
 Copyright © 2015 The Eclipse Foundation. All Rights Reserved.
-Copyright Agent | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Eclipse Foundation Website Privacy Policy | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Community
-Eclipse.org Terms of Use | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-Legal Resources | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Download
-Members
-Working Groups
-Projects
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Unable to connect to the database server at this time(eclipse).
-Unable to connect to the database server at this time(eclipse).
-SQL Trouble:
-Can't create a new thread (errno 11 "Resource temporarily unavailable"); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
-Tycho home | The Eclipse Foundation
-Skip to main content
-Log in
-Manage Cookies
-Donate
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Copyright Agent
-Copyright Agent
-We respect the intellectual property rights of others, and require that the people who use the Site do the same. We also maintain a policy under which the Web Site use privileges of users who are repeat infringers of intellectual property rights are terminated in appropriate circumstances. If you believe that your work has been copied in a way that constitutes copyright infringement, please forward the following information to Eclipse's Copyright Agent, designated as such pursuant to the Digital Millennium Copyright Act, 17 U.S.C. § 512(c)(2), named below:
-Your address, telephone number, and email address;
-A description of the copyrighted work that you claim has been infringed;
-A description of where the alleged infringing material is located;
-A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
-An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; and
-A statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
-Copyright Agent:
-Manager, Intellectual Property
-Eclipse Foundation, Inc.
-2934 Baseline Rd Suite 202
-Ottawa, Ontario
-Canada
-K2H 8T5
-Phone: +1.613.224.9461
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
 Eclipse Community Forums: OM2M
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Fax: +1.212.918.1619
-Email: license@eclipse.org
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Breadcrumbs
-Home
-Legal
-Eclipse Foundation Website Privacy ...
-Eclipse Foundation Website Privacy Policy
-May 24, 2018
-The Eclipse Foundation, Inc. ("Eclipse Foundation", "Us" or "We") is a member-supported not-for-profit foundation which acts as the steward of our open source projects, community, and ecosystem. We are committed to our community members’ rights to privacy. We promise to share transparently all aspects of how Eclipse Foundation projects and websites work in regards to privacy, terms, and personal data, and We are in full support of efforts to ensure your protection online. We only collect your personal data with your consent, and collect only as much as We need to provide you the service you request. For example, We need your personal data to register you to one of our conferences. Each time We collect additional personal data from you We will explain what We collect, why We need it, how We use it, how long We keep it, and how We protect it.
-You can withdraw consent anytime. We will respect your wishes.
-Personal Information on Eclipse Foundation Websites
-As a platform for open source innovation and collaboration, personal information on all Eclipse Foundation websites is either meant to be shared, for example records of your contributions to our open source projects, or protected, such as your name and email address when you subscribe to our newsletter.
-Any personal data you share with Us, We protect according to this Privacy policy.
-Individual Access to Personal Information
-We will respond within 30 days to your requests to have access to your personal information collected by Us. We will promptly correct inaccuracies, as the case may be, and We will delete it and/or anonymize it upon your request. Please contact
-privacy@eclipse.org
-to make such a request.
-Information Security and Quality
-We protect the integrity of your personal information with appropriate technical and organizational measures, such as using encryption for transmission of certain forms of information, to help keep it secure, accurate, current, and complete.
-Your personal information may be stored in Canada, the European Union and the United States, always with our same high security standards.
-One of the primary purposes of the Eclipse Foundation and its websites is to enable collaborative open source software development. Doing so necessarily requires Us to maintain records of authorship related to all contributions. Any personally identifiable information collected by virtue of your contributions will be publicly available on the Internet in unencrypted form and without access restriction.
-We also offer services to our community which provide the ability for users of Eclipse software to store data on Eclipse Foundation servers through services including, but not limited to, the User Storage Service and the Automated Error Reporting Initiative. Any data stored through these services will be publicly available on the Internet in unencrypted form and without access restriction. Therefore, you should not use these services to store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available.
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Eclipse.org Terms of Use
-Eclipse.org Terms of Use
-April 5, 2019
-Terms and Conditions of Use for the Eclipse Foundation Web Site and Related Services
-As used herein, the term “you” means the individual accessing this Web site, as well as any person or entity which has granted to such individual the authority to enter into this agreement on its behalf. By accessing, browsing, or using this Web site, you acknowledge that you have read, understand, and agree to be bound by these terms.
-This Web site and related services are made available by the Eclipse Foundation. All software, documentation, information and/or other materials provided on and through this Web site ("Content") and all of the related services offered by the Eclipse Foundation may be used solely under the following terms and conditions ("Terms of Use").
-This Web site may contain other proprietary notices and copyright information, the terms of which must be observed and followed. The Content on this Web site may contain technical inaccuracies or typographical errors and may be changed or updated without notice. The Eclipse Foundation may also make improvements and/or changes to the Content at any time without notice.
-Neither the Eclipse Foundation nor its members ("Members") assume any responsibility regarding the accuracy of the Content and use of the Content is at the recipient’s own risk. Neither the Eclipse Foundation nor its Members provide any assurances that any reported problems with any Content will be resolved. Except as otherwise expressly stated herein or in another applicable license, by providing the Content, neither the Eclipse Foundation nor the Members grant any licenses to any copyrights, patents or any other intellectual property rights in the Content.
-The Eclipse Foundation and the Members do not want to receive confidential information from you through this Web site and related services. Please note that any information or material sent to The Eclipse Foundation or the Members will be deemed NOT to be confidential and will be publicly available.
-You are prohibited from posting, transmitting, or storing to or from this Web site or to any service offered by the Eclipse Foundation any unlawful, threatening, libelous, defamatory, obscene, scandalous, inflammatory, pornographic, or profane material, or any other material that could give rise to any civil or criminal liability under the law.
-If you believe that Content residing or accessible on or through this Web site or any UDS infringes a copyright, please send a notice of copyright infringement to our designated agent pursuant to the procedures set forth here:
-https://www.eclipse.org/legal/copyright.php
-User Data Services ("UDS")
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Projects
 Skip to main content
 Downloads
 Members
@@ -448,111 +92,6 @@ Eclipse IDE
 Download
 Documentation
 Getting Started / Support
-Toggle navigation
-Breadcrumbs
-Home
-Legal
-Legal Resources
-Legal resource page for the Eclipse Foundation.
-Getting Started
-Agreement and Licenses
-Privacy and Trademarks
-Committer Agreements
-Committer Resources
-Getting Started
-The
-Guide to the Legal Documents
-provides an in-depth look at the many legal documents related to the Eclipse open source community. This content is of value to committers, contributors, redistributors of Eclipse content, developers of Eclipse-based products and users of Eclipse technologies;
-The
-Eclipse Public License
-(EPL) is the default license for Eclipse Project (please see the
-Eclipse Public License Frequently Asked Questions
-);
-The
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Clickstream Data and Cookies
-We sometimes collect anonymous information from visits and contributions to Eclipse Foundation websites to help provide better service. For example, We keep track of the domains from which people visit and We also measure visitor activity on Eclipse Foundation websites, but in ways that keep the information anonymous. This anonymous information is sometimes known as "clickstream data." We may use and aggregate this data to analyze trends and statistics and to help Us tailor our websites to better serve Eclipse participants.
-Business Relationships
-This website contains links to other website. We are not responsible for the privacy practices or the content of such website.
-Notification of Changes
-This privacy statement was last updated on May 24, 2018. A notice will be posted on this website home page for thirty (30) days whenever this privacy statement is changed.
-Questions Regarding This Policy
-Questions regarding this Privacy policy should be directed to:
-privacy@eclipse.org
-.
-Related Links
-Legal resources
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-CC0 1.0 Creative Commons
-license, where, for purposes of that license, the Stored Information shall constitute the “Work” and you shall be the “Affirmer”. What that means is that anybody who accesses your information on the Internet has a worldwide, unrestricted, royalty free, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer the Stored Information without any obligation to you, including any obligation of attribution.
-Eclipse reserves the right to discontinue these services at any time or to remove any specific Stored Information from owned or controlled computer systems at any time, and Eclipse does not commit to making Stored Information available at all times in the future.
-Licenses
-Except for Content available through the UDS, and except as otherwise stated herein, the Content provided on this Web site is provided under the terms and conditions of the
-Eclipse Foundation Software User Agreement
-and those additional terms, conditions and notices referenced therein.
-If Content is licensed to you under the terms and conditions of a version of the Eclipse Public License ("
-EPL
-"), with respect to such Content, the term “Contributions” as used herein shall have the meaning provided in the EPL, and any such Contributions uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site shall be governed by the terms and conditions of the EPL and can be made available to others under the terms of the EPL.
-If Content is licensed to you under license terms and conditions other than the EPL ("Other License") with respect to such Content the term “Contributions “ as used herein shall mean any modifications, enhancements and/or other code and/or documentation related to such Content uploaded, submitted, or otherwise made available by you to the Eclipse Foundation and/or the Members and/or users of this Web site, and such Contributions shall be subject to and governed by the terms and conditions of the Other License. In addition, with regard to such Contributions, you agree to provide the Contributions under the terms and conditions of the EPL, provided however that the Eclipse Foundation shall have the right to reject any Contributions if the acceptance by the Eclipse Foundation would be in any way inconsistent with the Eclipse Foundation's Intellectual Property Policy.
-In addition to the licenses granted above, you grant a non-exclusive, worldwide, perpetual, royalty-free license of all necessary rights under your copyright in and to your Contributions (the “Specification Grant”): (a) for the Eclipse Foundation (and its contributors solely as a part of Eclipse Foundation projects) to create, reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense specifications subject to the terms of the then-current
-Eclipse Foundation Specification License
-, based on or derived from the Specification Content (as defined below) and (b) for recipients of such specifications to create, reproduce, and distribute implementations thereof based on the portion of your Contributions or material derived from them in the specifications, subject to the terms of the then-current
-Eclipse Foundation Specification License
-.
-“Specification Content” is the collection of interface definitions for the application or user interfaces (“Interfaces”) provided by the work to which your Contribution was made, descriptions of the structure and semantic behavior of those Interfaces, and data formats and protocols associated with those Interfaces, all of which as are reasonably necessary to enable the development of independent implementations of those Interfaces. For the sake of clarity, Specification Content does not include implementation detail of how the Eclipse project code or your Contribution implements the Interfaces in the Specification and the Specification Grant provide above would not cover such additional material.
-To the extent you submit or otherwise make available to an Eclipse Foundation Specification Project (as that term is defined by the Intellectual Property Policy) any ideas, concepts, methods or other information, you agree that you will not assert, based on such submissions, any intellectual property rights that are essential to any implementation of the submission, against the Eclipse Foundation, its contributors, or its licensees, with respect to any implementation of such Specification (as that term is defined by the Eclipse Foundation Specification Process). To further clarify, such submissions include, but are not limited to, submissions made to any public communications channel such as an email list, forum, or bug report.
-tycho
-Primary Links
-Eclipse Distribution, Update Site, Dropins
-Tutorials, Examples, Videos, Reference Documentation
-Bug Tracker, Newsgroup, Support
-Workspace Setup, Wiki, Committers
-Tycho - Building Eclipse plug-ins with maven
-Tycho is focused on a Maven-centric, manifest-first approach to building Eclipse plug-ins, features, update sites, RCP applications and OSGi bundles. Tycho is a set of Maven plugins and extensions for building Eclipse plugins and OSGi bundles with Maven. Eclipse plugins and OSGi bundles have their own metadata for expressing dependencies, source folder locations, etc. that are normally found in a Maven POM. Tycho uses native metadata for Eclipse plugins and OSGi bundles and uses the POM to configure and drive the build. Tycho supports bundles, fragments, features, update site projects and RCP applications. Tycho also knows how to run JUnit test plugins using OSGi runtime and there is also support for sharing build results using Maven artifact repositories. Tycho plugins introduce new packaging types and the corresponding lifecycle bindings that allow Maven to use OSGi and Eclipse metadata during a Maven build.
-OSGi rules are used to resolve project dependencies and package visibility restrictions are honoured by the OSGi-aware JDT-based compiler plugin. Tycho will use OSGi metadata and OSGi rules to calculate project dependencies dynamically and injects them into the Maven project model at build time. Tycho supports all attributes supported by the Eclipse OSGi resolver (Require-Bundle, Import-Package, Eclipse-GenericRequire, etc). Tycho will use proper classpath access rules during compilation. Tycho supports all project types supported by PDE and will use PDE/JDT project metadata where possible. One important design goal in Tycho is to make sure there is no duplication of metadata between POM and OSGi metadata.
-Contributors
-Redhat
-SAP
-Sonatype
-New and Noteworthy
-Tycho 1.4.0 was released. See the
-release notes
-for details.
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
 How to Contribute
 IDE and Tools
 Newcomer Forum
@@ -578,108 +117,6 @@ How to Contribute
 IDE and Tools
 Newcomer Forum
 Toggle navigation
-Eclipse Foundation Legal Frequently Asked Questions
-answers some of the commonly asked questions about Eclipse.org licensing, contributions, working as a committer, and cryptography;
-Third Party Content Licenses
-provides a list of licenses that are approved for third party content used by Eclipse projects; or
-For other questions, email:
-license@eclipse.org
-.
-Agreements and Licenses
-Web Site Terms of Use:
-By accessing, browsing or using this web site, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
-Eclipse Public License
-(EPL): The fundamental license document for the Eclipse projects and community.
-Eclipse Distribution License
-(EDL): The BSD license used by some Eclipse projects which require dual-licensing along with the EPL. Other than for
-example code or build scripts
-.
-Eclipse Contributor Agreement:
-If you are contributing code or documentation to Eclipse Foundation projects you are required to complete this agreement.
-Developer Certificate of Origin:
-If you are contributing code or documentation to Eclipse Foundation projects, and using the git signed-off-by mechanism, you are agreeing to this certificate.
-Copyright Agent:
-Contact information for the Eclipse Foundation's Copyright Agent.
-Eclipse Foundation Software User Agreement:
-By downloading builds or accessing Eclipse Foundation source code repositories, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions contained in this agreement.
-Approved Licenses for Non-Code, Example, and Other Content:
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-To the extent you wish to upload, submit, or otherwise make Non-Code Content (as defined below) available to the Eclipse Foundation and/or the Members and/or users of this Web site, you may make that material available under the terms and conditions of the EPL or any other license stipulated for that purpose at
-www.eclipse.org/legal
-. Non-Code Content is Content for which you own or control all rights, and which is not program code intended to be submitted to a Project (or documentation related to such code) and which is not Stored Information. For example, Non-Code Content would include white papers, dissertations, articles or other literary works, power point presentations, encyclopedias, anthologies, wikis, blogs, diagrams, drawings, sketches, photos or other images, audio content, video content and audiovisual materials.
-For all other software, information and other material including, without limitation, ideas, concepts, know-how and techniques, uploaded, submitted or otherwise made available to The Eclipse Foundation, the Members, and/or users of this Website, (collectively "Material"), if the paragraphs above are inapplicable, and if the Material is not Stored Information, you grant (or warrant that the owner of such rights has expressly granted) a license under either the applicable Project License(s) (as that term is defined in the Eclipse Intellectual Property Policy), or, if no such Project License(s) is applicable, you grant (or warrant that the owner of such rights has expressly granted) the Eclipse Foundation, the Members and the users of this Web-site a worldwide, unrestricted, royalty free, fully paid up, irrevocable, perpetual, non-exclusive license to use, make, reproduce, prepare derivative works of, publicly display, publicly perform, transmit, sell, distribute, sublicense or otherwise transfer such Materials, and/or derivative works thereof, and authorize third parties to do any, some or all of the foregoing including, but not limited to, sublicensing others to do any some or all of the foregoing indefinitely.
-You represent and warrant that to your knowledge, you have sufficient rights in the Materials to grant the foregoing rights and licenses.
-All logos and trademarks contained on this Web site are and remain the property of their respective owners. No licenses or other rights in or to such logos and/or trademarks are granted to you.
-You can learn more about the
-Eclipse.org privacy practices
-on the Web.
-Disclaimers
-The Eclipse Foundation and the Members make no representations whatsoever about any other Web site that you may access through this Web site. When you access a non-Eclipse Foundation Web site, even one that may contain the organization’s name or mark, please understand that it is independent from the Eclipse Foundation, and that the Eclipse Foundation and the Members have no control over the content on such Web site. In addition, a link to a non-Eclipse Foundation Web site does not mean that the Eclipse Foundation or the Members endorse or accept any responsibility for the content, or the use, of such Web site. It is up to you to take precautions to ensure that whatever you select for your use is free of such items as viruses, worms, Trojan horses and other items of a destructive nature.
-IN NO EVENT WILL THE ECLIPSE FOUNDATION AND/OR THE MEMBERS BE LIABLE TO YOU (AN INDIVIDUAL OR ENTITY) OR ANY OTHER INDIVIDUAL OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL OR CONSEQUENTIAL DAMAGES RELATED TO ANY USE OF THIS WEB SITE, THE CONTENT, STORED INFORMATION, OR ANY OTHER HYPER LINKED WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, LOST SALES, LOST REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON YOUR OR OUR INFORMATION HANDLING SYSTEMS OR OTHERWISE, EVEN IF THE ECLIPSE FOUNDATION OR THE MEMBERS ARE EXPRESSLY ADVISED OR AWARE OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES.
-ALL CONTENT IS PROVIDED BY THE ECLIPSE FOUNDATION AND/OR THE MEMBERS ON AN "AS IS" BASIS ONLY. THE ECLIPSE FOUNDATION AND THE MEMBERS PROVIDE NO REPRESENTATIONS, CONDITIONS AND/OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT. THE ECLIPSE FOUNDATION MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SECURITY OF ANY INOFRMATION OR CONTENT STORED WITH THE ECLIPSE FOUNDATION.
-The Eclipse Foundation and the Members reserve the right to investigate complaints or reported violations of these Terms of Use and to take any action they deem appropriate including, without limitation, reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.
-The Eclipse Foundation and the Members reserve the right to seek all remedies available at law and in equity for violations of these Terms of Use, including but not limited to the right to block access from a particular Internet address to this Web site.
-Related Links
-Legal resources
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
 Breadcrumbs
 Home
 Projects
@@ -701,76 +138,6 @@ Today's Messages
 ::
 Unanswered Messages
 ::
-The Board of Directors has approved the use of certain licenses for specific types of content on eclipse.org.
-Eclipse Foundation Update Manager Agreement:
-If you package "downloadable features" to be installed from your web site using the Eclipse Update Manager, you must read, understand, and agree to the terms and conditions contained in this agreement.
-Eclipse Foundation Specification License:
-The license used by Eclipse Foundation specifications created under the Eclipse Foundation Specification Process.
-Eclipse Foundation TCK License:
-The binary license used by Technology Compatibility Kits to demonstrate compatibility with their corresponding Specifications.
-Privacy and Trademarks
-Privacy Policy:
-Your privacy is important to us. This statement discloses the information practices for this web site, including what type of information is gathered and tracked, how the information is used, and with whom the information is shared.
-Trademark Usage Guidelines:
-Guidelines on permissable use of Eclipse logos and trademarks.
-Trademark Transfer Agreement:
-Pre-existing projects which move to the Eclipse Foundation will be required to execute this agreement to ensure that the Eclipse Foundation has rights to any trademarks associated with the project name.
-Trademark Attributions:
-Content on this web site may make reference to trademarks requiring attribution.
-Committer Agreements
-Member Committer and Contributor Agreement:
-This agreement is used by Member companies to cover all of their committers participating in Eclipse projects.
-Individual Committer Agreement:
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Guide to legal documents
-About Us
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Show Polls
 ::
 Message Navigator
@@ -778,127 +145,99 @@ Topic
 Replies
 Views
 Last message
+Problem when running MyMonitor example
+the same problem output when I run MyMonitor example and MyManager example
+By:
+Fawzia Abujalala
+on
+Thu, 19 December 2019
+0
+2199
+Thu, 19 December 2019 09:54
+By:
+Fawzia Abujalala
+error in running OM2M
+By:
+Fawzia Abujalala
+on
+Wed, 20 November 2019
+2
+334
+Fri, 22 November 2019 08:58
+By:
+Guillaume Garzone
+Subscription deleted
+for unreachable target uri, subscription gets deleted
+By:
+Krupa K
+on
+Thu, 24 October 2019
+2
+887
+Mon, 18 November 2019 08:57
+By:
+Krupa K
+ssl handshake exception
+security on om2m
+By:
+Krupa K
+on
+Fri, 01 November 2019
+0
+2040
+Fri, 01 November 2019 06:38
+By:
+Krupa K
+print messages on console
+print messages on incse console message not coming
+By:
+Krupa K
+on
+Wed, 30 October 2019
+2
+303
+Fri, 01 November 2019 05:37
+By:
+Krupa K
 JSON content "con" attribute in ContentInstance
 By:
 Arnaud Moncade
 on
 Tue, 22 May 2018
-3
-1714
-Wed, 11 September 2019 13:52
+5
+2394
+Wed, 30 October 2019 07:30
 By:
-Kenshi Kamiya
-Subscription resource is deleted
-By:
-Sherzod Elamanov
-on
-Wed, 04 September 2019
-6
-This agreement is used by committers participating in Eclipse projects who are not covered by a Member Committer Agreement.
-2019 Re-sign Exercise
-The Eclipse Foundation has updated its standard contributor and committer agreements, and all our committers and contributors, as well as those members who have member committer agreements, will need to re-sign their agreement with us.
-New Eclipse Foundation Committer and Contributor Agreements FAQ
-Resources for Committers
-Due Diligence Process:
-This document provides a quick pictorial overview of the due diligence process.
-Third Party Dependencies:
-This document contains the guidelines for the review of third-party dependencies.
-Committer Guidelines:
-This document outlines the issues to be aware of and the processes one should follow when working as a committer on Eclipse.org projects. A committer is a person that has been granted commit rights to systems on the Eclipse.org servers such as git repositories, web pages, download servers, mailing lists and so forth.
-Contribution Questionnaire:
-A Contribution Questionnaires (CQ) is the main interface between Eclipse committers and the Intellectual Property Management Team. Prior to committing a significant contribution of content to an Eclipse Foundation project, the committer must fill out this questionnaire and submit it to the Eclipse Management Organization (EMO) for approval. In addition to the EMO, the relevant PMC must also provide a technical review and approval of the contribution. Follow the link to find out more about what we mean by "significant contribution". Bug fixes or minor enhancements do not require PMC or EMO approval.
-"About" Templates:
-This provides templates for the "about.html" ("About") files used to describe EPL-licensed content.
-Default Copyright and License Notice:
-The standard copyright and license notice should appear in all source files where possible. Variations on this notice may be required (for example where a license other than the EPL governs the use of the file).
-IP Logs:
-An IP Log is a record of the intellectual property contributions to a project. This includes such as a list of all committers, past and present, that have worked on the code and (especially) those who have made contributions to the current code base.
-New Committer Process:
-The process for project leads and PMC members to add additional committers to an existing project.
-About Us
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-392
-Fri, 06 September 2019 10:57
-By:
-Sherzod Elamanov
+Guillaume Garzone
 problem to build om2m
 Unable to build the om2m, following official website given steps
 By:
 Draco IoT
 on
 Sat, 03 August 2019
-0
-89
-Sat, 03 August 2019 11:08
+1
+231
+Fri, 18 October 2019 15:52
 By:
-Draco IoT
+romuald dubuc
+Subscription resource is deleted
+By:
+Sherzod Elamanov
+on
+Wed, 04 September 2019
+6
+507
+Fri, 06 September 2019 10:57
+By:
+Sherzod Elamanov
 Subscribe to MN-CSE CIN
 By:
 michael michael
 on
 Tue, 21 May 2019
 1
-24076
+24158
 Fri, 19 July 2019 14:12
-Annual Report
-Foundation
-Governance
-Legal Resources
-Contact Us
-ECA
-Sign
-Validation Tool
-EPL-2.0
-Plain HTML
-Plain Text
-PDF
-FAQ
-EPL-1.0
-Plain HTML
-Plain Text
-FAQ
-Licenses
-Approved 3rd Party
-Non Approved
-Docs & examples
-Back to the top
-Register for EclipseCon Europe 2019 today!
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 By:
 Guillaume Garzone
 Forwarding Request MQTT
@@ -908,7 +247,7 @@ Jagan Nehra
 on
 Fri, 19 July 2019
 1
-453
+522
 Fri, 19 July 2019 14:02
 By:
 Guillaume Garzone
@@ -917,30 +256,9 @@ API Not working 6.2.8.4 API-DIS-CRB, API-DIS-CRA
 By:
 Manju Nath
 on
-Register now and save! Early Bird pricing ends October 1.
-Register
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
 Mon, 01 July 2019
 1
-27006
+27084
 Wed, 03 July 2019 08:18
 By:
 Manju Nath
@@ -951,7 +269,7 @@ Manju Nath
 on
 Mon, 24 June 2019
 3
-7021
+7121
 Wed, 26 June 2019 05:00
 By:
 Manju Nath
@@ -961,17 +279,7 @@ Francesco Rinaldi
 on
 Wed, 13 June 2018
 2
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-3231
+3368
 Sat, 22 June 2019 09:21
 By:
 Manju Nath
@@ -981,7 +289,7 @@ Muhammad Kamran
 on
 Thu, 08 March 2018
 1
-4408
+4556
 Tue, 28 May 2019 17:19
 By:
 Path Geek
@@ -992,7 +300,7 @@ Ilan t
 on
 Tue, 16 April 2019
 0
-39993
+40066
 Tue, 16 April 2019 07:09
 By:
 Ilan t
@@ -1002,7 +310,7 @@ Ahmad Arif
 on
 Mon, 26 March 2018
 4
-1574
+1702
 Tue, 16 April 2019 07:01
 By:
 Ilan t
@@ -1012,7 +320,7 @@ Muhammad Kamran
 on
 Fri, 16 February 2018
 3
-4308
+4467
 Thu, 11 April 2019 13:35
 By:
 Ilan t
@@ -1023,7 +331,7 @@ Liang-Yi Chen
 on
 Thu, 26 July 2018
 1
-3195
+3287
 Fri, 22 March 2019 09:33
 By:
 hieu tran
@@ -1034,7 +342,7 @@ hieu tran
 on
 Wed, 20 March 2019
 0
-17372
+17452
 Wed, 20 March 2019 09:13
 By:
 hieu tran
@@ -1045,7 +353,7 @@ Akil Mising name
 on
 Mon, 18 February 2019
 1
-452
+533
 Mon, 18 February 2019 13:24
 By:
 Mahdi Ben Alaya
@@ -1056,7 +364,7 @@ Palnati Dhanunjaya
 on
 Wed, 06 February 2019
 0
-6222
+6406
 Wed, 06 February 2019 06:42
 By:
 Palnati Dhanunjaya
@@ -1066,7 +374,7 @@ lai roven
 on
 Sat, 19 January 2019
 1
-1304
+1379
 Tue, 22 January 2019 01:58
 By:
 lai roven
@@ -1077,7 +385,7 @@ lai roven
 on
 Sat, 19 January 2019
 0
-2249
+2313
 Sat, 19 January 2019 11:17
 By:
 lai roven
@@ -1088,7 +396,7 @@ Regis DARGENT
 on
 Tue, 15 January 2019
 0
-2470
+2545
 Tue, 15 January 2019 10:30
 By:
 Regis DARGENT
@@ -1099,7 +407,7 @@ hieu tran
 on
 Wed, 08 November 2017
 15
-6060
+6364
 Sat, 29 December 2018 08:07
 By:
 hieu tran
@@ -1110,7 +418,7 @@ eric pan
 on
 Sat, 24 November 2018
 2
-598
+710
 Tue, 27 November 2018 08:04
 By:
 Cyrille Bareau
@@ -1121,7 +429,7 @@ Bilal Afzal
 on
 Thu, 11 October 2018
 0
-1449
+1551
 Thu, 11 October 2018 06:48
 By:
 Bilal Afzal
@@ -1131,7 +439,7 @@ Om2m lover
 on
 Mon, 06 August 2018
 0
-2165
+2243
 Mon, 06 August 2018 18:11
 By:
 Om2m lover
@@ -1141,7 +449,7 @@ Paramesh Surakod
 on
 Thu, 26 July 2018
 1
-1301
+1390
 Fri, 27 July 2018 06:06
 By:
 Paramesh Surakod
@@ -1151,7 +459,7 @@ Yorick Brunet
 on
 Mon, 02 July 2018
 0
-2292
+2414
 Mon, 02 July 2018 14:12
 By:
 Yorick Brunet
@@ -1161,7 +469,7 @@ teak jin kim
 on
 Mon, 23 April 2018
 1
-5696
+5782
 Wed, 13 June 2018 14:57
 By:
 Cyrille Bareau
@@ -1172,7 +480,7 @@ Loula Beck
 on
 Tue, 12 June 2018
 0
-2886
+2970
 Tue, 12 June 2018 08:40
 By:
 Loula Beck
@@ -1182,7 +490,7 @@ Yorick Brunet
 on
 Wed, 06 June 2018
 2
-745
+848
 Wed, 06 June 2018 12:13
 By:
 Yorick Brunet
@@ -1193,7 +501,7 @@ soyong kim
 on
 Sun, 29 April 2018
 2
-2249
+2347
 Fri, 01 June 2018 02:36
 By:
 soyong kim
@@ -1203,7 +511,7 @@ Fesseha Tsegaye
 on
 Fri, 07 November 2014
 30
-17297
+17955
 Sun, 27 May 2018 12:38
 By:
 soyong kim
@@ -1214,7 +522,7 @@ Paulo Araújo
 on
 Mon, 30 April 2018
 1
-3240
+3335
 Wed, 16 May 2018 19:10
 By:
 Paulo Araújo
@@ -1224,7 +532,7 @@ Jairo Ariza
 on
 Mon, 30 April 2018
 1
-3765
+3871
 Sat, 12 May 2018 15:04
 By:
 Jairo Ariza
@@ -1235,7 +543,7 @@ Jairo Ariza
 on
 Wed, 09 May 2018
 0
-4171
+4250
 Wed, 09 May 2018 16:26
 By:
 Jairo Ariza
@@ -1245,7 +553,7 @@ Ashok Athukuri
 on
 Tue, 10 January 2017
 4
-3456
+3584
 Mon, 07 May 2018 15:13
 By:
 Arnaud Moncade
@@ -1256,7 +564,7 @@ Paulo Araújo
 on
 Mon, 23 April 2018
 0
-5354
+5442
 Mon, 23 April 2018 16:02
 By:
 Paulo Araújo
@@ -1267,7 +575,7 @@ Ferenc Unghváry
 on
 Mon, 16 April 2018
 0
-4861
+4948
 Mon, 16 April 2018 14:39
 By:
 Ferenc Unghváry
@@ -1278,7 +586,7 @@ Ferenc Unghváry
 on
 Tue, 03 April 2018
 0
-4445
+4517
 Tue, 03 April 2018 10:30
 By:
 Ferenc Unghváry
@@ -1288,7 +596,7 @@ Nguyen Lich
 on
 Tue, 03 April 2018
 0
-4527
+4626
 Tue, 03 April 2018 08:59
 By:
 Nguyen Lich
@@ -1299,7 +607,7 @@ Paulo Araújo
 on
 Tue, 27 March 2018
 0
-3744
+3816
 Tue, 27 March 2018 11:24
 By:
 Paulo Araújo
@@ -1310,7 +618,7 @@ Jairo Ariza
 on
 Wed, 07 March 2018
 1
-4116
+4221
 Thu, 22 March 2018 15:38
 By:
 Loula Beck
@@ -1320,7 +628,7 @@ Loula Beck
 on
 Tue, 20 March 2018
 2
-1513
+1603
 Wed, 21 March 2018 15:34
 By:
 Loula Beck
@@ -1331,7 +639,7 @@ Ahmad Holpa
 on
 Fri, 02 December 2016
 3
-6425
+6601
 Sun, 18 March 2018 17:13
 By:
 Jairo Ariza
@@ -1342,7 +650,7 @@ Jairo Ariza
 on
 Wed, 07 March 2018
 4
-2200
+2312
 Sun, 18 March 2018 15:39
 By:
 Jairo Ariza
@@ -1352,7 +660,7 @@ Klemen Petrovcic
 on
 Tue, 24 May 2016
 10
-8135
+8315
 Wed, 14 March 2018 11:16
 By:
 Umar Farooq
@@ -1362,7 +670,7 @@ Muhammad Kamran
 on
 Wed, 07 March 2018
 6
-3066
+3221
 Wed, 14 March 2018 04:54
 By:
 Muhammad Kamran
@@ -1373,7 +681,7 @@ teak jin kim
 on
 Thu, 01 June 2017
 25
-19177
+19603
 Mon, 12 March 2018 08:28
 By:
 Loula Beck
@@ -1384,7 +692,7 @@ hieu tran
 on
 Wed, 22 November 2017
 4
-6190
+6387
 Tue, 06 March 2018 12:48
 By:
 Loula Beck
@@ -1395,7 +703,7 @@ Ferenc Unghváry
 on
 Sat, 24 February 2018
 0
-4371
+4452
 Sat, 24 February 2018 12:33
 By:
 Ferenc Unghváry
@@ -1405,7 +713,7 @@ Muhammad Kamran
 on
 Fri, 16 February 2018
 0
-3230
+3307
 Fri, 16 February 2018 12:36
 By:
 Muhammad Kamran
@@ -1415,7 +723,7 @@ Sting Yong
 on
 Tue, 30 January 2018
 2
-1805
+1961
 Sat, 03 February 2018 09:08
 By:
 Sting Yong
@@ -1425,7 +733,7 @@ Steffen Thielemans
 on
 Mon, 22 January 2018
 0
-4500
+4589
 Mon, 22 January 2018 12:37
 By:
 Steffen Thielemans
@@ -1435,7 +743,7 @@ Umar Farooq
 on
 Thu, 11 January 2018
 0
-4359
+4444
 Thu, 11 January 2018 04:58
 By:
 Umar Farooq
@@ -1445,7 +753,7 @@ JAEHOON KONG
 on
 Fri, 05 January 2018
 1
-2087
+2183
 Mon, 08 January 2018 05:27
 By:
 JAEHOON KONG
@@ -1456,7 +764,7 @@ Murat Güven
 on
 Tue, 26 December 2017
 0
-10912
+10987
 Tue, 26 December 2017 05:13
 By:
 Murat Güven
@@ -1466,7 +774,7 @@ wiem amich
 on
 Thu, 03 March 2016
 16
-12694
+12940
 Sat, 09 December 2017 02:44
 By:
 zeaz ezct
@@ -1477,7 +785,7 @@ Jingyu SUN
 on
 Fri, 24 November 2017
 1
-4464
+4567
 Mon, 04 December 2017 15:29
 By:
 Dorian Kurzaj
@@ -1488,7 +796,7 @@ Ramakrishnan Bala
 on
 Wed, 28 December 2016
 1
-10935
+11047
 Wed, 22 November 2017 09:44
 By:
 hieu tran
@@ -1498,7 +806,7 @@ Umar Farooq
 on
 Tue, 14 November 2017
 3
-2102
+2215
 Mon, 20 November 2017 10:49
 By:
 Dorian Kurzaj
@@ -1509,7 +817,7 @@ Umar Farooq
 on
 Mon, 20 November 2017
 1
-1447
+1536
 Mon, 20 November 2017 07:33
 By:
 Thierry Monteil
@@ -1519,7 +827,7 @@ David Zheng
 on
 Mon, 25 April 2016
 1
-7233
+7324
 Sun, 19 November 2017 15:07
 By:
 Umar Farooq
@@ -1529,7 +837,7 @@ Son Duong
 on
 Sat, 08 October 2016
 1
-3673
+3756
 Thu, 16 November 2017 10:17
 By:
 hieu tran
@@ -1540,7 +848,7 @@ Fariz Alemuda
 on
 Tue, 24 October 2017
 5
-4228
+4362
 Wed, 15 November 2017 10:06
 By:
 Dorian Kurzaj
@@ -1551,7 +859,7 @@ Massimo Vecchio
 on
 Wed, 11 February 2015
 6
-5420
+5571
 Wed, 08 November 2017 09:46
 By:
 Xurxo Legaspi
@@ -1562,7 +870,7 @@ Maite Bezunartea
 on
 Mon, 15 May 2017
 1
-14515
+14608
 Wed, 08 November 2017 09:07
 By:
 Xurxo Legaspi
@@ -1572,7 +880,7 @@ Dennis Parchkov
 on
 Thu, 02 November 2017
 0
-3581
+3652
 Thu, 02 November 2017 12:19
 By:
 Dennis Parchkov
@@ -1582,7 +890,7 @@ Brahim AIT ELHAJ
 on
 Wed, 21 June 2017
 2
-6980
+7088
 Fri, 27 October 2017 01:38
 By:
 Umar Farooq
@@ -1592,7 +900,7 @@ valentina vv95
 on
 Sat, 15 April 2017
 3
-26234
+26346
 Thu, 26 October 2017 17:45
 By:
 Umar Farooq
@@ -1603,7 +911,7 @@ soumya patra
 on
 Wed, 03 August 2016
 5
-7244
+7355
 Wed, 25 October 2017 03:37
 By:
 Umar Farooq
@@ -1613,7 +921,7 @@ Dejo Smith
 on
 Tue, 05 September 2017
 2
-13758
+13883
 Tue, 24 October 2017 22:26
 By:
 Dejo Smith
@@ -1623,7 +931,7 @@ Devang Zalavadiya
 on
 Tue, 24 October 2017
 0
-3310
+3433
 Tue, 24 October 2017 10:50
 By:
 Devang Zalavadiya
@@ -1633,7 +941,7 @@ Dennis Parchkov
 on
 Tue, 17 October 2017
 0
-2957
+3053
 Tue, 17 October 2017 13:47
 By:
 Dennis Parchkov
@@ -1643,7 +951,7 @@ yoshida takuma
 on
 Sun, 09 October 2016
 1
-5160
+5251
 Mon, 18 September 2017 15:19
 By:
 Dorian Kurzaj
@@ -1654,7 +962,7 @@ Son Duong
 on
 Fri, 15 July 2016
 2
-6875
+6967
 Wed, 13 September 2017 08:13
 By:
 David de la Bastida
@@ -1664,7 +972,7 @@ David Zheng
 on
 Fri, 11 March 2016
 2
-4039
+4156
 Thu, 31 August 2017 10:14
 By:
 Naum Spaseski
@@ -1675,7 +983,7 @@ Adrien Horcholle
 on
 Tue, 22 August 2017
 0
-9819
+9906
 Tue, 22 August 2017 15:09
 By:
 Adrien Horcholle
@@ -1686,7 +994,7 @@ Clement Courtais
 on
 Wed, 09 August 2017
 0
-5781
+5860
 Wed, 09 August 2017 13:26
 By:
 Clement Courtais
@@ -1696,7 +1004,7 @@ Nasuki Matamoto
 on
 Wed, 02 August 2017
 8
-16047
+16220
 Mon, 07 August 2017 01:27
 By:
 Nasuki Matamoto
@@ -1707,7 +1015,7 @@ Alpay Ozturk
 on
 Mon, 12 June 2017
 0
-12229
+12324
 Mon, 12 June 2017 14:13
 By:
 Alpay Ozturk
@@ -1717,7 +1025,7 @@ Devang Zalavadiya
 on
 Wed, 07 June 2017
 0
-15158
+15229
 Wed, 07 June 2017 10:46
 By:
 Devang Zalavadiya
@@ -1728,7 +1036,7 @@ Regis DARGENT
 on
 Tue, 30 May 2017
 2
-3396
+3528
 Tue, 30 May 2017 18:44
 By:
 Thierry Monteil
@@ -1739,7 +1047,7 @@ Fariz Alemuda
 on
 Sat, 27 May 2017
 0
-10740
+10815
 Sat, 27 May 2017 16:42
 By:
 Fariz Alemuda
@@ -1749,7 +1057,7 @@ Ramakrishnan Bala
 on
 Wed, 26 April 2017
 1
-22141
+22234
 Sat, 27 May 2017 16:35
 By:
 Fariz Alemuda
@@ -1760,7 +1068,7 @@ Mahdi Ben Alaya
 on
 Sun, 09 April 2017
 12
-26912
+27207
 Sun, 21 May 2017 18:10
 By:
 Mahdi Ben Alaya
@@ -1771,7 +1079,7 @@ Drici Abdelkrim
 on
 Mon, 06 February 2017
 1
-14020
+14103
 Wed, 10 May 2017 09:46
 By:
 Nicolas Seydoux
@@ -1781,7 +1089,7 @@ Ashok Athukuri
 on
 Tue, 17 January 2017
 1
-94074
+94165
 Wed, 10 May 2017 09:52
 By:
 Nicolas Seydoux
@@ -1791,7 +1099,7 @@ Ramakrishnan Bala
 on
 Wed, 10 May 2017
 0
-34166
+34233
 Wed, 10 May 2017 07:41
 By:
 Ramakrishnan Bala
@@ -1802,7 +1110,7 @@ SANTOS DAS
 on
 Fri, 05 May 2017
 1
-13382
+13481
 Tue, 09 May 2017 03:02
 By:
 hansong wang
@@ -1813,7 +1121,7 @@ hansong wang
 on
 Fri, 05 May 2017
 0
-25301
+25374
 Fri, 05 May 2017 07:48
 By:
 hansong wang
@@ -1824,7 +1132,7 @@ Daan Ravesteijn
 on
 Fri, 09 December 2016
 2
-8621
+8853
 Fri, 05 May 2017 03:34
 By:
 Fariz Alemuda
@@ -1834,7 +1142,7 @@ Ramakrishnan Bala
 on
 Thu, 27 April 2017
 2
-6941
+7055
 Fri, 28 April 2017 06:33
 By:
 Ramakrishnan Bala
@@ -1844,7 +1152,7 @@ Ramakrishnan Bala
 on
 Thu, 27 April 2017
 1
-7748
+7829
 Fri, 28 April 2017 06:28
 By:
 Ramakrishnan Bala
@@ -1855,7 +1163,7 @@ yoshida takuma
 on
 Wed, 10 August 2016
 6
-12781
+12916
 Thu, 27 April 2017 04:46
 By:
 Ramakrishnan Bala
@@ -1865,7 +1173,7 @@ valentina vv95
 on
 Sun, 09 April 2017
 2
-5810
+5907
 Sun, 23 April 2017 15:38
 By:
 valentina vv95
@@ -1876,7 +1184,7 @@ Cyril FOTSO
 on
 Fri, 16 December 2016
 8
-4052
+4259
 Sun, 23 April 2017 15:27
 By:
 valentina vv95
@@ -1886,7 +1194,7 @@ Matej AA
 on
 Sun, 19 March 2017
 6
-46032
+46656
 Wed, 19 April 2017 19:21
 By:
 Matej AA
@@ -1896,7 +1204,7 @@ yoshida takuma
 on
 Thu, 08 September 2016
 4
-12752
+12887
 Thu, 13 April 2017 17:27
 By:
 Ian Skerrett
@@ -1907,7 +1215,7 @@ Ramakrishnan Bala
 on
 Thu, 13 April 2017
 1
-4509
+4607
 Thu, 13 April 2017 13:19
 By:
 Mahdi Ben Alaya
@@ -1917,7 +1225,7 @@ Hagen Heermann
 on
 Mon, 10 April 2017
 0
-8726
+8801
 Mon, 10 April 2017 12:44
 By:
 Hagen Heermann
@@ -1928,7 +1236,7 @@ Paulo Araújo
 on
 Sat, 11 March 2017
 3
-7293
+7388
 Thu, 23 March 2017 14:30
 By:
 Mahdi Ben Alaya
@@ -1938,7 +1246,7 @@ Kuan Lin Chen
 on
 Thu, 23 March 2017
 2
-3082
+3179
 Thu, 23 March 2017 14:27
 By:
 Mahdi Ben Alaya
@@ -1949,7 +1257,7 @@ swathi C
 on
 Wed, 22 March 2017
 0
-7985
+8074
 Wed, 22 March 2017 10:56
 By:
 swathi C
@@ -1960,7 +1268,7 @@ Hai Bui
 on
 Thu, 16 March 2017
 1
-1429
+1531
 Thu, 16 March 2017 22:29
 By:
 Hai Bui
@@ -1970,7 +1278,7 @@ Matej AA
 on
 Tue, 29 November 2016
 4
-8215
+8359
 Tue, 14 March 2017 11:57
 By:
 Guillaume Garzone
@@ -1980,7 +1288,7 @@ Kotaro Suzumura
 on
 Wed, 18 January 2017
 1
-99522
+99603
 Mon, 30 January 2017 12:10
 By:
 Kotaro Suzumura
@@ -1991,7 +1299,7 @@ Sabyasachi Majumdar
 on
 Thu, 19 January 2017
 0
-96618
+96702
 Thu, 19 January 2017 11:28
 By:
 Sabyasachi Majumdar
@@ -2001,7 +1309,7 @@ Putu Wiramaswara Widya
 on
 Thu, 12 January 2017
 0
-25861
+25933
 Thu, 12 January 2017 09:42
 By:
 Putu Wiramaswara Widya
@@ -2012,7 +1320,7 @@ Ashok Athukuri
 on
 Mon, 09 January 2017
 1
-3669
+3754
 Wed, 11 January 2017 13:41
 By:
 Ashok Athukuri
@@ -2022,7 +1330,7 @@ Ashok Athukuri
 on
 Wed, 11 January 2017
 1
-1526
+1610
 Wed, 11 January 2017 13:39
 By:
 Ashok Athukuri
@@ -2032,7 +1340,7 @@ Klemen Petrovcic
 on
 Sun, 01 May 2016
 9
-6569
+6745
 Wed, 11 January 2017 10:24
 By:
 Guillaume Garzone
@@ -2042,7 +1350,7 @@ Ahmad Holpa
 on
 Tue, 27 December 2016
 2
-11741
+11826
 Sat, 07 January 2017 05:10
 By:
 Ahmad Holpa
@@ -2052,7 +1360,7 @@ Yu-Hao Hsu
 on
 Thu, 05 January 2017
 1
-1883
+1972
 Fri, 06 January 2017 10:28
 By:
 Guillaume Garzone
@@ -2062,7 +1370,7 @@ Matej AA
 on
 Sat, 10 December 2016
 10
-4489
+4691
 Thu, 05 January 2017 16:41
 By:
 Matej AA
@@ -2073,7 +1381,7 @@ Drici Abdelkrim
 on
 Tue, 27 December 2016
 2
-11178
+11294
 Wed, 04 January 2017 11:12
 By:
 Drici Abdelkrim
@@ -2084,7 +1392,7 @@ SANTOS DAS
 on
 Thu, 29 December 2016
 0
-15288
+15372
 Thu, 29 December 2016 18:20
 By:
 SANTOS DAS
@@ -2095,7 +1403,7 @@ Drici Abdelkrim
 on
 Tue, 27 December 2016
 0
-10189
+10272
 Tue, 27 December 2016 10:17
 By:
 Drici Abdelkrim
@@ -2105,7 +1413,7 @@ Ahmad Holpa
 on
 Tue, 27 December 2016
 0
-9902
+10089
 Tue, 27 December 2016 02:08
 By:
 Ahmad Holpa
@@ -2115,7 +1423,7 @@ Yu-Hao Hsu
 on
 Thu, 15 December 2016
 7
-6318
+6484
 Fri, 23 December 2016 14:53
 By:
 Mahdi Ben Alaya
@@ -2125,7 +1433,7 @@ Yu-Hao Hsu
 on
 Mon, 25 July 2016
 3
-4396
+4521
 Fri, 23 December 2016 08:32
 By:
 Yu-Hao Hsu
@@ -2136,7 +1444,7 @@ Cyril FOTSO
 on
 Sat, 03 December 2016
 5
-8056
+8225
 Mon, 19 December 2016 09:29
 By:
 Guillaume Garzone
@@ -2146,7 +1454,7 @@ Yu-Hao Hsu
 on
 Thu, 01 December 2016
 2
-5445
+5573
 Thu, 15 December 2016 18:27
 By:
 Yu-Hao Hsu
@@ -2156,7 +1464,7 @@ Matej AA
 on
 Wed, 07 December 2016
 1
-951
+1038
 Wed, 07 December 2016 23:28
 By:
 Matej AA
@@ -2166,7 +1474,7 @@ Son Duong
 on
 Sat, 03 December 2016
 2
-2880
+2972
 Sat, 03 December 2016 01:53
 By:
 Son Duong
@@ -2177,7 +1485,7 @@ Bechir TALEB ALI
 on
 Mon, 28 November 2016
 3
-1766
+1870
 Thu, 01 December 2016 16:40
 By:
 Mahdi Ben Alaya
@@ -2187,7 +1495,7 @@ Son Duong
 on
 Sun, 27 November 2016
 0
-5367
+5437
 Sun, 27 November 2016 19:44
 By:
 Son Duong
@@ -2197,7 +1505,7 @@ Yu-Hao Hsu
 on
 Tue, 22 November 2016
 2
-2384
+2473
 Tue, 22 November 2016 10:20
 By:
 Yu-Hao Hsu
@@ -2207,7 +1515,7 @@ Son Duong
 on
 Fri, 11 November 2016
 0
-41208
+41282
 Fri, 11 November 2016 12:27
 By:
 Son Duong
@@ -2217,7 +1525,7 @@ Yu-Hao Hsu
 on
 Tue, 25 October 2016
 1
-1902
+1977
 Tue, 25 October 2016 13:28
 By:
 Mahdi Ben Alaya
@@ -2228,7 +1536,7 @@ Yu-Hao Hsu
 on
 Sun, 23 October 2016
 3
-1432
+1564
 Sun, 23 October 2016 17:32
 By:
 Mahdi Ben Alaya
@@ -2239,7 +1547,7 @@ Trung Luu
 on
 Mon, 17 October 2016
 0
-14097
+14178
 Mon, 17 October 2016 08:12
 By:
 Trung Luu
@@ -2250,7 +1558,7 @@ HyoungRo Lee
 on
 Thu, 08 September 2016
 2
-2557
+2652
 Wed, 12 October 2016 16:00
 By:
 David Zheng
@@ -2261,7 +1569,7 @@ MC LM
 on
 Fri, 30 September 2016
 4
-4362
+4524
 Tue, 04 October 2016 20:11
 By:
 MC LM
@@ -2271,7 +1579,7 @@ Son Duong
 on
 Tue, 04 October 2016
 0
-3137
+3208
 Tue, 04 October 2016 13:50
 By:
 Son Duong
@@ -2281,7 +1589,7 @@ Son Duong
 on
 Tue, 04 October 2016
 0
-2899
+2973
 Tue, 04 October 2016 08:14
 By:
 Son Duong
@@ -2291,7 +1599,7 @@ John Dough
 on
 Mon, 26 September 2016
 0
-5417
+5489
 Mon, 26 September 2016 13:48
 By:
 John Dough
@@ -2301,7 +1609,7 @@ Son Duong
 on
 Wed, 21 September 2016
 4
-2025
+2128
 Fri, 23 September 2016 13:27
 By:
 Son Duong
@@ -2311,7 +1619,7 @@ Trung Luu
 on
 Wed, 14 September 2016
 1
-1172
+1256
 Wed, 14 September 2016 11:55
 By:
 yoshida takuma
@@ -2321,7 +1629,7 @@ Trung Luu
 on
 Wed, 14 September 2016
 0
-3358
+3434
 Wed, 14 September 2016 10:19
 By:
 Trung Luu
@@ -2331,7 +1639,7 @@ Son Duong
 on
 Tue, 13 September 2016
 0
-3331
+3406
 Tue, 13 September 2016 09:02
 By:
 Son Duong
@@ -2342,7 +1650,7 @@ yoshida takuma
 on
 Mon, 29 August 2016
 6
-4117
+4255
 Mon, 12 September 2016 09:28
 By:
 Son Duong
@@ -2352,7 +1660,7 @@ Laurent Lemke
 on
 Tue, 06 September 2016
 8
-3836
+4001
 Fri, 09 September 2016 14:07
 By:
 Laurent Lemke
@@ -2362,7 +1670,7 @@ Son Duong
 on
 Thu, 08 September 2016
 2
-3664
+3862
 Fri, 09 September 2016 10:10
 By:
 Son Duong
@@ -2373,7 +1681,7 @@ HyoungRo Lee
 on
 Fri, 09 September 2016
 0
-3535
+3612
 Fri, 09 September 2016 00:00
 By:
 HyoungRo Lee
@@ -2383,7 +1691,7 @@ Son Duong
 on
 Thu, 01 September 2016
 3
-32219
+32375
 Thu, 08 September 2016 09:18
 By:
 Dorian Kurzaj
@@ -2393,7 +1701,7 @@ yoshida takuma
 on
 Mon, 05 September 2016
 2
-1324
+1409
 Tue, 06 September 2016 08:55
 By:
 yoshida takuma
@@ -2403,7 +1711,7 @@ Trung Luu
 on
 Thu, 01 September 2016
 1
-30255
+30340
 Mon, 05 September 2016 08:43
 By:
 Francois Aissaoui
@@ -2413,7 +1721,7 @@ Son Duong
 on
 Mon, 08 August 2016
 3
-2214
+2320
 Thu, 01 September 2016 12:45
 By:
 Son Duong
@@ -2423,7 +1731,7 @@ Son Duong
 on
 Fri, 26 August 2016
 2
-3298
+3418
 Tue, 30 August 2016 14:57
 By:
 Son Duong
@@ -2434,7 +1742,7 @@ Trung Luu
 on
 Tue, 23 August 2016
 2
-4041
+4140
 Tue, 30 August 2016 14:49
 By:
 Trung Luu
@@ -2445,7 +1753,7 @@ By:
 on
 Tue, 23 August 2016
 1
-3847
+3936
 Tue, 30 August 2016 14:40
 By:
 Francois Aissaoui
@@ -2455,7 +1763,7 @@ Can LIU
 on
 Mon, 29 August 2016
 2
-2437
+2567
 Tue, 30 August 2016 14:06
 By:
 Francois Aissaoui
@@ -2465,7 +1773,7 @@ Can LIU
 on
 Tue, 30 August 2016
 0
-31258
+31349
 Tue, 30 August 2016 09:20
 By:
 Can LIU
@@ -2476,7 +1784,7 @@ Sandi Semrov
 on
 Fri, 26 August 2016
 1
-1347
+1429
 Fri, 26 August 2016 09:05
 By:
 Thierry Monteil
@@ -2487,7 +1795,7 @@ Mahdi Ben Alaya
 on
 Sat, 28 February 2015
 1
-4552
+4690
 Wed, 24 August 2016 13:40
 By:
 yoshida takuma
@@ -2498,7 +1806,7 @@ yoshida takuma
 on
 Tue, 23 August 2016
 0
-3261
+3331
 Tue, 23 August 2016 20:50
 By:
 yoshida takuma
@@ -2509,7 +1817,7 @@ By:
 on
 Tue, 23 August 2016
 0
-3699
+3784
 Tue, 23 August 2016 05:33
 By:
 Äá»— SÃ­nh
@@ -2520,7 +1828,7 @@ Andrew Cloete
 on
 Mon, 07 March 2016
 4
-3830
+3954
 Mon, 22 August 2016 11:14
 By:
 Klemen Petrovcic
@@ -2530,7 +1838,7 @@ Can LIU
 on
 Wed, 22 June 2016
 3
-3394
+3514
 Tue, 16 August 2016 13:43
 By:
 Can LIU
@@ -2541,7 +1849,7 @@ Nithyananth Sivasubramanian
 on
 Tue, 24 May 2016
 1
-3444
+3527
 Tue, 16 August 2016 12:17
 By:
 Son Duong
@@ -2551,7 +1859,7 @@ Troy Harvey
 on
 Thu, 11 August 2016
 0
-4292
+4363
 Thu, 11 August 2016 03:07
 By:
 Troy Harvey
@@ -2561,7 +1869,7 @@ Son Duong
 on
 Tue, 02 August 2016
 1
-2124
+2211
 Thu, 04 August 2016 10:01
 By:
 Dorian Kurzaj
@@ -2571,7 +1879,7 @@ Can LIU
 on
 Tue, 26 July 2016
 35
-11061
+11583
 Sat, 30 July 2016 23:15
 By:
 Son Duong
@@ -2581,7 +1889,7 @@ Son Duong
 on
 Sat, 30 July 2016
 1
-1688
+1838
 Sat, 30 July 2016 15:19
 By:
 Mahdi Ben Alaya
@@ -2592,7 +1900,7 @@ Son Duong
 on
 Tue, 26 July 2016
 6
-2294
+2474
 Thu, 28 July 2016 08:40
 By:
 Trung Luu
@@ -2602,7 +1910,7 @@ Trung Luu
 on
 Wed, 27 July 2016
 2
-1179
+1270
 Wed, 27 July 2016 12:30
 By:
 Trung Luu
@@ -2612,7 +1920,7 @@ Can LIU
 on
 Tue, 19 July 2016
 3
-1893
+1992
 Sun, 24 July 2016 17:41
 By:
 Thierry Monteil
@@ -2623,7 +1931,7 @@ Prem Vaithilingam
 on
 Fri, 04 July 2014
 18
-11433
+11985
 Fri, 15 July 2016 14:13
 By:
 Can LIU
@@ -2633,7 +1941,7 @@ Klemen Petrovcic
 on
 Wed, 13 July 2016
 0
-3289
+3370
 Wed, 13 July 2016 18:35
 By:
 Klemen Petrovcic
@@ -2644,7 +1952,7 @@ Emelie Chen
 on
 Sat, 18 June 2016
 4
-3450
+3548
 Wed, 13 July 2016 00:13
 By:
 Emelie Chen
@@ -2654,7 +1962,7 @@ Fran Pelc
 on
 Tue, 15 December 2015
 11
-6087
+6303
 Fri, 08 July 2016 08:28
 By:
 Trung Luu
@@ -2664,7 +1972,7 @@ Klemen Petrovcic
 on
 Fri, 01 July 2016
 3
-2924
+3008
 Wed, 06 July 2016 15:49
 By:
 Mahdi Ben Alaya
@@ -2674,7 +1982,7 @@ Trung Luu
 on
 Thu, 30 June 2016
 8
-3168
+3310
 Wed, 06 July 2016 15:46
 By:
 Mahdi Ben Alaya
@@ -2685,7 +1993,7 @@ Muhammad Shoaib
 on
 Thu, 16 June 2016
 2
-4630
+4720
 Wed, 06 July 2016 12:58
 By:
 Mahdi Ben Alaya
@@ -2695,7 +2003,7 @@ Trung Luu
 on
 Tue, 05 July 2016
 6
-2632
+2764
 Wed, 06 July 2016 12:53
 By:
 Mahdi Ben Alaya
@@ -2705,7 +2013,7 @@ Wenyuan Hu
 on
 Tue, 12 April 2016
 5
-10163
+10357
 Wed, 06 July 2016 12:41
 By:
 Mahdi Ben Alaya
@@ -2715,7 +2023,7 @@ Trung Luu
 on
 Fri, 01 July 2016
 0
-3960
+4037
 Fri, 01 July 2016 15:38
 By:
 Trung Luu
@@ -2725,7 +2033,7 @@ Trung Luu
 on
 Thu, 30 June 2016
 1
-1909
+1999
 Fri, 01 July 2016 09:11
 By:
 Francois Aissaoui
@@ -2736,7 +2044,7 @@ Son Duong
 on
 Tue, 28 June 2016
 1
-2759
+2905
 Fri, 01 July 2016 09:00
 By:
 Guillaume Garzone
@@ -2746,7 +2054,7 @@ Can LIU
 on
 Tue, 28 June 2016
 2
-1570
+1664
 Tue, 28 June 2016 12:56
 By:
 Can LIU
@@ -2757,7 +2065,7 @@ Son Duong
 on
 Tue, 21 June 2016
 4
-3280
+3382
 Mon, 27 June 2016 11:37
 By:
 Son Duong
@@ -2767,7 +2075,7 @@ David Zheng
 on
 Tue, 07 June 2016
 3
-5523
+5624
 Mon, 27 June 2016 07:47
 By:
 Guillaume Garzone
@@ -2777,7 +2085,7 @@ Can LIU
 on
 Fri, 17 June 2016
 3
-1557
+1653
 Thu, 23 June 2016 14:23
 By:
 Can LIU
@@ -2788,7 +2096,7 @@ Son Duong
 on
 Fri, 17 June 2016
 2
-4028
+4113
 Thu, 23 June 2016 14:22
 By:
 Son Duong
@@ -2799,7 +2107,7 @@ Mahdi Ben Alaya
 on
 Fri, 18 December 2015
 17
-16761
+17036
 Tue, 14 June 2016 05:32
 By:
 Muhammad Shoaib
@@ -2809,7 +2117,7 @@ jara sdp
 on
 Wed, 18 May 2016
 1
-4861
+4944
 Mon, 06 June 2016 09:32
 By:
 Guillaume Garzone
@@ -2819,7 +2127,7 @@ abir gallala
 on
 Fri, 27 May 2016
 0
-3925
+3998
 Fri, 27 May 2016 09:36
 By:
 abir gallala
@@ -2829,7 +2137,7 @@ Ravi Teja
 on
 Tue, 03 March 2015
 5
-3515
+3639
 Mon, 23 May 2016 06:07
 By:
 Nithyananth Sivasubramanian
@@ -2839,7 +2147,7 @@ Luke Tang
 on
 Sun, 22 May 2016
 0
-2509
+2581
 Sun, 22 May 2016 18:02
 By:
 Luke Tang
@@ -2849,7 +2157,7 @@ Salma Bradai
 on
 Wed, 19 November 2014
 7
-7051
+7233
 Sun, 22 May 2016 09:28
 By:
 Klemen Petrovcic
@@ -2859,7 +2167,7 @@ Klemen Petrovcic
 on
 Sun, 01 May 2016
 22
-16860
+17194
 Wed, 18 May 2016 15:32
 By:
 Klemen Petrovcic
@@ -2869,7 +2177,7 @@ Luke Tang
 on
 Sun, 15 May 2016
 2
-3122
+3217
 Mon, 16 May 2016 06:05
 By:
 Luke Tang
@@ -2879,7 +2187,7 @@ David Zheng
 on
 Thu, 05 May 2016
 1
-3856
+3957
 Fri, 06 May 2016 08:42
 By:
 Guillaume Garzone
@@ -2889,7 +2197,7 @@ Can LIU
 on
 Tue, 03 May 2016
 2
-1815
+1915
 Tue, 03 May 2016 15:10
 By:
 Can LIU
@@ -2900,7 +2208,7 @@ Michael Wang
 on
 Fri, 29 April 2016
 1
-4238
+4319
 Tue, 03 May 2016 14:05
 By:
 Mahdi Ben Alaya
@@ -2910,7 +2218,7 @@ David Zheng
 on
 Sun, 11 October 2015
 7
-6368
+6533
 Tue, 19 April 2016 15:55
 By:
 Naum Spaseski
@@ -2920,60 +2228,10 @@ Thomas Leporcher
 on
 Fri, 15 April 2016
 1
-4029
+4116
 Tue, 19 April 2016 09:20
 By:
 Francois Aissaoui
-Error executing my plugin
-By:
-Marco Maggipinto
-on
-Tue, 12 April 2016
-1
-6021
-Tue, 19 April 2016 09:16
-By:
-Francois Aissaoui
-Using OM2M with Contiky or free RTOS
-By:
-Muhammad Shoaib
-on
-Mon, 18 April 2016
-0
-6172
-Mon, 18 April 2016 07:26
-By:
-Muhammad Shoaib
-OM2M and mBed
-By:
-Muhammad Shoaib
-on
-Fri, 08 April 2016
-3
-6539
-Tue, 12 April 2016 05:55
-By:
-Muhammad Shoaib
-Questions regarding the CoAP, MQTT and Bluetooth IPU implementation
-By:
-Klemen Petrovcic
-on
-Sun, 03 April 2016
-1
-7446
-Mon, 11 April 2016 08:51
-By:
-Francois Aissaoui
-Error loading bundle activator
-By:
-wiem amich
-on
-Tue, 08 March 2016
-7
-8410
-Thu, 31 March 2016 19:35
-By:
-Mahdi Ben Alaya
 Pages (2): [1
 2
 ›
@@ -3042,8 +2300,6 @@ Californium (Cf) CoAP Framework
 Capra
 ChemClipse
 Cloud Application Management Framework
-Code Recommenders
-Code Recommenders Incubator
 Commercial
 Common Build Infrastructure
 Concierge
@@ -3080,12 +2336,15 @@ Eclipse Deeplearning4j
 Eclipse Ditto
 Eclipse Duttile
 Eclipse EclEmma
+Eclipse Embedded CDT
 Eclipse EMF Cloud
 Eclipse Enterprise for Java
 Eclipse fog05
 Eclipse Formal Modeling
+Eclipse Free BIRD Tools
 Eclipse GLSP
 Eclipse Grizzly
+Eclipse Hara
 Eclipse Hawk
 Eclipse iceoryx
 Eclipse Implementation of JAXB
@@ -3097,6 +2356,7 @@ Eclipse January
 Eclipse JDT LS
 Eclipse Jemo
 Eclipse Jersey
+Eclipse JKube
 Eclipse JNoSQL
 Eclipse Kapua
 Eclipse Keyple
@@ -3108,18 +2368,18 @@ Eclipse Metro
 Eclipse Microprofile
 Eclipse Milo
 Eclipse Mojarra
+Eclipse MOSAIC
 Eclipse MRAA
 Eclipse N4JS
 Eclipse Open Standard Business Platform
 Eclipse OpenJ9
 Eclipse openK User Modules
 Eclipse OpenMQ
+Eclipse OpenVSX
 Eclipse ORB
 Eclipse Packager
 Eclipse Packages
-Eclipse Papyrus for xtUML
 Eclipse Passage
-Eclipse Picasso
 Eclipse Platform
 Eclipse Project for Common Annotations
 Eclipse Project for Concurrency Utilities
@@ -3151,12 +2411,16 @@ Eclipse Rich Beans
 Eclipse RT (runtime)
 Eclipse SCADA
 Eclipse Scanning
+Eclipse SeCo Blocks
 Eclipse sensiNact
 Eclipse Shellwax
 Eclipse Signalling Engineering Toolbox
 Eclipse sim@openPASS
+Eclipse Skills
 Eclipse SmartHome
+Eclipse SmartMDSD
 Eclipse Sprotty
+Eclipse Steady
 Eclipse SW360
 Eclipse SW360antenna
 Eclipse SWTChart
@@ -3180,6 +2444,7 @@ Eclipse XACC
 Eclipse Xpect
 Eclipse Xsemantics
 Eclipse Yasson
+Eclipse zenoh
 EclipseLink
 eGerrit
 EGit / JGit
@@ -3302,6 +2567,32 @@ Sirius
 Sisu
 Skalli
 Soteria
+Mailing list: om2m-dev (104 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
 Spatiotemporal Epidemiological Modeler (STEM)
 Standard Widget Toolkit (SWT)
 Subversive
@@ -3328,6 +2619,15 @@ Webtools incubator
 WindowBuilder
 XML Schema Definition (XSD)
 XWT
+- Polarsys
+Capella General
+Arcadia
+Capella workbench
+Capella Studio
+M2Doc
+Requirements Addon
+Kitalpha
+3p
 - General (non-technical)
 Eclipse Foundation
 Project Proposals
@@ -3349,6 +2649,59 @@ Tiaki
 MOFScript
 secRT
 Chinese users
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: om2m-dev
+(104 subscribers)
+OM2M Developer discussions
+About om2m-dev
+OM2M Developer discussions
+Using om2m-dev
+To post a message to all the list members, send email to
+om2m-dev@eclipse.org
+. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
+om2m-dev Archives
+or subscribe to this list's
+RSS feed
+Subscribing om2m-dev
+All contributions you make to our web site are governed by our
+Terms Of Use
+. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
+Privacy Policy
+.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
 AMW
 Buckminster
 ATF
@@ -3357,6 +2710,8 @@ Blinki
 COBOL
 Pulsar
 Albireo
+Code Recommenders Incubator
+Code Recommenders
 Apricot
 Service Oriented Architecture
 GMT (Generative Modeling Technologies)
@@ -3400,6 +2755,50 @@ Tycho
 Sketch
 IMP
 g-Eclipse
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the
+Mailing List
+page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: om2m-dev
+RSS Feed
+Archive
+Build Enterprise Java on Kubernetes!
+A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
+Register Today
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
 Eclipse HIP
 Eclipse Examples
 EMF-IncQuery
@@ -3428,9 +2827,11 @@ Higgins
 EGL Development Tools
 Service Component Architecture (SCA) Tools
 Wazaabi
+Eclipse Picasso
 MDM WEB
 Krikkit
 Gyrex
+Eclipse Papyrus for xtUML
 StatET
 Edje
 RISE V2G
@@ -3447,10 +2848,10 @@ Locked (w/ unread messages)
 Locked
 Moved to another forum
 Current Time:
-Sat Sep 28 21:13:20 GMT 2019
+Tue Feb 04 02:36:45 GMT 2020
 Powered by
 FUDForum
-. Page generated in 0.02161 seconds
+. Page generated in 0.06559 seconds
 .::
 Contact
 ::
@@ -3462,6 +2863,2916 @@ FUDforum Bulletin Board Software
 Back to the top
 Sign up to our Newsletter
 A fresh new issue delivered monthly
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+OM2M/one/Starting - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/one/Starting
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/one/Starting
+<
+OM2M
+‎ |
+one
+Contents
+1
+Prerequisites
+2
+Configuration
+2.1
+Server (IN-CSE) configuration
+2.2
+Gateway (MN-CSE) configuration
+3
+Startup
+3.1
+IN-CSE startup
+3.2
+MN-CSE startup
+4
+Multiple gateways scenario
+Prerequisites
+JAVA 1.7 or later is required to run OM2M.
+Configuration
+Server (IN-CSE) configuration
+Go to the IN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>".
+Edit the file “configuration/config.ini” to configure the IN-CSE.
+(You can keep the current configuration for a local demo)
+Parameter
+Description
+Example
+org.eclipse.om2m.cseType
+CSE type
+IN
+org.eclipse.om2m.cseBaseAddress
+IN-CSE ip address
+127.0.0.1
+org.eclipse.equinox.http.jetty.http.port
+IN-CSE HTTP listening port
+8080
+org.eclipse.om2m.coap.port
+IN-CSE CoAP listening port
+5683
+org.eclipse.om2m.cseBaseContext
+IN-CSE listening context
+/
+org.eclipse.om2m.dbDriver
+IN-CSE Database driver
+org.h2.Driver
+org.eclipse.om2m.dbUrl
+IN-CSE Database file location
+jdbc:h2:./database/nscdb
+org.eclipse.om2m.dbUser
+IN-CSE Database user name
+om2m
+org.eclipse.om2m.dbPassword
+IN-CSE Database password
+om2m
+org.eclipse.om2m.dbReset
+IN-CSE Database reset when starting
+true
+org.eclipse.om2m.cseBaseId
+IN-CSE CseBase resource id
+in-cse
+org.eclipse.om2m.cseBaseName
+IN-CSE CseBase resource name
+in-name
+org.eclipse.om2m.cseBaseProtocol.default
+IN-CSE Default communication protocol
+http
+org.eclipse.om2m.maxNrOfInstances
+Maximum number of content instances in a Container
+OM2M/one/Developer - Eclipsepedia
+1000
+org.eclipse.om2m.adminRequestingEntity
+IN-CSE Default admin requesting entity. (username / password)
+admin:admin
+org.eclipse.om2m.guestRequestingEntity
+IN-CSE Default guest requesting entity. (username / password)
+guest:guest
+Gateway (MN-CSE) configuration
+Go to the MN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>".
+Edit the file “configuration/config.ini” to configure the MN-CSE.
+(You can keep the current configuration for a local demo)
+Parameter
+Description
+Example
+org.eclipse.om2m.cseType
+Cse type
+MN
+org.eclipse.om2m.cseBaseAddress
+MN ip address
+127.0.0.1
+org.eclipse.equinox.http.jetty.http.port
+MN listening port
+8181
+org.eclipse.om2m.coap.port
+MN CoAP listening port
+5684
+org.eclipse.om2m.cseBaseContext
+MN listening context
+/
+org.eclipse.om2m.dbDriver
+MN Database driver
+org.h2.Driver
+org.eclipse.om2m.dbUrl
+MN Database file location
+jdbc:h2:./database/mncsedb
+org.eclipse.om2m.dbUser
+MN Database user name
+om2m
+org.eclipse.om2m.dbPassword
+MN Database password
+om2m
+org.eclipse.om2m.dbReset
+MN Database reset when starting
+true
+org.eclipse.om2m.cseBaseId
+MN CseBase resource id
+mn-cse
+org.eclipse.om2m.cseBaseName
+MN CseBase resource Name
+mn-name
+OM2M/one/Web Interface - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/one/Developer
+Log in
+org.eclipse.om2m.cseBaseProtocol.default
+MN default communication protocol
+http
+org.eclipse.om2m.maxNrOfInstances
+Maximum number of content instances in a Container
+1000
+org.eclipse.om2m.adminRequestingEntity
+Default MN-CSE admin requesting entity. (username / password)
+admin:admin
+org.eclipse.om2m.guestRequestingEntity
+Default MN-CSE guest requesting entity. (username / password)
+guest:guest
+The MN configuration file contains 5 additional parameters to specify the remote IN-CSE to which the MN should be authenticated.
+Parameter
+Description
+Example
+org.eclipse.om2m.remoteCseId
+Remote MN Id
+in-cse
+org.eclipse.om2m.remoteCseBaseName
+in-name
+org.eclipse.om2m.remoteCseAddress
+Remote MN ip address
+127.0.0.1
+org.eclipse.om2m.remoteCsePort
+Remote MN listening port
+8080
+org.eclipse.om2m.remoteCseContext
+Remote MN listening context
+/
+You can configure MN-CSE and IN-CSE to work on distributed machines.
+You can configure multiple MN-CSEs by setting different identifiers.
+Startup
+IN-CSE startup
+Go to the IN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>".
+Start the IN-CSE by executing the "start.bat" script on windows or "start.sh" on Linux and Mac OS.
+Once the IN-CSE is started, you will see an OSGi console. You can type “ss” to report a summary status of all installed bundles. Type "exit" to shutdown.
+IN-CSE OSGi console
+Open your browser and connect to the address "
+http://127.0.0.1:8080/webpage
+" to access the IN-CSE web interface.
+Enter username "admin" and password "admin" then click on login button to display the IN-CSE resource tree.
+IN-CSE web interface: authentication
+After a successful authentication, the IN-CSE resource will be displayed. You can see the "in-cse" cseBase sub-resources and attributes.
+You can disconnect by clicking on the "Logout" button.
+IN-CSE web interface: in-cse cseBase resource
+MN-CSE startup
+Go to the MN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/arch>".
+Start the MN-CSE by executing the "start.bat" script on windows or "start.sh" on Linux and Mac OS.
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/one/Web Interface
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+OM2M/one/Clone - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/one/Developer
+<
+OM2M
+‎ |
+one
+Before doing this tutorial you have to
+clone and build OM2M using Eclipse
+Contents
+1
+Add a new plug-in to OM2M
+1.1
+Clone and import OM2M
+1.2
+Create a new plug-in project
+1.3
+Convert the plugin into maven project
+Once the MN-CSE is started, you will see an OSGi console. You can type “ss” to report a summary status of all installed bundles.
+The MN-CSE automatically authenticate to the remote IN-CSE specified in the gateway configuration file. If the IN-CSE is not already running, the MN-CSE keep sending authentication requests (A request each 10 seconds).
+After a successful authentication, the “mn-cse” resource is added to the in-cse resource tree, and respectively the “in-cse” resource is added to the mn-cse resource tree. You can now access the registered MN-CSE resource from the IN-CSE web interface under the “/in-cse/in-name/mn-cse” uri.
+Using the In-CSE web interface you can seamlessly access to all authenticated gateways. You notice the existence of one authenticated MN-CSE with id "mn-cse".
+Click on the "mn-cse" resource to display remote MN-CSE sub-resources and attributes. You can click on the “mn-cse” button of the “link” attribute to connect to the MN-CSE resources tree.
+IN-CSE web interface: remote mn-cse resource
+The MN-CSE resource tree will be displayed. At this moment, the IN-CSE will act as a proxy to retarget your requests to the MN-CSE.
+IN-CSE web interface: mn-cse cseBase resource
+Initially, also the MN-CSE contains the CseBase resource (id=mn-cse), the AccessRight resource (id=acp_admin), and other empty collections.
+Multiple gateways scenario
+Let's consider a simple M2M system composed of a server and two gateways as follows:
+Server IP: 192.168.0.2
+Gateway1 IP: 192.168.0.3
+Gateway2 IP: 192.168.0.4
+Of course, you can test the system locally in one machine by using the IP 127.0.0.1 for all products.
+After building the OM2M project normally, you will obtain 1 IN-CSE product, 1 MN-CSE product and 1 ADN-CSE product.
+You can configure the IN-CSE with the default configuration like this:
+IN-CSE config.ini file:
+Now, copy the MN-CSE product in another folder. You have now two separate MN-CSEs.
+Configure the first MN-CSE with the following configuration:
+MN-CSE1 config.ini file:
+Then, configure the second MN-CSE with the following configuration:
+MN-CSE2 config.ini file:
+You can start the system as follows:
+Start the IN-CSE product.
+Start the MN-CSE1 product.
+Start the MN-CSE2 product.
+Open the IN-CSE web interface on
+http://192.168.0.2:8080/webpage
+. You will find MN-CSE1 and MN-CSE2 authenticated.
+You can access now each authenticated MN-CSE by clicking on the MN-CSE.
+Click on the "link" button to access remotely the gateway resource tree.
+Retrieved from "
+http://wiki.eclipse.org/index.php?title=OM2M/one/Starting&oldid=394847
+"
+This page was last modified 09:30, 15 December 2015 by
+François Aïssaoui
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/one/Web Interface
+<
+OM2M
+‎ |
+one
+Contents
+1
+Start the sample plugin
+2
+Application resources
+3
+Container resources
+4
+ContentInstances resources
+5
+Remote control lamps
+Start the sample plugin
+Go to the MN-CSE OSGi console and enter the following command to list all deployed plugins.
+Start the "org.eclipse.om2m.ipe.sample" plugin (id=30 in this example) by typing the following command:
+OSGi console: Start the lamps sample IPE
+The interworking proxy creates all required resources to enable to monitor and control lamps remotely and in a standardized way.
+After starting, you will see a java graphical interface displaying two lamps and three switches. You can use this interface to switch ON/OFF the two lamps separately or simultaneously.
+GUI: Lamps sample
+Application resources
+Open the IN-CSE web interface, and move to the MN-CSE resource tree. You will find the following resources:
+"LAMP_0": an AE resource enables to handle lamp 0.
+"LAMP_1": an AE resource enables to handle lamp 1.
+"LAMP_ALL": is an AE resource enables to handle simultaneously lamp 0 and lamp 1.
+Web interface: The "applications" resource
+Container resources
+Click on the "LAMP_0" application resource. You will find two containers:
+"DESCRIPTOR" stores the lamp description.
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/one/Clone
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+1.4
+Add the plugin as a maven module to the OM2M parent project
+1.5
+Add the plugin to the OM2M product(s)
+1.6
+Add required dependencies
+1.6.1
+Add plugin dependencies
+1.6.2
+Add jar dependencies (Only if required)
+2
+Develop an Interworking Proxy application Entity (IPE) plugin
+2.1
+IPE Activator
+2.2
+IPE Monitor
+2.3
+IPE oBIX Util
+2.4
+IPE Controller
+2.5
+IPE Util: RequestSender
+Add a new plug-in to OM2M
+Clone and import OM2M
+Clone OM2M using the Eclipse IDE.
+Import all nested projects into your workspace.
+Create a new plug-in project
+Create a new plug-in project called org.eclipse.om2m.sample.ipe via File → New → Other → Plug-in Project.
+Enter the data as depicted in the following screenshots.
+create a plug-in project: step 1
+create a plug-in project: step 2
+Uncheck the
+Create a plug-in using one of the templates
+checkbook and press the
+Finish
+button.
+create a plug-in project: step 3
+As result the following project is created.
+sample ipe plug-in
+Convert the plugin into maven project
+Open the build.properties file and update the src attributes as depicted in the following figure.
+build-properties build
+Note:
+At the end of the tutorial, you may face this error:
+gogo: BundleException: Error loading bundle activator.
+when starting the IPE. If this is the case, replacing
+src/main/java
+by the default
+src/
+might do the trick.
+Select the created plug-in "org.eclipse.om2m.sample.ipe" → right click → configure → convert to maven project.
+Enter the data as illustrated in the following and press the
+Finish
+button.
+maven conversion: POM edition
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+"DATA" stores the lamp data.
+Web interface: The "containers" resource
+ContentInstances resources
+Click on the "DESCRIPTOR" container. You will find one contentInstance containing "LAMP_0" description.
+Web interface: The "contetnInstances" resource
+Click on the contentInstance (CI974727193 in this example)
+Click on the "getState" button to read the latest lamp state value stored in the GSCL database.
+Click on the "getState(Direct)" button to read the lamp state directly from the lamp.
+Click on the "switchON" to switch on the lamp.
+Click on the "switchOFF" to switch off the lamp.
+Click on the "toggle" button to toggle the lamp.
+Web interface: The LAMP_0 description resource
+Remote control lamps
+Try to switch ON "LAMP_0" via the IN-CSE web interface, and then check the lamp state value on the java graphical interface.
+Try to switch OFF "LAMP_0" via the java graphical interface, and the check the lamp state value using the IN-CSE web interface.
+GUI: Lamp1 switched ON
+Retrieved from "
+http://wiki.eclipse.org/index.php?title=OM2M/one/Web_Interface&oldid=412113
+"
+This page was last modified 10:33, 24 November 2016 by
+Ghada Gharbi
+. Based on work by
+François Aïssaoui
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/one/Clone
+<
+OM2M
+‎ |
+one
+In this tutorial, you can download already built OM2M binaries or learn how to build OM2M from source code by yourself using command line or Eclipse.
+Contents
+1
+Prerequisites
+2
+Clone and build OM2M using Command line
+2.1
+Clone OM2M using command line
+2.2
+build OM2M using command line
+3
+Clone and build OM2M using Eclipse IDE
+3.1
+Install Eclipse IDE for RCP and RAP Developers
+3.2
+Configure Maven Proxy (Only if required)
+Once the plug-in is converted, open the
+pom.xml
+file to edit the parent filed.
+Click on "select Parent" icon and enter "org.eclipse.om2m" in the "Enter groupId, artifactId or sh1 prefix or pattern" field.
+Select "org.om2m.eclipse" and press ok.
+maven conversion: Parent edition
+We end this step by updating the plug-in project. For this, select the "org.eclipse.om2m.sample.ipe" project → maven → update project.
+Add the plugin as a maven module to the OM2M parent project
+In this part, we will add the created plug-in as a module to the om2m platform:
+Open the pom file of the
+org.eclipse.om2m
+package.
+Go to the
+modules
+tab and press
+Add
+button.
+Select the org.eclipse.om2m.sample.ipe plug-in and press
+ok
+.
+Build the om2m package and its sub-projects. To do this, select the "org.eclipse.om2m" project → right click → Run as → maven install.
+Check the org.eclipse.om2m.sample.ipe was successfully built. At the buid end, we should get this result.
+om2m build
+Remark: To keep the same display pattern for all the platform' plugins, you can add
+description
+and
+name
+tags to the
+org.eclipse.om2m.sample.ipe'
+pom.xml
+file.
+Add the plugin to the OM2M product(s)
+The final step consists of adding the created plug-in to one of om2m platform products, i.e the
+mn-cse
+or the
+in-cse
+executable. In the following, we choose to add the org.eclipse.om2m.sample.ipe plug-in to the mn-cse product:
+Select the org.eclipse.om2m.site.mn-cse package.
+Open the om2m.product file.
+Go in the "Contents" tab.
+Press "Add" button and type: org.eclipse.om2m.sample.ipe
+Click on "Ok" button and save.
+Build the om2m package and its sub-projects: select the "org.eclipse.om2m" package -> right click -> Run as -> maven install.
+To check that the "org.eclipse.om2m.sample.ipe" was successfully added to the mn-cse product, run the mn-cse and verify in the console if the "org.eclipse.om2m.sample.ipe" is displayed.
+mn-cse product
+Add required dependencies
+Add plugin dependencies
+Open the manifest file of the created plugin and select Dependencies tab.
+Add the dependencies depicted in the following figure.
+Important!
+You need to import om2m nested projects into your workspace to find them in the list below.
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+3.3
+Install Tycho plugin
+3.3.1
+Tycho quick install using Eclipse Maven Marketplace
+3.3.2
+Tycho Manual install using the Eclipse Update repository (Only if requried)
+3.4
+Clone OM2M using Eclipse
+3.5
+Build OM2M using Eclipse
+3.6
+Test OM2M
+Prerequisites
+Git is required to clone OM2M.
+JAVA 1.7 or later is required to run OM2M.
+Apache Maven 3 or later is required to build OM2M.
+Clone and build OM2M using Command line
+Clone OM2M using command line
+Clone the OM2M project using git with the following command:
+build OM2M using command line
+Go to "org.eclipse.om2m" directory.
+Build OM2M using the following command: (An internet connection is required to download required dependencies)
+Two Eclipse products will be generated after a successful built:
+The IN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>"
+The MN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>"
+The ASN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.asn-cse/target/products/asn-cse/<os>/<ws>/<arch>"
+Clone and build OM2M using Eclipse IDE
+Install Eclipse IDE for RCP and RAP Developers
+Install Eclipse Luna (Eclipse for RCP and RAP Developers).
+You can download it from this link:
+https://eclipse.org/downloads/packages/eclipse-rcp-and-rap-developers/lunasr2
+Configure Maven Proxy (Only if required)
+If you are required to use a proxy server to access the Internet, then you have to configure maven proxy settings as follows:
+Select Window -> Preferences -> Maven -> User settings
+You will find the warning message "
+settings.xml file doesn't exist
+" .
+Move to the .m2 directory location and create the settings.xml file and put this snippet.
+Install Tycho plugin
+Tycho quick install using Eclipse Maven Marketplace
+Click Window -> Preferences -> maven -> discovery -> open catalog and type Tycho. Check the “Tycho Configurator” checkbox.
+Eclipse Maven marketplace
+Tycho Manual install using the Eclipse Update repository (Only if requried)
+It happens that the Tycho plugin do not appears in the Eclipse Maven marketplace, then you have to install it manually using the following steps
+Select Help -> Install New Software.
+Click on the Add button.
+Tycho install
+Put in the
+name field
+"tycho0.8" and in the
+OM2M/Community - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+OM2M/Download - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+plugin dependencies
+Add jar dependencies (Only if required)
+If you want to add specific jar libraries to your plugin, you can follow these steps:
+Create a "libs" folder on your plugin project.
+Put required specific jar on the "libs" folder.
+Open the manifest file of the created plugin and select "runtime" tab.
+Go to the "classpath" tab and click on the "Add" button.
+Select the required jar and click on "ok" button.
+plugin specific jar dependencies
+Develop an Interworking Proxy application Entity (IPE) plugin
+IPE Activator
+The Activator class contains the implementation of the start() and stop() method used to activate and deactivate the IPE plugin.
+In the start() method, the Activator registers the IPE Controller service on the registry to make it available for the CORE plugin. Then, it starts tracking the CORE CSE service to use it once the CORE plugin is activated.
+In the Stop() method, the Activator can execute some process to make a clean before deactivation such as stopping threads, handle exceptions, etc. In our case, we stop the Monitor that have a set of thread that must be handled.
+IPE Monitor
+The Monitor class creates one sensor AE called "MY_SENSOR", and one actuator AE called "MY_ACTUATOR". It creates two containers for each applications: "DESCRIPTOR" container to store the description and "DATA" container to store the measurements. For each container the right oBIX XML payload is created as contentInstance.
+The Monitor starts two threads to listen to each application data as well. Once a new data is detected, the Monitor creates a new contentInstance including the measurement representation.
+Another method is available to stop the monitor and linked threads.
+IPE oBIX Util
+Convert the description and the measured data of the device to oBIX XML representation.
+IPE Controller
+Execute received requests from OM2M to the specific technologies.
+IPE Util: RequestSender
+This class simplify the interaction with the CseService providing the response of specific requests directly. You can take inspiration of this class if you want to create your own request utility/factory.
+Retrieved from "
+http://wiki.eclipse.org/index.php?title=OM2M/one/Developer&oldid=419371
+"
+This page was last modified 11:13, 14 September 2017 by
+Dorian Kurzaj
+. Based on work by
+François Aïssaoui
+and
+Guillaume Garzone
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+location filed
+this url "
+http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/LATEST/
+"
+Press on on ok button and check the "m2e extensions" and "Tycho Project Configurators" checkboxes and click on next.
+Tycho install
+Select the "Tycho Project Configurators" and click on Next.
+Tycho install
+Accept the terms of use and click on Finish.
+Update your project: Select the package "org.eclipse.om2m" -> right click -> maven -> update Project.
+Clone OM2M using Eclipse
+Select Window->Show View -> Other .
+In the dialog box, select the Git view.
+Click on “Clone a Git repository”.
+Git clone
+Clone the OM2M project using the following link:
+http://git.eclipse.org/gitroot/om2m/org.eclipse.om2m.git
+. In the first page, enter the mentioned link in the URI’s location field. Click Next .
+Git clone
+In the second page, keep the “master” branch checkbox selected and click Next.
+Git clone
+In the third page, check the “import all existing projects after clone finishes” and click “Finish”.
+Git clone
+The OM2M project is now cloned and is visible on the Git repositories’ and Package’ explorers.
+If you still have an error on Tycho plugin lifecycle, check that you have downloaded the right Eclipse version (RCP and RAP Developers)
+Build OM2M using Eclipse
+Select “org.eclipse.om2m” package and right click. Select “Run as -> maven install”.
+Two Eclipse products will be generated after a successful built:
+The IN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>"
+The MN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>"
+The ASN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.asn-cse/target/products/asn-cse/<os>/<ws>/<arch>"
+Test OM2M
+Go to the IN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>".
+Start the IN-CSE by executing the "start.bat" script on Windows or "start.sh" on Linux and Mac OS.
+WARNING for Windows users:
+don't double click on the "start.bat" file from Eclipse explorer on Windows. This cause unwanted loading of bundles and the platform will NOT be launched. Use the File Explorer instead.
+Once the IN-CSE is started, you will see an OSGi console. You can type “ss” to report a summary status of all installed bundles. Type "exit" to shutdown.
+IN-CSE OSGi console
+Open your browser and connect to the address "
+http://127.0.0.1:8080/webpage
+" to access the IN-CSE web interface.
+Enter username "admin" and password "admin" then click on login button to display the IN-CSE resource tree.
+IN-CSE web interface: authentication
+After a successful authentication, the in-cse resource will be displayed. You can see the "in-cse" CseBase sub-resources and attributes.
+IN-CSE web interface: in-cse cseBase resource
+OM2M/one/REST API - Eclipsepedia
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/Community
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/Download
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Congratulation!! You built and started OM2M successfully.
+Retrieved from "
+http://wiki.eclipse.org/index.php?title=OM2M/one/Clone&oldid=432468
+"
+This page was last modified 18:06, 23 May 2019 by
+Mahdi Ben Alaya
+. Based on work by
+François Aïssaoui
+and
+Fariz Alemuda
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/one/REST API
+Log in
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/Community
+<
+OM2M
+Contents
+1
+Initial Contributor
+2
+Contributors
+3
+Partners
+Initial Contributor
+LAAS-CNRS
+Contributors
+HUAWEI
+Orange Labs Research
+Sensinov
+Partners
+camynoo
+eDevice
+HANA
+Heterogeneous Advanced Networking & Applications Lab
+Institute for Information Industry
+ItalTel
+KICS
+Al-Khawarizmi Institute of Computer Science
+NCTU
+National Chiao Tung University
+QoS Design
+ReDCAD
+OM2M/Roadmap - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Community portal
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/Download
+<
+OM2M
+Contents
+1
+Official Releases
+2
+Dev releases
+3
+Source code
+Official Releases
+Download
+Date
+Description
+Release Notes
+Eclipse OM2M v1.3.0
+March 13, 2018
+Bug fixing and new features
+Release notes
+Eclipse OM2M v1.2.0
+January 04, 2018
+Bug fixing
+Release notes
+Eclipse OM2M v1.1.0
+October 09, 2017
+oneM2M 2.0 support, new features, and bug fixing
+Release notes
+Eclipse OM2M v1.0.0
+June 22, 2016
+oneM2M 1.0 support, new features, and bug fixing
+Release notes
+Eclipse OM2M v0.8.0
+April 8, 2015
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/one/REST API
+<
+OM2M
+‎ |
+one
+Contents
+1
+Install a REST client
+2
+Retrieve a resource
+3
+Create a "MY_SENSOR" application
+4
+Discover resources based on their labels
+5
+- Research laboratory on Development and Control of Distributed Applications
+Pilot Things
+Sierra Wireless
+SMART Infrastructure Facility
+Retrieved from "
+https://wiki.eclipse.org/index.php?title=OM2M/Community&oldid=426783
+"
+This page was last modified 20:41, 5 August 2018 by
+Thierry Monteil
+. Based on work by
+Mahdi Ben Alaya
+and
+Mahdi Ben Alaya
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+org.eclipse.om2m.git - om2m project repository
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+smartM2M 1.0 support
+Release notes
+Dev releases
+Download
+Date
+Description
+Notes
+OM2M-DEV-10072019
+July 10, 2019
+Bug fixing
+Fixed Bugs:
+540074
+543030
+531929
+543639
+544316
+529725
+OM2M-DEV-20112018
+November 20, 2018
+New features and bug fixing
+OM2M-DEV-13112016
+November 13, 2016
+Bug fixing
+Fixed Bugs:
+507443
+OM2M-DEV-30072016
+July 30, 2016
+Bug fixing
+Fixed Bugs:
+497579
+495606
+498911
+OM2M-DEV-24042016
+April 24, 2016
+Bug fixing
+Features and fixed Bugs:
+491796
+491797
+491791
+488769
+488268
+488269
+484399
+473505
+Source code
+Click
+here
+to access OM2M source code repository.
+Retrieved from "
+http://wiki.eclipse.org/index.php?title=OM2M/Download&oldid=433342
+Create a DESCRIPTOR container
+6
+Create a description contentInstance
+7
+Create a DATA container
+8
+Create a data contentInstance
+9
+Create a "MY_SENSOR" application using JSON
+10
+Subscribe to MY_SENSOR data
+11
+Short Names
+Install a REST client
+For this section, you need a REST client to send HTTP request (GET, POST, UPDATE, DELETE) to the OM2M platform.
+Install Postman extension on google chrome browser:
+http://www.getpostman.com
+The tutorial postman collection is available here:
+https://www.getpostman.com/collections/41fad4dcdaca7a90325e
+Retrieve a resource
+HTTP request:
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse
+Method
+GET
+Header
+X-M2M-Origin: admin:admin
+Accept: application/xml
+Body
+(empty)
+HTTP response:
+Field
+Value
+Status
+200 OK
+Body
+You can set the
+Accept
+header to
+application/json
+if you want a response in JSON format instead of XML.
+Create a "MY_SENSOR" application
+Send a HTTP request with the following parameters to create a
+MY_SENSOR
+application on the gateway.
+In the creation we have two important headers:
+Content-Type
+: this header has 2 informations seperated by a semicolon
+The format of the exchange, here "application/xml"
+The resource type to be created, here "ty=2" (2 for AE, see oneM2M spec TS-0004 (V2.7.1), Table 6.3.4.2.1-1)
+Field
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+index
+:
+org.eclipse.om2m.git
+change/82364/1
+dev
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/Roadmap
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+"
+This page was last modified 08:29, 10 July 2019 by
+Guillaume Garzone
+. Based on work by
+Mahdi Ben Alaya
+,
+Mahdi Ben Alaya
+and
+Ghada Gharbi
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Value
+URL
+http://127.0.0.1:8080/~/in-cse
+Method
+POST
+Header
+X-M2M-Origin: admin:admin
+Content-Type: application/xml;ty=2
+Body
+HTTP response:
+Field
+Value
+Status
+201 Created
+Headers
+Content-Location: /in-cse/ae-CAE449907766
+Body
+You can check the created application on the web interface.
+Discover resources based on their labels
+You can discover available resources based on their search strings using the discovery resource. The
+fu
+parameter (stands for "Filter Usage") indicate that it is a discovery request. The
+lbl
+("Label") indicate the specific label you what to filter.
+HTTP request:
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse?fu=1&lbl=Type/sensor
+Method
+GET
+Header
+X-M2M-Origin: admin:admin
+Accept: application/xml
+Body
+(empty)
+HTTP response:
+Field
+Value
+Status
+200 OK
+Body
+Create a DESCRIPTOR container
+Send a HTTP request with the following parameters to create a
+DESCRIPTOR
+container resource under the
+MY_SENSOR
+application.
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR
+Method
+POST
+Header
+feature0
+master
+smart
+om2m project repository
+about
+summary
+refs
+log
+tree
+commit
+diff
+stats
+log msg
+author
+committer
+range
+Branch
+Commit message
+Author
+Age
+change/82364/1
+Fix missing Copyrights
+Guillaume Garzone
+3 years
+dev
+Fix Bug 529725 corrections on ACP DAO Update and fix in ACP Utils
+Guillaume Garzone
+10 months
+feature0
+Merge branch 'dev' into feature0
+benalaya
+2 years
+master
+Squash of Orange's commit.
+BOLLE Sebastien
+16 months
+smart
+commons: fix issues related to xml annotations.
+BONNARDEL Gregory
+4 years
+Tag
+Download
+Author
+Age
+1.3.0
+org.eclipse.om2m-1.3.0.tar.gz
+org.eclipse.om2m-1.3.0.tar.xz
+org.eclipse.om2m-1.3.0.zip
+benalaya
+23 months
+1.0.0
+org.eclipse.om2m-1.0.0.tar.gz
+org.eclipse.om2m-1.0.0.tar.xz
+org.eclipse.om2m-1.0.0.zip
+Page
+Discussion
+View source
+History
+OM2M/Roadmap
+<
+OM2M
+This page describes the current plan for the upcoming features of the OM2M project.
+Please note that this roadmap is a moving target. Depending on priorities and community contribution, the roadmap can change any time, so do not take it for granted, but see it as a guidance of direction.
+Contents
+1
+Release 1.3.0 (March 13, 2018)
+1.1
+Features
+1.2
+Fixed bugs
+2
+Release 1.2.0 (January 04, 2018)
+2.1
+Features
+2.2
+Fixed bugs
+3
+Release 1.1.0 (October 09, 2017)
+3.1
+Features
+3.2
+Tutorials
+3.3
+Fixed bugs
+4
+Release 1.0.0 (June 22, 2016)
+4.1
+Features
+4.2
+Fixed bugs
+5
+Release 0.8.0 (April 8, 2015)
+5.1
+Features
+5.2
+Fixed bugs
+Release 1.3.0 (March 13, 2018)
+Features
+This release provides the following updates and new features:
+oneM2M java clients
+oneM2M javascript clients
+oneM2M arduino clients
+ManagementObject :
+Announcement
+Persistence
+Add new Management Object
+Use DeviceInfo Management Object in SDT IPE
+X-M2M-Origin: admin:admin
+Content-Type: application/xml;ty=3
+Body
+HTTP response
+Field
+Value
+Status
+201 Created
+Header
+Content-Location: /in-cse/cnt-478855064
+Body
+Check the created container on the web interface.
+Create a description contentInstance
+Send a HTTP request with the following parameters to create a description content instance resource under the "DESCRIPTOR" container.
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR/DESCRIPTOR
+Method
+POST
+Header
+X-M2M-Origin: admin:admin
+Content-Type: application/xml;ty=4
+Body
+Check the created content instance on the web interface.
+Create a DATA container
+Send a HTTP request with the following parameters to create a "DATA" container resource under the "MY_SENSOR" application.
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR
+Method
+POST
+Header
+X-M2M-Origin: admin:admin
+Content-Type: application/xml;ty=3
+Body
+Check the created container on the web interface.
+Create a data contentInstance
+Send a HTTP request with the following parameters to create a data content instance resource under the "DATA" container.
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR/DATA
+Method
+POST
+Header
+X-M2M-Origin: admin:admin
+Content-Type: application/xml;ty=4
+Body
+Check the created content instance on the web interface.
+Create a "MY_SENSOR" application using JSON
+Since OM2M supports JSON, you can send an HTTP request with the following parameters to create a
+Francois Aissaoui
+4 years
+0.8.0
+org.eclipse.om2m-0.8.0.tar.gz
+org.eclipse.om2m-0.8.0.tar.xz
+org.eclipse.om2m-0.8.0.zip
+mbenalaya
+4 years
+Age
+Commit message
+Author
+Files
+Lines
+2018-10-08
+Squash of Orange's commit.
+HEAD
+master
+BOLLE Sebastien
+688
+-12454
+/
++28180
+2018-07-30
+Merge "protocols.hue: use default eclipse groupId" into dev
+Mahdi Ben Alaya
+3
+-5
+/
++5
+2018-07-30
+Merge "commons, datamapping.jaxb: add XMLElement namespace." into dev
+Mahdi Ben Alaya
+180
+-556
+/
++512
+2018-07-02
+Merge "commons: JAXB improvement about FlexContainers." into dev
+Mahdi Ben Alaya
+4
+-203
+/
++487
+2018-07-02
+Merge "hue.basedriver: use Properties to load & update configuration file" in...
+Mahdi Ben Alaya
+1
+-16
+/
++9
+2018-07-02
+commons: JAXB improvement about FlexContainers.
+BOLLE Sebastien
+4
+-203
+Fixed bugs
+FlexContainers
+Remove unused XmlSeeAlso annotation into FlexContainers
+Fix deviceSwitchButton device short name
+Discovery with multiple labels
+Release 1.2.0 (January 04, 2018)
+Features
+This release provides the following updates and new features:
+android.dashboard: initial import
+build MN-CSE & IN-CSE docker image
+mocked sdt devices : add Thermometer, SwitchButton, NumberValue
+sdt.app.homemonitoring:
+disable switch button in case of readOnly SDT module
+highlight values on notification
+Fixed bugs
+The following bugs are fixed:
+all:
+fix UTF8 character encoding issue
+remove RequestPrimitive's targetId field
+persistence.mongodb:
+implement missing DAO
+fix issue on Container persistence
+announcement : fix issue regarding Container announcement
+commons: fix announcement issue
+datamapping.jaxb: log enhancement.
+sdt.app.homemonitoring: fix authentication issue
+sdt.home.netatmo : fix naming issue
+sdt.app.comparator :fix rendering issue
+Resource browser:Fix rendering issue
+[Bug 526616] Update ol attribute of container correctly
+Fix Bug 522099 on discovery with label filter
+Release 1.1.0 (October 09, 2017)
+Features
+This release provides the following updates and new features:
+oneM2M release 2 support
+MQTT communication binding
+NoSQL MongoDB storage
+Smart Device Template (SDT)
+FlexContainer resource
+Dynamic Authorization
+Resource Announcement
+Enocean interworking
+Hue interworking
+Netatmo interworking
+SmarterCoffee interworking
+LIFX interworking
+OSGi DAL (Device Abstraction Layer) interworking
+Several test suites
+Tutorials
+Several tutorials already proposed to explain how to use the new features developed in this release:
+How to use oneM2M MQTT binding
+Develop oneM2M applications
+Develop an Interworking Proxy Plugin
+MY_SENSOR
+application on the gateway using JSON instead of XML.
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse
+Method
+POST
+Header
+X-M2M-Origin: admin:admin
+Content-Type: application/json;ty=2
+Body
+You can interact with the system in the same way using JSON instead of XML with an equivalent of the XML body. (Be careful for the Labels to use a JSON array for instance: "lbl":"["label-1", "label-2"].)
+Subscribe to MY_SENSOR data
+Download the monitor server sample from this link:
+Monitor
+.
+Start the Monitor server using the following command:
+The monitor starts listening on port=1400 and context=/monitor.
+Monitor console: the server is started
+Send a HTTP request with the following parameters to create a "Subscription" resource for receive asynchronously events from "MY_SENSOR" application.
+The monitor listening URL (
+http://127.0.0.1:1400/monitor
+) should be added on the "nu" tag of the subscription representation.
+Field
+Value
+URL
+http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR/DATA
+Method
+POST
+Header
+X-M2M-Origin: admin:admin
+Content-Type: application/xml;ty=23
+Body
+Check the created subscription on the web interface.
+Create a new event content instance resource under the "DATA" container.
+The new event is published to interested subscribers by the gateway.
+Here is an example of the "Notify" XML representation:
+The Monitor receives a "Notify" resource including the new "ContentInstance".
+Remember that the "Notify" resource has a generic structure to support notifications for other type of resources such as "AE", "Container", "Group", "AccessControlPolicy", etc.
+Short Names
+ae: Application Entity
+cnt: Container
+cin: Content Instance
+sub: Subscription
+sgn: Agregated Notification
+rn: Resource Name
+ty: Type
+ri: Resource ID
+pi: Parent Id
+/
++487
+2018-07-02
+protocols.hue: use default eclipse groupId
+BOLLE Sebastien
+3
+-5
+/
++5
+2018-07-02
+Merge "orange.p2.repo: integrate hue base driver & sdt" into dev
+Mahdi Ben Alaya
+1
+-0
+/
++9
+2018-07-02
+commons, datamapping.jaxb: add XMLElement namespace.
+BOLLE Sebastien
+180
+-556
+/
++512
+2018-07-02
+hue.basedriver: use Properties to load & update configuration file
+BOLLE Sebastien
+1
+-16
+/
++9
+[...]
+Clone
+git://git.eclipse.org/gitroot/om2m/org.eclipse.om2m.git
+https://git.eclipse.org/r/om2m/org.eclipse.om2m.git
+ssh://user_id@git.eclipse.org:29418/om2m/org.eclipse.om2m.git
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Develop an Interworking Proxy Application Entity (IPE) Plugin with SDT
+Developing with FlexContainers
+Change database config.
+Integrate OSGi DAL devices into OM2M by using DAL IPE Plugin
+Check our wiki:
+https://wiki.eclipse.org/OM2M/one
+Fixed bugs
+The following bugs are fixed:
+Bug 501266
+- ACP automatically created when an AE is created dosn't have ty=1
+Bug 498911
+- Error in Access Right verification for PoA notification
+Bug 498387
+- Smart Device Template (SDT) support
+Bug 498374
+- FlexContainer feature support
+Bug 497579
+- Unwanted deletion of AEs having the name of the wanted deleted AE as a prefix
+Bug 495606
+- Error on creating ContentInstance with maxNumberOfInstance in Container
+Release 1.0.0 (June 22, 2016)
+Features
+Implementation of the oneM2M standard. For more information see
+oneM2M standard
+.
+Main supported features:
+Nodes: IN-CSE, MN-CSE, ASN-CSE, and ADN.
+Reference Points: MCA, and MCC.
+Resource types: CSEBase, RemoteCSE, ACP, AE, Container, ContentInstance, Subscription, Group, Node, Request, PoA, etc.
+Request primitives: Retrieve, Create, Update, Delete, and Notify.
+Addressing formats: Structured and Unstructured.
+Addressing modes: Absolute, SP-relative, and CSE-Relative.
+Protocol Bindings: HTTP and CoAP.
+Content Formats: XML and JSON.
+Communication Modes: Blocking, Non Blocking Syhcnronous, and Non Blocking Asynchrnonous.
+Multihop: retargeting via PoA.
+Storage mode: SQL and NoSQL (SQL H2 by default)
+Security: SSL/TLS
+Fixed bugs
+Bug 494086
+- Top level node in JSON representation now with m2m: prefix
+Bug 494911
+- Issues in CoAP binding
+Bug 494090
+- Enable wildcard for AccessControl originators
+Bug 494087
+- hange in some oneM2M Constants
+Bug 492961
+- Missing Access check for Notify requests
+Bug 491796
+- Support JSON content format
+Bug 491797
+- Support of CoAP binding
+Acpi: Access Control Policies IDs
+uril: URI List
+ct: Creation Time
+et: Expiration Time
+lt: Last Modified Time
+lbl: Label
+cnf: Content Format
+con: Content
+mni: Maximum Number of Instance
+st: State Tag
+cs: Content Size
+aei: Application Entity Id
+api: Application Id
+poa: Point of Access
+rr: Request Reachability
+nev: Notification Event
+nep: Representation
+sur: Subscription URI
+Enc: Event Notification Criteria
+Retrieved from "
+http://wiki.eclipse.org/index.php?title=OM2M/one/REST_API&oldid=435254
+"
+This page was last modified 05:31, 24 November 2019 by
+Philippe Hérail
+. Based on work by
+Mahdi Ben Alaya
+,
+Guillaume Garzone
+and
+Dorian Kurzaj
+and
+others
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Bug 491791
+- Enable resource name attribute in creation request
+Release 0.8.0 (April 8, 2015)
+Features
+The first release of OM2M will include the following features:
+Implement the SmartM2M standard. For more information see
+SmartM2M standard
+Provide a modular architecture running on top of an OSGi layer based on Eclipse Equinox.
+Integrate Maven and Tycho to automate build process and RCP development.
+Provide a protocol-independent CORE plugin to handle generic REST request.
+Enable machine registration, application deployment, container management, resource discovery, access right authorization, subscription / notification, group management, and resource announcement.
+Provide a HTTP communication binding plugin based on Jetty and Apache HTTP client libraries.
+Provide a CoAP communication binding plugin based on the Californium library.
+Provide a simple retargeting mechanism to connect HTTP and CoAP enabled devices.
+Provide an interworking sample plugin with simulated devices to show how to connect legacy devices.
+Provide a web interface plugin for browsing and debugging each machine resource structure.
+Provide a DAO persistence layer based on EclipseLink JPA library to support different SQL and NOSQL database solutions.
+Replace the DB4O database with the H2 database which provide better performance.
+Introduce required persistence parameters to the "config.ini" file to simplify the JPA configuration.
+Replace the XSD resource validation with a native validation mechanism that offers more flexibility.
+Replace the OASIS OBIX library with a native encoder/decoder based on the JAXB library.
+Improve the OM2M performance by optimizing the resource structure and database access.
+Fixed bugs
+Bug 463673
+- Problem in starting the GUI of the IPU sample plugin in the GSCL
+Bug 463778
+- Replace the native launcher with an independent single script
+Bug 453467
+- Can't access a malformed created application
+Bug 463941
+- OM2M starting blocked on ObixMapper
+Retrieved from "
+https://wiki.eclipse.org/index.php?title=OM2M/Roadmap&oldid=423686
+"
+This page was last modified 00:42, 13 March 2018 by
+Mahdi Ben Alaya
+. Based on work by
+Sebastien Bolle
+and
+Ghada Gharbi
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+OM2M/Public documentation - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/Public documentation
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/Public documentation
+<
+OM2M
+Contents
+1
+OM2M reference
+2
+Talks & Slides
+3
+Scientific publications
+4
+API Specification for Smart Home - JONES Initiative
+5
+NODE-RED nodes for OM2M
+OM2M reference
+Use the following reference to cite OM2M:
+Text:
+BibTeX:
+Talks & Slides
+EclipseCon France 2014
+Slide
+EclipseCon San Francisco 2014
+Video
+&
+Slide
+Eclipse IoT Day Grenoble 2014
+Video
+(French) OM2M une implémentation opensource de la norme ETSI-M2M, journée AFNIC France 2014
+Video
+&
+Slide
+Standardized M2M service platform, IoT & M2M Spring school, Hammamet Tunisia 2014
+Slide
+From Internet of Things to Machine-to-Machine, IoT & M2M Spring school, Hammamet Tunisia 2014
+Slide
+Scientific publications
+M. Ben Alaya, Y. Banouar, T. Monteil, C. Chassot, K. Drira, OM2M: Extensible ETSI-compliant M2M Service Platform with Self-configuration Capability, Procedia Computer Science, Volume 32, 2014, Pages 1079-1086, ISSN 1877-0509,
+http://dx.doi.org/10.1016/j.procs.2014.05.536
+.
+Grieco LA, Ben Alaya M, Monteil T, Drira K. Architecting Information Centric ETSI-M2M systems. IEEE International Conference on Pervasive Computing and Communications WIP. Budapest Hungary March 24-28 2014.
+http://arxiv.org/abs/1403.1383
+API Specification for Smart Home - JONES Initiative
+The goal of the JONES Initiative is to define and develop a Cloud API for Home Automation. The JONES Cloud API enables applications to integrate remote user devices and data from JONES compliant Smart Home platforms. Today the JONES Initiative partners are Deutsche Telekom and Orange. Nevertheless, the JONES Initiative is open for further, future partners. To define, develop, and evangelize the JONES Cloud API it is paramount to have a common reference architecture as well as a common reference implementation. This reference implementation is developed on OM2M open source project.
+NODE-RED nodes for OM2M
+Based on Node-RED, node-red-contrib-ide-iot is a module that allows the creation of IoT applications graphically in a simple and efficient way. It uses the OM2M platform as a middleware that provides high level interoperability between the different heterogeneous objects connected to this platform. node-red-contrib-ide-iot modules allow to be connected to several OM2M platforms, manages resources, extract data from sensors in a different ways, manage activators and communicate in a different way. You can download those modules on:
+https://www.npmjs.com/package/node-red-contrib-ide-iot
+and get documentation on
+https://homepages.laas.fr/monteil/drupal/content/node-red-ideom2m
+and
+http://cwt.nctu.edu.tw/node-red-ideom2m/
+. Those modules have been developed and supported by LAAS-CNRS
+https://www.laas.fr/public/en
+and National Chiao Tung University
+http://www.nctu.edu.tw/en
+.
+Retrieved from "
+https://wiki.eclipse.org/index.php?title=OM2M/Public_documentation&oldid=426738
+"
+This page was last modified 19:26, 31 July 2018 by
+Thierry Monteil
+. Based on work by
+Sebastien Bolle
+,
+Mahdi Ben Alaya
+and
+Yassine Banouar
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+OM2M/Team - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/Team
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+OM2M/one - Eclipsepedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+Skip to main content
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/Team
+<
+OM2M
+Contents
+1
+Project Leaders
+2
+Commiters
+3
+Contributors
+4
+Mentors
+Project Leaders
+Mahdi Ben Alaya (benalaya@sensinov.com)
+Thierry Monteil (monteil@laas.fr)
+Commiters
+François Aïssaoui (aissaoui@laas.fr)
+Yassine Banouar (ybanouar@laas.fr)
+Guillaume Garzone (ggarzone@laas.fr)
+Ghada Gharbi (ggharbi@laas.fr)
+Contributors
+On behalf of Orange
+Sébastien BOLLE (sebastien.bolle@orange.com)
+André BOTTARO (andre.bottaro@orange.com)
+Grégory BONNARDEL (gregory.bonnardel@mythalesgroup.com)
+Cyrille BAREAU (cyrille.bareau@orange.com)
+David EXCOFFIER (david.excoffier@orange.com)
+On behalf of LAAS-CNRS
+Christophe CHASSOT (chassot@laas.fr)
+Khalil DRIRA (drira@laas.fr)
+Marouane EL KIASSE (melkiass@laas.fr)
+Maroua MEDDEB (mmeddeb@laas.fr)
+Samir MEDJIAH(medjiah@laas.fr)
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+OM2M/one
+Log in
+Jump to:
+navigation
+,
+search
+---Navigation---
+Main Page
+Community portal
+Current events
+Recent changes
+Random page
+Help
+Navigation
+Main Page
+Community portal
+Current events
+Mentors
+Benjamin Cabé (benjamin@eclipse.org)
+Denis Roy (denis.roy@eclipse.org)
+Retrieved from "
+https://wiki.eclipse.org/index.php?title=OM2M/Team&oldid=423911
+"
+This page was last modified 09:38, 20 March 2018 by
+Sebastien Bolle
+. Based on work by
+Mahdi Ben Alaya
+,
+Thierry Monteil
+and
+Mahdi Ben Alaya
+and
+others
+.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Recent changes
+Random page
+Help
+---Toolbox---
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Toolbox
+Page information
+Permanent link
+Printable version
+Special pages
+Related changes
+What links here
+Page
+Discussion
+View source
+History
+OM2M/one
+<
+OM2M
+OM2M
+Website
+Download
+Community
+Mailing List
+•
+Forums
+•
+IRC
+•
+mattermost
+Bugzilla
+Open
+•
+Help Wanted
+•
+Bug Day
+Contribute
+Browse Source
+NEW:
+This page covers the oneM2M version of OM2M. If you are looking for documentation for the smartM2M version (v0.8.x)
+click here
+.
+OM2M provides an open source service platform for M2M interoperability based on the oneM2M standard. OM2M follows a RESTful approach with open interfaces to enable developing services and applications independently of the underlying network. It proposes a modular architecture running on top of an OSGi layer, making it highly extensible via plugins. It supports multiple protocol bindings such as HTTP and CoAP. Various interworking proxies are provided to enable seamless communication with vendor-specific technologies such as Zigbee and Phidgets devices.
+Contents
+1
+Introduction
+2
+Prerequisites
+3
+Getting started
+4
+Going further - Advanced tutorials
+5
+Project Roadmap
+6
+Interesting links
+7
+Public Documentation
+8
+OM2M Team
+Introduction
+OM2M provides a RESTful API for creating and managing M2M resources. It includes several primitive procedures to enable machines authentication, resources discovery, applications registration, containers management, synchronous and asynchronous communications, access rights authorization, groups organisation, re-targeting, etc.
+This API operates on the following primary resource types:
+CseBase: describes the hosting CSE, and is the root for all other resources within the hosting CSE.
+remoteCse: stores information related to M2M CSEs residing on other M2M machines after successful mutual authentication. It enables Cses interactions using retargeting operations
+AE: stores information about the Application Entity after a successful registration on the hosting CSE.
+Container: acts as a mediator for data buffering to enable data exchange between applications and CSEs
+AccessControlPolicies: manages permissions and permissions holders to limit and protect the access to the resource tree structure.
+Group: enhances resources tree operations and simplifying the interactions on the API interfaces by adding the grouping feature. It enables an issuer to send one request to a set of receivers instead of sending requests one by one.
+Subscription: stores information related to subscriptions for some resources. It allow subscribers to receive asynchronous notification when an event happens such as the reception of new sensor event or the creation, update, or delete of a resource.
+Prerequisites
+"JAVA 1.8" is required to run OM2M.
+"Apache Maven 3" is required to build OM2M.
+Getting started
+Clone and Build the project
+Config the node(s)
+Start the node(s)
+Web Interface
+REST API
+oneM2M demonstration using ESP8266 NodeMCU board and NodeJS application
+How to use oneM2M MQTT binding
+Going further - Advanced tutorials
+Develop oneM2M applications
+Develop an Interworking Proxy Plugin
+Develop an Interworking Proxy Application Entity (IPE) Plugin with SDT
+Resources to play with SDT and TS-0023 specification (Home Automation Information Mapping)
+Developing with FlexContainers
+Change database config.
+Integrate OSGi DAL devices into OM2M by using DAL IPE Plugin
+Project Roadmap
+The OM2M roadmap is available here
+Roadmap
+Interesting links
+Talks:
+OM2M talk at EclipseCon San Francisco 2014
+(PDF) OM2M presentation at Eclipse IoT Days Grenoble 2016
+(Video) OM2M at Eclipse IoT Days Grenoble 2016
+Papers:
+OM2M: Extensible ETSI-compliant M2M Service Platform with Self-configuration Capability
+Specifications:
+OneM2M standard specifications
+Public Documentation
+Public documentation
+contains all Presentation slides, Videos, Scientific Publications, etc. related to the OM2M project.
+OM2M Team
+The OM2M project leads and contributors list is available
+here
+.
+Retrieved from "
+https://wiki.eclipse.org/index.php?title=OM2M/one&oldid=426025
+"
+This page was last modified 05:58, 16 June 2018 by
+Mahdi Ben Alaya
+. Based on work by
+Sebastien Bolle
+,
+Seven Gan
+and
+François Aïssaoui
+and
+others
+.
+Back to the top
 Eclipse Foundation
 About Us
 Contact Us
