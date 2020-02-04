@@ -1,77 +1,39 @@
 ,paho,smarthome,milo,mosquitto,californium,ditto,leshan,hawkbit,kura,om2m,ponte,eclipsescada,concierge,wakaama,paho incubator,vorto,4diac,tinydtls,hono,kapua,ignite,unide,iofog,agile,keti,duttile,kuksa,kuksa,cyclonedds,thingweb,mita,hip,fog05,tahu,volttron,keyple,yasham
-paho,,,,"That said, you can easily set up a broker with Mosquitto (http://mosquitto.org/), the open source dedicated MQTT broker, if you wish.
-mosquitto_pub
-mosquitto_sub
-'mosquitto_pub -t ""mosquittodemo/test"" -m ""Hi""'
-mosquitto_sub
-mosquitto
-mosquitto_sub",,,,,,,,,,,"paho.incubator-dev
-paho.incubator/org.eclipse.paho.mqtt.lua -
-git://git.eclipse.org/gitroot/paho.incubator/org.eclipse.paho.mqtt.lua.git
-paho.incubator/smidge -
-git://git.eclipse.org/gitroot/paho.incubator/smidge.git",,Install mqtt paho in windows,,,,,,,,"Marketing
-marketing@infoq.com",,,,,,This will enable a paradigm shift from legacy point-to-point protocols and the limitations of protocols like SOAP or HTTP into more loosely coupled yet determinable models.,"Eclipse has a large and diverse membership, an established industry presence, and a proven track record on technology projects.
-The Paho project will have relationships with Equinox and other Eclipse projects, including the Koneki project and other tooling projects used by embedded, enterprise and Web developers.
-is consolidating its leadership as the standard protocol for
-Leadership
-Software Craftmanship
-The chip we are using only has standard commands Fibcom",,,,,
+paho,,,,,,,,,,,,,,,,,Install mqtt paho in windows,,,,,,,,,,,,,,,,,,,,
 smarthome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 milo,,,,,,,,,,,,,,,,,Camilo Escobar,,,,,,,,,,,,,,,,,,,,
-mosquitto,,,,,,,,,,,"mosquitto_sub
-mosquitto
-mosquitto_pub
-mosquitto_sub
-mosquitto
-mosquitto_pub",,,,,,,,"mosquitto_pub
-mosquitto_pub
-mosquitto_sub
-mosquitto_sub",,,,,,,,,,,,,,,,,,
+mosquitto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 californium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ditto,,,,,,,,"So in a common setup one would need a „hook“ or something to get every device from ditto and add it into hawkbit, right?
-So in a common setup one would need a „hook“ or something to get every device from ditto and add it into hawkbit, right?",,,,,,,,Indeed I am considering that and make myself comfortable with vorto a bit :),,,https://stackoverflow.com/questions/59817541/connecting-eclipse-hono-and-eclipse-ditto-on-same-local-machine,,,,,,,,,,,,The only limitation (which is also configurable) is the total size of a thing being 100kB.,Project Relationship,,,,,
+ditto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 leshan,,,,,,,,,,,,,,"""./lwm2mclient -4 -h leshan.eclipse.org""",,,,,,,,,,,,,,,,,,,,,,,
-hawkbit,,,,,,,,,,,,,,,,,,,,,,,,A more charming argument for software update is that it enables agile development for hardware and hardware near development.,,,,"kuksa-hawkbit - Barebone API for connecting to Eclipse Hawkbit.
-Based on a generated .yaml config file and a Python-based script, the resulting docker images can then be published to the app store and hawkbit respectively.
-kuksa-hawkbit - Barebone API for connecting with Hawkbit.
-Based on a generated .yaml config file and a Python-based script, the resulting docker images can then be published to the app store and hawkbit respectively.
-Based on a generated .yaml config file and a Python-based script, the resulting docker images can then be published to the app store and hawkbit respectively.",,,,"Shipping for instance a Linux powered device connected to the Internet without any security updates ever applied during its lifetime is kind of a suicidal act these days.
-Apps) without the need to design, manufacture and ship a new device (revision).
-: connect millions of devices and ship terabytes of software on a global scale.",,,,,
+hawkbit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 kura,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 om2m,,,,,,,,,,,,,,Would like to create a temperature sensor for LwM2M client using wakaama implementation,,,,tinydtls,,,,,,,,,,,,,,"Buildship
 project_hip [archived]",Eclipse fog05,,,,
 ponte,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 eclipsescada,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-concierge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project Relationship,,,,,
+concierge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 wakaama,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 paho incubator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-vorto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Think about the limitations that come with sending data to the back-end via a mobile connection.,"The metamodel is used to define the relationship between the different entities like Information Models, Function Blocks, and Datatypes.
-and developed within the Eclipse IoT Working Group under the stewardship of Bosch.",,,,,
-4diac,,,,,,,,,,,,,,,,,,tinydtls,,,,,,,Ticketing and event promotion,,,,,,Limitation for using PUBLISH_1,"Buildship
+vorto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4diac,,,,,,,,,,,,,,,,,,tinydtls,,,,,,,,,,,,,Limitation for using PUBLISH_1,"Buildship
 project_hip [archived]",Eclipse fog05,,,,
 tinydtls,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-hono,,,,,,,,,,,,,,,,,,,,,,,"Fixed regression where Ports public directive was not honored
-Fixed regression where Ports public directive was not honored",,,,,,,,,,,,,,
+hono,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 kapua,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ignite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-unide,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Nowadays, brand new machines and software are often shipped with powerful communication capabilities.",,,,,
-iofog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"The project leadership certifies that the APIs in this release are ""Eclipse Quality"".",,,,,
+unide,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+iofog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 agile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-keti,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Supported by our member organizations, the Eclipse Foundation provides our community with Intellectual Property, Mentorship, Marketing, Event and IT Services
-Take advantage of marketing programs that target the Eclipse developer community, including advertising on eclipse.org, preferential listing on Eclipse Marketplace, exposure for commercial products on Eclipse Marketplace Client, organizing Eclipse Demo Camps, plus other programs.",,,,"is an open source framework to facilitate the implementation of terminal processing operating smart card readers, and to defined advanced secure ticketing transaction.
+keti,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"is an open source framework to facilitate the implementation of terminal processing operating smart card readers, and to defined advanced secure ticketing transaction.
 The project hosts a first extension to support the Calypso ticketing solution.
-fast and secure contactless ticketing transactions based on the
-Allows the cast of ReaderPlugin & SeReader native classes: could cause a misusage of the API by ticketing application.
-Allows the cast of ReaderPlugin & SeReader native classes: could cause a misusage of the API by ticketing application.",
+fast and secure contactless ticketing transactions based on the",
 duttile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Coordinate External Manufacturing, managing the relationship with the external manufacturing team responsible for implementing the Smart Things:",,,,,
 kuksa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 kuksa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cyclonedds,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 thingweb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-mita,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Combining declarative configuration and powerful language features with code generation enables projects to scale their deployment over quantity - from the first prototype to shipping thousands of devices.
-Bosch Connected Devices and Solutions has shipped Mita in three iterations of its XDK Workbench for their freely programmable IoT device ""Cross Domain Development Kit"" (XDK) so far and continues to support and use it.
-Combining declarative configuration and powerful language features with code generation enables projects to scale their deployment over quantity - from the first prototype to shipping thousands of devices.","The cloud-centric paradigm quickly shows its limitations in the context of Industrial IoT (IIoT) and in general with Cyber Physical Systems (CPS).
+mita,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"The cloud-centric paradigm quickly shows its limitations in the context of Industrial IoT (IIoT) and in general with Cyber Physical Systems (CPS).
 Fog computing has emerged as an architectural approach to deal with the limitations exposed by cloud-centric architectures in the context of CPS and IIoT applications.",,,,
 hip,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 fog05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

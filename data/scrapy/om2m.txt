@@ -152,7 +152,7 @@ Fawzia Abujalala
 on
 Thu, 19 December 2019
 0
-2199
+2201
 Thu, 19 December 2019 09:54
 By:
 Fawzia Abujalala
@@ -195,7 +195,7 @@ Krupa K
 on
 Wed, 30 October 2019
 2
-303
+304
 Fri, 01 November 2019 05:37
 By:
 Krupa K
@@ -247,7 +247,7 @@ Jagan Nehra
 on
 Fri, 19 July 2019
 1
-522
+523
 Fri, 19 July 2019 14:02
 By:
 Guillaume Garzone
@@ -310,7 +310,7 @@ Ahmad Arif
 on
 Mon, 26 March 2018
 4
-1702
+1704
 Tue, 16 April 2019 07:01
 By:
 Ilan t
@@ -407,7 +407,7 @@ hieu tran
 on
 Wed, 08 November 2017
 15
-6364
+6365
 Sat, 29 December 2018 08:07
 By:
 hieu tran
@@ -501,7 +501,7 @@ soyong kim
 on
 Sun, 29 April 2018
 2
-2347
+2348
 Fri, 01 June 2018 02:36
 By:
 soyong kim
@@ -553,7 +553,7 @@ Ashok Athukuri
 on
 Tue, 10 January 2017
 4
-3584
+3585
 Mon, 07 May 2018 15:13
 By:
 Arnaud Moncade
@@ -575,7 +575,7 @@ Ferenc Unghváry
 on
 Mon, 16 April 2018
 0
-4948
+4949
 Mon, 16 April 2018 14:39
 By:
 Ferenc Unghváry
@@ -618,7 +618,7 @@ Jairo Ariza
 on
 Wed, 07 March 2018
 1
-4221
+4223
 Thu, 22 March 2018 15:38
 By:
 Loula Beck
@@ -639,7 +639,7 @@ Ahmad Holpa
 on
 Fri, 02 December 2016
 3
-6601
+6602
 Sun, 18 March 2018 17:13
 By:
 Jairo Ariza
@@ -650,7 +650,7 @@ Jairo Ariza
 on
 Wed, 07 March 2018
 4
-2312
+2313
 Sun, 18 March 2018 15:39
 By:
 Jairo Ariza
@@ -681,7 +681,7 @@ teak jin kim
 on
 Thu, 01 June 2017
 25
-19603
+19604
 Mon, 12 March 2018 08:28
 By:
 Loula Beck
@@ -692,7 +692,7 @@ hieu tran
 on
 Wed, 22 November 2017
 4
-6387
+6388
 Tue, 06 March 2018 12:48
 By:
 Loula Beck
@@ -743,7 +743,7 @@ Umar Farooq
 on
 Thu, 11 January 2018
 0
-4444
+4445
 Thu, 11 January 2018 04:58
 By:
 Umar Farooq
@@ -774,7 +774,7 @@ wiem amich
 on
 Thu, 03 March 2016
 16
-12940
+12944
 Sat, 09 December 2017 02:44
 By:
 zeaz ezct
@@ -806,7 +806,7 @@ Umar Farooq
 on
 Tue, 14 November 2017
 3
-2215
+2217
 Mon, 20 November 2017 10:49
 By:
 Dorian Kurzaj
@@ -880,7 +880,7 @@ Dennis Parchkov
 on
 Thu, 02 November 2017
 0
-3652
+3653
 Thu, 02 November 2017 12:19
 By:
 Dennis Parchkov
@@ -890,7 +890,7 @@ Brahim AIT ELHAJ
 on
 Wed, 21 June 2017
 2
-7088
+7089
 Fri, 27 October 2017 01:38
 By:
 Umar Farooq
@@ -921,7 +921,7 @@ Dejo Smith
 on
 Tue, 05 September 2017
 2
-13883
+13885
 Tue, 24 October 2017 22:26
 By:
 Dejo Smith
@@ -994,7 +994,7 @@ Clement Courtais
 on
 Wed, 09 August 2017
 0
-5860
+5861
 Wed, 09 August 2017 13:26
 By:
 Clement Courtais
@@ -1015,7 +1015,7 @@ Alpay Ozturk
 on
 Mon, 12 June 2017
 0
-12324
+12325
 Mon, 12 June 2017 14:13
 By:
 Alpay Ozturk
@@ -1089,7 +1089,7 @@ Ashok Athukuri
 on
 Tue, 17 January 2017
 1
-94165
+94166
 Wed, 10 May 2017 09:52
 By:
 Nicolas Seydoux
@@ -1184,7 +1184,7 @@ Cyril FOTSO
 on
 Fri, 16 December 2016
 8
-4259
+4260
 Sun, 23 April 2017 15:27
 By:
 valentina vv95
@@ -1194,7 +1194,7 @@ Matej AA
 on
 Sun, 19 March 2017
 6
-46656
+46660
 Wed, 19 April 2017 19:21
 By:
 Matej AA
@@ -1215,7 +1215,7 @@ Ramakrishnan Bala
 on
 Thu, 13 April 2017
 1
-4607
+4608
 Thu, 13 April 2017 13:19
 By:
 Mahdi Ben Alaya
@@ -1309,7 +1309,7 @@ Putu Wiramaswara Widya
 on
 Thu, 12 January 2017
 0
-25933
+25934
 Thu, 12 January 2017 09:42
 By:
 Putu Wiramaswara Widya
@@ -1370,7 +1370,7 @@ Matej AA
 on
 Sat, 10 December 2016
 10
-4691
+4692
 Thu, 05 January 2017 16:41
 By:
 Matej AA
@@ -1381,7 +1381,7 @@ Drici Abdelkrim
 on
 Tue, 27 December 2016
 2
-11294
+11295
 Wed, 04 January 2017 11:12
 By:
 Drici Abdelkrim
@@ -1444,7 +1444,7 @@ Cyril FOTSO
 on
 Sat, 03 December 2016
 5
-8225
+8226
 Mon, 19 December 2016 09:29
 By:
 Guillaume Garzone
@@ -1454,7 +1454,7 @@ Yu-Hao Hsu
 on
 Thu, 01 December 2016
 2
-5573
+5574
 Thu, 15 December 2016 18:27
 By:
 Yu-Hao Hsu
@@ -1515,7 +1515,7 @@ Son Duong
 on
 Fri, 11 November 2016
 0
-41282
+41283
 Fri, 11 November 2016 12:27
 By:
 Son Duong
@@ -1558,7 +1558,7 @@ HyoungRo Lee
 on
 Thu, 08 September 2016
 2
-2652
+2653
 Wed, 12 October 2016 16:00
 By:
 David Zheng
@@ -1670,7 +1670,7 @@ Son Duong
 on
 Thu, 08 September 2016
 2
-3862
+3863
 Fri, 09 September 2016 10:10
 By:
 Son Duong
@@ -1763,7 +1763,7 @@ Can LIU
 on
 Mon, 29 August 2016
 2
-2567
+2568
 Tue, 30 August 2016 14:06
 By:
 Francois Aissaoui
@@ -1795,7 +1795,7 @@ Mahdi Ben Alaya
 on
 Sat, 28 February 2015
 1
-4690
+4691
 Wed, 24 August 2016 13:40
 By:
 yoshida takuma
@@ -1869,7 +1869,7 @@ Son Duong
 on
 Tue, 02 August 2016
 1
-2211
+2212
 Thu, 04 August 2016 10:01
 By:
 Dorian Kurzaj
@@ -1900,7 +1900,7 @@ Son Duong
 on
 Tue, 26 July 2016
 6
-2474
+2475
 Thu, 28 July 2016 08:40
 By:
 Trung Luu
@@ -1931,7 +1931,7 @@ Prem Vaithilingam
 on
 Fri, 04 July 2014
 18
-11985
+11986
 Fri, 15 July 2016 14:13
 By:
 Can LIU
@@ -1972,7 +1972,7 @@ Klemen Petrovcic
 on
 Fri, 01 July 2016
 3
-3008
+3009
 Wed, 06 July 2016 15:49
 By:
 Mahdi Ben Alaya
@@ -2013,7 +2013,7 @@ Wenyuan Hu
 on
 Tue, 12 April 2016
 5
-10357
+10358
 Wed, 06 July 2016 12:41
 By:
 Mahdi Ben Alaya
@@ -2033,7 +2033,7 @@ Trung Luu
 on
 Thu, 30 June 2016
 1
-1999
+2000
 Fri, 01 July 2016 09:11
 By:
 Francois Aissaoui
@@ -2054,7 +2054,7 @@ Can LIU
 on
 Tue, 28 June 2016
 2
-1664
+1665
 Tue, 28 June 2016 12:56
 By:
 Can LIU
@@ -2065,7 +2065,7 @@ Son Duong
 on
 Tue, 21 June 2016
 4
-3382
+3383
 Mon, 27 June 2016 11:37
 By:
 Son Duong
@@ -2117,7 +2117,7 @@ jara sdp
 on
 Wed, 18 May 2016
 1
-4944
+4945
 Mon, 06 June 2016 09:32
 By:
 Guillaume Garzone
@@ -2137,7 +2137,7 @@ Ravi Teja
 on
 Tue, 03 March 2015
 5
-3639
+3640
 Mon, 23 May 2016 06:07
 By:
 Nithyananth Sivasubramanian
@@ -2147,7 +2147,7 @@ Luke Tang
 on
 Sun, 22 May 2016
 0
-2581
+2582
 Sun, 22 May 2016 18:02
 By:
 Luke Tang
@@ -2157,7 +2157,7 @@ Salma Bradai
 on
 Wed, 19 November 2014
 7
-7233
+7234
 Sun, 22 May 2016 09:28
 By:
 Klemen Petrovcic
@@ -2567,32 +2567,6 @@ Sirius
 Sisu
 Skalli
 Soteria
-Mailing list: om2m-dev (104 subscribers) | Eclipse - The Eclipse Foundation open source community website.
-Google Tag Manager
-Skip to main content
-Log in
-Manage Cookies
-Eclipse - The Eclipse Foundation open source community website.
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
 Spatiotemporal Epidemiological Modeler (STEM)
 Standard Widget Toolkit (SWT)
 Subversive
@@ -2649,59 +2623,6 @@ Tiaki
 MOFScript
 secRT
 Chinese users
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Log in
-Search
-Mailing list: om2m-dev
-(104 subscribers)
-OM2M Developer discussions
-About om2m-dev
-OM2M Developer discussions
-Using om2m-dev
-To post a message to all the list members, send email to
-om2m-dev@eclipse.org
-. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
-om2m-dev Archives
-or subscribe to this list's
-RSS feed
-Subscribing om2m-dev
-All contributions you make to our web site are governed by our
-Terms Of Use
-. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
-Privacy Policy
-.
-To subscribe to a mailing list, you must have an Eclipse.org account.
-Log in
-- Or -
 AMW
 Buckminster
 ATF
@@ -2755,50 +2676,6 @@ Tycho
 Sketch
 IMP
 g-Eclipse
-Create an account
-Once you’ve are logged in, you can manage your mailing list subscriptions on the
-Mailing List
-page.
-View All Mailing Lists
-Mailing List
-View All Mailing Lists
-Privacy Policy
-Terms of Use
-Mailing list: om2m-dev
-RSS Feed
-Archive
-Build Enterprise Java on Kubernetes!
-A co-located event with KubeCon + CloudNativeCon EU on March 30, 2020
-Register Today
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
 Eclipse HIP
 Eclipse Examples
 EMF-IncQuery
@@ -2848,10 +2725,10 @@ Locked (w/ unread messages)
 Locked
 Moved to another forum
 Current Time:
-Tue Feb 04 02:36:45 GMT 2020
+Tue Feb 04 21:27:35 GMT 2020
 Powered by
 FUDForum
-. Page generated in 0.06559 seconds
+. Page generated in 0.02007 seconds
 .::
 Contact
 ::
@@ -2863,2916 +2740,6 @@ FUDforum Bulletin Board Software
 Back to the top
 Sign up to our Newsletter
 A fresh new issue delivered monthly
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-OM2M/one/Starting - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/one/Starting
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/one/Starting
-<
-OM2M
-‎ |
-one
-Contents
-1
-Prerequisites
-2
-Configuration
-2.1
-Server (IN-CSE) configuration
-2.2
-Gateway (MN-CSE) configuration
-3
-Startup
-3.1
-IN-CSE startup
-3.2
-MN-CSE startup
-4
-Multiple gateways scenario
-Prerequisites
-JAVA 1.7 or later is required to run OM2M.
-Configuration
-Server (IN-CSE) configuration
-Go to the IN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>".
-Edit the file “configuration/config.ini” to configure the IN-CSE.
-(You can keep the current configuration for a local demo)
-Parameter
-Description
-Example
-org.eclipse.om2m.cseType
-CSE type
-IN
-org.eclipse.om2m.cseBaseAddress
-IN-CSE ip address
-127.0.0.1
-org.eclipse.equinox.http.jetty.http.port
-IN-CSE HTTP listening port
-8080
-org.eclipse.om2m.coap.port
-IN-CSE CoAP listening port
-5683
-org.eclipse.om2m.cseBaseContext
-IN-CSE listening context
-/
-org.eclipse.om2m.dbDriver
-IN-CSE Database driver
-org.h2.Driver
-org.eclipse.om2m.dbUrl
-IN-CSE Database file location
-jdbc:h2:./database/nscdb
-org.eclipse.om2m.dbUser
-IN-CSE Database user name
-om2m
-org.eclipse.om2m.dbPassword
-IN-CSE Database password
-om2m
-org.eclipse.om2m.dbReset
-IN-CSE Database reset when starting
-true
-org.eclipse.om2m.cseBaseId
-IN-CSE CseBase resource id
-in-cse
-org.eclipse.om2m.cseBaseName
-IN-CSE CseBase resource name
-in-name
-org.eclipse.om2m.cseBaseProtocol.default
-IN-CSE Default communication protocol
-http
-org.eclipse.om2m.maxNrOfInstances
-Maximum number of content instances in a Container
-OM2M/one/Developer - Eclipsepedia
-1000
-org.eclipse.om2m.adminRequestingEntity
-IN-CSE Default admin requesting entity. (username / password)
-admin:admin
-org.eclipse.om2m.guestRequestingEntity
-IN-CSE Default guest requesting entity. (username / password)
-guest:guest
-Gateway (MN-CSE) configuration
-Go to the MN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>".
-Edit the file “configuration/config.ini” to configure the MN-CSE.
-(You can keep the current configuration for a local demo)
-Parameter
-Description
-Example
-org.eclipse.om2m.cseType
-Cse type
-MN
-org.eclipse.om2m.cseBaseAddress
-MN ip address
-127.0.0.1
-org.eclipse.equinox.http.jetty.http.port
-MN listening port
-8181
-org.eclipse.om2m.coap.port
-MN CoAP listening port
-5684
-org.eclipse.om2m.cseBaseContext
-MN listening context
-/
-org.eclipse.om2m.dbDriver
-MN Database driver
-org.h2.Driver
-org.eclipse.om2m.dbUrl
-MN Database file location
-jdbc:h2:./database/mncsedb
-org.eclipse.om2m.dbUser
-MN Database user name
-om2m
-org.eclipse.om2m.dbPassword
-MN Database password
-om2m
-org.eclipse.om2m.dbReset
-MN Database reset when starting
-true
-org.eclipse.om2m.cseBaseId
-MN CseBase resource id
-mn-cse
-org.eclipse.om2m.cseBaseName
-MN CseBase resource Name
-mn-name
-OM2M/one/Web Interface - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/one/Developer
-Log in
-org.eclipse.om2m.cseBaseProtocol.default
-MN default communication protocol
-http
-org.eclipse.om2m.maxNrOfInstances
-Maximum number of content instances in a Container
-1000
-org.eclipse.om2m.adminRequestingEntity
-Default MN-CSE admin requesting entity. (username / password)
-admin:admin
-org.eclipse.om2m.guestRequestingEntity
-Default MN-CSE guest requesting entity. (username / password)
-guest:guest
-The MN configuration file contains 5 additional parameters to specify the remote IN-CSE to which the MN should be authenticated.
-Parameter
-Description
-Example
-org.eclipse.om2m.remoteCseId
-Remote MN Id
-in-cse
-org.eclipse.om2m.remoteCseBaseName
-in-name
-org.eclipse.om2m.remoteCseAddress
-Remote MN ip address
-127.0.0.1
-org.eclipse.om2m.remoteCsePort
-Remote MN listening port
-8080
-org.eclipse.om2m.remoteCseContext
-Remote MN listening context
-/
-You can configure MN-CSE and IN-CSE to work on distributed machines.
-You can configure multiple MN-CSEs by setting different identifiers.
-Startup
-IN-CSE startup
-Go to the IN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>".
-Start the IN-CSE by executing the "start.bat" script on windows or "start.sh" on Linux and Mac OS.
-Once the IN-CSE is started, you will see an OSGi console. You can type “ss” to report a summary status of all installed bundles. Type "exit" to shutdown.
-IN-CSE OSGi console
-Open your browser and connect to the address "
-http://127.0.0.1:8080/webpage
-" to access the IN-CSE web interface.
-Enter username "admin" and password "admin" then click on login button to display the IN-CSE resource tree.
-IN-CSE web interface: authentication
-After a successful authentication, the IN-CSE resource will be displayed. You can see the "in-cse" cseBase sub-resources and attributes.
-You can disconnect by clicking on the "Logout" button.
-IN-CSE web interface: in-cse cseBase resource
-MN-CSE startup
-Go to the MN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/arch>".
-Start the MN-CSE by executing the "start.bat" script on windows or "start.sh" on Linux and Mac OS.
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/one/Web Interface
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-OM2M/one/Clone - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/one/Developer
-<
-OM2M
-‎ |
-one
-Before doing this tutorial you have to
-clone and build OM2M using Eclipse
-Contents
-1
-Add a new plug-in to OM2M
-1.1
-Clone and import OM2M
-1.2
-Create a new plug-in project
-1.3
-Convert the plugin into maven project
-Once the MN-CSE is started, you will see an OSGi console. You can type “ss” to report a summary status of all installed bundles.
-The MN-CSE automatically authenticate to the remote IN-CSE specified in the gateway configuration file. If the IN-CSE is not already running, the MN-CSE keep sending authentication requests (A request each 10 seconds).
-After a successful authentication, the “mn-cse” resource is added to the in-cse resource tree, and respectively the “in-cse” resource is added to the mn-cse resource tree. You can now access the registered MN-CSE resource from the IN-CSE web interface under the “/in-cse/in-name/mn-cse” uri.
-Using the In-CSE web interface you can seamlessly access to all authenticated gateways. You notice the existence of one authenticated MN-CSE with id "mn-cse".
-Click on the "mn-cse" resource to display remote MN-CSE sub-resources and attributes. You can click on the “mn-cse” button of the “link” attribute to connect to the MN-CSE resources tree.
-IN-CSE web interface: remote mn-cse resource
-The MN-CSE resource tree will be displayed. At this moment, the IN-CSE will act as a proxy to retarget your requests to the MN-CSE.
-IN-CSE web interface: mn-cse cseBase resource
-Initially, also the MN-CSE contains the CseBase resource (id=mn-cse), the AccessRight resource (id=acp_admin), and other empty collections.
-Multiple gateways scenario
-Let's consider a simple M2M system composed of a server and two gateways as follows:
-Server IP: 192.168.0.2
-Gateway1 IP: 192.168.0.3
-Gateway2 IP: 192.168.0.4
-Of course, you can test the system locally in one machine by using the IP 127.0.0.1 for all products.
-After building the OM2M project normally, you will obtain 1 IN-CSE product, 1 MN-CSE product and 1 ADN-CSE product.
-You can configure the IN-CSE with the default configuration like this:
-IN-CSE config.ini file:
-Now, copy the MN-CSE product in another folder. You have now two separate MN-CSEs.
-Configure the first MN-CSE with the following configuration:
-MN-CSE1 config.ini file:
-Then, configure the second MN-CSE with the following configuration:
-MN-CSE2 config.ini file:
-You can start the system as follows:
-Start the IN-CSE product.
-Start the MN-CSE1 product.
-Start the MN-CSE2 product.
-Open the IN-CSE web interface on
-http://192.168.0.2:8080/webpage
-. You will find MN-CSE1 and MN-CSE2 authenticated.
-You can access now each authenticated MN-CSE by clicking on the MN-CSE.
-Click on the "link" button to access remotely the gateway resource tree.
-Retrieved from "
-http://wiki.eclipse.org/index.php?title=OM2M/one/Starting&oldid=394847
-"
-This page was last modified 09:30, 15 December 2015 by
-François Aïssaoui
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/one/Web Interface
-<
-OM2M
-‎ |
-one
-Contents
-1
-Start the sample plugin
-2
-Application resources
-3
-Container resources
-4
-ContentInstances resources
-5
-Remote control lamps
-Start the sample plugin
-Go to the MN-CSE OSGi console and enter the following command to list all deployed plugins.
-Start the "org.eclipse.om2m.ipe.sample" plugin (id=30 in this example) by typing the following command:
-OSGi console: Start the lamps sample IPE
-The interworking proxy creates all required resources to enable to monitor and control lamps remotely and in a standardized way.
-After starting, you will see a java graphical interface displaying two lamps and three switches. You can use this interface to switch ON/OFF the two lamps separately or simultaneously.
-GUI: Lamps sample
-Application resources
-Open the IN-CSE web interface, and move to the MN-CSE resource tree. You will find the following resources:
-"LAMP_0": an AE resource enables to handle lamp 0.
-"LAMP_1": an AE resource enables to handle lamp 1.
-"LAMP_ALL": is an AE resource enables to handle simultaneously lamp 0 and lamp 1.
-Web interface: The "applications" resource
-Container resources
-Click on the "LAMP_0" application resource. You will find two containers:
-"DESCRIPTOR" stores the lamp description.
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/one/Clone
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-1.4
-Add the plugin as a maven module to the OM2M parent project
-1.5
-Add the plugin to the OM2M product(s)
-1.6
-Add required dependencies
-1.6.1
-Add plugin dependencies
-1.6.2
-Add jar dependencies (Only if required)
-2
-Develop an Interworking Proxy application Entity (IPE) plugin
-2.1
-IPE Activator
-2.2
-IPE Monitor
-2.3
-IPE oBIX Util
-2.4
-IPE Controller
-2.5
-IPE Util: RequestSender
-Add a new plug-in to OM2M
-Clone and import OM2M
-Clone OM2M using the Eclipse IDE.
-Import all nested projects into your workspace.
-Create a new plug-in project
-Create a new plug-in project called org.eclipse.om2m.sample.ipe via File → New → Other → Plug-in Project.
-Enter the data as depicted in the following screenshots.
-create a plug-in project: step 1
-create a plug-in project: step 2
-Uncheck the
-Create a plug-in using one of the templates
-checkbook and press the
-Finish
-button.
-create a plug-in project: step 3
-As result the following project is created.
-sample ipe plug-in
-Convert the plugin into maven project
-Open the build.properties file and update the src attributes as depicted in the following figure.
-build-properties build
-Note:
-At the end of the tutorial, you may face this error:
-gogo: BundleException: Error loading bundle activator.
-when starting the IPE. If this is the case, replacing
-src/main/java
-by the default
-src/
-might do the trick.
-Select the created plug-in "org.eclipse.om2m.sample.ipe" → right click → configure → convert to maven project.
-Enter the data as illustrated in the following and press the
-Finish
-button.
-maven conversion: POM edition
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-"DATA" stores the lamp data.
-Web interface: The "containers" resource
-ContentInstances resources
-Click on the "DESCRIPTOR" container. You will find one contentInstance containing "LAMP_0" description.
-Web interface: The "contetnInstances" resource
-Click on the contentInstance (CI974727193 in this example)
-Click on the "getState" button to read the latest lamp state value stored in the GSCL database.
-Click on the "getState(Direct)" button to read the lamp state directly from the lamp.
-Click on the "switchON" to switch on the lamp.
-Click on the "switchOFF" to switch off the lamp.
-Click on the "toggle" button to toggle the lamp.
-Web interface: The LAMP_0 description resource
-Remote control lamps
-Try to switch ON "LAMP_0" via the IN-CSE web interface, and then check the lamp state value on the java graphical interface.
-Try to switch OFF "LAMP_0" via the java graphical interface, and the check the lamp state value using the IN-CSE web interface.
-GUI: Lamp1 switched ON
-Retrieved from "
-http://wiki.eclipse.org/index.php?title=OM2M/one/Web_Interface&oldid=412113
-"
-This page was last modified 10:33, 24 November 2016 by
-Ghada Gharbi
-. Based on work by
-François Aïssaoui
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/one/Clone
-<
-OM2M
-‎ |
-one
-In this tutorial, you can download already built OM2M binaries or learn how to build OM2M from source code by yourself using command line or Eclipse.
-Contents
-1
-Prerequisites
-2
-Clone and build OM2M using Command line
-2.1
-Clone OM2M using command line
-2.2
-build OM2M using command line
-3
-Clone and build OM2M using Eclipse IDE
-3.1
-Install Eclipse IDE for RCP and RAP Developers
-3.2
-Configure Maven Proxy (Only if required)
-Once the plug-in is converted, open the
-pom.xml
-file to edit the parent filed.
-Click on "select Parent" icon and enter "org.eclipse.om2m" in the "Enter groupId, artifactId or sh1 prefix or pattern" field.
-Select "org.om2m.eclipse" and press ok.
-maven conversion: Parent edition
-We end this step by updating the plug-in project. For this, select the "org.eclipse.om2m.sample.ipe" project → maven → update project.
-Add the plugin as a maven module to the OM2M parent project
-In this part, we will add the created plug-in as a module to the om2m platform:
-Open the pom file of the
-org.eclipse.om2m
-package.
-Go to the
-modules
-tab and press
-Add
-button.
-Select the org.eclipse.om2m.sample.ipe plug-in and press
-ok
-.
-Build the om2m package and its sub-projects. To do this, select the "org.eclipse.om2m" project → right click → Run as → maven install.
-Check the org.eclipse.om2m.sample.ipe was successfully built. At the buid end, we should get this result.
-om2m build
-Remark: To keep the same display pattern for all the platform' plugins, you can add
-description
-and
-name
-tags to the
-org.eclipse.om2m.sample.ipe'
-pom.xml
-file.
-Add the plugin to the OM2M product(s)
-The final step consists of adding the created plug-in to one of om2m platform products, i.e the
-mn-cse
-or the
-in-cse
-executable. In the following, we choose to add the org.eclipse.om2m.sample.ipe plug-in to the mn-cse product:
-Select the org.eclipse.om2m.site.mn-cse package.
-Open the om2m.product file.
-Go in the "Contents" tab.
-Press "Add" button and type: org.eclipse.om2m.sample.ipe
-Click on "Ok" button and save.
-Build the om2m package and its sub-projects: select the "org.eclipse.om2m" package -> right click -> Run as -> maven install.
-To check that the "org.eclipse.om2m.sample.ipe" was successfully added to the mn-cse product, run the mn-cse and verify in the console if the "org.eclipse.om2m.sample.ipe" is displayed.
-mn-cse product
-Add required dependencies
-Add plugin dependencies
-Open the manifest file of the created plugin and select Dependencies tab.
-Add the dependencies depicted in the following figure.
-Important!
-You need to import om2m nested projects into your workspace to find them in the list below.
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-3.3
-Install Tycho plugin
-3.3.1
-Tycho quick install using Eclipse Maven Marketplace
-3.3.2
-Tycho Manual install using the Eclipse Update repository (Only if requried)
-3.4
-Clone OM2M using Eclipse
-3.5
-Build OM2M using Eclipse
-3.6
-Test OM2M
-Prerequisites
-Git is required to clone OM2M.
-JAVA 1.7 or later is required to run OM2M.
-Apache Maven 3 or later is required to build OM2M.
-Clone and build OM2M using Command line
-Clone OM2M using command line
-Clone the OM2M project using git with the following command:
-build OM2M using command line
-Go to "org.eclipse.om2m" directory.
-Build OM2M using the following command: (An internet connection is required to download required dependencies)
-Two Eclipse products will be generated after a successful built:
-The IN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>"
-The MN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>"
-The ASN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.asn-cse/target/products/asn-cse/<os>/<ws>/<arch>"
-Clone and build OM2M using Eclipse IDE
-Install Eclipse IDE for RCP and RAP Developers
-Install Eclipse Luna (Eclipse for RCP and RAP Developers).
-You can download it from this link:
-https://eclipse.org/downloads/packages/eclipse-rcp-and-rap-developers/lunasr2
-Configure Maven Proxy (Only if required)
-If you are required to use a proxy server to access the Internet, then you have to configure maven proxy settings as follows:
-Select Window -> Preferences -> Maven -> User settings
-You will find the warning message "
-settings.xml file doesn't exist
-" .
-Move to the .m2 directory location and create the settings.xml file and put this snippet.
-Install Tycho plugin
-Tycho quick install using Eclipse Maven Marketplace
-Click Window -> Preferences -> maven -> discovery -> open catalog and type Tycho. Check the “Tycho Configurator” checkbox.
-Eclipse Maven marketplace
-Tycho Manual install using the Eclipse Update repository (Only if requried)
-It happens that the Tycho plugin do not appears in the Eclipse Maven marketplace, then you have to install it manually using the following steps
-Select Help -> Install New Software.
-Click on the Add button.
-Tycho install
-Put in the
-name field
-"tycho0.8" and in the
-OM2M/Community - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-OM2M/Download - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-plugin dependencies
-Add jar dependencies (Only if required)
-If you want to add specific jar libraries to your plugin, you can follow these steps:
-Create a "libs" folder on your plugin project.
-Put required specific jar on the "libs" folder.
-Open the manifest file of the created plugin and select "runtime" tab.
-Go to the "classpath" tab and click on the "Add" button.
-Select the required jar and click on "ok" button.
-plugin specific jar dependencies
-Develop an Interworking Proxy application Entity (IPE) plugin
-IPE Activator
-The Activator class contains the implementation of the start() and stop() method used to activate and deactivate the IPE plugin.
-In the start() method, the Activator registers the IPE Controller service on the registry to make it available for the CORE plugin. Then, it starts tracking the CORE CSE service to use it once the CORE plugin is activated.
-In the Stop() method, the Activator can execute some process to make a clean before deactivation such as stopping threads, handle exceptions, etc. In our case, we stop the Monitor that have a set of thread that must be handled.
-IPE Monitor
-The Monitor class creates one sensor AE called "MY_SENSOR", and one actuator AE called "MY_ACTUATOR". It creates two containers for each applications: "DESCRIPTOR" container to store the description and "DATA" container to store the measurements. For each container the right oBIX XML payload is created as contentInstance.
-The Monitor starts two threads to listen to each application data as well. Once a new data is detected, the Monitor creates a new contentInstance including the measurement representation.
-Another method is available to stop the monitor and linked threads.
-IPE oBIX Util
-Convert the description and the measured data of the device to oBIX XML representation.
-IPE Controller
-Execute received requests from OM2M to the specific technologies.
-IPE Util: RequestSender
-This class simplify the interaction with the CseService providing the response of specific requests directly. You can take inspiration of this class if you want to create your own request utility/factory.
-Retrieved from "
-http://wiki.eclipse.org/index.php?title=OM2M/one/Developer&oldid=419371
-"
-This page was last modified 11:13, 14 September 2017 by
-Dorian Kurzaj
-. Based on work by
-François Aïssaoui
-and
-Guillaume Garzone
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-location filed
-this url "
-http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/LATEST/
-"
-Press on on ok button and check the "m2e extensions" and "Tycho Project Configurators" checkboxes and click on next.
-Tycho install
-Select the "Tycho Project Configurators" and click on Next.
-Tycho install
-Accept the terms of use and click on Finish.
-Update your project: Select the package "org.eclipse.om2m" -> right click -> maven -> update Project.
-Clone OM2M using Eclipse
-Select Window->Show View -> Other .
-In the dialog box, select the Git view.
-Click on “Clone a Git repository”.
-Git clone
-Clone the OM2M project using the following link:
-http://git.eclipse.org/gitroot/om2m/org.eclipse.om2m.git
-. In the first page, enter the mentioned link in the URI’s location field. Click Next .
-Git clone
-In the second page, keep the “master” branch checkbox selected and click Next.
-Git clone
-In the third page, check the “import all existing projects after clone finishes” and click “Finish”.
-Git clone
-The OM2M project is now cloned and is visible on the Git repositories’ and Package’ explorers.
-If you still have an error on Tycho plugin lifecycle, check that you have downloaded the right Eclipse version (RCP and RAP Developers)
-Build OM2M using Eclipse
-Select “org.eclipse.om2m” package and right click. Select “Run as -> maven install”.
-Two Eclipse products will be generated after a successful built:
-The IN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>"
-The MN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>"
-The ASN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.asn-cse/target/products/asn-cse/<os>/<ws>/<arch>"
-Test OM2M
-Go to the IN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>".
-Start the IN-CSE by executing the "start.bat" script on Windows or "start.sh" on Linux and Mac OS.
-WARNING for Windows users:
-don't double click on the "start.bat" file from Eclipse explorer on Windows. This cause unwanted loading of bundles and the platform will NOT be launched. Use the File Explorer instead.
-Once the IN-CSE is started, you will see an OSGi console. You can type “ss” to report a summary status of all installed bundles. Type "exit" to shutdown.
-IN-CSE OSGi console
-Open your browser and connect to the address "
-http://127.0.0.1:8080/webpage
-" to access the IN-CSE web interface.
-Enter username "admin" and password "admin" then click on login button to display the IN-CSE resource tree.
-IN-CSE web interface: authentication
-After a successful authentication, the in-cse resource will be displayed. You can see the "in-cse" CseBase sub-resources and attributes.
-IN-CSE web interface: in-cse cseBase resource
-OM2M/one/REST API - Eclipsepedia
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/Community
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/Download
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Congratulation!! You built and started OM2M successfully.
-Retrieved from "
-http://wiki.eclipse.org/index.php?title=OM2M/one/Clone&oldid=432468
-"
-This page was last modified 18:06, 23 May 2019 by
-Mahdi Ben Alaya
-. Based on work by
-François Aïssaoui
-and
-Fariz Alemuda
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/one/REST API
-Log in
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/Community
-<
-OM2M
-Contents
-1
-Initial Contributor
-2
-Contributors
-3
-Partners
-Initial Contributor
-LAAS-CNRS
-Contributors
-HUAWEI
-Orange Labs Research
-Sensinov
-Partners
-camynoo
-eDevice
-HANA
-Heterogeneous Advanced Networking & Applications Lab
-Institute for Information Industry
-ItalTel
-KICS
-Al-Khawarizmi Institute of Computer Science
-NCTU
-National Chiao Tung University
-QoS Design
-ReDCAD
-OM2M/Roadmap - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Community portal
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/Download
-<
-OM2M
-Contents
-1
-Official Releases
-2
-Dev releases
-3
-Source code
-Official Releases
-Download
-Date
-Description
-Release Notes
-Eclipse OM2M v1.3.0
-March 13, 2018
-Bug fixing and new features
-Release notes
-Eclipse OM2M v1.2.0
-January 04, 2018
-Bug fixing
-Release notes
-Eclipse OM2M v1.1.0
-October 09, 2017
-oneM2M 2.0 support, new features, and bug fixing
-Release notes
-Eclipse OM2M v1.0.0
-June 22, 2016
-oneM2M 1.0 support, new features, and bug fixing
-Release notes
-Eclipse OM2M v0.8.0
-April 8, 2015
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/one/REST API
-<
-OM2M
-‎ |
-one
-Contents
-1
-Install a REST client
-2
-Retrieve a resource
-3
-Create a "MY_SENSOR" application
-4
-Discover resources based on their labels
-5
-- Research laboratory on Development and Control of Distributed Applications
-Pilot Things
-Sierra Wireless
-SMART Infrastructure Facility
-Retrieved from "
-https://wiki.eclipse.org/index.php?title=OM2M/Community&oldid=426783
-"
-This page was last modified 20:41, 5 August 2018 by
-Thierry Monteil
-. Based on work by
-Mahdi Ben Alaya
-and
-Mahdi Ben Alaya
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-org.eclipse.om2m.git - om2m project repository
-Skip to main content
-Edit my account
-Manage Cookies
-Donate
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-smartM2M 1.0 support
-Release notes
-Dev releases
-Download
-Date
-Description
-Notes
-OM2M-DEV-10072019
-July 10, 2019
-Bug fixing
-Fixed Bugs:
-540074
-543030
-531929
-543639
-544316
-529725
-OM2M-DEV-20112018
-November 20, 2018
-New features and bug fixing
-OM2M-DEV-13112016
-November 13, 2016
-Bug fixing
-Fixed Bugs:
-507443
-OM2M-DEV-30072016
-July 30, 2016
-Bug fixing
-Fixed Bugs:
-497579
-495606
-498911
-OM2M-DEV-24042016
-April 24, 2016
-Bug fixing
-Features and fixed Bugs:
-491796
-491797
-491791
-488769
-488268
-488269
-484399
-473505
-Source code
-Click
-here
-to access OM2M source code repository.
-Retrieved from "
-http://wiki.eclipse.org/index.php?title=OM2M/Download&oldid=433342
-Create a DESCRIPTOR container
-6
-Create a description contentInstance
-7
-Create a DATA container
-8
-Create a data contentInstance
-9
-Create a "MY_SENSOR" application using JSON
-10
-Subscribe to MY_SENSOR data
-11
-Short Names
-Install a REST client
-For this section, you need a REST client to send HTTP request (GET, POST, UPDATE, DELETE) to the OM2M platform.
-Install Postman extension on google chrome browser:
-http://www.getpostman.com
-The tutorial postman collection is available here:
-https://www.getpostman.com/collections/41fad4dcdaca7a90325e
-Retrieve a resource
-HTTP request:
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse
-Method
-GET
-Header
-X-M2M-Origin: admin:admin
-Accept: application/xml
-Body
-(empty)
-HTTP response:
-Field
-Value
-Status
-200 OK
-Body
-You can set the
-Accept
-header to
-application/json
-if you want a response in JSON format instead of XML.
-Create a "MY_SENSOR" application
-Send a HTTP request with the following parameters to create a
-MY_SENSOR
-application on the gateway.
-In the creation we have two important headers:
-Content-Type
-: this header has 2 informations seperated by a semicolon
-The format of the exchange, here "application/xml"
-The resource type to be created, here "ty=2" (2 for AE, see oneM2M spec TS-0004 (V2.7.1), Table 6.3.4.2.1-1)
-Field
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Research
-Eclipse IDE
-Download
-Learn More
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Search
-Toggle navigation
-Breadcrumbs
-Home
-Contribute
-Source code
-index
-:
-org.eclipse.om2m.git
-change/82364/1
-dev
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/Roadmap
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-"
-This page was last modified 08:29, 10 July 2019 by
-Guillaume Garzone
-. Based on work by
-Mahdi Ben Alaya
-,
-Mahdi Ben Alaya
-and
-Ghada Gharbi
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Value
-URL
-http://127.0.0.1:8080/~/in-cse
-Method
-POST
-Header
-X-M2M-Origin: admin:admin
-Content-Type: application/xml;ty=2
-Body
-HTTP response:
-Field
-Value
-Status
-201 Created
-Headers
-Content-Location: /in-cse/ae-CAE449907766
-Body
-You can check the created application on the web interface.
-Discover resources based on their labels
-You can discover available resources based on their search strings using the discovery resource. The
-fu
-parameter (stands for "Filter Usage") indicate that it is a discovery request. The
-lbl
-("Label") indicate the specific label you what to filter.
-HTTP request:
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse?fu=1&lbl=Type/sensor
-Method
-GET
-Header
-X-M2M-Origin: admin:admin
-Accept: application/xml
-Body
-(empty)
-HTTP response:
-Field
-Value
-Status
-200 OK
-Body
-Create a DESCRIPTOR container
-Send a HTTP request with the following parameters to create a
-DESCRIPTOR
-container resource under the
-MY_SENSOR
-application.
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR
-Method
-POST
-Header
-feature0
-master
-smart
-om2m project repository
-about
-summary
-refs
-log
-tree
-commit
-diff
-stats
-log msg
-author
-committer
-range
-Branch
-Commit message
-Author
-Age
-change/82364/1
-Fix missing Copyrights
-Guillaume Garzone
-3 years
-dev
-Fix Bug 529725 corrections on ACP DAO Update and fix in ACP Utils
-Guillaume Garzone
-10 months
-feature0
-Merge branch 'dev' into feature0
-benalaya
-2 years
-master
-Squash of Orange's commit.
-BOLLE Sebastien
-16 months
-smart
-commons: fix issues related to xml annotations.
-BONNARDEL Gregory
-4 years
-Tag
-Download
-Author
-Age
-1.3.0
-org.eclipse.om2m-1.3.0.tar.gz
-org.eclipse.om2m-1.3.0.tar.xz
-org.eclipse.om2m-1.3.0.zip
-benalaya
-23 months
-1.0.0
-org.eclipse.om2m-1.0.0.tar.gz
-org.eclipse.om2m-1.0.0.tar.xz
-org.eclipse.om2m-1.0.0.zip
-Page
-Discussion
-View source
-History
-OM2M/Roadmap
-<
-OM2M
-This page describes the current plan for the upcoming features of the OM2M project.
-Please note that this roadmap is a moving target. Depending on priorities and community contribution, the roadmap can change any time, so do not take it for granted, but see it as a guidance of direction.
-Contents
-1
-Release 1.3.0 (March 13, 2018)
-1.1
-Features
-1.2
-Fixed bugs
-2
-Release 1.2.0 (January 04, 2018)
-2.1
-Features
-2.2
-Fixed bugs
-3
-Release 1.1.0 (October 09, 2017)
-3.1
-Features
-3.2
-Tutorials
-3.3
-Fixed bugs
-4
-Release 1.0.0 (June 22, 2016)
-4.1
-Features
-4.2
-Fixed bugs
-5
-Release 0.8.0 (April 8, 2015)
-5.1
-Features
-5.2
-Fixed bugs
-Release 1.3.0 (March 13, 2018)
-Features
-This release provides the following updates and new features:
-oneM2M java clients
-oneM2M javascript clients
-oneM2M arduino clients
-ManagementObject :
-Announcement
-Persistence
-Add new Management Object
-Use DeviceInfo Management Object in SDT IPE
-X-M2M-Origin: admin:admin
-Content-Type: application/xml;ty=3
-Body
-HTTP response
-Field
-Value
-Status
-201 Created
-Header
-Content-Location: /in-cse/cnt-478855064
-Body
-Check the created container on the web interface.
-Create a description contentInstance
-Send a HTTP request with the following parameters to create a description content instance resource under the "DESCRIPTOR" container.
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR/DESCRIPTOR
-Method
-POST
-Header
-X-M2M-Origin: admin:admin
-Content-Type: application/xml;ty=4
-Body
-Check the created content instance on the web interface.
-Create a DATA container
-Send a HTTP request with the following parameters to create a "DATA" container resource under the "MY_SENSOR" application.
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR
-Method
-POST
-Header
-X-M2M-Origin: admin:admin
-Content-Type: application/xml;ty=3
-Body
-Check the created container on the web interface.
-Create a data contentInstance
-Send a HTTP request with the following parameters to create a data content instance resource under the "DATA" container.
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR/DATA
-Method
-POST
-Header
-X-M2M-Origin: admin:admin
-Content-Type: application/xml;ty=4
-Body
-Check the created content instance on the web interface.
-Create a "MY_SENSOR" application using JSON
-Since OM2M supports JSON, you can send an HTTP request with the following parameters to create a
-Francois Aissaoui
-4 years
-0.8.0
-org.eclipse.om2m-0.8.0.tar.gz
-org.eclipse.om2m-0.8.0.tar.xz
-org.eclipse.om2m-0.8.0.zip
-mbenalaya
-4 years
-Age
-Commit message
-Author
-Files
-Lines
-2018-10-08
-Squash of Orange's commit.
-HEAD
-master
-BOLLE Sebastien
-688
--12454
-/
-+28180
-2018-07-30
-Merge "protocols.hue: use default eclipse groupId" into dev
-Mahdi Ben Alaya
-3
--5
-/
-+5
-2018-07-30
-Merge "commons, datamapping.jaxb: add XMLElement namespace." into dev
-Mahdi Ben Alaya
-180
--556
-/
-+512
-2018-07-02
-Merge "commons: JAXB improvement about FlexContainers." into dev
-Mahdi Ben Alaya
-4
--203
-/
-+487
-2018-07-02
-Merge "hue.basedriver: use Properties to load & update configuration file" in...
-Mahdi Ben Alaya
-1
--16
-/
-+9
-2018-07-02
-commons: JAXB improvement about FlexContainers.
-BOLLE Sebastien
-4
--203
-Fixed bugs
-FlexContainers
-Remove unused XmlSeeAlso annotation into FlexContainers
-Fix deviceSwitchButton device short name
-Discovery with multiple labels
-Release 1.2.0 (January 04, 2018)
-Features
-This release provides the following updates and new features:
-android.dashboard: initial import
-build MN-CSE & IN-CSE docker image
-mocked sdt devices : add Thermometer, SwitchButton, NumberValue
-sdt.app.homemonitoring:
-disable switch button in case of readOnly SDT module
-highlight values on notification
-Fixed bugs
-The following bugs are fixed:
-all:
-fix UTF8 character encoding issue
-remove RequestPrimitive's targetId field
-persistence.mongodb:
-implement missing DAO
-fix issue on Container persistence
-announcement : fix issue regarding Container announcement
-commons: fix announcement issue
-datamapping.jaxb: log enhancement.
-sdt.app.homemonitoring: fix authentication issue
-sdt.home.netatmo : fix naming issue
-sdt.app.comparator :fix rendering issue
-Resource browser:Fix rendering issue
-[Bug 526616] Update ol attribute of container correctly
-Fix Bug 522099 on discovery with label filter
-Release 1.1.0 (October 09, 2017)
-Features
-This release provides the following updates and new features:
-oneM2M release 2 support
-MQTT communication binding
-NoSQL MongoDB storage
-Smart Device Template (SDT)
-FlexContainer resource
-Dynamic Authorization
-Resource Announcement
-Enocean interworking
-Hue interworking
-Netatmo interworking
-SmarterCoffee interworking
-LIFX interworking
-OSGi DAL (Device Abstraction Layer) interworking
-Several test suites
-Tutorials
-Several tutorials already proposed to explain how to use the new features developed in this release:
-How to use oneM2M MQTT binding
-Develop oneM2M applications
-Develop an Interworking Proxy Plugin
-MY_SENSOR
-application on the gateway using JSON instead of XML.
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse
-Method
-POST
-Header
-X-M2M-Origin: admin:admin
-Content-Type: application/json;ty=2
-Body
-You can interact with the system in the same way using JSON instead of XML with an equivalent of the XML body. (Be careful for the Labels to use a JSON array for instance: "lbl":"["label-1", "label-2"].)
-Subscribe to MY_SENSOR data
-Download the monitor server sample from this link:
-Monitor
-.
-Start the Monitor server using the following command:
-The monitor starts listening on port=1400 and context=/monitor.
-Monitor console: the server is started
-Send a HTTP request with the following parameters to create a "Subscription" resource for receive asynchronously events from "MY_SENSOR" application.
-The monitor listening URL (
-http://127.0.0.1:1400/monitor
-) should be added on the "nu" tag of the subscription representation.
-Field
-Value
-URL
-http://127.0.0.1:8080/~/in-cse/in-name/MY_SENSOR/DATA
-Method
-POST
-Header
-X-M2M-Origin: admin:admin
-Content-Type: application/xml;ty=23
-Body
-Check the created subscription on the web interface.
-Create a new event content instance resource under the "DATA" container.
-The new event is published to interested subscribers by the gateway.
-Here is an example of the "Notify" XML representation:
-The Monitor receives a "Notify" resource including the new "ContentInstance".
-Remember that the "Notify" resource has a generic structure to support notifications for other type of resources such as "AE", "Container", "Group", "AccessControlPolicy", etc.
-Short Names
-ae: Application Entity
-cnt: Container
-cin: Content Instance
-sub: Subscription
-sgn: Agregated Notification
-rn: Resource Name
-ty: Type
-ri: Resource ID
-pi: Parent Id
-/
-+487
-2018-07-02
-protocols.hue: use default eclipse groupId
-BOLLE Sebastien
-3
--5
-/
-+5
-2018-07-02
-Merge "orange.p2.repo: integrate hue base driver & sdt" into dev
-Mahdi Ben Alaya
-1
--0
-/
-+9
-2018-07-02
-commons, datamapping.jaxb: add XMLElement namespace.
-BOLLE Sebastien
-180
--556
-/
-+512
-2018-07-02
-hue.basedriver: use Properties to load & update configuration file
-BOLLE Sebastien
-1
--16
-/
-+9
-[...]
-Clone
-git://git.eclipse.org/gitroot/om2m/org.eclipse.om2m.git
-https://git.eclipse.org/r/om2m/org.eclipse.om2m.git
-ssh://user_id@git.eclipse.org:29418/om2m/org.eclipse.om2m.git
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Develop an Interworking Proxy Application Entity (IPE) Plugin with SDT
-Developing with FlexContainers
-Change database config.
-Integrate OSGi DAL devices into OM2M by using DAL IPE Plugin
-Check our wiki:
-https://wiki.eclipse.org/OM2M/one
-Fixed bugs
-The following bugs are fixed:
-Bug 501266
-- ACP automatically created when an AE is created dosn't have ty=1
-Bug 498911
-- Error in Access Right verification for PoA notification
-Bug 498387
-- Smart Device Template (SDT) support
-Bug 498374
-- FlexContainer feature support
-Bug 497579
-- Unwanted deletion of AEs having the name of the wanted deleted AE as a prefix
-Bug 495606
-- Error on creating ContentInstance with maxNumberOfInstance in Container
-Release 1.0.0 (June 22, 2016)
-Features
-Implementation of the oneM2M standard. For more information see
-oneM2M standard
-.
-Main supported features:
-Nodes: IN-CSE, MN-CSE, ASN-CSE, and ADN.
-Reference Points: MCA, and MCC.
-Resource types: CSEBase, RemoteCSE, ACP, AE, Container, ContentInstance, Subscription, Group, Node, Request, PoA, etc.
-Request primitives: Retrieve, Create, Update, Delete, and Notify.
-Addressing formats: Structured and Unstructured.
-Addressing modes: Absolute, SP-relative, and CSE-Relative.
-Protocol Bindings: HTTP and CoAP.
-Content Formats: XML and JSON.
-Communication Modes: Blocking, Non Blocking Syhcnronous, and Non Blocking Asynchrnonous.
-Multihop: retargeting via PoA.
-Storage mode: SQL and NoSQL (SQL H2 by default)
-Security: SSL/TLS
-Fixed bugs
-Bug 494086
-- Top level node in JSON representation now with m2m: prefix
-Bug 494911
-- Issues in CoAP binding
-Bug 494090
-- Enable wildcard for AccessControl originators
-Bug 494087
-- hange in some oneM2M Constants
-Bug 492961
-- Missing Access check for Notify requests
-Bug 491796
-- Support JSON content format
-Bug 491797
-- Support of CoAP binding
-Acpi: Access Control Policies IDs
-uril: URI List
-ct: Creation Time
-et: Expiration Time
-lt: Last Modified Time
-lbl: Label
-cnf: Content Format
-con: Content
-mni: Maximum Number of Instance
-st: State Tag
-cs: Content Size
-aei: Application Entity Id
-api: Application Id
-poa: Point of Access
-rr: Request Reachability
-nev: Notification Event
-nep: Representation
-sur: Subscription URI
-Enc: Event Notification Criteria
-Retrieved from "
-http://wiki.eclipse.org/index.php?title=OM2M/one/REST_API&oldid=435254
-"
-This page was last modified 05:31, 24 November 2019 by
-Philippe Hérail
-. Based on work by
-Mahdi Ben Alaya
-,
-Guillaume Garzone
-and
-Dorian Kurzaj
-and
-others
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Report a Vulnerability
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Bug 491791
-- Enable resource name attribute in creation request
-Release 0.8.0 (April 8, 2015)
-Features
-The first release of OM2M will include the following features:
-Implement the SmartM2M standard. For more information see
-SmartM2M standard
-Provide a modular architecture running on top of an OSGi layer based on Eclipse Equinox.
-Integrate Maven and Tycho to automate build process and RCP development.
-Provide a protocol-independent CORE plugin to handle generic REST request.
-Enable machine registration, application deployment, container management, resource discovery, access right authorization, subscription / notification, group management, and resource announcement.
-Provide a HTTP communication binding plugin based on Jetty and Apache HTTP client libraries.
-Provide a CoAP communication binding plugin based on the Californium library.
-Provide a simple retargeting mechanism to connect HTTP and CoAP enabled devices.
-Provide an interworking sample plugin with simulated devices to show how to connect legacy devices.
-Provide a web interface plugin for browsing and debugging each machine resource structure.
-Provide a DAO persistence layer based on EclipseLink JPA library to support different SQL and NOSQL database solutions.
-Replace the DB4O database with the H2 database which provide better performance.
-Introduce required persistence parameters to the "config.ini" file to simplify the JPA configuration.
-Replace the XSD resource validation with a native validation mechanism that offers more flexibility.
-Replace the OASIS OBIX library with a native encoder/decoder based on the JAXB library.
-Improve the OM2M performance by optimizing the resource structure and database access.
-Fixed bugs
-Bug 463673
-- Problem in starting the GUI of the IPU sample plugin in the GSCL
-Bug 463778
-- Replace the native launcher with an independent single script
-Bug 453467
-- Can't access a malformed created application
-Bug 463941
-- OM2M starting blocked on ObixMapper
-Retrieved from "
-https://wiki.eclipse.org/index.php?title=OM2M/Roadmap&oldid=423686
-"
-This page was last modified 00:42, 13 March 2018 by
-Mahdi Ben Alaya
-. Based on work by
-Sebastien Bolle
-and
-Ghada Gharbi
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-OM2M/Public documentation - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/Public documentation
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/Public documentation
-<
-OM2M
-Contents
-1
-OM2M reference
-2
-Talks & Slides
-3
-Scientific publications
-4
-API Specification for Smart Home - JONES Initiative
-5
-NODE-RED nodes for OM2M
-OM2M reference
-Use the following reference to cite OM2M:
-Text:
-BibTeX:
-Talks & Slides
-EclipseCon France 2014
-Slide
-EclipseCon San Francisco 2014
-Video
-&
-Slide
-Eclipse IoT Day Grenoble 2014
-Video
-(French) OM2M une implémentation opensource de la norme ETSI-M2M, journée AFNIC France 2014
-Video
-&
-Slide
-Standardized M2M service platform, IoT & M2M Spring school, Hammamet Tunisia 2014
-Slide
-From Internet of Things to Machine-to-Machine, IoT & M2M Spring school, Hammamet Tunisia 2014
-Slide
-Scientific publications
-M. Ben Alaya, Y. Banouar, T. Monteil, C. Chassot, K. Drira, OM2M: Extensible ETSI-compliant M2M Service Platform with Self-configuration Capability, Procedia Computer Science, Volume 32, 2014, Pages 1079-1086, ISSN 1877-0509,
-http://dx.doi.org/10.1016/j.procs.2014.05.536
-.
-Grieco LA, Ben Alaya M, Monteil T, Drira K. Architecting Information Centric ETSI-M2M systems. IEEE International Conference on Pervasive Computing and Communications WIP. Budapest Hungary March 24-28 2014.
-http://arxiv.org/abs/1403.1383
-API Specification for Smart Home - JONES Initiative
-The goal of the JONES Initiative is to define and develop a Cloud API for Home Automation. The JONES Cloud API enables applications to integrate remote user devices and data from JONES compliant Smart Home platforms. Today the JONES Initiative partners are Deutsche Telekom and Orange. Nevertheless, the JONES Initiative is open for further, future partners. To define, develop, and evangelize the JONES Cloud API it is paramount to have a common reference architecture as well as a common reference implementation. This reference implementation is developed on OM2M open source project.
-NODE-RED nodes for OM2M
-Based on Node-RED, node-red-contrib-ide-iot is a module that allows the creation of IoT applications graphically in a simple and efficient way. It uses the OM2M platform as a middleware that provides high level interoperability between the different heterogeneous objects connected to this platform. node-red-contrib-ide-iot modules allow to be connected to several OM2M platforms, manages resources, extract data from sensors in a different ways, manage activators and communicate in a different way. You can download those modules on:
-https://www.npmjs.com/package/node-red-contrib-ide-iot
-and get documentation on
-https://homepages.laas.fr/monteil/drupal/content/node-red-ideom2m
-and
-http://cwt.nctu.edu.tw/node-red-ideom2m/
-. Those modules have been developed and supported by LAAS-CNRS
-https://www.laas.fr/public/en
-and National Chiao Tung University
-http://www.nctu.edu.tw/en
-.
-Retrieved from "
-https://wiki.eclipse.org/index.php?title=OM2M/Public_documentation&oldid=426738
-"
-This page was last modified 19:26, 31 July 2018 by
-Thierry Monteil
-. Based on work by
-Sebastien Bolle
-,
-Mahdi Ben Alaya
-and
-Yassine Banouar
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-OM2M/Team - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/Team
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-OM2M/one - Eclipsepedia
-document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-Skip to main content
-Download
-Members
-Working Groups
-Projects
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/Team
-<
-OM2M
-Contents
-1
-Project Leaders
-2
-Commiters
-3
-Contributors
-4
-Mentors
-Project Leaders
-Mahdi Ben Alaya (benalaya@sensinov.com)
-Thierry Monteil (monteil@laas.fr)
-Commiters
-François Aïssaoui (aissaoui@laas.fr)
-Yassine Banouar (ybanouar@laas.fr)
-Guillaume Garzone (ggarzone@laas.fr)
-Ghada Gharbi (ggharbi@laas.fr)
-Contributors
-On behalf of Orange
-Sébastien BOLLE (sebastien.bolle@orange.com)
-André BOTTARO (andre.bottaro@orange.com)
-Grégory BONNARDEL (gregory.bonnardel@mythalesgroup.com)
-Cyrille BAREAU (cyrille.bareau@orange.com)
-David EXCOFFIER (david.excoffier@orange.com)
-On behalf of LAAS-CNRS
-Christophe CHASSOT (chassot@laas.fr)
-Khalil DRIRA (drira@laas.fr)
-Marouane EL KIASSE (melkiass@laas.fr)
-Maroua MEDDEB (mmeddeb@laas.fr)
-Samir MEDJIAH(medjiah@laas.fr)
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-More
-Community
-Marketplace
-Events
-Planet Eclipse
-Newsletter
-Videos
-Blogs
-Participate
-Report a Bug
-Forums
-Mailing Lists
-Wiki
-IRC
-Eclipse IDE
-Download
-Documentation
-Getting Started / Support
-How to Contribute
-IDE and Tools
-Newcomer Forum
-Toggle navigation
-Breadcrumbs
-Home
-Eclipse Wiki
-OM2M/one
-Log in
-Jump to:
-navigation
-,
-search
----Navigation---
-Main Page
-Community portal
-Current events
-Recent changes
-Random page
-Help
-Navigation
-Main Page
-Community portal
-Current events
-Mentors
-Benjamin Cabé (benjamin@eclipse.org)
-Denis Roy (denis.roy@eclipse.org)
-Retrieved from "
-https://wiki.eclipse.org/index.php?title=OM2M/Team&oldid=423911
-"
-This page was last modified 09:38, 20 March 2018 by
-Sebastien Bolle
-. Based on work by
-Mahdi Ben Alaya
-,
-Thierry Monteil
-and
-Mahdi Ben Alaya
-and
-others
-.
-Back to the top
-Eclipse Foundation
-About Us
-Contact Us
-Donate
-Governance
-Logo and Artwork
-Board of Directors
-Legal
-Privacy Policy
-Terms of Use
-Copyright Agent
-Eclipse Public License
-Legal Resources
-Useful Links
-Report a Bug
-Documentation
-How to Contribute
-Mailing Lists
-Forums
-Marketplace
-Other
-IDE and Tools
-Community of Projects
-Working Groups
-Research@Eclipse
-Service Status
-Copyright © Eclipse Foundation, Inc. All Rights Reserved.
-Back to the top
-Recent changes
-Random page
-Help
----Toolbox---
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Toolbox
-Page information
-Permanent link
-Printable version
-Special pages
-Related changes
-What links here
-Page
-Discussion
-View source
-History
-OM2M/one
-<
-OM2M
-OM2M
-Website
-Download
-Community
-Mailing List
-•
-Forums
-•
-IRC
-•
-mattermost
-Bugzilla
-Open
-•
-Help Wanted
-•
-Bug Day
-Contribute
-Browse Source
-NEW:
-This page covers the oneM2M version of OM2M. If you are looking for documentation for the smartM2M version (v0.8.x)
-click here
-.
-OM2M provides an open source service platform for M2M interoperability based on the oneM2M standard. OM2M follows a RESTful approach with open interfaces to enable developing services and applications independently of the underlying network. It proposes a modular architecture running on top of an OSGi layer, making it highly extensible via plugins. It supports multiple protocol bindings such as HTTP and CoAP. Various interworking proxies are provided to enable seamless communication with vendor-specific technologies such as Zigbee and Phidgets devices.
-Contents
-1
-Introduction
-2
-Prerequisites
-3
-Getting started
-4
-Going further - Advanced tutorials
-5
-Project Roadmap
-6
-Interesting links
-7
-Public Documentation
-8
-OM2M Team
-Introduction
-OM2M provides a RESTful API for creating and managing M2M resources. It includes several primitive procedures to enable machines authentication, resources discovery, applications registration, containers management, synchronous and asynchronous communications, access rights authorization, groups organisation, re-targeting, etc.
-This API operates on the following primary resource types:
-CseBase: describes the hosting CSE, and is the root for all other resources within the hosting CSE.
-remoteCse: stores information related to M2M CSEs residing on other M2M machines after successful mutual authentication. It enables Cses interactions using retargeting operations
-AE: stores information about the Application Entity after a successful registration on the hosting CSE.
-Container: acts as a mediator for data buffering to enable data exchange between applications and CSEs
-AccessControlPolicies: manages permissions and permissions holders to limit and protect the access to the resource tree structure.
-Group: enhances resources tree operations and simplifying the interactions on the API interfaces by adding the grouping feature. It enables an issuer to send one request to a set of receivers instead of sending requests one by one.
-Subscription: stores information related to subscriptions for some resources. It allow subscribers to receive asynchronous notification when an event happens such as the reception of new sensor event or the creation, update, or delete of a resource.
-Prerequisites
-"JAVA 1.8" is required to run OM2M.
-"Apache Maven 3" is required to build OM2M.
-Getting started
-Clone and Build the project
-Config the node(s)
-Start the node(s)
-Web Interface
-REST API
-oneM2M demonstration using ESP8266 NodeMCU board and NodeJS application
-How to use oneM2M MQTT binding
-Going further - Advanced tutorials
-Develop oneM2M applications
-Develop an Interworking Proxy Plugin
-Develop an Interworking Proxy Application Entity (IPE) Plugin with SDT
-Resources to play with SDT and TS-0023 specification (Home Automation Information Mapping)
-Developing with FlexContainers
-Change database config.
-Integrate OSGi DAL devices into OM2M by using DAL IPE Plugin
-Project Roadmap
-The OM2M roadmap is available here
-Roadmap
-Interesting links
-Talks:
-OM2M talk at EclipseCon San Francisco 2014
-(PDF) OM2M presentation at Eclipse IoT Days Grenoble 2016
-(Video) OM2M at Eclipse IoT Days Grenoble 2016
-Papers:
-OM2M: Extensible ETSI-compliant M2M Service Platform with Self-configuration Capability
-Specifications:
-OneM2M standard specifications
-Public Documentation
-Public documentation
-contains all Presentation slides, Videos, Scientific Publications, etc. related to the OM2M project.
-OM2M Team
-The OM2M project leads and contributors list is available
-here
-.
-Retrieved from "
-https://wiki.eclipse.org/index.php?title=OM2M/one&oldid=426025
-"
-This page was last modified 05:58, 16 June 2018 by
-Mahdi Ben Alaya
-. Based on work by
-Sebastien Bolle
-,
-Seven Gan
-and
-François Aïssaoui
-and
-others
-.
-Back to the top
 Eclipse Foundation
 About Us
 Contact Us
