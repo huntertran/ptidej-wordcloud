@@ -11,7 +11,7 @@ class GenericSpider(scrapy.Spider):
 
     def start_requests(self):
         siteUrl = getattr(self, 'siteUrl', None)
-        crawlDepthLevel = getattr(self, 'crawlDepthLevel', 0)
+        crawlDepthLevel = int(getattr(self, 'crawlDepthLevel', 0))
 
         request = scrapy.Request(siteUrl, callback=self.parseRootUrl)
         request.cb_kwargs['root'] = self.extractBaseUrl(siteUrl)
@@ -41,9 +41,9 @@ class GenericSpider(scrapy.Spider):
         for url in urls:
             if url.startswith('#') == False:
                 urlToScrap = self.buildUrl(root, url)
-                if root in urlToScrap:
-                    # if root in urlToScrap and project_name in urlToScrap.lower():
-                    # if project_name in urlToScrap.lower():
+                # if root in urlToScrap:
+                # if root in urlToScrap and project_name in urlToScrap.lower():
+                if project_name in urlToScrap.lower():
                     request = self.buildRequest(
                         root,
                         projectRoot,
@@ -53,6 +53,8 @@ class GenericSpider(scrapy.Spider):
                         project_name)
 
                     yield request
+                else:
+                    test = ""
 
         for item in self.parseUrl(response, projectRoot):
             yield item
