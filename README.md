@@ -3,6 +3,8 @@ Wordcloud generator for Eclipse IOT projects
 
 Best to finish in April, 2020
 
+Keyword for research: Latent Semantic Indexing - WordNet
+
 Using scrapy, `nltk` library for automatically generate wordcloud for projects listed in eclipse iot site
 
 <!-- TOC -->
