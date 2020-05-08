@@ -6,12 +6,14 @@
         "ROBOTSTXT",
         "chdir",
         "cmdline",
+        "eclips",
         "iloc",
         "imshow",
         "isna",
         "matplotlib",
         "nltk",
         "numpy",
+        "punkt",
         "pyplot",
         "tablefmt"
     ]
