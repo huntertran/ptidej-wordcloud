@@ -101,12 +101,15 @@ def create_link():
 
                         sorted_row_col = sort_num(col, row)
                         stringToAppend = ""
-                        if pandas.isna(dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]]):
-                            dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]] = ''
+                        if pandas.isna(dataFrame.iloc[sorted_row_col[0], sorted_row_col[1]]):
+                            dataFrame.iloc[sorted_row_col[0],
+                                           sorted_row_col[1]] = ''
                             stringToAppend = sentence
                         else:
-                            stringToAppend = dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]] + '\n' + sentence
+                            stringToAppend = dataFrame.iloc[sorted_row_col[0],
+                                                            sorted_row_col[1]] + '\n' + sentence
 
-                        dataFrame.iloc[sorted_row_col[0],sorted_row_col[1]] = stringToAppend
+                        dataFrame.iloc[sorted_row_col[0],
+                                       sorted_row_col[1]] = stringToAppend
 
     dataFrame.to_csv('./data/nlp/connections.csv')

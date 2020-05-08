@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class Site(object):
     def __init__(self, IsCrawled=None, CrawlDepthLevel=None, IsWordcloudGenerated=None, SiteUrl=None):
         self.IsCrawled = IsCrawled
@@ -7,10 +8,10 @@ class Site(object):
         self.IsWordcloudGenerated = IsWordcloudGenerated
         self.SiteUrl = SiteUrl
 
-    def decode_Site(dict):
+    def decode_Site(self, dict):
         return Site(dict['IsCrawled'], dict['CrawlDepthLevel'], dict['IsWordcloudGenerated'], dict['SiteUrl'])
 
-    def encode_Site(siteObject):
+    def encode_Site(self, siteObject):
         return {
             'IsCrawled': siteObject.IsCrawled,
             'CrawlDepthLevel': siteObject.CrawlDepthLevel,
@@ -25,14 +26,14 @@ class StemmedWord(object):
         self.Text = Text
         self._count = 0
         self.addUnStemmed(UnStemmedWord)
-    
+
     def count(self):
         if self._count == 0:
             for unStemmed in self.UnStemmed:
                 self._count += self.UnStemmed[unStemmed]
 
         return self._count
-    
+
     def getMostCommonUnStemmed(self):
         return max(self.UnStemmed)
 

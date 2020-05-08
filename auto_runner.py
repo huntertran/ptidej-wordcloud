@@ -11,6 +11,7 @@ settings = get_project_settings()
 configure_logging(settings=settings)
 runner = CrawlerRunner(settings)
 
+
 @defer.inlineCallbacks
 def crawl():
 
@@ -40,6 +41,7 @@ def crawl():
         yield runner.crawl(crawler, siteUrl="http://www.msftconnecttest.com/connecttest.txt", crawlDepthLevel=0)
         reactor.stop()
 
+
 def nlp():
     filePath = './data/sitelist.json'
 
@@ -56,7 +58,6 @@ def nlp():
 
     with open(filePath, 'w') as dataFile:
         json.dump(siteDataList, dataFile, default=Site.encode_Site, indent=4)
-
 
 
 crawl()

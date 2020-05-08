@@ -70,6 +70,14 @@ def insertStemmedKeywordWithUnStemmedCount(newStemmed, newUnStemmed, stemmedWord
         stemmedWordList.append(StemmedWord(newStemmed, newUnStemmed))
 
 
+def isInStopwords(stemmedWord, originalWord, stopwords):
+    return (stemmedWord not in stopwords
+            and originalWord.lower() not in stopwords
+            and stemmedWord != ''
+            and '//' not in stemmedWord
+            and not isMatchSpecialString(stemmedWord))
+
+
 def removeStopwords(projectName, stopwords):
     dataLines = loadRawDataFile(projectName)
     keywords = []
@@ -83,7 +91,7 @@ def removeStopwords(projectName, stopwords):
             # words[index] = SnowballStemmer('english').stem(word)
             words[index] = PorterStemmer().stem(word)
             # check for stop words
-            if words[index] not in stopwords and word.lower() not in stopwords and words[index] != '' and '//' not in words[index] and not isMatchSpecialString(words[index]):
+            if isInStopwords(words[index], word, stopwords):
                 if words[index] in programmingLanguages:
                     programmingLanguageKeywords.append(words[index])
                 else:
