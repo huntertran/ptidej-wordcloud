@@ -147,7 +147,7 @@ def generateImageFile(projectName, mostCommonKeywords):
 def process(siteUrl):
     print('NLP Proccessing for ', siteUrl)
     projectName = ProjectHelper.getProjectName(siteUrl)
-    stopwords = nlp_helper.combineStopwords()
+    stopwords = combineStopwords()
     keywordsTuple = removeStopwords(projectName, stopwords)
 
     # keywords
