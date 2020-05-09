@@ -7,6 +7,8 @@ from model.Site import Site
 from nlp.Linker import create_link
 import json
 
+from topic_modeling.topic_modeling_analyzer import start_topic_modeling
+
 settings = get_project_settings()
 configure_logging(settings=settings)
 runner = CrawlerRunner(settings)
@@ -60,7 +62,8 @@ def nlp():
         json.dump(siteDataList, dataFile, default=Site.encode_Site, indent=4)
 
 
-crawl()
-reactor.run()
-nlp()
-create_link()
+# crawl()
+# reactor.run()
+# nlp()
+# create_link()
+start_topic_modeling("paho")

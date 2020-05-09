@@ -11,18 +11,12 @@ import collections
 from nltk.stem import WordNetLemmatizer
 from nlp.ResultGenerator import ResultGenerator
 from helpers.ProjectHelper import ProjectHelper
+from helpers.nlp_helper import combineStopwords
 from model.Site import StemmedWord
 
 dataPath = './data/scrapy/'
 defaultEncoding = 'utf-8'
 resultedDataPath = './data/nlp/result/'
-
-
-def loadRawDataFile(projectName):
-    with open(dataPath + projectName + '.txt',
-              'r',
-              encoding=defaultEncoding) as dataFile:
-        return dataFile.readlines()
 
 
 def getProgrammingLanguageList():
@@ -36,17 +30,17 @@ def getProgrammingLanguageList():
     return programmingLanguages
 
 
-def combineStopwords(projectName):
-    customizedStopwords = []
-    with open('./data/nlp/customized_stopwords.txt',
-              'r',
-              encoding=defaultEncoding) as customizedStopwordsFile:
-        customizedStopwords = customizedStopwordsFile.readlines()
-        for index, word in enumerate(customizedStopwords):
-            customizedStopwords[index] = word.strip('\r').strip('\n')
-    combinedStopwords = stopwords.words('english')
-    combinedStopwords.extend(customizedStopwords)
-    return combinedStopwords
+# def combineStopwords(projectName):
+#     customizedStopwords = []
+#     with open('./data/nlp/customized_stopwords.txt',
+#               'r',
+#               encoding=defaultEncoding) as customizedStopwordsFile:
+#         customizedStopwords = customizedStopwordsFile.readlines()
+#         for index, word in enumerate(customizedStopwords):
+#             customizedStopwords[index] = word.strip('\r').strip('\n')
+#     combinedStopwords = stopwords.words('english')
+#     combinedStopwords.extend(customizedStopwords)
+#     return combinedStopwords
 
 
 def isMatchSpecialString(word):
@@ -79,17 +73,19 @@ def isInStopwords(stemmedWord, originalWord, stopwords):
 
 
 def removeStopwords(projectName, stopwords):
-    dataLines = loadRawDataFile(projectName)
+    dataLines = ProjectHelper.load_raw_data_file(projectName)
     keywords = []
     stemmedKeywords = []
     programmingLanguageKeywords = []
     programmingLanguages = getProgrammingLanguageList()
 
+    stemmer = PorterStemmer()
+
     for line in dataLines:
         words = word_tokenize(line)
         for index, word in enumerate(words):
             # words[index] = SnowballStemmer('english').stem(word)
-            words[index] = PorterStemmer().stem(word)
+            words[index] = stemmer.stem(word)
             # check for stop words
             if isInStopwords(words[index], word, stopwords):
                 if words[index] in programmingLanguages:
@@ -151,7 +147,7 @@ def generateImageFile(projectName, mostCommonKeywords):
 def process(siteUrl):
     print('NLP Proccessing for ', siteUrl)
     projectName = ProjectHelper.getProjectName(siteUrl)
-    stopwords = combineStopwords(projectName)
+    stopwords = nlp_helper.combineStopwords()
     keywordsTuple = removeStopwords(projectName, stopwords)
 
     # keywords

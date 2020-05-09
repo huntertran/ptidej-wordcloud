@@ -11,11 +11,6 @@ defaultEncoding = 'utf-8'
 resultedDataPath = './data/nlp/result/'
 
 
-def loadRawDataFile(projectName):
-    with open(dataPath + projectName + '.txt', 'r', encoding=defaultEncoding) as dataFile:
-        return dataFile.readlines()
-
-
 def print_graph(relationships, siteNodes):
     projectKeys = []
     for node in siteNodes:
@@ -85,7 +80,7 @@ def create_link():
         projectName = ProjectHelper.getProjectName(site.SiteUrl)
         siteKey = getSiteKey(site.SiteUrl)
 
-        textLines = loadRawDataFile(projectName)
+        textLines = ProjectHelper.load_raw_data_file(projectName)
 
         for textLine in textLines:
             sentences = sent_tokenize(textLine)
