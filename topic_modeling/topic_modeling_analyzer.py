@@ -1,9 +1,10 @@
 import os.path
 from gensim import corpora
 from gensim.models import LsiModel
-from nltk.tokenize import RegexpTokenizer, word_tokenize
+from nltk.tokenize import RegexpTokenizer, word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+import nltk
 from gensim.models.coherencemodel import CoherenceModel
 import matplotlib.pyplot as plt
 
@@ -12,23 +13,12 @@ from helpers.ProjectHelper import ProjectHelper
 
 
 def preprocess_data(paragraphs):
-    stopwords = combineStopwords()
-    stemmer = PorterStemmer()
-
-    texts = []
-
+    pos_tags = []
     for paragraph in paragraphs:
-        # clean and tokenize document string
-        raw = paragraph.lower()
-        words = word_tokenize(paragraph)
-        # remove stopwords
-        stopped_tokens = [i for i in words if not i in stopwords]
-        # stem tokens
-        stemmed_tokens = [stemmer.stem(i) for i in stopped_tokens]
-
-        texts.append(stemmed_tokens)
-    
-    return texts
+        sentences = sent_tokenize(paragraph)
+        sentences = [word_tokenize(sent) for sent in sentences]
+        sentences = [nltk.pos_tag(sent) for sent in sentences]
+        print(sentences)
 
 
 def start_topic_modeling(project_name):
