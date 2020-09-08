@@ -11,7 +11,7 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
 
 - [1. Steps](#1-steps)
 - [2. Install package](#2-install-package)
-- [3. Run the project:](#3-run-the-project)
+- [3. Run the project](#3-run-the-project)
 - [4. Debug](#4-debug)
 
 <!-- /TOC -->
@@ -79,7 +79,7 @@ Using python on Windows machine require Microsoft Visual C++ Build Tools.
 
 [Here](https://www.nltk.org/data.html) is more about downloading nltk data
 
-# 3. Run the project:
+# 3. Run the project
 <a id="markdown-run-the-project" name="run-the-project"></a>
 
 ```bash
