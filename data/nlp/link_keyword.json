@@ -2,7 +2,7 @@
     {
       "id": 1,
       "description": "Message Queuing Telemetry Transport",
-      "key": [
+      "keys": [
         "MQTT",
         "ZMQ",
         "RabbitMQ"
@@ -11,63 +11,63 @@
     {
       "id": 2,
       "description": "Open Platform Communication Unified Architecture",
-      "key": [
+      "keys": [
         "OPC UA"
       ]
     },
     {
       "id": 3,
       "description": "Datagram Transport Layer Security",
-      "key": [
+      "keys": [
         "DTLS"
       ]
     },
     {
       "id": 4,
       "description": "Production Performance Management Protocol",
-      "key": [
+      "keys": [
         "PPMP"
       ]
     },
     {
       "id": 5,
       "description": "Attribute-based access control",
-      "key": [
+      "keys": [
         "ABAC"
       ]
     },
     {
       "id": 6,
       "description": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-      "key": [
+      "keys": [
         "APPSTACLE"
       ]
     },
     {
       "id": 7,
       "description": "Automotive Grade Linux",
-      "key": [
+      "keys": [
         "AGL"
       ]
     },
     {
       "id": 8,
       "description": "Data Distribution Service",
-      "key": [
+      "keys": [
         "DDS"
       ]
     },
     {
       "id": 9,
       "description": "Web of Thing",
-      "key": [
+      "keys": [
         "WoT"
       ]
     },
     {
       "id": 10,
       "description": "the standard for contactless tickets and cards",
-      "key": [
+      "keys": [
         "Calypso"
       ]
     }

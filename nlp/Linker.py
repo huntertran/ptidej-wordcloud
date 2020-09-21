@@ -1,12 +1,15 @@
 # find text link between projects
 
 import json
+import pandas
+
 from model.Site import Site
 from model.SiteNode import SiteNode
+from model.LinkKeyword import LinkKeyword
 from helpers.ProjectHelper import ProjectHelper
+
 from tabulate import tabulate
 from nltk.tokenize import sent_tokenize
-import pandas
 
 dataPath = './data/scrapy/'
 defaultEncoding = 'utf-8'
@@ -36,6 +39,13 @@ def getSiteKey(siteUrl):
     return siteName
 
 
+def get_link_keyword():
+    with open('./data/nlp/link_keyword.json', 'r') as data:
+        link_keyword = json.load(
+            data, object_hook=LinkKeyword.decode_LinkKeyword)
+    return link_keyword
+
+
 def sort_num(first, second):
     if(first > second):
         return second, first
@@ -43,16 +53,59 @@ def sort_num(first, second):
         return first, second
 
 
+def analyze_site(site, dataFrame,projectNodes):
+    # # TODO: REMOVE AFTER DEBUG
+    # if(index > 5):
+    #     break
+    # else:
+    #     index += 1
+
+    projectName = ProjectHelper.getProjectName(site.SiteUrl)
+    siteKey = getSiteKey(site.SiteUrl)
+
+    textLines = ProjectHelper.load_raw_data_file(projectName)
+
+    for textLine in textLines:
+        sentences = sent_tokenize(textLine)
+
+        for sentence in sentences:
+
+            for node in projectNodes:
+                if(node == siteKey):
+                    continue
+
+                if node in sentence:
+                    row = projectNodes[node]
+                    col = projectNodes.get(siteKey)
+
+                    sorted_row_col = sort_num(col, row)
+                    stringToAppend = ""
+                    if pandas.isna(dataFrame.iloc[sorted_row_col[0], sorted_row_col[1]]):
+                        dataFrame.iloc[sorted_row_col[0],
+                                       sorted_row_col[1]] = ''
+                        stringToAppend = sentence
+                    else:
+                        stringToAppend = dataFrame.iloc[sorted_row_col[0],
+                                                        sorted_row_col[1]] + '\n' + sentence
+
+                    dataFrame.iloc[sorted_row_col[0],
+                                   sorted_row_col[1]] = stringToAppend
+
+
 def create_link():
     projectNodes = {}
     relationships = []
     projectNames = []
+    link_keyword = []
 
     filePath = './data/sitelist.json'
 
     with open(filePath, 'r') as dataFile:
         siteDataList = json.load(dataFile, object_hook=Site.decode_Site)
 
+    link_keyword = get_link_keyword()
+
+    # create barebone connected graph
     index = 0
     for site in siteDataList:
         siteKey = getSiteKey(site.SiteUrl)
@@ -72,41 +125,6 @@ def create_link():
     dataFrame = pandas.DataFrame(columns=projectNames, index=projectNames)
 
     for site in siteDataList:
-
-        # # TODO: REMOVE AFTER DEBUG
-        # if(index > 5):
-        #     break
-        # else:
-        #     index += 1
-
-        projectName = ProjectHelper.getProjectName(site.SiteUrl)
-        siteKey = getSiteKey(site.SiteUrl)
-
-        textLines = ProjectHelper.load_raw_data_file(projectName)
-
-        for textLine in textLines:
-            sentences = sent_tokenize(textLine)
-
-            for sentence in sentences:
-                for node in projectNodes:
-                    if(node == siteKey):
-                        continue
-
-                    if node in sentence:
-                        row = projectNodes[node]
-                        col = projectNodes.get(siteKey)
-
-                        sorted_row_col = sort_num(col, row)
-                        stringToAppend = ""
-                        if pandas.isna(dataFrame.iloc[sorted_row_col[0], sorted_row_col[1]]):
-                            dataFrame.iloc[sorted_row_col[0],
-                                           sorted_row_col[1]] = ''
-                            stringToAppend = sentence
-                        else:
-                            stringToAppend = dataFrame.iloc[sorted_row_col[0],
-                                                            sorted_row_col[1]] + '\n' + sentence
-
-                        dataFrame.iloc[sorted_row_col[0],
-                                       sorted_row_col[1]] = stringToAppend
+        analyze_site(site, dataFrame, projectNodes)
 
     dataFrame.to_csv('./data/nlp/connections.csv')
