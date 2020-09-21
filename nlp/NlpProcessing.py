@@ -1,3 +1,6 @@
+# Process crawled text to extract most popular words to generate word cloud
+
+
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem import SnowballStemmer

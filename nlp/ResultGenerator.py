@@ -1,3 +1,5 @@
+# generate word-cloud image
+
 import numpy as np
 from PIL import Image, ImageFont, ImageDraw
 import matplotlib.pyplot as plt
