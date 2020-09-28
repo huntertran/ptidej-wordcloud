@@ -51,6 +51,7 @@ After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawle
 [sudo] python3 -m pip install Wordcloud
 [sudo] python3 -m pip install tabulate
 [sudo] python3 -m pip install pandas
+[sudo] python3 -m pip install --upgrade gensim
 ```
 
 Install Natural Language Processing toolkit (nltk)

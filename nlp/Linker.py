@@ -5,7 +5,7 @@ import pandas
 
 from model.Site import Site
 from model.SiteNode import SiteNode
-from model.LinkKeyword import LinkKeyword, LinkProject
+from model.LinkKeyword import LinkKeyword, LinkKeywordEncoder, LinkProject
 from helpers.ProjectHelper import ProjectHelper
 
 from tabulate import tabulate
@@ -53,7 +53,7 @@ def sort_num(first, second):
         return first, second
 
 
-def analyze_site(site, dataFrame, projectNodes, link_keywords):
+def analyze_site(site, link_keywords):
     # # TODO: REMOVE AFTER DEBUG
     # if(index > 5):
     #     break
@@ -63,20 +63,28 @@ def analyze_site(site, dataFrame, projectNodes, link_keywords):
     projectName = ProjectHelper.getProjectName(site.SiteUrl)
     siteKey = getSiteKey(site.SiteUrl)
 
-    
-
     textLines = ProjectHelper.load_raw_data_file(projectName)
 
     for textLine in textLines:
         sentences = sent_tokenize(textLine)
 
-        for sentence in sentences:
-            for link_keyword in link_keywords:
-                link_project = LinkProject(siteKey)
-                for key in link_keyword.keys:
+        for link_keyword in link_keywords:
+            link_project = LinkProject(siteKey)
+            for key in link_keyword.Keys:
+                for sentence in sentences:
                     if key in sentence:
                         link_project.add_sentence(sentence)
-                link_keyword.add_link_project(link_project)
+                if link_project.Sentences is not None and len(link_project.Sentences) > 0:
+                    link_keyword.add_link_project(link_project)
+
+        # for sentence in sentences:
+        #     for link_keyword in link_keywords:
+        #         link_project = LinkProject(siteKey)
+        #         for key in link_keyword.Keys:
+        #             if key in sentence:
+        #                 link_project.add_sentence(sentence)
+        #         if link_project.Sentences is not None and len(link_project.Sentences) > 0:
+        #             link_keyword.add_link_project(link_project)
 
             # for node in projectNodes:
             #     if(node == siteKey):
@@ -128,11 +136,8 @@ def create_link():
 
     print("End creating connected graph")
 
-    # analyze
-    index = 0
-    dataFrame = pandas.DataFrame(columns=projectNames, index=projectNames)
-
     for site in siteDataList:
-        analyze_site(site, dataFrame, projectNodes, link_keywords)
+        analyze_site(site, link_keywords)
 
-    dataFrame.to_csv('./data/nlp/connections.csv')
+    with open('./data/linked.json', 'w') as dataFile:
+        json.dump(link_keywords, dataFile, cls=LinkKeywordEncoder, indent=4)

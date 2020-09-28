@@ -65,5 +65,5 @@ def nlp():
 # crawl()
 # reactor.run()
 # nlp()
-# create_link()
-start_topic_modeling("paho")
+create_link()
+# start_topic_modeling("paho")
