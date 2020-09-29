@@ -74,38 +74,8 @@ def analyze_site(site, link_keywords):
                 for sentence in sentences:
                     if key in sentence:
                         link_project.add_sentence(sentence)
-                if link_project.Sentences is not None and len(link_project.Sentences) > 0:
-                    link_keyword.add_link_project(link_project)
-
-        # for sentence in sentences:
-        #     for link_keyword in link_keywords:
-        #         link_project = LinkProject(siteKey)
-        #         for key in link_keyword.Keys:
-        #             if key in sentence:
-        #                 link_project.add_sentence(sentence)
-        #         if link_project.Sentences is not None and len(link_project.Sentences) > 0:
-        #             link_keyword.add_link_project(link_project)
-
-            # for node in projectNodes:
-            #     if(node == siteKey):
-            #         continue
-
-            #     if node in sentence:
-            #         row = projectNodes[node]
-            #         col = projectNodes.get(siteKey)
-
-            #         sorted_row_col = sort_num(col, row)
-            #         stringToAppend = ""
-            #         if pandas.isna(dataFrame.iloc[sorted_row_col[0], sorted_row_col[1]]):
-            #             dataFrame.iloc[sorted_row_col[0],
-            #                            sorted_row_col[1]] = ''
-            #             stringToAppend = sentence
-            #         else:
-            #             stringToAppend = dataFrame.iloc[sorted_row_col[0],
-            #                                             sorted_row_col[1]] + '\n' + sentence
-
-            #         dataFrame.iloc[sorted_row_col[0],
-            #                        sorted_row_col[1]] = stringToAppend
+            if link_project.Sentences is not None and len(link_project.Sentences) > 0:
+                link_keyword.add_link_project(link_project)
 
 
 def create_link():

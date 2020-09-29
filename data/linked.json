@@ -17,30 +17,6 @@
             {
                 "Project": "paho",
                 "Sentences": [
-                    "Eclipse Paho - MQTT and MQTT-SN software"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "Eclipse Paho - MQTT and MQTT-SN software"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
                     "MQTT"
                 ]
             },
@@ -53,43 +29,7 @@
             {
                 "Project": "paho",
                 "Sentences": [
-                    "MQTT Spy"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT Spy"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
                     "MQTT-SN"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT-SN"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT-SN"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "The Eclipse Paho project provides open-source client implementations of MQTT and MQTT-SN messaging protocols aimed at new, existing, and emerging applications for the Internet of Things (IoT)."
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "The Eclipse Paho project provides open-source client implementations of MQTT and MQTT-SN messaging protocols aimed at new, existing, and emerging applications for the Internet of Things (IoT)."
                 ]
             },
             {
@@ -108,45 +48,7 @@
             {
                 "Project": "paho",
                 "Sentences": [
-                    "Under the Paho banner, open source client libraries for MQTT are being curated and developed; there are already MQTT C and Java libraries with Lua, Python, C++ and JavaScript at various stages of development.",
-                    "In this article we'll be showing how to use the Paho Java MQTT libraries to publish and subscribe."
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "Under the Paho banner, open source client libraries for MQTT are being curated and developed; there are already MQTT C and Java libraries with Lua, Python, C++ and JavaScript at various stages of development.",
-                    "In this article we'll be showing how to use the Paho Java MQTT libraries to publish and subscribe."
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
                     "Practical MQTT with Paho \u00bb"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "Practical MQTT with Paho \u00bb"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "Practical MQTT with Paho \u00bb"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "In this article we\u2019ll show how MQTT and the Eclipse Paho project can let you answer that challenge."
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "In this article we\u2019ll show how MQTT and the Eclipse Paho project can let you answer that challenge."
                 ]
             },
             {
@@ -164,43 +66,7 @@
             {
                 "Project": "paho",
                 "Sentences": [
-                    "Talking Small: Using Eclipse Paho's MQTT on BeagleBone Black and Raspberry Pi \u00bb"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "Talking Small: Using Eclipse Paho's MQTT on BeagleBone Black and Raspberry Pi \u00bb"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
                     "MQTT is a light-weight publish/subscribe messaging protocol, originally created by IBM and Arcom (later to become part of Eurotech) around 1998."
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT is a light-weight publish/subscribe messaging protocol, originally created by IBM and Arcom (later to become part of Eurotech) around 1998."
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT is a light-weight publish/subscribe messaging protocol, originally created by IBM and Arcom (later to become part of Eurotech) around 1998."
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT 3.1.1 specification"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT 3.1.1 specification"
                 ]
             },
             {
@@ -218,45 +84,7 @@
             {
                 "Project": "paho",
                 "Sentences": [
-                    "As of 2016, MQTT is now an ISO standard"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "As of 2016, MQTT is now an ISO standard"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
                     "MQTT.org community site"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT.org community site"
-                ]
-            },
-            {
-                "Project": "paho",
-                "Sentences": [
-                    "MQTT.org community site"
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "Eclipse Mosquitto provides a lightweight server implementation of the MQTT protocol that is suitable for all situations from full power machines to embedded and low power machines.",
-                    "Sensors and actuators, which are often the sources and destinations of MQTT messages, can be very small and lacking in power."
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "Eclipse Mosquitto provides a lightweight server implementation of the MQTT protocol that is suitable for all situations from full power machines to embedded and low power machines.",
-                    "Sensors and actuators, which are often the sources and destinations of MQTT messages, can be very small and lacking in power."
                 ]
             },
             {
@@ -276,45 +104,7 @@
             {
                 "Project": "mosquitto",
                 "Sentences": [
-                    "As well as accepting connections from MQTT client applications, Mosquitto has a bridge which allows it to connect to other MQTT servers, including other Mosquitto instances.",
-                    "This allows networks of MQTT servers to be constructed, passing MQTT messages from any location in the network to any other, depending on the configuration of the bridges."
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "As well as accepting connections from MQTT client applications, Mosquitto has a bridge which allows it to connect to other MQTT servers, including other Mosquitto instances.",
-                    "This allows networks of MQTT servers to be constructed, passing MQTT messages from any location in the network to any other, depending on the configuration of the bridges."
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
                     "MQTT protocol discussion Google Group"
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "MQTT protocol discussion Google Group"
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "MQTT protocol discussion Google Group"
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "MQTT Community"
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "MQTT Community"
                 ]
             },
             {
@@ -330,45 +120,9 @@
                 ]
             },
             {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "OASIS MQTT Technical Committee"
-                ]
-            },
-            {
-                "Project": "mosquitto",
-                "Sentences": [
-                    "OASIS MQTT Technical Committee"
-                ]
-            },
-            {
                 "Project": "californium",
                 "Sentences": [
                     "Together with MQTT, CoAP is one of the popular IoT protocols."
-                ]
-            },
-            {
-                "Project": "californium",
-                "Sentences": [
-                    "Together with MQTT, CoAP is one of the popular IoT protocols."
-                ]
-            },
-            {
-                "Project": "californium",
-                "Sentences": [
-                    "Together with MQTT, CoAP is one of the popular IoT protocols."
-                ]
-            },
-            {
-                "Project": "kura",
-                "Sentences": [
-                    "It features ready-to-use field protocols (including Modbus, OPC-UA, S7), an application container, and a web-based visual data flow programming to acquire data from the field, process it at the edge, and publish it to leading IoT Cloud Platforms through MQTT connectivity."
-                ]
-            },
-            {
-                "Project": "kura",
-                "Sentences": [
-                    "It features ready-to-use field protocols (including Modbus, OPC-UA, S7), an application container, and a web-based visual data flow programming to acquire data from the field, process it at the edge, and publish it to leading IoT Cloud Platforms through MQTT connectivity."
                 ]
             },
             {
@@ -386,43 +140,7 @@
             {
                 "Project": "om2m",
                 "Sentences": [
-                    "Forwarding Request MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Forwarding Request MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
                     "[REQUEST] Official Release with MQTT binding feature pre-built"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "[REQUEST] Official Release with MQTT binding feature pre-built"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "[REQUEST] Official Release with MQTT binding feature pre-built"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "[Missing] MQTT binding enabled official release package in OM2M website"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "[Missing] MQTT binding enabled official release package in OM2M website"
                 ]
             },
             {
@@ -440,43 +158,7 @@
             {
                 "Project": "om2m",
                 "Sentences": [
-                    "MQTT: Error in creating container/content instance on MN-CSE/IN-CSE"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "MQTT: Error in creating container/content instance on MN-CSE/IN-CSE"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
                     "OM2M MQTT-TLS"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "OM2M MQTT-TLS"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "OM2M MQTT-TLS"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Security over MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Security over MQTT"
                 ]
             },
             {
@@ -500,42 +182,6 @@
             {
                 "Project": "om2m",
                 "Sentences": [
-                    "Posting data object with MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Posting data object with MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Posting data object with MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Posting data object with MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "OM2M MQTT Response Parameters"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "OM2M MQTT Response Parameters"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
                     "OM2M MQTT Response Parameters"
                 ]
             },
@@ -543,30 +189,6 @@
                 "Project": "om2m",
                 "Sentences": [
                     "Create AE via MQTT Binding"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Create AE via MQTT Binding"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Create AE via MQTT Binding"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "MQTT Binding"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "MQTT Binding"
                 ]
             },
             {
@@ -590,55 +212,7 @@
             {
                 "Project": "om2m",
                 "Sentences": [
-                    "Test MQTT blinding in OM2M"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Test MQTT blinding in OM2M"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Test MQTT blinding in OM2M"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Test MQTT blinding in OM2M"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
                     "MQTT?"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "MQTT?"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "MQTT?"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Notification over MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Notification over MQTT"
                 ]
             },
             {
@@ -656,43 +230,7 @@
             {
                 "Project": "om2m",
                 "Sentences": [
-                    "Problem when sending a notification over MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Problem when sending a notification over MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
                     "MQTT Server Authorization (request/response topic)"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "MQTT Server Authorization (request/response topic)"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "MQTT Server Authorization (request/response topic)"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Create OneM2M subscription resource with MQTT"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "Create OneM2M subscription resource with MQTT"
                 ]
             },
             {
@@ -708,54 +246,12 @@
                 ]
             },
             {
-                "Project": "om2m",
-                "Sentences": [
-                    "(XML or JSON) Serialization of the request and response primitives in MQTT protocol"
-                ]
-            },
-            {
-                "Project": "om2m",
-                "Sentences": [
-                    "(XML or JSON) Serialization of the request and response primitives in MQTT protocol"
-                ]
-            },
-            {
                 "Project": "ponte",
                 "Sentences": [
                     "Ponte allows you to publish and receive the data using any protocol: HTTP, MQTT and CoAP.",
                     "You can mix and match: submit with CoAP and subscribe via MQTT.",
                     "Thanks to MQTT subscribes and CoAP observe, your devices can get updated in real-time.",
                     "Thanks to MQTT-over-Websockets, your users can too!"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "Ponte allows you to publish and receive the data using any protocol: HTTP, MQTT and CoAP.",
-                    "You can mix and match: submit with CoAP and subscribe via MQTT.",
-                    "Thanks to MQTT subscribes and CoAP observe, your devices can get updated in real-time.",
-                    "Thanks to MQTT-over-Websockets, your users can too!"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "Ponte allows you to publish and receive the data using any protocol: HTTP, MQTT and CoAP.",
-                    "You can mix and match: submit with CoAP and subscribe via MQTT.",
-                    "Thanks to MQTT subscribes and CoAP observe, your devices can get updated in real-time.",
-                    "Thanks to MQTT-over-Websockets, your users can too!"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "Ponte bridges three different application protocols: HTTP, MQTT and CoAP."
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "Ponte bridges three different application protocols: HTTP, MQTT and CoAP."
                 ]
             },
             {
@@ -779,30 +275,6 @@
             {
                 "Project": "ponte",
                 "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "MQTT API"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "MQTT API"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
                     "MQTT API"
                 ]
             },
@@ -810,30 +282,6 @@
                 "Project": "ponte",
                 "Sentences": [
                     "MQTT"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "which implements most of the MQTT 3.1 spec."
-                ]
-            },
-            {
-                "Project": "ponte",
-                "Sentences": [
-                    "which implements most of the MQTT 3.1 spec."
                 ]
             },
             {
@@ -851,43 +299,7 @@
             {
                 "Project": "4diac",
                 "Sentences": [
-                    "MQTT Implementation in 4diac"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "MQTT Implementation in 4diac"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
                     "MQTT"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "MQTT"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "Installing and Configuring MQTT in 4diac"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "Installing and Configuring MQTT in 4diac"
                 ]
             },
             {
@@ -905,43 +317,7 @@
             {
                 "Project": "4diac",
                 "Sentences": [
-                    "ID data format and SD/RDs config for MQTT communication"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "ID data format and SD/RDs config for MQTT communication"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
                     "some suggestions for improving MQTT layer"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "some suggestions for improving MQTT layer"
-                ]
-            },
-            {
-                "Project": "4diac",
-                "Sentences": [
-                    "some suggestions for improving MQTT layer"
-                ]
-            },
-            {
-                "Project": "hono",
-                "Sentences": [
-                    "Hono supports devices communicating via common IoT protocols like HTTP, MQTT and AMQP out of the box."
-                ]
-            },
-            {
-                "Project": "hono",
-                "Sentences": [
-                    "Hono supports devices communicating via common IoT protocols like HTTP, MQTT and AMQP out of the box."
                 ]
             },
             {
@@ -954,30 +330,6 @@
                 "Project": "kapua",
                 "Sentences": [
                     "Connect IoT devices to Kapua via MQTT and other protocols."
-                ]
-            },
-            {
-                "Project": "kapua",
-                "Sentences": [
-                    "Connect IoT devices to Kapua via MQTT and other protocols."
-                ]
-            },
-            {
-                "Project": "kapua",
-                "Sentences": [
-                    "Connect IoT devices to Kapua via MQTT and other protocols."
-                ]
-            },
-            {
-                "Project": "unide",
-                "Sentences": [
-                    "We started to capture this information in a simple payload specification and just like in the introducing language example where you can use phrases via phone, letter or in person, the payload is meant to be sent over different protocols (REST, MQTT, AMQP)."
-                ]
-            },
-            {
-                "Project": "unide",
-                "Sentences": [
-                    "We started to capture this information in a simple payload specification and just like in the introducing language example where you can use phrases via phone, letter or in person, the payload is meant to be sent over different protocols (REST, MQTT, AMQP)."
                 ]
             },
             {
@@ -995,43 +347,7 @@
             {
                 "Project": "tahu",
                 "Sentences": [
-                    "It addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational environments."
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "It addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed definition of how best to apply MQTT into these existing industrial operational environments."
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
                     "Tahu is currently addressing the following features required for MQTT centric IIoT:"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "Tahu is currently addressing the following features required for MQTT centric IIoT:"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "Tahu is currently addressing the following features required for MQTT centric IIoT:"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "Well-defined MQTT Topic Namespace applicable for the IIoT market"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "Well-defined MQTT Topic Namespace applicable for the IIoT market"
                 ]
             },
             {
@@ -1050,32 +366,6 @@
             {
                 "Project": "tahu",
                 "Sentences": [
-                    "In order to be interoperable across the plethora of OEM device manufacturers of industrial equipment and the SCADA/HMI/Control/Cloud Services backend components that desired to subscribe to the resulting information a well-defined MQTT topic namespace needs to be defined.",
-                    "The topic namespace needs to provide both the contextual information all the way to an individual device in the field, but also provide topic \u201cverbs\u201d to efficiently manage the \u201clife cycle\u201d of an MQTT session."
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "In order to be interoperable across the plethora of OEM device manufacturers of industrial equipment and the SCADA/HMI/Control/Cloud Services backend components that desired to subscribe to the resulting information a well-defined MQTT topic namespace needs to be defined.",
-                    "The topic namespace needs to provide both the contextual information all the way to an individual device in the field, but also provide topic \u201cverbs\u201d to efficiently manage the \u201clife cycle\u201d of an MQTT session."
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "Efficient MQTT payload definition"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "Efficient MQTT payload definition"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
                     "Efficient MQTT payload definition"
                 ]
             },
@@ -1088,45 +378,7 @@
             {
                 "Project": "tahu",
                 "Sentences": [
-                    "Staying with the original intent of MQTT, the payload specification needs to stay \u201clean and mean\u201d to best utilize low bandwidth networks (VSAT, Radio, Cellular)."
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "Staying with the original intent of MQTT, the payload specification needs to stay \u201clean and mean\u201d to best utilize low bandwidth networks (VSAT, Radio, Cellular)."
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
                     "MQTT STATE Management definition"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "MQTT STATE Management definition"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "MQTT STATE Management definition"
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "MQTT has the awareness of the current MQTT session built in using the LWT feature.",
-                    "But for STATE aware OT applications like SCADA/DCS/FCS, there needs to be a succinct definition on how best to use MQTT\u2019s built in STATE awareness in an overall SCADA/DCS/ICS infrastructure."
-                ]
-            },
-            {
-                "Project": "tahu",
-                "Sentences": [
-                    "MQTT has the awareness of the current MQTT session built in using the LWT feature.",
-                    "But for STATE aware OT applications like SCADA/DCS/FCS, there needs to be a succinct definition on how best to use MQTT\u2019s built in STATE awareness in an overall SCADA/DCS/ICS infrastructure."
                 ]
             },
             {
