@@ -1,3 +1,4 @@
+import json
 from twisted.internet import reactor, defer
 from scrapy.utils.project import get_project_settings
 from scrapy.crawler import CrawlerRunner
@@ -5,9 +6,9 @@ from scrapy.utils.log import configure_logging
 from nlp.NlpProcessing import process
 from model.Site import Site
 from nlp.Linker import create_link
-import json
+from nlp.SentenceAnalyzer import start_analyze
+# from topic_modeling.topic_modeling_analyzer import start_topic_modeling
 
-from topic_modeling.topic_modeling_analyzer import start_topic_modeling
 
 settings = get_project_settings()
 configure_logging(settings=settings)
@@ -65,5 +66,5 @@ def nlp():
 # crawl()
 # reactor.run()
 # nlp()
-create_link()
-# start_topic_modeling("paho")
+# create_link()
+start_analyze()

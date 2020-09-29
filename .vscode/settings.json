@@ -18,6 +18,7 @@
         "matplotlib",
         "nltk",
         "numpy",
+        "ptidej",
         "punkt",
         "pyplot",
         "tablefmt"
