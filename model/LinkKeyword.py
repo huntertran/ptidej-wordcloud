@@ -1,6 +1,7 @@
 # model for linked keyword json object
 
 import json
+import numpy
 from json import JSONEncoder
 
 class LinkKeyword(object):
@@ -18,6 +19,7 @@ class LinkKeyword(object):
         for project in self.projects:
             if project.Project == link_project.Project:
                 project.Sentences = project.Sentences + link_project.Sentences
+                project.Sentences = numpy.unique(project.Sentences).tolist()
                 return
 
         self.projects.append(link_project)
