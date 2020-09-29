@@ -109,5 +109,5 @@ def create_link():
     for site in siteDataList:
         analyze_site(site, link_keywords)
 
-    with open('./data/linked.json', 'w') as dataFile:
-        json.dump(link_keywords, dataFile, cls=LinkKeywordEncoder, indent=4)
+    with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
+        json.dump(link_keywords, dataFile, cls=LinkKeywordEncoder, indent=4, ensure_ascii=False)

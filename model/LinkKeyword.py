@@ -4,6 +4,7 @@ import json
 import numpy
 from json import JSONEncoder
 
+
 class LinkKeyword(object):
     def __init__(self, Id=None, Description=None, Keys=None):
         self.Id = Id

@@ -112,9 +112,8 @@ mqtt.eclipse.org
 Get the latest Paho news from
 Twitter
 Back to the top
-JakartaOne Livestream 2020
-Don't miss the largest Jakarta EE event of 2020, join us on December 8.
-Register Now
+The Eclipse IDE 2020-09 is now available!
+Download Now
 Eclipse Foundation
 About Us
 Contact Us
@@ -149,9 +148,9 @@ Back to the top
 We've detected that JavaScript is disabled in your browser. Would you like to proceed to legacy Twitter?
 Yes
 Something went wrong, but don’t fret — let’s give it another shot.
-document.cookie = decodeURIComponent("gt=1310956278353670151; Max-Age=10800; Domain=.twitter.com; Path=/; Secure");
+document.cookie = decodeURIComponent("gt=1311024746943991814; Max-Age=10800; Domain=.twitter.com; Path=/; Secure");
 Practical MQTT with Paho
-var device='desktop'; var InfoQConstants = {}; InfoQConstants.language = 'en'; InfoQConstants.countryCode = ''; InfoQConstants.pageUrl = (typeof window.location != 'undefined' && window.location && typeof window.location.href != 'undefined' && window.location.href) ? window.location.href : "URL_UNAVAILABLE"; InfoQConstants.cet='s5XaLvr8ayeBlHLI'; InfoQConstants.userDetectedCountryCode = '';
+var device='desktop'; var InfoQConstants = {}; InfoQConstants.language = 'en'; InfoQConstants.countryCode = ''; InfoQConstants.pageUrl = (typeof window.location != 'undefined' && window.location && typeof window.location.href != 'undefined' && window.location.href) ? window.location.href : "URL_UNAVAILABLE"; InfoQConstants.cet='ai9pVsxUakxnG7Y8'; InfoQConstants.userDetectedCountryCode = '';
 InfoQConstants.pageType = 'ARTICLE_PAGE';
 var communityIds = "2497"; var topicIds = "2993,2992,2308,23,229,1,1306,2748,336,227,217,3579"; VCR.loadAllVcrs(communityIds, topicIds);
 BT
@@ -283,7 +282,7 @@ Reactive
 Microservices
 Containers
 Observability
-Mobile
+NoSQL
 QCon Plus: Virtual Conference by InfoQ
 InfoQ Homepage
 Articles
@@ -504,7 +503,7 @@ Adoption
 Style
 Author Contacted
 This content is in the
-Telemetry
+Web Development
 topic
 Related Topics:
 Development
