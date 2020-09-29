@@ -14,20 +14,27 @@ class LinkKeyword(object):
         return LinkKeyword(dict['id'], dict['description'], dict['keys'])
 
     def add_link_project(self, link_project):
+
+        for project in self.projects:
+            if project.Project == link_project.Project:
+                project.Sentences = project.Sentences + link_project.Sentences
+                return
+
         self.projects.append(link_project)
 
 
 class LinkProject(object):
-    def __init__(self, Project=None, Sentences=None):
+    def __init__(self, Project=None):
         self.Project = Project
-        self.Sentences = Sentences
+        self.Sentences = []
 
     def decode_LinkProject(dict):
         return LinkProject(dict['project'], dict['sentences'])
 
     def add_sentence(self, sentence):
-        if self.Sentences is None:
-            self.Sentences = []
+        for sen in self.Sentences:
+            if sen == sentence:
+                return
         self.Sentences.append(sentence)
 
 
