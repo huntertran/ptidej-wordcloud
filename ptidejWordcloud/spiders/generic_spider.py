@@ -1,5 +1,7 @@
 import scrapy
 import re
+# from bs4 import BeautifulSoup
+
 from scrapy.loader import ItemLoader
 from scrapy.http.response.text import TextResponse
 from ptidejWordcloud.items import WordcloudItem
@@ -18,7 +20,8 @@ class GenericSpider(scrapy.Spider):
         request.cb_kwargs['projectRoot'] = self.extractProjectRoot(siteUrl)
         request.cb_kwargs['level'] = crawlDepthLevel
         request.cb_kwargs['current_level'] = 0
-        request.cb_kwargs['project_name'] = ProjectHelper.getProjectName(siteUrl)
+        request.cb_kwargs['project_name'] = ProjectHelper.getProjectName(
+            siteUrl)
 
         yield request
 
@@ -44,6 +47,10 @@ class GenericSpider(scrapy.Spider):
                 # if root in urlToScrap:
                 # if root in urlToScrap and project_name in urlToScrap.lower():
                 if project_name in urlToScrap.lower():
+
+                    if type(current_level) is tuple:
+                        current_level = current_level[0]
+
                     request = self.buildRequest(
                         root,
                         projectRoot,
@@ -98,7 +105,8 @@ class GenericSpider(scrapy.Spider):
     def parseUrl(self, response, projectRoot):
         page = response.url
         if 'text' in response.headers['Content-Type'].decode('utf-8'):
-            texts = response.xpath('//text()[not(ancestor::pre)]').getall()
+            # soup = BeautifulSoup(response.text, fromEncoding="utf-8")
+            texts = response.xpath('//text()[not(ancestor::pre)]').extract()
             for text in texts:
                 text = self.cleanText(text)
                 if len(text) != 0 and not self.isLineMatchCode(text):
@@ -107,3 +115,14 @@ class GenericSpider(scrapy.Spider):
                         "l": page,
                         "t": text
                     }
+            # soup = BeautifulSoup(response.text, fromEncoding="utf-8")
+            # texts = soup.find('html').text.split('\n')
+
+            # for text in texts:
+            #     text = self.cleanText(text)
+            #     if len(text) != 0 and not self.isLineMatchCode(text):
+            #         yield {
+            #             # "projectRoot": projectRoot,
+            #             "l": page,
+            #             "t": text
+            #         }

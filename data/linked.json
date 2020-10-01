@@ -53,7 +53,7 @@
                     "Why MQTT?",
                     "broker is by far the easiest to configure and run for MQTT-only work.",
                     "is being used as the basis for an OASIS standard for messaging telemetry, a basis that’s not expected to vary much, if at all, from the MQTT specification in order to maintain compatibility.",
-                    "of MQTT and MQTT-SN in a variety of programming languages.",
+                    "implementations of MQTT and MQTT-SN in a variety of programming languages.",
                     "var contentTitle = \"Practical MQTT with Paho\", contentPath = \"/articles/practical-mqtt-with-paho\", contentUUID = \"1248a930-fcc8-43fe-9947-dd86d69bfe37\", authorUserCSVIds = \"101760065\";"
                 ]
             },
