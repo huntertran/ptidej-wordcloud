@@ -3,6 +3,7 @@
 import json
 import os
 from model.LinkKeyword import LinkKeyword, LinkKeywordEncoder, LinkProject
+from model.GrammarRule import GrammarRule
 from types import SimpleNamespace as Namespace
 from nltk import pos_tag, RegexpParser
 
@@ -14,26 +15,38 @@ from PIL import Image
 
 linked_keywords = []
 
+grammars = []
+
 
 def load_linked_result():
     file_path = './data/linked.json'
     with open(file_path, 'r', encoding='utf8') as dataFile:
         return json.load(dataFile, object_hook=lambda d: Namespace(**d))
 
+
 def draw_tree(index, data_folder, result):
     ps_file = data_folder + str(index) + '_output.ps'
     png_file = data_folder + str(index) + '_output.png'
 
     TreeView(result)._cframe.print_to_file(ps_file)
-    
+
     # # convert ps to png
     im = Image.open(ps_file)
     fig = im.convert('RGBA')
-    fig.save(png_file, lossless = True)
+    fig.save(png_file, lossless=True)
+
+
+def convert_grammars(grammars):
+    result = ""
+    for grammar in grammars:
+        result = result + '\n' + grammar.name + ": " + grammar.grammar
+
+    return result
 
 
 def start_analyze():
     linked_keywords = load_linked_result()
+
     for linked_keyword in linked_keywords:
         for project in linked_keyword.projects:
 
@@ -42,21 +55,42 @@ def start_analyze():
             # create folder
             ProjectHelper.createDataFolder(data_folder)
 
+            grammars.append(GrammarRule("implement_keyword",
+                                        "{<VB><NNP>}",
+                                        linked_keyword.Keys,
+                                        1,
+                                        ["implement"],
+                                        0))
+            grammars.append(GrammarRule("implementation_of_keyword",
+                                        "{<NP|NNP|NN|NNS><IN><NNP>}",
+                                        linked_keyword.Keys,
+                                        2,
+                                        ["implement"],
+                                        0))
+            grammars.append(GrammarRule("support_keyword_protocol",
+                                        "{<VB><NNP><NN>}",
+                                        linked_keyword.Keys,
+                                        1,
+                                        ["support", "use"],
+                                        0))
+
             index = 1
 
             for sentence in project.Sentences:
                 words = sentence.split()
                 tokens = pos_tag(words)
-                grammar = """
-                        implement_keyword: {<VB><NNP>}
-                        implementation_of_keyword: {<NP|NNP|NN|NNS><IN><NNP>}
-                        support_keyword_protocol: {<VB><NNP><NN>}
-                        """
+                # grammar = """
+                #         implement_keyword: {<VB><NNP>}
+                #         implementation_of_keyword: {<NP|NNP|NN|NNS><IN><NNP>}
+                #         support_keyword_protocol: {<VB><NNP><NN>}
+                #         """
+                grammar = convert_grammars(grammars)
                 cp = RegexpParser(grammar)
                 result = cp.parse(tokens)
 
                 for chunk in result:
                     if type(chunk) is Tree:
-                        draw_tree(index, data_folder, chunk)
-                        index = index + 1
-                        # break
+                        for grammar in grammars:
+                            if grammar.is_matched(chunk):
+                                draw_tree(index, data_folder, chunk)
+                                index = index + 1
