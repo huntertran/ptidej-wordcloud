@@ -49,7 +49,7 @@ def start_analyze():
                 tokens = pos_tag(words)
                 grammar = """
                         implement_keyword: {<VB><NNP>}
-                        implementation_of_keyword: {<NP|NNP|NN><IN><NNP>}
+                        implementation_of_keyword: {<NP|NNP|NN|NNS><IN><NNP>}
                         support_keyword_protocol: {<VB><NNP><NN>}
                         """
                 cp = RegexpParser(grammar)
@@ -57,8 +57,6 @@ def start_analyze():
 
                 for chunk in result:
                     if type(chunk) is Tree:
-                        draw_tree(index, data_folder, result)
-                        break
-
-                # print(result)
-                index = index + 1
+                        draw_tree(index, data_folder, chunk)
+                        index = index + 1
+                        # break
