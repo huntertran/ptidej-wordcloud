@@ -20,6 +20,17 @@ def load_linked_result():
     with open(file_path, 'r', encoding='utf8') as dataFile:
         return json.load(dataFile, object_hook=lambda d: Namespace(**d))
 
+def draw_tree(index, data_folder, result):
+    ps_file = data_folder + str(index) + '_output.ps'
+    png_file = data_folder + str(index) + '_output.png'
+
+    TreeView(result)._cframe.print_to_file(ps_file)
+    
+    # # convert ps to png
+    im = Image.open(ps_file)
+    fig = im.convert('RGBA')
+    fig.save(png_file, lossless = True)
+
 
 def start_analyze():
     linked_keywords = load_linked_result()
@@ -44,15 +55,10 @@ def start_analyze():
                 cp = RegexpParser(grammar)
                 result = cp.parse(tokens)
 
-                ps_file = data_folder + str(index) + '_output.ps'
-                png_file = data_folder + str(index) + '_output.png'
-
-                TreeView(result)._cframe.print_to_file(ps_file)
-                
-                # # convert ps to png
-                im = Image.open(ps_file)
-                fig = im.convert('RGBA')
-                fig.save(png_file, lossless = True)
+                for chunk in result:
+                    if type(chunk) is Tree:
+                        draw_tree(index, data_folder, result)
+                        break
 
                 # print(result)
                 index = index + 1
