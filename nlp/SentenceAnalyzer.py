@@ -48,31 +48,30 @@ def start_analyze():
     linked_keywords = load_linked_result()
 
     for linked_keyword in linked_keywords:
+        grammars.append(GrammarRule("implement_keyword",
+                                    "{<VB><NNP>}",
+                                    linked_keyword.Keys,
+                                    1,
+                                    ["implement"],
+                                    0))
+        grammars.append(GrammarRule("implementation_of_keyword",
+                                    "{<NP|NNP|NN|NNS><IN><DT>?<NNP>}",
+                                    linked_keyword.Keys,
+                                    2,
+                                    ["implement"],
+                                    0))
+        grammars.append(GrammarRule("support_keyword_protocol",
+                                    "{<VB><NNP><NN>}",
+                                    linked_keyword.Keys,
+                                    1,
+                                    ["support", "use"],
+                                    0))
         for project in linked_keyword.projects:
 
             data_folder = './data/nlp/result/' + project.Project + "/"
 
             # create folder
             ProjectHelper.createDataFolder(data_folder)
-
-            grammars.append(GrammarRule("implement_keyword",
-                                        "{<VB><NNP>}",
-                                        linked_keyword.Keys,
-                                        1,
-                                        ["implement"],
-                                        0))
-            grammars.append(GrammarRule("implementation_of_keyword",
-                                        "{<NP|NNP|NN|NNS><IN><NNP>}",
-                                        linked_keyword.Keys,
-                                        2,
-                                        ["implement"],
-                                        0))
-            grammars.append(GrammarRule("support_keyword_protocol",
-                                        "{<VB><NNP><NN>}",
-                                        linked_keyword.Keys,
-                                        1,
-                                        ["support", "use"],
-                                        0))
 
             index = 1
 
