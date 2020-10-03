@@ -1,0 +1,19 @@
+[
+    {
+        "name": "noun_prep_det_key",
+        "grammar": "{<NN|NNS><IN><DT>?<NNP>}",
+        "key_position": 2,
+        "other_words": [
+            {
+                "word": "implement",
+                "relationship": "interchangeable"
+            },
+            {
+                "word": "connect",
+                "relationship": "use"
+            }
+            
+        ],
+        "other_words_position": 0
+    }
+]

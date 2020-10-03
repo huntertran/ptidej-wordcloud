@@ -6,6 +6,7 @@ from model.LinkKeyword import LinkKeyword, LinkKeywordEncoder, LinkProject
 from model.GrammarRule import GrammarRule
 from types import SimpleNamespace as Namespace
 from nltk import pos_tag, RegexpParser
+from nltk.tag.stanford import StanfordPOSTagger
 
 from nltk.tree import Tree
 from nltk.draw.tree import TreeView
@@ -47,7 +48,14 @@ def convert_grammars(grammars):
 def start_analyze():
     linked_keywords = load_linked_result()
 
+    # using the standford pos tagger for better result
+    path_to_tagger = './standford_pos_tagger_data/english-bidirectional-distsim.tagger'
+    path_to_jar = './standford_pos_tagger_data/stanford-postagger.jar'
+
+    standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
+
     for linked_keyword in linked_keywords:
+        
         grammars.append(GrammarRule("implement_keyword",
                                     "{<VB><NNP>}",
                                     linked_keyword.Keys,
@@ -77,7 +85,7 @@ def start_analyze():
 
             for sentence in project.Sentences:
                 words = sentence.split()
-                tokens = pos_tag(words)
+                tokens = standford_tagger.tag(words)
                 # grammar = """
                 #         implement_keyword: {<VB><NNP>}
                 #         implementation_of_keyword: {<NP|NNP|NN|NNS><IN><NNP>}

@@ -28,3 +28,10 @@ class GrammarRule(object):
                     return True
 
         return False
+
+class OtherWord(object):
+    def __init__(self, word=None, relationship=None):
+        self.word = word
+        self.relationship = relationship
+
+    
