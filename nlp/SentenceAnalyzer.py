@@ -55,7 +55,7 @@ def start_analyze():
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
 
     for linked_keyword in linked_keywords:
-        
+
         grammars.append(GrammarRule("implement_keyword",
                                     "{<VB><NNP>}",
                                     linked_keyword.Keys,
