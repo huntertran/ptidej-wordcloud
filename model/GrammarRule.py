@@ -21,10 +21,13 @@ class GrammarRule(object):
     def decode_GrammarRule(dict):
         return GrammarRule(dict['name'],
                            dict['grammar'],
-                           keys=None,
+                           None,
                            dict['key_position'],
                            dict['other_words'],
                            dict['other_words_position'])
+
+    def set_keys(self, keys):
+        self.keys = keys
 
     def is_matched(self, tree):
         stemmer = PorterStemmer()
@@ -48,4 +51,4 @@ class OtherWord(object):
         return OtherWord(dict['word'], dict['relationship'])
 
     def is_matched(self, word_to_compare):
-        return if word_to_compare == word
+        return word_to_compare == word

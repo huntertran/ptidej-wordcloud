@@ -5,9 +5,10 @@ import os
 from model.LinkKeyword import LinkKeyword, LinkKeywordEncoder, LinkProject
 from model.GrammarRule import GrammarRule
 from types import SimpleNamespace as Namespace
+
+import nltk.tag, nltk.data
 from nltk import pos_tag, RegexpParser
 from nltk.tag.stanford import StanfordPOSTagger
-
 from nltk.tree import Tree
 from nltk.draw.tree import TreeView
 
@@ -52,28 +53,23 @@ def start_analyze():
     path_to_tagger = './standford_pos_tagger_data/english-bidirectional-distsim.tagger'
     path_to_jar = './standford_pos_tagger_data/stanford-postagger.jar'
 
+    path_to_grammar = './data/nlp/grammars.json'
+
+    grammar_rules = []
+    with open(path_to_grammar, 'r') as grammar_data:
+        grammar_rules = json.load(grammar_data, object_hook=GrammarRule.decode_GrammarRule)
+
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
+    unified_tagger = nltk.data.load()
 
     for linked_keyword in linked_keywords:
 
-        grammars.append(GrammarRule("implement_keyword",
-                                    "{<VB><NNP>}",
-                                    linked_keyword.Keys,
-                                    1,
-                                    ["implement"],
-                                    0))
-        grammars.append(GrammarRule("implementation_of_keyword",
-                                    "{<NP|NNP|NN|NNS><IN><DT>?<NNP>}",
-                                    linked_keyword.Keys,
-                                    2,
-                                    ["implement"],
-                                    0))
-        grammars.append(GrammarRule("support_keyword_protocol",
-                                    "{<VB><NNP><NN>}",
-                                    linked_keyword.Keys,
-                                    1,
-                                    ["support", "use"],
-                                    0))
+        grammars = []
+
+        for grammar in grammar_rules:
+            grammar.set_keys(linked_keyword.Keys)
+            grammars.append(grammar)
+
         for project in linked_keyword.projects:
 
             data_folder = './data/nlp/result/' + project.Project + "/"
@@ -85,12 +81,9 @@ def start_analyze():
 
             for sentence in project.Sentences:
                 words = sentence.split()
+
+                # TODO: add new tag for keyword
                 tokens = standford_tagger.tag(words)
-                # grammar = """
-                #         implement_keyword: {<VB><NNP>}
-                #         implementation_of_keyword: {<NP|NNP|NN|NNS><IN><NNP>}
-                #         support_keyword_protocol: {<VB><NNP><NN>}
-                #         """
                 grammar = convert_grammars(grammars)
                 cp = RegexpParser(grammar)
                 result = cp.parse(tokens)
