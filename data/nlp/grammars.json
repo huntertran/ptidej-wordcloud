@@ -12,7 +12,70 @@
                 "word": "connect",
                 "relationship": "use"
             }
-            
+        ],
+        "other_words_position": 0
+    },
+    {
+        "name": "prep_key_noun",
+        "grammar": "{<IN><NNP><NN>}",
+        "key_position": 1,
+        "other_words": [
+            {
+                "word": "protocol",
+                "relationship": "use"
+            },
+            {
+                "word": "connect",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 3
+    },
+    {
+        "name": "verb__adj__keyword",
+        "grammar": "{<VBG|VB>.<NNS|NN>.<NNP>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "use",
+                "relationship": "use"
+            },
+            {
+                "word": "commun",
+                "relationship": "use"
+            },
+            {
+                "word": "appli",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 0
+    },
+    {
+        "name": "key_noun",
+        "grammar": "{<NNP><NNP>}",
+        "key_position": 0,
+        "other_words": [
+            {
+                "word": "implement",
+                "relationship": "interchangeable"
+            }
+        ],
+        "other_words_position": 1
+    },
+    {
+        "name": "verb_prep_key",
+        "grammar": "{<VB>.?<IN>.?<NNP>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "connect",
+                "relationship": "use"
+            },
+            {
+                "word": "sent",
+                "relationship": "use"
+            }
         ],
         "other_words_position": 0
     }

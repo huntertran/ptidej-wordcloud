@@ -2,6 +2,7 @@
 
 from nltk import PorterStemmer
 
+
 class GrammarRule(object):
     def __init__(self,
                  name=None,
@@ -17,12 +18,21 @@ class GrammarRule(object):
         self.other_words = other_words
         self.other_words_position = other_words_position
 
+    def decode_GrammarRule(dict):
+        return GrammarRule(dict['name'],
+                           dict['grammar'],
+                           keys=None,
+                           dict['key_position'],
+                           dict['other_words'],
+                           dict['other_words_position'])
+
     def is_matched(self, tree):
         stemmer = PorterStemmer()
 
         if tree._label == self.name:
             # check key
             if tree[self.key_position][0] in self.keys:
+                # TODO: fix for match wit new data structure
                 # check other words
                 if stemmer.stem(tree[self.other_words_position][0]) in self.other_words:
                     return True
@@ -34,4 +44,8 @@ class OtherWord(object):
         self.word = word
         self.relationship = relationship
 
-    
+    def decode_OtherWord(dict):
+        return OtherWord(dict['word'], dict['relationship'])
+
+    def is_matched(self, word_to_compare):
+        return if word_to_compare == word

@@ -26,9 +26,11 @@
         "VSAT",
         "WAGO",
         "Websockets",
+        "appli",
         "cframe",
         "chdir",
         "cmdline",
+        "commun",
         "contactless",
         "diac",
         "eclips",
@@ -49,6 +51,7 @@
         "tablefmt",
         "tahu",
         "tinydtls",
+        "tolist",
         "unide",
         "wakaama"
     ]
