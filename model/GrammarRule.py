@@ -18,14 +18,6 @@ class GrammarRule(object):
         self.other_words = other_words
         self.other_words_position = other_words_position
 
-    def decode_GrammarRule(dict):
-        return GrammarRule(dict['name'],
-                           dict['grammar'],
-                           None,
-                           dict['key_position'],
-                           dict['other_words'],
-                           dict['other_words_position'])
-
     def set_keys(self, keys):
         self.keys = keys
 
@@ -41,6 +33,7 @@ class GrammarRule(object):
                     return True
 
         return False
+
 
 class OtherWord(object):
     def __init__(self, word=None, relationship=None):

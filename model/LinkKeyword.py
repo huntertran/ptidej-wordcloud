@@ -31,9 +31,6 @@ class LinkProject(object):
         self.Project = Project
         self.Sentences = []
 
-    def decode_LinkProject(dict):
-        return LinkProject(dict['project'], dict['sentences'])
-
     def add_sentence(self, sentence):
         for sen in self.Sentences:
             if sen == sentence:

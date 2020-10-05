@@ -57,7 +57,7 @@ def start_analyze():
 
     grammar_rules = []
     with open(path_to_grammar, 'r') as grammar_data:
-        grammar_rules = json.load(grammar_data, object_hook=GrammarRule.decode_GrammarRule)
+        grammar_rules = json.load(grammar_data, object_hook=lambda d: Namespace(**d))
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
     unified_tagger = nltk.data.load()
