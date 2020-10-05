@@ -100,7 +100,7 @@ def start_analyze():
                         print('chunk found: ')
                         print(chunk)
                         for grammar in grammars:
-                            rel = ""
-                            if grammar.is_matched(chunk, rel):
+                            matched, rel = grammar.is_matched(chunk)
+                            if matched:
                                 draw_tree(index, rel, data_folder, chunk)
                                 index = index + 1

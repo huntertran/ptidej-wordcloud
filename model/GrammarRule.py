@@ -20,7 +20,7 @@ class GrammarRule(object):
     def set_keys(self, keys):
         self.keys = keys
 
-    def is_matched(self, tree, rel):
+    def is_matched(self, tree):
         stemmer = PorterStemmer()
 
         if tree._label == self.name:
@@ -32,9 +32,9 @@ class GrammarRule(object):
                 for word_data in self.other_words:
                     if stemmed == word_data.word:
                         rel = word_data.relationship
-                        return True
+                        return True, rel
 
-        return False
+        return False, ""
 
 
 class OtherWord(object):
