@@ -97,6 +97,8 @@ def start_analyze():
 
                 for chunk in result:
                     if type(chunk) is Tree:
+                        print('chunk found: ')
+                        print(chunk)
                         for grammar in grammars:
                             rel = ""
                             if grammar.is_matched(chunk, rel):
