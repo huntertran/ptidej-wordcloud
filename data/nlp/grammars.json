@@ -1,7 +1,7 @@
 [
     {
         "name": "noun_prep_det_key",
-        "grammar": "{<NN|NNS><IN><DT>?<NNP>}",
+        "grammar": "{<NN|NNS><IN><DT>?<NNP|NN>}",
         "key_position": 2,
         "other_words": [
             {
@@ -17,7 +17,7 @@
     },
     {
         "name": "prep_key_noun",
-        "grammar": "{<IN><NNP><NN>}",
+        "grammar": "{<IN><NNP|NN><NN>}",
         "key_position": 1,
         "other_words": [
             {
@@ -33,7 +33,7 @@
     },
     {
         "name": "verb__adj__keyword",
-        "grammar": "{<VBG|VB>.<NNS|NN>.<NNP>}",
+        "grammar": "{<VBG|VB>.<NNS|NN>.<NNP|NN>}",
         "key_position": -1,
         "other_words": [
             {
@@ -53,7 +53,7 @@
     },
     {
         "name": "key_noun",
-        "grammar": "{<NNP><NNP>}",
+        "grammar": "{<NNP|NN><NNP>}",
         "key_position": 0,
         "other_words": [
             {
@@ -65,7 +65,7 @@
     },
     {
         "name": "verb_prep_key",
-        "grammar": "{<VB>.?<IN>.?<NNP>}",
+        "grammar": "{<VB>.?<IN>.?<NNP|NN>}",
         "key_position": -1,
         "other_words": [
             {

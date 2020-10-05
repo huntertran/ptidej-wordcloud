@@ -112,8 +112,6 @@ mqtt.eclipse.org
 Get the latest Paho news from
 Twitter
 Back to the top
-The Eclipse IDE 2020-09 is now available!
-Download Now
 Eclipse Foundation
 About Us
 Contact Us
@@ -148,9 +146,9 @@ Back to the top
 We've detected that JavaScript is disabled in your browser. Would you like to proceed to legacy Twitter?
 Yes
 Something went wrong, but don’t fret — let’s give it another shot.
-document.cookie = decodeURIComponent("gt=1311024746943991814; Max-Age=10800; Domain=.twitter.com; Path=/; Secure");
+document.cookie = decodeURIComponent("gt=1312916037659176960; Max-Age=10800; Domain=.twitter.com; Path=/; Secure");
 Practical MQTT with Paho
-var device='desktop'; var InfoQConstants = {}; InfoQConstants.language = 'en'; InfoQConstants.countryCode = ''; InfoQConstants.pageUrl = (typeof window.location != 'undefined' && window.location && typeof window.location.href != 'undefined' && window.location.href) ? window.location.href : "URL_UNAVAILABLE"; InfoQConstants.cet='ai9pVsxUakxnG7Y8'; InfoQConstants.userDetectedCountryCode = '';
+var device='desktop'; var InfoQConstants = {}; InfoQConstants.language = 'en'; InfoQConstants.countryCode = ''; InfoQConstants.pageUrl = (typeof window.location != 'undefined' && window.location && typeof window.location.href != 'undefined' && window.location.href) ? window.location.href : "URL_UNAVAILABLE"; InfoQConstants.cet='HJUP7zIpFf0Jl31a'; InfoQConstants.userDetectedCountryCode = '';
 InfoQConstants.pageType = 'ARTICLE_PAGE';
 var communityIds = "2497"; var topicIds = "2993,2992,2308,23,229,1,1306,2748,336,227,217,3579"; VCR.loadAllVcrs(communityIds, topicIds);
 BT
@@ -185,7 +183,7 @@ En
 日本
 Fr
 Br
-1,895,664 Aug unique visitors
+1,678,745 Sep unique visitors
 News
 Articles
 Presentations
@@ -202,8 +200,8 @@ Go
 Rust
 JavaScript
 Featured in Development
-The Fundamentals of Writing and Publishing Your Non-Fiction Book
-Parul Bavishi deconstructs the structure behind bestselling non-fiction titles, and looks at how to apply this to writing.
+Elixir vs Scala
+Ludwik Bukowski, Kacper Mentel compare the results of a pattern recognition app implemented in Elixir and Scala.
 All in development
 Architecture & Design
 Architecture
@@ -227,7 +225,8 @@ Database
 Data Analytics
 Streaming
 Featured in AI, ML & Data Engineering
-A Functional Tour of Automatic Differentiation
+COVID-19 and Mining Social Media - Enabling Machine Learning Workloads with Big Data
+In this article, author Adi Pollock discusses how to enable machine learning workloads with big data to query and analyze COVID-19 tweets to understand social sentiment towards COVID-19.
 All in ai-ml-data-eng
 Culture & Methods
 Agile
@@ -242,8 +241,8 @@ Team Collaboration
 Testing
 UX
 Featured in Culture & Methods
-Your Beautiful Strategy Is Undeliverable
-Tanya Spencer, Steph South discuss applying Agile techniques to exec and other non-technical teams to help them streamline and make real progress against their aspirations.
+Dev & UX: How Integrating UX Improves Engineering’s Efficiency and Sanity
+User experience (UX) is often misunderstood. Many teams and workers believe it’s just sketching or laying out screens. Misunderstanding UX leads to problems in hiring, processes, team culture, product, and customer satisfaction. Today we’ll learn how to start improving all of these by seeing UX as it really is: engineering’s time and money saver.
 All in culture-methods
 DevOps
 Infrastructure
@@ -253,7 +252,8 @@ Containers
 Cloud
 Observability
 Featured in DevOps
-Keep Calm and Secure Your CI/CD Pipeline
+DevOps Is More Complex and Harder Than You Think. Personal Lessons
+Patrick Debois shares his personal lessons and stories on DevOps. DevOps is inherently complex and with many things to consider, there are many risks and things that can be missed or go wrong. Debois' intent is to help people not make the same mistakes.
 All in devops
 Events
 New
@@ -282,13 +282,14 @@ Reactive
 Microservices
 Containers
 Observability
-NoSQL
+IoT
 QCon Plus: Virtual Conference by InfoQ
 InfoQ Homepage
 Articles
 Practical MQTT with Paho
 Development
-Discover QCon Plus by InfoQ: A Virtual Conference for Senior Software Engineers and Architects (Nov 4-18)
+Live Webinar and Q&A:
+The Power of a Centralised Identity Strategy (OCT 15), Sponsored by Auth0
 Practical MQTT with Paho
 $("#translated_"+InfoQConstants.userDetectedCountryCode.toLowerCase()).show();
 Like
@@ -305,10 +306,10 @@ comes from the world of
 M2M
 (Machine to Machine) and the Internet of Things. There, devices can be as small as a sensor and controller connected over a wireless system. This environment drives the need for any protocol's implementation to be lightweight in terms of code footprint and system load, while taking care of that variable reliability connection problem.
 Related Sponsored Content
-From Docker to Kubernetes: Container Networking 101 (By O’Reilly)
 Related Sponsor
-NGINX Plus is the complete application delivery platform for the modern web.
-Start your 30 day free trial.
+Build Relationships and Network with a Global Developer Community.
+Attend QCon Plus
+(Nov 4-18) and Connect with Your Peers.
 MQTT was originally created by IBM's Andy Stanford-Clark and Arlen Nipper of Arcom (taken over later by Eurotech) as a complement to enterprise messaging systems so that a wealth of data outside the enterprise could be safely and easily brought inside the enterprise. MQTT is a publish/subscribe messaging system that allows clients to publish messages without concerning themselves about their eventual destination; messages are sent to an MQTT broker where they may be retained. The messages' payloads are just a sequence of bytes, up to 256MB, with no requirements placed on the format of those payloads and with the MQTT protocol usually adding a fixed header of two bytes to most messages.
 Other clients can subscribe to these messages and get updated by the broker when new messages arrive. To allow for the variety of possible situations where MQTT can be put to use, it lets clients and brokers set a "Quality of Service" on a per-message basis from "fire and forget" to "confirmed delivery". MQTT also has a very light API, with all of five protocol methods, making it easy to learn and recall, but there's also support for SSL-encrypted connections and username/password authentication for clients to brokers.
 Since making its debut, MQTT has proved itself in production scenarios. As well as standalone MQTT brokers, it has also been integrated into other message queuing brokers such as ActiveMQ and RabbitMQ, providing a bridge into the enterprise network. The most recent version of the specification
@@ -503,7 +504,7 @@ Adoption
 Style
 Author Contacted
 This content is in the
-Web Development
+Telemetry
 topic
 Related Topics:
 Development
@@ -522,12 +523,35 @@ Application Servers
 Related Editorial
 Popular across InfoQ
 Microsoft Launches a New Communication Platform with Azure Communication Services
+Kubernetes Ingress Is Now Generally Available
 CNCF Approves Kubernetes Edge Computing Platform KubeEdge as Incubating Project
 The JavaScript Coder's Guide to Getting More from GitHub and Npm - GitHub Satellite 2020
-Using Serverless Backends to Iterate Quickly on Web Apps
 Kubernetes Operators in Depth
-Pat Helland on Software Architecture and Urban Planning
+Matthew Skelton and Manuel Pais on Software Architecture, Team Topologies, and Platforms
 Related Content
+Elixir vs Scala
+Swift Atomics Enables First-Class Atomic Operations In Swift
+Chaos Conf Q&A: Adrian Cockcroft & Yury Niño Roa
+Microsoft Innovates Its Azure Multi-Cloud, Multi-Edge Hybrid Capabilities
+GitHub Code Scanning Is Out Of Beta
+Bridgecrew Releases State of Open Source Terraform Security Report
+Hacked off with Hacktoberfest
+Dev & UX: How Integrating UX Improves Engineering’s Efficiency and Sanity
+DevOps Is More Complex and Harder Than You Think. Personal Lessons
+COVID-19 and Mining Social Media - Enabling Machine Learning Workloads with Big Data
+Reactive Angular Library NgRx v10 Adds Component Local State Management Package
+A Year with Java 11 in Production!
+From Cloud to Cloudlets: A New Approach to Data Processing?
+New GitHub Repositories Default to Main Branch
+Growing Personal and Organisational Courage
+OpenJDK Completes Migration to GitHub
+40th Anniversary of The Ethernet
+Vest, a New Javascript Form Validation Framework
+Why Every DevOps Team Needs A FinOps Lead
+Apple Open Sources System, Swift Library Interfacing with System-Level API
+Rethinking How the Industry Approaches Chaos Engineering
+Q&A on the Book Office Optional
+Amazon Cloudwatch Dashboards Supports Sharing
 Your Beautiful Strategy Is Undeliverable
 Kubernetes Ingress Is Now Generally Available
 Microsoft Obtains Exclusive License for GPT-3 AI Model
@@ -545,29 +569,6 @@ Kubernetes Operators in Depth
 Google Announces New Features Making It Easier to Manage Windows Server VMs
 Heapothesys - an Open-Source GC Latency Benchmark by Amazon Corretto
 Q&A with Katherine Kirk on Managing Entropy in Uncertain Times
-Cookie Recipes - SameSite and beyond - Rowan Merewood at web.dev Live
-Q&A on the Book- Problem? What Problem? with Ben Linders
-How to Build the Dark Star: a Serious Collaborative Game
-Using Serverless Backends to Iterate Quickly on Web Apps
-Swift 5.3 Brings New Language Features, Better Developer Experience, and Improved Performance
-Java 15 Released
-Netflix Presents Telltale, an Application Health Monitoring Tool
-Keep Calm and Secure Your CI/CD Pipeline
-Introducing QCon Plus by InfoQ: a Virtual Conference for Senior Software Engineers and Architects
-Scalable Cloud Environment for Distributed Data Pipelines with Apache Airflow
-AWS Launches New Contact Flow APIs for Amazon Connect
-Visual Studio Codespaces Is Now GitHub Codespaces
-New COOP and COEP Cross-Origin Policies for Increased Security in Chrome and Firefox
-Cypress 5.x Adds Test Retries and Shadow DOM Support
-Cloud Native is about Culture, Not Containers
-Facebook Releases AI Model for Protein Sequence Processing
-Four Case Studies for Implementing Real-Time APIs
-Microsoft to Contribute to Java on Windows and Mac ARM
-Agile with Deadlines – Can They Work Together?
-Interview with Event Modeling Founder - Adam Dymitruk
-Q&A on the Book Fail to Learn
-AWS Launches Low-Cost Burstable T4g Instances Powered by AWS Graviton2
-Microsoft Releases Entity Framework Core 5.0 RC 1
 The InfoQ
 Newsletter
 A round-up of last week’s content on InfoQ sent out every Tuesday. Join a community of over 250,000 senior developers.
@@ -679,25 +680,25 @@ OK
 // this has to be called as soon as the comments are rendered, no need to wait to the end of page load!!! // it can happen that the require login overlay is displayed until page loads and disables it, also edit links are removed with a delay if we wait for page load CommentsHandler.activate();
 // global vars that can be used for this page, us ethis section to add more. var contentTitle = "Practical MQTT with Paho", contentPath = "/articles/practical-mqtt-with-paho", contentUUID = "1248a930-fcc8-43fe-9947-dd86d69bfe37", authorUserCSVIds = "101760065";
 Development
-The JavaScript Coder's Guide to Getting More from GitHub and Npm - GitHub Satellite 2020
-Google Engineer Tailors Swift for Windows
-New COOP and COEP Cross-Origin Policies for Increased Security in Chrome and Firefox
+Elixir vs Scala
+Swift Atomics Enables First-Class Atomic Operations In Swift
+Hacked off with Hacktoberfest
 Architecture & Design
 Matthew Skelton and Manuel Pais on Software Architecture, Team Topologies, and Platforms
 Applying Chaos Engineering in Healthcare: Getting Started with Sensitive Workloads
 Introducing QCon Plus by InfoQ: a Virtual Conference for Senior Software Engineers and Architects
 Culture & Methods
-Your Beautiful Strategy Is Undeliverable
-Scaling N26 Technology through Hypergrowth
-Nishant Bhajaria on Security, Privacy and Ethics
+Dev & UX: How Integrating UX Improves Engineering’s Efficiency and Sanity
+Growing Personal and Organisational Courage
+Q&A on the Book Office Optional
 AI, ML & Data Engineering
+COVID-19 and Mining Social Media - Enabling Machine Learning Workloads with Big Data
 Microsoft Obtains Exclusive License for GPT-3 AI Model
 A Functional Tour of Automatic Differentiation
-Scalable Cloud Environment for Distributed Data Pipelines with Apache Airflow
 DevOps
-Kubernetes Ingress Is Now Generally Available
-CNCF Approves Kubernetes Edge Computing Platform KubeEdge as Incubating Project
-Netflix Presents Telltale, an Application Health Monitoring Tool
+Chaos Conf Q&A: Adrian Cockcroft & Yury Niño Roa
+GitHub Code Scanning Is Out Of Beta
+Bridgecrew Releases State of Open Source Terraform Security Report
 The InfoQ
 Newsletter
 A round-up of last week’s content on InfoQ sent out every Tuesday. Join a community of over 250,000 senior developers.

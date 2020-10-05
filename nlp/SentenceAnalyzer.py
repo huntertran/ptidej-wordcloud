@@ -6,7 +6,8 @@ from model.LinkKeyword import LinkKeyword, LinkKeywordEncoder, LinkProject
 from model.GrammarRule import GrammarRule
 from types import SimpleNamespace as Namespace
 
-import nltk.tag, nltk.data
+import nltk.tag
+import nltk.data
 from nltk import pos_tag, RegexpParser
 from nltk.tag.stanford import StanfordPOSTagger
 from nltk.tree import Tree
@@ -26,9 +27,9 @@ def load_linked_result():
         return json.load(dataFile, object_hook=lambda d: Namespace(**d))
 
 
-def draw_tree(index, data_folder, result):
-    ps_file = data_folder + str(index) + '_output.ps'
-    png_file = data_folder + str(index) + '_output.png'
+def draw_tree(index, rel, data_folder, result):
+    ps_file = data_folder + str(index) + '_' + rel + '_output.ps'
+    png_file = data_folder + str(index) + '_' + rel + '_output.png'
 
     TreeView(result)._cframe.print_to_file(ps_file)
 
@@ -57,16 +58,22 @@ def start_analyze():
 
     grammar_rules = []
     with open(path_to_grammar, 'r') as grammar_data:
-        grammar_rules = json.load(grammar_data, object_hook=GrammarRule.decode_GrammarRule)
+        grammar_rules = json.load(
+            grammar_data, object_hook=lambda d: Namespace(**d))
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
-    unified_tagger = nltk.data.load()
 
     for linked_keyword in linked_keywords:
 
         grammars = []
 
-        for grammar in grammar_rules:
+        for simple_namespace in grammar_rules:
+            grammar = GrammarRule(simple_namespace.name,
+                                  simple_namespace.grammar,
+                                  linked_keyword.Keys,
+                                  simple_namespace.key_position,
+                                  simple_namespace.other_words,
+                                  simple_namespace.other_words_position)
             grammar.set_keys(linked_keyword.Keys)
             grammars.append(grammar)
 
@@ -90,7 +97,10 @@ def start_analyze():
 
                 for chunk in result:
                     if type(chunk) is Tree:
+                        print('chunk found: ')
+                        print(chunk)
                         for grammar in grammars:
-                            if grammar.is_matched(chunk):
-                                draw_tree(index, data_folder, chunk)
+                            rel = ""
+                            if grammar.is_matched(chunk, rel):
+                                draw_tree(index, rel, data_folder, chunk)
                                 index = index + 1
