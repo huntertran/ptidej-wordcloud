@@ -102,5 +102,6 @@ def start_analyze():
                         for grammar in grammars:
                             matched, rel = grammar.is_matched(chunk)
                             if matched:
+                                # chunk.draw()
                                 draw_tree(index, rel, data_folder, chunk)
                                 index = index + 1
