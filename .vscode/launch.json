@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Debug Scrapy",
+            "name": "Python: Test",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/runner.py",
+            "program": "${workspaceFolder}/run_test.py",
             "console": "integratedTerminal"
         },
         {

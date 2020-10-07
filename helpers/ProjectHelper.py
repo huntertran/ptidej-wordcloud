@@ -1,6 +1,5 @@
 import os
 
-
 class ProjectHelper:
     @staticmethod
     def getProjectName(fullUrl):

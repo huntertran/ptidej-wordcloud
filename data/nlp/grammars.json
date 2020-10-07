@@ -1,8 +1,28 @@
 [
     {
+        "name": "verb__adj__keyword",
+        "grammar": "{<VBG|VB>.<NNS|NN.>.<KEYWORD>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "use",
+                "relationship": "use"
+            },
+            {
+                "word": "commun",
+                "relationship": "use"
+            },
+            {
+                "word": "appli",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 0
+    },
+    {
         "name": "noun_prep_det_key",
-        "grammar": "{<NN|NNS><IN><DT>?<NNP|NN>}",
-        "key_position": 2,
+        "grammar": "{<NN|NNS><IN><DT>?<KEYWORD>}",
+        "key_position": -1,
         "other_words": [
             {
                 "word": "implement",
@@ -30,26 +50,6 @@
             }
         ],
         "other_words_position": 2
-    },
-    {
-        "name": "verb__adj__keyword",
-        "grammar": "{<VBG|VB>.<NNS|NN>.<NNP|NN>}",
-        "key_position": -1,
-        "other_words": [
-            {
-                "word": "use",
-                "relationship": "use"
-            },
-            {
-                "word": "commun",
-                "relationship": "use"
-            },
-            {
-                "word": "appli",
-                "relationship": "use"
-            }
-        ],
-        "other_words_position": 0
     },
     {
         "name": "key_noun",

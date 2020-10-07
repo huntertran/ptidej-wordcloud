@@ -1,6 +1,5 @@
 # Process crawled text to extract most popular words to generate word cloud
 
-
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem import SnowballStemmer
@@ -31,19 +30,6 @@ def getProgrammingLanguageList():
         for line in lines:
             programmingLanguages.append(line.strip('\n'))
     return programmingLanguages
-
-
-# def combineStopwords(projectName):
-#     customizedStopwords = []
-#     with open('./data/nlp/customized_stopwords.txt',
-#               'r',
-#               encoding=defaultEncoding) as customizedStopwordsFile:
-#         customizedStopwords = customizedStopwordsFile.readlines()
-#         for index, word in enumerate(customizedStopwords):
-#             customizedStopwords[index] = word.strip('\r').strip('\n')
-#     combinedStopwords = stopwords.words('english')
-#     combinedStopwords.extend(customizedStopwords)
-#     return combinedStopwords
 
 
 def isMatchSpecialString(word):

@@ -12,8 +12,10 @@ from nltk import pos_tag, RegexpParser
 from nltk.tag.stanford import StanfordPOSTagger
 from nltk.tree import Tree
 from nltk.draw.tree import TreeView
+from nltk.tokenize import word_tokenize
 
 from helpers.ProjectHelper import ProjectHelper
+from helpers.nlp_helper import combineStopwords
 from PIL import Image
 
 linked_keywords = []
@@ -47,6 +49,37 @@ def convert_grammars(grammars):
     return result
 
 
+def modify_tag(keys, tokens):
+    # for token in tokens:
+    #     if token[0] in keys:
+    #         token = (token[0], 'KEYWORD')
+    for num, token in enumerate(tokens):
+        if token[0] in keys:
+            tokens[num] = (token[0], 'KEYWORD')
+    return tokens
+
+
+def parse_with_grammar(tagger, grammars, keys, sentence, index, data_folder):
+    tokens = tagger.tag(sentence.split())
+    tokens = modify_tag(keys, tokens)
+    grammar = convert_grammars(grammars)
+    cp = RegexpParser(grammar)
+    result = cp.parse(tokens)
+    for chunk in result:
+        if type(chunk) is Tree:
+            print('chunk found: ')
+            print(chunk)
+            for grammar in grammars:
+                matched, rel = grammar.is_matched(chunk)
+                if matched:
+                    # chunk.draw()
+                    print('MATCHED FOUND------------------------\n')
+                    print(chunk)
+                    print('-------------------------------------\n')
+                    draw_tree(index, rel, data_folder, chunk)
+                    index = index + 1
+
+
 def start_analyze():
     linked_keywords = load_linked_result()
 
@@ -62,6 +95,9 @@ def start_analyze():
             grammar_data, object_hook=lambda d: Namespace(**d))
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
+
+    # stopwords = combineStopwords()
+    # stopwords.remove('use')
 
     for linked_keyword in linked_keywords:
 
@@ -87,21 +123,9 @@ def start_analyze():
             index = 1
 
             for sentence in project.Sentences:
-                words = sentence.split()
-
-                # TODO: add new tag for keyword
-                tokens = standford_tagger.tag(words)
-                grammar = convert_grammars(grammars)
-                cp = RegexpParser(grammar)
-                result = cp.parse(tokens)
-
-                for chunk in result:
-                    if type(chunk) is Tree:
-                        print('chunk found: ')
-                        print(chunk)
-                        for grammar in grammars:
-                            matched, rel = grammar.is_matched(chunk)
-                            if matched:
-                                # chunk.draw()
-                                draw_tree(index, rel, data_folder, chunk)
-                                index = index + 1
+                parse_with_grammar(standford_tagger,
+                                   grammars,
+                                   linked_keyword.Keys,
+                                   sentence,
+                                   index,
+                                   data_folder)
