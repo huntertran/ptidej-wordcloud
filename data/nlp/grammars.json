@@ -1,7 +1,27 @@
 [
     {
+        "name": "test",
+        "grammar": "{<VBG><IN><JJ><NN|NNS*><IN><NNP><KEYWORD>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "use",
+                "relationship": "use"
+            },
+            {
+                "word": "commun",
+                "relationship": "use"
+            },
+            {
+                "word": "appli",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 0
+    },
+    {
         "name": "verb__adj__keyword",
-        "grammar": "{<VBG|VB>.<NNS|NN.>.<KEYWORD>}",
+        "grammar": "{<VBG|VB>.*<NNS|NN.*>.*<KEYWORD>}",
         "key_position": -1,
         "other_words": [
             {
@@ -37,7 +57,7 @@
     },
     {
         "name": "prep_key_noun",
-        "grammar": "{<IN><NNP|NN><NN>}",
+        "grammar": "{<IN><KEYWORD><NN>}",
         "key_position": 1,
         "other_words": [
             {
@@ -53,7 +73,7 @@
     },
     {
         "name": "key_noun",
-        "grammar": "{<NNP|NN><NNP>}",
+        "grammar": "{<KEYWORD><NNP>}",
         "key_position": 0,
         "other_words": [
             {
@@ -65,7 +85,7 @@
     },
     {
         "name": "verb_prep_key",
-        "grammar": "{<VB>.?<IN>.?<NNP|NN>}",
+        "grammar": "{<VB>.?<IN>.?<KEYWORD>}",
         "key_position": -1,
         "other_words": [
             {
