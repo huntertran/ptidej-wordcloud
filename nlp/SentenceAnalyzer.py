@@ -50,17 +50,23 @@ def convert_grammars(grammars):
 
 
 def modify_tag(keys, tokens):
-    # for token in tokens:
-    #     if token[0] in keys:
-    #         token = (token[0], 'KEYWORD')
     for num, token in enumerate(tokens):
         if token[0] in keys:
             tokens[num] = (token[0], 'KEYWORD')
     return tokens
 
 
+def remove_sentence_splitter(tokens):
+    return [token for token in tokens if token[0] not in [',',
+                                                          ';',
+                                                          ':',
+                                                          '.',
+                                                          '-']]
+
+
 def parse_with_grammar(tagger, grammars, keys, sentence, index, data_folder):
-    tokens = tagger.tag(sentence.split())
+    tokens = tagger.tag(word_tokenize(sentence))
+    tokens = remove_sentence_splitter(tokens)
     tokens = modify_tag(keys, tokens)
     grammar = convert_grammars(grammars)
     cp = RegexpParser(grammar)
