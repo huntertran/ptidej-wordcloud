@@ -38,6 +38,18 @@ After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawle
 
 > Requirement: python 3.7 and above
 
+**Install Ghostscript**
+
+To handle exporting images from .ps file resulted of nltk grammar scan
+
+```bash
+# for Windows: using Chocolatey package manager
+choco install ghostscript
+
+# for Linux:
+[sudo] apt-get install ghostscript
+```
+
 **Install python packages**
 
 ```bash
