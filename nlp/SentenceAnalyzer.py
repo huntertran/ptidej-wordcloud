@@ -15,13 +15,10 @@ from nltk.draw.tree import TreeView
 from nltk.tokenize import word_tokenize
 
 from helpers.ProjectHelper import ProjectHelper
-from helpers.nlp_helper import combineStopwords
 from PIL import Image
 
 linked_keywords = []
-
 grammars = []
-
 
 def load_linked_result():
     file_path = './data/linked.json'
@@ -101,9 +98,6 @@ def start_analyze():
             grammar_data, object_hook=lambda d: Namespace(**d))
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
-
-    # stopwords = combineStopwords()
-    # stopwords.remove('use')
 
     for linked_keyword in linked_keywords:
 
