@@ -133,7 +133,9 @@
                     "You can mix and match: submit with CoAP and subscribe via MQTT.",
                     "which implements most of the MQTT 3.1 spec."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -237,7 +239,9 @@
                 "Sentences": [
                     "It implements DTLS 1.2 to secure your application through ECC with pre-shared keys, certificates, or raw public keys."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",

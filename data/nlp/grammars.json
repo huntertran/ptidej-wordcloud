@@ -65,7 +65,7 @@
     },
     {
         "name": "verb_prep_key",
-        "grammar": "{<VB>.?<IN>.?<KEYWORD>}",
+        "grammar": "{<VB|VBG|VBZ><.*>*<IN>*<.*>*<KEYWORD>}",
         "key_position": -1,
         "other_words": [
             {
@@ -75,6 +75,10 @@
             {
                 "word": "sent",
                 "relationship": "use"
+            },
+            {
+                "word": "implement",
+                "relationship": "interchangeable"
             }
         ],
         "other_words_position": 0

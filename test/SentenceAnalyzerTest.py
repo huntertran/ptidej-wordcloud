@@ -49,6 +49,6 @@ def start_analyze_test():
         parse_with_grammar(standford_tagger,
                            grammars,
                            linked_keyword.Keys,
-                           'Hono supports devices communicating via common IoT protocols like HTTP, MQTT and AMQP out of the box.',
+                           'which implements most of the MQTT 3.1 spec',
                            1,
                            data_folder)
