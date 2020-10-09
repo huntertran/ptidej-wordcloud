@@ -2,8 +2,7 @@
 
 import json
 import numpy
-from json import JSONEncoder
-
+from json import JSONEncoder, JSONDecoder
 
 class LinkKeyword(object):
     def __init__(self, Id=None, Description=None, Keys=None):
@@ -30,12 +29,16 @@ class LinkProject(object):
     def __init__(self, Project=None):
         self.Project = Project
         self.Sentences = []
+        self.relationships = []
 
     def add_sentence(self, sentence):
         for sen in self.Sentences:
             if sen == sentence:
                 return
         self.Sentences.append(sentence)
+    
+    def add_relationships(self, relationships):
+        self.relationships = relationships
 
 
 class LinkKeywordEncoder(JSONEncoder):

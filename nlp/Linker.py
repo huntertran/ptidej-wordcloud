@@ -2,6 +2,7 @@
 
 import json
 import pandas
+import jsonpickle
 
 from model.Site import Site
 from model.SiteNode import SiteNode
@@ -109,5 +110,12 @@ def create_link():
     for site in siteDataList:
         analyze_site(site, link_keywords)
 
+    jsonpickle.set_preferred_backend('json')
+    jsonpickle.set_encoder_options('json', ensure_ascii=False)
+    # json_text = jsonpickle.encode(link_keywords)
+
     with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
-        json.dump(link_keywords, dataFile, cls=LinkKeywordEncoder, indent=4, ensure_ascii=False)
+        dataFile.write(jsonpickle.encode(link_keywords))
+
+    # with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
+    #     json.dump(link_keywords, dataFile, cls=LinkKeywordEncoder, indent=4, ensure_ascii=False)

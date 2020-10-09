@@ -1,5 +1,6 @@
 [
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 1,
         "Description": "Message Queuing Telemetry Transport",
         "Keys": [
@@ -9,6 +10,7 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "paho",
                 "Sentences": [
                     "A broker in MQTT handles receiving published messages and sending them on to any clients who have subscribed.",
@@ -55,9 +57,14 @@
                     "is being used as the basis for an OASIS standard for messaging telemetry, a basis that’s not expected to vary much, if at all, from the MQTT specification in order to maintain compatibility.",
                     "implementations of MQTT and MQTT-SN in a variety of programming languages.",
                     "var contentTitle = \"Practical MQTT with Paho\", contentPath = \"/articles/practical-mqtt-with-paho\", contentUUID = \"1248a930-fcc8-43fe-9947-dd86d69bfe37\", authorUserCSVIds = \"101760065\";"
+                ],
+                "relationships": [
+                    "use",
+                    "interchangeable"
                 ]
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "mosquitto",
                 "Sentences": [
                     "As well as accepting connections from MQTT client applications, Mosquitto has a bridge which allows it to connect to other MQTT servers, including other Mosquitto instances.",
@@ -67,21 +74,29 @@
                     "OASIS MQTT Technical Committee",
                     "Sensors and actuators, which are often the sources and destinations of MQTT messages, can be very small and lacking in power.",
                     "This allows networks of MQTT servers to be constructed, passing MQTT messages from any location in the network to any other, depending on the configuration of the bridges."
+                ],
+                "relationships": [
+                    "interchangeable"
                 ]
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "californium",
                 "Sentences": [
                     "Together with MQTT, CoAP is one of the popular IoT protocols."
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "kura",
                 "Sentences": [
                     "It features ready-to-use field protocols (including Modbus, OPC-UA, S7), an application container, and a web-based visual data flow programming to acquire data from the field, process it at the edge, and publish it to leading IoT Cloud Platforms through MQTT connectivity."
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "om2m",
                 "Sentences": [
                     "(XML or JSON) Serialization of the request and response primitives in MQTT protocol",
@@ -101,9 +116,11 @@
                     "Test MQTT blinding in OM2M",
                     "[Missing] MQTT binding enabled official release package in OM2M website",
                     "[REQUEST] Official Release with MQTT binding feature pre-built"
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "ponte",
                 "Sentences": [
                     "MQTT",
@@ -115,9 +132,11 @@
                     "Thanks to MQTT-over-Websockets, your users can too!",
                     "You can mix and match: submit with CoAP and subscribe via MQTT.",
                     "which implements most of the MQTT 3.1 spec."
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "4diac",
                 "Sentences": [
                     "ID data format and SD/RDs config for MQTT communication",
@@ -125,27 +144,37 @@
                     "MQTT",
                     "MQTT Implementation in 4diac",
                     "some suggestions for improving MQTT layer"
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "hono",
                 "Sentences": [
                     "Hono supports devices communicating via common IoT protocols like HTTP, MQTT and AMQP out of the box."
+                ],
+                "relationships": [
+                    "use"
                 ]
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "kapua",
                 "Sentences": [
                     "Connect IoT devices to Kapua via MQTT and other protocols."
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "unide",
                 "Sentences": [
                     "We started to capture this information in a simple payload specification and just like in the introducing language example where you can use phrases via phone, letter or in person, the payload is meant to be sent over different protocols (REST, MQTT, AMQP)."
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "tahu",
                 "Sentences": [
                     "But for STATE aware OT applications like SCADA/DCS/FCS, there needs to be a succinct definition on how best to use MQTT’s built in STATE awareness in an overall SCADA/DCS/ICS infrastructure.",
@@ -158,11 +187,13 @@
                     "Tahu is currently addressing the following features required for MQTT centric IIoT:",
                     "The topic namespace needs to provide both the contextual information all the way to an individual device in the field, but also provide topic “verbs” to efficiently manage the “life cycle” of an MQTT session.",
                     "Well-defined MQTT Topic Namespace applicable for the IIoT market"
-                ]
+                ],
+                "relationships": []
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 2,
         "Description": "Open Platform Communication Unified Architecture",
         "Keys": [
@@ -170,6 +201,7 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "4diac",
                 "Sentences": [
                     "Cross compiling WAGO BSP along with OPC UA forte",
@@ -186,11 +218,13 @@
                     "OPC UA connection issue",
                     "OPC UA implementation with client on 4DIAC and server on OpenModleica",
                     "Read and Write OPC UA variables on a remote Siemens S7 PLC server"
-                ]
+                ],
+                "relationships": []
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 3,
         "Description": "Datagram Transport Layer Security",
         "Keys": [
@@ -198,33 +232,42 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "californium",
                 "Sentences": [
                     "It implements DTLS 1.2 to secure your application through ECC with pre-shared keys, certificates, or raw public keys."
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "leshan",
                 "Sentences": [
                     "DTLS based security",
                     "DTLS implementation"
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "wakaama",
                 "Sentences": [
                     "DTLS based security"
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "tinydtls",
                 "Sentences": [
                     "tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine."
-                ]
+                ],
+                "relationships": []
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 4,
         "Description": "Production Performance Management Protocol",
         "Keys": [
@@ -232,14 +275,17 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "unide",
                 "Sentences": [
                     "PPMP"
-                ]
+                ],
+                "relationships": []
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 5,
         "Description": "Attribute-based access control",
         "Keys": [
@@ -247,14 +293,17 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "keti",
                 "Sentences": [
                     "Keti is a service that was designed to protect RESTfuls API using Attribute Based Access Control (ABAC)."
-                ]
+                ],
+                "relationships": []
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 6,
         "Description": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
         "Keys": [
@@ -262,15 +311,20 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "kuksa",
                 "Sentences": [
                     "APPSTACLE project",
                     "EclipseCon Europe 2019 Presentation: Using Eclipse Kuksa for Connected Vehicle Services … is presented by project comitters and contributers at the EclispeCon Europe 2019: EclipseCon Europe 2019 Interview: APPSTACLE & Eclilpse Kuksa"
+                ],
+                "relationships": [
+                    "use"
                 ]
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 7,
         "Description": "Automotive Grade Linux",
         "Keys": [
@@ -279,6 +333,7 @@
         "projects": []
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 8,
         "Description": "Data Distribution Service",
         "Keys": [
@@ -286,18 +341,23 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "om2m",
                 "Sentences": [
                     "Eclipse Cyclone DDS"
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "4diac",
                 "Sentences": [
                     "Eclipse Cyclone DDS"
-                ]
+                ],
+                "relationships": []
             },
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "cyclonedds",
                 "Sentences": [
                     "Eclipse Cyclone DDS",
@@ -305,11 +365,13 @@
                     "Eclipse Cyclone DDS offers unique data-sharing capabilities compared to the already existing Eclipse solutions (i.e.",
                     "Eclipse Cyclone DDS | projects.eclipse.org",
                     "The OMG DDS standard is recognized as a highly applicable standard for reliable and robust data-sharing in business- and mission-critical environments ("
-                ]
+                ],
+                "relationships": []
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 9,
         "Description": "Web of Thing",
         "Keys": [
@@ -317,6 +379,7 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "thingweb",
                 "Sentences": [
                     ", as well as a runtime system (\"WoT Runtime\") providing the",
@@ -325,11 +388,13 @@
                     "WoT Scripting API",
                     "WoT Thing Description",
                     "node-wot is the official reference implementation of the W3C WoT Working Group and implements the so-called \"Servient Architecture\":"
-                ]
+                ],
+                "relationships": []
             }
         ]
     },
     {
+        "py/object": "model.LinkKeyword.LinkKeyword",
         "Id": 10,
         "Description": "the standard for contactless tickets and cards",
         "Keys": [
@@ -337,12 +402,14 @@
         ],
         "projects": [
             {
+                "py/object": "model.LinkKeyword.LinkProject",
                 "Project": "keyple",
                 "Sentences": [
                     "Calypso standard",
                     "Keyple Calypso",
                     "The project hosts a first extension to support the Calypso ticketing solution."
-                ]
+                ],
+                "relationships": []
             }
         ]
     }

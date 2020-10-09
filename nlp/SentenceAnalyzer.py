@@ -2,6 +2,8 @@
 
 import json
 import os
+import jsonpickle
+
 from model.LinkKeyword import LinkKeyword, LinkKeywordEncoder, LinkProject
 from model.GrammarRule import GrammarRule
 from types import SimpleNamespace as Namespace
@@ -17,13 +19,33 @@ from nltk.tokenize import word_tokenize
 from helpers.ProjectHelper import ProjectHelper
 from PIL import Image
 
+jsonpickle.set_preferred_backend('json')
+jsonpickle.set_encoder_options('json', ensure_ascii=False)
+
 linked_keywords = []
 grammars = []
+
 
 def load_linked_result():
     file_path = './data/linked.json'
     with open(file_path, 'r', encoding='utf8') as dataFile:
-        return json.load(dataFile, object_hook=lambda d: Namespace(**d))
+        return jsonpickle.decode(dataFile.read())
+        # return json.load(dataFile, object_hook=lambda d: Namespace(**d))
+
+
+def save_linked_result(link_keywords):
+    with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
+        # json.dump(link_keywords,
+        #           dataFile,
+        #           cls=LinkKeywordEncoder,
+        #           indent=4,
+        #           ensure_ascii=False)
+        dataFile.write(jsonpickle.encode(link_keywords))
+
+
+def load_grammar_rules(path_to_grammar):
+    with open(path_to_grammar, 'r') as grammar_data:
+        return json.load(grammar_data, object_hook=lambda d: Namespace(**d))
 
 
 def draw_tree(index, rel, data_folder, result):
@@ -68,19 +90,26 @@ def parse_with_grammar(tagger, grammars, keys, sentence, index, data_folder):
     grammar = convert_grammars(grammars)
     cp = RegexpParser(grammar)
     result = cp.parse(tokens)
+
+    relationships = []
+
     for chunk in result:
         if type(chunk) is Tree:
-            print('chunk found: ')
-            print(chunk)
+            # print('chunk found: ')
+            # print(chunk)
             for grammar in grammars:
                 matched, rel = grammar.is_matched(chunk)
                 if matched:
                     # chunk.draw()
-                    print('MATCHED FOUND------------------------\n')
-                    print(chunk)
-                    print('-------------------------------------\n')
-                    draw_tree(index, rel, data_folder, chunk)
+                    # print('MATCHED FOUND------------------------\n')
+                    # print(chunk)
+                    # print('-------------------------------------\n')
+                    # draw_tree(index, rel, data_folder, chunk)
+                    if rel not in relationships:
+                        relationships.append(rel)
                     index = index + 1
+
+    return relationships
 
 
 def start_analyze():
@@ -92,10 +121,7 @@ def start_analyze():
 
     path_to_grammar = './data/nlp/grammars.json'
 
-    grammar_rules = []
-    with open(path_to_grammar, 'r') as grammar_data:
-        grammar_rules = json.load(
-            grammar_data, object_hook=lambda d: Namespace(**d))
+    grammar_rules = load_grammar_rules(path_to_grammar)
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
 
@@ -122,10 +148,19 @@ def start_analyze():
 
             index = 1
 
+            relationships = []
+
             for sentence in project.Sentences:
-                parse_with_grammar(standford_tagger,
-                                   grammars,
-                                   linked_keyword.Keys,
-                                   sentence,
-                                   index,
-                                   data_folder)
+                sentence_relationships = parse_with_grammar(standford_tagger,
+                                                            grammars,
+                                                            linked_keyword.Keys,
+                                                            sentence,
+                                                            index,
+                                                            data_folder)
+                for rel in sentence_relationships:
+                    if rel not in relationships:
+                        relationships.append(rel)
+
+            project.add_relationships(relationships)
+
+    save_linked_result(linked_keywords)
