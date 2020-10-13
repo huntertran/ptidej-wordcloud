@@ -11,8 +11,6 @@ from nlp.SentenceAnalyzer import load_linked_result, parse_with_grammar
 
 
 def start_analyze_test():
-    linked_keywords = load_linked_result()
-
     # using the standford pos tagger for better result
     path_to_tagger = './standford_pos_tagger_data/english-bidirectional-distsim.tagger'
     path_to_jar = './standford_pos_tagger_data/stanford-postagger.jar'
@@ -29,26 +27,26 @@ def start_analyze_test():
     stopwords = combineStopwords()
     stopwords.remove('use')
 
-    for linked_keyword in linked_keywords:
+    grammars = []
 
-        grammars = []
+    keys = ['MQTT','ZMQ','RabbitMQ']
 
-        for simple_namespace in grammar_rules:
-            grammar = GrammarRule(simple_namespace.name,
-                                  simple_namespace.grammar,
-                                  linked_keyword.Keys,
-                                  simple_namespace.key_position,
-                                  simple_namespace.other_words,
-                                  simple_namespace.other_words_position)
-            grammar.set_keys(linked_keyword.Keys)
-            grammars.append(grammar)
+    for simple_namespace in grammar_rules:
+        grammar = GrammarRule(simple_namespace.name,
+                              simple_namespace.grammar,
+                              keys,
+                              simple_namespace.key_position,
+                              simple_namespace.other_words,
+                              simple_namespace.other_words_position)
+        # grammar.set_keys(linked_keyword.Keys)
+        grammars.append(grammar)
 
-        data_folder = './data/nlp/result/test/'
-        ProjectHelper.createDataFolder(data_folder)
+    data_folder = './data/nlp/result/test/'
+    ProjectHelper.createDataFolder(data_folder)
 
-        parse_with_grammar(standford_tagger,
-                           grammars,
-                           linked_keyword.Keys,
-                           'Connect IoT devices to Kapua via MQTT and other protocols.',
-                           1,
-                           data_folder)
+    parse_with_grammar(standford_tagger,
+                       grammars,
+                       keys,
+                       'Connect IoT devices to Kapua via MQTT and other protocols.',
+                       1,
+                       data_folder)

@@ -15,6 +15,10 @@
             {
                 "word": "appli",
                 "relationship": "use"
+            },
+            {
+                "word": "connect",
+                "relationship": "use"
             }
         ],
         "other_words_position": 0
@@ -79,6 +83,10 @@
             {
                 "word": "implement",
                 "relationship": "interchangeable"
+            },
+            {
+                "word": "appli",
+                "relationship": "use"
             }
         ],
         "other_words_position": 0

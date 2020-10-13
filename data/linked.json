@@ -167,7 +167,9 @@
                 "Sentences": [
                     "Connect IoT devices to Kapua via MQTT and other protocols."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
