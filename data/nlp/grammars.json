@@ -25,7 +25,7 @@
     },
     {
         "name": "noun_prep_det_key",
-        "grammar": "{<NN|NNS><IN><DT>?<KEYWORD>}",
+        "grammar": "{<NN|NNS><IN><DT>?<.*>*<KEYWORD>}",
         "key_position": -1,
         "other_words": [
             {
@@ -86,6 +86,10 @@
             },
             {
                 "word": "appli",
+                "relationship": "use"
+            },
+            {
+                "word": "support",
                 "relationship": "use"
             }
         ],

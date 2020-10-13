@@ -203,7 +203,7 @@
         "Id": 2,
         "Description": "Open Platform Communication Unified Architecture",
         "Keys": [
-            "OPC UA"
+            "OPCUA"
         ],
         "projects": [
             {
@@ -376,7 +376,9 @@
                     "Eclipse Cyclone DDS | projects.eclipse.org",
                     "The OMG DDS standard is recognized as a highly applicable standard for reliable and robust data-sharing in business- and mission-critical environments ("
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             }
         ]
     },
@@ -399,7 +401,9 @@
                     "WoT Thing Description",
                     "node-wot is the official reference implementation of the W3C WoT Working Group and implements the so-called \"Servient Architecture\":"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             }
         ]
     },

@@ -29,7 +29,7 @@ def start_analyze_test():
 
     grammars = []
 
-    keys = ['MQTT','ZMQ','RabbitMQ']
+    keys = ['WoT']
 
     for simple_namespace in grammar_rules:
         grammar = GrammarRule(simple_namespace.name,
@@ -47,6 +47,6 @@ def start_analyze_test():
     parse_with_grammar(standford_tagger,
                        grammars,
                        keys,
-                       'Connect IoT devices to Kapua via MQTT and other protocols.',
+                       'node-wot is the official reference implementation of the W3C WoT Working Group and implements the so-called \"Servient Architecture\":',
                        1,
                        data_folder)

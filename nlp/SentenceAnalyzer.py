@@ -74,6 +74,19 @@ def modify_tag(keys, tokens):
             tokens[num] = (token[0], 'KEYWORD')
     return tokens
 
+def transform_keys_in_sentence(keys, sentence):
+    for key in keys:
+        if ' ' in key:
+            sentence = sentence.replace(key, key.replace(' ', ''))
+    
+    return sentence
+
+def transform_keys(keys):
+    for num, key in enumerate(keys):
+        if ' ' in key:
+            keys[num] = key.replace(' ', '')
+
+    return keys
 
 def remove_sentence_splitter(tokens):
     return [token for token in tokens if token[0] not in [',',
@@ -84,6 +97,8 @@ def remove_sentence_splitter(tokens):
 
 
 def parse_with_grammar(tagger, grammars, keys, sentence, index, data_folder):
+    sentence = transform_keys_in_sentence(keys, sentence)
+    keys = transform_keys(keys)
     tokens = tagger.tag(word_tokenize(sentence))
     tokens = remove_sentence_splitter(tokens)
     tokens = modify_tag(keys, tokens)
