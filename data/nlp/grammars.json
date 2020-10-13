@@ -53,7 +53,7 @@
     },
     {
         "name": "key_noun",
-        "grammar": "{<KEYWORD><NNP>}",
+        "grammar": "{<KEYWORD><NNP|NN>}",
         "key_position": 0,
         "other_words": [
             {

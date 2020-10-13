@@ -49,6 +49,6 @@ def start_analyze_test():
         parse_with_grammar(standford_tagger,
                            grammars,
                            linked_keyword.Keys,
-                           'which implements most of the MQTT 3.1 spec',
+                           'Connect IoT devices to Kapua via MQTT and other protocols.',
                            1,
                            data_folder)

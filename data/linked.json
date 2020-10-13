@@ -147,7 +147,9 @@
                     "MQTT Implementation in 4diac",
                     "some suggestions for improving MQTT layer"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -250,7 +252,9 @@
                     "DTLS based security",
                     "DTLS implementation"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
