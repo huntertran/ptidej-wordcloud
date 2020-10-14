@@ -8,6 +8,7 @@ from model.Site import Site
 from nlp.Linker import create_link
 from nlp.SentenceAnalyzer import start_analyze
 # from topic_modeling.topic_modeling_analyzer import start_topic_modeling
+from sigma_helper.convert_data import start_convert
 
 
 settings = get_project_settings()
@@ -67,4 +68,5 @@ def nlp():
 # reactor.run()
 # nlp()
 # create_link()
-start_analyze()
+# start_analyze()
+start_convert()

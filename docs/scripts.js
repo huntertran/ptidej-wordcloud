@@ -1,6 +1,17 @@
-sigma.parsers.json('data.json', {
-    container: 'container',
+var s = new sigma({
+    renderer: {
+        container: document.getElementById('container'),
+        type: 'canvas'
+    },
     settings: {
-        defaultNodeColor: '#ec5148'
+        minArrowSize: 10
     }
 });
+
+sigma.parsers.json(
+    'graph.json',
+    s,
+    function () {
+        s.refresh();
+    }
+);
