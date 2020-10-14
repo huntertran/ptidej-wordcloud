@@ -21,6 +21,8 @@ class edge(object):
         self.source = source
         self.target = target
         self.size = size
+        self.type = 'curvedArrow'
+        self.color = '#ff0000'
 
 
 class data(object):
@@ -53,7 +55,7 @@ class data(object):
                             relationship,
                             project.Project,
                             str(linked_keyword.Id),
-                            1)
+                            2)
             self.edges.append(new_edge)
 
     def add_projects(self, linked_keyword):
@@ -76,7 +78,7 @@ def load_linked_result():
 
 def save_graph(data):
     with open('./docs/graph.json', 'w', encoding='utf8') as dataFile:
-        dataFile.write(jsonpickle.encode(data))
+        dataFile.write(jsonpickle.encode(data, unpicklable=False))
 
 
 def start_convert():

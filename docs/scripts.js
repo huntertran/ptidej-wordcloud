@@ -5,9 +5,9 @@ var s = new sigma({
     },
     settings: {
         minArrowSize: 10,
-        edgeLabelSize: 'proportional',
         enableEdgeHovering: true,
-        edgeHoverSizeRatio: 2
+        edgeHoverSizeRatio: 2,
+        // defaultEdgeColor: "#ff0000"
     }
 });
 

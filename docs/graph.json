@@ -1,1 +1,308 @@
-{"py/object": "sigma_helper.convert_data.data", "nodes": [{"py/object": "sigma_helper.convert_data.node", "id": 1, "label": "Message Queuing Telemetry Transport", "x": 12, "y": 5, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": "paho", "label": "paho", "x": 12, "y": 2, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "mosquitto", "label": "mosquitto", "x": 17, "y": 1, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "californium", "label": "californium", "x": 17, "y": 3, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "kura", "label": "kura", "x": 28, "y": 26, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "om2m", "label": "om2m", "x": 8, "y": 17, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "ponte", "label": "ponte", "x": 15, "y": 14, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "4diac", "label": "4diac", "x": 27, "y": 30, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "hono", "label": "hono", "x": 17, "y": 19, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "kapua", "label": "kapua", "x": 8, "y": 18, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "unide", "label": "unide", "x": 1, "y": 14, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "tahu", "label": "tahu", "x": 0, "y": 2, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": 2, "label": "Open Platform Communication Unified Architecture", "x": 16, "y": 22, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": 3, "label": "Datagram Transport Layer Security", "x": 19, "y": 5, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": "leshan", "label": "leshan", "x": 14, "y": 15, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "wakaama", "label": "wakaama", "x": 21, "y": 12, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": "tinydtls", "label": "tinydtls", "x": 0, "y": 16, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": 4, "label": "Production Performance Management Protocol", "x": 7, "y": 22, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": 5, "label": "Attribute-based access control", "x": 21, "y": 22, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": "keti", "label": "keti", "x": 2, "y": 28, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": 6, "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs", "x": 18, "y": 20, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": "kuksa", "label": "kuksa", "x": 1, "y": 15, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": 7, "label": "Automotive Grade Linux", "x": 14, "y": 0, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": 8, "label": "Data Distribution Service", "x": 2, "y": 4, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": "cyclonedds", "label": "cyclonedds", "x": 25, "y": 0, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": 9, "label": "Web of Thing", "x": 10, "y": 0, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": "thingweb", "label": "thingweb", "x": 29, "y": 7, "size": 5}, {"py/object": "sigma_helper.convert_data.node", "id": 10, "label": "the standard for contactless tickets and cards", "x": 9, "y": 0, "size": 10}, {"py/object": "sigma_helper.convert_data.node", "id": "keyple", "label": "keyple", "x": 1, "y": 23, "size": 5}], "edges": [{"py/object": "sigma_helper.convert_data.edge", "id": "e_paho_use", "label": "use", "source": "paho", "target": "1", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_paho_interchangeable", "label": "interchangeable", "source": "paho", "target": "1", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_mosquitto_interchangeable", "label": "interchangeable", "source": "mosquitto", "target": "1", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_ponte_interchangeable", "label": "interchangeable", "source": "ponte", "target": "1", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_4diac_interchangeable", "label": "interchangeable", "source": "4diac", "target": "1", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_hono_use", "label": "use", "source": "hono", "target": "1", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_kapua_use", "label": "use", "source": "kapua", "target": "1", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_leshan_interchangeable", "label": "interchangeable", "source": "leshan", "target": "3", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_kuksa_use", "label": "use", "source": "kuksa", "target": "6", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_cyclonedds_interchangeable", "label": "interchangeable", "source": "cyclonedds", "target": "8", "size": 1}, {"py/object": "sigma_helper.convert_data.edge", "id": "e_thingweb_interchangeable", "label": "interchangeable", "source": "thingweb", "target": "9", "size": 1}]}
+{
+    "nodes": [
+        {
+            "id": 1,
+            "label": "Message Queuing Telemetry Transport",
+            "x": 28,
+            "y": 29,
+            "size": 10
+        },
+        {
+            "id": "paho",
+            "label": "paho",
+            "x": 4,
+            "y": 19,
+            "size": 5
+        },
+        {
+            "id": "mosquitto",
+            "label": "mosquitto",
+            "x": 17,
+            "y": 23,
+            "size": 5
+        },
+        {
+            "id": "californium",
+            "label": "californium",
+            "x": 5,
+            "y": 10,
+            "size": 5
+        },
+        {
+            "id": "kura",
+            "label": "kura",
+            "x": 28,
+            "y": 9,
+            "size": 5
+        },
+        {
+            "id": "om2m",
+            "label": "om2m",
+            "x": 25,
+            "y": 12,
+            "size": 5
+        },
+        {
+            "id": "ponte",
+            "label": "ponte",
+            "x": 27,
+            "y": 27,
+            "size": 5
+        },
+        {
+            "id": "4diac",
+            "label": "4diac",
+            "x": 15,
+            "y": 7,
+            "size": 5
+        },
+        {
+            "id": "hono",
+            "label": "hono",
+            "x": 25,
+            "y": 8,
+            "size": 5
+        },
+        {
+            "id": "kapua",
+            "label": "kapua",
+            "x": 30,
+            "y": 14,
+            "size": 5
+        },
+        {
+            "id": "unide",
+            "label": "unide",
+            "x": 3,
+            "y": 30,
+            "size": 5
+        },
+        {
+            "id": "tahu",
+            "label": "tahu",
+            "x": 10,
+            "y": 20,
+            "size": 5
+        },
+        {
+            "id": 2,
+            "label": "Open Platform Communication Unified Architecture",
+            "x": 1,
+            "y": 4,
+            "size": 10
+        },
+        {
+            "id": 3,
+            "label": "Datagram Transport Layer Security",
+            "x": 26,
+            "y": 14,
+            "size": 10
+        },
+        {
+            "id": "leshan",
+            "label": "leshan",
+            "x": 27,
+            "y": 9,
+            "size": 5
+        },
+        {
+            "id": "wakaama",
+            "label": "wakaama",
+            "x": 0,
+            "y": 22,
+            "size": 5
+        },
+        {
+            "id": "tinydtls",
+            "label": "tinydtls",
+            "x": 19,
+            "y": 6,
+            "size": 5
+        },
+        {
+            "id": 4,
+            "label": "Production Performance Management Protocol",
+            "x": 9,
+            "y": 20,
+            "size": 10
+        },
+        {
+            "id": 5,
+            "label": "Attribute-based access control",
+            "x": 1,
+            "y": 1,
+            "size": 10
+        },
+        {
+            "id": "keti",
+            "label": "keti",
+            "x": 17,
+            "y": 11,
+            "size": 5
+        },
+        {
+            "id": 6,
+            "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
+            "x": 3,
+            "y": 21,
+            "size": 10
+        },
+        {
+            "id": "kuksa",
+            "label": "kuksa",
+            "x": 4,
+            "y": 22,
+            "size": 5
+        },
+        {
+            "id": 7,
+            "label": "Automotive Grade Linux",
+            "x": 10,
+            "y": 23,
+            "size": 10
+        },
+        {
+            "id": 8,
+            "label": "Data Distribution Service",
+            "x": 15,
+            "y": 8,
+            "size": 10
+        },
+        {
+            "id": "cyclonedds",
+            "label": "cyclonedds",
+            "x": 14,
+            "y": 11,
+            "size": 5
+        },
+        {
+            "id": 9,
+            "label": "Web of Thing",
+            "x": 21,
+            "y": 26,
+            "size": 10
+        },
+        {
+            "id": "thingweb",
+            "label": "thingweb",
+            "x": 25,
+            "y": 8,
+            "size": 5
+        },
+        {
+            "id": 10,
+            "label": "the standard for contactless tickets and cards",
+            "x": 21,
+            "y": 25,
+            "size": 10
+        },
+        {
+            "id": "keyple",
+            "label": "keyple",
+            "x": 10,
+            "y": 22,
+            "size": 5
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_paho_use",
+            "label": "use",
+            "source": "paho",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_paho_interchangeable",
+            "label": "interchangeable",
+            "source": "paho",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_mosquitto_interchangeable",
+            "label": "interchangeable",
+            "source": "mosquitto",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_ponte_interchangeable",
+            "label": "interchangeable",
+            "source": "ponte",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_4diac_interchangeable",
+            "label": "interchangeable",
+            "source": "4diac",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_hono_use",
+            "label": "use",
+            "source": "hono",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_kapua_use",
+            "label": "use",
+            "source": "kapua",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_leshan_interchangeable",
+            "label": "interchangeable",
+            "source": "leshan",
+            "target": "3",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_kuksa_use",
+            "label": "use",
+            "source": "kuksa",
+            "target": "6",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_cyclonedds_interchangeable",
+            "label": "interchangeable",
+            "source": "cyclonedds",
+            "target": "8",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_thingweb_interchangeable",
+            "label": "interchangeable",
+            "source": "thingweb",
+            "target": "9",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        }
+    ]
+}
