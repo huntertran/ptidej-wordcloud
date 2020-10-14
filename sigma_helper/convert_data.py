@@ -15,10 +15,12 @@ class node(object):
 
 
 class edge(object):
-    def __init__(self, id, source, target):
+    def __init__(self, id, label, source, target, size):
         self.id = id
+        self.label = label
         self.source = source
         self.target = target
+        self.size = size
 
 
 class data(object):
@@ -48,8 +50,10 @@ class data(object):
 
         for relationship in project.relationships:
             new_edge = edge('e_' + project.Project + '_' + relationship,
+                            relationship,
                             project.Project,
-                            linked_keyword.Id)
+                            str(linked_keyword.Id),
+                            1)
             self.edges.append(new_edge)
 
     def add_projects(self, linked_keyword):

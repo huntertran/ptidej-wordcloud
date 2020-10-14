@@ -4,7 +4,8 @@ var s = new sigma({
         type: 'canvas'
     },
     settings: {
-        minArrowSize: 10
+        minArrowSize: 10,
+        edgeLabelSize: 'proportional'
     }
 });
 
