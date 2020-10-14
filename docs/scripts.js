@@ -5,7 +5,9 @@ var s = new sigma({
     },
     settings: {
         minArrowSize: 10,
-        edgeLabelSize: 'proportional'
+        edgeLabelSize: 'proportional',
+        enableEdgeHovering: true,
+        edgeHoverSizeRatio: 2
     }
 });
 
@@ -16,3 +18,5 @@ sigma.parsers.json(
         s.refresh();
     }
 );
+
+// s.startForceAtlas2();
