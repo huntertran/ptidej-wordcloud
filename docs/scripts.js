@@ -11,12 +11,25 @@ var s = new sigma({
     }
 });
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// sigma.plugins.relativeSize(s, 1);
+
 sigma.parsers.json(
     'graph.json',
     s,
-    function () {
+    async function () {
         s.refresh();
+        s.startForceAtlas2({
+            worker: true,
+            barnesHutOptimize: false,
+            scalingRatio: 1
+        });
+        await sleep(3000);
+        s.killForceAtlas2();
     }
 );
 
-// s.startForceAtlas2();
+// window.setTimeout(function () { s.killForceAtlas2() }, 5000);

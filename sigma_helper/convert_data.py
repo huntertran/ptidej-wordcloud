@@ -2,27 +2,28 @@ import random
 import jsonpickle
 
 jsonpickle.set_preferred_backend('json')
-jsonpickle.set_encoder_options('json', ensure_ascii=False)
+jsonpickle.set_encoder_options('json', ensure_ascii=False, indent=4)
 
 
 class node(object):
-    def __init__(self, id, label, x, y, size):
+    def __init__(self, id, label, x, y, size, color):
         self.id = id
         self.label = label
         self.x = x
         self.y = y
         self.size = size
+        self.color = color
 
 
 class edge(object):
-    def __init__(self, id, label, source, target, size):
+    def __init__(self, id, label, source, target, size, color):
         self.id = id
         self.label = label
         self.source = source
         self.target = target
         self.size = size
         self.type = 'curvedArrow'
-        self.color = '#ff0000'
+        self.color = color
 
 
 class data(object):
@@ -37,7 +38,8 @@ class data(object):
                         linked_keyword.Description,
                         x,
                         y,
-                        10)
+                        10,
+                        '#ff0000')
         self.nodes.append(new_node)
 
     def add_project(self, project, linked_keyword):
@@ -47,7 +49,8 @@ class data(object):
                         project.Project,
                         x,
                         y,
-                        5)
+                        5,
+                        '#000000')
         self.nodes.append(new_node)
 
         for relationship in project.relationships:
@@ -55,7 +58,8 @@ class data(object):
                             relationship,
                             project.Project,
                             str(linked_keyword.Id),
-                            2)
+                            2,
+                            '#ff0000')
             self.edges.append(new_edge)
 
     def add_projects(self, linked_keyword):
@@ -64,10 +68,33 @@ class data(object):
             if not res:
                 self.add_project(project, linked_keyword)
 
+    def add_transparent_link_between_keys(self, linked_keywords):
+        # transparent node
+        transparent_node = node('trans',
+                                '',
+                                30,
+                                30,
+                                1,
+                                '#00000000')
+
+        self.nodes.append(transparent_node)
+
+        for linked_keyword in linked_keywords:
+            # for target in linked_keywords:
+            #     if target.Id is not linked_keyword.Id:
+            new_edge = edge('transparent_' + str(linked_keyword.Id),
+                            '',
+                            'trans',
+                            str(linked_keyword.Id),
+                            0.2,
+                            '#00000000')
+            self.edges.append(new_edge)
+
     def parsed_result(self, linked_keywords):
         for linked_keyword in linked_keywords:
             self.add_key(linked_keyword)
             self.add_projects(linked_keyword)
+        self.add_transparent_link_between_keys(linked_keywords)
 
 
 def load_linked_result():

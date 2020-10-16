@@ -3,205 +3,242 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 28,
-            "y": 29,
-            "size": 10
+            "x": 30,
+            "y": 8,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": "paho",
             "label": "paho",
-            "x": 4,
-            "y": 19,
-            "size": 5
+            "x": 23,
+            "y": 23,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "mosquitto",
             "label": "mosquitto",
-            "x": 17,
-            "y": 23,
-            "size": 5
+            "x": 9,
+            "y": 11,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "californium",
             "label": "californium",
-            "x": 5,
-            "y": 10,
-            "size": 5
+            "x": 4,
+            "y": 14,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "kura",
             "label": "kura",
-            "x": 28,
-            "y": 9,
-            "size": 5
+            "x": 24,
+            "y": 17,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "om2m",
             "label": "om2m",
-            "x": 25,
-            "y": 12,
-            "size": 5
+            "x": 8,
+            "y": 15,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "ponte",
             "label": "ponte",
-            "x": 27,
-            "y": 27,
-            "size": 5
+            "x": 3,
+            "y": 13,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "4diac",
             "label": "4diac",
-            "x": 15,
-            "y": 7,
-            "size": 5
+            "x": 12,
+            "y": 15,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "hono",
             "label": "hono",
-            "x": 25,
+            "x": 29,
             "y": 8,
-            "size": 5
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "kapua",
             "label": "kapua",
-            "x": 30,
-            "y": 14,
-            "size": 5
+            "x": 6,
+            "y": 13,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "unide",
             "label": "unide",
-            "x": 3,
-            "y": 30,
-            "size": 5
+            "x": 17,
+            "y": 9,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "tahu",
             "label": "tahu",
-            "x": 10,
-            "y": 20,
-            "size": 5
+            "x": 7,
+            "y": 15,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": 2,
             "label": "Open Platform Communication Unified Architecture",
-            "x": 1,
-            "y": 4,
-            "size": 10
+            "x": 6,
+            "y": 26,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": 3,
             "label": "Datagram Transport Layer Security",
-            "x": 26,
-            "y": 14,
-            "size": 10
+            "x": 5,
+            "y": 20,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": "leshan",
             "label": "leshan",
-            "x": 27,
-            "y": 9,
-            "size": 5
+            "x": 14,
+            "y": 30,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "wakaama",
             "label": "wakaama",
-            "x": 0,
-            "y": 22,
-            "size": 5
+            "x": 22,
+            "y": 24,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": "tinydtls",
             "label": "tinydtls",
-            "x": 19,
-            "y": 6,
-            "size": 5
+            "x": 13,
+            "y": 5,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": 4,
             "label": "Production Performance Management Protocol",
-            "x": 9,
-            "y": 20,
-            "size": 10
+            "x": 2,
+            "y": 18,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": 5,
             "label": "Attribute-based access control",
-            "x": 1,
-            "y": 1,
-            "size": 10
+            "x": 25,
+            "y": 0,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": "keti",
             "label": "keti",
-            "x": 17,
-            "y": 11,
-            "size": 5
+            "x": 25,
+            "y": 25,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": 6,
             "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 3,
-            "y": 21,
-            "size": 10
+            "x": 18,
+            "y": 25,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": "kuksa",
             "label": "kuksa",
-            "x": 4,
-            "y": 22,
-            "size": 5
+            "x": 30,
+            "y": 5,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": 7,
             "label": "Automotive Grade Linux",
-            "x": 10,
-            "y": 23,
-            "size": 10
+            "x": 17,
+            "y": 0,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": 8,
             "label": "Data Distribution Service",
-            "x": 15,
-            "y": 8,
-            "size": 10
+            "x": 3,
+            "y": 10,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": "cyclonedds",
             "label": "cyclonedds",
-            "x": 14,
-            "y": 11,
-            "size": 5
+            "x": 8,
+            "y": 9,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": 9,
             "label": "Web of Thing",
-            "x": 21,
-            "y": 26,
-            "size": 10
+            "x": 20,
+            "y": 13,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": "thingweb",
             "label": "thingweb",
-            "x": 25,
-            "y": 8,
-            "size": 5
+            "x": 30,
+            "y": 11,
+            "size": 5,
+            "color": "#000000"
         },
         {
             "id": 10,
             "label": "the standard for contactless tickets and cards",
-            "x": 21,
-            "y": 25,
-            "size": 10
+            "x": 20,
+            "y": 2,
+            "size": 10,
+            "color": "#ff0000"
         },
         {
             "id": "keyple",
             "label": "keyple",
-            "x": 10,
-            "y": 22,
-            "size": 5
+            "x": 6,
+            "y": 5,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "trans",
+            "label": "",
+            "x": 30,
+            "y": 30,
+            "size": 1,
+            "color": "#00000000"
         }
     ],
     "edges": [
@@ -303,6 +340,96 @@
             "size": 2,
             "type": "curvedArrow",
             "color": "#ff0000"
+        },
+        {
+            "id": "transparent_1",
+            "label": "",
+            "source": "trans",
+            "target": "1",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_2",
+            "label": "",
+            "source": "trans",
+            "target": "2",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_3",
+            "label": "",
+            "source": "trans",
+            "target": "3",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_4",
+            "label": "",
+            "source": "trans",
+            "target": "4",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_5",
+            "label": "",
+            "source": "trans",
+            "target": "5",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_6",
+            "label": "",
+            "source": "trans",
+            "target": "6",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_7",
+            "label": "",
+            "source": "trans",
+            "target": "7",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_8",
+            "label": "",
+            "source": "trans",
+            "target": "8",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_9",
+            "label": "",
+            "source": "trans",
+            "target": "9",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
+        },
+        {
+            "id": "transparent_10",
+            "label": "",
+            "source": "trans",
+            "target": "10",
+            "size": 0.2,
+            "type": "curvedArrow",
+            "color": "#00000000"
         }
     ]
 }
