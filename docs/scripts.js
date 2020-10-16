@@ -11,25 +11,36 @@ var s = new sigma({
     }
 });
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-// sigma.plugins.relativeSize(s, 1);
-
 sigma.parsers.json(
     'graph.json',
     s,
     async function () {
-        s.refresh();
-        s.startForceAtlas2({
-            worker: true,
-            barnesHutOptimize: false,
-            scalingRatio: 1
-        });
-        await sleep(3000);
-        s.killForceAtlas2();
+        await config();
     }
 );
 
-// window.setTimeout(function () { s.killForceAtlas2() }, 5000);
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function config() {
+    s.refresh();
+
+    sigma.plugins.relativeSize(s, 5);
+
+    s.startForceAtlas2({
+        worker: true,
+        barnesHutOptimize: false,
+        scalingRatio: 1
+    });
+    await sleep(3000);
+    s.killForceAtlas2();
+
+    var noOverLapListener = s.configNoverlap({
+        nodeMargin: 3.0,
+        scaleNodes: 1.3
+    });
+    s.startNoverlap();
+
+    var dragListener = new sigma.plugins.dragNodes(s, s.renderers[0]);
+}
