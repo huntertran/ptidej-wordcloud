@@ -1,0 +1,1806 @@
+Mihini | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Mihini
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Mihini project delivers an embedded runtime running on top of Linux, that exposes an high-level Lua API for building Machine-to-Machine applications.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 1.0
+Latest Releases:
+From August 16th, 2013 to August 16th, 2013
+Name
+Date
+Review
+0.9
+2013-08-16
+Project Links
+Website
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mihini | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+Downloads
+Mihini
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Project Links
+Website
+Wiki
+Related Projects
+Mihini | projects.eclipse.org
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+Who's Involved
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Mihini
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Project Members:
+0.9 Release Review | projects.eclipse.org
+Historical Committers
+Benjamin Cabé
+Cuero Bugot
+Fabien Fleutot
+Laurent Barthelemy
+minh GIANG
+Romain Perier
+Silvère Chabal
+Simon Bernard
+Project Links
+Website
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.9 | projects.eclipse.org
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Mihini | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Home
+Projects
+Eclipse IoT
+Mihini
+0.9
+0.9 Release Review
+Mihini 0.9 Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, August 14, 2013
+Project:
+Mihini
+Release Review
+Release:
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+0.9
+Description:
+The Mihini project delivers an embedded runtime running on top of Linux, that exposes a high-level Lua API for building Machine-to-Machine applications.
+Links:
+Review documentation
+Sign in
+to post comments.
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Mihini | projects.eclipse.org
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+0.9
+Mihini 0.9
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+The Mihini project delivers an embedded runtime running on top of Linux, that exposes a high-level Lua API for building Machine-to-Machine applications.
+Release Date:
+Friday, August 16, 2013
+Review:
+0.9 Release Review
+Project Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Home
+Projects
+Eclipse IoT
+Mihini
+Governance
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Mihini
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Website
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Governance
+(active tab)
+Contact Us
+Scope:
+The scope of the Mihini project is to provide an open source implementation of an embedded runtime exposing high-level Lua API that can be used to develop portable M2M applications easily.
+The Mihini project may contain server-side runtime components that can be used for testing purposes but does not aim at delivering components that can be reused directly in M2M servers.
+Working Group:
+Internet of Things (IoT)
+Releases:
+Name
+Date
+0.9
+2013-08-16
+Reviews:
+Name
+Date
+Termination Review
+2015-09-02
+Top-level Project Creation Review
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+Developer Resources
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+2014-08-13
+0.9 Release Review
+2013-08-14
+Creation
+2012-08-29
+Project Links
+Proposal
+Website
+Wiki
+Current Release
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mihini
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Report a Bug
+View Help wanted Bugs
+View Open Bugs
+Summarize Bugs
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+mihini/org.eclipse.mihini.samples.git -
+Browse Repository
+mihini/org.eclipse.mihini.git -
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Browse Repository
+Project Links
+Website
+Wiki
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.9 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+0.9
+Release Plan
+Mihini 0.9
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Friday, August 16, 2013
+Deliverables:
+User guide & API documentation
+Source code
+Execution environment for Koneki LDT
+Milestones:
+Name
+Date
+Description
+0.9 M1
+2013/07/19
+All Features must be present in M1.
+0.9 RC1
+2013/08/09
+Time between M1 and RC1 should be used to do validation and bug fixes.
+0.9
+2013/08/16
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mihini | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Proposals
+Mihini
+This page is deprecated and may contain some information that is no longer relevant or accurate.
+Mihini
+Mihini
+The Mihini project is a proposed open source incubator project under the
+Eclipse Technology Project
+.
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the Eclipse community. Please send all feedback to the
+Eclipse Proposals
+Forum.
+Background
+One big challenge when it comes to developing an embedded application, and this is even more true for M2M development, is to hide the complexity inherent to embedded and wireless systems.
+While many M2M embedded applications are often reduced to a simple problem consisting in collecting data on physical assets and sending them to a server so as this data can be processed, there are many obstacles that can seriously slow down the implementation of such applications: constrained resources (memory, CPU, …), communication with different kind of hardware by using specific protocols, low-bandwidth/unreliable mobile networks, …
+There are open source solutions facilitating the development of M2M solutions but they are usually targetting embedded devices powerful enough in terms of memory and processing power, thus offering no viable solution for devices with more limited resources.
+For this reason, the proposed Mihini project aims at delivering an M2M Application Framework leveraging the Lua programming language — a lightweight embeddable script language — that can easily be used on constrained targets running Linux.
+Scope
+The scope of the Mihini project is to provide an open source implementation of an embedded runtime exposing high-level Lua API that can be used to develop portable M2M applications easily.
+The Mihini project may contain server-side runtime components that can be used for testing purposes but does not aim at delivering components that can be reused directly in M2M servers.
+Description
+The goal of the Mihini project is to deliver a first-class, easy to learn and easy to port, embedded framework for M2M development, that integrates well with Eclipse tools.
+The Mihini Framework will expose Lua API for the following key features:
+Data Management
+— The Mihini Application Framework will expose API to consolidate and send data corresponding to physical assets connected to an M2M system, without having to worry about underlying network constraints ;
+I/O Management
+— Mihini aims at facilitating the access to system I/Os (serial port, GPIO, …) and provide a consistent API to implement protocol parsers ;
+Device Management
+— Mihini will propose an API to interact with the underlying system to perform low-level operations (reboot, AT commands, …) ;
+Application Management
+— Mihini will allow to remotely control the installation and execution of applications, independently of their language. This includes allowing an IDE to monitor and deploy applications easily ;
+Application Settings Management
+— Mihini will include an API to manipulate the configuration settings of applications developed using the Application Framework.
+Mihini will be designed so as to enable first-class support by development tools (remote debugging, application monitoring, communications tracing, …), and in particular it will provide a REST API giving access to core features of the framework.
+Why Eclipse?
+Since Mihini is providing an M2M framework, it has by nature strong relationships with the M2M activities at Eclipse:
+The API provided by the Mihini project will be defined by the
+M2M Industry Working Group
+;
+The tools for Mihini will be developed by the
+Koneki
+project team. In particular, Mihini will benefit from the already existing Lua Development Tools, and it is expected that Koneki will be enhanced with a Target Management feature that will allow easy remote debugging and deployment of Mihini applications ;
+The
+Paho
+project delivers implementations of M2M messaging protocols. Mihini will initially use HTTP and TCP as transport layers, and aims at being compatible with the messaging protocols delivered by Paho.
+While Mihini is focusing on delivering a Lua API, the project team will work on providing OSGi bundles that interact with the Mihini runtime to allow better integration between the Java and Lua virtual machines, therefore a possible collaboration with the Equinox project team is expected.
+Initial Contribution
+The Mihini project will be seeded with an initial contribution from Sierra Wireless:
+A
+provisional
+Lua API for I/O management, Asset Management, and Device Management ;
+The specification of a protocol used to interact with an M2M server ;
+A documentation explaining how to port the Mihini framework on a Linux target.
+Legal Issues
+The Mihini initial contribution is based on an enhanced version of the Lua VM which has already been approved for the Koneki project (CQ 5575).
+While Mihini dependencies are mostly libraries in the public domain or in MIT licenses with pretty clear pedigree, there is one LGPL library that might require a slight refactoring in order to be turned into a "works-with" dependency.
+Committers
+The following individuals are proposed as initial committers to the project:
+Benjamin Cabé
+, Sierra Wireless (project co-lead)
+Benjamin is leading Sierra Wireless effort in the M2M Industry Working Group, as well as the Koneki project (tools for M2M).
+He is a long-time contributor on many Eclipse projects (Eclipse, PDE, EMF, ECF, …) and committer on e4 and PDE. He loves spreading the good word about Eclipse awesomeness at various conferences and by writing blogs and articles.
+Cuero Bugot
+, Sierra Wireless (project co-lead)
+Cuero is leading the development effort on Mihini. He brings over 10 years of experience in embedded systems. He is one of the original creators of this project based on Lua, and he invests a fair amount of his time rallying people around this wonderful programming language!
+Laurent Barthélémy
+, Sierra Wireless
+Laurent is an Embedded Software developer at Sierra Wireless, one of the initial developers of Mihini. He has more than 5 years of experience with embedded systems, software developments and M2M environments.
+Simon Bernard
+, Sierra Wireless
+Simon is the lead developer of Sierra Wireless Tools for Embedded Development, and is the architect and main developer of Koneki Lua Development Tools. He has 5+ years of experience with Eclipse development (RCP, EMF, GMF, CDT, …), and knows the Eclipse Development Process well.
+Fabien Fleutot
+, Sierra Wireless
+Fabien is an expert in embedded systems and programming languages semantics, as well as an active member of the Lua community. He has over 12 years of experience with embedded, distributed and networked systems, both in academia and in the industry, including 5 years at Sierra Wireless designing better ways to create and deploy M2M solutions.
+We welcome additional committers and contributions.
+Mentors
+The following Architecture Council members will mentor this project:
+Chris Aniszczyk, Twitter.
+Marting Oberhuber, Intel Windriver.
+Interested Parties
+The following individuals, organisations, companies and projects have expressed interest in this project:
+Rick Bullotta, Thingworx.
+Ranganathan Panchapakesan, Wipro Technologies.
+Justin Cormack, ljsyscall project.
+Mimi K. Tam, Verizon.
+Pascal Rapicault.
+Tentative Plan
+Oct 2012 – Sierra Wireless initial contribution
+Lua API for Device, Asset and I/O management
+Documentation (API, porting guide)
+Q4 2012
+Lua API for Application Management
+Collaboration with Koneki project team to deliver Target Management tools
+First Eclipse release (0.8)
+early 2013
+Implementation of REST remote control API
+June 2013
+Release 1.0 version with Kepler (tentative)
+Changes to this Document
+Date
+Change
+16-Jul-2012
+Document created
+16-Aug-2012
+Updated bios of initial contributors.
+Added interested parties and AC mentors
+Links
+Proposals
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mihini | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+Contact Us
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Mihini
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+mihini-dev
+-
+Project Links
+Website
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.9 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+0.9 | projects.eclipse.org
+Google Tag Manager
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Mihini
+0.9
+Issues
+Mihini 0.9
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This release targets these issues.
+= resolved/fixed
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+= unsolved/reopened
+Mihini (69)
+Agent (69)
+401615
+Modbus serial compilation error
+[verified/fixed]
+401629
+Add a GPIO module
+[resolved/fixed]
+402034
+Setup continuous integration
+[resolved/fixed]
+402152
+Deploy M3DA server on m2m.
+eclipse.
+org
+[resolved/fixed]
+402289
+REST API to interact with Mihini agent
+[resolved/fixed]
+Home
+Projects
+Eclipse IoT
+Mihini
+0.9
+Review Information
+Mihini 0.9
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+The Mihini project delivers an embedded runtime running on top of Linux, that exposes a high-level Lua API for building Machine-to-Machine applications.
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+402365
+Add a README.
+MD at the root of the Git repository
+[resolved/fixed]
+402373
+"non-free" submodule should probably not be part of Mihini's repo
+[resolved/fixed]
+402537
+password negotiation specification
+[resolved/fixed]
+402620
+Promote M3DA sandbox server on m2m.
+eclipse.
+org
+[closed/moved]
+402869
+Rename test framework folder and remove old test framework version
+[resolved/fixed]
+402894
+Mihini agent C connector: malformed JSON data sent through TableRow EMP command
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+[resolved/fixed]
+402906
+Add new variables to dummystatusreport tree handler
+[resolved/fixed]
+403296
+A developer can port Mihini to his custom hw
+[resolved/fixed]
+403298
+A developer can configure and activate the security features
+[closed/fixed]
+403302
+.
+agent.
+executable.
+version.
+h refers to 9.
+0-DEV
+[resolved/fixed]
+403319
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Review, document and provide convenient API to error status codes
+[resolved/fixed]
+403335
+Complete the project summary
+[resolved/fixed]
+403336
+Add a user getting started section
+[resolved/fixed]
+403338
+Add information about how to contact the team
+[resolved/fixed]
+403503
+Update newConsolidation API documentation
+[resolved/fixed]
+403511
+agent update module doesn't forward getfreespace error to server
+[resolved/fixed]
+403638
+Impossible to get the device to communicate with the server: serialization issue
+[resolved/fixed]
+Back to the top
+403654
+Find a solution for IP refusal for 3rd party libraries
+[resolved/fixed]
+403671
+bitlib module in AAF
+[resolved/worksforme]
+403729
+policy flushing doesn't return srv connection status
+[resolved/fixed]
+403875
+Provide agent modules documentation in git repository
+[resolved/fixed]
+404002
+Command sent to a Lua application that returns error is not acknowledged to the server
+[resolved/fixed]
+404510
+[resolved/fixed]
+404521
+agent update module sends relative path in update notifications
+[resolved/fixed]
+404621
+Compress the runtime files for saving space of embedded target
+[resolved/fixed]
+404823
+Review information supplied in the API
+[resolved/fixed]
+404886
+Study: ApplicationContainer Lua apps should not depend explicitly on Lua framework installation path
+[resolved/fixed]
+404901
+Make Extvar more decoupled from the Agent when compiling business libraries
+[resolved/fixed]
+404928
+ReadNode cmd handler is not correctly protected against bad params values
+[resolved/fixed]
+405491
+Display deviceId in the logs when starting the agent
+[resolved/worksforme]
+405725
+Base sched timers on cpu ticks or equivalent, not on the date
+[closed/fixed]
+405892
+key home & end doesn't work in the telnet shell for urxvt
+[resolved/fixed]
+405957
+Feature latest nightly binary build on the project webpage
+[resolved/fixed]
+405967
+Postpone registration password negotiation within ready agent until after bearer mounted
+[resolved/fixed]
+406520
+Allow C handlers to return nil value when a variable is not set
+[closed/duplicate]
+406807
+Make agent.
+srvcon.
+connect return "ok" in a no-auth.
+no-ciph context
+[resolved/fixed]
+407919
+Add a clean CSS for automatically generated documentation
+[resolved/fixed]
+407924
+Add Lua API doc generation in the nightly build scritps
+[resolved/fixed]
+407925
+Add C API doc generation in the nightly build scritps
+[resolved/fixed]
+408096
+[resolved/fixed]
+408220
+Promote nightly build binary on Mihini website
+[closed/duplicate]
+408241
+Change Bug Tracker URL on the project page to link to a more useful sorted view (only open bugs, etc.
+)
+[resolved/fixed]
+408258
+Error displayed when security mismatch is not user friendly
+[resolved/wontfix]
+408638
+Remove YAJL.
+dxy
+[resolved/fixed]
+408711
+Provide up to date doc of internal APIs
+[resolved/wontfix]
+408713
+Document the crypto lua libraries (in luadocumentor format)
+[resolved/wontfix]
+409565
+Enhance tester build script to accept custom configuration files
+[resolved/wontfix]
+409823
+racon sms: Lua API fails to correctly deliver SMS notification
+[resolved/fixed]
+410421
+agent.
+provisioning: fails to provision key when LUA_AF_RW_PATH is set
+[resolved/fixed]
+410815
+Add security to the Rest module
+[resolved/fixed]
+411277
+Should the appcon really be disabled by default?
+[closed/invalid]
+411280
+LUA_PATH for applications launched via the application container does not include '.
+'
+[resolved/fixed]
+411281
+modbus_serializer complains it does not found swi_status2string()
+[resolved/fixed]
+411768
+Rationalize C error codes
+[resolved/fixed]
+412426
+agent.
+srvcon : doing successive srvcon operations leads to incomplete M3DA data sent to server
+[resolved/fixed]
+412510
+Mihini's bin.
+should be added at the beginning of the PATH, instead of the end
+[resolved/fixed]
+413422
+Put Libtom code in a clean, separate branch
+[resolved/fixed]
+413458
+Website UI: correct some wording mistakes
+[resolved/fixed]
+413908
+Mihini release 0.
+9 check
+[resolved/fixed]
+414217
+downloader is not using Content-Range header format properly
+[resolved/fixed]
+414220
+downloader uses HTTP headers as case sensitive
+[resolved/fixed]
+414465
+Dset Rewind API is not working
+[resolved/fixed]
+414513
+downloader doesn't resume download when network is absent during one retry.
+[resolved/fixed]
+414599
+downloader fails to detect download resume support from some HTTP servers
+[resolved/fixed]
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Mihini
+Tags
+Technology Types
+Internet of Things
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account
+Email Address
+*
+Enter your Eclipse email address.
+Password
+*
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top

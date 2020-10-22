@@ -1,0 +1,1064 @@
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Eclipse Agail
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Eclipse Agail is a language-agnostic, modular software and hardware gateway framework for the Internet of Things with support for protocol interoperability, device and data management, IoT application execution, trusted data sharing and external Cloud communication.
+A framework both for developers who wish to quickly prototype IoT solutions but also for end users who want to easily customise their gateway based on their context and have full control of their data and devices.
+The hardware framework defines the design of a RaspberryPi shield that comes with various onboard sensors and two Xbee sockets for hosting different wireless communication modules (e.g., ZigBee, LoRaWAN, ZWave, etc.)
+The following image visualises the AGAIL software structure:
+The Agail software consists of serveral modules that can operate indepdently from each other and implement various features including IoT device discovery and management, data storage & management, IoT workflow development, remote gateway management, communication with external Cloud services and more.
+Modularity & Adaptability
+At the software level, different components enable new features: data collection and management on the gateway, intuitive interface for device management, visual workflow editor for creating IoT apps with less coding, and an IoT marketplace for installing IoT apps locally.
+At the deployment level, the software components packaging & delivery is performed through containerization. This choice gives the developers the flexibility to share and install components without worrying about dependencies and conflicts. The containers utilise the internal AGAIL Project API, so access to gateway resources can be monitored and fully controlled by the user.
+The following detailed view illustrates the concept of the containers and the language-agnostic Agail Gateway API for inter-module communication:
+The Agail software can auto-configure and adapt the essential components, based on the hardware configuration so that driver installation and configuration is performed automatically. IoT apps and workflows can be recommended based on hardware setup, reducing the gateway setup and development time significantly.
+Licenses:
+Eclipse Public License 1.0
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Agail
+Tags
+Technology Types
+Internet of Things
+Other Tags
+iot
+gateway
+docker
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Eclipse Agail | projects.eclipse.org
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Contact Us
+Eclipse Agail
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+agail-dev
+-
+agail developer discussions
+Project Links
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Agail
+Tags
+Technology Types
+Internet of Things
+Other Tags
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Downloads
+Eclipse Agail
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Project Links
+iot
+gateway
+docker
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Agail
+Tags
+Technology Types
+Internet of Things
+Other Tags
+iot
+gateway
+docker
+Join us for EclipseCon 2020
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Back to the top
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Agail | projects.eclipse.org
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Governance
+Eclipse Agail
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Developer Resources
+Eclipse Agail
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Governance
+(active tab)
+Contact Us
+Scope:
+The goals of the Eclipse Agail project can be summarised as follows:
+Provide a design and hardware specifications for a modular RaspberryPi hat (shield) that hosts various sensors and provides Xbee sockets for hosting wireless communication modules;
+Provide a modular architecture for implementing IoT Gateways through building blocks that feature communication with IoT devices, data collection, local storage and processing, with focus on data ownership and device interoperability;
+Provide IoT application developers with the Agail API, a generic API offering services for device discovery, communication, data management (local and cloud storage), data processing and remote gateway management, accessible as a RESTful interface;
+Provide a language-agnostic framework based on containers to implement IoT Gateway services around Agail API (based on DBus), allowing to reuse and integration of existing best-in-class IoT open source packages for device communication using standard IoT protocols (BLE, ZigBee, LoRa, TCP/IP, etc.), user interfaces for device and data management;
+Provide gateway management components (for managing connected IoT devices and enabled IoT/M2M protocols, installed applications and components, resource management, etc.);
+Deliver reference implementations of the building blocks in a containerized form to simplify deployment and delivery of services and applications on the gateway that implement the core features of the Agail : communication with commercial wireless and wired IoT devices, protocol support (Thread, IoTivity, etc.), local data management and visualization, local and remote gateway management, application workflow design and execution, data exchange and application deployment on external clouds.
+Working Group:
+Internet of Things (IoT)
+Research
+Reviews:
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see
+contributing via Gerrit
+.
+agile-api-spec - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-api-spec.git
+Browse Repository
+agile-cli - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-cli.git
+Browse Repository
+agile-dbus-java-interface - Project repository hosted on GitHub.
+Name
+Date
+Creation Review
+2016-11-02
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Wiki
+Getting Started
+Website
+Proposal
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Agail
+Clone:
+https://github.com/eclipse-agail/agile-dbus-java-interface.git
+Browse Repository
+agile-sdk - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-sdk.git
+Browse Repository
+agile-core - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-core.git
+Browse Repository
+agile-data - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-data.git
+Browse Repository
+agile-dbus - Project repository hosted on GitHub.
+Tags
+Technology Types
+Internet of Things
+Other Tags
+iot
+gateway
+docker
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Clone:
+https://github.com/eclipse-agail/agile-dbus.git
+Browse Repository
+agail-security - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agail-security.git
+Browse Repository
+agile-recommender - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-recommender.git
+Browse Repository
+agile-kura - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-kura.git
+Browse Repository
+agile-ble - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-ble.git
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Browse Repository
+agile-dummy-protocol - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-agail/agile-dummy-protocol.git
+Browse Repository
+agail/agail -
+Clone:
+git://git.eclipse.org/gitroot/agail/agail.git
+Review With Gerrit
+Browse Repository
+Project Links
+Wiki
+Getting Started
+Website
+Dev Mailing List
+Related Projects
+Related Projects:
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse IoT
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Agail
+Tags
+Technology Types
+Internet of Things
+Other Tags
+iot
+gateway
+docker
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Who's Involved
+Eclipse Agail
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Members:
+Project Lead
+Csaba Kiraly
+Committers
+Csaba Kiraly
+Philippe Krief
+Román Sosa
+Historical Committers
+CHARALAMPOS DOUKAS
+David Gomez Fernandez
+David Palomares
+Eduard Brehm
+Fabio Antonelli
+Juan David Parra
+Seda Polat Erdeniz
+Mentor
+Pascal Rapicault
+Project Links
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Agail
+Tags
+Technology Types
+Internet of Things
+Other Tags
+iot
+gateway
+docker
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Eclipse Agail
+Creation Review
+Eclipse Agail Creation Review
+Type:
+Creation
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, November 2, 2016
+Project:
+Eclipse Agail
+Proposal:
+Eclipse Agail
+Parent Project:
+Eclipse IoT
+Background:
+Currently the majority of IoT solutions involve the communication of devices with some cloud service for data management and application execution. In many cases a gateway is involved for providing Internet connectivity to non-IP wireless or wired networks, but mainly it forwards data to the Internet.
+The Eclipse Agail framework comes from the collective work of an existing community, in the context of a european H2020 funded IoT project (
+AG
+AIL). More than 16 entities (research, industrial, startups and nonprofits) in Europe have come together to build and deliver a fully open source modular gateway framework.
+Scope:
+The goals of the Eclipse Agail project can be summarised as follows:
+Provide a modular architecture for implementing IoT Gateways through building blocks that feature communication with IoT devices, data collection, local storage and processing, with focus on data ownership and device interoperability;
+Provide IoT application developers with the Agail API, a generic API offering services for device discovery, communication, data management (local and cloud storage), data processing and remote gateway management, accessible as a RESTful interface;
+Provide a language-agnostic framework based on containers to implement IoT Gateway services around Agail API (based on DBus), allowing to reuse and integration of existing best-in-class IoT open source packages for device communication using standard IoT protocols (BLE, ZigBee, LoRa, TCP/IP, etc.), user interfaces for device and data management;
+Provide gateway management components (for managing connected IoT devices and enabled IoT/M2M protocols, installed applications and components, resource management, etc.);
+Deliver reference implementations of the building blocks in a containerized form to simplify deployment and delivery of services and applications on the gateway that implement the core features of the Agail : communication with commercial wireless and wired IoT devices, protocol support (Thread, IoTivity, etc.), local data management and visualization, local and remote gateway management, application workflow design and execution, data exchange and application deployment on external clouds.
+Description:
+The Eclipse Agail is a language-agnostic, modular software gateway framework for the Internet of Things with support for protocol interoperability, device and data management, IoT apps execution, and external Cloud communication.
+A framework both for developers who wish to quickly prototype IoT solutions but also for end users who want to easily customise their gateway based on their context and have full control of their data and devices.
+The following image visualises the AGAIL structure:
+Modularity & Adaptability
+At the software level, different components enable new features: data collection and management on the gateway, intuitive interface for device management, visual workflow editor for creating IoT apps with less coding, and an IoT marketplace for installing IoT apps locally.
+At the deployment level, the software components packaging & delivery is performed through containerization. This choice gives the developers the flexibility to share and install components without worrying about dependencies and conflicts. The containers utilise the internal AGAIL Project API, so access to gateway resources can be monitored and fully controlled by the user.
+The following Development view illustrates the concept of the containers and the language-agnostic Gateway API for inter-module communication:
+The Agail software can auto-configure and adapt based on the hardware configuration so that driver installation and configuration is performed automatically. IoT apps and workflows can be recommended based on hardware setup, reducing the gateway setup and development time significantly.
+Why Here?:
+We believe that the Eclipse Community will appreciate and embrace the modular concept of containers for building a full IoT gateway stack. We need the support of the Community for helping us test, extend and adopt the Agail framework. The purpose of the Agail project is to extend current Eclipse IoT projects and provide an integrated framework for IoT gateways that offers device management, data storage and handling and language-agnostic application development.
+The Agail already has a strong relationship with other Eclipse projects:
+Eclipse Paho will be used as an internal broker for extending the Agail RESTful API and allowing developers to communicate with the Agail gateway components using the MQTT protocol for data interaction between applicatons and connected IoT devices and the internal data storage.
+Eclipse Vorto will be used as a standardised way for describing the available IoT devices and most importantly enable vendors and developers to easily integrate device support in the future.
+Eclipse Smart Home will be investigated for potentially integrating communication with the numerous existing IoT devices the framework already supports.
+Agail originates from the H2020 funded
+AG
+AIL project.
+Initial Contribution:
+The initial contribution of the Eclipse Agail project will be a large subset of the current code on H2020 AGAIL project GitHub:
+https://github.com/Agile-IoT
+Which will contain:
+Source code for all mentioned interfaces and services of the gateway
+Source code of many building blocks for the web-based graphical management interfaces
+Documentation of the architecture and its extension points
+Build scripts, pre-packaged modules and sample files
+Examples on how to build applications on top of AGAIL framework and documentation
+Legal Issues:
+The AGAIL project team will go through the Eclipse legal review process to make sure all Eclipse AGAIL dependencies are eligible for contribution. While AGAIL has selected open-source components with friendly licenses, a detailed review will be conducted with the Eclipse legal team.
+Currently the code developed and used/integrated on project's
+GitHub
+is released under APv2. The software components that will be exclusively developed by the project will be contributed to the Eclipse AGAIL under the Eclipse Public Licence. Reference implementations that include third party open source software (e.g.,
+Node-RED
+) will retain the original licence and will be published on the original GitHub account.
+Licenses:
+Eclipse Public License 1.0
+Project Scheduling:
+Project roadmap:
+- Architecture definition
+Status: Completed
+- Initial implementation of wireless protocols support
+Status: BLE, ZigBee completed. Upcoming: ZWave, LoRa
+- User Interfaces (Data management, Device & Protocol management, etc.)
+Status: Ongoing
+- Developer graphical Interface
+Status: Ongoing
+Future steps:
+- Integration of Eclipse Vort for the definition and creation of abstract IoT device bindings
+- Integration of Eclipse Paho for the extention of the internal Agail RESTful API and support of MQTT as alternative messaging and data subscription mechanism
+First build for testing: Expected in 1st quarter of 2017
+First version delivered: Expected in 2nd quarter of 2017
+Future Work:
+Within the next year we plan to develope and deliver many reference implementations for the support of various IoT standards (e.g., Thread, IoTivity, etc.) and specific support for commercial IoT devices. In addition, the reference implementation of Agail will be used in the context of the AGAIL project for evaluation in real life use cases (e.g., in wearables and outdoor air quality monitoring scenarios and surveliance using drones) while European startups and SMEs will be invited to utilise and contribute to the Agail framework with reference implementations and extentions.
+People
+Project Leads:
+CHARALAMPOS DOUKAS
+Fabio Antonelli
+Committers:
+Craig Mulligan
+Shaun Mulligan
+Juan David Para
+Csaba Kiraly
+Luca Capra
+Fabio Antonelli
+Charalampos Doukas
+Interested Parties:
+Paolo Azzoni, Eurotech
+Georgios Michalakidis, Resin.io
+Roman Sosa, Atos
+Emmanuel Bacceli, INRIA
+Maarten Ectors, Canonical
+David Ramon, Libelium
+Tom Sorgerloos, Orange Belgium
+Mentors:
+Pascal Rapicault
+Sign in
+to post comments.
+Sign in
+to post comments.
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse Kura
+Project Hierarchy:
+Eclipse IoT
+Eclipse Agail
+Tags
+Technology Types
+Internet of Things
+Other Tags
+iot
+gateway
+docker
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

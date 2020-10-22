@@ -1,0 +1,2585 @@
+Eclipse UOMo | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Eclipse UOMo
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse UOMo adds Units of Measurement support for IT Systems and Services both to common programming languages like Java and Data Exchange standards like UCUM and formats including UnitsML, SensorML, MathML, general XML or JSON.
+Licenses:
+Eclipse Public License 1.0
+Latest Releases:
+From June 5th, 2013 to May 16th, 2018
+Name
+Date
+Review
+0.7.0
+2018-05-16
+0.6.1
+2017-05-28
+0.6.0
+2013-06-05
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Website
+Documentation
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.7.0 Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+0.7.0 | projects.eclipse.org
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+0.7.0 Release Review
+Eclipse UOMo 0.7.0 Release Review
+Type:
+Release
+State:
+Eclipse UOMo | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, May 16, 2018
+Project:
+Eclipse UOMo
+Release:
+0.7.0
+Description:
+This release implements
+JSR 363
+for Java 7 and above.
+API Certification:
+The project leadership certifies that the APIs in this release are "Eclipse Quality".
+Architectural Issues:
+This release adds compatibility with the Java standard
+JSR 363
+.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Eclipse UOMo | projects.eclipse.org
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Security Issues:
+N/A
+Non-Code Aspects:
+We added a few artifacts, especially a new
+uomo-icu
+module making ICU4J and optional dependency and thus reducing the footprint of modules like uomo-units.
+UOMo is also used by other Eclipse projects, especially
+https://projects.eclipse.org/projects/technology.osbp
+Conforms To UI/UX Guidelines:
+Not applicable (project doesn't provide UI)
+Usability Details:
+The project has no UI other than the plugin icon.
+Comments
+Sign in to post comments
+Using Unit-API 1.0 (JSR 363)
+Submitted by
+Werner Keil
+on Fri, 2017-11-24 11:00
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Using Unit-API 1.0 (JSR 363) as per
+https://dev.eclipse.org/ipzilla/show_bug.cgi?id=12206
+Log in
+to post comments
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+Eclipse UOMo 0.7.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+This release implements
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Downloads
+Eclipse UOMo
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Download Eclipse UOMo
+Marketplace:
+UOMo Marketplace
+0.6.0 Release Review | projects.eclipse.org
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+JSR 363
+for Java 7 and above.
+Release Date:
+Wednesday, May 16, 2018
+Review:
+0.7.0 Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Project Links
+Wiki
+Website
+Documentation
+Marketplace
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Governance
+Eclipse UOMo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Eclipse UOMo | projects.eclipse.org
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+The scope of the Eclipse UOMo project is to host a variety of implementation activities related to UCUM or other unit-specific standards like UnitsML or MathML:
+Unit Standards
+Basic implementation of
+UCUM
+Logic for use in any context
+Help to incorporate units into
+W3C
+standard
+MathML
+Support
+OASIS
+standard
+Units Markup Language (UnitsML)
+Implementing Units of Measurement API
+Strong Unit Typing (Compile time support)
+Eclipse UOMo | projects.eclipse.org
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Financial API based on general Units of Measurement implementation
+The focus of the project is on
+Java
+implementations, but other languages both on the JVM or outside will be supported as appropriate, desired and/or contributed.
+Releases:
+Name
+Date
+0.7.0
+2018-05-16
+0.6.1
+2017-05-28
+0.6.0
+2013-06-05
+Reviews:
+Name
+Date
+0.7.0 Release Review
+2018-05-16
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Eclipse UOMo | projects.eclipse.org
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+0.6.0 Release Review
+Eclipse UOMo 0.6.0 Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, June 5, 2013
+Project:
+0.6.0 Release Review
+2013-06-05
+Creation
+2010-10-20
+Project Links
+Website
+Plan
+Documentation
+Proposal
+Wiki
+Current Release
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Eclipse UOMo
+Release Review
+Release:
+0.6.0
+Links:
+Review Documentation
+Approved IP Log
+Sign in
+to post comments.
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Contact Us
+Eclipse UOMo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Forums:
+eclipse.uomo
+Eclipse Community Forums: UOMo
+Developer Mailing List:
+uomo-dev
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Developer Resources
+Eclipse UOMo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Report a Bug
+-
+UOMo developers
+Project Mailing Lists:
+uomo-users
+-
+UOMo Users
+uomo-core-dev
+-
+UOMo Core Developers
+uomo-units-dev
+-
+UOMo Units Developers
+uomo-ucum-dev
+-
+UOMo UCUM Developers
+Project Links
+Wiki
+Website
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+View Help wanted Bugs
+View Open Bugs
+Summarize Bugs
+Build Technologies:
+Tycho
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see
+contributing via Gerrit
+.
+uomo/org.eclipse.uomo -
+Clone:
+git://git.eclipse.org/gitroot/uomo/org.eclipse.uomo.git
+Review With Gerrit
+Browse Repository
+Project Links
+Wiki
+Website
+Documentation
+Documentation
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Eclipse Technology
+Eclipse UOMo
+Who's Involved
+Eclipse UOMo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Members:
+Project Lead
+Werner Keil
+Committers
+Otavio Santana
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Werner Keil
+Historical Committers
+Chris Senior
+Grahame Grieve
+Mentors
+Chris Aniszczyk
+Gunnar Wagenknecht
+Project Links
+Website
+Documentation
+Wiki
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.1 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+0.6.0 | projects.eclipse.org
+0.7.0 | projects.eclipse.org
+Google Tag Manager
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Eclipse Technology
+Eclipse UOMo
+0.6.1
+Eclipse UOMo 0.6.1
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Release Date:
+Sunday, May 28, 2017
+Release Type:
+Service release (bug fixes only)
+Project Links
+Website
+Related Projects
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Eclipse UOMo 0.6.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Release Date:
+Wednesday, June 5, 2013
+Review:
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+Review Information
+Eclipse UOMo 0.7.0
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+This release implements
+JSR 363
+for Java 7 and above.
+API Certification:
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.0 Release Review
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+The project leadership certifies that the APIs in this release are "Eclipse Quality".
+Architectural Issues:
+This release adds compatibility with the Java standard
+JSR 363
+.
+Security Issues:
+N/A
+Non-Code Aspects:
+We added a few artifacts, especially a new
+uomo-icu
+module making ICU4J and optional dependency and thus reducing the footprint of modules like uomo-units.
+UOMo is also used by other Eclipse projects, especially
+https://projects.eclipse.org/projects/technology.osbp
+Conforms To UI/UX Guidelines:
+Not applicable (project doesn't provide UI)
+Usability Details:
+The project has no UI other than the plugin icon.
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+0.7.0 | projects.eclipse.org
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+Release Plan
+Eclipse UOMo 0.7.0
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Wednesday, May 16, 2018
+Deliverables:
+This UOMo version implements the Java
+Units of Measurement
+standard
+JSR 363
+Compatibility:
+While backward-compatible with UOMo 0.6 this release added compatibility with the Java standard
+JSR 363
+.
+A TCK test harness for UOMo is available under
+https://github.com/unitsofmeasurement/unit-tck-usage/tree/uomo
+Target Environments:
+The minimum JRE version for UOMo 0.7 is Java 7.
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.1 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+0.7.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+0.6.1 | projects.eclipse.org
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.1
+Review Information
+Eclipse UOMo 0.6.1
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+0.6.1 | projects.eclipse.org
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Eclipse UOMo
+0.7.0
+Issues
+Eclipse UOMo 0.7.0
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.1
+Issues
+Eclipse UOMo 0.6.1
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Project Links
+Website
+0.6.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+0.6.0 | projects.eclipse.org
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse UOMo
+0.6.1
+Release Plan
+Eclipse UOMo 0.6.1
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Sunday, May 28, 2017
+Deliverables:
+Compatibility:
+Internationalization:
+Target Environments:
+Project Links
+Website
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Review Information
+Eclipse UOMo 0.6.0
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Issues
+Eclipse UOMo 0.6.0
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This release targets these issues.
+Modeling
+Build Technologies
+Tycho
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+= resolved/fixed
+= unsolved/reopened
+UOMo (6)
+Business (1)
+409063
+Support ICU4J 50+ and before
+[closed/fixed]
+UCUM (1)
+403947
+Upgrade UCUM-Essence
+[resolved/fixed]
+Units (4)
+381507
+Make well defined Quantity types final
+[assigned/unresolved]
+381509
+Move Factory method BaseAmount.
+valueOf() to abstract class
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.0 | projects.eclipse.org
+[resolved/wontfix]
+381510
+Move BaseAmount.
+ONE to abstract class
+[resolved/fixed]
+402838
+Unify Number Spellers
+[resolved/fixed]
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Release Plan
+Eclipse UOMo 0.6.0
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Wednesday, June 5, 2013
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse UOMo
+Tags
+Technology Types
+Internet of Things
+Modeling
+Build Technologies
+Tycho
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account
+Email Address
+*
+Enter your Eclipse email address.
+Password
+*
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top

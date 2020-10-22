@@ -1,0 +1,1102 @@
+Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Eclipse sensiNact
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Eclipse sensiNact project consists of a software platform enabling the collection, processing and redistribution of any data relevant to improving the quality of life of urban citizens, programming interfaces allowing different modes of access to data (on-demand, periodic, historic, etc.) and application development and deployment to easily and rapidly build innovative applications on top of the platform.
+Here
+a quick look to the existing data available via sensiNact platform from various cities such as Santander, Genova, Fujisawa and Osaka (click the "+" button and click "Add" accepting the default gateway configuration data)
+sensiNact particularly deals with the following 4 topics.
+Connectivity
+Heterogeneity of data is today’s reality in every urban environment. Emerging IoT devices, legacy systems, increasing number of social networks, mobile applications, open data repositories and web data are the potential exploitable data sources. sensiNact thus provides connectivity support to those data sources including today’s IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, MQTT, XMPP, NGSI, HTTP, CoAP, etc. With its modular approach, connectivity support for new protocols can be rapidly developed and dynamically added to the platform, even at run-time.
+Interoperability
+sensiNact platform provides a unified view over those heterogeneous sources of data and action. With the lack of a de facto standard data model today in the IoT domain, sensiNact adopts a generic and extensible data model to facilitate building adapters for various protocols. It’s core model based on 4 types of resources: sensor data, action, state variables, and properties.
+Those resources are accessible by generic and easy to use Application Programming Interfaces (API) providing synchronous (on demand) and asynchronous (periodic or event based) access to data/actions of IoT devices, as well as access to historic data.
+Data and event processing
+Developer tool
+On top of the platform, sensiNact proposes a development tool (sensiNact Studio) that allows managing devices/services connected to the platform and rapidly creating applications and deploying them to the platform. It is a service composition tool which assists developers in building applications by binding the services via events and actions. With a Domain Specific Language, the developers can express the application logic in terms of ECA (Event-Condition-Action) rules, which is verified and validated by the tool before its deployment into the sensiNact platform. The application developers can then remotely monitor and manage applications (install, start, stop, uninstall, etc.). The tool also provides means to easily build support for new types of protocols and platforms and add it to the platform on-the-fly.
+We can list the features of sensiNact as a glance as follows:
+•
+Plug&play
+: Device as a Service Approach. The flexibility of adding/removing/updating devices with a minimum impact on the running platform ;
+•
+Modular
+: Modular development and deployment for enhanced system maintenance and evolution ;
+•
+Dependable
+: sensiNact’s formal data and service models facilitate reliable IoT applications development ;
+•
+Scalable
+: sensiNact’s three layers architecture (device/gateway/cloud) allows distribution of data processing at different levels ;
+•
+Easy&quick
+: sensiNact’s comprehensive data model and APIs help to rapidly build IoT applications.
+Licenses:
+Eclipse Public License 1.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Running instance of sensiNact
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology Types
+Internet of Things
+Build Technologies
+Hudson
+Maven
+Other Tags
+Smart City
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Contact Us
+Eclipse sensiNact
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Forums:
+Forum of sensiNact on the Eclipse Foundation website
+Developer Mailing List:
+sensinact-dev
+-
+sensinact developer discussions
+Project Mailing Lists:
+sensinact-dev
+-
+This mailing list is reserved for the developers of the sensiNact ecosystem
+Project Links
+Running instance of sensiNact
+Documentation
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse sensiNact
+Eclipse sensiNact | projects.eclipse.org
+Tags
+Technology Types
+Internet of Things
+Build Technologies
+Hudson
+Maven
+Other Tags
+Smart City
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Eclipse sensiNact | projects.eclipse.org
+Eclipse sensiNact | projects.eclipse.org
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Who's Involved
+Eclipse sensiNact
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Project Members:
+Project Lead
+Levent Gurgen
+Committers
+Christophe Munilla
+Etienne Gandrille
+Jander Nascimento
+Levent Gurgen
+Remi Druilhe
+Mentor
+Pascal Rapicault
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Project Links
+Running instance of sensiNact
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology Types
+Internet of Things
+Build Technologies
+Hudson
+Maven
+Other Tags
+Smart City
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Downloads
+Eclipse sensiNact
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The sensiNact Gateway and Studio just have been pushed on the public Eclipse repository.
+A snapshot version, for testing, is available below.
+In the mean time, you can clone the GiT project and compile it, it will generate a distribution in the
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Governance
+Eclipse sensiNact
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+You can discover data available via sensiNact platform from various cities such as Santander, Genova, Fujisawa and Osaka cities at this
+link
+.
+(click the "+" button and click "Add" accepting the default gateway configuration data)
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Developer Resources
+Eclipse sensiNact
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Report a Bug
+View Help wanted Bugs
+View Open Bugs
+Summarize Bugs
+distribution
+folder.
+Downloads:
+sensiNact Gateway 1.5-SNAPSHOT latest
+sensiNact Gateway 2.0-SNAPSHOT latest
+Project Links
+Running instance of sensiNact
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse sensiNact
+Tags
+Scope:
+The Eclipse sensiNact project will in particular be dealing with the following technical aspects related to smart city platforms:
+Connectivity: providing support for gathering data from various sources in urban environments (IoT devices, legacy devices, open data, social networks, participatory sensing mobile applications, etc.)
+Interoperability: providing interoperability among heterogeneous urban data; providing developer friendly interfaces to access to data and action resources in cities in a uniformed way, supporting various state of the art remote access protocols
+Data processing: mechanisms to extract actionable information from raw data
+Developer Tool: providing a tool to build/deploy/manage smart city applications in an easy yet dependable way
+Reviews:
+Name
+Date
+Creation Review
+2017-04-05
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Running instance of sensiNact
+Documentation
+Proposal
+Related Projects
+Build Technologies:
+Hudson
+Maven
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see
+contributing via Gerrit
+.
+sensinact/org.eclipse.sensinact -
+Clone:
+git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.git
+Review With Gerrit
+Browse Repository
+sensinact/org.eclipse.sensinact.gateway -
+Clone:
+git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.gateway.git
+Review With Gerrit
+Browse Repository
+sensinact/org.eclipse.sensinact.studio -
+Clone:
+Technology Types
+Internet of Things
+Build Technologies
+Hudson
+Maven
+Other Tags
+Smart City
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Project Hierarchy:
+Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology Types
+Internet of Things
+Build Technologies
+Hudson
+Maven
+Other Tags
+Smart City
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.studio.git
+Review With Gerrit
+Browse Repository
+sensinact/org.eclipse.sensinact.studioweb -
+Clone:
+git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.studioweb.git
+Review With Gerrit
+Browse Repository
+Project Links
+Running instance of sensiNact
+Documentation
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse sensiNact
+Tags
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Technology Types
+Internet of Things
+Build Technologies
+Hudson
+Maven
+Other Tags
+Smart City
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Creation Review | projects.eclipse.org
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Eclipse sensiNact
+Creation Review
+Eclipse sensiNact Creation Review
+Type:
+Creation
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, April 5, 2017
+Project:
+Eclipse sensiNact
+Proposal:
+Eclipse sensiNact
+Parent Project:
+Eclipse Technology
+Background:
+The world is facing a number of critical challenges such as global warming, economic crisis, security threats, inequality, natural disasters and ageing society. Urban areas are particularly affected, given that the world population is increasingly concentrated in those areas, which is expected to be 66% by 2050.
+While occupying 2% of the earth's surface, cities use 75% of the world resources. Those resources in civil infrastructure such as water, energy, public transportation, parking spaces, buildings, roads, bridges, etc., as well as natural resources and economic resources need to be shared by this increasing population. This has direct consequences for urban citizens and for the city itself.
+Ranging from social to economic aspects, IoT and big data provide countless possibilities to enhance the quality of life and security of people, while at the same time reducing inequalities and providing new revenue opportunities for enterprising businesses, from large groups and public administrations to SMEs, startups and web entrepreneurs.
+The unprecedented number of connected things in urban environments and the need to process the associated big data naturally raises new technical challenges in terms of interoperability, data and connectivity heterogeneity, scalable and online data processing, actionable knowledge extraction, security and privacy. Eclipse sensiNact project has been created to bring a community of developers and other smart city stakeholders together who will tackle those challenges with an open approach aiming at fostering smart city business ecosystem.
+Scope:
+The Eclipse sensiNact project will in particular be dealing with the following technical aspects related to smart city platforms:
+Connectivity: providing support for gathering data from various sources in urban environments (IoT devices, legacy devices, open data, social networks, participatory sensing mobile applications, etc.)
+Interoperability: providing interoperability among heterogeneous urban data; providing developer friendly interfaces to access to data and action resources in cities in a uniformed way, supporting various state of the art remote access protocols
+Data processing: mechanisms to extract actionable information from raw data
+Developer Tool: providing a tool to build/deploy/manage smart city applications in an easy yet dependable way
+Description:
+The Eclipse sensiNact project consists of a software platform enabling the collection, processing and redistribution of any data relevant to improving the quality of life of urban citizens, programming interfaces allowing different modes of access to data (on-demand, periodic, historic, etc.) and application development and deployment to easily and rapidly build innovative applications on top of the platform.
+sensiNact particularly deals with the following 4 topics.
+Connectivity
+: Heterogeneity of data is today’s reality in every urban environment. Emerging IoT devices, legacy systems, increasing number of social networks, mobile applications, open data repositories and web data are the potential exploitable data sources. sensiNact thus provides connectivity support to those data sources including today’s IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, MQTT, XMPP, NGSI, HTTP, CoAP, etc. With its modular approach, connectivity support for new protocols can be rapidly developed and dynamically added to the platform, even at run-time.
+Interoperability
+: sensiNact platform provides a unified view over those heterogeneous sources of data and action. With the lack of a de facto standard data model today in the IoT domain, sensiNact adopts a generic and extensible data model to facilitate building adapters for various protocols. It’s core model based on 4 types of resources: sensor data, action, state variables, and properties.
+Those resources are accessible by generic and easy to use Application Programming Interfaces (API) providing synchronous (on demand) and asynchronous (periodic or event based) access to data/actions of IoT devices, as well as access to historic data.
+Data and event processing
+Developer tool
+On top of the platform, sensiNact proposes a development tool (sensiNact Studio) that allows managing devices/services connected to the platform and rapidly creating applications and deploying them to the platform. It is a service composition tool which assists developers in building applications by binding the services via events and actions. With a Domain Specific Language, the developers can express the application logic in terms of ECA (Event-Condition-Action) rules, which is verified and validated by the tool before its deployment into the sensiNact platform. The application developers can then remotely monitor and manage applications (install, start, stop, uninstall, etc.). The tool also provides means to easily build support for new types of protocols and platforms and add it to the platform on-the-fly.
+We can list the features of sensiNact as a glance as follows:
+•
+Plug&play
+: Device as a Service Approach. The flexibility of adding/removing/updating devices with a minimum impact on the running platform.
+•
+Modular
+: Modular development and deployment for enhanced system maintenance and evolution
+•
+Dependable
+: sensiNact’s formal data and service models facilitate reliable IoT applications development.
+•
+Scalable
+: sensiNact’s three layers architecture (device/gateway/cloud) allows distribution of data processing at different levels.
+•
+Easy&quick
+: sensiNact’s comprehensive data model and APIs help to rapidly build IoT applications.
+Why Here?:
+We believe that Eclipse provides a perfect environment to make our project reach its objectives, in terms of efficient project management, in terms of reaching a large number of developers and in terms of creating a business ecosystem.
+Initial Contribution:
+sensiNact code is composed of approximately 85 000 lines of Java code and about 1 500 classes. It is based on the OSGi framework. It is principally composed of 6 groups of software bundles
+Southbound bridges: this group includes implementation of bridges and adapters for various IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, CoAP, MQTT, XMPP, NGSI, HTTP, etc.
+Northbound bridges: this group includes implementation of remote access bridges to the platform such as REST APIs, JSON RPC, as well as publish subscribe protocols such as MQTT, XMPP, NGSI, etc.
+Studio: This group is composed of a set of visual elements based on Eclipse’s EMF, GMF and XText frameworks
+Studio web: This is an implementation of a lighter web version of the Studio
+Following list provides the dependencies of sensiNact to third party libraries and their associated licenses.
+org.xerial:sqlite-jdbc
+Apache Licence
+org.json:json
+JSON Licence
+org.apache.felix:org.apache.felix.gogo.runtime
+Apache Licence
+org.everit.json:org.everit.json.schema
+Apache Licence
+com.espertech:esper
+GPL v2
+org.slf4j:slf4j-api
+MIT Licence
+javax.servlet:javax.servlet-api
+-
+com.neuronrobotics:nrjavaserial-sensinact
+LGPL v2
+javax.ws.rs:jsr311-api
+-
+org.apache.felix:org.apache.felix.http.api
+Apache Licence
+org.apache.felix:org.apache.felix.http.jetty
+Apache Licence
+org.apache.felix:org.apache.felix.ipojo
+Apache Licence
+org.apache.felix:org.apache.felix.ipojo.annotations
+Apache Licence
+philips.hue.sdk:huesdk-bundle
+Philips Licence
+org.apache.commons:commons-lang3
+Apache Licence
+it.politico.elite:enocean.library
+Apache Licence
+javax.jmdns:jmdns
+Apache Licence
+JSoXLib:JSoXLib
+Apache Licence
+com.tikitag:com.tikitag.client
+LGPL v2
+org.igniterealtime.smack:smack-tcp
+Apache Licence
+org.igniterealtime.smack:smack-extensions
+Apache Licence
+org.eclipse.paho:org.eclipse.paho.client.mqttv3
+Eclipse Public Licence
+org.json
+JSON Licence
+org.restlet
+Apache Licence
+org.apache.log4j
+Apache Licence
+org.objectweb.asm
+ASM licence (
+http://asm.ow2.org/license.html
+)
+org.osgi.framework
+Eclipse Public Licence
+Dependencies to software having Eclipse conflictual licenses such as GPL, are not critical.
+Legal Issues:
+The sensiNact name is not owned by any entity. Currently sensiNact code is not licensed. sensiNact name is used in some collaborative projects as a software platform developed by CEA.
+The project uses third party software with various license types such as Apache v2.0 and EPL, JSON and MIT. In principle, sensiNact has no strong binding to any Eclipse conflictual license.
+Licenses:
+Eclipse Public License 1.0
+Project Scheduling:
+sensiNact code is ready to be provided as a first contribution. It already includes its first build. We plan to do regular releases in agile methodology, with intervals of no more than 6 months.
+Future Work:
+·
+Connectivity
+: we are continuously looking for opportunities to integrate support for additional connectivity protocols. We will provide bridges for various emerging communication standards such as Thread, OneM2M, OMA LWM2M, OPC-UA, etc. We are planning to take benefit of Eclipse IoT open source projects to implement the necessary bridges for those protocols.
+·
+Interoperability
+: we would like to add semantic interoperability support to the sensiNact. We would like to look at closer to W3C web of things initiative. CEA as a member of OSGi IoT Expert Group member, we would like to bring reference implementation of IoT related specifications of the OSGi Alliance.
+·
+Data processing
+·
+Developer Tool
+CEA is committing to actively support the project, with at least 4 FTE. We are planning to actively participate to developer events (organized by Eclipse, as well as other national and international initiatives), as well as creating sensiNact specific events, in order to present our project to the community and attract users and developers. We are planning to reach national stakeholders using our various offices established all over France to transfer CEA technology to local industry. In addition, CEA is an active member in the European smart city ecosystem and has been coordinating and participating to several related collaborative projects involving numerous industrial and academic partners, which will certainly be part of the ecosystem we will create around the platform. CEA is also an active member of the European IoT Platform Initiative (IoT-EPI) and planning to create a smart city related working group within the Eclipse Foundation. As a member of Industrial Internet Consortium (IIC), CEA will also promote Eclipse sensiNact project towards IIC members.
+People
+Project Leads:
+Levent Gurgen
+Committers:
+Jander Nascimento
+Rémi Druilhe
+Etienne Gandrille
+Christophe Munilla
+Interested Parties:
+Osaka University
+Keio University
+Engineering Ingegneria Informatica spa
+ACUTUS Software, Inc.
+JRISS
+Kyoto Sangyoo University
+ST Microelectronics
+Mentors:
+Pascal Rapicault
+Sign in
+to post comments.
+Sign in
+to post comments.
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:
+Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology Types
+Internet of Things
+Build Technologies
+Hudson
+Maven
+Other Tags
+Smart City
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

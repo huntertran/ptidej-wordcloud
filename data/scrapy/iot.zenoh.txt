@@ -1,0 +1,1060 @@
+Eclipse zenoh | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse zenoh
+Eclipse zenoh
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse zenoh provides is a stack designed to (1) minimize network overhead, (2) support extremely constrained devices, (3) supports devices with low duty-cycle by allowing the negotiation of data exchange modes and schedules, (4) provide a rich set of abstraction for distributing, querying and storing data along the entire system, and (5) provide extremely low latency and high throughput.
+Licenses:
+Apache License, Version 2.0
+Eclipse Public License 2.0
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Documentation
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse fog05
+Project Hierarchy:
+Eclipse IoT
+Eclipse zenoh
+Tags
+Technology Types
+Internet of Things
+Runtime
+Specification
+Other Tags
+edge
+protocol
+energy efficiency
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse zenoh | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse zenoh
+Developer Resources
+Eclipse zenoh
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+zenoh - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/zenoh.git
+Browse Repository
+zenoh-c - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/zenoh-c.git
+Browse Repository
+zenoh-python - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/zenoh-python.git
+Browse Repository
+zenoh-java - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/zenoh-java.git
+Browse Repository
+zenoh-go - Project repository hosted on GitHub.
+Eclipse zenoh | projects.eclipse.org
+Clone:
+https://github.com/eclipse-zenoh/zenoh-go.git
+Browse Repository
+zenoh-rust - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/zenoh-rust.git
+Browse Repository
+zenoh-plugin-dds - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
+Browse Repository
+zenoh-pico - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/zenoh-pico.git
+Browse Repository
+homebrew-zenoh - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-zenoh/homebrew-zenoh.git
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Browse Repository
+Project Links
+Documentation
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse fog05
+Project Hierarchy:
+Eclipse IoT
+Eclipse zenoh
+Tags
+Technology Types
+Internet of Things
+Runtime
+Specification
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Other Tags
+edge
+protocol
+energy efficiency
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse zenoh
+Who's Involved
+Eclipse zenoh
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Back to the top
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Project Members:
+Project Leads
+Angelo Corsaro
+Yong He
+Committers
+Angelo Corsaro
+Julien Enoch
+Luca Cominardi
+Olivier HECART
+Yong He
+Mentor
+Eclipse zenoh | projects.eclipse.org
+Frédéric Desbiens
+Project Links
+Documentation
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse fog05
+Project Hierarchy:
+Eclipse IoT
+Eclipse zenoh
+Tags
+Technology Types
+Internet of Things
+Runtime
+Specification
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Other Tags
+edge
+protocol
+energy efficiency
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse zenoh
+Contact Us
+Eclipse zenoh
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Forums:
+Gitter: atolab/zenoh
+Project Links
+Wiki
+Website
+Getting Started
+Documentation
+Forums
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse fog05
+Project Hierarchy:
+Eclipse IoT
+Eclipse zenoh
+Tags
+Technology Types
+Internet of Things
+Runtime
+Specification
+Other Tags
+edge
+protocol
+energy efficiency
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse zenoh | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse zenoh
+Downloads
+Eclipse zenoh
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The zenoh router and the APIs are available through various package management infrastructures (Docker hub, Maven Central, Pypi.org...).
+See the ways to install them on the
+zenoh.io website
+.
+For a manual download and installation, the binaries are available here:
+Download Eclipse zenoh
+Project Links
+Documentation
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse fog05
+Project Hierarchy:
+Eclipse IoT
+Eclipse zenoh
+Tags
+Technology Types
+Internet of Things
+Runtime
+Specification
+Other Tags
+edge
+protocol
+energy efficiency
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse zenoh | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse zenoh
+Governance
+Eclipse zenoh
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+The documentation for zenoh is available
+here
+.
+Scope:
+Eclipse zenoh provides a stack that
+unifies
+data
+in
+motion
+, data
+in-use
+and data at
+rest
+. It carefully
+blends
+traditional
+pub/sub
+with
+geo-distributed storages, queries
+and
+computations
+, while retaining a level of
+time and space efficiency
+that is well beyond any of the mainstream stacks.
+Eclipse zenoh will build around the zenoh infrastructure and includes zenoh software routers/brokers as well as the zenoh client APIs.
+Working Group:
+Internet of Things (IoT)
+Reviews:
+Name
+Date
+Creation Review
+2020-01-15
+Project Links
+Wiki
+Website
+Getting Started
+Documentation
+Proposal
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse fog05
+Project Hierarchy:
+Eclipse IoT
+Eclipse zenoh
+Tags
+Technology Types
+Internet of Things
+Runtime
+Specification
+Other Tags
+edge
+protocol
+energy efficiency
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse zenoh
+Eclipse zenoh
+Creation Review
+Eclipse zenoh Creation Review
+Type:
+Creation
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, January 15, 2020
+Project:
+Eclipse zenoh
+Proposal:
+Eclipse zenoh
+Parent Project:
+Eclipse IoT
+Background:
+As a consequence of the widespread adoption of Cyber Physical Systems (CPS) and the raise of ed applications, the number of network connected devices is steadily increasingly as is (1) their heterogeneity with respect to computing, storage and communication capabilities, (2) the scale at which they produce and consume data and (3) the need for geo-distributed storage and queries. Thus, data exchange protocols face new needs with respect to vertical and horizontal scalability, support for constrained networks and devices with low duty cycle – in other terms devices that are disconnected/sleeping most of the time as well as ability to deal with both data in motion and data at rest. Protocols used today to build these systems, such as MQTT, DDS, CoAP and HTTP were not designed with these needs in mind. As a result, architects and developers are forced into patchwork design in which multiple protocols are stitched together to provide some meaningful end-to-end semantics. Zenoh's authors have co-invented and built some of the communication infrastructures deployed today as part of telecommunication, aerospace and early Industrial Internet applications (notably DDS). It is with this baggage of experience that they came to the realization that a new protocol was needed – a protocol designed ground-up to address the needs of large scale CPS as well as edge systems end-to-end. Eclipse zenoh, is a stack designed to (1) minimize network overhead – the minimal wire overhead of a data message a data message is 4 bytes, (2) support extremely constrained devices – its footprint on Arduino Uno is of 300 bytes, (3) supports devices with low duty-cycle by allowing the negotiation of data exchange modes and schedules, (4) provide a rich set of abstraction for distributing, querying and storing data along the entire system, and (5) provide extremely low latency and high throughput.
+Scope:
+Eclipse zenoh provides a stack that
+unifies
+data
+in
+motion
+, data
+in-use
+and data at
+rest
+. It carefully
+blends
+traditional
+pub/sub
+with
+geo-distributed storages, queries
+and
+computations
+, while retaining a level of
+time and space efficiency
+that is well beyond any of the mainstream stacks.
+Eclipse zenoh will build around the zenoh infrastructure and includes zenoh software routers/brokers as well as the zenoh client APIs.
+Description:
+Eclipse zenoh provides is a stack designed to (1) minimize network overhead, (2) support extremely constrained devices, (3) supports devices with low duty-cycle by allowing the negotiation of data exchange modes and schedules, (4) provide a rich set of abstraction for distributing, querying and storing data along the entire system, and (5) provide extremely low latency and high throughput.
+Why Here?:
+Zenoh was deisgned with Edge and Fog Computing in mind thus the Eclipse IoT seems to be the right home for it. Beside, Eclipse fog05 relies entirely on zenoh, thus it would make more sense to have the entire fog05 stack to be powered by Eclipse IoT technologies.
+Initial Contribution:
+Our intial contribution will include:
+Zenoh Router.
+The zenoh software router implements a routing infrastructure that allows to run zenoh applications at Internet Scale. Zenoh routers can be connected over arbitrariy graphs and maintain the routing topology through a series of self-stabilising decentralised algorithms.
+Zenoh Client API.
+We will contribute client API for C
+,
+Java, Python, Go.
+Zenoh Management.
+Zenoh routers exposed a REST based management API will will be made avaiable.
+Zenoh Storage Plug-ins.
+We will contribute storage plugins for main-memory, MariaDB, PostgreSQL, SQLite, InfluxDB
+Zenoh Protocol Specification and Documentation.
+We will contribute the zenoh protocol specification along with the API documentation and user guides.
+Legal Issues:
+We own the entirety of the developed IP. Thus to the best of our knowledge there are not potential legal issues.
+Licenses:
+Apache License, Version 2.0
+Eclipse Public License 2.0
+Project Scheduling:
+We are ready to go with incubation as soon as the project is accepted. As you can see at
+http://pkgs.adlink-labs.tech
+we already have releases for main streams platforms and our github repositors have been made public (see references below).
+Thus we are ready now.
+Future Work:
+We plan to work on:
+- More client API, next two will be Rust and JavaScript
+- Next generation Router rewrite in Rust
+People
+Project Leads:
+Angelo Corsaro
+Yong He
+Committers:
+Angelo Corsaro
+Olivier Hecart
+Julien Enoch
+Yong He
+Luca Cominardi
+Interested Parties:
+Huawei
+and
+Futurewei
+have been a key partner in identifying and addressing all the key use cases that need to be addressed to propoerly support edge-applications and geo-distributed data management.
+Mentors:
+Frédéric Desbiens
+Sign in
+to post comments.
+Sign in
+to post comments.
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:
+Eclipse IoT
+Eclipse fog05
+Project Hierarchy:
+Eclipse IoT
+Eclipse zenoh
+Tags
+Technology Types
+Internet of Things
+Runtime
+Specification
+Other Tags
+edge
+protocol
+energy efficiency
+Join us for EclipseCon 2020
+EclipseCon 2020 is a free virtual event for the Eclipse community. Join us October 19-22!
+Register Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
