@@ -49,7 +49,7 @@ class ResultGenerator:
 
         spaceBetweenChar = -80
 
-        specialChars = ['a', 'v', 'w']
+        specialChars = ['a', 'v', 'w', 'm']
         reducedSpaceChars = ['i']
 
         offset = -draw.textsize(
@@ -57,11 +57,16 @@ class ResultGenerator:
             font=font,
             spacing=1)[0] - spaceBetweenChar
 
+        crop_right = 0
+        crop_bottom = 0
+
         for char in projectName:
-            offset = draw.textsize(
+            text_size = draw.textsize(
                 text=char,
                 font=font,
-                spacing=1)[0] + offset + spaceBetweenChar
+                spacing=1)
+
+            offset = text_size[0] + offset + spaceBetweenChar
 
             if char.lower() in specialChars:
                 offset = offset + spaceBetweenChar
@@ -70,11 +75,26 @@ class ResultGenerator:
                 offset = offset - spaceBetweenChar*3
 
             draw.multiline_text(
-                xy=(offset, -100),
+                xy=(offset, -300),
                 text=char,
                 font=font,
                 spacing=1,
                 align="left",
                 fill=(0, 0, 0))
+
+            crop_bottom = text_size[1] - 280
+            crop_right = text_size[0] + offset
+
+        # # Setting the points for cropped image
+        # left = 5
+        # top = height / 4
+        # right = 164
+        # bottom = 3 * height / 4
+
+        # # Cropped image of above dimension
+        # # (It will not change orginal image)
+        # im1 = im.crop((left, top, right, bottom))
+
+        image = image.crop((0, 0, crop_right, crop_bottom))
 
         image.save('./data/nlp/result/' + projectName.lower() + '-mask.png')
