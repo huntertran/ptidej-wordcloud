@@ -1,0 +1,4326 @@
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see http://www.omg.org/spec/DDSI-RTPS/ )
+With 'DATA' being 'the currency of the IOT', having a proper data-sharing technology will be a key-asset in any IOT-platform. The OMG DDS standard is recognized as a highly applicable standard for reliable and robust data-sharing in business- and mission-critical environments (
+see
+http://www.iiconsortium.org/IIRA.htm
+and
+http://www.iiconsortium.org/IICF.htm
+)
+and with that a great fit with the Eclipse-IOT ecosystem.
+Eclipse Cyclone DDS offers unique data-sharing capabilities compared to the already existing Eclipse solutions (i.e. for messaging).
+With a history of proven applicability in the military C4I domain (that are not so much unlike upcoming large-scale IOT-systems where you can also distinguish between planning-, awareness- and execution-grids that all impose specific requirements w.r.t. interoperabillity, high-volume data-sharing and deterministic/real-time data-access) we are confident that starting from day-1 this offering can significantly reduce the complexity of many IOT-systems and with that reduce their integration efforts and risks.
+Furthermore we are confident that the Eclipse-IOT ecosystem will benefit even more by active participation in the evolution of this technology and the (OMG-)standard its based upon.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Latest Releases:
+From March 1st, 2019 to August 6th, 2020
+Name
+Date
+Review
+0.7.0 (Coquette)
+2020-08-06
+0.6.0 (Florestan)
+2020-05-21
+0.5.0 (Eusebius)
+2019-12-09
+0.1.0 (Preambule)
+2019-03-01
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.7.0 (Coquette) Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.7.0 (Coquette)
+0.7.0 (Coquette) Release Review
+Eclipse Cyclone DDS 0.7.0 (Coquette) Release Review
+Type:
+Release
+State:
+Withdrawn
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, August 5, 2020
+Project:
+Eclipse Cyclone DDS
+Release:
+0.7.0 (Coquette)
+Description:
+The key feature of this release is the support for the core of DDS Security 1.1: authentication, access control and encryption. The other significant change is the much improved behaviour for very large samples: an improved retransmit strategy reduces the number of unnecessary retransmits and eliminates the sometimes excessive latencies.
+DDS Security defines a set of plug-in interfaces and protocol hooks that are part of the core DDS implementation and a set of "default" plug-ins that users may expect the DDS implementation to provide, but they can also provide their own plug-ins. The default plug-ins rely on standard cryptographical techniques (AES for symmetric encryption, Diffie-Hellman key exchange, etc.) and are typically sufficient for protecting a DDS system.
+One can choose at build-time whether to include the interfaces and protocol hooks in the core of Cyclone DDS. Leaving it out significantly reduces the size of the code and brings a tiny performance improvement. If security supported is compiled out, the DDS_HAS_SECURITY macro will be undefined (otherwise it is defined to 1) and any attempt at creating a participant with security settings will be rejected with a "precondition not met" failure.
+A lot of effort has gone into testing and checking that malformed or unexpected messages are handled correctly, that message authentication codes are checked and that no data never goes out unencrypted by accident. Still, it is significant amount of code and it is only prudent to assume the worst for a new implementation of such a complex specification.
+Architectural Issues:
+The overall architecture is holding up just fine, but there remain many, mostly local, details that need reworking. The addition of DDS Security has unfortunately laid bare some more of these details.
+Cleaning up these issues is an ongoing process, undertaken as a background activity while working towards covering all of the DDS specification famliy. The number of issues reported by people remains very low despite evidence of a growing user base, and this is also an indication that the fundamental architectural choices are sound.
+Security Issues:
+There is currently no dependency of Cyclone DDS on any other project, and therefore no relationship to any of these resolved vulnerabilities. We don't currently provide binary releases and rely on users to follow best-practices of staying up to date with their dependencies, in our case, OpenSSL. (Open Robotics is providing binary packages using up-to-date dependencies.)
+Given that Cyclone DDS now supports DDS Security, it is now "at risk" of having vulnerabilities. None are known at this point in time, but it must be assumed that some exist.
+Non-Code Aspects:
+The documentation is very basic but appears to be good enough for those who are willing to invest a bit and make a few educated guesses, based on the evidence of increasing usage and the questions that have been asked on GitHub. Presentation of the documentation and providing easy access to it (e.g., via readthedocs.io), as well as a proper website is still missing, but there are some indications that help will come.
+How many users there would have been by now had the documentation been better is anyone's guess. Thus, it is one of the main points needing attention.
+Conforms To UI/UX Guidelines:
+Not verified
+Usability Details:
+As it is middleware the intended audience is very minimal and there is no user interface to speak of.
+End of Life:
+None.
+Standards:
+OMG DDS:
+DCPS specification version 1.4 (with a more friendly API)
+DDSI specification version 2.3
+Security specification version 1.1
+Communities:
+The use of and contributions to Cyclone DDS has grown notably since becoming a tier-1 middleware in "Foxy Fitzroy", released June 5. This is visible in several ways: more well-known companies putting their logo up on the "adopters" board (https://iot.eclipse.org/adopters/?#iot.cyclonedds), more issues and pull requests on Cyclone DDS itself, but more notably on the ROS 2 Middleware abstraction where various people have now joined in maintaining the abstraction layer. The number of downloads as reported by GitHub has gone up significantly as well.
+There are also activities underway to combine Cyclone DDS and Eclipse Iceoryx to get the best of both in a single system, and to combine Cyclone DDS and Eclipse Zenoh to overcome some of the scalability limitations inherent in the DDS specification.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.7.0 (Coquette) | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.7.0 (Coquette)
+Eclipse Cyclone DDS 0.7.0 (Coquette)
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+The key feature of this release is the support for the core of DDS Security 1.1: authentication, access control and encryption. The other significant change is the much improved behaviour for very large samples: an improved retransmit strategy reduces the number of unnecessary retransmits and eliminates the sometimes excessive latencies.
+DDS Security defines a set of plug-in interfaces and protocol hooks that are part of the core DDS implementation and a set of "default" plug-ins that users may expect the DDS implementation to provide, but they can also provide their own plug-ins. The default plug-ins rely on standard cryptographical techniques (AES for symmetric encryption, Diffie-Hellman key exchange, etc.) and are typically sufficient for protecting a DDS system.
+One can choose at build-time whether to include the interfaces and protocol hooks in the core of Cyclone DDS. Leaving it out significantly reduces the size of the code and brings a tiny performance improvement. If security supported is compiled out, the DDS_HAS_SECURITY macro will be undefined (otherwise it is defined to 1) and any attempt at creating a participant with security settings will be rejected with a "precondition not met" failure.
+A lot of effort has gone into testing and checking that malformed or unexpected messages are handled correctly, that message authentication codes are checked and that no data never goes out unencrypted by accident. Still, it is significant amount of code and it is only prudent to assume the worst for a new implementation of such a complex specification.
+Release Date:
+Thursday, August 6, 2020
+Review:
+0.7.0 (Coquette) Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Eclipse Cyclone DDS | projects.eclipse.org
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+0.1.0 (Preambule) Release Review | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Eclipse Cyclone DDS | projects.eclipse.org
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+0.1.0 (Preambule) | projects.eclipse.org
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Developer Resources
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Eclipse Cyclone DDS | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+cyclonedds - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-cyclonedds/cyclonedds.git
+Browse Repository
+cyclonedds-cxx - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse-cyclonedds/cyclonedds-cxx.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.1.0 (Preambule)
+0.1.0 (Preambule) Release Review
+Eclipse Cyclone DDS 0.1.0 (Preambule) Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Contact Us
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, February 20, 2019
+Project:
+Eclipse Cyclone DDS
+Release:
+0.1.0 (Preambule)
+Description:
+A long overdue first release for Cyclone, on request from the (small) community.
+Architectural Issues:
+Cyclone DDS supports Linux, macOS and Windows as first-tier platforms. The code builds cleanly on all of them and all tests consistently pass. The occasional build failures in the continuous integration builds are related to infrastructure issues where downloading prequisites (such as maven) sometimes fails. Use of static analysis tools is so far limited to Clang's static analyzer (clean there, too), and we're working on getting it checked by Coverity Scan for a more thorough analysis.
+The initial contribution was a combination of sources of various ages and with various different naming philosophies and programming styles. This needs addressing for two reasons in particular: firstly, it is well known that such discrepancies can easily hide bugs, and secondly, this is a barrier to new contributors. Eliminating these discrepancies is an ongoing process.
+Fortunately, there is evidence that the negative impact is minor: the number of known issues in the code is very small, it generally exhibits excellent performance and no nasty misbehaviours (based on our own observations and issues raised by the community). Secondly, although there are very few direct contributions from people in the community, they have suggested a number of improvements and some have also indicated that they have put in additional features they required. (We've invited them to contribute their fixes or enhancements, but so far no pull requests have come.)
+Another area of ongoing improvement is that of modularisation of various internal components and making them pluggable. The aim here is to make it easier to alter the behaviour or provide optimised implementations for specific uses. These components cover such things as message representations, implementation of data storage on behalf of the application and networking interfaces. These changes will turn Cyclone DDS from a dedicated DDS implementation into a more general platform that can then be optimised for specific applications. Needless to say, anyone who simply wishes to use DDS will always be able to do so without being required to do such specialisation.
+Security Issues:
+Cyclone has does not rely on any of the projects listed in the Bug List. There are no known vulnerabilities in Cyclone itself at this time, but the overwhelming likelihood is that there are plenty but that no serious effort has yet been spent on finding them.
+Non-Code Aspects:
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Downloads
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+(active tab)
+Forums:
+Eclipse Cyclone DDS
+Developer Mailing List:
+cyclonedds-dev
+-
+cyclonedds developer discussions
+Project Links
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+0.5.0 (Eusebius) Release Review | projects.eclipse.org
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Who's Involved
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Documentation is included in the sources and currently primarily aimed at generating a manual in PDF format. The generated PDF is hosted on GitHub and referenced from the project's top-level README. While this document is limited, it does include an API reference section, a "getting started" chapter and a guide to configuring Cyclone. Furthermore, a tool for editing the XML configuration file is included as well, which is relevant especially because it provides reference documentation for each of the settings.
+The documentation and examples appear to be adequate for new users to get started, as the questions asked on GitHub were all concerning rather more advanced problems. That said, as is often the case, the documentation and examples are in need of improvement. One area in particular has our current attention, and that is converting from a PDF format to a more convenient, web-hosted format. This will make it much more accessible in practice.
+Conforms To UI/UX Guidelines:
+Not verified
+Usability Details:
+There is no end-user tooling.
+End of Life:
+None.
+Standards:
+OMG DDS 1.4 (Minimum Profile with some of the Content Filtered Profile), but with an alternative API.
+OMG DDSI-RTPS 2.2
+Communities:
+Presentation at Eclipse IoT Asia; and otherwise a number of questions, comments and bugs on GitHub. The number of individuals is small, but the quality of the questions and comments has increased tremendously, showing that these people have really invested time in studying the code. Some small contributions have been made, but unfortunately as suggestions rather than as pull requests, despite inviting them to do a pull request.
+Sign in
+to post comments.
+Related Projects
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.1.0 (Preambule)
+Eclipse Cyclone DDS 0.1.0 (Preambule)
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+A long overdue first release for Cyclone, on request from the (small) community.
+Release Date:
+Friday, March 1, 2019
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Governance
+Eclipse Cyclone DDS
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Commits on this project (last 12 months).
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Project Members:
+Project Lead
+Erik Boasson
+Committers
+Angelo Corsaro
+Erik Boasson
+Hans van t Hag
+Jeroen Koekkoek
+Historical Committers
+Maurits de Jong
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Review:
+0.1.0 (Preambule) Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Contact Us
+Scope:
+This project implements the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see http://www.omg.org/spec/DDSI-RTPS/ )
+Working Group:
+Internet of Things (IoT)
+Releases:
+Name
+Date
+0.7.0 (Coquette)
+2020-08-06
+0.6.0 (Florestan)
+2020-05-21
+0.5.0 (Eusebius)
+2019-12-09
+0.1.0 (Preambule)
+2019-03-01
+Reviews:
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Michiel Beemster
+Mentor
+Matthias Sohn
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.5.0 (Eusebius) | projects.eclipse.org
+0.6.0 (Florestan) | projects.eclipse.org
+Name
+Date
+0.7.0 (Coquette) Release Review
+2020-08-05
+0.6.0 (Florestan) Release Review
+2020-06-03
+0.5.0 (Eusebius) Release Review
+2019-12-04
+0.1.0 (Preambule) Release Review
+2019-02-20
+Creation Review
+2017-12-20
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Proposal
+Current Release
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+0.6.0 (Florestan) Release Review | projects.eclipse.org
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.5.0 (Eusebius)
+0.5.0 (Eusebius) Release Review
+Eclipse Cyclone DDS 0.5.0 (Eusebius) Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, December 4, 2019
+Project:
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Eclipse Cyclone DDS
+Release:
+0.5.0 (Eusebius)
+Description:
+Major features
+Support for ROS2 Dashing and Eloquent (via an adaption layer), with very positive response from various members in the ROS2 community.
+Support for an arbitrary number of concurrent DDS domains (fully independent instantiations of DDS) in a single process — this is a common feature for DDS implementations, but involved quite a bit of surgery for Cyclone DDS because of its heritage.
+Abstracting the notion of samples, types and reader history caches, allowing overriding the default implementations of these to get behaviours more suited to the applications. This is particularly relevant to language bindings and embedding Cyclone DDS in other frameworks, such as ROS2.
+Platform support is extended beyond the usual Linux/Windows/macOS: FreeRTOS, Solaris 2.6 are now known to work, with CI builds for FreeRTOS-simulator-on-Linux expected to be in before the release is planned.
+A variety of bug fixes, static analysis and test coverage improvements, and small usability enhancements.
+On the proposed version number
+The jump to 0.5 is because I have received some comments that "0.1" (and hence "0.2") makes Cyclone DDS look much less mature than it really is. I personally think that should not carry too much weight, but in the naming scheme following the movements of Schumann's Carnaval, 5 maps nicely to the calm and deliberate "Eusebius" — and this is a time to steadily move forward with considered steps. Obviously "1.0" would be a nicer version number still, but I do not believe that is a sensible step just yet:
+Some parts of the API need a revision and while the changes will be minor, it appears likely that it will require updating application code. That change should be done before (or coinciding with) releasing 1.0.
+Two key features are not in place yet: an implementation of the DDS Security specification, and support for what the specification calls "transient data", that is, data managed by the infrastructure and remaining available to new subscribers even when the original publishers have terminated. Given these efforts are progressing, it is again not a good time to think of releasing 1.0.
+Conforms To UI/UX Guidelines:
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+GitHub - eclipse-cyclonedds/cyclonedds-cxx
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Not verified
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.5.0 (Eusebius)
+Eclipse Cyclone DDS 0.5.0 (Eusebius)
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.6.0 (Florestan)
+Eclipse Cyclone DDS 0.6.0 (Florestan)
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Significant new features
+Support for mixed-language programming by supporting multiple (de)serializers for a single topic in a single process. This way, a program that consists of, say, C and C++ can use a different representation of the data in C than in C++. Before, all readers/writers in the process would be forced to use the same representation (or perform an additional copy). Currently C is still the only natively supported language, but one can use an evolving-but-reasonable-stable interface to implement different mappings.
+Improved QoS support: full support for deadline, lifespan and liveliness. The first is for generating notifications when a configured instance update rate is not achieved, the second for automatically removing stale samples, the third for different modes of monitoring the liveliness of peers.
+Improved scalability in matching readers and writers. Before it used to try matching a new local or remote reader or writer with all known local & remote entities, now only with the right group with the correct topic name.
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Skip to content
+Sign up
+Why GitHub?
+Features
+→
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories
+→
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Major features
+Support for ROS2 Dashing and Eloquent (via an adaption layer), with very positive response from various members in the ROS2 community.
+Support for an arbitrary number of concurrent DDS domains (fully independent instantiations of DDS) in a single process — this is a common feature for DDS implementations, but involved quite a bit of surgery for Cyclone DDS because of its heritage.
+Abstracting the notion of samples, types and reader history caches, allowing overriding the default implementations of these to get behaviours more suited to the applications. This is particularly relevant to language bindings and embedding Cyclone DDS in other frameworks, such as ROS2.
+Platform support is extended beyond the usual Linux/Windows/macOS: FreeRTOS, Solaris 2.6 are now known to work, with CI builds for FreeRTOS-simulator-on-Linux expected to be in before the release is planned.
+A variety of bug fixes, static analysis and test coverage improvements, and small usability enhancements.
+On the proposed version number
+The jump to 0.5 is because I have received some comments that "0.1" (and hence "0.2") makes Cyclone DDS look much less mature than it really is. I personally think that should not carry too much weight, but in the naming scheme following the movements of Schumann's Carnaval, 5 maps nicely to the calm and deliberate "Eusebius" — and this is a time to steadily move forward with considered steps. Obviously "1.0" would be a nicer version number still, but I do not believe that is a sensible step just yet:
+Some parts of the API need a revision and while the changes will be minor, it appears likely that it will require updating application code. That change should be done before (or coinciding with) releasing 1.0.
+Two key features are not in place yet: an implementation of the DDS Security specification, and support for what the specification calls "transient data", that is, data managed by the infrastructure and remaining available to new subscribers even when the original publishers have terminated. Given these efforts are progressing, it is again not a good time to think of releasing 1.0.
+Release Date:
+Monday, December 9, 2019
+Review:
+0.5.0 (Eusebius) Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Improved tracing: discovery data is now printed properly and user samples have more type information allowing floating-point and signed numbers to be traced in a more readable form.
+Extension of platform support
+Known to work on FreeBSD, CheriBSD
+Known to work with the musl C library
+Windows-specific changes
+Fixes multicasts to addresses also used by non-Cyclone processes (caused by accidentally linking with an old sockets library)
+Correct handling of non-English network interface names
+Release Date:
+Thursday, May 21, 2020
+Review:
+0.6.0 (Florestan) Release Review
+Release Type:
+Minor release
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.6.0 (Florestan)
+0.6.0 (Florestan) Release Review
+Eclipse Cyclone DDS 0.6.0 (Florestan) Release Review
+Type:
+Release
+State:
+Withdrawn
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, June 3, 2020
+Project:
+Security
+→
+Team
+Enterprise
+Explore
+Explore GitHub
+→
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+0.7.0 (Coquette) | projects.eclipse.org
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Eclipse Cyclone DDS
+Release:
+0.6.0 (Florestan)
+Description:
+Significant new features
+Support for mixed-language programming by supporting multiple (de)serializers for a single topic in a single process. This way, a program that consists of, say, C and C++ can use a different representation of the data in C than in C++. Before, all readers/writers in the process would be forced to use the same representation (or perform an additional copy). Currently C is still the only natively supported language, but one can use an evolving-but-reasonable-stable interface to implement different mappings.
+Improved QoS support: full support for deadline, lifespan and liveliness. The first is for generating notifications when a configured instance update rate is not achieved, the second for automatically removing stale samples, the third for different modes of monitoring the liveliness of peers.
+Improved scalability in matching readers and writers. Before it used to try matching a new local or remote reader or writer with all known local & remote entities, now only with the right group with the correct topic name.
+Improved tracing: discovery data is now printed properly and user samples have more type information allowing floating-point and signed numbers to be traced in a more readable form.
+Extension of platform support
+Known to work on FreeBSD, CheriBSD
+Known to work with the musl C library
+Windows-specific changes
+Fixes multicasts to addresses also used by non-Cyclone processes (caused by accidentally linking with an old sockets library)
+Marketplace
+Pricing
+Plans
+→
+Compare plans
+Contact Sales
+Nonprofit
+→
+Education
+→
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Mailing list: cyclonedds-dev (35 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Correct handling of non-English network interface names
+Architectural Issues:
+The overall architecture is holding up just fine, but there remain many, mostly local, details that need reworking. This is an ongoing process, undertaken as a background activity while working towards covering all of the DDS specification famliy. The number of issues reported by people remains very low despite evidence of a growing user base, and this is also an indication that the fundamental architectural choices are sound.
+Security Issues:
+No known issues.
+Non-Code Aspects:
+The documentation is very basic but appears to be good enough for those who are willing to invest a bit and make a few educated guesses, based on the evidence of increasing usage and the questions that have been asked on GitHub. Presentation of the documentation and providing easy access to it (e.g., via readthedocs.io), as well as a proper website is still missing, but there are some indications that help will come.
+How many users there would have been by now had the documentation been better is anyone's guess. Thus, it is one of the main points needing attention.
+Conforms To UI/UX Guidelines:
+Not verified
+Usability Details:
+As it is middleware the intended audience is very minimal and there is no user interface to speak of.
+End of Life:
+None.
+Standards:
+OMG DDS:
+DCPS specification version 1.4 (with a more friendly API)
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-cyclonedds
+/
+cyclonedds-cxx
+Watch
+6
+Star
+4
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+0.7.0 (Coquette) | projects.eclipse.org
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Back to the top
+DDSI specification version 2.3
+Communities:
+This release is specifically aimed at matching the upcoming "
+Foxy Fitzroy
+" release of ROS2, where Cyclone DDS is one of 3 tier-1 middleware options. We're quite proud of this: at the time of the initial release of "Dashing" there was no support for Cyclone DDS at all, both other tier-1 middleware options were there from the beginning, and no other newcomers have even made it to tier-2.
+The tireless promotion of Cyclone DDS in the ROS2 community by Mr. Joe Speed (in particular) has dramatically increased visibility and use of Cyclone DDS. Some rather well-known companies have chosen to use Cyclone DDS over the incumbent middleware implementations in the ROS2 ecosystem (https://iot.eclipse.org/adopters/?#iot.cyclonedds).
+All this has led to more community involvement and more contributions from people outside the original circle. Examples include a port to a research operating system and fuzzing it to find bugs (the two bugs reported had both been discovered and fixed independently, fortunately).
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+Fork
+10
+View license
+4
+stars
+10
+forks
+Star
+Watch
+Code
+Issues
+3
+Pull requests
+4
+Actions
+Projects
+0
+Security
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+GitHub - eclipse-cyclonedds/cyclonedds: Eclipse Cyclone DDS project
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+2
+branches
+0
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.7.0 (Coquette)
+Review Information
+Eclipse Cyclone DDS 0.7.0 (Coquette)
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+The key feature of this release is the support for the core of DDS Security 1.1: authentication, access control and encryption. The other significant change is the much improved behaviour for very large samples: an improved retransmit strategy reduces the number of unnecessary retransmits and eliminates the sometimes excessive latencies.
+DDS Security defines a set of plug-in interfaces and protocol hooks that are part of the core DDS implementation and a set of "default" plug-ins that users may expect the DDS implementation to provide, but they can also provide their own plug-ins. The default plug-ins rely on standard cryptographical techniques (AES for symmetric encryption, Diffie-Hellman key exchange, etc.) and are typically sufficient for protecting a DDS system.
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Skip to content
+Sign up
+Why GitHub?
+Features
+→
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories
+→
+Security
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+0.7.0 (Coquette) | projects.eclipse.org
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more
+.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens,
+One can choose at build-time whether to include the interfaces and protocol hooks in the core of Cyclone DDS. Leaving it out significantly reduces the size of the code and brings a tiny performance improvement. If security supported is compiled out, the DDS_HAS_SECURITY macro will be undefined (otherwise it is defined to 1) and any attempt at creating a participant with security settings will be rejected with a "precondition not met" failure.
+A lot of effort has gone into testing and checking that malformed or unexpected messages are handled correctly, that message authentication codes are checked and that no data never goes out unencrypted by accident. Still, it is significant amount of code and it is only prudent to assume the worst for a new implementation of such a complex specification.
+Architectural Issues:
+The overall architecture is holding up just fine, but there remain many, mostly local, details that need reworking. The addition of DDS Security has unfortunately laid bare some more of these details.
+Cleaning up these issues is an ongoing process, undertaken as a background activity while working towards covering all of the DDS specification famliy. The number of issues reported by people remains very low despite evidence of a growing user base, and this is also an indication that the fundamental architectural choices are sound.
+Security Issues:
+There is currently no dependency of Cyclone DDS on any other project, and therefore no relationship to any of these resolved vulnerabilities. We don't currently provide binary releases and rely on users to follow best-practices of staying up to date with their dependencies, in our case, OpenSSL. (Open Robotics is providing binary packages using up-to-date dependencies.)
+Given that Cyclone DDS now supports DDS Security, it is now "at risk" of having vulnerabilities. None are known at this point in time, but it must be assumed that some exist.
+Non-Code Aspects:
+The documentation is very basic but appears to be good enough for those who are willing to invest a bit and make a few educated guesses, based on the evidence of increasing usage and the questions that have been asked on GitHub. Presentation of the documentation and providing easy access to it (e.g., via readthedocs.io), as well as a proper website is still missing, but there are some indications that help will come.
+How many users there would have been by now had the documentation been better is anyone's guess. Thus, it is one of the main points needing attention.
+Conforms To UI/UX Guidelines:
+Not verified
+Usability Details:
+As it is middleware the intended audience is very minimal and there is no user interface to speak of.
+Log in
+Search
+Mailing list: cyclonedds-dev
+(35 subscribers)
+cyclonedds developer discussions
+About cyclonedds-dev
+cyclonedds developer discussions
+Using cyclonedds-dev
+To post a message to all the list members, send email to
+cyclonedds-dev@eclipse.org
+. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
+cyclonedds-dev Archives
+or subscribe to this list's
+RSS feed
+Subscribing cyclonedds-dev
+→
+Team
+Enterprise
+Explore
+Explore GitHub
+→
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+download GitHub Desktop
+and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching Xcode
+If nothing happens,
+download Xcode
+and try again.
+Go back
+Launching Visual Studio
+If nothing happens,
+download the GitHub extension for Visual Studio
+and try again.
+End of Life:
+None.
+Standards:
+OMG DDS:
+DCPS specification version 1.4 (with a more friendly API)
+DDSI specification version 2.3
+Security specification version 1.1
+Communities:
+The use of and contributions to Cyclone DDS has grown notably since becoming a tier-1 middleware in "Foxy Fitzroy", released June 5. This is visible in several ways: more well-known companies putting their logo up on the "adopters" board (https://iot.eclipse.org/adopters/?#iot.cyclonedds), more issues and pull requests on Cyclone DDS itself, but more notably on the ROS 2 Middleware abstraction where various people have now joined in maintaining the abstraction layer. The number of downloads as reported by GitHub has gone up significantly as well.
+There are also activities underway to combine Cyclone DDS and Eclipse Iceoryx to get the best of both in a single system, and to combine Cyclone DDS and Eclipse Zenoh to overcome some of the scalability limitations inherent in the DDS specification.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+All contributions you make to our web site are governed by our
+Terms Of Use
+. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
+Privacy Policy
+.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the
+Mailing List
+page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Pricing
+Plans
+→
+Compare plans
+Contact Sales
+Nonprofit
+→
+Education
+→
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.7.0 (Coquette)
+Release Plan
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Go back
+Latest commit
+eboasson
+Merge pull request
+#6
+from e-hndrks/master
+…
+618a065
+Sep 6, 2020
+Merge pull request
+#6
+from e-hndrks/master
+618a065
+Git stats
+14
+commits
+Files
+Permalink
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Mailing list: cyclonedds-dev
+RSS Feed
+Archive
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-cyclonedds
+/
+cyclonedds
+Watch
+43
+Star
+167
+Eclipse Cyclone DDS 0.7.0 (Coquette)
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Thursday, August 6, 2020
+Compatibility:
+No backwards incompatible changes in the stable interfaces.
+Some small changes in the still-evolving extension interfaces for custom reader history caches and sample representations require changes to and recompilation of code that depends on them. Preprocessor defines can be used to determine whether the updated versions are available.
+Target Environments:
+Cyclone DDS's own CI on travis ensures compatibility with Windows, Linux and macOS on x64. The integration in ROS2 means 32-bit and 64-bit Linux on ARM are tested daily as well. Solaris, FreeRTOS, VxWorks, *BSD and Android are known to work.
+Milestones:
+Name
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+cmake/
+Modules
+Add CMake build instructions
+Jul 30, 2020
+docs
+Add CMake build instructions
+Jul 30, 2020
+examples
+Add helloworld example
+Aug 12, 2020
+src
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Fork
+85
+Eclipse Cyclone DDS project
+projects.eclipse.org/projects/iot.cyclonedds
+View license
+167
+stars
+85
+forks
+Star
+Watch
+Code
+Issues
+59
+Pull requests
+25
+Actions
+Date
+Description
+Release candidate 1
+2020/07/22
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.7.0 (Coquette)
+Issues
+Eclipse Cyclone DDS 0.7.0 (Coquette)
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Aug 13, 2020
+.travis.yml
+Add Coverity Scan job
+Aug 14, 2020
+CMakeLists.txt
+Add helloworld example
+Aug 12, 2020
+LICENSE
+Initial contribution
+Jul 22, 2020
+PackageConfig.cmake.in
+Generate package configuration file
+Aug 12, 2020
+README.md
+Add Travis and Coverity badges to the Readme
+Aug 14, 2020
+View code
+Projects
+0
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+README.md
+C++ binding for Eclipse Cyclone DDS
+An implementation of the
+ISO/IEC C++ PSM
+, or simply put, a C++ binding for
+Eclipse Cyclone DDS
+. Cyclone DDS is developed completely in the open as an Eclipse IoT project (see
+eclipse-cyclone-dds
+) with a growing list of
+adopters
+(if you're one of them, please add your
+logo
+). It is a tier-1 middleware for the Robot Operating System
+ROS 2
+.
+Getting Started
+Building the Eclipse Cyclone DDS C++ binding
+In order to build the C++ binding for Cyclone DDS you need a Linux, Mac or Windows 10 machine (or, with some caveats, a *BSD, OpenIndiana one) with the following installed on your host:
+master
+8
+branches
+8
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more
+.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+C and C++ compilers (most commonly GCC on Linux, Visual Studio on Windows, Xcode on macOS);
+Git
+version control system;
+CMake
+, version 3.7 or later;
+Eclipse Cyclone DDS
+CXX Idl compiler
+Eclipse Cyclone DDS
+and the
+CXX Idl compiler
+have dependencies of their own, most notably Java and Apache Maven. To build and install the respective projects, please consult their build instructions. Ensure both projects are installed into locations convenient for you by specifying
+CMAKE_INSTALL_PREFIX
+.
+The
+CXX Idl compiler
+is a temporary dependency, a new IDL compiler for both Eclipse Cyclone DDS and Eclipse Cyclone DDS CXX is in the works.
+To obtain the C++ binding for Cyclone DDS, do
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching Xcode
+If nothing happens,
+download Xcode
+and try again.
+Go back
+Launching Visual Studio
+If nothing happens,
+download the GitHub extension for Visual Studio
+and try again.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Depending on whether you want to develop applications using the C++ binding for Cyclone DDS or contribute to it you can follow different procedures.
+For application developers
+To build and install the required libraries needed to develop your own applications using the C++ binding for Cyclone DDS requires a few simple steps. There are some small differences between Linux and macOS on the one hand, and Windows on the other. For Linux or macOS:
+and for Windows:
+where you should replace
+<install-location>
+by the directory under which you would like to install the C++ binding for Cyclone DDS and
+<generator-name>
+by one of the ways CMake
+generators
+offer for generating build files. For example, "Visual Studio 15 2017 Win64" would target a 64-bit build using Visual Studio 2017.
+To install it after a successful build, do:
+Which will copy everything to:
+<install-location>/lib
+<install-location>/bin
+<install-location>/include/ddsc
+<install-location>/share/CycloneDDS-CXX
+Depending on the installation location you may need administrator privileges.
+Go back
+Latest commit
+Git stats
+1,138
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+cmake/
+Modules
+docs
+etc
+examples
+ports
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+At this point you are ready to use Eclipse Cyclone DDS in your own projects.
+Note that the default build type is a release build with debug information included (RelWithDebInfo), which is generally the most convenient type of build to use from applications because of a good mix between performance and still being able to debug things. If you'd rather have a Debug or pure Release build, set
+CMAKE_BUILD_TYPE
+accordingly.
+Contributing to Eclipse Cyclone DDS
+We very much welcome all contributions to the project, whether that is questions, examples, bug fixes, enhancements or improvements to the documentation, or anything else really. When considering contributing code, it might be good to know that build configurations for Travis CI and AppVeyor are present in the repository and that there is a test suite using CTest and Google Test that can be built locally if desired. To build it, set the cmake variable
+BUILD_TESTING
+to on when configuring, e.g.:
+Such a build requires the presence of
+Google Test
+. You can install this yourself, or you can choose to instead rely on the
+Conan
+package manager that the CI build infrastructure also uses. In that case, install Conan and do:
+in the build directory prior to running
+cmake
+. This will automatically download and/or build Google Test.
+The Google Test Conan package is hosted in the Bincrafters Bintray repository. In case this repository was not added to your Conan remotes list yet (and the above mentioned install command failed because it could not find the Google Test package), you can add the Bintray repository by:
+scripts
+src
+.codecov.yml
+.gitignore
+.gitmodules
+.travis.yml
+CHANGELOG.rst
+CMakeLists.txt
+CONTRIBUTING.md
+LICENSE
+NOTICE.md
+README.md
+appveyor.yml
+colcon.pkg
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Replace
+<REMOTE>
+with a name that identifies the repository (e.g.
+bincrafters
+).
+For Windows, depending on the generator, you might also need to add switches to select the architecture and build type, e.g.,
+Documentation
+The documentation is still rather limited, and at the moment only available in the sources (in the form of restructured text files in
+docs
+and Doxygen comments in the header files). The intent is to automate the process of building the documentation and have them available in more convenient formats and in the usual locations.
+Building and Running the HelloWorld Example
+We will show you how to build and run an example program that illustrates the necessary steps to setup DCPS entities. The examples are built automatically when you build the C++ language binding for Cyclone DDS, so you don't need to follow these steps to be able to run the program, it is merely to illustrate the process.
+On one terminal start the application that will be responding to messages:
+On another terminal, start the application that will be sending the messages:
+Trademarks
+"Eclipse Cyclone DDS" and "Cyclone DDS" are trademarks of the Eclipse Foundation.
+"DDS" is a trademark of the Object Management Group, Inc.
+"ROS" is a trademark of Open Source Robotics Foundation, Inc.
+conanfile.txt
+conanfile102.txt
+package.xml
+View code
+README.md
+Eclipse Cyclone DDS
+Eclipse Cyclone DDS is a very performant and robust open-source DDS implementation. Cyclone DDS is developed completely in the open as an Eclipse IoT project (see
+eclipse-cyclone-dds
+) with a growing list of
+adopters
+(if you're one of them, please add your
+logo
+). It is a tier-1 middleware for the Robot Operating System
+ROS 2
+.
+Getting Started
+Performance
+0.1.0 (Preambule) | projects.eclipse.org
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+Eclipse Cyclone DDS
+Creation Review
+Eclipse Cyclone DDS Creation Review
+Type:
+Creation
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+License
+This project contains 2 types of license: Apache2 and Eclipse Public License / Eclipse Distribution License
+The Apache2 license located in src/ddscxx/include/dds is for all files under src/ddscxx/include/dds except the details directories
+Eclipse Public License / Eclipse Distribution License is valid for all other files.
+About
+No description, website, or topics provided.
+Resources
+Readme
+License
+View license
+Releases
+No releases published
+Packages
+0
+No packages published
+Contributors
+4
+Configuration
+Getting Started
+Building Eclipse Cyclone DDS
+In order to build Cyclone DDS you need a Linux, Mac or Windows 10 machine (or, with some caveats, a *BSD, OpenIndiana or a Solaris 2.6 one) with the following installed on your host:
+C compiler (most commonly GCC on Linux, Visual Studio on Windows, Xcode on macOS);
+GIT version control system;
+CMake
+, version 3.7 or later;
+OpenSSL
+, preferably version 1.1 or later if you want to use TLS over TCP. You can explicitly disable it by setting
+ENABLE_SSL=NO
+, which is very useful for reducing the footprint or when the FindOpenSSL CMake script gives you trouble;
+Java JDK, version 8 or later, e.g.,
+OpenJDK
+;
+Apache Maven
+, version 3.5 or later.
+On Ubuntu
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Wednesday, December 20, 2017
+Project:
+Eclipse Cyclone DDS
+Proposal:
+Eclipse Cyclone DDS
+Parent Project:
+Eclipse IoT
+Background:
+Acceptance of Eclipse Cyclone DDS as a recognized (data-sharing) standard in the Industrial Internet of Things (IIoT)
+(
+see
+http://www.iiconsortium.org/IIRA.htm
+and
+http://www.iiconsortium.org/IICF.htm
+for a detailed assessment of this)
+really calls for an opensource-based solution and we feel that Eclipse IoT can provide the thriving ecosystem that will make this project a huge success
+In the scope of this project we (ADLINK) will contribute our proven DDS solution as a starting point for a true open-source DDS offering with applicability in a wide range of existing and upcoming IoT applications.
+Scope:
+k0ekk0ek
+Jeroen Koekkoek
+eboasson
+e-hndrks
+ThijsSassen
+Thijs
+Languages
+C++
+97.9%
+CMake
+1.7%
+C
+0.4%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+apt install maven default-jdk
+should do the trick for getting Java and Maven installed, and the rest should already be there. On Windows, installing chocolatey and
+choco install git cmake openjdk maven
+should get you a long way. On macOS,
+brew install maven cmake
+and downloading and installing the JDK is easiest.
+The only Java-based component is the IDL preprocessor. The run-time libraries are pure C code, so there is no need to have Java available on "target" machines. If desired, it is possible to do a build without Java or Maven installed by defining
+BUILD_IDLC=NO
+, but that effectively only gets you the core library. For the current
+ROS 2 RMW layer
+, that is sufficient.
+To obtain Eclipse Cyclone DDS, do
+Depending on whether you want to develop applications using Cyclone DDS or contribute to it you can follow different procedures
+For application developers
+To build and install the required libraries needed to develop your own applications using Cyclone DDS requires a few simple steps. There are some small differences between Linux and macOS on the one hand, and Windows on the other. For Linux or macOS:
+and for Windows:
+where you should replace
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+This project implements the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see http://www.omg.org/spec/DDSI-RTPS/ )
+Description:
+With 'DATA' being 'the currency of the IOT', having a proper data-sharing technology will be a key-asset in any IOT-platform. The OMG DDS standard is recognized as a highly applicable standard for reliable and robust data-sharing in business- and mission-critical environments (
+see
+http://www.iiconsortium.org/IIRA.htm
+and
+http://www.iiconsortium.org/IICF.htm
+)
+and with that a great fit with the Eclipse-IOT ecosystem.
+Why Here?:
+Eclipse Cyclone DDS offers unique data-sharing capabilities compared to the already existing Eclipse solutions (i.e. for messaging).
+With a history of proven applicability in the military C4I domain (that are not so much unlike upcoming large-scale IOT-systems where you can also distinguish between planning-, awareness- and execution-grids that all impose specific requirements w.r.t. interoperabillity, high-volume data-sharing and deterministic/real-time data-access) we are confident that starting from day-1 this offering can significantly reduce the complexity of many IOT-systems and with that reduce their integration efforts and risks.
+Furthermore we are confident that the Eclipse-IOT ecosystem will benefit even more by active participation in the evolution of this technology and the (OMG-)standard its based upon.
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window.
+<install-location>
+by the directory under which you would like to install Cyclone DDS and
+<generator-name>
+by one of the ways CMake
+generators
+offer for generating build files. For example, "Visual Studio 15 2017 Win64" would target a 64-bit build using Visual Studio 2017.
+To install it after a successful build, do:
+which will copy everything to:
+<install-location>/lib
+<install-location>/bin
+<install-location>/include/ddsc
+<install-location>/share/CycloneDDS
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Initial Contribution:
+The initial contribution will exist of
+the Vortex OpenSplice code-base (v6.8): a polyglot DDS implementation covering all DCPS-profiles and related QoS-policies
+​
+Apart from some third-party libraries, all code is currently owned by
+ADLINK
+and there currently exists a modest (1000+ members) community around its Community Edition (based on the v6.7 codebase, see
+http://www.prismtech.com/dds-community
+) which obviously will migrate to Eclipse too.
+Legal Issues:
+There are no legal issues identified so far.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 2.0
+Project Scheduling:
+Initial contribution:
+immediate after project-acceptance to allow IP-review by the IP-team:
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+.
+Accept
+Reject
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking
+Cookie Preferences
+0.1.0 (Preambule) | projects.eclipse.org
+Depending on the installation location you may need administrator privileges.
+At this point you are ready to use Eclipse Cyclone DDS in your own projects.
+Note that the default build type is a release build with debug information included (RelWithDebInfo), which is generally the most convenient type of build to use from applications because of a good mix between performance and still being able to debug things. If you'd rather have a Debug or pure Release build, set
+CMAKE_BUILD_TYPE
+accordingly.
+Contributing to Eclipse Cyclone DDS
+We very much welcome all contributions to the project, whether that is questions, examples, bug fixes, enhancements or improvements to the documentation, or anything else really. When considering contributing code, it might be good to know that build configurations for Travis CI and AppVeyor are present in the repository and that there is a test suite using CTest and CUnit that can be built locally if desired. To build it, set the cmake variable
+BUILD_TESTING
+to on when configuring, e.g.:
+Such a build requires the presence of
+CUnit
+. You can install this yourself, or you can choose to instead rely on the
+Conan
+packaging system that the CI build infrastructure also uses. In that case, install Conan and do:
+in the build directory prior to running cmake.
+The CUnit Conan package is hosted in the
+Bincrafters Bintray repository
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.1.0 (Preambule)
+Review Information
+Eclipse Cyclone DDS 0.1.0 (Preambule)
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+A long overdue first release for Cyclone, on request from the (small) community.
+Architectural Issues:
+Cyclone DDS supports Linux, macOS and Windows as first-tier platforms. The code builds cleanly on all of them and all tests consistently pass. The occasional build failures in the continuous integration builds are related to infrastructure issues where downloading prequisites (such as maven) sometimes fails. Use of static analysis tools is so far limited to Clang's static analyzer (clean there, too), and we're working on getting it checked by Coverity Scan for a more thorough analysis.
+A 3rd party software list will be provided immediately, code can be expected within 1 month of project acceptance
+Future Work:
+support for the extensible data-types specification (OMG DDS-Xtypes rev 1.2)
+support for the interoperable DDS security specification (OMG DDS-Security rev 1.0)
+​Furthermore we foresee a flow of tools and additional-features and integrations from our commercial offering towards opensource as the need for them grows by the community and its uptake of DDS. Concrete examples of this are our evolving 'Vortex Insight' tooling for monitoring DDS-based systems and prototyped integrations with 3rd party tools such as apache-spark/storm, node-red and freeboard (see http://prismtech.github.io/ which will be transferred to Eclipse too)
+From our experience of IOT projects, we foresee webinars to the community and use case stories, as well as sponsoring events and presenting at them. We would also like to contribute plugins to other eclipse IOT projects to enable users to benefit from DDS
+People
+Project Leads:
+Niels Kortstee
+Michiel Beemster
+Hans van t Hag
+Committers:
+Niels Kortstee
+Julien Enoch
+Michiel Beemster
+Maurits de Jong
+at the bottom of the page. For more information, see our
+Privacy Statement
+.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+. In case this repository was not added to your Conan remotes list yet (and the above mentioned install command failed because it could not find the CUnit package), you can add the Bintray repository by:
+Replace
+<REMOTE>
+with a name that identifies the repository (e.g.
+bincrafters
+).
+For Windows, depending on the generator, you might also need to add switches to select the architecture and build type, e.g.,
+conan install -s arch=x86_64 -s build_type=Debug ..
+This will automatically download and/or build CUnit (and, at the moment, OpenSSL).
+Documentation
+The documentation is still rather limited, and at the moment only available in the sources (in the form of restructured text files in
+docs
+and Doxygen comments in the header files), or as a
+PDF
+. The intent is to automate the process of building the documentation and have them available in more convenient formats and in the usual locations.
+Building and Running the Roundtrip Example
+We will show you how to build and run an example program that measures latency. The examples are built automatically when you build Cyclone DDS, so you don't need to follow these steps to be able to run the program, it is merely to illustrate the process.
+The initial contribution was a combination of sources of various ages and with various different naming philosophies and programming styles. This needs addressing for two reasons in particular: firstly, it is well known that such discrepancies can easily hide bugs, and secondly, this is a barrier to new contributors. Eliminating these discrepancies is an ongoing process.
+Fortunately, there is evidence that the negative impact is minor: the number of known issues in the code is very small, it generally exhibits excellent performance and no nasty misbehaviours (based on our own observations and issues raised by the community). Secondly, although there are very few direct contributions from people in the community, they have suggested a number of improvements and some have also indicated that they have put in additional features they required. (We've invited them to contribute their fixes or enhancements, but so far no pull requests have come.)
+Another area of ongoing improvement is that of modularisation of various internal components and making them pluggable. The aim here is to make it easier to alter the behaviour or provide optimised implementations for specific uses. These components cover such things as message representations, implementation of data storage on behalf of the application and networking interfaces. These changes will turn Cyclone DDS from a dedicated DDS implementation into a more general platform that can then be optimised for specific applications. Needless to say, anyone who simply wishes to use DDS will always be able to do so without being required to do such specialisation.
+Security Issues:
+Cyclone has does not rely on any of the projects listed in the Bug List. There are no known vulnerabilities in Cyclone itself at this time, but the overwhelming likelihood is that there are plenty but that no serious effort has yet been spent on finding them.
+Non-Code Aspects:
+Documentation is included in the sources and currently primarily aimed at generating a manual in PDF format. The generated PDF is hosted on GitHub and referenced from the project's top-level README. While this document is limited, it does include an API reference section, a "getting started" chapter and a guide to configuring Cyclone. Furthermore, a tool for editing the XML configuration file is included as well, which is relevant especially because it provides reference documentation for each of the settings.
+The documentation and examples appear to be adequate for new users to get started, as the questions asked on GitHub were all concerning rather more advanced problems. That said, as is often the case, the documentation and examples are in need of improvement. One area in particular has our current attention, and that is converting from a PDF format to a more convenient, web-hosted format. This will make it much more accessible in practice.
+Conforms To UI/UX Guidelines:
+Not verified
+Usability Details:
+There is no end-user tooling.
+End of Life:
+None.
+Standards:
+Mentors:
+Matthias Sohn
+Sign in
+to post comments.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+On one terminal start the application that will be responding to pings:
+On another terminal, start the application that will be sending the pings:
+The numbers above were measured on Mac running a 4.2 GHz Intel Core i7 on December 12th 2018. From these numbers you can see how the roundtrip is very stable and the minimal latency is now down to 17 micro-seconds (used to be 25 micro-seconds) on this HW.
+Performance
+Reliable message throughput is over 1MS/s for very small samples and is roughly 90% of GbE with 100 byte samples, and latency is about 30us when measured using
+ddsperf
+between two Intel(R) Xeon(R) CPU E3-1270 V2 @ 3.50GHz (that's 2012 hardware ...) running Ubuntu 16.04, with the executables built on Ubuntu 18.04 using gcc 7.4.0 for a default (i.e., "RelWithDebInfo") build.
+This is with the subscriber in listener mode, using asynchronous delivery for the throughput test. The configuration is a marginally tweaked out-of-the-box configuration: an increased maximum message size and fragment size, and an increased high-water mark for the reliability window on the writer side. For details, see the
+scripts
+directory, the
+environment details
+and the
+throughput
+and
+latency
+data underlying the graphs. These also include CPU usage (
+throughput
+and
+OMG DDS 1.4 (Minimum Profile with some of the Content Filtered Profile), but with an alternative API.
+OMG DDSI-RTPS 2.2
+Communities:
+Presentation at Eclipse IoT Asia; and otherwise a number of questions, comments and bugs on GitHub. The number of individuals is small, but the quality of the questions and comments has increased tremendously, showing that these people have really invested time in studying the code. Some small contributions have been made, but unfortunately as suggestions rather than as pull requests, despite inviting them to do a pull request.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+latency
+) and
+memory usage
+.
+Configuration
+The out-of-the-box configuration should usually be fine, but there are a great many options that can be tweaked by creating an XML file with the desired settings and defining the
+CYCLONEDDS_URI
+to point to it. E.g. (on Linux):
+(on Windows, one would have to use
+set CYCLONEDDS_URI=file://...
+instead.)
+This example shows a few things:
+NetworkInterfaceAddress
+can be used to override the interface selected by default (you can use the address or the interface name). Proper use of multiple network interfaces simultaneously will come, but is not there yet.
+AllowMulticast
+configures the circumstances under which multicast will be used. If the selected interface doesn't support it, it obviously won't be used (
+false
+); but if it does support it, the type of the network adapter determines the default value. For a wired network, it will use multicast for initial discovery as well as for data when there are multiple peers that the data needs to go to (
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+0.1.0 (Preambule) | projects.eclipse.org
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.1.0 (Preambule)
+Issues
+Eclipse Cyclone DDS 0.1.0 (Preambule)
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+true
+); but on a WiFi network it will use it only for initial discovery (
+spdp
+), because multicast on WiFi is very unreliable.
+Verbosity
+allows control over the tracing, "config" dumps the configuration to the trace output (which defaults to "cyclonedds.log"). Which interface is used, what multicast settings are used, etc., is all in the trace. Setting the verbosity to "finest" gives way more output on the inner workings, and there are various other levels as well.
+MaxMessageSize
+and
+FragmentSize
+control the maximum size of the RTPS messages (basically the size of the UDP payload), and the size of the fragments into which very large samples get split (which needs to be "a bit" less). Large values such as these typically improve performance over the (current) default values.
+WhcHigh
+determines when the sender will wait for acknowledgements from the readers because it has buffered too much unacknowledged data. There is some auto-tuning, the (current) default value is a bit small to get really high throughput.
+Background information on configuring Cyclone DDS can be found
+here
+and a list of settings is
+available
+.
+Trademarks
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+= unsolved/reopened
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+"Eclipse Cyclone DDS" and "Cyclone DDS" are trademarks of the Eclipse Foundation.
+"DDS" is a trademark of the Object Management Group, Inc.
+"ROS" is a trademark of Open Source Robotics Foundation, Inc.
+About
+Eclipse Cyclone DDS project
+projects.eclipse.org/projects/iot.cyclonedds
+Topics
+dds
+Resources
+Readme
+License
+View license
+Releases
+8
+0.7.0 (Coquette)
+Latest
+Aug 6, 2020
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
++ 7 releases
+Packages
+0
+No packages published
+Contributors
+35
++ 24 contributors
+Languages
+C
+92.8%
+CMake
+2.0%
+Java
+1.9%
+C++
+1.5%
+Perl
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.9%
+GAP
+0.3%
+Other
+0.6%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.1.0 (Preambule)
+Release Plan
+Eclipse Cyclone DDS 0.1.0 (Preambule)
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Friday, March 1, 2019
+You can’t perform that action at this time.
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+.
+Accept
+Reject
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Deliverables:
+A basic DDS implementation that is demonstrably usable in real-life projects.
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+You can always update your selection by clicking
+Cookie Preferences
+at the bottom of the page. For more information, see our
+Privacy Statement
+.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.0 (Florestan) | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+0.6.0 (Florestan) | projects.eclipse.org
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.6.0 (Florestan)
+Review Information
+Eclipse Cyclone DDS 0.6.0 (Florestan)
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+Significant new features
+Support for mixed-language programming by supporting multiple (de)serializers for a single topic in a single process. This way, a program that consists of, say, C and C++ can use a different representation of the data in C than in C++. Before, all readers/writers in the process would be forced to use the same representation (or perform an additional copy). Currently C is still the only natively supported language, but one can use an evolving-but-reasonable-stable interface to implement different mappings.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Improved QoS support: full support for deadline, lifespan and liveliness. The first is for generating notifications when a configured instance update rate is not achieved, the second for automatically removing stale samples, the third for different modes of monitoring the liveliness of peers.
+Improved scalability in matching readers and writers. Before it used to try matching a new local or remote reader or writer with all known local & remote entities, now only with the right group with the correct topic name.
+Improved tracing: discovery data is now printed properly and user samples have more type information allowing floating-point and signed numbers to be traced in a more readable form.
+Extension of platform support
+Known to work on FreeBSD, CheriBSD
+Known to work with the musl C library
+Windows-specific changes
+Fixes multicasts to addresses also used by non-Cyclone processes (caused by accidentally linking with an old sockets library)
+Correct handling of non-English network interface names
+Architectural Issues:
+The overall architecture is holding up just fine, but there remain many, mostly local, details that need reworking. This is an ongoing process, undertaken as a background activity while working towards covering all of the DDS specification famliy. The number of issues reported by people remains very low despite evidence of a growing user base, and this is also an indication that the fundamental architectural choices are sound.
+Security Issues:
+No known issues.
+Non-Code Aspects:
+The documentation is very basic but appears to be good enough for those who are willing to invest a bit and make a few educated guesses, based on the evidence of increasing usage and the questions that have been asked on GitHub. Presentation of the documentation and providing easy access to it (e.g., via readthedocs.io), as well as a proper website is still missing, but there are some indications that help will come.
+How many users there would have been by now had the documentation been better is anyone's guess. Thus, it is one of the main points needing attention.
+Conforms To UI/UX Guidelines:
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Not verified
+Usability Details:
+As it is middleware the intended audience is very minimal and there is no user interface to speak of.
+End of Life:
+None.
+Standards:
+OMG DDS:
+DCPS specification version 1.4 (with a more friendly API)
+DDSI specification version 2.3
+Communities:
+This release is specifically aimed at matching the upcoming "
+Foxy Fitzroy
+" release of ROS2, where Cyclone DDS is one of 3 tier-1 middleware options. We're quite proud of this: at the time of the initial release of "Dashing" there was no support for Cyclone DDS at all, both other tier-1 middleware options were there from the beginning, and no other newcomers have even made it to tier-2.
+The tireless promotion of Cyclone DDS in the ROS2 community by Mr. Joe Speed (in particular) has dramatically increased visibility and use of Cyclone DDS. Some rather well-known companies have chosen to use Cyclone DDS over the incumbent middleware implementations in the ROS2 ecosystem (https://iot.eclipse.org/adopters/?#iot.cyclonedds).
+All this has led to more community involvement and more contributions from people outside the original circle. Examples include a port to a research operating system and fuzzing it to find bugs (the two bugs reported had both been discovered and fixed independently, fortunately).
+Related Projects
+Project Hierarchy:
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.6.0 (Florestan)
+Release Plan
+Eclipse Cyclone DDS 0.6.0 (Florestan)
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Thursday, May 21, 2020
+Compatibility:
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+There no compatibility issues with, except for one small change in the creation of "topic" entities. The "create topic" and "find topic" operations now create a new entity (thus with a unique handle), matching the DDS specification. Previously these would simply return the existing one when the topic was already known. This only substantially affects programs that:
+call these operations in a loop for a single topic (this will now leak memory);
+deliberately delete a topic after calling these operations multiple times for that topic with the aim of recreating it with a different QoS (because the topic now remains in existence, this now results in a subsequent dds_create_topic failing with an incompatible QoS error);
+call these operations multiple times for a single topic and compare topic handles of readers/writers (because the handles are now no longer guaranteed to be the same).
+The three cases above are deemed sufficiently rare that the change in behaviour is warranted within a single major version. Indeed, one could even argue this is merely a bug fix.
+Target Environments:
+Cyclone DDS's own CI on travis ensures compatibility with Windows, Linux and macOS on x64. The integration in ROS2 means 32-bit and 64-bit Linux on ARM are tested daily as well. Solaris, FreeRTOS, VxWorks, *BSD and Android are known to work.
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account
+Email Address
+*
+Enter your Eclipse email address.
+Password
+*
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+0.6.0 (Florestan) | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+0.5.0 (Eusebius) | projects.eclipse.org
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+0.5.0 (Eusebius) | projects.eclipse.org
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.6.0 (Florestan)
+Issues
+Eclipse Cyclone DDS 0.6.0 (Florestan)
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+= resolved/fixed
+= unsolved/reopened
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.5.0 (Eusebius)
+Review Information
+Eclipse Cyclone DDS 0.5.0 (Eusebius)
+Primary tabs
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+Major features
+Support for ROS2 Dashing and Eloquent (via an adaption layer), with very positive response from various members in the ROS2 community.
+Support for an arbitrary number of concurrent DDS domains (fully independent instantiations of DDS) in a single process — this is a common feature for DDS implementations, but involved quite a bit of surgery for Cyclone DDS because of its heritage.
+Abstracting the notion of samples, types and reader history caches, allowing overriding the default implementations of these to get behaviours more suited to the applications. This is particularly relevant to language bindings and embedding Cyclone DDS in other frameworks, such as ROS2.
+Platform support is extended beyond the usual Linux/Windows/macOS: FreeRTOS, Solaris 2.6 are now known to work, with CI builds for FreeRTOS-simulator-on-Linux expected to be in before the release is planned.
+A variety of bug fixes, static analysis and test coverage improvements, and small usability enhancements.
+On the proposed version number
+The jump to 0.5 is because I have received some comments that "0.1" (and hence "0.2") makes Cyclone DDS look much less mature than it really is. I personally think that should not carry too much weight, but in the naming scheme following the movements of Schumann's Carnaval, 5 maps nicely to the calm and deliberate "Eusebius" — and this is a time to steadily move forward with considered steps. Obviously "1.0" would be a nicer version number still, but I do not believe that is a sensible step just yet:
+Some parts of the API need a revision and while the changes will be minor, it appears likely that it will require updating application code. That change should be done before (or coinciding with) releasing 1.0.
+Two key features are not in place yet: an implementation of the DDS Security specification, and support for what the specification calls "transient data", that is, data managed by the infrastructure and remaining available to new subscribers even when the original publishers have terminated. Given these efforts are progressing, it is again not a good time to think of releasing 1.0.
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.5.0 (Eusebius)
+Release Plan
+Eclipse Cyclone DDS 0.5.0 (Eusebius)
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Monday, December 9, 2019
+Compatibility:
+Conforms To UI/UX Guidelines:
+Not verified
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Fully backwards compatible with the following exceptions:
+a change in how implicitly created ("publisher" and "subscriber") entities are handled: they now never lose their "implicitness", and in consequence, are now deleted when their last child disappears rather than deleted when their one child disappears;
+the set of entities that can be attached to a waitset is now restricted to those owned by the parent of the waitset, before one was allowed to attach entities from different participants to the same waitset, which is tantamount to a bug;
+a participant entity now has a participant, so the "get_parent" operation no longer returns 0 for a participant because of the addition of two additional levels to the entity hierarchy: a domain, possibly containing multiple participants; and one that represents the entire library;
+the data from a reader for a built-in topic has been extended, breaking binary compatibility.
+Acceptance of some malformed messages from certain implementations improved interoperability on the wire.
+Internationalization:
+None. Given that Cyclone DDS is a middleware library aimed at developers, the absence of translations is not believed to be an obstacle to adoption, and besides the active people would not be able to do much in the way of internationalisation ...
+Target Environments:
+Tier 1 platforms are Linux, macOS and Windows, and FreeRTOS is also supported. It is known to work on Solaris 2.6 and believed to be easy to port to most platforms, including many embedded ones.
+Hardware dependency is limited to endianness (because of serialisation formats) and the availability of atomic operations. It is tested/known to work on x86, ARM and SPARC (in 32 and 64-bit variants), and so there is no reason to expect any problems on other common CPU architectures (e.g., PowerPC, MIPS, RISC-V).
+There is a dependency on Java for preprocessing IDL and generating instructions for the serialiser, and additionally on Maven for building this preprocessor. Various people have raised concerns on this dependency, and work is underway to eliminate it by replacing the current, Java-based pre-processor by one written in C.
+Language bindings are currently still limited to C, but a C++ is known to exist and expected to be donated quickly on the heels of this new preprocessor.
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.5.0 (Eusebius) | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Cyclone DDS
+0.5.0 (Eusebius)
+Issues
+Eclipse Cyclone DDS 0.5.0 (Eusebius)
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Cyclone DDS
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

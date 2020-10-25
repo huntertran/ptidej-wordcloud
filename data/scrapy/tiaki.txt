@@ -1,0 +1,2357 @@
+Eclipse Tiaki | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Eclipse Tiaki
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Tiaki library provides Secure Service Discovery features in a command-line interface and SDK for Java (C coming soon - stay tuned!).
+list the available service types from a domain name
+list the available service instances for a given type and domain name
+lookup TLSA and TXT records for a domain name
+verify that a domain name is DNSSEC-enabled
+validate the integrity and authenticity of the data using DNSSEC
+use your preferred DNS Recursive Resolver
+Tiaki's Secure Service Discovery implementation is based on the IETF DNS-SD (
+RFC 6763
+) and the IETF DNSSEC (RFCs
+4033
+,
+4034
+, and
+4035
+).
+The library performs the necessary DNS lookups and DNSSEC validation to ensure both the authenticity and integrity of the records.
+It is available as a Java SDK or a command-line tool - see the
+download section
+.
+Find out more about how Secure Service Discovery works on
+our github project
+.
+Tiaki stands for "hold in trust, administer for others" in Maori. More info
+here
+.
+Licenses:
+Eclipse Public License 1.0
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Tiaki | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Eclipse Tiaki | projects.eclipse.org
+Eclipse Tiaki | projects.eclipse.org
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Contact Us
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Eclipse Tiaki
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+tiaki-dev
+-
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Governance
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Eclipse Tiaki
+Primary tabs
+Overview
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Developer Resources
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Eclipse Tiaki
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Find out more about how Secure Service Discovery works on
+our github project
+.
+Scope:
+Using the IETF DNS-SD standard (RFC 6763) and the IETF secure DNS, or DNSSEC, standard (RFCs 4033, 4034, and 4035), administrators can dynamically provision and publish service endpoint addresses, custom device configuration parameters, and connection information to support diverse and changing network environments.
+Using Eclipse Tiaki, devices can securely discover this configuration over either the Internet or a private network and then validate the source of the configuration to ensure that it has come from a trusted party.
+The aim of the Eclipse Tiaki Project is to provide a set of libraries implementing the IETF DNS-SD and DNSSEC standards to enable secure DNS lookup requests for service endpoint addresses, service types and connection information. Optionally, lookup requests may enforce the use of a specific DNS Server, validate its DNSSEC compliance and use a specific trust anchor for closed environments. Developers who use the Eclipse Tiaki Project can take advantage of the capability of these standards without needing to understand the details of DNS.
+Working Group:
+Internet of Things (IoT)
+Reviews:
+Name
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Contribute!
+Visit our GitHub repo at
+https://github.com/eclipse/tiaki-java
+.
+Need support? Feel free to post to our mailing list at tiaki-dev@eclipse.org - you can subscribe here
+https://dev.eclipse.org/mailman/listinfo/tiaki-dev
+.
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+tiaki-java - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/tiaki-java.git
+Browse Repository
+Date
+Termination Review
+2016-09-21
+Creation Review
+2015-09-02
+Project Links
+Proposal
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+tiaki-c - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/tiaki-c.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Tiaki | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Downloads
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Eclipse Tiaki
+Primary tabs
+Overview
+Downloads
+(active tab)
+GitHub - eclipse/tiaki-java: Tiaki Java projects
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Using Tiaki from the command line
+To start using Tiaki from the command line,
+download the command-line interface executable jar.
+Then execute Tiaki as follows:
+More info and example available from
+the service-discovery-cli github project
+.
+Using Tiaki as an SDK
+To use the Secure Service Discovery SDK, start by
+downloading the Java library
+Then use the Tiaki library in your Java code as documented in
+the service-discovery-lib github project
+Skip to content
+Sign up
+Why GitHub?
+Features
+→
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories
+.
+Have fun!
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+→
+Security
+→
+Team
+Enterprise
+Explore
+Explore GitHub
+→
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+GitHub Stars program
+Marketplace
+Pricing
+Plans
+→
+Compare plans
+Contact Sales
+Nonprofit
+→
+Education
+→
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+tiaki-java
+Watch
+7
+Star
+6
+Fork
+4
+Tiaki Java projects
+EPL-1.0 License
+6
+stars
+4
+forks
+Star
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+1
+branch
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more
+.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching Xcode
+If nothing happens,
+download Xcode
+and try again.
+Go back
+Launching Visual Studio
+If nothing happens,
+download the GitHub extension for Visual Studio
+and try again.
+Go back
+Latest commit
+Git stats
+11
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+service-discovery-cli
+service-discovery-lib
+LICENSE
+README.md
+View code
+README.md
+Tiaki, a Secure Service Discovery library for Java
+Welcome to Tiaki!
+Tiaki is a Java library that provides Secure Service Discovery based on DNS-SD.
+The service-discovery-lib project is the Java SDK.
+The service-discovery-cli project is a command-line interface that conveniently wraps the Java SDK.
+For more details, please see each project's README.
+Happy discovering !
+About
+Tiaki Java projects
+Resources
+Readme
+License
+EPL-1.0 License
+Releases
+No releases published
+Packages
+0
+No packages published
+Contributors
+2
+Languages
+Java
+78.4%
+Shell
+21.6%
+© 2020 GitHub, Inc.
+GitHub - eclipse/tiaki-c: Tiaki C projects
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+Skip to content
+Sign up
+Why GitHub?
+Features
+→
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories
+→
+Security
+→
+to refresh your session.
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+.
+Accept
+Reject
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking
+Cookie Preferences
+at the bottom of the page. For more information, see our
+Privacy Statement
+.
+Essential cookies
+Team
+Enterprise
+Explore
+Explore GitHub
+→
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Plans
+→
+Compare plans
+Contact Sales
+Nonprofit
+→
+Education
+→
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+tiaki-c
+Watch
+5
+Star
+0
+Fork
+1
+Termination Review | projects.eclipse.org
+Tiaki C projects
+EPL-1.0 License
+0
+stars
+1
+fork
+Star
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+1
+branch
+0
+tags
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more
+.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens,
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+download GitHub Desktop
+and try again.
+Go back
+Launching Xcode
+If nothing happens,
+download Xcode
+and try again.
+Go back
+Launching Visual Studio
+If nothing happens,
+download the GitHub extension for Visual Studio
+and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Termination Review
+Eclipse Tiaki Termination Review
+Type:
+Termination
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, September 21, 2016
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+LICENSE
+View code
+About
+Tiaki C projects
+License
+EPL-1.0 License
+Releases
+No releases published
+Packages
+0
+No packages published
+© 2020 GitHub, Inc.
+Project:
+Eclipse Tiaki
+Project lead and all committers agree that it is time to terminate and archive this project.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+to refresh your session.
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+.
+Accept
+Reject
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking
+Cookie Preferences
+at the bottom of the page. For more information, see our
+Privacy Statement
+.
+Essential cookies
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Creation Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Tiaki | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Tiaki
+Creation Review
+Eclipse Tiaki Creation Review
+Type:
+Creation
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, September 2, 2015
+Project:
+Eclipse Tiaki
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Proposal:
+Tiaki
+Parent Project:
+Eclipse IoT
+Background:
+To unleash the large potential of IoT, there is a need for new innovative solutions designed to meet the challenges of operating at “IoT scale”. This leads to requirements for managing services and devices in extremely large deployments, like the need for highly automated processes. At the same time, there can be no compromise to security and solutions must be applicable to a wide range of devices (from constrained to powerful).
+One of these needs is the ability for devices to discover the data services or IoT platforms with which the devices will communicate, without relying upon any predefined configuration settings.
+Today, most IoT devices are shipped with some level of hardcoded, static configurations. However, when an organization deploys devices across different environments, custom configurations are required. For example, a sensor installed in the home may connect to a centralized Web service while the same sensor deployed in a hospital may connect to a local, private service. Each batch of devices must be customized, depending upon deployment location. In another use case, the device could be activated several months or years after leaving the production line, and in the meantime the endpoint to which it should connect to will have changed.
+Customizing and managing these changes are labor and cost intensive to implement, due to the sheer number of devices in the field. Since network environments are dynamic, connected devices need to be flexible and adaptable so that they can remain properly configured and avoid service disruption without manual intervention. Any form of dynamic device configuration must be secured to prevent a malicious actor from misdirecting a device.
+Scope:
+Using the IETF DNS-SD standard (RFC 6763) and the IETF secure DNS, or DNSSEC, standard (RFCs 4033, 4034, and 4035), administrators can dynamically provision and publish service endpoint addresses, custom device configuration parameters, and connection information to support diverse and changing network environments.
+Using Eclipse Tiaki, devices can securely discover this configuration over either the Internet or a private network and then validate the source of the configuration to ensure that it has come from a trusted party.
+The aim of the Eclipse Tiaki Project is to provide a set of libraries implementing the IETF DNS-SD and DNSSEC standards to enable secure DNS lookup requests for service endpoint addresses, service types and connection information. Optionally, lookup requests may enforce the use of a specific DNS Server, validate its DNSSEC compliance and use a specific trust anchor for closed environments. Developers who use the Eclipse Tiaki Project can take advantage of the capability of these standards without needing to understand the details of DNS.
+Description:
+The Eclipse Tiaki project is comprised of two libraries.
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Tiaki
+×
+Status message
+This proposal has been approved and the
+Eclipse Tiaki
+project has been created.
+Tiaki
+Basics
+This proposal is in the Project Proposal Phase (as defined in the
+[1]
+standard. It can be used as a Java Library to lookup PTR and associated SRV and TXT Resource Records within a DNS zone.
+The Discovery library leverages the DNSJava
+[2]
+and
+DNSSECJava
+libraries to look up and validate the DNS Resource Records’ authenticity.
+It has been tested against
+Bind 9 DNS Server
+[3]
+[1]
+https://www.ietf.org/rfc/rfc6763.txt
+[2]
+http://dnsjava.org/
+[3]
+https://www.isc.org/downloads/bind/
+Why Here?:
+Eclipse Development Process
+) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section.
+Parent Project:
+Eclipse IoT
+Background:
+To unleash the large potential of IoT, there is a need for new innovative solutions designed to meet the challenges of operating at “IoT scale”. This leads to requirements for managing services and devices in extremely large deployments, like the need for highly automated processes. At the same time, there can be no compromise to security and solutions must be applicable to a wide range of devices (from constrained to powerful).
+One of these needs is the ability for devices to discover the data services or IoT platforms with which the devices will communicate, without relying upon any predefined configuration settings.
+Today, most IoT devices are shipped with some level of hardcoded, static configurations. However, when an organization deploys devices across different environments, custom configurations are required. For example, a sensor installed in the home may connect to a centralized Web service while the same sensor deployed in a hospital may connect to a local, private service. Each batch of devices must be customized, depending upon deployment location. In another use case, the device could be activated several months or years after leaving the production line, and in the meantime the endpoint to which it should connect to will have changed.
+Customizing and managing these changes are labor and cost intensive to implement, due to the sheer number of devices in the field. Since network environments are dynamic, connected devices need to be flexible and adaptable so that they can remain properly configured and avoid service disruption without manual intervention. Any form of dynamic device configuration must be secured to prevent a malicious actor from misdirecting a device.
+Scope:
+Using the IETF DNS-SD standard (RFC 6763) and the IETF secure DNS, or DNSSEC, standard (RFCs 4033, 4034, and 4035), administrators can dynamically provision and publish service endpoint addresses, custom device configuration parameters, and connection information to support diverse and changing network environments.
+Using Eclipse Tiaki, devices can securely discover this configuration over either the Internet or a private network and then validate the source of the configuration to ensure that it has come from a trusted party.
+The dynamic and secure discovery of services for IoT devices is a critical step in any IoT deployment. A wider adoption by the community will increase the security of IoT on a global scale. The Eclipse IoT open source community is therefore an ideal host to promote this adoption.
+Eclipse Tiaki fits well with a number of existing IoT Eclipse projects. Typically, Eclipse Kura gateways can utilize Tiaki to securely discover their message brokers without any hard coded configuration. Similarly, Eclipse Leshan could make use of Eclipse Tiaki to perform Client Initiated Bootstrap without pre-provisioning a Bootstrap server.
+Initial Contribution:
+listServiceTypes: looks up DNS for all available service types in a a given domain name (DNS Zone)
+listServiceInstances: looks up DNS for all available service instances for a given service type and domain name (DNS Zone)
+listServiceRecords: looks up DNS for all available service records for a given service type and domain name (DNS Zone)
+listTextRecords : looks up DNS for all available TXT records for a given domain name (DNS Zone)
+Each of these methods takes a boolean parameter, secValidation, which indicates whether or not the DNSSEC validation must be performed.
+The iot-discovery-jcli library provides a command-line interface to the Discovery Library. It can be used as follows:
+Usage: java -jar iot-discovery-jcli-1.0.jar [<command>[<arg>]] [options]
+Commands:
+-h, --help Display this usage and quit.
+-i, --list-instances Detailed display of service instances; -s and -d are required.
+-l, --list-services Display the service types; -d is required.
+The aim of the Eclipse Tiaki Project is to provide a set of libraries implementing the IETF DNS-SD and DNSSEC standards to enable secure DNS lookup requests for service endpoint addresses, service types and connection information. Optionally, lookup requests may enforce the use of a specific DNS Server, validate its DNSSEC compliance and use a specific trust anchor for closed environments. Developers who use the Eclipse Tiaki Project can take advantage of the capability of these standards without needing to understand the details of DNS.
+Description:
+The Eclipse Tiaki project is comprised of two libraries.
+[1]
+standard. It can be used as a Java Library to lookup PTR and associated SRV and TXT Resource Records within a DNS zone.
+The Discovery library leverages the DNSJava
+[2]
+and
+DNSSECJava
+libraries to look up and validate the DNS Resource Records’ authenticity.
+It has been tested against
+Bind 9 DNS Server
+[3]
+[1]
+-c [domain], --dnssec-status [domain] Check the DNSSEC status of 'domain'; if not specified, check against the default one.
+-x [port:protocol], --tlsa [port:protocol] Display the TLSA records referring to the couple 'port:protocol' (default ones if not specified); -d and -s are required.
+-t <label>, --text-record <label> Display the text records having 'label'; -d is required.
+Options
+-e, --insecure Inhibit the DNSSEC validation upon lookup.
+-v, --verbose Display a verbose output of the resolution.
+-n <resolvers>, --servers <resolvers> Comma-separated list of resolver servers, overriding the default ones.
+-u <filename>, --trust-anchor <filename> Specify the file containing the trust anchor.
+-d <domain>, --domain <domain> Specify the domain name to use upon resolution process.
+-s <label>, --supplement <label> Specify a supplementary 'label' to concatenate/use to query for.
+All code copyright Verisign Inc 2015
+DNSSECJava : Eclipse Public License 1.0
+DNSJava : BSD
+Log4J : Apache 2.0
+JUnit : Eclipse Public License 1.0
+JoptSimple: MIT Public License
+Licenses:
+Eclipse Public License 1.0
+https://www.ietf.org/rfc/rfc6763.txt
+[2]
+http://dnsjava.org/
+[3]
+https://www.isc.org/downloads/bind/
+Why Here?:
+The dynamic and secure discovery of services for IoT devices is a critical step in any IoT deployment. A wider adoption by the community will increase the security of IoT on a global scale. The Eclipse IoT open source community is therefore an ideal host to promote this adoption.
+Eclipse Tiaki fits well with a number of existing IoT Eclipse projects. Typically, Eclipse Kura gateways can utilize Tiaki to securely discover their message brokers without any hard coded configuration. Similarly, Eclipse Leshan could make use of Eclipse Tiaki to perform Client Initiated Bootstrap without pre-provisioning a Bootstrap server.
+Licenses:
+Eclipse Public License 1.0
+Project Scheduling:
+The initial source code for both libraries is already available from Verisign's GitHub account under
+https://github.com/verisign/iot-discovery-services
+https://github.com/verisign/iot-discovery-jcli
+Future Work:
+We will release equivalent libraries in C shortly.
+People
+Project Scheduling:
+The initial source code for both libraries is already available from Verisign's GitHub account under
+https://github.com/verisign/iot-discovery-services
+https://github.com/verisign/iot-discovery-jcli
+Future Work:
+We will release equivalent libraries in C shortly.
+People
+Project Leads:
+regis piccand
+Committers:
+Paolo Maresca
+Regis Piccand
+Interested Parties:
+Project Leads:
+regis piccand
+Committers:
+Paolo Maresca
+Regis Piccand
+Mentors:
+Benjamin Cabé
+Interested Parties:
+Eclipse Kura / Eurotech (early discussions)
+Sierra Wireless (Julien Vermillard)
+Bosch Software Innovation (Kai Hudalla)
+Source Code
+Initial Contribution:
+listServiceTypes: looks up DNS for all available service types in a a given domain name (DNS Zone)
+listServiceInstances: looks up DNS for all available service instances for a given service type and domain name (DNS Zone)
+Eclipse Kura / Eurotech (early discussions)
+Sierra Wireless (Julien Vermillard)
+Bosch Software Innovation (Kai Hudalla)
+Mentors:
+Benjamin Cabé
+Sign in
+to post comments.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+listServiceRecords: looks up DNS for all available service records for a given service type and domain name (DNS Zone)
+listTextRecords : looks up DNS for all available TXT records for a given domain name (DNS Zone)
+Each of these methods takes a boolean parameter, secValidation, which indicates whether or not the DNSSEC validation must be performed.
+The iot-discovery-jcli library provides a command-line interface to the Discovery Library. It can be used as follows:
+Usage: java -jar iot-discovery-jcli-1.0.jar [<command>[<arg>]] [options]
+Commands:
+-h, --help Display this usage and quit.
+-i, --list-instances Detailed display of service instances; -s and -d are required.
+-l, --list-services Display the service types; -d is required.
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+-c [domain], --dnssec-status [domain] Check the DNSSEC status of 'domain'; if not specified, check against the default one.
+-x [port:protocol], --tlsa [port:protocol] Display the TLSA records referring to the couple 'port:protocol' (default ones if not specified); -d and -s are required.
+-t <label>, --text-record <label> Display the text records having 'label'; -d is required.
+Options
+-e, --insecure Inhibit the DNSSEC validation upon lookup.
+-v, --verbose Display a verbose output of the resolution.
+-n <resolvers>, --servers <resolvers> Comma-separated list of resolver servers, overriding the default ones.
+-u <filename>, --trust-anchor <filename> Specify the file containing the trust anchor.
+-d <domain>, --domain <domain> Specify the domain name to use upon resolution process.
+-s <label>, --supplement <label> Specify a supplementary 'label' to concatenate/use to query for.
+All code copyright Verisign Inc 2015
+DNSSECJava : Eclipse Public License 1.0
+DNSJava : BSD
+Log4J : Apache 2.0
+JUnit : Eclipse Public License 1.0
+JoptSimple: MIT Public License
+Source Repository Type:
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+GitHub
+Source Repositories:
+https://github.com/verisign/iot-discovery-services
+https://github.com/verisign/iot-discovery-jcli
+Comments
+Sign in to post comments
+Alternative DNS-SD implementation in ECF
+Submitted by
+Markus Kuppe
+on Wed, 2015-06-10 03:35
+FWIW, ECF also has a DNS-SD implementation [1][2] based on DNSJava. Thus, there might be a chance to collaborate in some areas.
+[1] http://git.eclipse.org/c/ecf/org.eclipse.ecf.git/tree/providers/bundles/org.eclipse.ecf.provider.dnssd
+[2] https://bugs.eclipse.org/bugs/show_bug.cgi?id=310580
+Log in
+to post comments
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+tiaki - Māori Dictionary
+Menu
+Menu
+Search
+Help
+Info
+Sources
+The Book
+Resources
+Te Whanake
+Close
+English
+Māori
+Māori
+Dictionary
+Clear
+Search
+Search
+Found 11 matches
+filters
+Arrow
+Idioms
+Include Idioms
+Exclude Idioms
+Only Idioms
+Phrases
+Include Phrases
+Exclude Phrases
+Only Phrases
+Proverbs
+Include Proverbs
+Exclude Proverbs
+Only Proverbs
+Loan Words
+Include Loan Words
+Exclude Loan Words
+Only Loan Words
+Include Historical Loan Words
+Close
+Idioms
+Include
+Include Idioms
+Exclude Idioms
+Only Idioms
+Phrases
+Include
+Include Phrases
+Exclude Phrases
+Only Phrases
+Proverbs
+Include
+Include Proverbs
+Exclude Proverbs
+Only Proverbs
+Loan Words
+Include
+Include Loan Words
+Exclude Loan Words
+Only Loan Words
+Include Historical Loan Words
+Found 11 matches
+tiaki
+Play
+1.
+(verb)
+(-na) to guard, keep.
+I tētahi pō, ka whakaritea ko au tētahi o ngā hēteri
+tiaki
+i ngā herehere (HP 1991:113).
+/ One night I was appointed to be one of the sentries guarding the prisoners.
+Found 11 matches
+2.
+(verb)
+(-na) to look after, nurse, care, protect, conserve, save (computer).
+I runga i te kupu a Henare Parata, ka tukua mai e te Tari Māori i Pōneke he nēhi, arā, he wahine
+tiaki
+tūroro (TP 2/1903:11).
+/ On the word of Henare Parata, the Native Affairs Department in Wellington sent a nurse, that is, a woman who cares for sick people.
+Found 11 matches
+3.
+(verb)
+(-na) to have custody of.
+Me haere tonu rātou ki te kōti, arā te Kōti Whānau, ki te tono mō tētahi pepa ki te hiahia rātou ki te
+tiaki
+tonu i ngā tamariki mō ngā rā katoa (RT 2013:80).
+/ They must go to court, that is to the Family Court, to request a form if they wish to have full-time custody of the children.
+Found 11 matches
+4.
+(verb)
+(-na) to hold in trust, administer for others.
+Ka kaha kē nei te āwhina a Meihana i te whānau o tana wahine, o Kahu,
+tiaki
+hoki i ō rātou pānga whenua i te poraka o Reureu, me tana
+tiaki
+, whakanui atu hoki i te marae o Te Hiiri (TTR 1998:32).
+/ Mason unstintingly assisted members of his wife, Kahu's, family in managing their interests in the Reureu block and in maintaining and extending Te Hiiri marae.
+Found 11 matches
+5.
+(verb)
+(-na) to wait for, watch for.
+Kei tātahi ia e
+tiaki
+ana i te waka o Karihi kia ū mai (W 1971:414).
+/ He is at the beach waiting for Karihi's canoe to land.
+Found 11 matches
+6.
+(noun)
+looking after, protection, safeguarding.
+Ko te tino kaupapa a Te Whiwhi ko te
+tiaki
+i ō rātou whenua (TTR 1990:345).
+/ Te Whiwhi's primary focus was the protection of their lands.
+See also
+tiakanga
+tiaki
+Play
+1.
+(loan)
+(noun)
+cheque.
+Ka rere te mahi a te nōti, a te
+tiaki
+, a te hiriwa, a te kapa, kīhai i roa, kua eke ki £218 (TJ 8/2/1898:5).
+/ Lots of notes, cheques, silver and pennies flowed in and it wasn’t long before it had climbed to £218.
+See also
+haki
+Tiaki
+Play
+1.
+(loan)
+(personal name)
+Jack, Jackie.
+He mea whakaatu mai nā
+Tiaki
+Hōka, teina o Hōka, rōia o Whanganui (TJ 18/1/1900:11).
+/ As described by Jack Hogg, the younger brother of Hogg, the Whanganui lawyer.
+tiaki
+Play
+1.
+(loan)
+(noun)
+jack (playing card).
+tiaki
+Play
+1.
+(loan)
+(noun)
+Union Jack (flag).
+Ka whakatūria tana pou haki. Ka whakatarengia te
+tiaki
+o Ingarangi (TTR 1990:196).
+/ His flagstaff was erected, and the Union Jack was flown.
+See also
+tieki
+tiaki hei
+Play
+1.
+save as (computer).
+pēke tiaki moni
+Play
+1.
+(loan)
+(noun)
+savings bank.
+Ko ngā painga o te
+pēke tiaki moni
+, kua oti te whakarite (TKM 10/5/1849:4).
+/ The advantages of the savings bank that has been established.
+whakaaetanga tiaki tamariki
+Play
+1.
+(noun)
+parenting agreement, protection of children agreement.
+Ka whakarārangi mai i tētahi
+whakaaetanga tiaki tamariki
+i ngā whakatau kua whakaaehia (Ministry of Justice MOJ0560M 2014:2)
+/ It outlines a protection of children agreement and the decisions that have been agreed upon.
+Tari Tiaki Pūngao, Te
+Play
+1.
+(loan)
+Energy Efficiency and Conservation Authority.
+Tari Tiaki Iwi, Te
+Play
+1.
+(loan)
+Public Trust.
+tiakanga
+Play
+1.
+(noun)
+circumstance of guarding, protection, preservation - nominalised form of
+tiaki
+.
+Me tono ia ki ngā mema kia āta whakaaro rātou ki tēnei tikanga nui, arā te
+tiakanga
+o ngā ngāherehere, me ngā hē e tupu mai ana i runga i te mahi whakapau kau i aua ngāherehere (TWMNT 28/7/1874:183).
+/ He must ask the members to think carefully about this important issue, that is the preservation of the forests, and to the injurious effects of destroying them.
+See also
+tiaki
+Books + Apps
+Download
+The App
+This Māori dictionary is now available as an app. With the iPhone, iPod Touch, iPad, and Android app you can use the dictionary anywhere without the need to be online.
+iPhone
+/
+iPad
+/
+Android
+Buy
+The Book
+Te Aka Māori-English, English-Māori Dictionary and Index
+by John C Moorfield. This dictionary comprises a selection of modern and everyday language that will be extremely useful for learners of the Māori language.
+More info
+More Resources
+Resources
+Textbooks, study guides, CDs, teachers' manuals and the bilingual Māori dictionary of the Te Whanake series.
+Animations
+Online modules of animated movies and activities that complement the Te Whanake textbooks for learning Māori.
+Podcasts
+Online activities of the Te Whanake textbooks for playback on computers, television or portable devices.
+Te Whanake TV
+Streamed television programmes for developing listening comprehension skills.
+Tōku Reo
+Online activities for further practice for each episode of Tōku Reo, the television series for beginners of Māori language.
+Te Ipukarea
+© Copyright 2003-2020 - John C Moorfield, Te Aka Online Māori Dictionary
+Help
+Mailing list: tiaki-dev . (0 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: tiaki-dev .
+(0 subscribers)
+This is not a valid mailing list
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing list: tiaki-dev (0 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: tiaki-dev
+(0 subscribers)
+This is not a valid mailing list
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Tiaki | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Who's Involved
+×
+Warning message
+This project is
+archived
+. Some links on this page may not work.
+Eclipse Tiaki
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Project Members:
+Historical Committers
+Paolo Maresca
+regis piccand
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Paolo Maresca is a Committer for Tiaki | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Paolo Maresca is a Committer for Tiaki
+Paolo Maresca is a Committer for Tiaki
+User:
+Paolo Maresca
+Project:
+Eclipse Tiaki
+Type:
+Committer
+Status:
+Inactive
+Active:
+Regis Piccand is a Committer for Tiaki | projects.eclipse.org
+Monday, September 21, 2015
+to
+Friday, September 23, 2016
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Tiaki
+Regis Piccand is a Committer for Tiaki
+Regis Piccand is a Committer for Tiaki
+User:
+regis piccand
+Project:
+Eclipse Tiaki
+Type:
+Committer
+Status:
+Inactive
+Active:
+Friday, September 4, 2015
+to
+Friday, September 23, 2016
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Tiaki
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

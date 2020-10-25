@@ -1,0 +1,3475 @@
+Eclipse Keti | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Eclipse Keti
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Keti is a service that was designed to protect RESTfuls API using Attribute Based Access Control (ABAC).
+The solution itself is implemented as a cloud-native RESTful API that adheres to the guiding principles of the
+twelve factor app
+. Key characteristics of the service include:
+Central management of policies and privileges
+The ability to manage hierarchical privileges (e.g. sub-groups) and scoped privileges (e.g. assigning elevated privileges based on the resource accessed)
+A policy format tailored for developers who build RESTful APIs
+An access control decision engine
+Spring Boot
+is the primary framework that Keti is built on. Additionally Keti uses the following open source libraries:
+JanusGraph
+, an implementation of
+Apache TinkerPop
+, for it's graph data structure
+Jedis
+as a
+Redis
+client for caching
+Spring Security
+to protect it's API
+Spring Data JPA
+for persistence to RDBMS
+An operator deploys Keti in the same datacenter where the web services it protects are deployed. Either a common gateway, or the web service itself, sends requests for authorized access to Keti and enforces the decision received in the response. When deployed, Keti typically has the following service dependencies.
+UAA
+as an OAuth server
+Redis
+(optional) for decision caching
+Cassandra
+through JanusGraph for graph persistence
+PostgreSQL
+, or
+H2
+as a RDBMS
+Below is a basic diagram of how Keti fits in the interaction between web application and web service.
+Licenses:
+Apache License, Version 2.0
+Eclipse Distribution License 1.0 (BSD)
+Latest Releases:
+From May 15th, 2019 to May 15th, 2019
+Name
+Date
+Review
+5.0.6
+2019-05-15
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Links
+Getting Started
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+keti/README.md at master · eclipse/keti · GitHub
+Skip to content
+Sign up
+Why GitHub?
+Features
+→
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories
+→
+Security
+→
+Team
+Enterprise
+Explore
+Explore GitHub
+→
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans
+→
+Compare plans
+Contact Sales
+Nonprofit
+→
+Education
+→
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+keti
+Watch
+11
+Star
+18
+Fork
+8
+Code
+Issues
+0
+Pull requests
+2
+Actions
+Projects
+1
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Permalink
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+keti
+/
+README.md
+Go to file
+Go to file
+T
+Go to line
+L
+Copy path
+Cannot retrieve contributors at this time
+59 lines (37 sloc)
+1.75 KB
+Raw
+Blame
+Keti - Access Control Service
+Note: Keti was earlier called ACS. This repository still has references to artifacts with that name and can be treated as synonymous to Keti.
+License
+This project is licensed under Apache v2.
+How to build and run unit tests
+To build Keti without support for hierarchical attributes and run unit tests:
+Specify the
+public-graph
+profile to build Keti with support for hierarchical attributes.
+Start Keti locally
+To run the service locally without support for hierarchical attributes:
+To run the service locally with support for hierarchical attributes:
+The Keti service requires a UAA (User Account and Authentication:
+https://github.com/cloudfoundry/uaa
+) service to manage OAuth clients and users that are authorized to access it. When running Keti locally, by default the service is configured to trust the local UAA. You can modify the environment variable
+ACS_DEFAULT_ISSUER_ID
+and
+UAA_CHECK_HEALTH_URL
+to correspond to your existing UAA.
+Running UAA locally
+Clone the UAA repository from the following url:
+How to run integration tests
+The script below starts UAA and Keti, runs the tests, then stops the Keti and UAA services:
+Specify the
+-g
+option to run integration tests against Keti that supports hierarchical attributes.
+Documentation
+Demo
+Wiki
+Go
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+.
+Accept
+Reject
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking
+Cookie Preferences
+at the bottom of the page. For more information, see our
+Privacy Statement
+.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+5.0.6 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+5.0.6
+Eclipse Keti 5.0.6
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Initial release of Keti (aka Predix Access Control Service) along with many performance improvements.
+Release Date:
+Wednesday, May 15, 2019
+Release Type:
+Major release (API breakage)
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Keti | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Governance
+Eclipse Keti
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Scope:
+The Eclipse Keti project provides an access control service that protects RESTful APIs from unauthorized access.
+Working Group:
+Internet of Things (IoT)
+Releases:
+Name
+Date
+5.0.6
+2019-05-15
+Reviews:
+Name
+Date
+Creation Review
+2017-04-05
+Project Links
+Proposal
+Getting Started
+Documentation
+Current Release
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Keti | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Eclipse Keti | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Eclipse Keti | projects.eclipse.org
+Google Tag Manager
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Who's Involved
+Eclipse Keti
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Project Members:
+Project Lead
+Sanjeev Chopra
+Committers
+Anubhav Saggi
+Dariush Amiri
+Irina Epshteyn
+Sanjeev Chopra
+Historical Committers
+anurag gujral
+Frank Gasparovic
+Sebastian Torres Brown
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Developer Resources
+Eclipse Keti
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Voolla Sandeep Kumar
+Mentor
+Julien Vermillard
+Project Links
+Getting Started
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+Build Technologies:
+Jenkins
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+keti - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/keti.git
+Browse Repository
+Build Links:
+Build Links
+Build Status
+Validation Build
+Project Links
+Getting Started
+Documentation
+Dev Mailing List
+Related Projects
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Downloads
+Eclipse Keti
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Eclipse Keti | projects.eclipse.org
+Contact Us
+https://github.com/eclipse/keti
+Project Links
+Getting Started
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Contact Us
+Eclipse Keti
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+keti-dev
+-
+keti developer discussions
+Project Links
+Getting Started
+Documentation
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+master [Keti Build] [Jenkins]
+var isRunAsTest=false; var rootURL="/keti"; var resURL="/keti/static/a8d2e767";
+crumb.init("Jenkins-Crumb", "3d17bc23329bc1b2655a1737f7332f9b938bb581b0e84f09347cad69c677f0be");
+var Q=jQuery.noConflict()
+Skip to content
+Jenkins
+createSearchBox("/keti/job/Keti-Build/job/master/search/");
+log in
+Jenkins
+Keti Build
+master
+ENABLE AUTO REFRESH
+Up
+Status
+Changes
+Full Stage View
+GitHub
+trend
+W
+Description
+%
+Build stability: 1 out of the last 3 builds failed.
+66
+Test Result: 0 tests failing out of a total of 4,676 tests.
+100
+Build History
+x
+#3
+Aug 20, 2020 1:26 AM
+#2
+Nov 4, 2019 5:48 AM
+#1
+Jul 29, 2019 12:59 PM
+Atom feed for all
+Atom feed for failures
+updateBuildHistory("/keti/job/Keti-Build/job/master/buildHistory/ajax", 4);
+Branch master
+Full project name: Keti-Build/master
+Test Result Trend
+(just show failures)
+enlarge
+Recent Changes
+Latest Test Result
+(no failures)
+Permalinks
+Last build (#3), 2 mo 6 days ago
+Last stable build (#3), 2 mo 6 days ago
+Last successful build (#3), 2 mo 6 days ago
+Last failed build (#1), 1 yr 2 mo ago
+Last unsuccessful build (#1), 1 yr 2 mo ago
+Last completed build (#3), 2 mo 6 days ago
+Page generated: Oct 25, 2020 3:34:58 PM EDT
+REST API
+Jenkins ver. 2.222.4
+GitHub - eclipse/keti
+Skip to content
+Sign up
+Why GitHub?
+Features
+→
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories
+→
+Security
+→
+Team
+Enterprise
+Explore
+Explore GitHub
+→
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans
+→
+Compare plans
+Contact Sales
+Nonprofit
+→
+Education
+→
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+keti
+Watch
+11
+Star
+18
+Fork
+8
+Apache-2.0 License
+18
+stars
+8
+forks
+Star
+Watch
+Code
+Issues
+0
+Pull requests
+2
+Actions
+Projects
+1
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+7
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more
+.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching Xcode
+If nothing happens,
+download Xcode
+and try again.
+Go back
+Launching Visual Studio
+If nothing happens,
+download the GitHub extension for Visual Studio
+and try again.
+Go back
+Latest commit
+Git stats
+52
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+acs-integration-tests
+checkstyle-config
+commons
+docs
+eclipse-config
+jenkins/
+keti
+kotlin @ 285400f
+model
+service
+utils
+.gitignore
+.gitmodules
+CONTRIBUTING.md
+LICENSE
+NOTICE.md
+README.md
+pom.xml
+run-integration-tests.sh
+set-env-local.sh
+versioning.sh
+View code
+README.md
+Keti - Access Control Service
+Note: Keti was earlier called ACS. This repository still has references to artifacts with that name and can be treated as synonymous to Keti.
+License
+This project is licensed under Apache v2.
+How to build and run unit tests
+To build Keti without support for hierarchical attributes and run unit tests:
+Specify the
+public-graph
+profile to build Keti with support for hierarchical attributes.
+Start Keti locally
+To run the service locally without support for hierarchical attributes:
+To run the service locally with support for hierarchical attributes:
+The Keti service requires a UAA (User Account and Authentication:
+https://github.com/cloudfoundry/uaa
+) service to manage OAuth clients and users that are authorized to access it. When running Keti locally, by default the service is configured to trust the local UAA. You can modify the environment variable
+ACS_DEFAULT_ISSUER_ID
+and
+UAA_CHECK_HEALTH_URL
+to correspond to your existing UAA.
+Running UAA locally
+Clone the UAA repository from the following url:
+How to run integration tests
+The script below starts UAA and Keti, runs the tests, then stops the Keti and UAA services:
+Specify the
+-g
+option to run integration tests against Keti that supports hierarchical attributes.
+Documentation
+Demo
+Wiki
+About
+No description, website, or topics provided.
+Resources
+Readme
+License
+Apache-2.0 License
+Releases
+No releases published
+Packages
+0
+No packages published
+Contributors
+7
+Languages
+Java
+95.1%
+Shell
+2.7%
+Other
+2.2%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+.
+Accept
+Reject
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking
+Cookie Preferences
+at the bottom of the page. For more information, see our
+Privacy Statement
+.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+5.0.6 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Eclipse Keti | projects.eclipse.org
+Irina Epshteyn is a Committer for Eclipse Keti | projects.eclipse.org
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+5.0.6 | projects.eclipse.org
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+5.0.6
+Release Plan
+Eclipse Keti 5.0.6
+Primary tabs
+Overview
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Wednesday, May 15, 2019
+IP Due Diligence Type:
+Type A - License Compatibility Certification
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Mailing list: keti-dev (10 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Eclipse Keti
+×
+Status message
+This proposal has been approved and the
+Eclipse Keti
+project has been created.
+Eclipse Keti
+Basics
+This proposal is in the Project Proposal Phase (as defined in the
+Eclipse Development Process
+) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section.
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Irina Epshteyn is a Committer for Eclipse Keti
+Irina Epshteyn is a Committer for Eclipse Keti
+User:
+Irina Epshteyn
+Project:
+Eclipse Keti
+Type:
+Committer
+Status:
+Active
+Active:
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Runtime
+Build Technologies
+Jenkins
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Parent Project:
+Eclipse IoT
+Background:
+Use cases in the industrial internet often have requirements for access control that are not satisfied by standards that are prevalent in the consumer space. For example, standards like OAuth 2.0 model privileges as flat lists of coarse-grained scopes that are granted for the entire user login session. Newer standards like UMA allow for finer-grained access control but do so in ways that require more client-side complexity. Additionally, Neither of these standards define a common way to write policies or manage privileges.
+Meanwhile, in the enterprise space, the XACML standard has slowly gained traction. While XACML is a comprehensive standard, our experience has proved that it is costly to implement and comes with a steep learning curve. Thus, we decided to build a service that offered a simplified and comprehensive Attribute Based Access Control (ABAC) for RESTful APIs.
+Scope:
+The Eclipse Keti project provides an access control service that protects RESTful APIs from unauthorized access.
+Description:
+Keti is a service that was designed to protect RESTfuls API using Attribute Based Access Control (ABAC).
+The solution itself is implemented as a cloud-native RESTful API that adheres to the guiding principles of the
+twelve factor app
+. Key characteristics of the service include:
+Central management of policies and privileges
+The ability to manage hierarchical privileges (e.g. sub-groups) and scoped privileges (e.g. assigning elevated privileges based on the resource accessed)
+A policy format tailored for developers who build RESTful APIs
+An access control decision engine
+Spring Boot
+Wednesday, July 19, 2017
+Contribution Activity:
+Commits on Eclipse Keti by Irina Epshteyn (lifetime).
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+The Eclipse IDE 2020-09 is now available!
+Download Now
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+5.0.6
+Review Information
+Eclipse Keti 5.0.6
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Creation Review | projects.eclipse.org
+Julien Vermillard is a Mentor for Eclipse Keti | projects.eclipse.org
+is the primary framework that Keti is built on. Additionally Keti uses the following open source libraries:
+Titan DB
+, an implementation of
+Apache TinkerPop
+, for it's graph data structure
+Jedis
+as a
+Redis
+client for caching
+Spring Security
+to protect it's API
+Spring Data JPA
+for persistence to RDBMS
+An operator deploys Keti in the same datacenter where the web services it protects are deployed. Either a common gateway, or the web service itself, sends requests for authorized access to Keti and enforces the decision received in the response. When deployed, Keti typically has the following service dependencies.
+UAA
+as an OAuth server
+Redis
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Description:
+Initial release of Keti (aka Predix Access Control Service) along with many performance improvements.
+Conforms To UI/UX Guidelines:
+Not verified
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+(optional) for decision caching
+Cassandra
+through Titan DB for graph persistence
+PostgreSQL
+, or
+H2
+as a RDBMS
+Below is a basic diagram of how Keti fits in the interaction between web application and web service.
+Why Here?:
+The context of this work and the resources that it will protect are related to IOT use cases. Eclipse has a nexus of IOT related projects, and companies that support them, and the Keti project fits well together with them.
+Licenses:
+Apache License, Version 2.0
+Eclipse Distribution License 1.0 (BSD)
+Project Scheduling:
+The initial contribution, which will include working builds, will happen shortly after acceptance.
+Future Work:
+Support for managing multiple policy sets
+Support for generic OAuth servers
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Voolla Sandeep Kumar is a Committer for Eclipse Keti | projects.eclipse.org
+Toggle navigation
+Log in
+Search
+Mailing list: keti-dev
+(10 subscribers)
+keti developer discussions
+About keti-dev
+keti developer discussions
+Using keti-dev
+To post a message to all the list members, send email to
+keti-dev@eclipse.org
+. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
+keti-dev Archives
+or subscribe to this list's
+RSS feed
+Subscribing keti-dev
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Support for Basic authentication
+Connectors for merging attributes from LDAP and SQL stores
+People
+Project Leads:
+Sanjeev Chopra
+Committers:
+Matias Altman
+Sanjeev Chopra
+Siva Balan
+Vineet Banga
+Navyatha Bondugula
+Sanjeev Chopra
+Irina Epshteyn
+Rupinder Guron
+Brittany Johnson
+Ilya Lipkind
+Bhuvaneswari Ramkumar
+Bharath Sekar
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+All contributions you make to our web site are governed by our
+Terms Of Use
+. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
+Privacy Policy
+.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the
+Mailing List
+page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Sebastian Torres Brown is a Committer for Eclipse Keti | projects.eclipse.org
+Henry Zhao
+Mentors:
+Julien Vermillard
+Interested Parties:
+Bosch Software Innovations GmbH
+Source Code
+Initial Contribution:
+We will provide a full inital release of the code. We own the copyright, and a number of companies have expressed an interest in joining the effort. We have performed scans on the code and can list all dependencies.
+Source Repository Type:
+GitHub
+Source Repositories:
+https://github.com/predix/acs/
+Comments
+Sign in to post comments
+IoT or Runtime?
+Submitted by
+Julien Vermillard
+on Thu, 2016-09-22 12:00
+Sanjeev Chopra is a Committer for Eclipse Keti | projects.eclipse.org
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Mailing list: keti-dev
+RSS Feed
+Archive
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Projects
+Eclipse IoT
+Eclipse Keti
+Eclipse Keti
+Creation Review
+Eclipse Keti Creation Review
+Type:
+Creation
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, April 5, 2017
+Project:
+Eclipse Keti
+Proposal:
+Eclipse Keti
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Julien Vermillard is a Mentor for Eclipse Keti
+Julien Vermillard is a Mentor for Eclipse Keti
+User:
+Julien Vermillard
+Project:
+Eclipse Keti
+Type:
+Mentor
+Status:
+Active
+Active:
+Tuesday, April 18, 2017
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Hi,
+Looks great! Just a question: why limit it to IoT and not put it in "runtime" ? Because after taking a look at the code the scope looks broader than connected objects (a bit like jetty, which is a runtime project).
+Log in
+to post comments
+I agree with Julien, this
+Submitted by
+Kai Hudalla
+on Tue, 2016-09-27 04:54
+I agree with Julien, this seems to have a much broader applicability than
+just
+IoT :-)
+Kai
+Log in
+to post comments
+Interested Party
+Submitted by
+Kai Hudalla
+on Tue, 2016-09-27 04:55
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Parent Project:
+Eclipse IoT
+Background:
+Use cases in the industrial internet often have requirements for access control that are not satisfied by standards that are prevalent in the consumer space. For example, standards like OAuth 2.0 model privileges as flat lists of coarse-grained scopes that are granted for the entire user login session. Newer standards like UMA allow for finer-grained access control but do so in ways that require more client-side complexity. Additionally, Neither of these standards define a common way to write policies or manage privileges.
+Meanwhile, in the enterprise space, the XACML standard has slowly gained traction. While XACML is a comprehensive standard, our experience has proved that it is costly to implement and comes with a steep learning curve. Thus, we decided to build a service that offered a simplified and comprehensive Attribute Based Access Control (ABAC) for RESTful APIs.
+Scope:
+The Eclipse Keti project provides an access control service that protects RESTful APIs from unauthorized access.
+Description:
+Keti is a service that was designed to protect RESTfuls API using Attribute Based Access Control (ABAC).
+The solution itself is implemented as a cloud-native RESTful API that adheres to the guiding principles of the
+twelve factor app
+. Key characteristics of the service include:
+Central management of policies and privileges
+The ability to manage hierarchical privileges (e.g. sub-groups) and scoped privileges (e.g. assigning elevated privileges based on the resource accessed)
+A policy format tailored for developers who build RESTful APIs
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Please add Bosch Software Innovations GmbH as an interested party.
+Thanks,
+Kai
+Log in
+to post comments
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Voolla Sandeep Kumar is a Committer for Eclipse Keti
+Voolla Sandeep Kumar is a Committer for Eclipse Keti
+User:
+Voolla Sandeep Kumar
+Project:
+Eclipse Keti
+Type:
+Committer
+Status:
+Inactive
+Active:
+Tuesday, October 3, 2017
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+An access control decision engine
+Spring Boot
+is the primary framework that Keti is built on. Additionally Keti uses the following open source libraries:
+Titan DB
+, an implementation of
+Apache TinkerPop
+, for it's graph data structure
+Jedis
+as a
+Redis
+client for caching
+Spring Security
+to protect it's API
+Spring Data JPA
+for persistence to RDBMS
+An operator deploys Keti in the same datacenter where the web services it protects are deployed. Either a common gateway, or the web service itself, sends requests for authorized access to Keti and enforces the decision received in the response. When deployed, Keti typically has the following service dependencies.
+UAA
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+to
+Friday, December 21, 2018
+Contribution Activity:
+Commits on Eclipse Keti by Voolla Sandeep Kumar (lifetime).
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+as an OAuth server
+Redis
+(optional) for decision caching
+Cassandra
+through Titan DB for graph persistence
+PostgreSQL
+, or
+H2
+as a RDBMS
+Below is a basic diagram of how Keti fits in the interaction between web application and web service.
+Why Here?:
+The context of this work and the resources that it will protect are related to IOT use cases. Eclipse has a nexus of IOT related projects, and companies that support them, and the Keti project fits well together with them.
+Initial Contribution:
+We will provide a full inital release of the code. We own the copyright, and a number of companies have expressed an interest in joining the effort. We have performed scans on the code and can list all dependencies.
+Licenses:
+Apache License, Version 2.0
+Eclipse Distribution License 1.0 (BSD)
+Project Scheduling:
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Sebastian Torres Brown is a Committer for Eclipse Keti
+Sebastian Torres Brown is a Committer for Eclipse Keti
+User:
+Sebastian Torres Brown
+Project:
+Eclipse Keti
+Type:
+Committer
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Sanjeev Chopra is a Committer for Eclipse Keti
+Sanjeev Chopra is a Committer for Eclipse Keti
+User:
+Sanjeev Chopra
+Project:
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+The initial contribution, which will include working builds, will happen shortly after acceptance.
+Future Work:
+Support for managing multiple policy sets
+Support for generic OAuth servers
+Support for Basic authentication
+Connectors for merging attributes from LDAP and SQL stores
+People
+Project Leads:
+Sanjeev Chopra
+Committers:
+Matias Altman
+Sanjeev Chopra
+Siva Balan
+Vineet Banga
+Navyatha Bondugula
+Sanjeev Chopra
+Irina Epshteyn
+Rupinder Guron
+Status:
+Inactive
+Active:
+Tuesday, October 3, 2017
+to
+Friday, December 21, 2018
+Contribution Activity:
+Commits on Eclipse Keti by Sebastian Torres Brown (lifetime).
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Keti
+Type:
+Committer
+Status:
+Active
+Active:
+Monday, May 29, 2017
+Contribution Activity:
+Commits on Eclipse Keti by Sanjeev Chopra (lifetime).
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Brittany Johnson
+Ilya Lipkind
+Bhuvaneswari Ramkumar
+Bharath Sekar
+Henry Zhao
+Interested Parties:
+Bosch Software Innovations GmbH
+Mentors:
+Julien Vermillard
+Sign in
+to post comments.
+Sign in
+to post comments.
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Frank Gasparovic is a Committer for Eclipse Keti | projects.eclipse.org
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Anurag Gujral is a Committer for Eclipse Keti | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Frank Gasparovic is a Committer for Eclipse Keti
+Frank Gasparovic is a Committer for Eclipse Keti
+User:
+Frank Gasparovic
+Project:
+Eclipse Keti
+Type:
+Committer
+Status:
+Inactive
+Active:
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Anurag Gujral is a Committer for Eclipse Keti
+Anurag Gujral is a Committer for Eclipse Keti
+User:
+anurag gujral
+Project:
+Eclipse Keti
+Type:
+Committer
+Status:
+Wednesday, July 19, 2017
+to
+Wednesday, June 6, 2018
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Inactive
+Active:
+Tuesday, October 24, 2017
+to
+Saturday, April 7, 2018
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+5.0.6 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Anubhav Saggi is a Committer for Eclipse Keti | projects.eclipse.org
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+5.0.6
+Issues
+Eclipse Keti 5.0.6
+Primary tabs
+Overview
+Issues
+(active tab)
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Anubhav Saggi is a Committer for Eclipse Keti
+Anubhav Saggi is a Committer for Eclipse Keti
+User:
+Anubhav Saggi
+Project:
+Eclipse Keti
+Type:
+Sanjeev Chopra is a Project Lead for Eclipse Keti | projects.eclipse.org
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Committer
+Status:
+Active
+Active:
+Wednesday, July 19, 2017
+Contribution Activity:
+Commits on Eclipse Keti by Anubhav Saggi (lifetime).
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Back to the top
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Sanjeev Chopra is a Project Lead for Eclipse Keti
+Sanjeev Chopra is a Project Lead for Eclipse Keti
+User:
+Sanjeev Chopra
+Project:
+Eclipse Keti
+Type:
+Project Lead
+Status:
+Active
+Active:
+Tuesday, May 30, 2017
+Contribution Activity:
+Commits on Eclipse Keti by Sanjeev Chopra (lifetime).
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Dariush Amiri is a Committer for Eclipse Keti | projects.eclipse.org
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Keti
+Dariush Amiri is a Committer for Eclipse Keti
+Dariush Amiri is a Committer for Eclipse Keti
+User:
+Dariush Amiri
+Project:
+Eclipse Keti
+Type:
+Committer
+Status:
+Active
+Active:
+Tuesday, August 1, 2017
+Project Links
+Getting Started
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Keti
+Tags
+Technology Types
+Internet of Things
+Runtime
+Build Technologies
+Jenkins
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

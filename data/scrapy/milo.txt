@@ -1,0 +1,4286 @@
+Eclipse Milo | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Eclipse Milo
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+OPC Unified Architecture is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The specification, currently version 1.03, is developed and maintained by the OPC Foundation with the guidance of individual software developers, industry vendors, and end-users. It defines the interface between Clients and Servers, including access to real-time data, monitoring of alarms and events, historical data access, and data modeling.
+Licenses:
+Eclipse Public License 2.0
+Latest Releases:
+From December 7th, 2016 to September 28th, 2020
+Name
+Date
+Review
+0.5.0
+2020-09-28
+0.4.0
+2020-04-06
+0.3.0
+2019-04-29
+0.1.0
+2016-12-07
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Contribution Activity:
+Commits on this project (last 12 months).
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.5.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+0.4.0 | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+0.3.0 | projects.eclipse.org
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.5.0
+Eclipse Milo 0.5.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+0.4.0 Release Review | projects.eclipse.org
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Major User-facing Changes
+New easier to use APIs in the Client SDK
+AddressSpace and UaNode
+ManagedSubscription, ManagedDataItem, ManagedEventItem
+Release Date:
+Monday, September 28, 2020
+Release Type:
+Major release (API breakage)
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.4.0
+Eclipse Milo 0.4.0
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Major User-facing Changes
+New generated structure implementations that implement toString(), hashCode(), and equals()
+New generated Node implementations for OPC UA namespace
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+New AttributeFilter API to replace deprecated AttributeDelegate
+Implemented all server diagnostics needed for compliance testing
+Refactored IdentityProvider API to include a type parameter
+Implemented common Node Property accessors on client Nodes
+New certificate validation implementation with configurable validation checks
+Various compliance and interoperability fixes
+Release Date:
+Monday, April 6, 2020
+Review:
+0.4.0 Release Review
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Milo | projects.eclipse.org
+Projects
+Eclipse IoT
+Eclipse Milo
+0.3.0
+Eclipse Milo 0.3.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Release Type:
+Major release (API breakage)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Major User-facing Changes
+Client
+New state machines to manage channel and session state.
+Server
+New AddressSpace and NodeManager APIs that replace old Namespace API in most cases.
+Generated new ObjectNodes and ObjectTypeNodes with MethodNode getters.
+Generated new method stubs for server methods.
+General
+Compatibility with Java 11.
+Updated most dependencies to their latest versions.
+Removed many deprecated and unused classes.
+Migrated usages of BasicProperty to QualifiedProperty.
+Release Date:
+Monday, April 29, 2019
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.4.0
+0.4.0 Release Review
+Eclipse Milo 0.4.0 Release Review
+Type:
+Release
+State:
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Review:
+0.3.0 Release Review
+Release Type:
+Major release (API breakage)
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, April 1, 2020
+Project:
+Eclipse Milo
+Release:
+0.4.0
+Description:
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Major User-facing Changes
+New generated structure implementations that implement toString(), hashCode(), and equals()
+New generated Node implementations for OPC UA namespace
+New AttributeFilter API to replace deprecated AttributeDelegate
+Implemented all server diagnostics needed for compliance testing
+Refactored IdentityProvider API to include a type parameter
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+Implemented common Node Property accessors on client Nodes
+New certificate validation implementation with configurable validation checks
+Various compliance and interoperability fixes
+Security Issues:
+There are no outstanding security issues at this time.
+Conforms To UI/UX Guidelines:
+Not verified
+Communities:
+Milo utilitizes the following communities:
+GitHub: https://github.com/eclipse/milo
+Mailing List: https://dev.eclipse.org/mailman/listinfo/milo-dev
+Stack Overflow: https://stackoverflow.com/questions/tagged/milo
+Sign in
+to post comments.
+Related Projects
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Contact Us
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Governance
+Contact Us
+(active tab)
+Developer Mailing List:
+milo-dev
+-
+milo developer discussions
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Milo | projects.eclipse.org
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+Eclipse Milo | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Eclipse Milo | projects.eclipse.org
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+0.1.0 | projects.eclipse.org
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Developer Resources
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Source Repositories:
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+0.1.0 Release Review | projects.eclipse.org
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Downloads
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+0.3.0 Release Review | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+milo - Project repository hosted on GitHub.
+Clone:
+https://github.com/eclipse/milo.git
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Governance
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Scope:
+The project provides:
+a stack implementation, compatible with the latest version (1.03) of the UA specifications.
+a SDK built on the stack that enables development of compliant UA client and server applications.
+The separation between stack and SDK may seem arbitrary at first, but the distinction is common within the OPC-UA community and vendors as it allows SDKs that serve different needs to be built upon a common stack.
+Working Group:
+Internet of Things (IoT)
+Releases:
+Name
+Date
+0.5.0
+2020-09-28
+0.4.0
+2020-04-06
+0.3.0
+2019-04-29
+0.1.0
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.1.0
+Eclipse Milo 0.1.0
+Primary tabs
+Eclipse Milo | projects.eclipse.org
+2016-12-07
+Reviews:
+Name
+Date
+0.4.0 Release Review
+2020-04-01
+0.3.0 Release Review
+2019-05-15
+0.1.0 Release Review
+2016-12-21
+Creation Review
+2016-04-06
+Project Links
+Proposal
+Current Release
+Related Projects
+Project Hierarchy:
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.1.0
+0.1.0 Release Review
+Eclipse Milo 0.1.0 Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, December 21, 2016
+Project:
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+[1]
+will be provided in an Eclipse compliant way.
+Milo is an open-source implementation of OPC-UA. It includes a high-performance stack (channels, serialization, data structures, security) as well as client and server SDKs built on top of the stack.
+[1]
+https://github.com/digitalpetri
+Release Date:
+Wednesday, December 7, 2016
+Review:
+0.1.0 Release Review
+Release Type:
+Major release (API breakage)
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Milo
+Release:
+0.1.0
+Description:
+[1]
+will be provided in an Eclipse compliant way.
+Milo is an open-source implementation of OPC-UA. It includes a high-performance stack (channels, serialization, data structures, security) as well as client and server SDKs built on top of the stack.
+[1]
+https://github.com/digitalpetri
+Standards:
+Eclipse Milo does implement the binary protocol of OPC UA also know as IEC 62541. It will provide client and server SDK beside the core protocol stack.
+Communities:
+Eclipse Milo does have an active user base coming from the original project at "digitalpetri". It was presented as a new project during EclipseCon Europe 2016 and several IoT projects are interested in interfacing or integrating Eclipse Milo.
+During the first release a new commiter was added to the project.
+Due to the fact that Milo is a library/module with no direct end user involvement it is hard to give any details about end user activities.
+The community is working on GitHub at
+https://github.com/eclipse/milo
+0.3.0
+0.3.0 Release Review
+Eclipse Milo 0.3.0 Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, May 15, 2019
+Project:
+Eclipse Milo
+Release:
+0.3.0
+Description:
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+.
+Sign in
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Major User-facing Changes
+Client
+New state machines to manage channel and session state.
+Server
+New AddressSpace and NodeManager APIs that replace old Namespace API in most cases.
+Generated new ObjectNodes and ObjectTypeNodes with MethodNode getters.
+Generated new method stubs for server methods.
+General
+Compatibility with Java 11.
+Updated most dependencies to their latest versions.
+Removed many deprecated and unused classes.
+Migrated usages of BasicProperty to QualifiedProperty.
+Security Issues:
+No known security issues.
+Conforms To UI/UX Guidelines:
+Not verified
+Sign in
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+to post comments.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Who's Involved
+Eclipse Milo
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity:
+Commits on this project (last 12 months).
+Individual Contribution Activity:
+Commits on this project by individuals over the last three months.
+Organization Contribution Activity:
+Commits on this project by supporting organization over the last three months.
+Active Member Companies:
+Member companies supporting this project over the last three months.
+Project Members:
+Project Lead
+Kevin Herron
+Committers
+Jens Reimann
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Kevin Herron
+Mentor
+Julien Vermillard
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.5.0 | projects.eclipse.org
+Google Tag Manager
+0.5.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+0.3.0 | projects.eclipse.org
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.5.0
+Issues
+Eclipse Milo 0.5.0
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.5.0
+Release Plan
+Eclipse Milo 0.5.0
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Monday, September 28, 2020
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+0.4.0 | projects.eclipse.org
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.3.0
+Review Information
+Eclipse Milo 0.3.0
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+0.5.0 | projects.eclipse.org
+0.4.0 | projects.eclipse.org
+Google Tag Manager
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+(active tab)
+Description:
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Major User-facing Changes
+Client
+New state machines to manage channel and session state.
+Server
+New AddressSpace and NodeManager APIs that replace old Namespace API in most cases.
+Generated new ObjectNodes and ObjectTypeNodes with MethodNode getters.
+Generated new method stubs for server methods.
+General
+Compatibility with Java 11.
+Updated most dependencies to their latest versions.
+Removed many deprecated and unused classes.
+Migrated usages of BasicProperty to QualifiedProperty.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.4.0 | projects.eclipse.org
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Security Issues:
+No known security issues.
+Conforms To UI/UX Guidelines:
+Not verified
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.4.0
+Issues
+Eclipse Milo 0.4.0
+Primary tabs
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+0.3.0 | projects.eclipse.org
+Google Tag Manager
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.5.0
+Review Information
+Eclipse Milo 0.5.0
+Primary tabs
+Overview
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.4.0
+Release Plan
+Eclipse Milo 0.4.0
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Monday, April 6, 2020
+Related Projects
+Project Hierarchy:
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Major User-facing Changes
+New easier to use APIs in the Client SDK
+AddressSpace and UaNode
+ManagedSubscription, ManagedDataItem, ManagedEventItem
+Security Issues:
+No fixed or known security issues.
+Conforms To UI/UX Guidelines:
+Not verified
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.4.0
+Review Information
+Eclipse Milo 0.4.0
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+Milo currently targets OPC UA specification version 1.03 and this will remain the case for the eventual 1.0 release.
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Major User-facing Changes
+New generated structure implementations that implement toString(), hashCode(), and equals()
+New generated Node implementations for OPC UA namespace
+New AttributeFilter API to replace deprecated AttributeDelegate
+Implemented all server diagnostics needed for compliance testing
+Refactored IdentityProvider API to include a type parameter
+Implemented common Node Property accessors on client Nodes
+New certificate validation implementation with configurable validation checks
+Various compliance and interoperability fixes
+Security Issues:
+There are no outstanding security issues at this time.
+Conforms To UI/UX Guidelines:
+Not verified
+Communities:
+Milo utilitizes the following communities:
+GitHub: https://github.com/eclipse/milo
+Mailing List: https://dev.eclipse.org/mailman/listinfo/milo-dev
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Stack Overflow: https://stackoverflow.com/questions/tagged/milo
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.3.0
+Issues
+Eclipse Milo 0.3.0
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.3.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.3.0
+Release Plan
+Eclipse Milo 0.3.0
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Monday, April 29, 2019
+Deliverables:
+The focus for the 0.3.0 release has been getting the server SDK to a state where it's ready for production use even if the APIs are not guaranteed to be stable yet.
+Compatibility:
+Many of the Namespace-related APIs in the server SDK have changed in the 0.3.0 release.
+IP Due Diligence Type:
+Type B - Full IP Due Diligience (License, Provenance, Scanning)
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing list: milo-dev (153 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Milo | projects.eclipse.org
+Newcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: milo-dev
+(153 subscribers)
+milo developer discussions
+About milo-dev
+milo developer discussions
+Using milo-dev
+To post a message to all the list members, send email to
+milo-dev@eclipse.org
+. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
+milo-dev Archives
+or subscribe to this list's
+RSS feed
+Subscribing milo-dev
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+All contributions you make to our web site are governed by our
+Terms Of Use
+. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
+Privacy Policy
+.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the
+Mailing List
+page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Terms of Use
+Mailing list: milo-dev
+RSS Feed
+Archive
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Milo
+×
+Status message
+This proposal has been approved and the
+Eclipse Milo
+project has been created.
+Milo
+Basics
+This proposal is in the Project Proposal Phase (as defined in the
+Eclipse Development Process
+) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section.
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Parent Project:
+Eclipse IoT
+Background:
+The Industrial Internet of Things (IIoT) often refers to the idea of connectivity and interoperability between machinery found in the manufacturing industry. IIoT represents a significant opportunity to improve the efficiency of industrial automation processes and in other industries in general. A key challenge for IIoT is the wide and diverse nature of the devices, equipment, software and vendors that comprise the industrial ecosystem.
+OPC-UA is an important standard in the industrial automation industry, ensuring interoperability between the many different types of machinery and software. OPC was initially release in 1996 but has evolved over time to become a flexibile and open standard called OPC-UA. OPC-UA has become one of the key standards behind the Industry 4.0 initiative in Europe and more specifically in Germany. It's also beginning to see traction in the United States.
+Scope:
+The project provides:
+a stack implementation, compatible with the latest version (1.03) of the UA specifications.
+a SDK built on the stack that enables development of compliant UA client and server applications.
+The separation between stack and SDK may seem arbitrary at first, but the distinction is common within the OPC-UA community and vendors as it allows SDKs that serve different needs to be built upon a common stack.
+Description:
+OPC Unified Architecture is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The specification, currently version 1.03, is developed and maintained by the OPC Foundation with the guidance of individual software developers, industry vendors, and end-users. It defines the interface between Clients and Servers, including access to real-time data, monitoring of alarms and events, historical data access, and data modeling.
+Why Here?:
+The OPC Foundation has been positioning OPC-UA as a contending protocol in the IIoT space, and seeing successful adoption, making it a natural fit for the Eclipse IoT ecosystem.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Eclipse Public License 1.0
+Legal Issues:
+The stack is currently licensed under Apache and the SDKs under AGPL. All of the copyright and IP is owned by me. Whatever bureaucracy exists around transferring and changing licensing will need be executed.
+Project Scheduling:
+The initial contribution is ready.
+I expect that a production ready "1.0" release of all projects could be ready in either Q2 or Q3 of 2016.
+People
+Project Leads:
+Kevin Herron
+Committers:
+Kevin Herron
+Mentors:
+Julien Vermillard
+Interested Parties:
+Dominic Storey
+Eurotech
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Bosch Software Innovations GmbH
+Source Code
+Initial Contribution:
+Source Repository Type:
+GitHub
+Source Repositories:
+https://github.com/digitalpetri/opc-ua-stack
+https://github.com/digitalpetri/ua-client-sdk
+https://github.com/digitalpetri/ua-server-sdk
+Comments
+Sign in to post comments
+Interested Party
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Milo
+Creation Review
+Eclipse Milo Creation Review
+Type:
+Creation
+State:
+Submitted by
+Kai Hudalla
+on Mon, 2016-03-14 03:04
+Hi Kevin,
+great to see an "open" implementation of UPC-UA coming to Eclipse :-)
+Could you please add "Bosch Software Innovations GmbH" as an interested party to your project?
+Regards,
+Kai
+Log in
+to post comments
+Interested Party
+Submitted by
+David Woodard
+on Thu, 2016-03-17 16:46
+Kevin,
+This project looks very exciting! Please add Eurotech to the list of interested parties.
+Thanks,
+--Dave
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, April 6, 2016
+Project:
+Eclipse Milo
+Proposal:
+Milo
+Parent Project:
+Eclipse IoT
+Background:
+The Industrial Internet of Things (IIoT) often refers to the idea of connectivity and interoperability between machinery found in the manufacturing industry. IIoT represents a significant opportunity to improve the efficiency of industrial automation processes and in other industries in general. A key challenge for IIoT is the wide and diverse nature of the devices, equipment, software and vendors that comprise the industrial ecosystem.
+OPC-UA is an important standard in the industrial automation industry, ensuring interoperability between the many different types of machinery and software. OPC was initially release in 1996 but has evolved over time to become a flexibile and open standard called OPC-UA. OPC-UA has become one of the key standards behind the Industry 4.0 initiative in Europe and more specifically in Germany. It's also beginning to see traction in the United States.
+Scope:
+The project provides:
+Log in
+to post comments
+Prosys Comparison
+Submitted by
+Jan Wedel
+on Fri, 2016-03-18 03:30
+Hi,
+also coming from Bosch SI, we are currently using the commercial Prosys SDK and I think your contribution is very valuable to the community.
+I would be interested in:
+What are the feature of Milo compared to the Prosys lib? Are you planning on a comparison chart?
+How much effort (measured in complexity, not time) would it be to switch from Prosys to Milo in the future (Ranging from drop-in replacement to completely different architecture)?
+Thanks,
+Jan
+Log in
+to post comments
+Jan,
+a stack implementation, compatible with the latest version (1.03) of the UA specifications.
+a SDK built on the stack that enables development of compliant UA client and server applications.
+The separation between stack and SDK may seem arbitrary at first, but the distinction is common within the OPC-UA community and vendors as it allows SDKs that serve different needs to be built upon a common stack.
+Description:
+OPC Unified Architecture is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The specification, currently version 1.03, is developed and maintained by the OPC Foundation with the guidance of individual software developers, industry vendors, and end-users. It defines the interface between Clients and Servers, including access to real-time data, monitoring of alarms and events, historical data access, and data modeling.
+Why Here?:
+The OPC Foundation has been positioning OPC-UA as a contending protocol in the IIoT space, and seeing successful adoption, making it a natural fit for the Eclipse IoT ecosystem.
+Initial Contribution:
+Legal Issues:
+The stack is currently licensed under Apache and the SDKs under AGPL. All of the copyright and IP is owned by me. Whatever bureaucracy exists around transferring and changing licensing will need be executed.
+Licenses:
+Eclipse Distribution License 1.0 (BSD)
+Eclipse Public License 1.0
+Project Scheduling:
+The initial contribution is ready.
+Submitted by
+Kevin Herron
+on Wed, 2016-03-30 12:30
+Jan,
+I think building a comparison chart is a good idea. I'm going to look at the Prosys SDK again, but I imagine there should be fairly good feature parity.
+As far as effort for switching - it won't be drop in and the effort to swtich will depend on if you're talking about a client or server implementation. The client will be much easier to port. The server a little more work. I am not very familiar with the abtraction they've chosen to manage and expose nodes, so I don't know what effort will be involved yet.
+Log in
+to post comments
+Also interested :-)
+Submitted by
+Dominic Storey
+on Fri, 2016-03-18 06:11
+Hello Kevin,
+Could you add myself as an interested party too?
+Thanks,
+I expect that a production ready "1.0" release of all projects could be ready in either Q2 or Q3 of 2016.
+People
+Project Leads:
+Kevin Herron
+Committers:
+Kevin Herron
+Interested Parties:
+Dominic Storey
+Eurotech
+Bosch Software Innovations GmbH
+Mentors:
+Julien Vermillard
+Sign in
+to post comments.
+Sign in
+to post comments.
+Dom
+Log in
+to post comments
+Added
+Submitted by
+Wayne Beaton
+on Wed, 2016-03-23 12:09
+I've added you all as interested parties.
+Log in
+to post comments
+Interested Party
+Submitted by
+Thomas Haber
+on Fri, 2016-06-03 08:49
+Hi Kevin,
+just found you in this project.
+I'd also like to be added as interested party.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+I'f also like to state that we use Kevin implementation (fresh from github) in our eclipse plugin (http://toem.de/index.php/projects/impulse/articles/99-access-opc-ua-devices-with-eclipse-impulse) and are quite happy with it !
+thanks,
+thomas
+Log in
+to post comments
+Interested party
+Submitted by
+Bruce Jackson
+on Sat, 2017-01-21 08:55
+Hi Kevin
+As others have commented, it's great to see the project appear.
+Could you please add "Myriad Group AG" as an interested party please?
+Best regards
+Bruce Jackson
+Log in
+to post comments
+Interested Party
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Submitted by
+Stefan Busch
+on Tue, 2017-06-27 11:28
+Hi Kevin,
+I'm happy to find the project. I tried the server example and it's very promising.
+Could you please add "Achtwerk GmbH" as an interested party please?
+What I'm looking for is to generate events and alarms from an OPC UA server application. Will this become part of the project in near future?
+Best regards
+Stefan Busch
+Log in
+to post comments
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Julien Vermillard is a Mentor for Milo | projects.eclipse.org
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Kevin Herron is a Committer for Milo | projects.eclipse.org
+Google Tag Manager
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Kevin Herron is a Project Lead for Milo | projects.eclipse.org
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Julien Vermillard is a Mentor for Milo
+Julien Vermillard is a Mentor for Milo
+User:
+Julien Vermillard
+Project:
+Eclipse Milo
+Type:
+Mentor
+Status:
+Active
+Active:
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Wednesday, April 6, 2016
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+0.1.0 | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Kevin Herron is a Committer for Milo
+Kevin Herron is a Committer for Milo
+User:
+Kevin Herron
+Project:
+Eclipse Milo
+Type:
+Committer
+Status:
+Active
+Active:
+Wednesday, April 20, 2016
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Contribution Activity:
+Commits on Eclipse Milo by Kevin Herron (lifetime).
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+GitHub - eclipse/milo: Eclipse Milo™ - an open source implementation of OPC UA (IEC 62541).
+Jens Reimann is a Committer for Milo | projects.eclipse.org
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Kevin Herron is a Project Lead for Milo
+Kevin Herron is a Project Lead for Milo
+User:
+Kevin Herron
+Project:
+Eclipse Milo
+Type:
+Project Lead
+Status:
+Active
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Skip to content
+Sign up
+Why GitHub?
+Features
+→
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories
+→
+Security
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Active:
+Thursday, August 11, 2016
+Contribution Activity:
+Commits on Eclipse Milo by Kevin Herron (lifetime).
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+→
+Team
+Enterprise
+Explore
+Explore GitHub
+→
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.1.0
+Release Plan
+Eclipse Milo 0.1.0
+Primary tabs
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Marketplace
+Pricing
+Plans
+→
+Compare plans
+Contact Sales
+Nonprofit
+→
+Education
+→
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Wednesday, December 7, 2016
+Deliverables:
+Eclipse Milo will provide an implementation of the binary protocol stack in Java 8. And based on top of that it will provide a client and server SDK.
+Artifacts will be published to Maven Central as OSGi bundles.
+Compatibility:
+As this is the initial release under the Eclipse Foundation the API breaks with the original namespace. Also did the version got reset to 0.1.0. This does mean that the API is not backwards compatible with previous releases outside of Eclipse. But it has been refactored in a way that future release can be API compatible again.
+Target Environments:
+The target environment of Milo is Java 8 SE. There is no OS dependencies.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+milo
+Watch
+79
+Star
+530
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+Jens Reimann is a Committer for Milo
+Jens Reimann is a Committer for Milo
+User:
+Jens Reimann
+Project:
+Eclipse Milo
+Type:
+Committer
+Status:
+Active
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Fork
+242
+Eclipse Milo™ - an open source implementation of OPC UA (IEC 62541).
+www.eclipse.org/milo
+EPL-2.0 License
+530
+stars
+242
+forks
+Star
+Watch
+Code
+Issues
+6
+Pull requests
+4
+Actions
+Active:
+Thursday, September 22, 2016
+Contribution Activity:
+Commits on Eclipse Milo by Jens Reimann (lifetime).
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Projects
+3
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Internet of Things
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Back to the top
+Sign up
+master
+206
+branches
+35
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more
+.
+Open with GitHub Desktop
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Download ZIP
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens,
+download GitHub Desktop
+and try again.
+Go back
+Launching Xcode
+If nothing happens,
+download Xcode
+and try again.
+Go back
+Launching Visual Studio
+If nothing happens,
+download the GitHub extension for Visual Studio
+and try again.
+Go back
+Latest commit
+kevinherron
+Replace usages of deprecated ExpandedNodeId methods
+…
+4d9afff
+Oct 25, 2020
+Replace usages of deprecated ExpandedNodeId methods
+4d9afff
+Git stats
+1,036
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+.github
+build-tools
+milo-examples
+opc-ua-sdk
+opc-ua-stack
+.gitignore
+CONTRIBUTING.md
+LICENSE.md
+README.md
+SECURITY.md
+notice.html
+pom.xml
+View code
+README.md
+Eclipse Milo
+Milo is an open-source implementation of OPC UA. It includes a high-performance stack (channels, serialization, data structures, security) as well as client and server SDKs built on top of the stack.
+Stack Overflow tag:
+milo
+Mailing list:
+https://dev.eclipse.org/mailman/listinfo/milo-dev
+Maven
+Building Milo
+Using JDK 8
+, run
+mvn clean install
+from the project root.
+Releases
+Releases are published to Maven Central and snapshots to Sonatype.
+OPC UA Client SDK
+OPC UA Server SDK
+Referencing a
+SNAPSHOT
+release requires the Sonatype snapshot repository be added to your pom file:
+Public Demo Server
+An internet-facing demo server is accessible at
+opc.tcp://milo.digitalpetri.com:62541/milo
+.
+It accepts both unsecured and secured connections. Before connecting with security you must upload your client's DER-encoded X509 certificate using the form at
+http://milo.digitalpetri.com
+.
+Authenticate anonymously or with one of the following credential pairs:
+user1
+/
+password
+user2
+/
+password
+admin
+/
+password
+The code powering the demo server is available here:
+https://github.com/digitalpetri/opc-ua-demo-server
+About
+Eclipse Milo™ - an open source implementation of OPC UA (IEC 62541).
+www.eclipse.org/milo
+Topics
+opc-ua
+java
+iot
+client
+server
+stack
+sdk
+iec-62541
+opcua
+iec62541
+milo
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+0.1.0 | projects.eclipse.org
+35
+tags
+Packages
+0
+No packages published
+Used by
+1
+@eclipse /
+milo
+Contributors
+18
++ 7 contributors
+Languages
+Java
+99.9%
+HTML
+0.1%
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Reload
+to refresh your session.
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+.
+Accept
+Reject
+We use
+optional
+third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking
+Cookie Preferences
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+at the bottom of the page. For more information, see our
+Privacy Statement
+.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.1.0
+Review Information
+Eclipse Milo 0.1.0
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+[1]
+will be provided in an Eclipse compliant way.
+Milo is an open-source implementation of OPC-UA. It includes a high-performance stack (channels, serialization, data structures, security) as well as client and server SDKs built on top of the stack.
+[1]
+https://github.com/digitalpetri
+Standards:
+Eclipse Milo does implement the binary protocol of OPC UA also know as IEC 62541. It will provide client and server SDK beside the core protocol stack.
+Communities:
+Eclipse Milo does have an active user base coming from the original project at "digitalpetri". It was presented as a new project during EclipseCon Europe 2016 and several IoT projects are interested in interfacing or integrating Eclipse Milo.
+During the first release a new commiter was added to the project.
+Due to the fact that Milo is a library/module with no direct end user involvement it is hard to give any details about end user activities.
+The community is working on GitHub at
+https://github.com/eclipse/milo
+.
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account
+Email Address
+*
+Enter your Eclipse email address.
+Password
+*
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+0.1.0 | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Milo
+0.1.0
+Issues
+Eclipse Milo 0.1.0
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Related Projects
+Project Hierarchy:
+Eclipse IoT
+Eclipse Milo
+Tags
+Technology Types
+Internet of Things
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

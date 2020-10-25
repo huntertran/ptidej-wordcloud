@@ -1,0 +1,5639 @@
+Eclipse Mobile Tools for Java™ | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Eclipse Mobile Tools for Java™
+Primary tabs
+Overview
+(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse Mobile Tools for Java™ project creates tools and frameworks to extend the Eclipse platform to support embedded and mobile device Java application development.
+News
+September 15, 2015,
+Mobile Tools for Java™ 2.0.1 is released.
+Mobile Tools for Java™ (MTJ) 2.0.1 release is focused on bug fixes and support of latest Eclipse Mars.
+The scope of MTJ 2.0.1 is listed below:
+Migration to Eclipse Mars
+Better Javadocs detections for libraries that represent the same logical API but correspond to different API versions
+Bug fixes
+November 14, 2014,
+Mobile Tools for Java™ 2.0 is released.
+Mobile Tools for Java™ (MTJ) 2.0 release is making MTJ plugin IoT ready by supporting Java™ ME 8 platform. Java™ ME 8 is the major update of the Java™ ME technology as a modern embedded software platform, purpose-built as a foundation for new services in the Internet of Things (IoT). MTJ 2.0 is based on Eclipse Luna and provides a support for CLDC 1.8 configuration (
+JSR 360
+), MEEP 8.0 profile (
+JSR 361
+) and better IMP-NG profile (
+JSR 228
+) support.
+Other improvements in this release includes new extensible Code Validation Builder that provides an ability to perform pre-compilation analysis and generates warnings by 3rd party plugins created on top of MTJ, support for Java™ ME APIs javadocs in zip archives and a lot of bug fixes.
+This project is part of
+Indigo
+,
+Helios
+, and
+Galileo
+.
+Licenses:
+Eclipse Public License 1.0
+Latest Releases:
+From October 14th, 2008 to September 10th, 2015
+Name
+Date
+Review
+2.0.1
+2015-09-10
+2.0
+2014-11-17
+1.2.0
+2011-06-22
+1.1.2
+2011-02-25
+1.1.1
+2010-09-14
+1.1.0
+2010-06-23
+1.0.1
+2009-09-25
+1.0.0
+2009-06-08
+0.9.1
+2008-12-23
+0.9.0
+2008-10-14
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mobile Tools for Java™ | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Donate
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Projects
+mtj
+Mobile Tools for Java™
+Mission Statement
+Mobile Tools for Java™ project creates tools and frameworks to extend Eclipse platform to support embedded and mobile device Java application development.
+Scope
+The scope of the Mobile Tools for the Java™ (MTJ) project is to extend the Eclipse platform to enable developers to develop, debug, and deploy embedded and mobile Java applications to emulators and real devices. The project will develop frameworks that can be extended by tool vendors and tools that can be used by third-party developers.
+News
+September 15, 2015,
+Mobile Tools for Java™ 2.0.1 is released.
+Mobile Tools for Java™ (MTJ) 2.0.1 release is focused on bug fixes and support of latest Eclipse Mars.
+The scope of MTJ 2.0.1 is listed below:
+Migration to Eclipse Mars
+Better Javadocs detections for libraries that represent the same logical API but correspond to different API versions
+Bug fixes
+November 14, 2014,
+Mobile Tools for Java™ 2.0 is released.
+Mobile Tools for Java™ (MTJ) 2.0 release is making MTJ plugin IoT ready by supporting Java™ ME 8 platform. Java™ ME 8 is the major update of the Java™ ME technology as a modern embedded software platform, purpose-built as a foundation for new services in the Internet of Things (IoT). MTJ 2.0 is based on Eclipse Luna and provides a support for CLDC 1.8 configuration (
+JSR 360
+), MEEP 8.0 profile (
+JSR 361
+) and better IMP-NG profile (
+JSR 228
+) support.
+Other improvements in this release includes new extensible Code Validation Builder that provides an ability to perform pre-compilation analysis and generates warnings by 3rd party plugins created on top of MTJ, support for Java™ ME APIs javadocs in zip archives and a lot of bug fixes.
+Latest Release
+MTJ 2.0.1
+(Release Date: September 15, 2015)
+Update Site:
+http://download.eclipse.org/mtj/updates/2.0.1/stable/
+Archived Update Site:
+org.eclipse.mtj.update-site-2.0.1.zip
+(12.6 MB)
+Nightly Builds
+Latest Nightly Build
+Update Site:
+http://download.eclipse.org/mtj/updates/nightly/
+Quick Links
+Forum
+| For general questions and community discussions.
+Developer Mailing List
+| For project development discussions.
+Report a
+bug
+What's New
+September 15th, 2015: MTJ 2.0.1 is now available.
+November 14th, 2014: MTJ 2.0 is now available.
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+About This Project
+Mobile Tools for Java™
+Getting Started
+Forum
+Bugs
+Downloads
+Contrubuting
+Contributing
+Mailing Lists
+Developer Resources
+Legal
+IP Log
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Community Forums: DSDP - Mobile Tools for Java (MTJ)
+Skip to main content
+Downloads
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Projects
+Forums
+Eclipse Community Forums
+Forum Search:
+Search
+Help
+Register
+Login
+Home
+Home
+»
+Eclipse Projects
+»
+DSDP - Mobile Tools for Java (MTJ)
+Show:
+Today's Messages
+::
+Unanswered Messages
+::
+Show Polls
+::
+Message Navigator
+Topic
+Replies
+Views
+Last message
+registering interest
+By: Eclipse User on
+Thu, 06 October 2005
+3
+30154
+Wed, 30 May 2018 16:32
+By: Eclipse User
+Feedback on MTJ proposal
+By: Eclipse User on
+Mon, 17 October 2005
+3
+29319
+Wed, 30 May 2018 16:28
+By: Eclipse User
+news.eclipse.org is shutting down.
+By:
+Eclipse Webmaster
+on
+Wed, 31 August 2016
+0
+2639
+Wed, 31 August 2016 18:44
+By:
+Eclipse Webmaster
+Mobile Tools for Java 2.0.1 is released
+By:
+Alexander Burdukov
+on
+Tue, 15 September 2015
+0
+5562
+Tue, 15 September 2015 19:25
+By:
+Alexander Burdukov
+Mobile Tools for Java 2.0 project is released
+By:
+Alexander Burdukov
+on
+Fri, 14 November 2014
+0
+3003
+Fri, 14 November 2014 19:54
+By:
+Alexander Burdukov
+Convert Jar Program to Midlet Jar?
+Convert Jar Program to Midlet Jar?
+By:
+Bobby Smith
+on
+Tue, 21 January 2014
+0
+4687
+Tue, 21 January 2014 19:19
+By:
+Bobby Smith
+BlackBerry Simulator PIN
+Get actual PIN number
+By:
+Saadillah Akbar
+on
+Mon, 30 December 2013
+0
+38094
+Mon, 30 December 2013 07:55
+Eclipse software repository | The Eclipse Foundation
+By:
+Saadillah Akbar
+Import Netbeans project Fails
+When importing a netbeans project then MTJ fails with a message error Running Package Builder
+By:
+Wayne Forrest
+on
+Wed, 14 August 2013
+0
+3738
+Wed, 14 August 2013 10:43
+By:
+Wayne Forrest
+Cannot install MTJ on Juno
+By:
+Davide Perini
+on
+Sat, 17 November 2012
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+6
+17004
+Fri, 10 May 2013 07:08
+By:
+cernis tang
+build error - .mtj.tmp\emulation (Access is denied)
+When I trying build my project I get this error and nothing else (no created *.jar & *.jad files)
+By:
+Sergey Smirnov
+on
+Thu, 29 November 2012
+2
+5582
+Tue, 19 March 2013 21:26
+By:
+Sergey Smirnov
+passing a parameter or a value of a variable to another activity every 10seconds?
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+How can i pass a parameter or a value of a variable to another activity every 10seconds?
+By:
+WESIANG LIM
+on
+Wed, 14 November 2012
+0
+4539
+Wed, 14 November 2012 07:16
+By:
+WESIANG LIM
+Guide me on network path in new file () eclipse android
+By:
+Tan Kok Lim
+on
+Thu, 18 October 2012
+0
+5868
+Thu, 18 October 2012 07:17
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+By:
+Tan Kok Lim
+Problem adding external .jar file in Eclipse
+By:
+M Bliss
+on
+Mon, 10 September 2012
+0
+5077
+Mon, 10 September 2012 18:27
+By:
+M Bliss
+SVN and MTJ
+how to use MTJ with existing SVN repository
+By:
+Steve White
+on
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Downloads
+Add Software
+You're close!
+This URL is an Eclipse
+software repository
+; you must use it in Eclipse (
+see how
+).
+Directory Contents
+..
+features
+plugins
+artifacts.jar
+content.jar
+Fri, 17 August 2012
+1
+3318
+Fri, 17 August 2012 18:11
+By:
+Steve White
+Android application
+How to insert the images (code)
+By:
+asdfagdfg agrrwegqrg
+on
+Mon, 23 April 2012
+0
+9417
+Mon, 23 April 2012 10:06
+By:
+asdfagdfg agrrwegqrg
+Obfuscation fails - JAR contains Manifest only
+org.eclipse.mtj.update-site-2.0.1.201710021029.zip
+Useful links
+Eclipse project archives
+Eclipse project downloads
+Eclipse home
+Downloads home
+Email the webmaster
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Deploying regular packages works, obfuscated packages do not contain classes
+By:
+Johannes
+on
+Thu, 27 May 2010
+1
+8806
+Mon, 09 April 2012 07:20
+By:
+Quang Dao Phan
+Manual Installation Devices
+I can't configure the environment
+By:
+Eric Nicholls V
+on
+Sat, 24 March 2012
+0
+7912
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Sat, 24 March 2012 20:27
+By:
+Eric Nicholls V
+Could not get Device instance ID!
+By: Eclipse User on
+Sun, 13 June 2010
+1
+7252
+Wed, 07 December 2011 07:55
+By:
+Steve Missing name
+Create awt and lcdui custom component visual designer plugin for eclipse
+By:
+Taxiarchis.Tsaprounis
+on
+Mon, 07 November 2011
+0
+10397
+Back to the top
+Mon, 07 November 2011 10:01
+By:
+Taxiarchis.Tsaprounis
+How to write J2ME in eclipse?
+J2ME
+By:
+omid
+on
+Tue, 01 November 2011
+0
+9707
+Tue, 01 November 2011 10:48
+By:
+omid
+/tmp/_mtj.tmp eats up my complete harddisk/storage space
+By:
+hkais
+on
+Sat, 12 March 2011
+5
+8752
+Sun, 18 September 2011 10:25
+By:
+hkais
+Install MTJ for Indigo
+Install MTJ
+By:
+Bruno Nunes Barbosa
+on
+Mon, 01 August 2011
+0
+11226
+Mon, 01 August 2011 17:43
+By:
+Bruno Nunes Barbosa
+Problem during packaging: empty jar in \.mtj.tmp\emulation
+By:
+BenH
+on
+Sun, 13 September 2009
+7
+10884
+Thu, 19 May 2011 13:46
+By:
+Eclipse User
+Corrupt JAR, error while reading: midlet/MIDlet.class
+By:
+Erik
+on
+Sat, 22 May 2010
+2
+9506
+Thu, 19 May 2011 10:56
+By:
+Eclipse User
+canot start wtk emulator within eclipse
+By:
+Hofer
+on
+Thu, 12 May 2011
+1
+6653
+Fri, 13 May 2011 09:10
+By:
+Hofer
+'Create Obfuscated Package' is suddenly away
+By:
+Marcel RUff
+on
+Mon, 11 April 2011
+2
+6525
+Wed, 20 April 2011 14:23
+By:
+Gorkem Ercan
+preprocessor #include
+By:
+Grayger
+on
+Wed, 23 March 2011
+0
+10904
+Wed, 23 March 2011 11:57
+By:
+Grayger
+MTJ and Java SDK 3: bullshit
+bugs
+By:
+bastard_troll
+on
+Mon, 21 June 2010
+13
+15079
+Wed, 23 February 2011 17:50
+By:
+Bernardo
+CDC 1.0
+By:
+Vasco Francisco Paiva Ribeiro
+on
+Fri, 11 February 2011
+1
+5919
+Wed, 16 February 2011 15:51
+By: Eclipse User
+How to generate JAR file to run on mobile phone?
+By:
+HuaZhang
+on
+Sun, 13 February 2011
+1
+7272
+Wed, 16 February 2011 15:48
+By: Eclipse User
+How to generate JAR file which runs on mobile phone?
+By:
+HuaZhang
+on
+Sun, 13 February 2011
+0
+9986
+Sun, 13 February 2011 18:03
+By:
+HuaZhang
+Project properties Java ME->Library: how to add libraries?
+By:
+leniviy
+on
+Fri, 07 January 2011
+2
+7403
+Fri, 07 January 2011 12:33
+By:
+leniviy
+NOKIA NFC WITH ECLIPSE
+By:
+SARATH CHANDRAN
+on
+Wed, 22 December 2010
+1
+6564
+Thu, 23 December 2010 11:50
+By: Eclipse User
+CMTK import failed, how to debug MTJ?
+By:
+ebeb
+on
+Wed, 03 March 2010
+26
+34850
+Wed, 15 December 2010 14:57
+By:
+Anders Storsveen
+repack existing midlet jar with my modifications
+By:
+leniviy
+on
+Sun, 17 October 2010
+1
+7091
+Wed, 20 October 2010 04:45
+By:
+Gorkem Ercan
+Is this Newsgroup dead?
+By: Eclipse User on
+Thu, 19 August 2010
+3
+6748
+Mon, 27 September 2010 13:28
+By:
+Gorkem Ercan
+MTJ 1.1.1 Release Candidate
+By:
+Gorkem Ercan
+on
+Mon, 06 September 2010
+0
+10826
+Mon, 06 September 2010 08:48
+By:
+Gorkem Ercan
+MTJ 1.1.1 Release Candidate
+By:
+Gorkem Ercan
+on
+Mon, 06 September 2010
+0
+10967
+Mon, 06 September 2010 08:48
+By:
+Gorkem Ercan
+Can't get past preverifier compile error
+By:
+Ben Arnold
+on
+Wed, 21 April 2010
+5
+7920
+Fri, 03 September 2010 17:05
+By:
+Gorkem Ercan
+Can't get past preverifier compile error
+By:
+Ben Arnold
+on
+Wed, 21 April 2010
+5
+11204
+Fri, 03 September 2010 17:05
+By:
+Gorkem Ercan
+Is this Newsgroup dead?
+By: Eclipse User on
+Thu, 19 August 2010
+0
+10357
+Thu, 19 August 2010 22:11
+By: Eclipse User
+Re: Installation problems on Linux/x64
+By:
+No real name
+on
+Mon, 09 August 2010
+1
+5527
+Mon, 09 August 2010 13:44
+By:
+No real name
+Installation problems on Linux/x64
+By:
+Elliot Lee
+on
+Tue, 30 December 2008
+12
+12483
+Mon, 09 August 2010 13:44
+By:
+No real name
+persistance
+By:
+No real name
+on
+Sun, 25 July 2010
+0
+10374
+Sun, 25 July 2010 23:47
+By:
+No real name
+persistance
+By:
+No real name
+on
+Sun, 25 July 2010
+0
+10294
+Sun, 25 July 2010 23:47
+By:
+No real name
+Using midp_2.0 library in Eclipse
+By:
+No real name
+on
+Thu, 08 July 2010
+2
+5803
+Fri, 09 July 2010 22:34
+By:
+Gorkem Ercan
+MTJ and Java SDK 3: bullshit
+By:
+bastard_troll
+on
+Mon, 21 June 2010
+2
+5841
+Fri, 09 July 2010 10:37
+By: Eclipse User
+Invalid Preverifier file
+By: Eclipse User on
+Fri, 09 July 2010
+0
+12603
+Fri, 09 July 2010 10:32
+By: Eclipse User
+Invalid Preverifier file
+By: Eclipse User on
+Fri, 09 July 2010
+0
+10936
+Fri, 09 July 2010 10:32
+By: Eclipse User
+Using midp_2.0 library in Eclipse
+By:
+No real name
+on
+Thu, 08 July 2010
+0
+9935
+Thu, 08 July 2010 11:31
+By:
+No real name
+Multimedia problem
+By: Eclipse User on
+Sat, 03 July 2010
+0
+10175
+Sat, 03 July 2010 20:43
+By: Eclipse User
+Multimedia problem
+By: Eclipse User on
+Sat, 03 July 2010
+0
+9954
+Sat, 03 July 2010 20:43
+By: Eclipse User
+I can't install the Mobile Tools for Java v1.1 in JBuilder 2008 R2
+By:
+Missing name Missing name
+on
+Mon, 28 June 2010
+2
+5811
+Tue, 29 June 2010 23:40
+By:
+Gorkem Ercan
+I can't install the Mobile Tools for Java v1.1 in JBuilder 2008 R2
+By:
+Missing name Missing name
+on
+Mon, 28 June 2010
+2.0 Release Review | projects.eclipse.org
+Eclipse Mobile Tools for Java™ | projects.eclipse.org
+2.0 | projects.eclipse.org
+0
+9909
+Mon, 28 June 2010 17:45
+By:
+Missing name Missing name
+Multimedia volume control
+By: Eclipse User on
+Tue, 15 June 2010
+0
+9744
+Tue, 15 June 2010 08:01
+By: Eclipse User
+Multimedia volume control
+By: Eclipse User on
+Tue, 15 June 2010
+0
+9535
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+2.0.1 | projects.eclipse.org
+Tue, 15 June 2010 08:01
+By: Eclipse User
+Could not get Device instance ID!
+By: Eclipse User on
+Sun, 13 June 2010
+2
+6101
+Mon, 14 June 2010 19:16
+By: Eclipse User
+Problems importing devices from Moto SDK
+By:
+Steve Parker
+on
+Wed, 26 May 2010
+2
+3638
+Thu, 10 June 2010 20:04
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Eclipse Mobile Tools for Java™ | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Eclipse Mobile Tools for Java™ | projects.eclipse.org
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Eclipse Mobile Tools for Java™ | projects.eclipse.org
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+By:
+Steve Parker
+Problems importing devices from Moto SDK
+By:
+Steve Parker
+on
+Wed, 26 May 2010
+2
+4204
+Thu, 10 June 2010 20:04
+By:
+Steve Parker
+iDEN Device problems
+By:
+Peter
+on
+Mon, 31 May 2010
+8
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+7360
+Thu, 10 June 2010 19:06
+By:
+Peter
+Missing features of MIDP 2.X/CLDC API (WTK 3.0)
+By:
+Erik
+on
+Fri, 21 May 2010
+1
+3485
+Tue, 01 June 2010 13:08
+By:
+Gustavo de Paula
+Missing features of MIDP 2.X/CLDC API (WTK 3.0)
+By:
+Erik
+on
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0
+2.0 Release Review
+Eclipse Mobile Tools for Java™ 2.0 Release Review
+Type:
+Release
+State:
+Successful
+End Date of the Review Period:
+Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.
+Wednesday, November 12, 2014
+Eclipse Mobile Tools for Java™ | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+Downloads
+Eclipse Mobile Tools for Java™
+Primary tabs
+Overview
+Downloads
+(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The MTJ can be installed into an existing Eclipse using the
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0
+Eclipse Mobile Tools for Java™ 2.0
+Primary tabs
+Overview
+(active tab)
+Issues
+Release Plan
+Review Information
+The main goal of the Mobile Tools for Java
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Eclipse software repository | The Eclipse Foundation
+Fri, 21 May 2010
+1
+4633
+Tue, 01 June 2010 13:07
+By:
+Gustavo de Paula
+Corrupt JAR, error while reading: midlet/MIDlet.class
+By:
+Erik
+on
+Sat, 22 May 2010
+1
+3890
+Tue, 01 June 2010 12:26
+By:
+Gustavo de Paula
+Project:
+Eclipse Mobile Tools for Java™
+Release:
+2.0
+Description:
+The main goal of the Mobile Tools for Java
+TM
+(MTJ) 2.0 release is to extend existing MTJ plugin with Java ME 8 Embedded development support.
+The scope of MTJ 2.0 is listed below:
+Migration to Eclipse Luna
+Java ME 8 Embedded development support
+CLDC 1.8 configuration (
+JSR 360
+) support
+MEEP 8.0 profile (
+JSR 361
+) support
+Better IMP-NG profile (
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+"Help > Install New Software..."
+dialog and entering the p2 software repository URLs listed below.
+Marketplace:
+Mobile Tools for Java™
+Update Sites:
+MTJ 2.0.1 Release:
+MTJ 2.0 Release:
+Latest Nighly Build:
+Downloads:
+MTJ 2.0.1 Release Archived Update Site
+MTJ 2.0 Release Archived Update Site
+Previous Releases and Milestones
+Project Links
+Website
+Marketplace
+Related Projects
+Project Hierarchy:
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+TM
+(MTJ) 2.0 release is to extend existing MTJ plugin with Java ME 8 Embedded development support.
+The scope of MTJ 2.0 is listed below:
+Migration to Eclipse Luna
+Java ME 8 Embedded development support
+CLDC 1.8 configuration (
+JSR 360
+) support
+MEEP 8.0 profile (
+JSR 361
+) support
+Better IMP-NG profile (
+JSR 228
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0.1
+Eclipse Mobile Tools for Java™ 2.0.1
+Primary tabs
+Overview
+(active tab)
+Issues
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+iDEN Device problems
+By:
+Peter
+on
+Mon, 31 May 2010
+0
+8838
+Mon, 31 May 2010 23:17
+By:
+Peter
+Obfuscation fails - JAR contains Manifest only
+By:
+Johannes
+on
+Thu, 27 May 2010
+0
+9490
+JSR 228
+) support
+JDK 7 default compliance level for MEEP based projects
+No preverfication for MEEP based projects
+LIBlets support: development, project dependencies, signing and provisioning
+MEEP security model support (since MEEP 8.0 permissions mechanism was significantly changed and similar to Java SE now).
+Code Validation Builder (provide an ability to perform pre-compilation analysis and generating of warnings for Java source files by 3rd party plugins created on top of MTJ).
+Support Java ME APIs javadocs provided as ZIP archives.
+Bug fixes.
+Sign in
+to post comments.
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+Contact Us
+Eclipse Mobile Tools for Java™
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+(active tab)
+Forums:
+eclipse.dsdp.mtj
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+Who's Involved
+Eclipse Mobile Tools for Java™
+Primary tabs
+Overview
+Downloads
+Who's Involved
+(active tab)
+Developer Resources
+Governance
+Contact Us
+Project Members:
+) support
+JDK 7 default compliance level for MEEP based projects
+No preverfication for MEEP based projects
+LIBlets support: development, project dependencies, signing and provisioning
+MEEP security model support (since MEEP 8.0 permissions mechanism was significantly changed and similar to Java SE now).
+Code Validation Builder (provide an ability to perform pre-compilation analysis and generating of warnings for Java source files by 3rd party plugins created on top of MTJ).
+Support Java ME APIs javadocs provided as ZIP archives.
+Bug fixes.
+Release Date:
+Monday, November 17, 2014
+Review:
+2.0 Release Review
+Release Type:
+Major release (API breakage)
+Project Links
+Website
+Related Projects
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+Developer Resources
+Eclipse Mobile Tools for Java™
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+(active tab)
+Governance
+Contact Us
+Report a Bug
+Release Plan
+Review Information
+The Mobile Tools for Java™
+(MTJ) 2.0.1 release is focused on bug fixes and support of latest Eclipse Mars.
+The scope of MTJ 2.0.1 is listed below:
+Migration to Eclipse Mars
+Better Javadocs detections for libraries that represent the same logical API but correspond to different API versions
+Bug fixes.
+Release Date:
+Thursday, September 10, 2015
+Release Type:
+Service release (bug fixes only)
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Thu, 27 May 2010 10:26
+By:
+Johannes
+Re: Unable to debug - LG
+By:
+Sergio
+on
+Sat, 15 May 2010
+1
+2893
+Tue, 18 May 2010 12:30
+By:
+Gustavo de Paula
+Unable to debug - LG
+By:
+Sergio
+on
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+Mailing list: mtj-dev (13 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Come here to participate in technical and general discussions about how to make Eclipse to be a better Mobile Java development environment. Also please indicate your needs if you are planning to extend with your product MTJ.
+Developer Mailing List:
+mtj-dev
+-
+MTJ Developer discussions
+Project Links
+Website
+Forums
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Project Lead
+Alexander Burdukov
+Committer
+Alexander Burdukov
+Historical Committers
+Christian Kurzke
+Craig Setera
+Daniel Drigo Pastore
+David Marques
+Diego Madruga Sandin
+Feng(Marvin) Wang
+Gang(Allen) Ma
+Gorkem Ercan
+Gustavo de Paula
+Pranav Gothadiya
+Project Links
+Website
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+View Help wanted Bugs
+View Open Bugs
+Summarize Bugs
+Build Technologies:
+Hudson
+Maven
+Tycho
+Source Repositories:
+You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.
+mtj/org.eclipse.mtj.git -
+Browse Repository
+Build Links:
+Build Links
+Build Status
+Hudson Builds
+Project Links
+Website
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Mon, 10 May 2010
+3
+5624
+Tue, 18 May 2010 12:30
+By:
+Gustavo de Paula
+Errors during source build
+By:
+Andrey
+on
+Tue, 01 September 2009
+32
+25119
+Sat, 15 May 2010 01:11
+By:
+Gustavo de Paula
+Unable to debug - LG
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+Governance
+Eclipse Mobile Tools for Java™
+Primary tabs
+Overview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+(active tab)
+Contact Us
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Dev Mailing List
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Home
+Downloads
+Add Software
+You're close!
+This URL is an Eclipse
+software repository
+; you must use it in Eclipse (
+see how
+).
+Directory Contents
+..
+features
+plugins
+artifacts.jar
+content.jar
+Useful links
+Eclipse project archives
+By:
+Sergio
+on
+Mon, 10 May 2010
+1
+3006
+Sat, 15 May 2010 01:06
+By:
+Gustavo de Paula
+CMTK import failed, how to debug MTJ?
+By:
+ebeb
+on
+Wed, 03 March 2010
+3
+4623
+Wed, 12 May 2010 23:42
+By:
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Releases:
+Name
+Date
+2.0.1
+2015-09-10
+2.0
+2014-11-17
+1.2.0
+2011-06-22
+1.1.2
+2011-02-25
+1.1.1
+2010-09-14
+1.1.0
+2010-06-23
+1.0.1
+2009-09-25
+1.0.0
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+MTJ Project Downloads
+MTJ project
+downloads
+latest downloads from the MTJ project
+Latest Downloads
+On this page you can find the latest
+builds
+produced by the MTJ project. To get started run the program and and go through the user and developer documentation provided in the online help system. If you have problems downloading the drops, contact
+webmaster
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse project downloads
+Eclipse home
+Downloads home
+Email the webmaster
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Florent Clairambault
+Fix this damn bug!!!
+By:
+jacques
+on
+Wed, 12 May 2010
+0
+9470
+Wed, 12 May 2010 15:40
+By:
+jacques
+Fix this damn bug!!!
+MJT / EclipseME frustrates my company.
+By:
+jacques
+on
+Wed, 12 May 2010
+2009-06-08
+0.9.1
+2008-12-23
+0.9.0
+2008-10-14
+Reviews:
+Name
+Date
+2.0 Release Review
+2014-11-12
+Termination and Restructuring
+2014-03-26
+1.2.0 Release Review
+2011-06-15
+1.0.0 Release Review
+2009-06-10
+Project Links
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+. If you have problems installing or getting the MTJ to run, check out the MTJ Project FAQ, or try posting a question to the
+newsgroup
+. All downloads are provided under the terms and conditions of the
+Eclipse Foundation Software User Agreement
+unless otherwise specified.
+For information about different kinds of builds look
+here
+.
+Build Type
+Build Name
+Build Date
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0
+9550
+Wed, 12 May 2010 15:40
+By:
+jacques
+J2ME Preprocessor is not working with Eclipse
+By:
+No real name
+on
+Thu, 29 April 2010
+2
+5315
+Thu, 29 April 2010 13:39
+By:
+Diego Madruga Sandin
+J2ME Preprocessor is not working with Eclipse
+By:
+No real name
+Website
+Proposal
+Current Release
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Newcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: mtj-dev
+(13 subscribers)
+MTJ Developer discussions
+About mtj-dev
+MTJ Developer discussions
+Using mtj-dev
+To post a message to all the list members, send email to
+mtj-dev@eclipse.org
+. You must be subscribed to the list before you can post. To access a web archive of this list, visit the
+mtj-dev Archives
+or subscribe to this list's
+RSS feed
+Subscribing mtj-dev
+All contributions you make to our web site are governed by our
+Latest Release
+1.1
+Wed, 16 Jun 2010 -- 10:22 (-0400)
+Stream Stable Build
+1.1.1RC1
+Fri, 3 Sep 2010 -- 14:35 (-0400)
+Stream Integration Build
+1.1.1 Stream Nightly Build
+N20100824
+Tue, 24 Aug 2010 -- 08:14 (-0400)
+1.0 Stream Maintenance Build
+Latest Releases
+Build Name
+Build Date
+1.1
+Wed, 16 Jun 2010 -- 10:22 (-0400)
+1.0.1
+Fri, 18 Sep 2009 -- 16:41 (-0400)
+Eclipse - The Eclipse Foundation open source community website | The Eclipse Foundation
+on
+Thu, 29 April 2010
+0
+36420
+Thu, 29 April 2010 06:53
+By:
+No real name
+Unable to import devices from j2me sdk3
+By:
+jorn
+on
+Thu, 15 April 2010
+2
+4416
+Tue, 27 April 2010 17:48
+By:
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Terms Of Use
+. Your interactions with the Eclipse Foundation web properties and any information you may provide us about yourself are governed by our
+Privacy Policy
+.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the
+Mailing List
+page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: mtj-dev
+1.0
+Fri, 12 Jun 2009 -- 13:54 (-0400)
+0.9.1
+Tue, 23 Dec 2008 -- 13:40 (-0500)
+0.9
+Tue, 14 Oct 2008 -- 13:45 (-0400)
+Stream Stable Builds
+Build Name
+Build Date
+1.1RC4
+Wed, 16 Jun 2010 -- 10:22 (-0400)
+1.1RC3
+Wed, 2 Jun 2010 -- 12:59 (-0400)
+1.1RC1
+Tue, 11 May 2010 -- 09:55 (-0400)
+1.1.1RC1
+Fri, 3 Sep 2010 -- 14:35 (-0400)
+Stream Integration Builds
+Skip to main content
+Log in
+Manage Cookies
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+jorn
+Unable to import devices from j2me sdk3
+By:
+jorn
+on
+Thu, 15 April 2010
+2
+4833
+Tue, 27 April 2010 17:48
+By:
+jorn
+Eclipse Pulsar - a huge step backward?
+By: Eclipse User on
+Tue, 23 February 2010
+6
+9403
+Tue, 27 April 2010 13:19
+By:
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+RSS Feed
+Archive
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Build Name
+Build Date
+1.1.1 Stream Nightly Builds
+Build Name
+Build Date
+N20100824
+Tue, 24 Aug 2010 -- 08:14 (-0400)
+1.0 Stream Maintenance Builds
+Build Name
+Build Date
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Gustavo de Paula
+MJT and Java ME SDK 3.0
+By:
+Markus M
+on
+Sat, 24 October 2009
+6
+5445
+Tue, 27 April 2010 13:11
+By:
+Gustavo de Paula
+MJT and Java ME SDK 3.0
+MJT does not find any devices in Java ME SDK 3
+By:
+Markus M
+on
+Sat, 24 October 2009
+6
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+13290
+Tue, 27 April 2010 13:11
+By:
+Gustavo de Paula
+Build state machine has not been initialized
+Build state machine has not been initialized
+By:
+Ugo Chirico
+on
+Sat, 17 October 2009
+13
+20167
+Tue, 27 April 2010 13:06
+By:
+Gustavo de Paula
+Build state machine has not been initialized
+By:
+Ugo Chirico
+Toggle navigation
+Breadcrumbs
+Home
+Proposals
+Eclipse - The Eclipse Foundation op...
+This page is deprecated and may contain some information that is no longer relevant or accurate.
+Mobile Tools for Java
+.
+Introduction
+Mobile Tools for Java (MTJ) is a proposed open source project under the
+Device Software Development Platform (DSDP)
+.
+This proposal is in the Project Proposal Phase (as defined in the
+Eclipse Development Process document
+) and is written to declare its intent and scope. This proposal is written to solicit additional participation and input from the Eclipse community. You are invited to comment on and/or join the project. Please send all feedback to the
+http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.mtj
+newsgroup.
+Background
+on
+Sat, 17 October 2009
+11
+5896
+Mon, 22 March 2010 19:20
+By: Eclipse User
+Local File History
+By:
+Charles-Philip Bentley
+on
+Thu, 18 March 2010
+0
+8811
+Thu, 18 March 2010 13:58
+By:
+Charles-Philip Bentley
+Local File History
+By:
+Developing applications to the mobile Java environment presents unique challenges to developers. Specifically, unlike the straightforward J2SE and J2EE environments, there are a number of configurations and profiles (such as
+MIDP
+on top of the
+CLDC
+and
+Foundation
+and
+Personal Profiles
+on top of the
+CDC
+), along with a number of JSRs (and umbrella JSRs such as
+JTWI
+or
+JSR-248
+) that require development tools to assist in managing the runtimes/class libraries for development work and runtime binding. This ability to develop for multiple targets and use common source code with different build configurations is critical in mobile Java development projects. In addition to this management of runtimes and the challenges it presents, mobile Java applications have unique launching and debug requirements and unlike J2SE or J2EE, applications are not always just placed on a server for download as needed. Rather, developers require device emulators for on-development-system test and debug, the ability to launch, test, debug and analyze performance of the applications on the devices themselves, where varying classes of these devices have different methods and levels of connectivity. There is also the need for a robust deployment solution to deliver the code under development to the device, and also be able to map that to a production deployment solution. Of course, this is all in addition to the �normal� set of application development tools (such as code creation, UI design and so on) for a specific market segment.
+A common set of tooling and frameworks across these targets, and the mobile Java space makes the development effort and cost manageable for developers. This is why it is important to have robust Eclipse frameworks in place to support mobile Java application development alongside the rich client and server counterparts
+Charles-Philip Bentley
+on
+Thu, 18 March 2010
+0
+10104
+Thu, 18 March 2010 13:58
+By:
+Charles-Philip Bentley
+Create source subfolder using org.eclipse.mtj.ui.midlettemplate
+By:
+authenticfake
+on
+Wed, 10 March 2010
+0
+9026
+Wed, 10 March 2010 19:33
+By:
+authenticfake
+Description
+The goal of the Mobile Tools for Java project is to extend existing Eclipse frameworks to support mobile device Java application development.
+MTJ will enable developers to develop, debug and deploy mobile Java applications to emulators and real devices.
+Core features:
+Device & Emulator framework
+Normally runtimes are managed in Eclipse as a JRE. In the mobile segment, the runtime environment is a device emulator or real device. The MTJ project will provide features to manage mobile runtimes and provide frameworks for device vendors to add those runtimes to the development environment.
+Deployment framework
+One vital part in mobile development is testing on real devices. To make that as easy as possible the developer must have methods to transfer mobile applications to handheld devices using local methods (e.g. Bluetooth, USB, IrDA). The idea of MTJ is to develop a framework that provides an API for vendor specific plug-ins, which then do the actual deployment.
+Generic and customizable build process for mobile application development
+The goal is to enhance normal build process with mobile extensions like JAR and JAD file generation. With the varying configurations and profiles of mobile Java, this is a critical feature to enable developers to manage code production. Another requirement is to provide ways to add additional tasks to the build process e.g. signing. This work should extend the builder frameworks of Eclipse.
+Debugging
+This is related to Device & Emulator framework. The goal of this item is to enhance the current Debugging environment so that it is possible to use mobile runtimes, either emulator or a real device. This task extends to launching the JVM and applications(s) on the local emulator or on the device itself, and allowing the developer to attach to that application under test. In the mobile space, this is tightly integrated with the Device and Emulator frameworks, and will need to provide a robust framework for device and platform makers to extend to their devices� specific connectivity. This work should extend the debug frameworks of Eclipse.
+Application creation wizard
+Application wizards in general exist in the Eclipse platform. It is possible to generate Java projects with or without application skeleton code but the existing wizards are not usable for Mobile development. This task is tied to the differing configurations and profiles of mobile Java and relieves the developer of needing to worry about the boilerplate code for each of the application configuration/profile types. One of the goals of MTJ is to enhance the existing wizards by providing Mobile specific project wizard.
+UI design tools
+The goal of these tools is to improve efficiency (easy drag and drop without coding) and also decrease the entry barrier for newcomers. There are already visual designers in the Eclipse platform but they don�t contain support for mobile devices. The target is to bring mobile UI styles, components and layout rules to Eclipse. The idea is to create a framework that enables the use of different kinds of UI implementations e.g. different resolutions, different vendor specific look and feel.. Also in the scope of this project, in addition to this framework is at a minimum. a generic UI designer implementation.
+Create source subfolder using org.eclipse.mtj.ui.midlettemplate
+create source code and subfolder using midlettemplate
+By:
+authenticfake
+on
+Wed, 10 March 2010
+0
+10647
+Wed, 10 March 2010 19:33
+By:
+authenticfake
+standalone preverifier
+By:
+V
+on
+Wed, 20 January 2010
+The idea is to utilize Eclipse
+Visual Editor Project
+and extend it so that device screen engines from different vendors can be plugged in.
+Localization
+The mobile application market is world wide so applications typically need to be localized. Therefore, an important requirement is for tooling that makes this task easier.
+Obfuscation and Code Size/Performance Optimization
+Mobile devices are restricted by memory so it is important that code is compresses as small as possible. There are a number of ways this can be accomplished. Obfuscation is one possibility, along with tooling and frameworks to enable performance and size analysis on the emulators or physical devices, which can be driven back into the build process or just for the developer to streamline their own code.
+Signing tool
+Security becomes more important in mobile devices because they are open and accessible to 3rd party developers. One solution for this is to require that the applications be signed with an authorized signing certificate. The signing process is very similar to signing a normal JAR signing but there are some specific mobile needs. The goal of MTJ is to support tooling to sign mobile applications. This signing tool will provide extensibility to add solution specific signing tools. This is exemplary of other external tools for mobile Java that need to be able to be integrated to a customizable build process.
+Status
+This project is currently in proposal phase and Nokia is actively seeking interested parties for this project. Detailed planning for initial delivery of MTJ is underway and development is beginning.
+Organization
+Nokia
+, as the submitter of this proposal, welcomes interested parties to post to the
+eclipse.dsdp.mtj
+newsgroup and ask to be added to the list as interested parties or to suggest changes to this document. The proposed project members include:
+Proposed project lead and initial committers
+8
+5079
+Mon, 08 March 2010 19:54
+By:
+V
+standalone preverifier
+I need a preverifier for my project and I don't want to make dependency on WTK
+By:
+V
+on
+Wed, 20 January 2010
+8
+6652
+Mon, 08 March 2010 19:54
+By:
+V
+Eclipse Pulsar - a huge step backward?
+By: Eclipse User on
+Mika Hoikkala, Nokia (proposed project lead)
+Arto Laurila, Nokia
+Marius Voicu, Nokia
+Minna Bloigu, Nokia
++ 2 TBD, Nokia
+Interested parties
+The following companies will participate in this project.
+IBM, David Reich
+The following companies have expressed interest in this project.
+Sybase
+Tentative Plan
+Regardless of the initial contribution, focus in the first phase is to develop mandatory pieces from a mobile development point of view. The most important features are Device & Emulator framework, Deployment framework and Mobile enhanced build process. This work will be immediately followed by code development tooling such as wizards and UI builder. Then followed by other tooling like localization and obfuscation.
+The working draft of the plan calls for interim milestone releases in December 2005, March 2006 with a first release level delivery concurrent with the next major release of the Eclipse platform (at the time of this writing, this would be Eclipse 3.2). Due to the early stage of this project this is subject to change.
+It is a challenging task to define the content and future directions of the Mobile Tools for Java project at this point. The high level intent is to provide mobile tool frameworks for any interesting enhancements in the mobile world. There will be a placeholder for any JSR or de facto standard that gets industry acceptance. Here are a few examples:
+JSR-232
+(Mobile Operational Management),
+Tue, 23 February 2010
+0
+8876
+Tue, 23 February 2010 10:28
+By: Eclipse User
+De.schlichtherle.io - file is read-only!
+By:
+Bernardo
+on
+Thu, 21 January 2010
+2
+3162
+Fri, 19 February 2010 16:04
+By:
+Andrey
+De.schlichtherle.io - file is read-only!
+CLDC and MIDP - Errors running builder
+By:
+JSR-249
+(Mobile Service Architecture for CDC),
+JSR-271
+(MIDP 3.0) and so on.
+Links
+Proposals
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Bernardo
+on
+Thu, 21 January 2010
+2
+5522
+Fri, 19 February 2010 16:04
+By:
+Andrey
+Re-syncing the file system
+By: Eclipse User on
+Sun, 14 February 2010
+1
+2291
+Mon, 15 February 2010 01:19
+By: Eclipse User
+Re-syncing the file system
+By: Eclipse User on
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Sun, 14 February 2010
+1
+3444
+Mon, 15 February 2010 01:19
+By: Eclipse User
+"enable localization support"
+By: Eclipse User on
+Thu, 11 February 2010
+4
+4726
+Sun, 14 February 2010 20:42
+By: Eclipse User
+"enable localization support"
+By: Eclipse User on
+Thu, 11 February 2010
+0
+8732
+Thu, 11 February 2010 10:56
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+By: Eclipse User
+Change L10nResources.java.template
+By:
+Marco Schwarz
+on
+Fri, 29 January 2010
+3
+4099
+Mon, 08 February 2010 17:13
+By:
+Diego Madruga Sandin
+Change L10nResources.java.template
+By:
+Marco Schwarz
+on
+Fri, 29 January 2010
+3
+3091
+Mon, 08 February 2010 17:13
+By:
+Diego Madruga Sandin
+Obfusator question
+By: Eclipse User on
+Sat, 06 February 2010
+0
+10368
+Sat, 06 February 2010 12:50
+By: Eclipse User
+Obfusator question
+By: Eclipse User on
+Sat, 06 February 2010
+0
+8542
+Sat, 06 February 2010 12:50
+By: Eclipse User
+Is there a step-by-step to install MTJ in Eclipse
+By:
+chupalo
+on
+Sat, 30 January 2010
+1
+2683
+Mon, 01 February 2010 14:15
+By:
+Gustavo de Paula
+Is there a step-by-step to install MTJ in Eclipse
+By:
+chupalo
+on
+Sat, 30 January 2010
+1
+4343
+Mon, 01 February 2010 14:15
+By:
+Gustavo de Paula
+Shared installation in Fedora
+By:
+RWZeitgeist
+on
+Mon, 04 January 2010
+1
+2447
+Fri, 29 January 2010 18:38
+By:
+Diego Madruga Sandin
+Shared installation in Fedora
+By:
+RWZeitgeist
+on
+Mon, 04 January 2010
+1
+3706
+Fri, 29 January 2010 18:38
+By:
+Diego Madruga Sandin
+destroyApp() unhandled exception
+By:
+VictorCLF
+on
+Sat, 26 December 2009
+1
+2874
+Fri, 29 January 2010 18:31
+By:
+Diego Madruga Sandin
+destroyApp() unhandled exception
+How to ignore Eclipse's complaints about destroyApp() unhandled exception?
+By:
+VictorCLF
+on
+Sat, 26 December 2009
+1
+5920
+Fri, 29 January 2010 18:31
+By:
+Diego Madruga Sandin
+Error in Eclipse MTJ
+By:
+carlosasolla
+on
+Mon, 21 December 2009
+1
+2468
+Fri, 29 January 2010 18:26
+By:
+Diego Madruga Sandin
+Error in Eclipse MTJ
+Error in Eclipse MTJ
+By:
+carlosasolla
+on
+Mon, 21 December 2009
+1
+4037
+Fri, 29 January 2010 18:26
+By:
+Diego Madruga Sandin
+news about MTJ in Helios?
+By:
+Gary Horen
+on
+Thu, 07 January 2010
+2
+4024
+Fri, 29 January 2010 18:11
+By:
+Gustavo de Paula
+Error: The output jar is empty. Did you specify the proper '-keep' options?
+By:
+Marcel RUff
+on
+Mon, 18 January 2010
+1
+2961
+Fri, 29 January 2010 17:02
+By:
+Diego Madruga Sandin
+Error: The output jar is empty. Did you specify the proper '-keep' options?
+By:
+Marcel RUff
+on
+Mon, 18 January 2010
+1
+8031
+Fri, 29 January 2010 17:02
+By:
+Diego Madruga Sandin
+JME Development on Linux
+By: Eclipse User on
+Thu, 14 January 2010
+1
+2676
+Mon, 18 January 2010 10:06
+By:
+Marcel RUff
+JME Development on Linux
+By: Eclipse User on
+Thu, 14 January 2010
+1
+4210
+Mon, 18 January 2010 10:06
+By:
+Marcel RUff
+WKT 3.0 for Linux
+By:
+Marcel RUff
+on
+Mon, 18 January 2010
+0
+8692
+Mon, 18 January 2010 10:02
+By:
+Marcel RUff
+WKT 3.0 for Linux
+By:
+Marcel RUff
+on
+Mon, 18 January 2010
+0
+10555
+Mon, 18 January 2010 10:02
+By:
+Marcel RUff
+news about MTJ in Helios?
+By:
+Gary Horen
+on
+Thu, 07 January 2010
+0
+8511
+Thu, 07 January 2010 00:46
+By:
+Gary Horen
+Data Persist in Java ME
+By:
+carlosasolla
+on
+Thu, 17 December 2009
+0
+7953
+Thu, 17 December 2009 12:35
+By:
+carlosasolla
+Data Persist in Java ME
+How to persist data in JavaME
+By:
+carlosasolla
+on
+Thu, 17 December 2009
+0
+9987
+Thu, 17 December 2009 12:35
+By:
+carlosasolla
+Eclipse Galileu + MTJ + Perst Lite
+By:
+carlosasolla
+on
+Wed, 16 December 2009
+0
+7511
+Wed, 16 December 2009 14:30
+By:
+carlosasolla
+Eclipse Galileu + MTJ + Perst Lite
+Error in Perst Lite Projet example in Eclipse MTJ
+By:
+carlosasolla
+on
+Wed, 16 December 2009
+0
+9944
+Wed, 16 December 2009 14:30
+By:
+carlosasolla
+Proposed feature: Export user defined symbols as separated .properties files
+By:
+David Lucena
+on
+Tue, 06 October 2009
+7
+5716
+Tue, 15 December 2009 15:56
+By:
+David Lucena
+Re: Flag disallowed Java SE keywords as errors
+By:
+Diego Madruga Sandin
+on
+Wed, 09 December 2009
+0
+4939
+Wed, 09 December 2009 14:05
+By:
+Diego Madruga Sandin
+Flag disallowed Java SE keywords as errors
+MTJ Editor allows keywords like finalize() and native, but preverification fails without a clue
+By:
+Heiko Selber
+on
+Wed, 02 December 2009
+3
+4668
+Wed, 09 December 2009 14:05
+By:
+Diego Madruga Sandin
+Flag disallowed Java SE keywords as errors
+By:
+Heiko Selber
+on
+Wed, 02 December 2009
+2
+3055
+Wed, 09 December 2009 13:58
+By:
+Heiko Selber
+Can't manage to get a running Netbeans project to work on eclipse
+By:
+No real name
+on
+Thu, 19 November 2009
+1
+2413
+Tue, 08 December 2009 14:18
+By:
+Diego Madruga Sandin
+Can't manage to get a running Netbeans project to work on eclipse
+By:
+No real name
+on
+Thu, 19 November 2009
+1
+3867
+Tue, 08 December 2009 14:18
+By:
+Diego Madruga Sandin
+DataOutputStream.writeFloat
+By:
+mediamana
+on
+Fri, 23 October 2009
+3
+4983
+Wed, 02 December 2009 12:22
+By:
+Marcel RUff
+Can't use Random.nextInt(int) or Thread.interrupt() in CLDC 1.1 with JavaME SDK 3.0
+By:
+Heiko Selber
+on
+Mon, 30 November 2009
+1
+2601
+Tue, 01 December 2009 10:23
+By:
+Heiko Selber
+Can't use Random.nextInt(int) or Thread.interrupt() in CLDC 1.1 with JavaME SDK 3.0
+By:
+Heiko Selber
+on
+Mon, 30 November 2009
+1
+4999
+Tue, 01 December 2009 10:23
+By:
+Heiko Selber
+Possible bug
+By:
+Victor Badulescu
+on
+Fri, 13 November 2009
+0
+4217
+Fri, 13 November 2009 09:36
+By:
+Victor Badulescu
+Possible bug
+Possible bug when importing netbeans j2me projects
+By:
+Victor Badulescu
+on
+Fri, 13 November 2009
+0
+6040
+Fri, 13 November 2009 09:36
+By:
+Victor Badulescu
+Cannot debug my application
+By:
+Anders ind
+on
+Sun, 08 November 2009
+1
+2575
+Mon, 09 November 2009 11:37
+By:
+Diego Madruga Sandin
+Cannot debug my application
+By:
+Anders ind
+on
+Sun, 08 November 2009
+1
+4270
+Mon, 09 November 2009 11:37
+By:
+Diego Madruga Sandin
+Proposed feautre: Export user defined symbols as separated .properties file
+By:
+David Lucena
+on
+Tue, 06 October 2009
+3
+3307
+Sat, 07 November 2009 13:32
+By:
+Diego Madruga Sandin
+Need help, my mtj1.0.1got view exception
+By:
+No real name
+on
+Wed, 04 November 2009
+1
+3584
+Sat, 07 November 2009 13:23
+By:
+Diego Madruga Sandin
+Need help, my mtj1.0.1got view exception
+By:
+No real name
+on
+Wed, 04 November 2009
+1
+2741
+Sat, 07 November 2009 13:23
+By:
+Diego Madruga Sandin
+exported antenna build ignores build.properties excludes
+By:
+No real name
+on
+Wed, 28 October 2009
+1
+3947
+Wed, 28 October 2009 16:21
+By:
+Diego Madruga Sandin
+exported antenna build ignores build.properties excludes
+By:
+No real name
+on
+Wed, 28 October 2009
+1
+2678
+Wed, 28 October 2009 16:21
+By:
+Diego Madruga Sandin
+Debugging problem with MTJ
+By:
+No real name
+on
+Thu, 22 October 2009
+2
+2364
+Sat, 24 October 2009 10:42
+By:
+No real name
+Debugging problem with MTJ
+By:
+No real name
+on
+Thu, 22 October 2009
+2
+3635
+Sat, 24 October 2009 10:42
+By:
+No real name
+DataOutputStream.writeFloat
+By:
+mediamana
+on
+Fri, 23 October 2009
+1
+3134
+Fri, 23 October 2009 13:24
+By:
+mediamana
+MJT or EclipseME won't uninstall
+By:
+Garrett Hynes
+2.0.1 | projects.eclipse.org
+on
+Thu, 22 October 2009
+1
+3330
+Thu, 22 October 2009 16:18
+By:
+Garrett Hynes
+MJT or EclipseME won't uninstall
+By:
+Garrett Hynes
+on
+Thu, 22 October 2009
+1
+6335
+Thu, 22 October 2009 16:18
+By:
+Garrett Hynes
+Custom symbol set definitions in a team environment
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+By:
+No real name
+on
+Tue, 06 October 2009
+1
+2475
+Thu, 22 October 2009 12:16
+By:
+Diego Madruga Sandin
+Custom symbol set definitions in a team environment
+By:
+No real name
+on
+Tue, 06 October 2009
+1
+3968
+Thu, 22 October 2009 12:16
+By:
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Diego Madruga Sandin
+Preprocessor not working after Eclipse software update
+By:
+Adam L
+on
+Fri, 16 October 2009
+1
+2717
+Thu, 22 October 2009 12:10
+By:
+Diego Madruga Sandin
+Preprocessor not working after Eclipse software update
+By:
+Adam L
+on
+Fri, 16 October 2009
+1
+4917
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Thu, 22 October 2009 12:10
+By:
+Diego Madruga Sandin
+Device management Cannot import Nokia 6131 NFC SDK v.1.1
+By:
+Raine Kelkka
+on
+Sun, 18 October 2009
+1
+2517
+Thu, 22 October 2009 12:04
+By:
+Diego Madruga Sandin
+Device management Cannot import Nokia 6131 NFC SDK v.1.1
+By:
+Raine Kelkka
+on
+Sun, 18 October 2009
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0.1
+Review Information
+Eclipse Mobile Tools for Java™ 2.0.1
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+The Mobile Tools for Java™
+1
+5710
+Thu, 22 October 2009 12:04
+By:
+Diego Madruga Sandin
+MTJ 1.0.1 available for download
+By:
+Diego Madruga Sandin
+on
+Fri, 25 September 2009
+1
+2736
+Tue, 29 September 2009 08:30
+By:
+David Lucena
+MTJ 1.0.1 available for download
+By:
+Diego Madruga Sandin
+(MTJ) 2.0.1 release is focused on bug fixes and support of latest Eclipse Mars.
+The scope of MTJ 2.0.1 is listed below:
+Migration to Eclipse Mars
+Better Javadocs detections for libraries that represent the same logical API but correspond to different API versions
+Bug fixes.
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+on
+Fri, 25 September 2009
+1
+3874
+Tue, 29 September 2009 08:30
+By:
+David Lucena
+Getting Involved in MTJ
+By:
+Imran
+on
+Sun, 20 September 2009
+1
+2215
+Mon, 21 September 2009 16:58
+By:
+Christian Kurzke
+2.0.1 | projects.eclipse.org
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Getting Involved in MTJ
+By:
+Imran
+on
+Sun, 20 September 2009
+1
+4072
+Mon, 21 September 2009 16:58
+By:
+Christian Kurzke
+user defined symbol sets not exported during antenna export for MTJ 1.0.1RC3
+By:
+No real name
+on
+Wed, 09 September 2009
+6
+5817
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Mon, 21 September 2009 12:44
+By:
+No real name
+Problem during packaging: empty jar in \.mtj.tmp\emulation
+By:
+BenH
+on
+Sun, 13 September 2009
+0
+3627
+Sun, 13 September 2009 11:19
+By:
+BenH
+Old bug progress
+By:
+Andrey
+on
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Fri, 11 September 2009
+6
+4978
+Fri, 11 September 2009 18:27
+By:
+Diego Madruga Sandin
+Old bug progress
+By:
+Andrey
+on
+Fri, 11 September 2009
+0
+3205
+Fri, 11 September 2009 16:35
+By:
+Andrey
+MTJ 1.0.1 RC3 Available
+By:
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Diego Madruga Sandin
+on
+Wed, 09 September 2009
+1
+2211
+Wed, 09 September 2009 18:54
+By:
+Andrey
+MTJ 1.0.1 RC3 Available
+By:
+Diego Madruga Sandin
+on
+Wed, 09 September 2009
+1
+3356
+Wed, 09 September 2009 18:54
+By:
+Andrey
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0.1
+Issues
+Eclipse Mobile Tools for Java™ 2.0.1
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+2.0.1 | projects.eclipse.org
+JMUnit: Preverification of Assertion fails
+By:
+Heiko Selber
+on
+Mon, 07 September 2009
+2
+4955
+Wed, 09 September 2009 16:41
+By:
+Diego Madruga Sandin
+user defined symbol sets not exported during antenna export for MTJ 1.0.1RC3
+By:
+No real name
+on
+Wed, 09 September 2009
+0
+3421
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Wed, 09 September 2009 15:38
+By:
+No real name
+JMUnit: Preverification of Assertion fails
+By:
+Heiko Selber
+on
+Mon, 07 September 2009
+0
+3689
+Mon, 07 September 2009 11:50
+By:
+Heiko Selber
+MTJ 1.0.1 RC2 Available
+By:
+Diego Madruga Sandin
+on
+Tue, 01 September 2009
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+9
+5693
+Tue, 01 September 2009 20:43
+By:
+David Marques
+MTJ 1.0.1 RC2 Available
+By:
+Diego Madruga Sandin
+on
+Tue, 01 September 2009
+1
+2300
+Tue, 01 September 2009 18:57
+By:
+Andrey
+Problem with svn and jmunit exclusions
+By:
+Andrey
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+on
+Sun, 30 August 2009
+12
+7936
+Tue, 01 September 2009 18:05
+By:
+Diego Madruga Sandin
+Preprocessing dependant projects
+By:
+No real name
+on
+Tue, 01 September 2009
+2
+3714
+Tue, 01 September 2009 16:25
+By:
+Diego Madruga Sandin
+Preprocessing dependant projects
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0.1
+Release Plan
+Eclipse Mobile Tools for Java™ 2.0.1
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Thursday, September 10, 2015
+Deliverables:
+By:
+No real name
+on
+Tue, 01 September 2009
+0
+3431
+Tue, 01 September 2009 12:58
+By:
+No real name
+Defines in files included by preprocessor are not honoured
+By:
+David Lucena
+on
+Fri, 21 August 2009
+4
+3311
+Tue, 01 September 2009 10:45
+By:
+There are three main deliverables on Mobile Tools for Java project:
+MTJ SDK that includes all binaries and source files
+MTJ Runtime that includes only the binaries
+MTJ Examples that includes examples of how to use each of MTJ APIs.
+The source code repository is available at the
+MTJ GIT Repository
+Compatibility:
+In terms of compatibility, there are three main aspects that need to be considered.
+API Contract Compatibility
+: MTJ API will keep the contract compatibility on 1.1.x/1.2.x/2.0 release.
+SDK Workspace format compatibility
+: Currently there is no plan to change the format that the imported SDKs are stored.
+MIDlet Workspace format compatibility
+: MIDlet projects format is the same as for 2.0 release. In the same time the old 1.1.x/1.2.x projects are still supported without modifications.
+Internationalization:
+Mobile Tools for Java is completely ready to be used by localized products. All of its UI components have externalized strings. English is provided as the default language, but MTJ is part of Eclipse Babel and the community helps to generate other translations.
+Target Environments:
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager
+Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account
+Email Address
+David Lucena
+Defines in files included by preprocessor are not honoured
+By:
+David Lucena
+on
+Fri, 21 August 2009
+30
+14530
+Tue, 01 September 2009 10:45
+By:
+David Lucena
+Errors during source build
+By:
+Andrey
+on
+Tue, 01 September 2009
+0
+3588
+MTJ 2.0.1 Deliverables will be tested on the following platforms. Those tests depend on community effort contribution
+Operating System
+Version
+Hardware
+Windowing System
+JRE
+Java ME Target Platform
+Microsoft Windows
+7
+8.1
+x86 32-bit
+x86 64-bit
+Win32
+Oracle Java 8u51
+Oracle Java 7u80
+Oracle Java ME SDK 8.2
+Oracle Java ME SDK 8.1
+Oracle Java ME SDK 8.0
+*
+Enter your Eclipse email address.
+Password
+*
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+Tue, 01 September 2009 08:56
+By:
+Andrey
+Preprocess BlackBerry Code
+By: Eclipse User on
+Tue, 25 August 2009
+8
+11015
+Mon, 31 August 2009 12:36
+By:
+David Lucena
+Problem with svn and jmunit exclusions
+By:
+Andrey
+on
+Sun, 30 August 2009
+0
+3448
+2.0 | projects.eclipse.org
+Oracle Java ME SDK 3.4
+Sun Java Wireless Toolkit 2.5.2 for CLDC
+Ubuntu Long Term Support
+14.04
+x86 32-bit
+x86 64-bit
+GTK+ 2
+GTK+ 3
+Oracle Java 8u51
+Oracle Java 7u80
+Oracle Java ME SDK 8.2
+Although untested, MTJ should work fine on other OSes supported by Eclipse Mars release.
+Milestones:
+Name
+Date
+Description
+MTJ 2.0.1 Release Candidate 1
+2015/08/03
+Sun, 30 August 2009 14:32
+By:
+Andrey
+Breakpoints ignored in "dollared" classes
+By:
+David Lucena
+on
+Fri, 28 August 2009
+3
+2926
+Fri, 28 August 2009 13:31
+By:
+Diego Madruga Sandin
+Breakpoints ignored in "dollared" classes
+By:
+David Lucena
+on
+Fri, 28 August 2009
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Themes:
+Fix Bugs
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+3
+4487
+Fri, 28 August 2009 13:31
+By:
+Diego Madruga Sandin
+MTJ 1.0.1 RC1 Available
+By:
+Diego Madruga Sandin
+on
+Tue, 25 August 2009
+3
+4358
+Wed, 26 August 2009 12:51
+By:
+David Lucena
+MTJ 1.0.1 RC1 Available
+By:
+Diego Madruga Sandin
+on
+2.0 | projects.eclipse.org
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+The Eclipse IDE 2020-09 is now available!
+Download Now
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Tue, 25 August 2009
+3
+2656
+Wed, 26 August 2009 12:51
+By:
+David Lucena
+CLDC 1.1 not recognized
+By: Eclipse User on
+Tue, 25 August 2009
+10
+8753
+Wed, 26 August 2009 12:49
+By:
+David Lucena
+Re: Preprocessor question: defined value substitution
+By:
+David Lucena
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+on
+Wed, 26 August 2009
+0
+3539
+Wed, 26 August 2009 12:41
+By:
+David Lucena
+Preprocessor question: defined value substitution
+By:
+David Lucena
+on
+Wed, 26 August 2009
+3
+4846
+Wed, 26 August 2009 12:41
+By:
+David Lucena
+Preprocessor question: defined value substitution
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0
+Review Information
+Eclipse Mobile Tools for Java™ 2.0
+Primary tabs
+Overview
+Issues
+Release Plan
+Review Information
+(active tab)
+Description:
+By:
+David Lucena
+on
+Wed, 26 August 2009
+2
+2926
+Wed, 26 August 2009 12:31
+By:
+Diego Madruga Sandin
+CLDC 1.1 not recognized
+By: Eclipse User on
+Tue, 25 August 2009
+0
+3659
+Tue, 25 August 2009 22:27
+By: Eclipse User
+Preprocess BlackBerry Code
+By: Eclipse User on
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+The main goal of the Mobile Tools for Java
+TM
+(MTJ) 2.0 release is to extend existing MTJ plugin with Java ME 8 Embedded development support.
+The scope of MTJ 2.0 is listed below:
+Migration to Eclipse Luna
+Java ME 8 Embedded development support
+CLDC 1.8 configuration (
+JSR 360
+) support
+MEEP 8.0 profile (
+JSR 361
+) support
+Better IMP-NG profile (
+JSR 228
+) support
+JDK 7 default compliance level for MEEP based projects
+No preverfication for MEEP based projects
+LIBlets support: development, project dependencies, signing and provisioning
+2.0 | projects.eclipse.org
+Tue, 25 August 2009
+0
+3789
+Tue, 25 August 2009 17:35
+By: Eclipse User
+Per configuration resource files sets
+By:
+David Lucena
+on
+Mon, 24 August 2009
+3
+4099
+Mon, 24 August 2009 12:56
+By:
+David Lucena
+Per configuration resource files sets
+By:
+David Lucena
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0
+Issues
+Eclipse Mobile Tools for Java™ 2.0
+Primary tabs
+Overview
+Issues
+(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+MEEP security model support (since MEEP 8.0 permissions mechanism was significantly changed and similar to Java SE now).
+Code Validation Builder (provide an ability to perform pre-compilation analysis and generating of warnings for Java source files by 3rd party plugins created on top of MTJ).
+Support Java ME APIs javadocs provided as ZIP archives.
+Bug fixes.
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Google Tag Manager
+Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+on
+Mon, 24 August 2009
+1
+3238
+Mon, 24 August 2009 12:50
+By:
+David Marques
+Bug in MTJ preprocessor documentation
+By:
+David Lucena
+on
+Fri, 21 August 2009
+3
+4057
+Fri, 21 August 2009 15:58
+By:
+David Lucena
+Bug in MTJ preprocessor documentation
+= resolved/fixed
+= unsolved/reopened
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+By:
+David Lucena
+on
+Fri, 21 August 2009
+1
+2446
+Fri, 21 August 2009 13:48
+By:
+Euclides Neto
+Boolean clauses in preprocessor directives
+By:
+David Lucena
+on
+Thu, 20 August 2009
+9
+6660
+Thu, 20 August 2009 15:58
+By:
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+David Lucena
+Boolean clauses in preprocessor directives
+By:
+David Lucena
+on
+Thu, 20 August 2009
+1
+2694
+Thu, 20 August 2009 11:05
+By:
+David Lucena
+Problems with Motorola device
+By: Eclipse User on
+Tue, 18 August 2009
+4
+4700
+Wed, 19 August 2009 02:22
+By:
+David Marques
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Home
+Projects
+Eclipse Tools Project
+Eclipse Mobile Tools...
+2.0
+Release Plan
+Eclipse Mobile Tools for Java™ 2.0
+Primary tabs
+Overview
+Issues
+Release Plan
+(active tab)
+Review Information
+Release Date:
+Monday, November 17, 2014
+Deliverables:
+There are three main deliverables on Mobile Tools for Java project:
+MTJ SDK that includes all binaries and source files
+Problems with Motorola device
+By: Eclipse User on
+Tue, 18 August 2009
+0
+3254
+Tue, 18 August 2009 19:21
+By: Eclipse User
+Avoid showing errors in editor that are caused because of preprocessing directives
+By:
+David Lucena
+on
+Tue, 18 August 2009
+5
+6220
+Tue, 18 August 2009 18:49
+By:
+David Marques
+Avoid showing errors in editor that are caused because of preprocessed directives
+MTJ Runtime that includes only the binaries
+MTJ Examples that includes examples of how to use each of MTJ APIs.
+The source code repository is available at the
+MTJ GIT Repository
+Compatibility:
+In terms of compatibility, there are three main aspects that need to be considered.
+API Contract Compatibility
+: MTJ API will keep the contract compatibility on 1.1.x/1.2.x release.
+SDK Workspace format compatibility
+: Currently there is no plan to change the format that the imported SDKs are stored.
+MIDlet Workspace format compatibility
+: MIDlet projects format is extended to support LIBlets development and new Code Validation Builder. In the same time the old 1.1.x/1.2.x projects are still supported without modifications.
+Internationalization:
+Mobile Tools for Java is completely ready to be used by localized products. All of its UI components have externalized strings. English is provided as the default language, but MTJ is part of Eclipse Babel and the community helps to generate other translations.
+Target Environments:
+MTJ 2.0 Deliverables will be tested on the following platforms. Those tests depend on community effort contribution
+Operating System
+Version
+By:
+David Lucena
+on
+Tue, 18 August 2009
+1
+2605
+Tue, 18 August 2009 13:03
+By:
+David Marques
+Cannot import device
+By:
+riw Missing name
+on
+Thu, 02 July 2009
+30
+24306
+Mon, 17 August 2009 18:05
+By:
+Hardware
+Windowing System
+JRE
+Java ME Target Platform
+Microsoft Windows
+7
+8.1
+x86 32-bit
+x86 64-bit
+Win32
+Oracle Java 8u25
+Oracle Java 7u72
+Oracle Java ME SDK 8.1
+Oracle Java ME SDK 8.0
+Oracle Java ME SDK 3.4
+Sun Java Wireless Toolkit 2.5.2 for CLDC
+Diego Madruga Sandin
+MIDP Emulator is empty
+By: Eclipse User on
+Thu, 13 August 2009
+4
+5698
+Sat, 15 August 2009 12:59
+By: Eclipse User
+MIDP Emulator is empty
+By: Eclipse User on
+Thu, 13 August 2009
+0
+3612
+Thu, 13 August 2009 16:28
+By: Eclipse User
+How to remove SDK?
+Although untested, MTJ should work fine on other OSes supported by Eclipse Luna release.
+Milestones:
+Name
+Date
+Description
+MTJ 2.0 Release Candidate
+2014/11/05
+Themes:
+Java ME 8 Embedded Development Support
+Fix Bugs
+Project Links
+Website
+Related Projects
+Project Hierarchy:
+Eclipse Tools Project
+Eclipse Mobile Tools for Java™
+Tags
+By:
+Andrey
+on
+Mon, 03 August 2009
+2
+5230
+Tue, 04 August 2009 11:48
+By:
+David Marques
+How to remove SDK?
+By:
+Andrey
+on
+Mon, 03 August 2009
+0
+3508
+Mon, 03 August 2009 19:52
+By:
+Technology Types
+Internet of Things
+Tools
+Build Technologies
+Hudson
+Maven
+Tycho
+Other Tags
+Java ME
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Andrey
+Wrong encoding of messages_xx-XX.properties
+By: Eclipse User on
+Sun, 02 August 2009
+4
+6708
+Mon, 03 August 2009 11:37
+By: Eclipse User
+Wrong encoding of messages_xx-XX.properties
+By: Eclipse User on
+Sun, 02 August 2009
+0
+3424
+Sun, 02 August 2009 06:19
+By: Eclipse User
+Build state machine has not been initialized
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+By:
+Victor Llorens
+on
+Mon, 13 July 2009
+12
+8246
+Sun, 26 July 2009 02:42
+By:
+Diego Tognola
+How to use preprocessor?
+By:
+Andrey
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+on
+Thu, 23 July 2009
+6
+10989
+Fri, 24 July 2009 21:37
+By:
+Andrey
+MTJ downloads as P2 repositories
+By:
+Gustavo de Paula
+on
+Fri, 24 July 2009
+0
+3224
+Fri, 24 July 2009 14:12
+By:
+Gustavo de Paula
+Pages (3): [1
+2
+3
+›
+»
+]
+Goto Forum:
+- Newcomers
+Newcomers
+- Language IDEs
+AJDT
+Andmore
+C / C++ IDE (CDT)
+Che
+Java Development Tools (JDT)
+Objectteams
+Orion
+PHP Development Tools (PDT)
+Eclipse Web Tools Platform Project (WTP)
+ServerTools (WTP)
+- Modeling
+AMP
+Amalgam
+ATL
+BPEL Designer
+Compare
+Ecore Tools
+EMF
+EMF "Technology" (Ecore Tools, EMFatic, etc)
+Epsilon
+eTrice
+Extended Editing Framework (READ ONLY)
+Eclipse Generation Factories (EGF)
+GMF (Graphical Modeling Framework)
+Graphiti
+M2T (model-to-text transformation)
+MDT (Model Development Tools)
+Modeling (top-level project)
+OCL
+Papyrus
+TMF (Xtext)
+UML2
+UML2 Tools
+XSD
+MoDisco
+Presentation Modeling Framework (PMF)
+Sphinx
+VIATRA
+Model-to-Model Transformation
+QVT-OML
+QVT-Relations
+EMF Diff/Merge
+EMF Parsley
+Eclipse Layout Kernel
+- Eclipse Projects
+4DIAC - Framework for Distributed Industrial Automation and Control
+ACTF
+Advanced Scripting Environment (EASE)
+Agile UML
+APP4MC
+AsciiDoc Language
+Babel
+BIRT
+BPMN 2.0 Modeler
+Buckminster dev
+Buildship
+Californium (Cf) CoAP Framework
+Capra
+ChemClipse
+Cloud Application Management Framework
+Commercial
+Common Build Infrastructure
+Concierge
+Dali
+Dash
+Dirigible
+DSDP - Mobile Tools for Java (MTJ)
+DSDP - Real-Time Software Components (RTSC)
+DSDP - Target Management
+DTP
+Dynamic Languages Toolkit (DLTK)
+e(fx)clipse
+EATOP
+Eclipse 4
+Eclipse Adore
+Eclipse Advanced Visualization
+Eclipse Agail
+Eclipse Apogy
+Eclipse Arrowhead
+Eclipse Avsys
+Eclipse Basyx
+Eclipse Bridge.IoT
+Eclipse Bundle Recipes
+Eclipse Cargotracker
+Eclipse Ceylon
+Eclipse Che4z
+Eclipse Codewind
+Eclipse CogniCrypt
+Eclipse Collections
+Eclipse Communications Framework (ECF)
+Eclipse Corrosion
+Eclipse Crossmeter
+Eclipse Cyclone DDS
+Eclipse Dartboard
+Eclipse Deeplearning4j
+Eclipse Ditto
+Eclipse Duttile
+Eclipse EclEmma
+Eclipse EdiTDor
+Eclipse Embedded CDT
+Eclipse EMF Cloud
+Eclipse Enterprise for Java
+Eclipse ESCET
+Eclipse fog05
+Eclipse Formal Modeling
+Eclipse Free BIRD Tools
+Eclipse GLSP
+Eclipse Grizzly
+Eclipse Hara
+Eclipse Hawk
+Eclipse iceoryx
+Eclipse Implementation of JAXB
+Eclipse ioFog
+Eclipse IoT Packages
+Eclipse Jakarta EE Platform
+Eclipse Jakarta EE TCK
+Eclipse January
+Eclipse JDT LS
+Eclipse Jemo
+Eclipse Jersey
+Eclipse Jifa
+Eclipse JKube
+Eclipse JNoSQL
+Eclipse JustJ
+Eclipse Kapua
+Eclipse Keyple
+Eclipse Kiso
+Eclipse Krazo
+Eclipse Kuksa
+Eclipse LemMinX
+Eclipse LSP4J
+Eclipse LSP4MP
+Eclipse Metro
+Eclipse Microprofile
+Eclipse Milo
+Eclipse Mojarra
+Eclipse MOSAIC
+Eclipse MRAA
+Eclipse N4JS
+Eclipse OneOFour
+Eclipse Open Standard Business Platform
+Eclipse Open VSX
+Eclipse OpenJ9
+Eclipse OpenK Core Modules
+Eclipse openK User Modules
+Eclipse OpenMQ
+Eclipse OpenVSX
+Eclipse ORB
+Eclipse Packager
+Eclipse Packages
+Eclipse Passage
+Eclipse Phizog
+Eclipse Platform
+Eclipse Project for Common Annotations
+Eclipse Project for Concurrency Utilities
+Eclipse Project for EJB
+Eclipse Project for Enterprise Security
+Eclipse Project for Expression Language
+Eclipse Project for Interceptors
+Eclipse Project for JACC
+Eclipse Project for JAF
+Eclipse Project for JASPIC
+Eclipse Project for JavaMail
+Eclipse Project for JAX-RS
+Eclipse Project for JAX-WS
+Eclipse Project for JAXB
+Eclipse Project for JCA
+Eclipse Project for JMS
+Eclipse Project for JPA
+Eclipse Project for JSON Processing
+Eclipse Project for JSON-B
+Eclipse Project for JSP
+Eclipse Project for JSTL
+Eclipse Project for JTA
+Eclipse Project for Servlet
+Eclipse Project for Stable Jakarta EE APIs
+Eclipse Project for WebSocket
+Eclipse RedDeer
+Eclipse Repairnator
+Eclipse Rich Beans
+Eclipse RT (runtime)
+Eclipse SCADA
+Eclipse Scanning
+Eclipse SeCo Blocks
+Eclipse sensiNact
+Eclipse Shellwax
+Eclipse Signalling Engineering Toolbox
+Eclipse sim@openPASS
+Eclipse Skills
+Eclipse SmartMDSD
+Eclipse Sprotty
+Eclipse Steady
+Eclipse Streamsheets
+Eclipse SW360
+Eclipse SW360antenna
+Eclipse SWTChart
+Eclipse SystemFOCUS
+Eclipse Tahu
+Eclipse TEA
+Eclipse TeXlipse
+Eclipse Theia
+Eclipse ThingWeb
+Eclipse Titan
+Eclipse TM4E
+Eclipse Transformer
+Eclipse Tyrus
+Eclipse UML Generators
+Eclipse UML Profiles Repository
+Eclipse UPM
+Eclipse USS SDK
+Eclipse VOLTTRON
+Eclipse WaSP
+Eclipse Website
+Eclipse Wild Web Developer
+Eclipse XACC
+Eclipse Xpect
+Eclipse Xsemantics
+Eclipse Yasson
+Eclipse zenoh
+EclipseLink
+eGerrit
+EGit / JGit
+eLogbook@openk
+EPF
+EPP
+Equinox
+eRCP
+Examples for Jakarta EE
+Franca
+Fundamental Modeling Concepts
+GEF
+GEF3D
+Gemini
+GEMOC Studio
+Gendoc
+GlassFish
+GlassFish Tools
+Golo
+Handly
+hawkBit
+Hono
+Hudson
+Ignite
+Ignite|IoT
+IoT-Testware
+Jakarta Activation
+Jakarta Annotations
+Jakarta Authentication
+Jakarta Authorization
+Jakarta Batch
+Jakarta Bean Validation
+Jakarta Concurrency
+Jakarta Connectors
+Jakarta Contexts and Dependency Injection
+Jakarta EE Examples
+Jakarta EE Platform
+Jakarta EE TCK
+Jakarta Enterprise Beans
+Jakarta Expression Language
+Jakarta Interceptors
+Jakarta JSON Binding
+Jakarta JSON Processing
+Jakarta Mail
+Jakarta Messaging
+Jakarta MVC
+Jakarta NoSQL
+Jakarta Pages
+Jakarta Persistence
+Jakarta RESTful Web Services
+Jakarta Security
+Jakarta Server Faces
+Jakarta Server Pages
+Jakarta Servlet
+Jakarta Stable APIs
+Jakarta Standard Tag Library
+Jakarta Transactions
+Jakarta WebSocket
+Jakarta XML Binding
+Jakarta XML Web Services
+Java Workflow Tooling
+Java WorkFlow Tooling (JWT)
+JavaServer Faces
+JDT LS
+JFace
+Jubula
+Keti
+Kura
+Libra
+Linux Tools
+Linux Tools Project
+Lua Development Tools
+Lyo
+Mangrove
+Marketplace Client Project
+Maven Integration for Web Tools Platform
+Mbeddr
+MDM|BL
+Memory Analyzer
+Mita
+Model Driven Health Tools
+Model Focusing Tools
+Mosquitto
+Mylyn
+Mylyn Builds
+Mylyn Context
+Mylyn Intent
+Mylyn Versions
+NatTable
+Nebula
+Ogee
+OM2M
+OMR
+Oomph
+OpenHW Group CORE-V cores
+openK platform
+Orbit
+OSEE
+P2
+Package Drone
+Paho
+Paho Incubator
+Papyrus for Real Time
+Platform - User Assistance (UA)
+Plugin Development Environment (PDE)
+Ponte
+project_hip [archived]
+RasterFrames
+RCP Testing Tool
+RDF4J
+Remote Application Platform (RAP)
+Requirements Modeling Framework
+Rich Client Platform (RCP)
+Riena
+Runtime Packaging
+Runtimes
+Sapphire
+Scanning
+scout
+SeMantic Information Logistics Architecture (SMILA)
+Service Oriented Architecture
+Simultaneous release
+Sirius
+Sisu
+Skalli
+Soteria
+Sparkplug Specification Project
+Spatiotemporal Epidemiological Modeler (STEM)
+Standard Widget Toolkit (SWT)
+Starter for Jakarta EE
+Subversive
+SWTBot
+Tangle Identity
+Tangle Marketplaces
+Target Communication Framework
+Target Management
+Technology Project and PMC
+The Eclipse Integrated Computational Environment
+Thym
+Tigerstripe
+tinydtls
+Tools for Cloud Foundry
+Trace Compass
+Triquetrum
+Turkish Users
+Unide
+UOMo
+Vert.x
+Vex
+Virgo
+Vorto
+Wakaama
+Webtools incubator
+WindowBuilder
+XML Schema Definition (XSD)
+XWT
+- Polarsys
+Capella General
+Arcadia
+Capella workbench
+Capella Studio
+M2Doc
+Requirements Addon
+Kitalpha
+3p
+CHESS
+- General (non-technical)
+Eclipse Foundation
+Project Proposals
+Jobs and employment
+Polish users
+Test
+- Eclipse Working Groups
+Automotive IWG
+Science WG
+- Proposals
+OSGi Enterprise Tools
+Eclipse Advanced Scripting Environment (EASE)
+DAWNSci
+Eclipse Sumo
+- Archived
+Potomac
+B3
+Tiaki
+MOFScript
+secRT
+Chinese users
+AMW
+Buckminster
+ATF
+Board committer reps
+Blinki
+COBOL
+Pulsar
+Albireo
+Code Recommenders Incubator
+Code Recommenders
+Apricot
+Service Oriented Architecture
+GMT (Generative Modeling Technologies)
+IDE4EDU
+Damos
+AM3
+openArchitectureWare
+BPMN Modeler
+EMF Store
+EMF Client
+Apogee
+C-Sharp
+Corona
+Hibachi
+Glimmer
+Maynstall
+DSDP - Device Debugging
+DSDP - Native Application Builder (NAB)
+eBPM
+ORMF
+eBAM
+DSDP - Tools for Mobile Linux (TML)
+Eclipse aCute
+Spaces
+ScalaModules
+Visual Editor (VE)
+Textual Concrete Syntax (TCS)
+P2 dev
+Cloud Deployment Toolkit
+Memory Analyzer (MAT)
+DSDP
+COSMOS
+Esl
+OFMP
+Faceted Project Framework
+UMLX
+IAM (Eclipse Integration for Apache Maven)
+M2M (model-to-model transformation)
+OHF
+Tycho
+Sketch
+IMP
+g-Eclipse
+Eclipse HIP
+Eclipse Examples
+EMF-IncQuery
+Eclipse Process Manager (Stardust)
+Eclipse IOTA Trinity
+Swordfish
+Maven Integration (M2E)
+Koneki
+Mihini
+Test and Performance Tools Platform (TPTP)
+Voicetools
+Sequoyah
+Xtend
+Eclipse LSP4E
+Eclipse Monkey Project
+Runtime Analysis Tools
+Service Oriented Architecture
+GEMS
+WTP - PAVE
+Service Oriented Architecture Tools Platform (STP)
+MST
+OMCW
+Silverlight Development Toolkit (SLDT)
+Woolsey
+Winery
+Higgins
+EGL Development Tools
+Service Component Architecture (SCA) Tools
+Wazaabi
+Eclipse Picasso
+MDM WEB
+Krikkit
+Gyrex
+Eclipse Papyrus for xtUML
+StatET
+Edje
+RISE V2G
+Eclipse Whiskers
+Flux
+Eclipse SmartHome
+Remus Information Management
+[
+Syndicate this forum (XML)
+] [
+]
+Legend
+New Messages
+No New messages
+Locked (w/ unread messages)
+Locked
+Moved to another forum
+Current Time:
+Sun Oct 25 19:41:42 GMT 2020
+Powered by
+FUDForum
+. Page generated in 0.01601 seconds
+.::
+Contact
+::
+Home
+::.
+Powered by: FUDforum 3.0.2.
+Copyright ©2001-2010
+FUDforum Bulletin Board Software
+Back to the top
+Sign up to our Newsletter
+A fresh new issue delivered monthly
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+org.eclipse.mtj.git - mtj project repository
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+index
+:
+org.eclipse.mtj.git
+installable_sdk
+master
+mtj project repository
+summary
+refs
+log
+tree
+commit
+diff
+stats
+log msg
+author
+committer
+range
+Branch
+Commit message
+Author
+Age
+installable_sdk
+Changes to removes profiles of cancelled SDK installation, Parameter changes ...
+pgothadiya
+7 years
+master
+Fix "org.eclipse.swt.SWTException: Widget is disposed"
+Alexander Burdukov
+5 years
+Tag
+Download
+Author
+Age
+v2.0.1
+org.eclipse.mtj-2.0.1.tar.gz
+org.eclipse.mtj-2.0.1.tar.xz
+org.eclipse.mtj-2.0.1.zip
+Alexander Burdukov
+5 years
+v2.0
+org.eclipse.mtj-2.0.tar.gz
+org.eclipse.mtj-2.0.tar.xz
+org.eclipse.mtj-2.0.zip
+Alexander Burdukov
+6 years
+Age
+Commit message
+Author
+Files
+Lines
+2015-08-28
+Fix "org.eclipse.swt.SWTException: Widget is disposed"
+HEAD
+v2.0.1
+master
+Alexander Burdukov
+1
+-2
+/
++8
+2015-08-11
+Fixes a wrong displaying of level of liblet dependency for LIBlet type.
+Alexander Burdukov
+1
+-2
+/
++10
+2015-07-30
+1. Incremental build produced corrupted application JAR file that cannot be r...
+Alexander Burdukov
+2
+-19
+/
++24
+2015-04-02
+Move to Jetty 9.2.0 to align with Eclipse Mars
+Alexander Burdukov
+2
+-24
+/
++26
+2015-03-14
+1. Change text for the dependency combo box label: "LIBlet:" -> "Dependency:"
+Alexander Burdukov
+1
+-2
+/
++2
+2015-03-13
+Merge branch 'master' of ssh://moika.ru.oracle.com/export/git/org.eclipse.mtj
+Alexander Burdukov
+4
+-204
+/
++290
+2015-03-13
+- renames LIBlets property page to Dependencies
+Alexander Burdukov
+6
+-23
+/
++72
+2015-02-19
+Polish messages related to Create Package action
+Alexander Burdukov
+1
+-3
+/
++3
+2015-02-13
+1. ResourceDeltaBuilder class: explicitly unmount TrueZIP files, otherwise th...
+Alexander Burdukov
+2
+-46
+/
++67
+2015-02-10
+Correctly detect javadocs for the libraries with the same API, but different ...
+Alexander Burdukov
+1
+-155
+/
++220
+[...]
+Clone
+git://git.eclipse.org/gitroot/mtj/org.eclipse.mtj.git
+https://git.eclipse.org/r/mtj/org.eclipse.mtj.git
+ssh://user_id@git.eclipse.org:29418/mtj/org.eclipse.mtj.git
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
