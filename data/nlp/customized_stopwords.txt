@@ -126,3 +126,12 @@ like
 likes
 facebook
 youtube
+mon
+tue
+wed
+thu
+fri
+sat
+sun
+forum
+support
