@@ -49,7 +49,7 @@ class ResultGenerator:
 
         spaceBetweenChar = -80
 
-        specialChars = ['a', 'v']
+        specialChars = ['a', 'v', 'w']
         reducedSpaceChars = ['i']
 
         offset = -draw.textsize(
@@ -76,8 +76,5 @@ class ResultGenerator:
                 spacing=1,
                 align="left",
                 fill=(0, 0, 0))
-
-            if char.lower() in reducedSpaceChars:
-                offset = offset + spaceBetweenChar*3
 
         image.save('./data/nlp/result/' + projectName.lower() + '-mask.png')

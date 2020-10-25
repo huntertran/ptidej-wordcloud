@@ -10,7 +10,7 @@ class ProjectHelper:
         if len(nameSplitted) > 2:
             # https://www.eclipse.org/paho/
             lastName = nameSplitted.pop()
-            while lastName is '':
+            while lastName == '':
                 lastName = nameSplitted.pop()
             result = lastName.lower()
         else:
@@ -18,6 +18,12 @@ class ProjectHelper:
 
         # remove the 'iot'
         result = result.replace('iot', '').replace('.', ' ').strip()
+
+        # remove the 'technology'
+        result = result.replace('technology', '').replace('.', ' ').strip()
+
+        # remove the 'tools'
+        result = result.replace('tools', '').replace('.', ' ').strip()
 
         # handle special case
         if('agile' in result):
