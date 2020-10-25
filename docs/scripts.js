@@ -43,4 +43,6 @@ async function config() {
     s.startNoverlap();
 
     var dragListener = new sigma.plugins.dragNodes(s, s.renderers[0]);
+    CustomShapes.init(s);
+    s.refresh();
 }
