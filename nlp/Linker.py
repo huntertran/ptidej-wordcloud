@@ -28,16 +28,16 @@ def print_graph(relationships, siteNodes):
                    tablefmt='fancy_grid'))
 
 
-def getSiteKey(siteUrl):
-    siteName = ProjectHelper.getProjectName(siteUrl)
-    # remove the 'iot'
-    siteName = siteName.replace('iot', '').replace('.', ' ').strip()
+# def getSiteKey(siteUrl):
+#     siteName = ProjectHelper.getProjectName(siteUrl)
+#     # remove the 'iot'
+#     siteName = siteName.replace('iot', '').replace('.', ' ').strip()
 
-    # handle special case
-    if('agile' in siteName):
-        siteName = 'agile'
+#     # handle special case
+#     if('agile' in siteName):
+#         siteName = 'agile'
 
-    return siteName
+#     return siteName
 
 
 def get_link_keyword():
@@ -61,16 +61,16 @@ def analyze_site(site, link_keywords):
     # else:
     #     index += 1
 
-    projectName = ProjectHelper.getProjectName(site.SiteUrl)
-    siteKey = getSiteKey(site.SiteUrl)
+    project_name = ProjectHelper.getProjectName(site.SiteUrl)
+    # siteKey = ProjectHelper.getProjectName(site.SiteUrl)
 
-    textLines = ProjectHelper.load_raw_data_file(projectName)
+    textLines = ProjectHelper.load_raw_data_file(project_name)
 
     for textLine in textLines:
         sentences = sent_tokenize(textLine)
 
         for link_keyword in link_keywords:
-            link_project = LinkProject(siteKey)
+            link_project = LinkProject(project_name)
             for key in link_keyword.Keys:
                 for sentence in sentences:
                     if key in sentence:
@@ -95,14 +95,14 @@ def create_link():
     # create barebone connected graph
     index = 0
     for site in siteDataList:
-        siteKey = getSiteKey(site.SiteUrl)
+        project_name = ProjectHelper.getProjectName(site.SiteUrl)
 
         # # TODO: REMOVE AFTER DEBUG
         # if(index > 5):
         #     break
 
-        projectNodes[siteKey] = index
-        projectNames.append(siteKey)
+        projectNodes[project_name] = index
+        projectNames.append(project_name)
         index += 1
 
     print("End creating connected graph")

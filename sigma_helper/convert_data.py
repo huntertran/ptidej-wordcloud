@@ -1,6 +1,8 @@
 import random
 import jsonpickle
 
+from PIL import Image
+
 jsonpickle.set_preferred_backend('json')
 jsonpickle.set_encoder_options('json', ensure_ascii=False, indent=4)
 
@@ -66,8 +68,16 @@ class data(object):
                         y,
                         5,
                         '#000000')
+
+        image_path = './docs/images/shapes/' + project.Project + '.png'
+        img = Image.open(image_path)
+        w,h = img.size
         
-        # new_node.image = node_image()
+        new_node.image = node_image(
+            image_path,
+            w,
+            h
+        )
 
         self.nodes.append(new_node)
 
