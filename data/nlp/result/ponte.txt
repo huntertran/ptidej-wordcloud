@@ -31,7 +31,7 @@ formats:2
 aims:2
 need:2
 version:2
-it..:2
+..:2
 security:2
 privacy:2
 rights:2
