@@ -9,9 +9,9 @@ class ProjectHelper:
             lastName = nameSplitted.pop()
             while lastName is '':
                 lastName = nameSplitted.pop()
-            return lastName
+            return lastName.lower()
         else:
-            return fullUrl
+            return fullUrl.lower()
 
     @staticmethod
     def createDataFolder(folderPath):
