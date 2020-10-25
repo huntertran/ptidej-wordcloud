@@ -3,143 +3,207 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 30,
-            "y": 8,
+            "x": 15,
+            "y": 7,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": "paho",
             "label": "paho",
-            "x": 23,
-            "y": 23,
+            "x": 12,
+            "y": 27,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "mosquitto",
             "label": "mosquitto",
-            "x": 9,
-            "y": 11,
+            "x": 20,
+            "y": 0,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "californium",
             "label": "californium",
-            "x": 4,
-            "y": 14,
+            "x": 10,
+            "y": 5,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "kura",
             "label": "kura",
-            "x": 24,
-            "y": 17,
+            "x": 27,
+            "y": 3,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "om2m",
             "label": "om2m",
-            "x": 8,
-            "y": 15,
+            "x": 14,
+            "y": 25,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "ponte",
             "label": "ponte",
-            "x": 3,
-            "y": 13,
+            "x": 23,
+            "y": 20,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "4diac",
             "label": "4diac",
-            "x": 12,
-            "y": 15,
+            "x": 25,
+            "y": 22,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "hono",
             "label": "hono",
-            "x": 29,
-            "y": 8,
+            "x": 22,
+            "y": 10,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "kapua",
             "label": "kapua",
-            "x": 6,
-            "y": 13,
+            "x": 22,
+            "y": 21,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "unide",
             "label": "unide",
-            "x": 17,
-            "y": 9,
+            "x": 1,
+            "y": 0,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "tahu",
             "label": "tahu",
-            "x": 7,
+            "x": 11,
+            "y": 21,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "streamsheets",
+            "label": "streamsheets",
+            "x": 2,
             "y": 15,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "zenoh",
+            "label": "zenoh",
+            "x": 19,
+            "y": 7,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "technology testware",
+            "label": "technology testware",
+            "x": 15,
+            "y": 13,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "technology sensinact",
+            "label": "technology sensinact",
+            "x": 3,
+            "y": 17,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "agail",
+            "label": "agail",
+            "x": 28,
+            "y": 9,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "moquette",
+            "label": "moquette",
+            "x": 14,
+            "y": 29,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "tools titan",
+            "label": "tools titan",
+            "x": 11,
+            "y": 20,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "rt ecf",
+            "label": "rt ecf",
+            "x": 18,
+            "y": 0,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": 2,
             "label": "Open Platform Communication Unified Architecture",
-            "x": 6,
-            "y": 26,
+            "x": 19,
+            "y": 23,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": 3,
             "label": "Datagram Transport Layer Security",
-            "x": 5,
-            "y": 20,
+            "x": 30,
+            "y": 0,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": "leshan",
             "label": "leshan",
-            "x": 14,
-            "y": 30,
+            "x": 1,
+            "y": 14,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "wakaama",
             "label": "wakaama",
-            "x": 22,
-            "y": 24,
+            "x": 30,
+            "y": 14,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": "tinydtls",
             "label": "tinydtls",
-            "x": 13,
-            "y": 5,
+            "x": 28,
+            "y": 11,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": 4,
             "label": "Production Performance Management Protocol",
-            "x": 2,
+            "x": 20,
             "y": 18,
             "size": 10,
             "color": "#ff0000"
@@ -147,55 +211,63 @@
         {
             "id": 5,
             "label": "Attribute-based access control",
-            "x": 25,
-            "y": 0,
+            "x": 24,
+            "y": 26,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": "keti",
             "label": "keti",
-            "x": 25,
-            "y": 25,
+            "x": 7,
+            "y": 14,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": 6,
             "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 18,
-            "y": 25,
+            "x": 25,
+            "y": 23,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": "kuksa",
             "label": "kuksa",
-            "x": 30,
-            "y": 5,
+            "x": 8,
+            "y": 29,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": 7,
             "label": "Automotive Grade Linux",
-            "x": 17,
-            "y": 0,
+            "x": 24,
+            "y": 19,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": 8,
             "label": "Data Distribution Service",
-            "x": 3,
-            "y": 10,
+            "x": 11,
+            "y": 20,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": "cyclonedds",
             "label": "cyclonedds",
-            "x": 8,
+            "x": 18,
+            "y": 24,
+            "size": 5,
+            "color": "#000000"
+        },
+        {
+            "id": "technology iceoryx",
+            "label": "technology iceoryx",
+            "x": 14,
             "y": 9,
             "size": 5,
             "color": "#000000"
@@ -203,8 +275,8 @@
         {
             "id": 9,
             "label": "Web of Thing",
-            "x": 20,
-            "y": 13,
+            "x": 1,
+            "y": 23,
             "size": 10,
             "color": "#ff0000"
         },
@@ -212,23 +284,23 @@
             "id": "thingweb",
             "label": "thingweb",
             "x": 30,
-            "y": 11,
+            "y": 5,
             "size": 5,
             "color": "#000000"
         },
         {
             "id": 10,
             "label": "the standard for contactless tickets and cards",
-            "x": 20,
-            "y": 2,
+            "x": 24,
+            "y": 1,
             "size": 10,
             "color": "#ff0000"
         },
         {
             "id": "keyple",
             "label": "keyple",
-            "x": 6,
-            "y": 5,
+            "x": 14,
+            "y": 21,
             "size": 5,
             "color": "#000000"
         },
@@ -245,15 +317,6 @@
         {
             "id": "e_paho_use",
             "label": "use",
-            "source": "paho",
-            "target": "1",
-            "size": 2,
-            "type": "curvedArrow",
-            "color": "#ff0000"
-        },
-        {
-            "id": "e_paho_interchangeable",
-            "label": "interchangeable",
             "source": "paho",
             "target": "1",
             "size": 2,
@@ -300,6 +363,33 @@
             "id": "e_kapua_use",
             "label": "use",
             "source": "kapua",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_technology testware_interchangeable",
+            "label": "interchangeable",
+            "source": "technology testware",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_technology sensinact_interchangeable",
+            "label": "interchangeable",
+            "source": "technology sensinact",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_moquette_use",
+            "label": "use",
+            "source": "moquette",
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
