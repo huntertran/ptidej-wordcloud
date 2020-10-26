@@ -36,7 +36,7 @@ sigma.canvas.nodes.image = (function () {
             url = node.image.url;
             w = node.image.w;
             h = node.image.h;
-            scale = 0.05;
+            scale = 0.5;
 
         if (_cache[url]) {
             context.save();

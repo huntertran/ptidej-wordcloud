@@ -3,8 +3,8 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 3,
-            "y": 22,
+            "x": 28,
+            "y": 1,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -13,14 +13,14 @@
         {
             "id": "paho",
             "label": "paho",
-            "x": 26,
-            "y": 30,
+            "x": 22,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/paho.png",
-                "w": 2022,
-                "h": 630,
+                "url": "images/shapes/thumbnails/paho.png",
+                "w": 202,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -28,14 +28,14 @@
         {
             "id": "mosquitto",
             "label": "mosquitto",
-            "x": 25,
-            "y": 18,
+            "x": 3,
+            "y": 4,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/mosquitto.png",
-                "w": 4342,
-                "h": 630,
+                "url": "images/shapes/thumbnails/mosquitto.png",
+                "w": 434,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -43,14 +43,14 @@
         {
             "id": "californium",
             "label": "californium",
-            "x": 8,
-            "y": 30,
+            "x": 28,
+            "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/californium.png",
-                "w": 5173,
-                "h": 623,
+                "url": "images/shapes/thumbnails/californium.png",
+                "w": 515,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -58,14 +58,14 @@
         {
             "id": "ditto",
             "label": "ditto",
-            "x": 13,
-            "y": 2,
+            "x": 25,
+            "y": 27,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/ditto.png",
-                "w": 2449,
-                "h": 630,
+                "url": "images/shapes/thumbnails/ditto.png",
+                "w": 244,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -73,14 +73,14 @@
         {
             "id": "hawkbit",
             "label": "hawkbit",
-            "x": 19,
-            "y": 25,
+            "x": 10,
+            "y": 20,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/hawkbit.png",
-                "w": 3439,
-                "h": 623,
+                "url": "images/shapes/thumbnails/hawkbit.png",
+                "w": 342,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -88,14 +88,14 @@
         {
             "id": "kura",
             "label": "kura",
-            "x": 20,
-            "y": 8,
+            "x": 13,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/kura.png",
-                "w": 1969,
-                "h": 623,
+                "url": "images/shapes/thumbnails/kura.png",
+                "w": 196,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -103,14 +103,14 @@
         {
             "id": "om2m",
             "label": "om2m",
-            "x": 11,
+            "x": 1,
             "y": 10,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/om2m.png",
-                "w": 2020,
-                "h": 623,
+                "url": "images/shapes/thumbnails/om2m.png",
+                "w": 201,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -118,14 +118,14 @@
         {
             "id": "ponte",
             "label": "ponte",
-            "x": 16,
-            "y": 11,
+            "x": 30,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/ponte.png",
-                "w": 2344,
-                "h": 616,
+                "url": "images/shapes/thumbnails/ponte.png",
+                "w": 232,
+                "h": 61,
                 "scale": 1
             },
             "type": "image"
@@ -133,14 +133,14 @@
         {
             "id": "vorto",
             "label": "vorto",
-            "x": 3,
-            "y": 26,
+            "x": 13,
+            "y": 29,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/vorto.png",
-                "w": 2469,
-                "h": 630,
+                "url": "images/shapes/thumbnails/vorto.png",
+                "w": 246,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -148,14 +148,14 @@
         {
             "id": "4diac",
             "label": "4diac",
-            "x": 4,
-            "y": 5,
+            "x": 10,
+            "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/4diac.png",
-                "w": 2387,
-                "h": 627,
+                "url": "images/shapes/thumbnails/4diac.png",
+                "w": 236,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -163,14 +163,14 @@
         {
             "id": "hono",
             "label": "hono",
-            "x": 4,
-            "y": 27,
+            "x": 19,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/hono.png",
-                "w": 2084,
-                "h": 630,
+                "url": "images/shapes/thumbnails/hono.png",
+                "w": 208,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -179,13 +179,13 @@
             "id": "kapua",
             "label": "kapua",
             "x": 15,
-            "y": 26,
+            "y": 24,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/kapua.png",
-                "w": 2373,
-                "h": 623,
+                "url": "images/shapes/thumbnails/kapua.png",
+                "w": 236,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -193,14 +193,14 @@
         {
             "id": "unide",
             "label": "unide",
-            "x": 19,
-            "y": 21,
+            "x": 11,
+            "y": 6,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/unide.png",
-                "w": 2302,
-                "h": 616,
+                "url": "images/shapes/thumbnails/unide.png",
+                "w": 228,
+                "h": 61,
                 "scale": 1
             },
             "type": "image"
@@ -208,14 +208,14 @@
         {
             "id": "agile",
             "label": "agile",
-            "x": 19,
-            "y": 8,
+            "x": 0,
+            "y": 15,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/agile.png",
-                "w": 2180,
-                "h": 616,
+                "url": "images/shapes/thumbnails/agile.png",
+                "w": 216,
+                "h": 61,
                 "scale": 1
             },
             "type": "image"
@@ -223,14 +223,14 @@
         {
             "id": "kuksa",
             "label": "kuksa",
-            "x": 14,
-            "y": 2,
+            "x": 5,
+            "y": 22,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/kuksa.png",
-                "w": 2419,
-                "h": 623,
+                "url": "images/shapes/thumbnails/kuksa.png",
+                "w": 241,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -238,14 +238,14 @@
         {
             "id": "thingweb",
             "label": "thingweb",
-            "x": 10,
-            "y": 25,
+            "x": 8,
+            "y": 10,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/thingweb.png",
-                "w": 3970,
-                "h": 620,
+                "url": "images/shapes/thumbnails/thingweb.png",
+                "w": 397,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -253,14 +253,14 @@
         {
             "id": "mita",
             "label": "mita",
-            "x": 13,
-            "y": 3,
+            "x": 6,
+            "y": 22,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/mita.png",
-                "w": 1841,
-                "h": 623,
+                "url": "images/shapes/thumbnails/mita.png",
+                "w": 183,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -268,14 +268,14 @@
         {
             "id": "tahu",
             "label": "tahu",
-            "x": 18,
-            "y": 30,
+            "x": 30,
+            "y": 28,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/tahu.png",
-                "w": 1918,
-                "h": 627,
+                "url": "images/shapes/thumbnails/tahu.png",
+                "w": 190,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -283,14 +283,14 @@
         {
             "id": "volttron",
             "label": "volttron",
-            "x": 8,
-            "y": 25,
+            "x": 15,
+            "y": 0,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/volttron.png",
-                "w": 3733,
-                "h": 623,
+                "url": "images/shapes/thumbnails/volttron.png",
+                "w": 372,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -298,14 +298,14 @@
         {
             "id": "streamsheets",
             "label": "streamsheets",
-            "x": 12,
-            "y": 5,
+            "x": 8,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/streamsheets.png",
-                "w": 5460,
-                "h": 628,
+                "url": "images/shapes/thumbnails/streamsheets.png",
+                "w": 539,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -313,14 +313,14 @@
         {
             "id": "zenoh",
             "label": "zenoh",
-            "x": 11,
-            "y": 9,
+            "x": 18,
+            "y": 14,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/zenoh.png",
-                "w": 2447,
-                "h": 623,
+                "url": "images/shapes/thumbnails/zenoh.png",
+                "w": 244,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -328,14 +328,14 @@
         {
             "id": "testware",
             "label": "testware",
-            "x": 1,
-            "y": 27,
+            "x": 10,
+            "y": 13,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/testware.png",
-                "w": 3776,
-                "h": 616,
+                "url": "images/shapes/thumbnails/testware.png",
+                "w": 374,
+                "h": 61,
                 "scale": 1
             },
             "type": "image"
@@ -343,14 +343,14 @@
         {
             "id": "sensinact",
             "label": "sensinact",
-            "x": 30,
-            "y": 30,
+            "x": 7,
+            "y": 3,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/sensinact.png",
-                "w": 4137,
-                "h": 623,
+                "url": "images/shapes/thumbnails/sensinact.png",
+                "w": 412,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -358,14 +358,14 @@
         {
             "id": "agail",
             "label": "agail",
-            "x": 14,
+            "x": 27,
             "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/agail.png",
-                "w": 2169,
-                "h": 616,
+                "url": "images/shapes/thumbnails/agail.png",
+                "w": 215,
+                "h": 61,
                 "scale": 1
             },
             "type": "image"
@@ -373,14 +373,14 @@
         {
             "id": "whiskers",
             "label": "whiskers",
-            "x": 13,
-            "y": 28,
+            "x": 29,
+            "y": 13,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/whiskers.png",
-                "w": 3661,
-                "h": 628,
+                "url": "images/shapes/thumbnails/whiskers.png",
+                "w": 361,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -388,14 +388,14 @@
         {
             "id": "moquette",
             "label": "moquette",
-            "x": 7,
-            "y": 10,
+            "x": 16,
+            "y": 11,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/moquette.png",
-                "w": 3675,
-                "h": 616,
+                "url": "images/shapes/thumbnails/moquette.png",
+                "w": 364,
+                "h": 61,
                 "scale": 1
             },
             "type": "image"
@@ -403,14 +403,14 @@
         {
             "id": "titan",
             "label": "titan",
-            "x": 11,
-            "y": 17,
+            "x": 19,
+            "y": 3,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/titan.png",
-                "w": 2344,
-                "h": 623,
+                "url": "images/shapes/thumbnails/titan.png",
+                "w": 233,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -418,14 +418,14 @@
         {
             "id": "uomo",
             "label": "uomo",
-            "x": 13,
-            "y": 14,
+            "x": 1,
+            "y": 12,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/uomo.png",
-                "w": 2097,
-                "h": 630,
+                "url": "images/shapes/thumbnails/uomo.png",
+                "w": 209,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -433,14 +433,14 @@
         {
             "id": "mihini",
             "label": "mihini",
-            "x": 10,
-            "y": 20,
+            "x": 0,
+            "y": 19,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/mihini.png",
-                "w": 2493,
-                "h": 623,
+                "url": "images/shapes/thumbnails/mihini.png",
+                "w": 248,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -448,14 +448,14 @@
         {
             "id": "koneki",
             "label": "koneki",
-            "x": 11,
-            "y": 18,
+            "x": 7,
+            "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/koneki.png",
-                "w": 2611,
-                "h": 623,
+                "url": "images/shapes/thumbnails/koneki.png",
+                "w": 260,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -463,8 +463,8 @@
         {
             "id": 2,
             "label": "Open Platform Communication Unified Architecture",
-            "x": 17,
-            "y": 8,
+            "x": 8,
+            "y": 25,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -473,14 +473,14 @@
         {
             "id": "milo",
             "label": "milo",
-            "x": 9,
-            "y": 21,
+            "x": 17,
+            "y": 10,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/milo.png",
-                "w": 1859,
-                "h": 630,
+                "url": "images/shapes/thumbnails/milo.png",
+                "w": 185,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -488,8 +488,8 @@
         {
             "id": 3,
             "label": "Datagram Transport Layer Security",
-            "x": 4,
-            "y": 26,
+            "x": 15,
+            "y": 14,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -498,14 +498,14 @@
         {
             "id": "leshan",
             "label": "leshan",
-            "x": 22,
-            "y": 17,
+            "x": 21,
+            "y": 29,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/leshan.png",
-                "w": 2800,
-                "h": 623,
+                "url": "images/shapes/thumbnails/leshan.png",
+                "w": 279,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -513,14 +513,14 @@
         {
             "id": "wakaama",
             "label": "wakaama",
-            "x": 24,
-            "y": 10,
+            "x": 29,
+            "y": 21,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/wakaama.png",
-                "w": 3210,
-                "h": 623,
+                "url": "images/shapes/thumbnails/wakaama.png",
+                "w": 319,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -528,14 +528,14 @@
         {
             "id": "tinydtls",
             "label": "tinydtls",
-            "x": 20,
-            "y": 7,
+            "x": 23,
+            "y": 6,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/tinydtls.png",
-                "w": 3686,
-                "h": 628,
+                "url": "images/shapes/thumbnails/tinydtls.png",
+                "w": 364,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -543,8 +543,8 @@
         {
             "id": 4,
             "label": "Production Performance Management Protocol",
-            "x": 24,
-            "y": 10,
+            "x": 26,
+            "y": 9,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -553,8 +553,8 @@
         {
             "id": 5,
             "label": "Attribute-based access control",
-            "x": 26,
-            "y": 1,
+            "x": 21,
+            "y": 20,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -563,14 +563,14 @@
         {
             "id": "keti",
             "label": "keti",
-            "x": 16,
-            "y": 8,
+            "x": 15,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/keti.png",
-                "w": 1597,
-                "h": 623,
+                "url": "images/shapes/thumbnails/keti.png",
+                "w": 159,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -578,8 +578,8 @@
         {
             "id": 6,
             "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 2,
-            "y": 26,
+            "x": 21,
+            "y": 1,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -588,8 +588,8 @@
         {
             "id": 7,
             "label": "Automotive Grade Linux",
-            "x": 28,
-            "y": 21,
+            "x": 14,
+            "y": 25,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -598,8 +598,8 @@
         {
             "id": 8,
             "label": "Data Distribution Service",
-            "x": 11,
-            "y": 13,
+            "x": 24,
+            "y": 29,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -608,14 +608,14 @@
         {
             "id": "cyclonedds",
             "label": "cyclonedds",
-            "x": 28,
-            "y": 19,
+            "x": 5,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/cyclonedds.png",
-                "w": 4672,
-                "h": 628,
+                "url": "images/shapes/thumbnails/cyclonedds.png",
+                "w": 461,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -623,14 +623,14 @@
         {
             "id": "iceoryx",
             "label": "iceoryx",
-            "x": 9,
-            "y": 5,
+            "x": 21,
+            "y": 26,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/iceoryx.png",
-                "w": 3677,
-                "h": 624,
+                "url": "images/shapes/thumbnails/iceoryx.png",
+                "w": 365,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -638,14 +638,14 @@
         {
             "id": "risev2g",
             "label": "risev2g",
-            "x": 1,
+            "x": 11,
             "y": 7,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/risev2g.png",
-                "w": 3226,
-                "h": 630,
+                "url": "images/shapes/thumbnails/risev2g.png",
+                "w": 322,
+                "h": 63,
                 "scale": 1
             },
             "type": "image"
@@ -653,14 +653,14 @@
         {
             "id": "mtj",
             "label": "mtj",
-            "x": 9,
-            "y": 0,
+            "x": 3,
+            "y": 26,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/mtj.png",
-                "w": 1178,
-                "h": 628,
+                "url": "images/shapes/thumbnails/mtj.png",
+                "w": 116,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -668,8 +668,8 @@
         {
             "id": 9,
             "label": "Web of Thing",
-            "x": 26,
-            "y": 28,
+            "x": 20,
+            "y": 26,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -678,8 +678,8 @@
         {
             "id": 10,
             "label": "the standard for contactless tickets and cards",
-            "x": 21,
-            "y": 21,
+            "x": 25,
+            "y": 15,
             "size": 10,
             "color": "#ff0000",
             "image": null,
@@ -688,14 +688,14 @@
         {
             "id": "hip",
             "label": "hip",
-            "x": 19,
-            "y": 29,
+            "x": 1,
+            "y": 11,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/hip.png",
-                "w": 1433,
-                "h": 623,
+                "url": "images/shapes/thumbnails/hip.png",
+                "w": 143,
+                "h": 62,
                 "scale": 1
             },
             "type": "image"
@@ -703,14 +703,14 @@
         {
             "id": "keyple",
             "label": "keyple",
-            "x": 20,
-            "y": 17,
+            "x": 9,
+            "y": 15,
             "size": 5,
             "color": "#000000",
             "image": {
-                "url": "images/shapes/keyple.png",
-                "w": 2655,
-                "h": 616,
+                "url": "images/shapes/thumbnails/keyple.png",
+                "w": 263,
+                "h": 61,
                 "scale": 1
             },
             "type": "image"

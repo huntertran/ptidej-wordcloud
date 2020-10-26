@@ -27,7 +27,7 @@ class ResultGenerator:
         # generate thumbnail
         image = Image.open('./data/nlp/result/' + projectName + '.png')
         size = image.size
-        image.thumbnail((size[0] * 0.2, size[1] * 0.2),  Image.ANTIALIAS)
+        image.thumbnail((size[0] * 0.1, size[1] * 0.1),  Image.ANTIALIAS)
         image.save('./docs/images/shapes/thumbnails/' + projectName + '.png')
 
     @staticmethod

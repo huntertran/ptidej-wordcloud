@@ -6,14 +6,6 @@ from PIL import Image
 jsonpickle.set_preferred_backend('json')
 jsonpickle.set_encoder_options('json', ensure_ascii=False, indent=4)
 
-# node.image = {
-#   url: /* mandatory image URL */,
-#   clip: /* Ratio of image clipping disk compared to node size (def 1.0) - see example to how we adapt this to differenmt shapes */,
-#   scale: /* Ratio of how to scale the image, compared to node size, default 1.0 */,
-#   w: /* numeric width - important for correct scaling if w/h ratio is not 1.0 */,
-#   h: /* numeric height - important for correct scaling if w/h ratio is not 1.0 */
-# }
-
 class node_image(object):
     def __init__(self, url, w, h):
         self.url = url
@@ -71,7 +63,7 @@ class data(object):
                         5,
                         '#000000')
 
-        image_path = 'images/shapes/' + project.Project + '.png'
+        image_path = 'images/shapes/thumbnails/' + project.Project + '.png'
         actual_image_path = './docs/' + image_path
 
         img = Image.open(actual_image_path)
@@ -114,8 +106,6 @@ class data(object):
         self.nodes.append(transparent_node)
 
         for linked_keyword in linked_keywords:
-            # for target in linked_keywords:
-            #     if target.Id is not linked_keyword.Id:
             new_edge = edge('transparent_' + str(linked_keyword.Id),
                             '',
                             'trans',
