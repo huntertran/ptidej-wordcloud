@@ -172,6 +172,12 @@ def start_analyze():
             relationships = []
 
             for sentence in project.Sentences:
+
+                # try encode with ascii to eliminate usage of utf-16
+                encoded = sentence.encode('ascii','replace').decode()
+                if '?' in encoded:
+                    sentence = encoded
+
                 sentence_relationships = parse_with_grammar(standford_tagger,
                                                             grammars,
                                                             linked_keyword.Keys,

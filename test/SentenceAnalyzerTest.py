@@ -44,9 +44,16 @@ def start_analyze_test():
     data_folder = './data/nlp/result/test/'
     ProjectHelper.createDataFolder(data_folder)
 
+    sentence = 'Kura Framework Features MQTTGSM/GPRS 3G/4G EVDO SNMP HTTP / REST ServicesWeb ServicesBluetooth / BTLE Wi-Fi 802,15,4 / Zigbee RS485 GPIO RS232 CANbus SMBus Modbus Device Mgmt WatchDog SSLLegacy JNI?s Security SOA Power Mgmt Location Based Services'
+
+    # try encode with ascii to eliminate usage of utf-16
+    encoded = sentence.encode('ascii','replace').decode()
+    if '?' in encoded:
+        sentence = encoded
+
     parse_with_grammar(standford_tagger,
                        grammars,
                        keys,
-                       '+ Shoot A Pi Main class overview \uf06e Implements ConfigurableComponent \uf06e It exposes a component in the Kura Web UI, letting the user change configuration parameters from any browser \uf06e Acquires the CloudService \uf06e Publishes data to the MQTT Broker using the MQTTDataTransport \uf06e Implements CloudClientListener \uf06e Listens for requests on the Commands MQTT topic \uf06e Manages the Executors \uf06e It starts, stops and cancels the runnables and wires everything together The ShootAPi class is responsible for managing the whole application',
+                       sentence,
                        1,
                        data_folder)
