@@ -47,6 +47,6 @@ def start_analyze_test():
     parse_with_grammar(standford_tagger,
                        grammars,
                        keys,
-                       'node-wot is the official reference implementation of the W3C WoT Working Group and implements the so-called \"Servient Architecture\":',
+                       '+ Shoot A Pi Main class overview \uf06e Implements ConfigurableComponent \uf06e It exposes a component in the Kura Web UI, letting the user change configuration parameters from any browser \uf06e Acquires the CloudService \uf06e Publishes data to the MQTT Broker using the MQTTDataTransport \uf06e Implements CloudClientListener \uf06e Listens for requests on the Commands MQTT topic \uf06e Manages the Executors \uf06e It starts, stops and cancels the runnables and wires everything together The ShootAPi class is responsible for managing the whole application',
                        1,
                        data_folder)
