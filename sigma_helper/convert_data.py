@@ -30,7 +30,7 @@ class node(object):
         self.size = size
         self.color = color
         self.image = None
-        self.type = "circle"
+        self.type = 'def'
 
 
 class edge(object):
@@ -83,7 +83,7 @@ class data(object):
             h
         )
 
-        new_node.type = "square"
+        new_node.type = 'image'
 
         self.nodes.append(new_node)
 

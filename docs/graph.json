@@ -3,18 +3,18 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 4,
-            "y": 25,
+            "x": 3,
+            "y": 22,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": "paho",
             "label": "paho",
-            "x": 6,
-            "y": 8,
+            "x": 26,
+            "y": 30,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -23,13 +23,13 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "mosquitto",
             "label": "mosquitto",
-            "x": 22,
-            "y": 15,
+            "x": 25,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -38,13 +38,13 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "californium",
             "label": "californium",
-            "x": 13,
-            "y": 24,
+            "x": 8,
+            "y": 30,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -53,13 +53,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "ditto",
             "label": "ditto",
-            "x": 30,
-            "y": 7,
+            "x": 13,
+            "y": 2,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -68,13 +68,13 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "hawkbit",
             "label": "hawkbit",
-            "x": 7,
-            "y": 28,
+            "x": 19,
+            "y": 25,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -83,13 +83,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "kura",
             "label": "kura",
-            "x": 16,
-            "y": 7,
+            "x": 20,
+            "y": 8,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -98,13 +98,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "om2m",
             "label": "om2m",
-            "x": 19,
-            "y": 29,
+            "x": 11,
+            "y": 10,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -113,13 +113,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "ponte",
             "label": "ponte",
-            "x": 1,
-            "y": 30,
+            "x": 16,
+            "y": 11,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -128,13 +128,13 @@
                 "h": 616,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "vorto",
             "label": "vorto",
-            "x": 20,
-            "y": 24,
+            "x": 3,
+            "y": 26,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -143,13 +143,13 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "4diac",
             "label": "4diac",
-            "x": 18,
-            "y": 20,
+            "x": 4,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -158,13 +158,13 @@
                 "h": 627,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "hono",
             "label": "hono",
-            "x": 12,
-            "y": 0,
+            "x": 4,
+            "y": 27,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -173,13 +173,13 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "kapua",
             "label": "kapua",
-            "x": 21,
-            "y": 16,
+            "x": 15,
+            "y": 26,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -188,12 +188,12 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "unide",
             "label": "unide",
-            "x": 5,
+            "x": 19,
             "y": 21,
             "size": 5,
             "color": "#000000",
@@ -203,13 +203,13 @@
                 "h": 616,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "agile",
             "label": "agile",
-            "x": 12,
-            "y": 4,
+            "x": 19,
+            "y": 8,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -218,13 +218,13 @@
                 "h": 616,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "kuksa",
             "label": "kuksa",
-            "x": 29,
-            "y": 6,
+            "x": 14,
+            "y": 2,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -233,13 +233,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "thingweb",
             "label": "thingweb",
-            "x": 1,
-            "y": 8,
+            "x": 10,
+            "y": 25,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -248,13 +248,13 @@
                 "h": 620,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "mita",
             "label": "mita",
-            "x": 10,
-            "y": 23,
+            "x": 13,
+            "y": 3,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -263,13 +263,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "tahu",
             "label": "tahu",
-            "x": 21,
-            "y": 17,
+            "x": 18,
+            "y": 30,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -278,13 +278,13 @@
                 "h": 627,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "volttron",
             "label": "volttron",
-            "x": 22,
-            "y": 7,
+            "x": 8,
+            "y": 25,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -293,13 +293,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "streamsheets",
             "label": "streamsheets",
-            "x": 2,
-            "y": 29,
+            "x": 12,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -308,13 +308,13 @@
                 "h": 628,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "zenoh",
             "label": "zenoh",
-            "x": 23,
-            "y": 12,
+            "x": 11,
+            "y": 9,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -323,13 +323,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "testware",
             "label": "testware",
-            "x": 18,
-            "y": 12,
+            "x": 1,
+            "y": 27,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -338,13 +338,13 @@
                 "h": 616,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "sensinact",
             "label": "sensinact",
-            "x": 27,
-            "y": 18,
+            "x": 30,
+            "y": 30,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -353,13 +353,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "agail",
             "label": "agail",
-            "x": 21,
-            "y": 16,
+            "x": 14,
+            "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -368,13 +368,13 @@
                 "h": 616,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "whiskers",
             "label": "whiskers",
-            "x": 5,
-            "y": 15,
+            "x": 13,
+            "y": 28,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -383,13 +383,13 @@
                 "h": 628,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "moquette",
             "label": "moquette",
-            "x": 1,
-            "y": 26,
+            "x": 7,
+            "y": 10,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -398,13 +398,13 @@
                 "h": 616,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "titan",
             "label": "titan",
-            "x": 7,
-            "y": 0,
+            "x": 11,
+            "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -413,13 +413,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "uomo",
             "label": "uomo",
-            "x": 7,
-            "y": 1,
+            "x": 13,
+            "y": 14,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -428,13 +428,13 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "mihini",
             "label": "mihini",
-            "x": 4,
-            "y": 11,
+            "x": 10,
+            "y": 20,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -443,13 +443,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "koneki",
             "label": "koneki",
-            "x": 15,
-            "y": 13,
+            "x": 11,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -458,23 +458,23 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": 2,
             "label": "Open Platform Communication Unified Architecture",
-            "x": 14,
-            "y": 30,
+            "x": 17,
+            "y": 8,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": "milo",
             "label": "milo",
-            "x": 11,
-            "y": 26,
+            "x": 9,
+            "y": 21,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -483,23 +483,23 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": 3,
             "label": "Datagram Transport Layer Security",
-            "x": 29,
-            "y": 18,
+            "x": 4,
+            "y": 26,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": "leshan",
             "label": "leshan",
-            "x": 9,
-            "y": 9,
+            "x": 22,
+            "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -508,13 +508,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "wakaama",
             "label": "wakaama",
-            "x": 11,
-            "y": 18,
+            "x": 24,
+            "y": 10,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -523,12 +523,12 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "tinydtls",
             "label": "tinydtls",
-            "x": 25,
+            "x": 20,
             "y": 7,
             "size": 5,
             "color": "#000000",
@@ -538,33 +538,33 @@
                 "h": 628,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": 4,
             "label": "Production Performance Management Protocol",
-            "x": 5,
-            "y": 14,
+            "x": 24,
+            "y": 10,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": 5,
             "label": "Attribute-based access control",
-            "x": 30,
-            "y": 0,
+            "x": 26,
+            "y": 1,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": "keti",
             "label": "keti",
-            "x": 10,
-            "y": 9,
+            "x": 16,
+            "y": 8,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -573,43 +573,43 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": 6,
             "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 8,
-            "y": 3,
+            "x": 2,
+            "y": 26,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": 7,
             "label": "Automotive Grade Linux",
-            "x": 30,
-            "y": 14,
+            "x": 28,
+            "y": 21,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": 8,
             "label": "Data Distribution Service",
-            "x": 6,
-            "y": 27,
+            "x": 11,
+            "y": 13,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": "cyclonedds",
             "label": "cyclonedds",
-            "x": 8,
-            "y": 7,
+            "x": 28,
+            "y": 19,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -618,13 +618,13 @@
                 "h": 628,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "iceoryx",
             "label": "iceoryx",
-            "x": 14,
-            "y": 24,
+            "x": 9,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -633,13 +633,13 @@
                 "h": 624,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "risev2g",
             "label": "risev2g",
-            "x": 9,
-            "y": 10,
+            "x": 1,
+            "y": 7,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -648,13 +648,13 @@
                 "h": 630,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "mtj",
             "label": "mtj",
-            "x": 18,
-            "y": 16,
+            "x": 9,
+            "y": 0,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -663,33 +663,33 @@
                 "h": 628,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": 9,
             "label": "Web of Thing",
-            "x": 17,
-            "y": 5,
+            "x": 26,
+            "y": 28,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": 10,
             "label": "the standard for contactless tickets and cards",
-            "x": 15,
-            "y": 24,
+            "x": 21,
+            "y": 21,
             "size": 10,
             "color": "#ff0000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         },
         {
             "id": "hip",
             "label": "hip",
-            "x": 1,
-            "y": 6,
+            "x": 19,
+            "y": 29,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -698,13 +698,13 @@
                 "h": 623,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "keyple",
             "label": "keyple",
-            "x": 25,
-            "y": 28,
+            "x": 20,
+            "y": 17,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -713,7 +713,7 @@
                 "h": 616,
                 "scale": 1
             },
-            "type": "square"
+            "type": "image"
         },
         {
             "id": "trans",
@@ -723,7 +723,7 @@
             "size": 1,
             "color": "#00000000",
             "image": null,
-            "type": "circle"
+            "type": "def"
         }
     ],
     "edges": [
