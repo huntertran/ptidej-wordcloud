@@ -140,7 +140,11 @@ def start_analyze():
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
 
+    print("Start keyword analyzation")
+
     for linked_keyword in linked_keywords:
+
+        print("Start analyzing keyword: " + linked_keyword.Description)
 
         grammars = []
 
@@ -155,6 +159,8 @@ def start_analyze():
             grammars.append(grammar)
 
         for project in linked_keyword.projects:
+
+            print("Analyzing project: " + project.Project)
 
             data_folder = './data/nlp/result/' + project.Project + "/"
 
@@ -175,6 +181,7 @@ def start_analyze():
                 for rel in sentence_relationships:
                     if rel not in relationships:
                         relationships.append(rel)
+                        print("New relationship founded: " + sentence)
 
             project.add_relationships(relationships)
 

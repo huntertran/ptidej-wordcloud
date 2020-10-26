@@ -108,6 +108,7 @@ def create_link():
     print("End creating connected graph")
 
     for site in siteDataList:
+        print("Analyzing site: " + site.SiteUrl)
         analyze_site(site, link_keywords)
 
     jsonpickle.set_preferred_backend('json')
@@ -116,6 +117,8 @@ def create_link():
 
     with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
         dataFile.write(jsonpickle.encode(link_keywords))
+
+    print("Data wrote to linked.json")
 
     # with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
     #     json.dump(link_keywords, dataFile, cls=LinkKeywordEncoder, indent=4, ensure_ascii=False)
