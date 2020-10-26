@@ -26,7 +26,7 @@ function sleep(ms) {
 async function config() {
     s.refresh();
 
-    sigma.plugins.relativeSize(s, 5);
+    // sigma.plugins.relativeSize(s, 5);
 
     s.startForceAtlas2({
         worker: true,

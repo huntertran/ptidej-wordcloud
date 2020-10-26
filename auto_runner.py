@@ -68,5 +68,5 @@ def nlp():
 # reactor.run()
 # nlp()
 # create_link()
-start_analyze()
+# start_analyze()
 start_convert()

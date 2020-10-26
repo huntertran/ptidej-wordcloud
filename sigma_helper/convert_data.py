@@ -19,6 +19,7 @@ class node_image(object):
         self.url = url
         self.w = w
         self.h = h
+        self.scale = 1
 
 class node(object):
     def __init__(self, id, label, x, y, size, color):
@@ -29,6 +30,7 @@ class node(object):
         self.size = size
         self.color = color
         self.image = None
+        self.type = "circle"
 
 
 class edge(object):
@@ -69,8 +71,10 @@ class data(object):
                         5,
                         '#000000')
 
-        image_path = './docs/images/shapes/' + project.Project + '.png'
-        img = Image.open(image_path)
+        image_path = 'images/shapes/' + project.Project + '.png'
+        actual_image_path = './docs/' + image_path
+
+        img = Image.open(actual_image_path)
         w,h = img.size
         
         new_node.image = node_image(
@@ -78,6 +82,8 @@ class data(object):
             w,
             h
         )
+
+        new_node.type = "square"
 
         self.nodes.append(new_node)
 
