@@ -22,7 +22,13 @@ class ResultGenerator:
         # generate word cloud
         wc.generate_from_frequencies(keywords)
         wc.to_file('./data/nlp/result/' + projectName + '.png')
-        wc.to_file('./docs/images/shapes/' + projectName + '.png')
+        wc.to_file('./docs/images/shapes/fullsize/' + projectName + '.png')
+
+        # generate thumbnail
+        image = Image.open('./data/nlp/result/' + projectName + '.png')
+        size = image.size
+        image.thumbnail((size[0] * 0.2, size[1] * 0.2),  Image.ANTIALIAS)
+        image.save('./docs/images/shapes/thumbnails/' + projectName + '.png')
 
     @staticmethod
     def getMaskTextColor(word,
