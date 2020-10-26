@@ -58,7 +58,9 @@
                     "of MQTT and MQTT-SN in a variety of programming languages.",
                     "var contentTitle = \"Practical MQTT with Paho\", contentPath = \"/articles/practical-mqtt-with-paho\", contentUUID = \"1248a930-fcc8-43fe-9947-dd86d69bfe37\", authorUserCSVIds = \"101760065\";"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -140,7 +142,10 @@
                     "using both MQTT with HTTP causing MQTT messages to be lost (Python)",
                     "which allows it to connect to other MQTT servers, including other Mosquitto instances."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable",
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -226,7 +231,9 @@
                     "the added header mapping to MQTT 3 could maybe cause a problem with discarding the correlation-id at some point",
                     "to apply for the used MQTT client."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -332,7 +339,9 @@
                     "requires a persistent storage for HTTP syndication and MQTT support.",
                     "which implements most of the MQTT 3.1 spec."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -351,7 +360,9 @@
                     "Very much like in a gateway node, a cloud IoT platform normalizes incoming telemetry device data from various protocol adapters (MQTT, CoAP, etc) in order to provide value added services to northbound IoT solutions.",
                     "When you start the application and send data for the two sensors via MQTT, you will see the normalized geolocation data printed in the console of the application."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -370,7 +381,10 @@
                     "We already have MQTT, plain HTTP, Coap, and last year's GSoC brought us AMQP 1.0.",
                     "some suggestions for improving MQTT layer"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use",
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -575,7 +589,9 @@
                     "supports MQTT 3.1.1 only.",
                     "to play the roles of a downstream application (consumer) and devices uploading data to the HTTP and MQTT protocol adapters."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -584,7 +600,9 @@
                     "Connect IoT devices to Kapua via MQTT and other protocols.",
                     "It means Kapua just supports MQTT broker, so I want to use Kura transfer LWM2M connections to MQTT,"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -663,7 +681,9 @@
                     "“MQTT” on Google Trends Can you guess what happened then?",
                     "● CoAP ○ « HTTP over UDP » ○ Expose your device as a resource on the Internet of Things ● MQTT ○ Publish/Subscribe model ○ TCP-based Connecting things to the IoT"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -753,7 +773,9 @@
                     "Without this (for example, when running on a VM in NAT mode) RabbitMQ start would fail with the error \"unable to connect to empd (port 4369) on .\"",
                     "You can check if the RabbitMQ server is installed by checking its status."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -805,7 +827,9 @@
                     "The biggest features are standardized test solutions for the IoT protocols MQTT and CoAP.",
                     "The initial contribution of IoT-Testware to Eclipse will focus on protocols like CoAP and MQTT."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -816,7 +840,10 @@
                     "sensiNact Gateway interconnects IoT devices using different southbound IoT protocols such as Zigbee, EnOcean, LoRa, XBee, MQTT, XMPP, as well as platforms such as FIWARE and allows access to them with various northbound protocols such as HTTP REST, MQTT, XMPP, JSON RPC and CDMI.",
                     "sensiNact thus provides connectivity support to those data sources including today’s IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, MQTT, XMPP, NGSI, HTTP, CoAP, etc."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable",
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -836,7 +863,9 @@
                     "Eclipse Whiskers for Arduino is using one other Arduino library for MQTT connections:",
                     "The library has methods for connecting to a SensorThings server as well as SensorThings MQTT broker."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -891,7 +920,9 @@
                     "is an home automation framework and uses Moquette embedded to interface with MQTT by a specific",
                     "when a connection is not yet fully bootstrapped with MQTT, like when a connection is opened on an SSL port and the connection is closed without having fully bootstrapped the MQTT settngs."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -959,7 +990,7 @@
         "Id": 2,
         "Description": "Open Platform Communication Unified Architecture",
         "Keys": [
-            "OPC UA"
+            "OPCUA"
         ],
         "projects": [
             {
@@ -1099,7 +1130,9 @@
                     "It implements DTLS 1.2 to secure your application through ECC with pre-shared keys, certificates, or raw public keys.",
                     "WIP: DTLS CID LoadBalancer - First Tutorials and Results"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1110,7 +1143,9 @@
                     "DTLS based security",
                     "DTLS implementation"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1151,7 +1186,9 @@
                     "in DTLS were still in an early phase of standardization, no known DTLS implementation provided support.",
                     "tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1174,7 +1211,9 @@
                     "because CoAP authenticates clients (devices) as part of the DTLS handshake.",
                     "expose the non-DTLS secured port on a local interface only, thus providing easy access from within the local network, while still requiring encrypted communication when accessed from the outside over public network infrastructure."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1183,7 +1222,9 @@
                     "Eclipse Californium ● Focus on scalability and usability ● To be used in IoT cloud servers or M2M/IoT devices running Java ● Includes DTLS implementation (Scandium), HTTP/CoAP bridge, Plugtests, … http://eclipse.org/californium",
                     "ü Standard IPv6 stack ü BSD-like ports for third-party modules/stacks: § OpenWSN, CCN-lite, Emb6, lwIP, tinyDTLS…"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             }
         ]
     },
@@ -1210,7 +1251,9 @@
                     "We assembled a few frequently asked questions about the Production Performance Protocol (PPMP) and the Unide project.",
                     "publishes the current version of Production Performance Management Protocol (PPMP) and develops simple server/client implementations."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             }
         ]
     },
@@ -1254,7 +1297,9 @@
                     "Setup an Eclipse Che based APPSTACLE IDE to either develop, build, and deploy cloud or in-vehicle applications (see more info",
                     "With the end of the publicly funded APPSTACLE project, the first major release Eclipse Kuksa 1.0 is expected"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             }
         ]
     },
@@ -1441,7 +1486,9 @@
                     "the Vortex OpenSplice code-base (v6.8): a polyglot DDS implementation covering all DCPS-profiles and related QoS-policies",
                     "​Furthermore we foresee a flow of tools and additional-features and integrations from our commercial offering towards opensource as the need for them grows by the community and its uptake of DDS."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1481,7 +1528,9 @@
                     "Eclipse Cyclone DDS",
                     "Performant and robust open-source DDS implementation maintained by"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1569,7 +1618,10 @@
                     "WoT-FXUI",
                     "node-wot is the official reference implementation of the W3C WoT Working Group and implements the so-called \"Servient Architecture\":"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use",
+                    "interchangeable"
+                ]
             }
         ]
     },
@@ -1695,7 +1747,9 @@
                     "{\"@type\":\"WebPage\",\"headline\":\"Keyple Calypso Application API\",\"url\":\"https://calypsonet.github.io/keyple/KeypleCalypsoApi/Application/\",\"description\":\"keyple project\",\"@context\":\"https://schema.org\"}",
                     "{\"@type\":\"WebPage\",\"headline\":\"Keyple Calypso Application API\",\"url\":\"https://calypsonet.github.io/keyple/KeypleCalypsoApi/KeypleCalypso_Transaction.html\",\"description\":\"keyple project\",\"@context\":\"https://schema.org\"}"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             }
         ]
     }

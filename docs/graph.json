@@ -3,306 +3,625 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 15,
-            "y": 7,
+            "x": 2,
+            "y": 13,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": "paho",
             "label": "paho",
-            "x": 12,
-            "y": 27,
+            "x": 14,
+            "y": 23,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/paho.png",
+                "w": 2022,
+                "h": 630
+            }
         },
         {
             "id": "mosquitto",
             "label": "mosquitto",
-            "x": 20,
-            "y": 0,
+            "x": 24,
+            "y": 12,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/mosquitto.png",
+                "w": 4342,
+                "h": 630
+            }
         },
         {
             "id": "californium",
             "label": "californium",
-            "x": 10,
-            "y": 5,
+            "x": 9,
+            "y": 10,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/californium.png",
+                "w": 5173,
+                "h": 623
+            }
+        },
+        {
+            "id": "ditto",
+            "label": "ditto",
+            "x": 30,
+            "y": 9,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/ditto.png",
+                "w": 2449,
+                "h": 630
+            }
+        },
+        {
+            "id": "hawkbit",
+            "label": "hawkbit",
+            "x": 4,
+            "y": 13,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/hawkbit.png",
+                "w": 3439,
+                "h": 623
+            }
         },
         {
             "id": "kura",
             "label": "kura",
-            "x": 27,
-            "y": 3,
+            "x": 10,
+            "y": 15,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/kura.png",
+                "w": 1969,
+                "h": 623
+            }
         },
         {
             "id": "om2m",
             "label": "om2m",
-            "x": 14,
-            "y": 25,
+            "x": 8,
+            "y": 5,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/om2m.png",
+                "w": 2020,
+                "h": 623
+            }
         },
         {
             "id": "ponte",
             "label": "ponte",
             "x": 23,
-            "y": 20,
+            "y": 12,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/ponte.png",
+                "w": 2344,
+                "h": 616
+            }
+        },
+        {
+            "id": "vorto",
+            "label": "vorto",
+            "x": 28,
+            "y": 19,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/vorto.png",
+                "w": 2469,
+                "h": 630
+            }
         },
         {
             "id": "4diac",
             "label": "4diac",
-            "x": 25,
-            "y": 22,
+            "x": 5,
+            "y": 6,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/4diac.png",
+                "w": 2387,
+                "h": 627
+            }
         },
         {
             "id": "hono",
             "label": "hono",
-            "x": 22,
-            "y": 10,
+            "x": 11,
+            "y": 29,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/hono.png",
+                "w": 2084,
+                "h": 630
+            }
         },
         {
             "id": "kapua",
             "label": "kapua",
-            "x": 22,
-            "y": 21,
+            "x": 6,
+            "y": 22,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/kapua.png",
+                "w": 2373,
+                "h": 623
+            }
         },
         {
             "id": "unide",
             "label": "unide",
-            "x": 1,
-            "y": 0,
+            "x": 8,
+            "y": 21,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/unide.png",
+                "w": 2302,
+                "h": 616
+            }
+        },
+        {
+            "id": "agile",
+            "label": "agile",
+            "x": 21,
+            "y": 28,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/agile.png",
+                "w": 2180,
+                "h": 616
+            }
+        },
+        {
+            "id": "kuksa",
+            "label": "kuksa",
+            "x": 6,
+            "y": 5,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/kuksa.png",
+                "w": 2419,
+                "h": 623
+            }
+        },
+        {
+            "id": "thingweb",
+            "label": "thingweb",
+            "x": 3,
+            "y": 25,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/thingweb.png",
+                "w": 3970,
+                "h": 620
+            }
+        },
+        {
+            "id": "mita",
+            "label": "mita",
+            "x": 9,
+            "y": 10,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/mita.png",
+                "w": 1841,
+                "h": 623
+            }
         },
         {
             "id": "tahu",
             "label": "tahu",
             "x": 11,
-            "y": 21,
+            "y": 5,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/tahu.png",
+                "w": 1918,
+                "h": 627
+            }
+        },
+        {
+            "id": "volttron",
+            "label": "volttron",
+            "x": 21,
+            "y": 1,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/volttron.png",
+                "w": 3733,
+                "h": 623
+            }
         },
         {
             "id": "streamsheets",
             "label": "streamsheets",
-            "x": 2,
-            "y": 15,
+            "x": 29,
+            "y": 9,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/streamsheets.png",
+                "w": 5460,
+                "h": 628
+            }
         },
         {
             "id": "zenoh",
             "label": "zenoh",
-            "x": 19,
-            "y": 7,
+            "x": 25,
+            "y": 29,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/zenoh.png",
+                "w": 2447,
+                "h": 623
+            }
         },
         {
-            "id": "technology testware",
-            "label": "technology testware",
-            "x": 15,
-            "y": 13,
+            "id": "testware",
+            "label": "testware",
+            "x": 13,
+            "y": 8,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/testware.png",
+                "w": 3776,
+                "h": 616
+            }
         },
         {
-            "id": "technology sensinact",
-            "label": "technology sensinact",
-            "x": 3,
-            "y": 17,
+            "id": "sensinact",
+            "label": "sensinact",
+            "x": 1,
+            "y": 6,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/sensinact.png",
+                "w": 4137,
+                "h": 623
+            }
         },
         {
             "id": "agail",
             "label": "agail",
-            "x": 28,
-            "y": 9,
+            "x": 6,
+            "y": 21,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/agail.png",
+                "w": 2169,
+                "h": 616
+            }
+        },
+        {
+            "id": "whiskers",
+            "label": "whiskers",
+            "x": 0,
+            "y": 7,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/whiskers.png",
+                "w": 3661,
+                "h": 628
+            }
         },
         {
             "id": "moquette",
             "label": "moquette",
-            "x": 14,
-            "y": 29,
+            "x": 6,
+            "y": 27,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/moquette.png",
+                "w": 3675,
+                "h": 616
+            }
         },
         {
-            "id": "tools titan",
-            "label": "tools titan",
-            "x": 11,
-            "y": 20,
+            "id": "titan",
+            "label": "titan",
+            "x": 9,
+            "y": 30,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/titan.png",
+                "w": 2344,
+                "h": 623
+            }
         },
         {
-            "id": "rt ecf",
-            "label": "rt ecf",
-            "x": 18,
-            "y": 0,
+            "id": "uomo",
+            "label": "uomo",
+            "x": 26,
+            "y": 18,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/uomo.png",
+                "w": 2097,
+                "h": 630
+            }
+        },
+        {
+            "id": "mihini",
+            "label": "mihini",
+            "x": 29,
+            "y": 6,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/mihini.png",
+                "w": 2493,
+                "h": 623
+            }
+        },
+        {
+            "id": "koneki",
+            "label": "koneki",
+            "x": 6,
+            "y": 6,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/koneki.png",
+                "w": 2611,
+                "h": 623
+            }
         },
         {
             "id": 2,
             "label": "Open Platform Communication Unified Architecture",
-            "x": 19,
-            "y": 23,
+            "x": 21,
+            "y": 24,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
+        },
+        {
+            "id": "milo",
+            "label": "milo",
+            "x": 12,
+            "y": 16,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/milo.png",
+                "w": 1859,
+                "h": 630
+            }
         },
         {
             "id": 3,
             "label": "Datagram Transport Layer Security",
-            "x": 30,
-            "y": 0,
+            "x": 2,
+            "y": 19,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": "leshan",
             "label": "leshan",
-            "x": 1,
-            "y": 14,
+            "x": 26,
+            "y": 20,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/leshan.png",
+                "w": 2800,
+                "h": 623
+            }
         },
         {
             "id": "wakaama",
             "label": "wakaama",
-            "x": 30,
-            "y": 14,
+            "x": 16,
+            "y": 23,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/wakaama.png",
+                "w": 3210,
+                "h": 623
+            }
         },
         {
             "id": "tinydtls",
             "label": "tinydtls",
-            "x": 28,
-            "y": 11,
+            "x": 22,
+            "y": 29,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/tinydtls.png",
+                "w": 3686,
+                "h": 628
+            }
         },
         {
             "id": 4,
             "label": "Production Performance Management Protocol",
-            "x": 20,
-            "y": 18,
+            "x": 13,
+            "y": 29,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": 5,
             "label": "Attribute-based access control",
-            "x": 24,
-            "y": 26,
+            "x": 16,
+            "y": 11,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": "keti",
             "label": "keti",
-            "x": 7,
-            "y": 14,
+            "x": 10,
+            "y": 25,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/keti.png",
+                "w": 1597,
+                "h": 623
+            }
         },
         {
             "id": 6,
             "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 25,
-            "y": 23,
+            "x": 2,
+            "y": 4,
             "size": 10,
-            "color": "#ff0000"
-        },
-        {
-            "id": "kuksa",
-            "label": "kuksa",
-            "x": 8,
-            "y": 29,
-            "size": 5,
-            "color": "#000000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": 7,
             "label": "Automotive Grade Linux",
-            "x": 24,
-            "y": 19,
+            "x": 6,
+            "y": 7,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": 8,
             "label": "Data Distribution Service",
-            "x": 11,
-            "y": 20,
+            "x": 15,
+            "y": 27,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": "cyclonedds",
             "label": "cyclonedds",
             "x": 18,
-            "y": 24,
+            "y": 23,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/cyclonedds.png",
+                "w": 4672,
+                "h": 628
+            }
         },
         {
-            "id": "technology iceoryx",
-            "label": "technology iceoryx",
-            "x": 14,
-            "y": 9,
+            "id": "iceoryx",
+            "label": "iceoryx",
+            "x": 10,
+            "y": 30,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/iceoryx.png",
+                "w": 3677,
+                "h": 624
+            }
+        },
+        {
+            "id": "risev2g",
+            "label": "risev2g",
+            "x": 23,
+            "y": 13,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/risev2g.png",
+                "w": 3226,
+                "h": 630
+            }
+        },
+        {
+            "id": "mtj",
+            "label": "mtj",
+            "x": 30,
+            "y": 17,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/mtj.png",
+                "w": 1178,
+                "h": 628
+            }
         },
         {
             "id": 9,
             "label": "Web of Thing",
-            "x": 1,
-            "y": 23,
+            "x": 13,
+            "y": 16,
             "size": 10,
-            "color": "#ff0000"
-        },
-        {
-            "id": "thingweb",
-            "label": "thingweb",
-            "x": 30,
-            "y": 5,
-            "size": 5,
-            "color": "#000000"
+            "color": "#ff0000",
+            "image": null
         },
         {
             "id": 10,
             "label": "the standard for contactless tickets and cards",
-            "x": 24,
-            "y": 1,
+            "x": 6,
+            "y": 16,
             "size": 10,
-            "color": "#ff0000"
+            "color": "#ff0000",
+            "image": null
+        },
+        {
+            "id": "hip",
+            "label": "hip",
+            "x": 1,
+            "y": 3,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/hip.png",
+                "w": 1433,
+                "h": 623
+            }
         },
         {
             "id": "keyple",
             "label": "keyple",
-            "x": 14,
-            "y": 21,
+            "x": 0,
+            "y": 25,
             "size": 5,
-            "color": "#000000"
+            "color": "#000000",
+            "image": {
+                "url": "./docs/images/shapes/keyple.png",
+                "w": 2655,
+                "h": 616
+            }
         },
         {
             "id": "trans",
@@ -310,7 +629,8 @@
             "x": 30,
             "y": 30,
             "size": 1,
-            "color": "#00000000"
+            "color": "#00000000",
+            "image": null
         }
     ],
     "edges": [
@@ -333,9 +653,45 @@
             "color": "#ff0000"
         },
         {
+            "id": "e_mosquitto_use",
+            "label": "use",
+            "source": "mosquitto",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_ditto_use",
+            "label": "use",
+            "source": "ditto",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
             "id": "e_ponte_interchangeable",
             "label": "interchangeable",
             "source": "ponte",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_vorto_use",
+            "label": "use",
+            "source": "vorto",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_4diac_use",
+            "label": "use",
+            "source": "4diac",
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
@@ -369,18 +725,54 @@
             "color": "#ff0000"
         },
         {
-            "id": "e_technology testware_interchangeable",
-            "label": "interchangeable",
-            "source": "technology testware",
+            "id": "e_agile_use",
+            "label": "use",
+            "source": "agile",
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
             "color": "#ff0000"
         },
         {
-            "id": "e_technology sensinact_interchangeable",
+            "id": "e_volttron_use",
+            "label": "use",
+            "source": "volttron",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_testware_interchangeable",
             "label": "interchangeable",
-            "source": "technology sensinact",
+            "source": "testware",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_sensinact_interchangeable",
+            "label": "interchangeable",
+            "source": "sensinact",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_sensinact_use",
+            "label": "use",
+            "source": "sensinact",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_whiskers_use",
+            "label": "use",
+            "source": "whiskers",
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
@@ -405,10 +797,10 @@
             "color": "#ff0000"
         },
         {
-            "id": "e_kuksa_use",
-            "label": "use",
-            "source": "kuksa",
-            "target": "6",
+            "id": "e_tinydtls_interchangeable",
+            "label": "interchangeable",
+            "source": "tinydtls",
+            "target": "3",
             "size": 2,
             "type": "curvedArrow",
             "color": "#ff0000"
@@ -423,10 +815,19 @@
             "color": "#ff0000"
         },
         {
-            "id": "e_thingweb_interchangeable",
+            "id": "e_iceoryx_interchangeable",
             "label": "interchangeable",
-            "source": "thingweb",
-            "target": "9",
+            "source": "iceoryx",
+            "target": "8",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#ff0000"
+        },
+        {
+            "id": "e_keyple_use",
+            "label": "use",
+            "source": "keyple",
+            "target": "10",
             "size": 2,
             "type": "curvedArrow",
             "color": "#ff0000"
