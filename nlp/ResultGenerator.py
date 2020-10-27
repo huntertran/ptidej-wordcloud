@@ -55,7 +55,7 @@ class ResultGenerator:
 
         spaceBetweenChar = -80
 
-        specialChars = ['a', 'v', 'w', 'm']
+        specialChars = ['a', 'v', 'm' ,'w' ,'o', 'q']
         reducedSpaceChars = ['i']
 
         offset = -draw.textsize(
@@ -66,6 +66,8 @@ class ResultGenerator:
         crop_right = 0
         crop_bottom = 0
 
+        is_behind_reduced_space_char = False
+
         for char in projectName:
             text_size = draw.textsize(
                 text=char,
@@ -74,11 +76,17 @@ class ResultGenerator:
 
             offset = text_size[0] + offset + spaceBetweenChar
 
+            if is_behind_reduced_space_char:
+                offset = offset + spaceBetweenChar*2
+
             if char.lower() in specialChars:
                 offset = offset + spaceBetweenChar
 
             if char.lower() in reducedSpaceChars:
                 offset = offset - spaceBetweenChar*3
+                is_behind_reduced_space_char = True
+            else:
+                is_behind_reduced_space_char = False
 
             draw.multiline_text(
                 xy=(offset, -300),
