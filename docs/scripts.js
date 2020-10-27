@@ -1,27 +1,6 @@
-var s = new sigma({
-    renderer: {
-        container: document.getElementById('container'),
-        type: 'canvas'
-    },
-    settings: {
-        minArrowSize: 10,
-        enableEdgeHovering: true,
-        edgeHoverSizeRatio: 2,
-        zoomMin: 0.001
-        // defaultEdgeColor: "#ff0000"
-    }
-});
-
-sigma.parsers.json(
-    'graph.json',
-    s,
-    async function () {
-        await config();
-    }
-);
-
 // custom node renderer
 
+sigma.utils.pkg('sigma.canvas.nodes');
 sigma.canvas.nodes.image = (function () {
     var _cache = {},
         _loading = {},
@@ -36,12 +15,12 @@ sigma.canvas.nodes.image = (function () {
             url = node.image.url;
             w = node.image.w;
             h = node.image.h;
-            scale = 0.5;
+            scale = 0.1;
 
         if (_cache[url]) {
             context.save();
 
-            // Draw the clipping disc:
+            // // Draw the clipping disc:
             // context.beginPath();
             // context.arc(
             //     node[prefix + 'x'],
@@ -59,14 +38,16 @@ sigma.canvas.nodes.image = (function () {
                 _cache[url],
                 node[prefix + 'x'] - size,
                 node[prefix + 'y'] - size,
-                w * scale,
-                h * scale
+                w * scale * size,
+                h * scale * size
             );
 
-            // Quit the "clipping mode":
-            context.restore();
+            console.log("draw image: W" + w + " | H: " + h + " | Size: " + size)
 
-            // Draw the border:
+            // // Quit the "clipping mode":
+            // context.restore();
+
+            // // Draw the border:
             // context.beginPath();
             // context.arc(
             //     node[prefix + 'x'],
@@ -121,7 +102,7 @@ function sleep(ms) {
 }
 
 async function config() {
-    s.refresh();
+    // s.refresh();
 
     // sigma.plugins.relativeSize(s, 5);
 
@@ -143,3 +124,25 @@ async function config() {
     // CustomShapes.init(s);
     // s.refresh();
 }
+
+var s = new sigma({
+    renderer: {
+        container: document.getElementById('container'),
+        type: 'canvas'
+    },
+    settings: {
+        minArrowSize: 10,
+        enableEdgeHovering: true,
+        edgeHoverSizeRatio: 2,
+        zoomMin: 0.001
+        // defaultEdgeColor: "#ff0000"
+    }
+});
+
+sigma.parsers.json(
+    'graph.json',
+    s,
+    async function () {
+        await config();
+    }
+);
