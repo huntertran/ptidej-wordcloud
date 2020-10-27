@@ -42,7 +42,7 @@ sigma.canvas.nodes.image = (function () {
                 h * scale * size
             );
 
-            console.log("draw image: W" + w + " | H: " + h + " | Size: " + size)
+            // console.log("draw image: W" + w + " | H: " + h + " | Size: " + size)
 
             // // Quit the "clipping mode":
             // context.restore();
