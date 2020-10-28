@@ -49,7 +49,7 @@ class data(object):
                         x,
                         y,
                         10,
-                        '#ff0000')
+                        '#0000ff')
         self.nodes.append(new_node)
 
     def add_project(self, project, linked_keyword):
@@ -85,7 +85,7 @@ class data(object):
                             project.Project,
                             str(linked_keyword.Id),
                             2,
-                            '#ff0000')
+                            '#0000ff')
             self.edges.append(new_edge)
 
     def add_projects(self, linked_keyword):

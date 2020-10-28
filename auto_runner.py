@@ -7,7 +7,6 @@ from nlp.NlpProcessing import process
 from model.Site import Site
 from nlp.Linker import create_link
 from nlp.SentenceAnalyzer import start_analyze
-# from topic_modeling.topic_modeling_analyzer import start_topic_modeling
 from sigma_helper.convert_data import start_convert
 
 
@@ -66,7 +65,7 @@ def nlp():
 
 # crawl()
 # reactor.run()
-nlp()
+# nlp()
 # create_link()
 # start_analyze()
-# start_convert()
+start_convert()

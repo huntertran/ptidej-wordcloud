@@ -3,23 +3,23 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 28,
-            "y": 1,
+            "x": 1,
+            "y": 30,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": "paho",
             "label": "paho",
-            "x": 22,
-            "y": 18,
+            "x": 2,
+            "y": 2,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/paho.png",
-                "w": 202,
+                "w": 194,
                 "h": 63,
                 "scale": 1
             },
@@ -28,13 +28,13 @@
         {
             "id": "mosquitto",
             "label": "mosquitto",
-            "x": 3,
-            "y": 4,
+            "x": 14,
+            "y": 23,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/mosquitto.png",
-                "w": 434,
+                "w": 394,
                 "h": 63,
                 "scale": 1
             },
@@ -43,13 +43,13 @@
         {
             "id": "californium",
             "label": "californium",
-            "x": 28,
-            "y": 17,
+            "x": 25,
+            "y": 8,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/californium.png",
-                "w": 515,
+                "w": 475,
                 "h": 62,
                 "scale": 1
             },
@@ -58,13 +58,13 @@
         {
             "id": "ditto",
             "label": "ditto",
-            "x": 25,
-            "y": 27,
+            "x": 27,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/ditto.png",
-                "w": 244,
+                "w": 220,
                 "h": 63,
                 "scale": 1
             },
@@ -73,13 +73,13 @@
         {
             "id": "hawkbit",
             "label": "hawkbit",
-            "x": 10,
-            "y": 20,
+            "x": 2,
+            "y": 30,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/hawkbit.png",
-                "w": 342,
+                "w": 326,
                 "h": 62,
                 "scale": 1
             },
@@ -88,8 +88,8 @@
         {
             "id": "kura",
             "label": "kura",
-            "x": 13,
-            "y": 18,
+            "x": 23,
+            "y": 1,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -103,13 +103,13 @@
         {
             "id": "om2m",
             "label": "om2m",
-            "x": 1,
-            "y": 10,
+            "x": 9,
+            "y": 5,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/om2m.png",
-                "w": 201,
+                "w": 193,
                 "h": 62,
                 "scale": 1
             },
@@ -118,13 +118,13 @@
         {
             "id": "ponte",
             "label": "ponte",
-            "x": 30,
-            "y": 18,
+            "x": 11,
+            "y": 3,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/ponte.png",
-                "w": 232,
+                "w": 224,
                 "h": 61,
                 "scale": 1
             },
@@ -133,13 +133,13 @@
         {
             "id": "vorto",
             "label": "vorto",
-            "x": 13,
-            "y": 29,
+            "x": 29,
+            "y": 20,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/vorto.png",
-                "w": 246,
+                "w": 230,
                 "h": 63,
                 "scale": 1
             },
@@ -148,13 +148,13 @@
         {
             "id": "4diac",
             "label": "4diac",
-            "x": 10,
-            "y": 17,
+            "x": 17,
+            "y": 28,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/4diac.png",
-                "w": 236,
+                "w": 220,
                 "h": 62,
                 "scale": 1
             },
@@ -163,13 +163,13 @@
         {
             "id": "hono",
             "label": "hono",
-            "x": 19,
-            "y": 5,
+            "x": 7,
+            "y": 3,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/hono.png",
-                "w": 208,
+                "w": 192,
                 "h": 63,
                 "scale": 1
             },
@@ -178,8 +178,8 @@
         {
             "id": "kapua",
             "label": "kapua",
-            "x": 15,
-            "y": 24,
+            "x": 24,
+            "y": 28,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -194,12 +194,12 @@
             "id": "unide",
             "label": "unide",
             "x": 11,
-            "y": 6,
+            "y": 22,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/unide.png",
-                "w": 228,
+                "w": 212,
                 "h": 61,
                 "scale": 1
             },
@@ -208,13 +208,13 @@
         {
             "id": "agile",
             "label": "agile",
-            "x": 0,
-            "y": 15,
+            "x": 2,
+            "y": 23,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/agile.png",
-                "w": 216,
+                "w": 200,
                 "h": 61,
                 "scale": 1
             },
@@ -223,8 +223,8 @@
         {
             "id": "kuksa",
             "label": "kuksa",
-            "x": 5,
-            "y": 22,
+            "x": 7,
+            "y": 19,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -238,13 +238,13 @@
         {
             "id": "thingweb",
             "label": "thingweb",
-            "x": 8,
-            "y": 10,
+            "x": 5,
+            "y": 16,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/thingweb.png",
-                "w": 397,
+                "w": 381,
                 "h": 62,
                 "scale": 1
             },
@@ -253,13 +253,13 @@
         {
             "id": "mita",
             "label": "mita",
-            "x": 6,
-            "y": 22,
+            "x": 28,
+            "y": 19,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/mita.png",
-                "w": 183,
+                "w": 167,
                 "h": 62,
                 "scale": 1
             },
@@ -268,8 +268,8 @@
         {
             "id": "tahu",
             "label": "tahu",
-            "x": 30,
-            "y": 28,
+            "x": 27,
+            "y": 6,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -283,13 +283,13 @@
         {
             "id": "volttron",
             "label": "volttron",
-            "x": 15,
-            "y": 0,
+            "x": 27,
+            "y": 27,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/volttron.png",
-                "w": 372,
+                "w": 356,
                 "h": 62,
                 "scale": 1
             },
@@ -298,8 +298,8 @@
         {
             "id": "streamsheets",
             "label": "streamsheets",
-            "x": 8,
-            "y": 18,
+            "x": 0,
+            "y": 27,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -313,13 +313,13 @@
         {
             "id": "zenoh",
             "label": "zenoh",
-            "x": 18,
-            "y": 14,
+            "x": 13,
+            "y": 25,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/zenoh.png",
-                "w": 244,
+                "w": 236,
                 "h": 62,
                 "scale": 1
             },
@@ -328,8 +328,8 @@
         {
             "id": "testware",
             "label": "testware",
-            "x": 10,
-            "y": 13,
+            "x": 7,
+            "y": 9,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -343,13 +343,13 @@
         {
             "id": "sensinact",
             "label": "sensinact",
-            "x": 7,
+            "x": 13,
             "y": 3,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/sensinact.png",
-                "w": 412,
+                "w": 396,
                 "h": 62,
                 "scale": 1
             },
@@ -358,13 +358,13 @@
         {
             "id": "agail",
             "label": "agail",
-            "x": 27,
-            "y": 17,
+            "x": 25,
+            "y": 28,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/agail.png",
-                "w": 215,
+                "w": 199,
                 "h": 61,
                 "scale": 1
             },
@@ -373,13 +373,13 @@
         {
             "id": "whiskers",
             "label": "whiskers",
-            "x": 29,
-            "y": 13,
+            "x": 2,
+            "y": 25,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/whiskers.png",
-                "w": 361,
+                "w": 346,
                 "h": 62,
                 "scale": 1
             },
@@ -388,13 +388,13 @@
         {
             "id": "moquette",
             "label": "moquette",
-            "x": 16,
-            "y": 11,
+            "x": 2,
+            "y": 0,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/moquette.png",
-                "w": 364,
+                "w": 348,
                 "h": 61,
                 "scale": 1
             },
@@ -403,13 +403,13 @@
         {
             "id": "titan",
             "label": "titan",
-            "x": 19,
-            "y": 3,
+            "x": 10,
+            "y": 0,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/titan.png",
-                "w": 233,
+                "w": 217,
                 "h": 62,
                 "scale": 1
             },
@@ -418,13 +418,13 @@
         {
             "id": "uomo",
             "label": "uomo",
-            "x": 1,
-            "y": 12,
+            "x": 25,
+            "y": 29,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/uomo.png",
-                "w": 209,
+                "w": 193,
                 "h": 63,
                 "scale": 1
             },
@@ -433,13 +433,13 @@
         {
             "id": "mihini",
             "label": "mihini",
-            "x": 0,
-            "y": 19,
+            "x": 9,
+            "y": 14,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/mihini.png",
-                "w": 248,
+                "w": 216,
                 "h": 62,
                 "scale": 1
             },
@@ -448,13 +448,13 @@
         {
             "id": "koneki",
             "label": "koneki",
-            "x": 7,
-            "y": 17,
+            "x": 16,
+            "y": 30,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/koneki.png",
-                "w": 260,
+                "w": 252,
                 "h": 62,
                 "scale": 1
             },
@@ -463,23 +463,23 @@
         {
             "id": 2,
             "label": "Open Platform Communication Unified Architecture",
-            "x": 8,
-            "y": 25,
+            "x": 23,
+            "y": 10,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": "milo",
             "label": "milo",
-            "x": 17,
-            "y": 10,
+            "x": 2,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/milo.png",
-                "w": 185,
+                "w": 161,
                 "h": 63,
                 "scale": 1
             },
@@ -488,17 +488,17 @@
         {
             "id": 3,
             "label": "Datagram Transport Layer Security",
-            "x": 15,
-            "y": 14,
+            "x": 29,
+            "y": 7,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": "leshan",
             "label": "leshan",
-            "x": 21,
+            "x": 30,
             "y": 29,
             "size": 5,
             "color": "#000000",
@@ -513,8 +513,8 @@
         {
             "id": "wakaama",
             "label": "wakaama",
-            "x": 29,
-            "y": 21,
+            "x": 14,
+            "y": 11,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -528,13 +528,13 @@
         {
             "id": "tinydtls",
             "label": "tinydtls",
-            "x": 23,
-            "y": 6,
+            "x": 20,
+            "y": 7,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/tinydtls.png",
-                "w": 364,
+                "w": 348,
                 "h": 62,
                 "scale": 1
             },
@@ -543,20 +543,20 @@
         {
             "id": 4,
             "label": "Production Performance Management Protocol",
-            "x": 26,
-            "y": 9,
+            "x": 29,
+            "y": 1,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": 5,
             "label": "Attribute-based access control",
-            "x": 21,
-            "y": 20,
+            "x": 24,
+            "y": 25,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
@@ -564,7 +564,7 @@
             "id": "keti",
             "label": "keti",
             "x": 15,
-            "y": 5,
+            "y": 0,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -578,43 +578,43 @@
         {
             "id": 6,
             "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 21,
-            "y": 1,
+            "x": 8,
+            "y": 15,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": 7,
             "label": "Automotive Grade Linux",
-            "x": 14,
-            "y": 25,
+            "x": 2,
+            "y": 4,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": 8,
             "label": "Data Distribution Service",
-            "x": 24,
-            "y": 29,
+            "x": 13,
+            "y": 5,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": "cyclonedds",
             "label": "cyclonedds",
-            "x": 5,
-            "y": 5,
+            "x": 17,
+            "y": 25,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/cyclonedds.png",
-                "w": 461,
+                "w": 453,
                 "h": 62,
                 "scale": 1
             },
@@ -623,13 +623,13 @@
         {
             "id": "iceoryx",
             "label": "iceoryx",
-            "x": 21,
-            "y": 26,
+            "x": 19,
+            "y": 20,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/iceoryx.png",
-                "w": 365,
+                "w": 341,
                 "h": 62,
                 "scale": 1
             },
@@ -638,13 +638,13 @@
         {
             "id": "risev2g",
             "label": "risev2g",
-            "x": 11,
-            "y": 7,
+            "x": 6,
+            "y": 29,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/risev2g.png",
-                "w": 322,
+                "w": 306,
                 "h": 63,
                 "scale": 1
             },
@@ -653,8 +653,8 @@
         {
             "id": "mtj",
             "label": "mtj",
-            "x": 3,
-            "y": 26,
+            "x": 25,
+            "y": 15,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -668,33 +668,33 @@
         {
             "id": 9,
             "label": "Web of Thing",
-            "x": 20,
-            "y": 26,
+            "x": 29,
+            "y": 28,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": 10,
             "label": "the standard for contactless tickets and cards",
-            "x": 25,
-            "y": 15,
+            "x": 26,
+            "y": 17,
             "size": 10,
-            "color": "#ff0000",
+            "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
             "id": "hip",
             "label": "hip",
-            "x": 1,
-            "y": 11,
+            "x": 19,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/hip.png",
-                "w": 143,
+                "w": 127,
                 "h": 62,
                 "scale": 1
             },
@@ -703,8 +703,8 @@
         {
             "id": "keyple",
             "label": "keyple",
-            "x": 9,
-            "y": 15,
+            "x": 26,
+            "y": 28,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -734,7 +734,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_mosquitto_interchangeable",
@@ -743,7 +743,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_mosquitto_use",
@@ -752,7 +752,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_ditto_use",
@@ -761,7 +761,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_ponte_interchangeable",
@@ -770,7 +770,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_vorto_use",
@@ -779,7 +779,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_4diac_use",
@@ -788,7 +788,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_4diac_interchangeable",
@@ -797,7 +797,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_hono_use",
@@ -806,7 +806,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_kapua_use",
@@ -815,7 +815,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_agile_use",
@@ -824,7 +824,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_volttron_use",
@@ -833,7 +833,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_testware_interchangeable",
@@ -842,7 +842,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_sensinact_interchangeable",
@@ -851,7 +851,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_sensinact_use",
@@ -860,7 +860,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_whiskers_use",
@@ -869,7 +869,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_moquette_use",
@@ -878,7 +878,7 @@
             "target": "1",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_leshan_interchangeable",
@@ -887,7 +887,7 @@
             "target": "3",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_tinydtls_interchangeable",
@@ -896,7 +896,7 @@
             "target": "3",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_cyclonedds_interchangeable",
@@ -905,7 +905,7 @@
             "target": "8",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_iceoryx_interchangeable",
@@ -914,7 +914,7 @@
             "target": "8",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "e_keyple_use",
@@ -923,7 +923,7 @@
             "target": "10",
             "size": 2,
             "type": "curvedArrow",
-            "color": "#ff0000"
+            "color": "#0000ff"
         },
         {
             "id": "transparent_1",
