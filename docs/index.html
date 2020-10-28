@@ -12,10 +12,8 @@
   <a href="http://localhost:5500/docs/"></a>
 
   <div id="frame">
-    <div class="graph">
-      <div id="container"></div>
-    </div>
-    <div class="survey">
+    <div id="container" class="toggle_survey survey_close"></div>
+    <div id="survey" class="toggle_survey survey_close">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLScr4sexYyBM27NegSEJI7WtKFun_WpwRDuVyzWUJO6PyDD-WA/viewform?embedded=true">Loading…</iframe>
     </div>
@@ -39,7 +37,7 @@
     </p>
   </div>
 
-  <div id="feedback">
+  <div id="feedback" class="toggle_survey survey_close">
     <button type="button" class="blue" id="feedback_btn">Something wrong? Send a feedback!</button>
     <button type="button" class="red" id="close_feedback_btn">X</button>
   </div>

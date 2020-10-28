@@ -142,11 +142,23 @@ var wordcloud = {
     },
 
     feedbackClicked: function () {
+        // var container = document.getElementById('container')
+        // var survey = document.getElementById('survey')
+        // var feedback = document.getElementById('feedback')
 
+        var toogle_survey_elements = document.getElementsByClassName('toggle_survey');
+        for (element of toogle_survey_elements) {
+            element.classList.remove('survey_close');
+            element.classList.add('survey_open');
+        }
     },
 
     closeFeedbackClicked: function () {
-
+        var toogle_survey_elements = document.getElementsByClassName('toggle_survey');
+        for (element of toogle_survey_elements) {
+            element.classList.add('survey_close');
+            element.classList.remove('survey_open');
+        }
     },
 
     init: function () {
@@ -173,6 +185,8 @@ var wordcloud = {
                 await wordcloud.config();
             }
         );
+
+        wordcloud.addButtonClickEvent();
     }
 }
 

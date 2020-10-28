@@ -62,6 +62,7 @@
     "liveServer.settings.port": 5500,
     "compile-hero.disable-compile-files-on-did-save-code": false,
     "compile-hero.scss-output-directory": "./",
+    "compile-hero.scss-output-toggle": true,
     "compile-hero.jade-output-toggle": false,
     "compile-hero.javascript-output-toggle": false,
     "compile-hero.less-output-toggle": false,

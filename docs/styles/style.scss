@@ -1,18 +1,26 @@
-@media screen and (min-width: 768px) {
-    #frame {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        column-gap: 2px;
-    }
+@media screen and (min-width: 1024px) {
     #container {
-        max-width: 100%;
-        height: 70vh;
-        margin: auto;
+        &.survey_open {
+            width: 65%;
+            float: left;
+        }
+        &.survey_close {
+            width: 100%;
+            float: left;
+        }
     }
-    .survey {
+    #survey {
+        &.survey_open {
+            width: 35%;
+            float: right;
+            display: block;
+        }
+        &.survey_close {
+            display: none;
+        }
         iframe {
             width: 100%;
-            height: 28vh;
+            height: 98vh;
             border: none;
         }
     }
@@ -29,10 +37,6 @@
         width: 100%;
         height: 98vh;
         border: none;
-    }
-
-    &.open {
-        
     }
 }
 
@@ -72,6 +76,27 @@
     position: absolute;
     top: 0px;
     right: 0px;
+
+    &.survey_close {
+        button {
+            &.blue {
+                display: block;
+            }
+            &.red {
+                display: none;
+            }
+        }
+    }
+    &.survey_open {
+        button {
+            &.blue {
+                display: none;
+            }
+            &.red {
+                display: block;
+            }
+        }
+    }
 
     button {
         border: none;
