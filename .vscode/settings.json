@@ -59,5 +59,14 @@
         "unide",
         "wakaama"
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5500,
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "compile-hero.scss-output-directory": "./",
+    "compile-hero.jade-output-toggle": false,
+    "compile-hero.javascript-output-toggle": false,
+    "compile-hero.less-output-toggle": false,
+    "compile-hero.pug-output-toggle": false,
+    "compile-hero.sass-output-toggle": false,
+    "compile-hero.typescript-output-toggle": false,
+    "compile-hero.typescriptx-output-toggle": false
 }

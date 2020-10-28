@@ -133,6 +133,22 @@ var wordcloud = {
         // s.refresh();
     },
 
+    addButtonClickEvent: function () {
+        feedbackBtn = document.getElementById('feedback_btn');
+        feedbackBtn.onclick = this.feedbackClicked;
+
+        closeFeedBackBtn = document.getElementById('close_feedback_btn');
+        closeFeedBackBtn.onclick = this.closeFeedbackClicked;
+    },
+
+    feedbackClicked: function () {
+
+    },
+
+    closeFeedbackClicked: function () {
+
+    },
+
     init: function () {
         wordcloud.customRender();
 
