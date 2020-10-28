@@ -58,12 +58,12 @@ choco install ghostscript
 # pip install Twisted[windows_platform]
 [sudo] python3 -m pip install Scrapy
 [sudo] python3 -m pip install matplotlib
-[sudo] python3 -m pip install numpy
 [sudo] python3 -m pip install Pillow
 [sudo] python3 -m pip install Wordcloud
 [sudo] python3 -m pip install tabulate
 [sudo] python3 -m pip install pandas
 [sudo] python3 -m pip install --upgrade gensim
+[sudo] python3 -m pip install jsonpickle
 ```
 
 Install Natural Language Processing toolkit (nltk)
@@ -83,6 +83,7 @@ python3
 >>> nltk.download('stopwords')
 >>> nltk.download('punkt')
 >>> nltk.download('averaged_perceptron_tagger')
+>>> quit()
 ```
 
 **For Windows Machine**
