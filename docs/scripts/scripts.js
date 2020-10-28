@@ -151,6 +151,10 @@ var wordcloud = {
             element.classList.remove('survey_close');
             element.classList.add('survey_open');
         }
+
+        if (window.innerWidth <= 1024) {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
     },
 
     closeFeedbackClicked: function () {
