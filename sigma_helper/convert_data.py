@@ -128,7 +128,7 @@ def load_linked_result():
 
 
 def save_graph(data):
-    with open('./docs/graph.json', 'w', encoding='utf8') as dataFile:
+    with open('./docs/data/graph.json', 'w', encoding='utf8') as dataFile:
         dataFile.write(jsonpickle.encode(data, unpicklable=False))
 
 

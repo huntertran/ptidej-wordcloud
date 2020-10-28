@@ -140,7 +140,7 @@ var s = new sigma({
 });
 
 sigma.parsers.json(
-    'graph.json',
+    'data/graph.json',
     s,
     async function () {
         await config();
