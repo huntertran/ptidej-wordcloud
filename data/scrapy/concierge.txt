@@ -1,0 +1,1012 @@
+Concierge - A small-footprint implementation of the OSGi Core R5 Specification
+Toggle navigation
+Concierge
+Downloads
+Documentation
+Getting Started
+Advanced options
+Building and contributing
+Community
+Mailing List
+Issue Tracker
+Source Code
+Continuous Integration
+Concierge is an iot.eclipse.org project
+Concierge is a small-footprint implementation of the OSGi Core Specification R5 standard optimized for mobile and embedded devices.
+OSGi for mobile and embedded devices
+Concierge brings OSGi to your mobile and embedded devices such as the Raspberry Pi and Beaglebone black. Concierge also has support for running on Android's Dalvik VM.
+Small footprint implementation
+With a .jar size of around 250kb, Concierge is the smallest OSGi R5 implementation around. This results in a fast startup time and an efficient service registry. Also, the framework runs on current and upcoming Java embedded profiles (e.g. Java 8 compact profile).
+OSGi R5
+Concierge implements the OSGi R5 APIs. We strictly adhere the OSGi Core specification, and omit any optional services to keep our low footprint. If needed, some extra services can be installed as separate bundles.
+Eclipse Home
+Market Place
+Eclipse Live
+Eclipse Planet
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
+Mailing list: concierge-dev (56 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Eclipse - The Eclipse Foundation open source community website. | An amazing open source community of Tools, Projects and Collaborative Working Groups.
+GitHub - eclipse/concierge: Eclipse Concierge™ project
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: concierge-dev (56 subscribers)
+Concierge developer discussions
+About concierge-dev
+Concierge developer discussions
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Using concierge-dev
+To post a message to all the list members,
+send email to concierge-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the concierge-dev Archives or subscribe to this list's RSS feed
+Subscribing concierge-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Eclipse Concierge | projects.eclipse.org
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: concierge-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Concierge
+Downloads
+Eclipse Concierge
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+concierge
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+CI Builds:
+https://ci.eclipse.org/concierge/job/Master_Build/lastBuild/
+Snapshot Builds:
+http://download.eclipse.org/concierge/download/snapshots/?d
+Latest Snapshot Build:
+concierge-incubation-SNAPSHOT-latest.tar.gz
+concierge-incubation-SNAPSHOT-latest.zip
+Releases and Milestones:
+Downloads: Concierge Incubation 5.1.0 (tar.gz)Concierge Incubation 5.1.0 (zip)Concierge Incubation 5.0.0 (tar.gz)Concierge Incubation 5.0.0 (zip)
+Project Links
+Watch
+16
+Star
+28
+Fork
+15
+Eclipse Concierge™ project
+www.eclipse.org/concierge/
+EPL-1.0 License
+28
+stars
+15
+forks
+Star
+Watch
+Code
+Website
+Related Projects
+Related Projects:Eclipse ProjectEclipse Equinox
+Project Hierarchy:Eclipse IoT
+Eclipse Concierge
+Tags
+Technology TypesInternet of Things
+OSGi
+Runtime
+Build TechnologiesJenkins
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Issues
+23
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+1
+branch
+2
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+502
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+.gradle-wrapper
+bundles
+distribution
+docs
+framework
+samples
+targetplatform
+tests
+website
+.gitignore
+.project
+.travis.yml
+CONTRIBUTING
+LICENSE
+NOTICE
+Issues · eclipse/concierge · GitHub
+README.md
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+pom.xml
+settings.gradle
+version.txt
+View code
+README.md
+Eclipse Concierge
+Concierge is a small-footprint implementation of the OSGi Core Specification optimized for mobile and embedded devices.
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+The main project goals are:
+Keep a small footprint to work well
+on embedded devices
+Remain “readable”
+Remain backwards-compatible
+Being a sandbox for innovation around OSGi
+User documentation
+Getting started
+Run Concierge from command line
+Run Concierge with Bnd(tools)
+How to embed Concierge into a Java application
+OSGi Options supported by Concierge
+Concierge Options
+Concierge AddOn bundles
+Developer documentation
+Building Concierge from source
+How to contribute
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+About
+Eclipse Concierge™ project
+www.eclipse.org/concierge/
+Resources
+Readme
+License
+EPL-1.0 License
+Releases
+2
+tags
+Packages 0
+No packages published
+Contributors 8
+Languages
+Java
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+98.0%
+Shell
+1.2%
+Other
+0.8%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+concierge
+Watch
+16
+Star
+28
+Fork
+15
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+Code
+Issues
+23
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Master_Build #316 [Jenkins]
+Projects
+Security
+Insights
+Labels
+7
+Milestones
+2
+Labels
+7
+Milestones
+2
+New issue
+Have a question about this project? Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+Pick a username
+Skip to contentJenkinslog inJenkinsMaster_Build#316ENABLE AUTO REFRESH Back to Project Status Changes Console Output View Build Information Polling Log Git Build Data Test Result See Fingerprints Previous BuildStarted 4 mo 12 days ago
+Took 1 min 43 sec
+on basic-qnkb8
+Build #316
+(Jul 2, 2020 10:02:26 AM)
+Build Artifactsconcierge-incubation-6.0.0.SNAPSHOT.tar.gz2.28 MB viewconcierge-incubation-6.0.0.SNAPSHOT.zip2.34 MB view
+Changes
+fix type
+(details / githubweb)Started by an SCM changeRevision: 0378bf822791ce971c428c8fd9ee6d1139eb7135
+origin/masterTest Result (no failures)Page generated: Nov 11, 2020 1:17:50 PM ESTREST APIJenkins ver. 2.222.4
+Email Address
+Password
+Sign up for GitHub
+By clicking “Sign up for GitHub”, you agree to our terms of service and
+privacy statement. We’ll occasionally send you account related emails.
+Already on GitHub?
+Sign in
+to your account
+23 Open
+24 Closed
+23 Open
+24 Closed
+Author
+Filter by author
+Label
+Filter by label
+Use alt + click/return to exclude labels.
+Projects
+Filter by project
+Milestones
+Filter by milestone
+Assignee
+Filter by who’s assigned
+Sort
+Sort by
+Newest
+Oldest
+Most commented
+Least commented
+Recently updated
+Least recently updated
+Most reactions
+👍
+👎
+😄
+🎉
+😕
+❤️
+🚀
+👀
+Framework.waitForStop() notifies only a single thread
+#84
+opened Dec 23, 2019 by
+pdolezal
+BundleContext.getBundle(String) not consistent with BundleContext.getBundles()
+#83
+opened Dec 23, 2019 by
+pdolezal
+3
+Concierge framework does not support extensions in JDK11
+#67
+opened Nov 16, 2018 by
+JochenHiller
+Unable to start with Java 11
+#62
+opened Oct 31, 2018 by
+htreu
+4
+Hardcoded version in framework bundle
+#60
+opened Sep 28, 2018 by
+svilenvul
+2
+ArrayIndexOutOfBoundsException
+#57
+opened Jun 13, 2018 by
+hsynkrtl
+3
+org.eclipse.concierge.service.xmlparser does not run on CEE-J
+#38
+opened Nov 11, 2017 by
+JochenHiller
+R6.0
+Collaborate with Apache Karaf to add Concierge as OSGi framework to run
+#21
+opened Oct 30, 2016 by
+JochenHiller
+Collaborate with ops4j to add Concierge as OSGi framework to pax-exam
+#20
+opened Oct 30, 2016 by
+JochenHiller
+Collaborate with ops4j to add Concierge as OSGi framework to pax-runner
+#19
+opened Oct 30, 2016 by
+JochenHiller
+Raspberry Pi support
+#17
+opened Oct 28, 2016 by
+JochenHiller
+1
+Concierge Eclipse Launcher Plugin
+#16
+opened Oct 28, 2016 by
+JochenHiller
+framework bootdelegation insufficient
+#15
+opened Oct 28, 2016 by
+JochenHiller
+Use pax-exam for Concierge integration tests?
+#14
+opened Oct 28, 2016 by
+JochenHiller
+2
+EventAdmin implementation
+#13
+opened Oct 28, 2016 by
+JochenHiller
+R5.1
+Call for demos
+#12
+opened Oct 28, 2016 by
+JochenHiller
+Framework extension will not be resolved on framework start from storage
+#8
+opened Oct 28, 2016 by
+JochenHiller
+URLHandlers service
+#7
+opened Oct 28, 2016 by
+JochenHiller
+test cases race conditions
+#6
+opened Oct 28, 2016 by
+JochenHiller
+Fix checking conflicts when attaching fragments
+#5
+opened Oct 28, 2016 by
+JochenHiller
+Concierge as standalone resolver
+#3
+opened Oct 28, 2016 by
+JochenHiller
+R6.0
+More test cases wanted
+#2
+opened Oct 28, 2016 by
+JochenHiller
+OSGi Coordinator service
+#1
+opened Oct 28, 2016 by
+JochenHiller
+ProTip!
+What’s not been updated in a month: updated:<2020-10-11.
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+concierge-dev
+http://dev.eclipse.org/mhonarc/lists/concierge-dev/maillist.html
+concierge-dev
+en-us
+Thu, 09 Jan 2020 17:28:02 GMT
+Thu, 09 Jan 2020 17:28:02 GMT
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+concierge-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/concierge-dev/maillist.html
+Re: [concierge-dev] Concierge on mobile?
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00161.html
+Re: [concierge-dev] Concierge on mobile?
+Wed, 14 Nov 2018 15:42:58 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00161.html
+tim.verbelen@xxxxxxx (Tim Verbelen)
+Re: [concierge-dev] Concierge on mobile?
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00160.html
+Re: [concierge-dev] Concierge on mobile?
+Wed, 14 Nov 2018 12:19:28 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00160.html
+jo.hiller@xxxxxxx (Jochen Hiller)
+[concierge-dev] Concierge on mobile?
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00159.html
+concierge-dev
+[concierge-dev] Concierge on mobile?
+Wed, 14 Nov 2018 09:44:42 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00159.html
+joerg.wille@xxxxxxx (Jörg Wille)
+[concierge-dev] Concierge 5.1 release
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00158.html
+[concierge-dev] Concierge 5.1 release
+Wed, 14 Nov 2018 09:07:29 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00158.html
+rellermeyer@xxxxxxx (Jan Rellermeyer)
+Re: [concierge-dev] cluster info service can not find other nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00157.html
+Re: [concierge-dev] cluster info service can not find other nodes
+Wed, 07 Nov 2018 03:09:04 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00157.html
+slewis@xxxxxxx (Scott Lewis)
+http://dev.eclipse.org/mhonarc/lists/concierge-dev/maillist.html
+concierge-dev
+en-us
+Thu, 09 Jan 2020 17:28:02 GMT
+Thu, 09 Jan 2020 17:28:02 GMT
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+concierge-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/concierge-dev/maillist.html
+Re: [concierge-dev] Concierge on mobile?
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00161.html
+Re: [concierge-dev] Concierge on mobile?
+Wed, 14 Nov 2018 15:42:58 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00161.html
+[concierge-dev] cluster info service can not find other nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00156.html
+[concierge-dev] cluster info service can not find other nodes
+Mon, 05 Nov 2018 10:16:49 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00156.html
+joern.schumann@xxxxxxx (Jörn Schumann (joern.schumann@xxxxxxxxxxxxxxxx))
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00155.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+tim.verbelen@xxxxxxx (Tim Verbelen)
+Re: [concierge-dev] Concierge on mobile?
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00160.html
+Re: [concierge-dev] Concierge on mobile?
+Wed, 14 Nov 2018 12:19:28 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00160.html
+jo.hiller@xxxxxxx (Jochen Hiller)
+[concierge-dev] Concierge on mobile?
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00159.html
+[concierge-dev] Concierge on mobile?
+Thu, 18 Oct 2018 09:37:54 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00155.html
+joern.schumann@xxxxxxx (Jörn Schumann (joern.schumann@xxxxxxxxxxxxxxxx))
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00154.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+Wed, 17 Oct 2018 15:11:25 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00154.html
+slewis@xxxxxxx (Scott Lewis)
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00153.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+Wed, 17 Oct 2018 11:12:44 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00153.html
+tim.verbelen@xxxxxxx (Tim Verbelen)
+Wed, 14 Nov 2018 09:44:42 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00159.html
+joerg.wille@xxxxxxx (Jörg Wille)
+[concierge-dev] Concierge 5.1 release
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00158.html
+[concierge-dev] Concierge 5.1 release
+Wed, 14 Nov 2018 09:07:29 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00158.html
+rellermeyer@xxxxxxx (Jan Rellermeyer)
+Re: [concierge-dev] cluster info service can not find other nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00157.html
+Re: [concierge-dev] cluster info service can not find other nodes
+Wed, 07 Nov 2018 03:09:04 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00157.html
+slewis@xxxxxxx (Scott Lewis)
+[concierge-dev] cluster info service can not find other nodes
+Project download area | The Eclipse Foundation
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00152.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+Wed, 17 Oct 2018 11:09:33 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00152.html
+tim.verbelen@xxxxxxx (Tim Verbelen)
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00156.html
+[concierge-dev] cluster info service can not find other nodes
+Mon, 05 Nov 2018 10:16:49 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00156.html
+joern.schumann@xxxxxxx (Jörn Schumann (joern.schumann@xxxxxxxxxxxxxxxx))
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00155.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+Thu, 18 Oct 2018 09:37:54 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00155.html
+joern.schumann@xxxxxxx (Jörn Schumann (joern.schumann@xxxxxxxxxxxxxxxx))
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00154.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+Wed, 17 Oct 2018 15:11:25 GMT
+Skip to main content
+Log in
+Manage Cookies
+Download
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00154.html
+slewis@xxxxxxx (Scott Lewis)
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00153.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+Wed, 17 Oct 2018 11:12:44 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00153.html
+tim.verbelen@xxxxxxx (Tim Verbelen)
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00152.html
+Re: [concierge-dev] access Cluster Information Service from distributed OSGi-Nodes
+Wed, 17 Oct 2018 11:09:33 GMT
+http://www.eclipse.org/mhonarc/lists/concierge-dev/msg00152.html
+tim.verbelen@xxxxxxx (Tim Verbelen)
+Index of concierge-dev for November 2018
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Downloads
+Project Download Area
+Eclipse Downloads
+This page is not designed to be web-accessible, as the project has not created a web page here. You can try the following:
+Contact the project members on their user forum.
+Browse the directory contents to find the file you're looking for.
+Go to the main Downloads page.
+Directory Contents .. concierge-incubation-5.1.0.SNAPSHOT-20180130024217.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20180130024217.zip concierge-incubation-5.1.0.SNAPSHOT-20180302035314.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20180302035314.zip concierge-incubation-5.1.0.SNAPSHOT-20180411051716.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20180411051716.zip concierge-incubation-5.1.0.SNAPSHOT-20180411053419.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20180411053419.zip concierge-incubation-5.1.0.SNAPSHOT-20180523024817.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20180523024817.zip concierge-incubation-5.1.0.SNAPSHOT-20181023133215.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20181023133215.zip concierge-incubation-5.1.0.SNAPSHOT-20181023134116.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20181023134116.zip concierge-incubation-5.1.0.SNAPSHOT-20181023170743.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20181023170743.zip concierge-incubation-5.1.0.SNAPSHOT-20181024084713.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20181024084713.zip concierge-incubation-5.1.0.SNAPSHOT-20181031093316.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20181031093316.zip concierge-incubation-5.1.0.SNAPSHOT-20181031105528.tar.gz concierge-incubation-5.1.0.SNAPSHOT-20181031105528.zip concierge-incubation-6.0.0.SNAPSHOT-20181118035112.tar.gz concierge-incubation-6.0.0.SNAPSHOT-20181118035112.zip concierge-incubation-6.0.0.SNAPSHOT.tar.gz concierge-incubation-6.0.0.SNAPSHOT.zip concierge-incubation-SNAPSHOT-latest.tar.gz concierge-incubation-SNAPSHOT-latest.zip
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Useful links
+Eclipse project archives
+Eclipse project downloads
+Eclipse home
+Downloads home
+Email the webmaster
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+Index of concierge-dev for November 2018
+Index by Thread Index by Year [First Page] [Prev Page][Next Page] [Last Page]November 14, 2018Re: [concierge-dev] Concierge on mobile? Posted 10:42 by Tim VerbelenRe: [concierge-dev] Concierge on mobile? Posted 07:19 by Jochen Hiller[concierge-dev] Concierge on mobile? Posted 04:44 by Jörg Wille[concierge-dev] Concierge 5.1 release Posted 04:07 by Jan Rellermeyer
+November 06, 2018Re: [concierge-dev] cluster info service can not find other nodes Posted 22:09 by Scott Lewis
+November 05, 2018[concierge-dev] cluster info service can not find other nodes Posted 05:16 by Jörn Schumann (joern.schumann@xxxxxxxxxxxxxxxx)
+Mail converted by MHonArc
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

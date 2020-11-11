@@ -1,0 +1,65 @@
+Eclipse Communication Framework | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse RT
+Eclipse Communication Framework
+Eclipse Communication Framework
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse ECF provides frameworks for messaging and inter-process communications. We fully implement the OSGi Remote Services (RS) and Remote Service Admin (RSA) standards.
+See the ECF Wiki for examples, tutorials, other documentation, as well as plans and efforts currently underway for future releases.
+This project is part of Eclipse IDE 2020-09, Eclipse IDE 2020-06, Eclipse IDE 2020-03, Eclipse IDE 2019-12, Eclipse IDE 2019-09, Eclipse IDE 2019-06, Eclipse IDE 2019-03, Eclipse IDE 2018-12, Eclipse IDE 2018-09, Eclipse Photon, Eclipse Oxygen, Neon, Mars, Luna, Kepler, Juno, Indigo, Helios, Galileo, Ganymede, and Europa.
+Licenses: Eclipse Public License 1.0Latest Releases: From October 24th, 2019 to November 5th, 2020
+NameDateReview
+3.14.182020-11-05
+3.14.172020-10-28
+3.14.162020-10-07
+3.14.152020-10-07
+3.14.142020-08-16
+3.14.132020-08-14
+3.14.122020-07-14
+3.14.82020-06-03
+3.14.72020-02-24
+3.14.62019-10-24
+Active Member Companies: Member companies supporting this project over the last three months.
+Contribution Activity: Commits on this project (last 12 months).
+Project Links
+Documentation
+Getting Started
+Website
+Wiki
+Related Projects
+Project Hierarchy:Eclipse RT
+Eclipse Communication Framework
+Tags
+Technology TypesInternet of Things
+OSGi
+Runtime
+Tools
+Build TechnologiesJenkins
+Maven
+PDE Build
+Tycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

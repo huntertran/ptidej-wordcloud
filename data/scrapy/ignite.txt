@@ -1,0 +1,582 @@
+Eclipse Ignite|IoT | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Eclipse Ignite|IoT
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Ignite|IoT methodology has two main perspectives:
+IoT Strategy Execution: This perspective looks at IoT strategy from an enterprise perspective, including IoT strategy definition, IoT opportunity identification, IoT business case and IoT programme management.
+IoT Solution Delivery: This perspective looks at the individual IoT solution and the related project. Note that it defines the interfaces to the related asset and its organization, but usually excludes design and manufacturing of the asset itself.
+The Ignite|IoT solution delivery perspective is currently the more detailed one and can be broken down as follows:
+IoT Solution Lifecycle: This perspective focuses on planning, building and running IoT solutions.
+IoT Building Blocks: This perspective contains re-usable artifacts from successful projects, including Project Dimensions, Architecture Blueprints and Technology Profiles.
+IoT Project DB: This is a database of reference projects that have been analyzed in order to extract best practices for the IoT building blocks and the Solution Lifecycle Perspective.
+The IoT Solution Lifecycle contains the following elements:
+Initial Project Design: This design blueprint builds on the elements defined as part of the generic IoT Building Blocks, including project self-assessment using Project Dimensions, solution architecture leveraging Architecture Blueprints and technology selection leveraging Technology Profiles.
+Project Work streams: This blueprint defined the top level Work streams typically found in an IoT solution project. A checklist for each Work stream is provided, plus a list of common dependencies between the Work steams.
+The IoT Building Blocks consist of the following elements:
+Project Dimensions: This is a precursor of formal project requirements. Project dimensions are used for project self-assessment, project comparisons, architecture and technology selection, etc.
+Architecture Blueprints: Building on existing architecture blueprints (e.g. Service Oriented Architecture), this adds new architectural perspectives required for IoT project and provides a superstructure to integrate the different required architectural perspectives.
+Technology Profiles: Identifies and describes the most important technologies usually required for IoT projects. Leverages IoT architecture perspectives to describe where in the overall IoT architecture these different technologies fit in. Attempts to link back to project dimensions to support technology selection.
+Licenses: Creative Commons Attribution 3.0 Unported
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Ignite|IoT | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Contact Us
+Eclipse Ignite|IoT
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Developer Mailing List: ignite-dev - ignite developer discussions
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Ignite|IoT | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Downloads
+Eclipse Ignite|IoT
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Ignite|IoT | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Developer Resources
+Eclipse Ignite|IoT
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Source Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.ignite - Project repository hosted on GitHub.Clone: https://github.com/eclipse/ignite.gitBrowse Repository
+Project Links
+Dev Mailing List
+Eclipse Ignite|IoT | projects.eclipse.org
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Governance
+Back to the top
+Eclipse Ignite|IoT
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Scope: The Ignite|IoT methodology is for IoT product managers, project managers, solution architects and other IoT stakeholders. The goal is to make IoT best practices available in the form of a technology independent, reusable, open source methodology which supports IoT solution design as well as IoT project set-up and management by providing project templates, checklists and solution architecture blueprints.
+Working Group: Internet of Things (IoT)Reviews:
+NameDate
+Creation Review2016-08-17
+Project Links
+Proposal
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Ignite|IoT | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Who's Involved
+Eclipse Ignite|IoT
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Project Members: Project Lead
+Philipp Richert
+Committer
+Philipp Richert
+Mentors
+Benjamin Cabé
+Wayne Beaton
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Ignite|IoT | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Ignite|IoT
+×
+Status message
+This proposal has been approved and the Eclipse Ignite|IoT project has been created.
+Ignite|IoT
+Basics
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section. Parent Project: Eclipse IoT
+Background: A key characteristic of IoT projects is that these projects tend to combine multiple, very different disciplines into a single project, including product design and manufacturing, embedded hardware and software, local and remote communication, enterprise application development and integration, cross-domain security, etc.
+There are currently only a limited number of experts available with the required deep experience in this kind of multi-disciplinary project management (e.g. people who successfully managed Telematics and Machine-2-Machine projects, who now start to apply these skills to IoT projects). However, in order for IoT to gain more widespread acceptance, it will be necessary to make this experience available to a broader audience. This is the goal of the Ignite|IoT methodology. We aim to provide a high-level methodology that bridges these different required IoT disciplines, and then collaborate with experts from the different disciplines to capture their experiences and best practices and integrate them to the methodology.
+The development of the Ignite|IoT methodology is closely related to the Enterprise IoT book, which is currently co-authored by the contributors of this project. Enterprise IoT will also contain a number of M2M and IoT case studies. The analysis of these case studies is the foundation for the identification of the best practices and expert recommendations for Ignite|IoT release 0.8 (see roadmap below).
+Scope: The Ignite|IoT methodology is for IoT product managers, project managers, solution architects and other IoT stakeholders. The goal is to make IoT best practices available in the form of a technology independent, reusable, open source methodology which supports IoT solution design as well as IoT project set-up and management by providing project templates, checklists and solution architecture blueprints.
+Description: The Ignite|IoT methodology has two main perspectives:
+IoT Strategy Execution: This perspective looks at IoT strategy from an enterprise perspective, including IoT strategy definition, IoT opportunity identification, IoT business case and IoT programme management.
+IoT Solution Delivery: This perspective looks at the individual IoT solution and the related project. Note that it defines the interfaces to the related asset and its organization, but usually excludes design and manufacturing of the asset itself.
+The Ignite|IoT solution delivery perspective is currently the more detailed one and can be broken down as follows:
+IoT Solution Lifecycle: This perspective focuses on planning, building and running IoT solutions.
+IoT Building Blocks: This perspective contains re-usable artifacts from successful projects, including Project Dimensions, Architecture Blueprints and Technology Profiles.
+IoT Project DB: This is a database of reference projects that have been analyzed in order to extract best practices for the IoT building blocks and the Solution Lifecycle Perspective.
+The IoT Solution Lifecycle contains the following elements:
+Initial Project Design: This design blueprint builds on the elements defined as part of the generic IoT Building Blocks, including project self-assessment using Project Dimensions, solution architecture leveraging Architecture Blueprints and technology selection leveraging Technology Profiles.
+Project Work streams: This blueprint defined the top level Work streams typically found in an IoT solution project. A checklist for each Work stream is provided, plus a list of common dependencies between the Work steams.
+The IoT Building Blocks consist of the following elements:
+Project Dimensions: This is a precursor of formal project requirements. Project dimensions are used for project self-assessment, project comparisons, architecture and technology selection, etc.
+Architecture Blueprints: Building on existing architecture blueprints (e.g. Service Oriented Architecture), this adds new architectural perspectives required for IoT project and provides a superstructure to integrate the different required architectural perspectives.
+Technology Profiles: Identifies and describes the most important technologies usually required for IoT projects. Leverages IoT architecture perspectives to describe where in the overall IoT architecture these different technologies fit in. Attempts to link back to project dimensions to support technology selection.
+Why Here?: The Eclipse IoT Working Group as an active community of organizations with a strong interest in promoting and validating IoT technologies and deployments seems like the ideal home for a framework that aims to add the solution design and project management perspective to the equation.
+While Ignite|IoT is technology agnostic, it relies on the emerging IoT middleware stack for its solution designs. Working closely with an open source community which is currently developing and deploying one important version of this emerging IoT middleware stack will help to validate the assumptions made in the Ignite|IoT framework and put them to the test.
+Licenses: Creative Commons Attribution 3.0 UnportedLegal Issues:
+Since this project only contains documentation and no source code, we propose to use the CC BY 3.0 lisense (Creative Commons Attribution 3.0 Unported). See also Eclipse board directive for Non-Code projects: https://eclipse.org/legal/noncodelicenses.php
+There are currently some photos included in the material for which we need to clarify the legal situation or replace them with photos / diagrams that can be used with the Creative Commons license.
+Project Scheduling: We are currently aiming for the following schedule:
+March 2015: Release 0.8
+This release will be included in the Enterprise IoT book
+It should include a full mapping of Eclipse standards to the Ignite|IoT Technology Profiles
+Q1 - Q3 2015
+Beta-Programme, continued validation of Ignite|IoT framework in projects
+Q4 2015: Release 1.0
+Future Work: The main focus will be on refining and validating the current methodology elements by building a user community around it, getting feedback from users in the community, adding additional case studies that look at specific aspects of the methodology, etc.
+People
+Project Leads: Philipp RichertDirk SlamaCommitters: Dirk SlamaFrank PuhlmannRishi BhatnagarJim MorrishPhilipp Richert Mentors: Benjamin Cabé
+Source Code
+Initial Contribution: Release 0.8 will include:
+Complete Ignite|IoT documentation as HTML files
+Complete list of all diagrams used to define and describe Ignite|IoT artifacts
+Complete Ignite|IoT training course as PDF and PPT (source)
+Excel (.xls and .csv) with the Ignite|IoT project dimensions, including definitions of all scales for project dimensions
+Source Repository Type: Git
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Ignite|IoT
+Creation Review
+Eclipse Ignite|IoT Creation Review
+Type: CreationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, August 17, 2016Project: Eclipse Ignite|IoTCreation ReviewProposal:
+Ignite|IoT
+Parent Project: Eclipse IoTBackground: A key characteristic of IoT projects is that these projects tend to combine multiple, very different disciplines into a single project, including product design and manufacturing, embedded hardware and software, local and remote communication, enterprise application development and integration, cross-domain security, etc.
+There are currently only a limited number of experts available with the required deep experience in this kind of multi-disciplinary project management (e.g. people who successfully managed Telematics and Machine-2-Machine projects, who now start to apply these skills to IoT projects). However, in order for IoT to gain more widespread acceptance, it will be necessary to make this experience available to a broader audience. This is the goal of the Ignite|IoT methodology. We aim to provide a high-level methodology that bridges these different required IoT disciplines, and then collaborate with experts from the different disciplines to capture their experiences and best practices and integrate them to the methodology.
+The development of the Ignite|IoT methodology is closely related to the Enterprise IoT book, which is currently co-authored by the contributors of this project. Enterprise IoT will also contain a number of M2M and IoT case studies. The analysis of these case studies is the foundation for the identification of the best practices and expert recommendations for Ignite|IoT release 0.8 (see roadmap below).
+Scope: The Ignite|IoT methodology is for IoT product managers, project managers, solution architects and other IoT stakeholders. The goal is to make IoT best practices available in the form of a technology independent, reusable, open source methodology which supports IoT solution design as well as IoT project set-up and management by providing project templates, checklists and solution architecture blueprints.
+Description: The Ignite|IoT methodology has two main perspectives:
+IoT Strategy Execution: This perspective looks at IoT strategy from an enterprise perspective, including IoT strategy definition, IoT opportunity identification, IoT business case and IoT programme management.
+IoT Solution Delivery: This perspective looks at the individual IoT solution and the related project. Note that it defines the interfaces to the related asset and its organization, but usually excludes design and manufacturing of the asset itself.
+The Ignite|IoT solution delivery perspective is currently the more detailed one and can be broken down as follows:
+IoT Solution Lifecycle: This perspective focuses on planning, building and running IoT solutions.
+IoT Building Blocks: This perspective contains re-usable artifacts from successful projects, including Project Dimensions, Architecture Blueprints and Technology Profiles.
+IoT Project DB: This is a database of reference projects that have been analyzed in order to extract best practices for the IoT building blocks and the Solution Lifecycle Perspective.
+The IoT Solution Lifecycle contains the following elements:
+Initial Project Design: This design blueprint builds on the elements defined as part of the generic IoT Building Blocks, including project self-assessment using Project Dimensions, solution architecture leveraging Architecture Blueprints and technology selection leveraging Technology Profiles.
+Project Work streams: This blueprint defined the top level Work streams typically found in an IoT solution project. A checklist for each Work stream is provided, plus a list of common dependencies between the Work steams.
+The IoT Building Blocks consist of the following elements:
+Project Dimensions: This is a precursor of formal project requirements. Project dimensions are used for project self-assessment, project comparisons, architecture and technology selection, etc.
+Architecture Blueprints: Building on existing architecture blueprints (e.g. Service Oriented Architecture), this adds new architectural perspectives required for IoT project and provides a superstructure to integrate the different required architectural perspectives.
+Technology Profiles: Identifies and describes the most important technologies usually required for IoT projects. Leverages IoT architecture perspectives to describe where in the overall IoT architecture these different technologies fit in. Attempts to link back to project dimensions to support technology selection.
+Why Here?: The Eclipse IoT Working Group as an active community of organizations with a strong interest in promoting and validating IoT technologies and deployments seems like the ideal home for a framework that aims to add the solution design and project management perspective to the equation.
+While Ignite|IoT is technology agnostic, it relies on the emerging IoT middleware stack for its solution designs. Working closely with an open source community which is currently developing and deploying one important version of this emerging IoT middleware stack will help to validate the assumptions made in the Ignite|IoT framework and put them to the test.
+Initial Contribution: Release 0.8 will include:
+Complete Ignite|IoT documentation as HTML files
+Complete list of all diagrams used to define and describe Ignite|IoT artifacts
+Complete Ignite|IoT training course as PDF and PPT (source)
+Excel (.xls and .csv) with the Ignite|IoT project dimensions, including definitions of all scales for project dimensions
+Legal Issues:
+Since this project only contains documentation and no source code, we propose to use the CC BY 3.0 lisense (Creative Commons Attribution 3.0 Unported). See also Eclipse board directive for Non-Code projects: https://eclipse.org/legal/noncodelicenses.php
+There are currently some photos included in the material for which we need to clarify the legal situation or replace them with photos / diagrams that can be used with the Creative Commons license.
+Mailing list: ignite-dev (5 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Licenses: Creative Commons Attribution 3.0 UnportedProject Scheduling: We are currently aiming for the following schedule:
+March 2015: Release 0.8
+This release will be included in the Enterprise IoT book
+It should include a full mapping of Eclipse standards to the Ignite|IoT Technology Profiles
+Q1 - Q3 2015
+Beta-Programme, continued validation of Ignite|IoT framework in projects
+Q4 2015: Release 1.0
+Future Work: The main focus will be on refining and validating the current methodology elements by building a user community around it, getting feedback from users in the community, adding additional case studies that look at specific aspects of the methodology, etc.
+People
+Project Leads: Philipp RichertDirk SlamaCommitters: Dirk SlamaFrank PuhlmannRishi BhatnagarJim MorrishPhilipp Richert Mentors: Benjamin Cabé
+Sign in to post comments.
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: ignite-dev (5 subscribers)
+ignite developer discussions
+About ignite-dev
+ignite developer discussions
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Using ignite-dev
+To post a message to all the list members,
+send email to ignite-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the ignite-dev Archives or subscribe to this list's RSS feed
+Subscribing ignite-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: ignite-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Philipp Richert is a Project Lead for Ignite|IoT | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Philipp Richert is a Project Lead for Ignite|IoT
+Philipp Richert is a Project Lead for Ignite|IoT
+Philipp Richert is a Committer for Ignite|IoT | projects.eclipse.org
+Benjamin Cabe is a Mentor for Eclipse Ignite|IoT | projects.eclipse.org
+Wayne Beaton is a Mentor for Eclipse Ignite|IoT | projects.eclipse.org
+User: Philipp RichertProject: Eclipse Ignite|IoTType: Project LeadStatus: ActiveActive: Thursday, September 15, 2016
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Philipp Richert is a Committer for Ignite|IoT
+Philipp Richert is a Committer for Ignite|IoT
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Benjamin Cabe is a Mentor for Eclipse Ignite|IoT
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Ignite|IoT
+Wayne Beaton is a Mentor for Eclipse Ignite|IoT
+Wayne Beaton is a Mentor for Eclipse Ignite|IoT
+User: Wayne BeatonProject: Eclipse Ignite|IoTType: MentorStatus: ActiveActive: Thursday, January 22, 2015
+Back to the top
+User: Philipp RichertProject: Eclipse Ignite|IoTType: CommitterStatus: ActiveActive: Wednesday, September 14, 2016
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Benjamin Cabe is a Mentor for Eclipse Ignite|IoT
+User: Benjamin CabéProject: Eclipse Ignite|IoTType: MentorStatus: ActiveActive: Thursday, January 22, 2015
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Ignite|IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Back to the top
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

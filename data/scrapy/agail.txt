@@ -1,0 +1,3716 @@
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Eclipse Agail
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Eclipse Agail is a language-agnostic, modular software and hardware gateway framework for the Internet of Things with support for protocol interoperability, device and data management, IoT application execution, trusted data sharing and external Cloud communication.
+A framework both for developers who wish to quickly prototype IoT solutions but also for end users who want to easily customise their gateway based on their context and have full control of their data and devices.
+The hardware framework defines the design of a RaspberryPi shield that comes with various onboard sensors and two Xbee sockets for hosting different wireless communication modules (e.g., ZigBee, LoRaWAN, ZWave, etc.)
+The following image visualises the AGAIL software structure:
+The Agail software consists of serveral modules that can operate indepdently from each other and implement various features including IoT device discovery and management, data storage & management, IoT workflow development, remote gateway management, communication with external Cloud services and more.
+Modularity & Adaptability
+At the software level, different components enable new features: data collection and management on the gateway, intuitive interface for device management, visual workflow editor for creating IoT apps with less coding, and an IoT marketplace for installing IoT apps locally.
+At the deployment level, the software components packaging & delivery is performed through containerization. This choice gives the developers the flexibility to share and install components without worrying about dependencies and conflicts. The containers utilise the internal AGAIL Project API, so access to gateway resources can be monitored and fully controlled by the user.
+The following detailed view illustrates the concept of the containers and the language-agnostic Agail Gateway API for inter-module communication:
+The Agail software can auto-configure and adapt the essential components, based on the hardware configuration so that driver installation and configuration is performed automatically. IoT apps and workflows can be recommended based on hardware setup, reducing the gateway setup and development time significantly.
+Licenses: Eclipse Public License 1.0Contribution Activity: Commits on this project (last 12 months).
+Project Links
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Downloads
+Eclipse Agail
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Project Links
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Contact Us
+Eclipse Agail
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Developer Mailing List: agail-dev - agail developer discussions
+Project Links
+Getting Started
+Website
+Wiki
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Governance
+Eclipse Agail
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Scope: The goals of the Eclipse Agail project can be summarised as follows:
+Provide a design and hardware specifications for a modular RaspberryPi hat (shield) that hosts various sensors and provides Xbee sockets for hosting wireless communication modules;
+Provide a modular architecture for implementing IoT Gateways through building blocks that feature communication with IoT devices, data collection, local storage and processing, with focus on data ownership and device interoperability;
+Provide IoT application developers with the Agail API, a generic API offering services for device discovery, communication, data management (local and cloud storage), data processing and remote gateway management, accessible as a RESTful interface;
+Provide a language-agnostic framework based on containers to implement IoT Gateway services around Agail API (based on DBus), allowing to reuse and integration of existing best-in-class IoT open source packages for device communication using standard IoT protocols (BLE, ZigBee, LoRa, TCP/IP, etc.), user interfaces for device and data management;
+Provide gateway management components (for managing connected IoT devices and enabled IoT/M2M protocols, installed applications and components, resource management, etc.);
+Deliver reference implementations of the building blocks in a containerized form to simplify deployment and delivery of services and applications on the gateway that implement the core features of the Agail : communication with commercial wireless and wired IoT devices, protocol support (Thread, IoTivity, etc.), local data management and visualization, local and remote gateway management, application workflow design and execution, data exchange and application deployment on external clouds.
+Working Group: Internet of Things (IoT)ResearchReviews:
+NameDate
+Creation Review2016-11-02
+IP Due Diligence Type: Type A - License Compatibility Certification
+Project Links
+Wiki
+Getting Started
+Website
+Proposal
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Agail | projects.eclipse.org
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Developer Resources
+Eclipse Agail
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Who's Involved
+Eclipse Agail
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity: Commits on this project (last 12 months).Project Members: Project Lead
+Csaba Kiraly
+Committers
+Csaba Kiraly
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Source Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see contributing via Gerrit.agile-api-spec - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-api-spec.gitBrowse Repository
+agile-cli - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-cli.gitBrowse Repository
+agile-dbus-java-interface - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-dbus-java-interface.gitBrowse Repository
+agile-sdk - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-sdk.gitBrowse Repository
+agile-core - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-core.gitBrowse Repository
+agile-data - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-data.gitBrowse Repository
+agile-dbus - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-dbus.gitBrowse Repository
+agail-security - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agail-security.gitBrowse Repository
+agile-recommender - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-recommender.gitBrowse Repository
+agile-kura - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-kura.gitBrowse Repository
+Philippe Krief
+Román Sosa
+Historical Committers
+CHARALAMPOS DOUKAS
+David Gomez Fernandez
+David Palomares
+Eduard Brehm
+Fabio Antonelli
+Juan David Parra
+Seda Polat Erdeniz
+Mentor
+Pascal Rapicault
+Project Links
+Getting Started
+Website
+Wiki
+agile-ble - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-ble.gitBrowse Repository
+agile-dummy-protocol - Project repository hosted on GitHub.Clone: https://github.com/eclipse-agail/agile-dummy-protocol.gitBrowse Repository
+agail/agail - Clone: git://git.eclipse.org/gitroot/agail/agail.gitReview With Gerrit
+Browse Repository
+Project Links
+Wiki
+Getting Started
+Website
+Dev Mailing List
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Csaba Kiraly is a Project Lead for Eclipse Agail | projects.eclipse.org
+Creation Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+agail/agail - GitilesGitiles Code Review Sign In git.eclipse.org / agail / agailClone this repo:Empty RepositoryThis repository is empty. Push to it to show branches and history. Powered by Gitilestxt json
+Eclipse Agail | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Csaba Kiraly is a Project Lead for Eclipse Agail
+Csaba Kiraly is a Project Lead for Eclipse Agail
+User: Csaba KiralyProject: Eclipse AgailType: Project LeadStatus: ActiveActive: Wednesday, August 9, 2017Contribution Activity: Commits on Eclipse Agail by Csaba Kiraly (lifetime).
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Eclipse Agail
+Eclipse Agail
+Creation Review
+Eclipse Agail Creation Review
+Type: CreationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, November 2, 2016Project: Eclipse AgailProposal:
+Eclipse Agail
+Parent Project: Eclipse IoTBackground: Currently the majority of IoT solutions involve the communication of devices with some cloud service for data management and application execution. In many cases a gateway is involved for providing Internet connectivity to non-IP wireless or wired networks, but mainly it forwards data to the Internet.
+The Eclipse Agail framework comes from the collective work of an existing community, in the context of a european H2020 funded IoT project (AGAIL). More than 16 entities (research, industrial, startups and nonprofits) in Europe have come together to build and deliver a fully open source modular gateway framework.
+Scope: The goals of the Eclipse Agail project can be summarised as follows:
+Provide a modular architecture for implementing IoT Gateways through building blocks that feature communication with IoT devices, data collection, local storage and processing, with focus on data ownership and device interoperability;
+Provide IoT application developers with the Agail API, a generic API offering services for device discovery, communication, data management (local and cloud storage), data processing and remote gateway management, accessible as a RESTful interface;
+Provide a language-agnostic framework based on containers to implement IoT Gateway services around Agail API (based on DBus), allowing to reuse and integration of existing best-in-class IoT open source packages for device communication using standard IoT protocols (BLE, ZigBee, LoRa, TCP/IP, etc.), user interfaces for device and data management;
+Provide gateway management components (for managing connected IoT devices and enabled IoT/M2M protocols, installed applications and components, resource management, etc.);
+Deliver reference implementations of the building blocks in a containerized form to simplify deployment and delivery of services and applications on the gateway that implement the core features of the Agail : communication with commercial wireless and wired IoT devices, protocol support (Thread, IoTivity, etc.), local data management and visualization, local and remote gateway management, application workflow design and execution, data exchange and application deployment on external clouds.
+Description: The Eclipse Agail is a language-agnostic, modular software gateway framework for the Internet of Things with support for protocol interoperability, device and data management, IoT apps execution, and external Cloud communication.
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+×
+Status message
+This proposal has been approved and the Eclipse Agail project has been created.
+Eclipse Agail
+Basics
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section. Parent Project: Eclipse IoT
+Background: Currently the majority of IoT solutions involve the communication of devices with some cloud service for data management and application execution. In many cases a gateway is involved for providing Internet connectivity to non-IP wireless or wired networks, but mainly it forwards data to the Internet.
+The Eclipse Agail framework comes from the collective work of an existing community, in the context of a european H2020 funded IoT project (AGAIL). More than 16 entities (research, industrial, startups and nonprofits) in Europe have come together to build and deliver a fully open source modular gateway framework.
+Scope: The goals of the Eclipse Agail project can be summarised as follows:
+Provide a modular architecture for implementing IoT Gateways through building blocks that feature communication with IoT devices, data collection, local storage and processing, with focus on data ownership and device interoperability;
+A framework both for developers who wish to quickly prototype IoT solutions but also for end users who want to easily customise their gateway based on their context and have full control of their data and devices.
+The following image visualises the AGAIL structure:
+Modularity & Adaptability
+At the software level, different components enable new features: data collection and management on the gateway, intuitive interface for device management, visual workflow editor for creating IoT apps with less coding, and an IoT marketplace for installing IoT apps locally.
+At the deployment level, the software components packaging & delivery is performed through containerization. This choice gives the developers the flexibility to share and install components without worrying about dependencies and conflicts. The containers utilise the internal AGAIL Project API, so access to gateway resources can be monitored and fully controlled by the user.
+The following Development view illustrates the concept of the containers and the language-agnostic Gateway API for inter-module communication:
+The Agail software can auto-configure and adapt based on the hardware configuration so that driver installation and configuration is performed automatically. IoT apps and workflows can be recommended based on hardware setup, reducing the gateway setup and development time significantly.
+Why Here?: We believe that the Eclipse Community will appreciate and embrace the modular concept of containers for building a full IoT gateway stack. We need the support of the Community for helping us test, extend and adopt the Agail framework. The purpose of the Agail project is to extend current Eclipse IoT projects and provide an integrated framework for IoT gateways that offers device management, data storage and handling and language-agnostic application development.
+Csaba Kiraly is a Committer for Eclipse Agail | projects.eclipse.org
+Provide IoT application developers with the Agail API, a generic API offering services for device discovery, communication, data management (local and cloud storage), data processing and remote gateway management, accessible as a RESTful interface;
+Provide a language-agnostic framework based on containers to implement IoT Gateway services around Agail API (based on DBus), allowing to reuse and integration of existing best-in-class IoT open source packages for device communication using standard IoT protocols (BLE, ZigBee, LoRa, TCP/IP, etc.), user interfaces for device and data management;
+Provide gateway management components (for managing connected IoT devices and enabled IoT/M2M protocols, installed applications and components, resource management, etc.);
+Deliver reference implementations of the building blocks in a containerized form to simplify deployment and delivery of services and applications on the gateway that implement the core features of the Agail : communication with commercial wireless and wired IoT devices, protocol support (Thread, IoTivity, etc.), local data management and visualization, local and remote gateway management, application workflow design and execution, data exchange and application deployment on external clouds.
+Description: The Eclipse Agail is a language-agnostic, modular software gateway framework for the Internet of Things with support for protocol interoperability, device and data management, IoT apps execution, and external Cloud communication.
+A framework both for developers who wish to quickly prototype IoT solutions but also for end users who want to easily customise their gateway based on their context and have full control of their data and devices.
+The following image visualises the AGAIL structure:
+Modularity & Adaptability
+At the software level, different components enable new features: data collection and management on the gateway, intuitive interface for device management, visual workflow editor for creating IoT apps with less coding, and an IoT marketplace for installing IoT apps locally.
+At the deployment level, the software components packaging & delivery is performed through containerization. This choice gives the developers the flexibility to share and install components without worrying about dependencies and conflicts. The containers utilise the internal AGAIL Project API, so access to gateway resources can be monitored and fully controlled by the user.
+The following Development view illustrates the concept of the containers and the language-agnostic Gateway API for inter-module communication:
+The Agail software can auto-configure and adapt based on the hardware configuration so that driver installation and configuration is performed automatically. IoT apps and workflows can be recommended based on hardware setup, reducing the gateway setup and development time significantly.
+Why Here?: We believe that the Eclipse Community will appreciate and embrace the modular concept of containers for building a full IoT gateway stack. We need the support of the Community for helping us test, extend and adopt the Agail framework. The purpose of the Agail project is to extend current Eclipse IoT projects and provide an integrated framework for IoT gateways that offers device management, data storage and handling and language-agnostic application development.
+The Agail already has a strong relationship with other Eclipse projects:
+Eclipse Paho will be used as an internal broker for extending the Agail RESTful API and allowing developers to communicate with the Agail gateway components using the MQTT protocol for data interaction between applicatons and connected IoT devices and the internal data storage.
+Eclipse Vorto will be used as a standardised way for describing the available IoT devices and most importantly enable vendors and developers to easily integrate device support in the future.
+Eclipse Smart Home will be investigated for potentially integrating communication with the numerous existing IoT devices the framework already supports.
+Agail originates from the H2020 funded AGAIL project.
+Initial Contribution: The initial contribution of the Eclipse Agail project will be a large subset of the current code on H2020 AGAIL project GitHub:
+https://github.com/Agile-IoT
+Which will contain:
+Source code for all mentioned interfaces and services of the gateway
+Source code of many building blocks for the web-based graphical management interfaces
+Documentation of the architecture and its extension points
+Build scripts, pre-packaged modules and sample files
+Examples on how to build applications on top of AGAIL framework and documentation
+Legal Issues: The AGAIL project team will go through the Eclipse legal review process to make sure all Eclipse AGAIL dependencies are eligible for contribution. While AGAIL has selected open-source components with friendly licenses, a detailed review will be conducted with the Eclipse legal team.
+Currently the code developed and used/integrated on project's GitHub is released under APv2. The software components that will be exclusively developed by the project will be contributed to the Eclipse AGAIL under the Eclipse Public Licence. Reference implementations that include third party open source software (e.g., Node-RED) will retain the original licence and will be published on the original GitHub account.
+Pascal Rapicault is a Mentor for Eclipse Agail | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Csaba Kiraly is a Committer for Eclipse Agail
+Csaba Kiraly is a Committer for Eclipse Agail
+The Agail already has a strong relationship with other Eclipse projects:
+Eclipse Paho will be used as an internal broker for extending the Agail RESTful API and allowing developers to communicate with the Agail gateway components using the MQTT protocol for data interaction between applicatons and connected IoT devices and the internal data storage.
+Eclipse Vorto will be used as a standardised way for describing the available IoT devices and most importantly enable vendors and developers to easily integrate device support in the future.
+Eclipse Smart Home will be investigated for potentially integrating communication with the numerous existing IoT devices the framework already supports.
+Agail originates from the H2020 funded AGAIL project.
+Licenses: Eclipse Public License 1.0Legal Issues: The AGAIL project team will go through the Eclipse legal review process to make sure all Eclipse AGAIL dependencies are eligible for contribution. While AGAIL has selected open-source components with friendly licenses, a detailed review will be conducted with the Eclipse legal team.
+Currently the code developed and used/integrated on project's GitHub is released under APv2. The software components that will be exclusively developed by the project will be contributed to the Eclipse AGAIL under the Eclipse Public Licence. Reference implementations that include third party open source software (e.g., Node-RED) will retain the original licence and will be published on the original GitHub account.
+Project Scheduling: Project roadmap:
+- Architecture definition
+Status: Completed
+- Initial implementation of wireless protocols support
+Status: BLE, ZigBee completed. Upcoming: ZWave, LoRa
+- User Interfaces (Data management, Device & Protocol management, etc.)
+Status: Ongoing
+- Developer graphical Interface
+Licenses: Eclipse Public License 1.0Project Scheduling: Project roadmap:
+- Architecture definition
+Status: Completed
+- Initial implementation of wireless protocols support
+Status: BLE, ZigBee completed. Upcoming: ZWave, LoRa
+- User Interfaces (Data management, Device & Protocol management, etc.)
+Status: Ongoing
+- Developer graphical Interface
+Status: Ongoing
+Future steps:
+- Integration of Eclipse Vort for the definition and creation of abstract IoT device bindings
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Pascal Rapicault is a Mentor for Eclipse Agail
+Pascal Rapicault is a Mentor for Eclipse Agail
+Seda Polat Erdeniz is a Committer for Eclipse Agail | projects.eclipse.org
+Juan David Parra is a Committer for Eclipse Agail | projects.eclipse.org
+User: Csaba KiralyProject: Eclipse AgailType: CommitterStatus: ActiveActive: Wednesday, February 22, 2017Contribution Activity: Commits on Eclipse Agail by Csaba Kiraly (lifetime).
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Status: Ongoing
+Future steps:
+- Integration of Eclipse Vort for the definition and creation of abstract IoT device bindings
+- Integration of Eclipse Paho for the extention of the internal Agail RESTful API and support of MQTT as alternative messaging and data subscription mechanism
+First build for testing: Expected in 1st quarter of 2017
+First version delivered: Expected in 2nd quarter of 2017
+Future Work: Within the next year we plan to develope and deliver many reference implementations for the support of various IoT standards (e.g., Thread, IoTivity, etc.) and specific support for commercial IoT devices. In addition, the reference implementation of Agail will be used in the context of the AGAIL project for evaluation in real life use cases (e.g., in wearables and outdoor air quality monitoring scenarios and surveliance using drones) while European startups and SMEs will be invited to utilise and contribute to the Agail framework with reference implementations and extentions.
+People
+Project Leads: CHARALAMPOS DOUKASFabio AntonelliCommitters: Craig MulliganShaun MulliganJuan David ParaCsaba KiralyLuca CapraFabio AntonelliCharalampos DoukasMentors: Pascal RapicaultInterested Parties:
+Paolo Azzoni, Eurotech
+Georgios Michalakidis, Resin.io
+Roman Sosa, Atos
+Emmanuel Bacceli, INRIA
+Maarten Ectors, Canonical
+David Ramon, Libelium
+- Integration of Eclipse Paho for the extention of the internal Agail RESTful API and support of MQTT as alternative messaging and data subscription mechanism
+First build for testing: Expected in 1st quarter of 2017
+First version delivered: Expected in 2nd quarter of 2017
+Future Work: Within the next year we plan to develope and deliver many reference implementations for the support of various IoT standards (e.g., Thread, IoTivity, etc.) and specific support for commercial IoT devices. In addition, the reference implementation of Agail will be used in the context of the AGAIL project for evaluation in real life use cases (e.g., in wearables and outdoor air quality monitoring scenarios and surveliance using drones) while European startups and SMEs will be invited to utilise and contribute to the Agail framework with reference implementations and extentions.
+People
+Project Leads: CHARALAMPOS DOUKASFabio AntonelliCommitters: Craig MulliganShaun MulliganJuan David ParaCsaba KiralyLuca CapraFabio AntonelliCharalampos DoukasInterested Parties:
+Paolo Azzoni, Eurotech
+Georgios Michalakidis, Resin.io
+Roman Sosa, Atos
+Emmanuel Bacceli, INRIA
+Maarten Ectors, Canonical
+David Ramon, Libelium
+Tom Sorgerloos, Orange Belgium
+Mentors: Pascal Rapicault
+Sign in to post comments.
+User: Pascal RapicaultProject: Eclipse AgailType: MentorStatus: ActiveActive: Wednesday, November 2, 2016
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Seda Polat Erdeniz is a Committer for Eclipse Agail
+Seda Polat Erdeniz is a Committer for Eclipse Agail
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Juan David Parra is a Committer for Eclipse Agail
+Juan David Parra is a Committer for Eclipse Agail
+User: Juan David ParraProject: Eclipse AgailType: CommitterStatus: InactiveActive: Friday, November 3, 2017 to Thursday, June 13, 2019
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Tom Sorgerloos, Orange Belgium
+Source Code
+Initial Contribution: The initial contribution of the Eclipse Agail project will be a large subset of the current code on H2020 AGAIL project GitHub:
+https://github.com/Agile-IoT
+Which will contain:
+Source code for all mentioned interfaces and services of the gateway
+Source code of many building blocks for the web-based graphical management interfaces
+Documentation of the architecture and its extension points
+Build scripts, pre-packaged modules and sample files
+Examples on how to build applications on top of AGAIL framework and documentation
+Source Repository Type: GitHubSource Repositories: https://github.com/Agile-IoT
+Sign in to post comments.
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Fabio Antonelli is a Committer for Eclipse Agail | projects.eclipse.org
+Sign in to post comments.
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+User: Seda Polat ErdenizProject: Eclipse AgailType: CommitterStatus: InactiveActive: Tuesday, October 17, 2017 to Thursday, June 13, 2019
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+David Palomares is a Committer for Eclipse Agail | projects.eclipse.org
+Eduard Brehm is a Committer for Eclipse Agail | projects.eclipse.org
+Eclipse IoT
+Eclipse Agail
+Fabio Antonelli is a Committer for Eclipse Agail
+Fabio Antonelli is a Committer for Eclipse Agail
+User: Fabio AntonelliProject: Eclipse AgailType: CommitterStatus: InactiveActive: Thursday, November 24, 2016 to Thursday, June 13, 2019
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+David Palomares is a Committer for Eclipse Agail
+David Palomares is a Committer for Eclipse Agail
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Eduard Brehm is a Committer for Eclipse Agail
+Eduard Brehm is a Committer for Eclipse Agail
+User: Eduard BrehmProject: Eclipse AgailType: CommitterStatus: InactiveActive: Thursday, November 30, 2017 to Tuesday, February 19, 2019
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Charalampos Doukas is a Committer for Eclipse Agail | projects.eclipse.org
+David Gomez Fernandez is a Committer for Eclipse Agail | projects.eclipse.org
+Philippe Krief is a Committer for Eclipse Agail | projects.eclipse.org
+User: David PalomaresProject: Eclipse AgailType: CommitterStatus: InactiveActive: Friday, June 8, 2018 to Thursday, June 13, 2019
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Roman Sosa is a Committer for Eclipse Agail | projects.eclipse.org
+Charalampos Doukas is a Committer for Eclipse Agail
+Charalampos Doukas is a Committer for Eclipse Agail
+User: CHARALAMPOS DOUKASProject: Eclipse AgailType: CommitterStatus: InactiveActive: Thursday, November 24, 2016 to Wednesday, October 18, 2017
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+GitHub - eclipse-agail/agile-dummy-protocol: Dummy Java Protocol Implementation for AGILE Gateway
+David Gomez Fernandez is a Committer for Eclipse Agail
+David Gomez Fernandez is a Committer for Eclipse Agail
+User: David Gomez FernandezProject: Eclipse AgailType: CommitterStatus: InactiveActive: Friday, August 17, 2018 to Thursday, June 13, 2019
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Philippe Krief is a Committer for Eclipse Agail
+Philippe Krief is a Committer for Eclipse Agail
+User: Philippe KriefProject: Eclipse AgailType: CommitterStatus: ActiveActive: Wednesday, May 31, 2017
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+Mailing list: agail-dev (118 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Agail
+Roman Sosa is a Committer for Eclipse Agail
+Roman Sosa is a Committer for Eclipse Agail
+User: Román SosaProject: Eclipse AgailType: CommitterStatus: ActiveActive: Friday, January 12, 2018
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: agail-dev (118 subscribers)
+agail developer discussions
+About agail-dev
+agail developer discussions
+Using agail-dev
+Project Links
+Getting Started
+Website
+Related Projects
+Related Projects:Eclipse IoTEclipse Kura
+Project Hierarchy:Eclipse IoT
+Eclipse Agail
+Tags
+Technology TypesInternet of Things
+Other Tagsiot
+gateway
+docker
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+To post a message to all the list members,
+send email to agail-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the agail-dev Archives or subscribe to this list's RSS feed
+Subscribing agail-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+GitHub - eclipse-agail/agile-sdk: JavaScript Agile IoT SDK
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: agail-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-dummy-protocol
+Watch
+8
+Star
+0
+Fork
+1
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+GitHub - eclipse-agail/agile-kura: Agile Kura in a Docker container
+Back to the top
+GitHub - eclipse-agail/agile-ble
+Dummy Java Protocol Implementation for AGILE Gateway
+EPL-2.0 License
+0
+stars
+1
+fork
+Star
+Watch
+Code
+Issues
+1
+Pull requests
+0
+Actions
+Projects
+0
+GitHub - eclipse-agail/agail-security
+GitHub - eclipse-agail/agile-recommender
+GitHub - eclipse-agail/agile-dbus: Creates agile bus in the host
+GitHub - eclipse-agail/agile-core: Source code repository for agile core components
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+GitHub - eclipse-agail/agile-cli: AGILE command line interface
+GitHub - eclipse-agail/agile-data: data service for agile
+GitHub - eclipse-agail/agile-dbus-java-interface
+GitHub - eclipse-agail/agile-api-spec: AGILE API specification documents
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+13
+branches
+10
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+agile-sdk
+Watch
+10
+Star
+2
+Fork
+3
+JavaScript Agile IoT SDK
+EPL-2.0 License
+2
+stars
+3
+forks
+Star
+Watch
+Code
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-kura
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-ble
+Watch
+4
+Star
+0
+Fork
+5
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+agile-dbus-java-interface @ a0ad36a
+org.eclipse.agail.protocol.DummyProtocol
+scripts
+.gitignore
+.gitmodules
+.travis.yml
+CHANGELOG.md
+Dockerfile
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agail-security
+Watch
+10
+Star
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-recommender
+Watch
+7
+Star
+1
+Fork
+0
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-dbus
+Watch
+11
+Star
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-core
+Watch
+7
+Star
+7
+Fork
+Issues
+5
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Watch
+10
+Star
+0
+Fork
+1
+Agile Kura in a Docker container
+EPL-2.0 License
+0
+stars
+1
+fork
+Star
+Watch
+Code
+Issues
+3
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+EPL-2.0 License
+0
+stars
+5
+forks
+Star
+Watch
+Code
+Issues
+5
+Pull requests
+0
+Actions
+Projects
+0
+Security
+LICENSE
+README.md
+versionist.conf.js
+View code
+README.md
+agile-dummy-protocol
+A dummy java protocol implementation for AGILE gateway
+About
+Dummy Java Protocol Implementation for AGILE Gateway
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+10
+tags
+0
+Fork
+0
+EPL-2.0 License
+0
+stars
+0
+forks
+Star
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+EPL-2.0 License
+1
+star
+0
+forks
+Star
+Watch
+Code
+Issues
+1
+Pull requests
+0
+Actions
+Projects
+0
+Security
+0
+Fork
+0
+Creates agile bus in the host
+EPL-2.0 License
+0
+stars
+0
+forks
+Star
+Watch
+Code
+Issues
+0
+Pull requests
+0
+16
+Source code repository for agile core components
+EPL-2.0 License
+7
+stars
+16
+forks
+Star
+Watch
+Code
+Issues
+16
+Pull requests
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+6
+branches
+23
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-cli
+Watch
+10
+Star
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-data
+Watch
+6
+Star
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-dbus-java-interface
+Watch
+9
+Star
+0
+Fork
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse-agail
+/
+agile-api-spec
+Watch
+12
+Star
+7
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+18
+branches
+Packages 0
+No packages published
+Contributors 2
+Languages
+Java
+40.5%
+Shell
+32.9%
+JavaScript
+14.0%
+Dockerfile
+12.6%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+10
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+7
+branches
+0
+tags
+Go to file
+0
+Fork
+0
+AGILE command line interface
+EPL-2.0 License
+0
+stars
+0
+forks
+Star
+Watch
+Code
+0
+Fork
+0
+data service for agile
+EPL-2.0 License
+0
+stars
+0
+forks
+Star
+Watch
+Code
+Issues
+7
+Pull requests
+0
+3
+EPL-2.0 License
+0
+stars
+3
+forks
+Star
+Watch
+Code
+Issues
+1
+Pull requests
+0
+Actions
+Projects
+0
+Fork
+7
+AGILE API specification documents
+EPL-2.0 License
+7
+stars
+7
+forks
+Star
+Watch
+Code
+Issues
+6
+Pull requests
+0
+Actions
+Projects
+13
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+master
+3
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+branches
+12
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+master
+8
+branches
+5
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+18
+branches
+24
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+examples
+src
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+test
+.babelrc
+.editorconfig
+.eslintrc
+.gitignore
+.npmignore
+.travis.yml
+CHANGELOG.md
+DOCUMENTATION.md
+LICENSE
+README.md
+index.js
+package-lock.json
+package.json
+secret.tar.enc
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+node-rest-proxy
+.gitignore
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+5
+branches
+1
+tag
+Go to file
+Code
+Clone
+HTTPS
+Sign up
+master
+5
+branches
+21
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+7
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+13
+branches
+7
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Latest commit message
+Commit time
+agile-dbus-java-interface @ a0ad36a
+logs
+org.eclipse.agail.protocol.BLE
+scripts
+.gitignore
+.gitmodules
+.travis.yml
+CHANGELOG.md
+Dockerfile
+LICENSE
+README.md
+versionist.conf.js
+View code
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+certs
+conf
+rpi-conf
+.gitignore
+.travis.yml
+CHANGELOG.md
+Dockerfile
+LICENSE
+Type
+Name
+Latest commit message
+Commit time
+RecommenderAndConfigurator
+.travis.yml
+CHANGELOG.md
+Dockerfile
+LICENSE
+README.md
+versionist.conf.js
+View code
+README.md
+Recommender and Configurator Docker Service
+Maintainer: Seda Polat Erdeniz, TUGraz
+Type
+Name
+Latest commit message
+Commit time
+.gitignore
+.travis.yml
+CHANGELOG.md
+Dockerfile
+LICENSE
+README.md
+agile.conf
+versionist.conf.js
+View code
+README.md
+Agile dbus
+Dockerhub
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+agile-dbus-java-interface @ a0ad36a
+agile-main
+logs
+org.eclipse.agail.DeviceFactory
+org.eclipse.agail.DeviceManager
+org.eclipse.agail.ProtocolManager
+org.eclipse.agail.http
+scripts
+View code
+README.md
+Agile SDK
+The official JavaScript Agile IoT SDK.
+Role
+The intention of this module is to provide developers a nice API to integrate their JavaScript applications with Agile IoT Gateway.
+Installation
+Install the Agile SDK by running:
+$ npm install --save agile-sdk
+Documentation
+It's available in node.js and the browser.
+var agile = require('agile-sdk')({
+api: 'http://agile.local:8080',
+idm: 'http://agile.local:3000',
+token: "LQCL7C14y84Ayqedjmbm1LuIes1TsSyn5Cv"
+})
+.travis.yml
+Dockerfile
+LICENSE
+dpa.properties
+org.eclipse.kura.configuration.remote_1.0.0.dp
+start.sh
+View code
+About
+Agile Kura in a Docker container
+License
+EPL-2.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Failed to load latest commit information.
+README.md
+Agile Bluetooth Low Energy components
+This repository contains the alpha version of Agile Bluetooth Low Energy protocol implementation:
+Exposes the org.eclipse.agail.Protocol interface
+DBus interface name org.eclipse.agail.protocol.BLE
+DBus interface path /org/eclipse/agail/protocol/BLE
+Launching the Protocol
+Under the scripts directory you can find different scripts to setup and start / stop the modules.
+Note A java 8 compatible JDK and maven (mvn) must be already available in the system.
+./scripts/start.sh will install (if not available) all the dependencies required to run and start the module.
+./scripts/stop.sh will stop/kill the modules.
+./scripts/install-deps.sh is used to setup all the java and native dependencies to a local directory (placed in the ./deps folder)
+About
+No description, website, or topics provided.
+app.js
+package.json
+versionist.conf.js
+View code
+About
+No description, website, or topics provided.
+License
+EPL-2.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 2
+Languages
+JavaScript
+This service provides an API to other AGILE Gateway services to access to the recommender and configurator service
+API Document
+http://54.202.180.98:8080/doc/
+Recommender Use Cases
+Use Case 1 : App Recommendation
+Use Case 2 : Workflow/Node Recommendation
+Use Case 3 : Device Recommendation
+Use Case 4 : PaaS Provider (Cloud) Recommendation
+Configurator Use Cases
+Use Case 1 : App Configuration
+Goal: Update the configuration of each app on the gateway based on utility maximization for each
+Apps support different Data encoding and Connectivity protocols,
+Gateway support different Data encoding and Connectivity protocols,
+App should be configured to a protocol that is also supported by the gateway
+Each protocol has 3 dimensions : performance, reliability and cost,
+Cost should be minimized where other dimensions should be maximized in total,
+This modules only responsibility is to init a dbus socket called agile_bus_socket in the host system with agile.conf.
+How to use:
+docker pull agileiot/agile-dbus-armv7l
+Bind-mount the host directory the socket will be created and run:
+docker run -v /my/host/fs/.agile_bus
+or with docker-compose:
+agile-dbus:
+image: agileiot/agile-dbus-armv7l
+restart: always
+volumes:
+- $DBUS_SESSION_SOCKET_DIR:/usr/src/app/.agile_bus
+About
+Creates agile bus in the host
+Resources
+Readme
+License
+EPL-2.0 License
+test
+.gitignore
+.gitmodules
+.travis.yml
+CHANGELOG.md
+Dockerfile
+LICENSE
+README.md
+pom.xml
+versionist.conf.js
+View code
+README.md
+Agile core components
+This repository contains the alpha version of the following AGILE components:
+Prerequisites
+For convenience it's shipped with a browser bundle too with agileSDK expose as a global constant eg.
+<script src="node_modules/agile-sdk/dist/bundle.js"></script>
+<script>
+var agile = agileSDK({
+api: 'http://agile.local:8080',
+idm: 'http://agile.local:3000',
+token: "LQCL7C14y84Ayqedjmbm1LuIes1TsSyn5Cv"
+});
+agile.protocolManager.discovery.start()
+console.log('started!')
+})
+console.log(err)
+});
+</script>
+Contributors 2
+Languages
+Dockerfile
+56.0%
+JavaScript
+28.0%
+Shell
+16.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+1
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+agile.config.examples
+.gitignore
+LICENSE
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+src
+test
+.dockerignore
+.editorconfig
+.eslintrc
+.gitignore
+.travis.yml
+CHANGELOG.md
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+scripts
+src/main/java/org/eclipse/agail
+LICENSE
+README.md
+pom.xml
+View code
+README.md
+Java mapping of the AGILE D-Bus API
+About
+No description, website, or topics provided.
+Resources
+Type
+Name
+Latest commit message
+Commit time
+build/html
+docs
+profiles
+spec
+.gitignore
+LICENSE
+README.md
+index.html
+View code
+README.md
+AGILE API specification documents
+Welcome to the AGILE API specifications!
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+13
+tags
+Packages 0
+No packages published
+Contributors 6
+Languages
+Java
+57.7%
+Shell
+22.9%
+Dockerfile
+10.8%
+98.0%
+Dockerfile
+2.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+User weights are taken in inputs for each dimension (weight of cost should be given as negative value),
+App should be configured to a protocol that has maximum utility based on user weights and the performance/reliability/cost values of the protocols
+Configurator returns the configured protocols for each app,
+If protocols of app are not supported by the gateway, configured protocol of the app is set to -1 and in the error message it is given as a warning.
+About
+No description, website, or topics provided.
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+12
+tags
+Packages 0
+No packages published
+Contributors 2
+Releases
+5
+tags
+Packages 0
+No packages published
+Languages
+JavaScript
+78.2%
+Dockerfile
+21.8%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+For the compilation, the following packages needs to be installed:
+gettext git cmake
+A java 8 compatible JDK and maven (mvn) must be already available in the system.
+JAVA_HOME must be set for compilation to work.
+Agile Protocol Manager
+Exposes the org.eclipse.agail.ProtocolManager interface
+DBus interface name org.eclipse.agail.ProtocolManager
+DBus interface path /org/eclipse/agail/ProtocolManager
+Example
+The package org.eclipse.agail.protocolmanager.example contains an example
+file (i.e BLEDeviceDiscovery.java) to demonstrate the use of AGILE Protocol Manager to discover BLE devices through DBus interface.
+AGILE Device Manager
+Exposes the org.eclipse.agail.DeviceManager interface
+DBus interface name org.eclipse.agail.DeviceManger
+DBus interface path /org/eclipse/agail/DeviceManager
+Here a example of reading data from a device:
+import agileSDK from 'agile-sdk';
+const agile = agileSDK({
+api: 'http://agile.local:8080',
+idm: 'http://agile.local:3000',
+token: "LQCL7C14y84Ayqedjmbm1LuIes1TsSyn5Cv"
+});
+const deviceId = 'bleB0B448BE5084';
+const componentID = 'Temperature';
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+README.md
+agile
+View code
+README.md
+AGILE-CLI: command line interface
+This repository contains the AGILE command line interface, a small tool to simplify deployment, development, and maintenance of the AGILE stack from the command line.
+AGILE-CLI is a thin layer on top of agile-stack, simplifying some of the most common operations. For more advanced usage, agile-stack can also be used directly using docker and docker-compose commands.
+AGILE-CLI supports two different workflows:
+direct deployment on the AGILE Gateway
+managing the AGILE Gateway remotely
+#Prerequisites
+A platform for the Agile GW: Currently supported platforms are:
+RaspberryPi 2/3 running ResinOS
+RaspberryPi 2/3 running Raspbian with Docker installed
+Generic x86_64 running Linux of MacOS with Docker installed
+Dockerfile
+LICENSE
+README.md
+package.json
+start.sh
+versionist.conf.js
+yarn.lock
+View code
+README.md
+Agile data service
+This service allows users to create workers called subscriptions that consume the agile API and write data to a timeseries database, it also allows users to query, create retention policies and directly write new measurements to the db.
+API
+Create subscription for device component
+method: POST
+url: /api/subscription
+body: {
+Readme
+License
+EPL-2.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 3
+Languages
+Java
+89.1%
+Shell
+10.9%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+To read the API spec see this page
+NOTE: This document is a work in progess that will be properly reviewed and finalized soon
+In this repository we are going to define and version the internal API exposed by AGILE core modules via DBus IPC.
+Contributing
+Create an issue to suggest a modification or propose a change by creating a pull request.
+Contributors shall follow those guidelines in order to get their contribution accepted.
+##Specification
+The model should be a valid YAML document
+All method and property names are CamelCased, more precisely PascalCased
+All top level definitions may have a group text or text list to aggregate different object in categories. A tags list is used to aggregate different object on various topics.
+Methods must indicate a return type, with void if no return is expected and optionally a list of arguments
+JavaScript
+8.6%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Languages
+Java
+96.8%
+JavaScript
+2.4%
+Dockerfile
+0.8%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Example
+Register BLE Device The package org.eclipse.agail.devicemanager.example contains an example file (i.e RegisterDevice.java) to demonstrate the usage of Agile Device Manager for device registration and creation of DBus interface for the registered device
+Additional interfaces
+org.eclipse.agail.Device
+DBus interface base name org.eclipse.agail.device.[device name]
+DBus interface base path /org/eclipse/agail/Device/[device name]
+Example
+Connect BLE Device(TI SensorTag): The ConnectDevice.java file in org.eclipse.agail.devicemanager.example package demonstrates the usage of Agile org.eclipse.agail.Device Dbus interface to connect a TI SensorTag device.
+Read Data: The ReadData.java file in org.eclipse.agail.devicemanager.example package demonstrates the usage of org.eclipse.agail.Device DBus interface in order to read temperature data from TI SensorTag temperature sensor/service.
+AGILE Device Factory
+Exposes the org.eclipse.agail.DeviceFactory interface
+DBus interface name org.eclipse.agail.DeviceFactory
+DBus interface path /org/eclipse/agail/DeviceFactory
+The DeviceFactory can also load device implementation from a plugin folder. This plugin folder should be part of the classpath and also specified as the first parameter to the DeviceFactory.
+Class files with device implementation must implement the org.eclipse.egail.Device interface, and should be placed directly in the org.eclipse.agail.device.instance package. Class files must be placed in the plugin folder structured in a folder hierarchy corresponding to the package, i.e. the usual Java way: /org/eclipse/agail/device/instance/MyNewAgileDevice.class.
+agile.device.subscribe(deviceId, componentID).then(stream => {
+stream.onerror = () => {
+console.log('Connection Error');
+};
+stream.onopen = () => {
+console.log('Connected');
+};
+stream.onclose = () => {
+console.log('Closed');
+};
+stream.onmessage = (e) => {
+if (typeof e.data === 'string') {
+console.log("Received: '" + e.data + "'");
+}
+};
+}).catch(err => {
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+If used in remotely managed mode, a platform to run the CLI with Docker, Docker-compose and bash installed.
+Installation
+The CLI works on top of agile-stack, therefore both repos are required:
+git clone https://github.com/Agile-IoT/agile-cli.git
+git clone https://github.com/Agile-IoT/agile-stack.git
+By default AGILE-CLI reads its configuration from agile.config, defining the path to agile-stack, the operation mode, and eventually the IP address of the AGILE GW. Configuration examples are available in agile.config.examples/.
+cd agile-cli
+cp agile.config.examples/agile.config.resinOS agile.config
+For simplicity, the tool can self-install the agile command in the path with
+sudo ./agile install
+initializing the GW
+First of all, if not yet done, the GW should be initialized with ./agile init
+Usage
+Use ./agile start to start the main components, and ./agile stop to stop them.
+Once components started you can visit http://127.0.0.1:8000 (or http://resin.local:8000 or http://agilegw.local:8000, depending on the use case) to access the AGILE user interface and start building your IoT solution.
+Update
+Use ./agile update to download the newest version of AGILE component. Note that this is different from git pull, which updates the startup scripts only.
+deviceID: 'mySensor',
+componentID: 'temperature',
+// all keys below are optional
+interval: '3000', // measure every 3s
+retention: '7d' // All records created by this subscription are deleted after 7 days,
+encrypt: {
+key: // base64 encoded public key,
+fields: [
+'value',
+] // List of keys, which values will be encrypted.
+}
+}
+Delete subscription for device component
+method: DELETE
+url: /api/subscription/:subscriptionId
+Update subscription for device component
+method: PUT
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Methods arguments must be a map with name as key and at least the type field specified as value
+Methods arguments and properties may have a default value to indicate a predefined value if non is specified.
+Asynchronous Methods must indicate a reference field indicating one or more Properties that receive updates from the call
+Properties referencing one object must have a reference field. If it is a list there will be a type Array with the reference field.
+Properties can indicate an access field as list of one of read, write, subscribe
+Optionally a description can be provided on methods, arguments and properties
+Every object can expose an http field containing compliant Swagger 2.0 routes specifications
+###Object description example
+org.eclipse.agail.ObjectName:
+MethodName:
+description: <method description>
+arguments:
+arg1:
+description: <param description>
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+Learn more
+Accept
+Reject
+Save preferences
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+HTTP API
+The DBus API can be used from the HTTP endpoint exposed by default on port 8080.
+See the HTTP API reference for details on the exposed endpoints.
+To query the endpoint, we suggest using Postman by importing the swagger based API definition
+Launching the API
+Under the scripts directory you can find different scripts to setup and start / stop the modules.
+./scripts/start.sh will install (if not available) all the dependencies required to run and start the modules.
+To control which component to start:
+./scripts/start.sh ProtocolManager starts only the Protocol Manager module
+./scripts/start.sh DeviceManager starts only the Device Manager module
+./scripts/start.sh http starts only the HTTP API module
+./scripts/stop.sh will kill all the modules.
+To control which component to stop (based on pkill -f pattern):
+./scripts/stop.sh protocolmanager stop only the Protocol Manager module
+./scripts/stop.sh devicemanager stop only the Device Manager module
+./scripts/stop.sh http stop only the HTTP API module
+console.log(err);
+});
+Read full documentation.
+Change Log
+The change log is automatically managed by versionist. View full change log.
+Support
+If you're having any problem, please raise an issue on GitHub and the team will be happy to help.
+Tests
+npm run test
+About
+JavaScript Agile IoT SDK
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+23
+Updating a single component
+In most cases, you can update a single coponent while other components keep running.
+For example, to update agile-osjs without restarting the rest, use the following commands:
+./agile compose stop agile-osjs
+./agile compose pull agile-osjs
+./agile compose up agile-osjs
+Troubleshooting
+You can access the logs with ./agile compose logs and view all logs.
+To view per component log use ./agile compose logs <component>
+To get the list of running components use ./agile compose ps with the pattern compose_<component name>_1
+About
+AGILE command line interface
+Resources
+Readme
+License
+EPL-2.0 License
+url: /api/subscription/:subscriptionId
+body: {
+interval: '10000'
+}
+Read subscription for device component
+method: GET
+url: /api/subscription/:subscriptionId
+Read subscriptions all subscriptions on gateway
+method: GET
+url: /api/subscription
+Get all records
+If the request is made with with ws then a connect is opened an results will be streamed, if the request is standard http then JSON object will be returned.
+method: GET
+url: /api/records
+Get all records with query
+method: GET
+url: /api/record?<query>
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+type: <type>
+return: <return type>
+SimpleProperty:
+description: <method description>
+type: <type>
+access: [r, w, s]
+ReferenceProperties:
+description: <method description>
+reference: [org.eclipse.agail.AnotherObject]
+Types:
+@NOTE: Subtypes should be added accordingly and mapped to DBus supported types
+In case an Object or Array is specified a fields field should be added to describe the content.
+Use an * to indicate a complex variable (like Object and Array) has non specified return type, eg. Object*
+Enum should be defined in the same document of the object using it, eventually with an unique name inside the whole specs
+Enum should be defined as autonomous types with a field enum and a list of fields with keys
+void indicates a null value
+Primitive types:
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+./scripts/install-deps.sh is used to setup all the java and native dependencies to a local directory (placed in the ./deps folder)
+About
+Source code repository for agile core components
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+24
+tags
+Packages 0
+No packages published
+Contributors 10
+Languages
+Java
+83.1%
+tags
+Packages 0
+No packages published
+Contributors 6
+Languages
+JavaScript
+100.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+Releases
+1
+tags
+Packages 0
+No packages published
+Languages
+Shell
+100.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+update Settings
+method: PUT
+url: /api/settings
+body: {
+interval: 3000
+}
+get Settings
+method: GET
+url: /api/settings
+About
+data service for agile
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+21
+Number: eg. 1, 5.9, -0.1
+String: eg. "Anything in double quotes :)"
+Boolean: eg. true or false
+Structured types:
+Enum: a list of predefined keys
+StatusType:
+type: Enum
+fields:
+- CONNECTED
+- DISCONNECTED
+Object: a group of structured informations
+ObjName:
+type: Object
+fields:
+Shell
+8.3%
+Python
+5.8%
+Dockerfile
+1.4%
+JavaScript
+1.4%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+tags
+Packages 0
+No packages published
+Contributors 6
+Languages
+JavaScript
+95.8%
+Shell
+2.6%
+Dockerfile
+1.6%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+name: String
+id: Number
+address: String
+Array: an ordered list containing one or more types
+ArrayField:
+type: Array
+fields: String
+Example definition
+org.eclipse.agail.Device:
+Name:
+description: The device name
+type: String
+Status :
+description: Indicate the current device status
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+type: StatusType
+Profile:
+description: Contains user provided information on device in order to handle at Protocol level the specific implementation
+type: Object*
+Protocol:
+description: Protocol instance
+reference: org.eclipse.agail.Protocol
+Read:
+args:
+sensorName: String
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+return: Object
+References
+API generation tool
+DBus API design
+JSON schema
+AGILE website
+Get in touch
+About
+AGILE API specification documents
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+7
+tags
+Packages 0
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+No packages published
+Contributors 5
+Languages
+HTML
+100.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences

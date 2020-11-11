@@ -1,0 +1,1035 @@
+Eclipse Whiskers | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Whiskers
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways (e.g., Raspberry Pi). The SensorThings API is an OGC (Open Geospatial Consortium) standard that allows IoT (Internet of Things) devices and their data to be connected; a major goal is to foster a healthy and open IoT ecosystem, as opposed to one dominated by proprietary information silos.
+JavaScript is ubiquitous, powering client-side web applications and server-side services alike. The availability of an open source client library is an important step in the adoption of the OGC SensorThings standard, as it makes development quicker and easier.
+In addition the a client library, Whiskers will also have a SensorThings server module for IoT gateways, such as Raspberry Pi. Developers will be able to deploy and configure IoT gateways, make them SensorThings API-compliant, and connect with spatial data servers around the world that implement the full array of OGC Sensor Web Enablement (SWE) standards.
+Whiskers aims to make SensorThings development easy for the large and growing world of IoT developers.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 1.0
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Whiskers | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Downloads
+Eclipse Whiskers
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Whiskers | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Governance
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Whiskers
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Scope: Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways. As the OGC SensorThings API standard specification continues to evolve, Whiskers will evolve with it.
+Working Group: Internet of Things (IoT)Reviews:
+NameDate
+Termination2019-01-16
+Creation Review2016-04-06
+Project Links
+Proposal
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Whiskers | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers | projects.eclipse.org
+Eclipse Whiskers
+Contact Us
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Whiskers
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Developer Mailing List: whiskers-dev -
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+Eclipse Whiskers
+Who's Involved
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Whiskers
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Project Members: Project Lead
+Steve Liang
+Historical Committers
+Eclipse Whiskers | projects.eclipse.org
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+James Badger
+Tania Khalafbeigi
+Mentor
+Pascal Rapicault
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Developer Resources
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Whiskers
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Report a Bug View Help wanted Bugs View Open Bugs Summarize BugsSource Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.whiskers - Project repository hosted on GitHub.Clone: https://github.com/eclipse/whiskers.gitBrowse Repository
+whiskers.arduino - Project repository hosted on GitHub.Clone: https://github.com/eclipse/whiskers.arduino.gitBrowse Repository
+whiskers.js - Project repository hosted on GitHub.Clone: https://github.com/eclipse/whiskers.js.gitBrowse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Termination | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Termination
+Eclipse Whiskers Termination
+Type: TerminationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, January 16, 2019Project: Eclipse Whiskers
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Whiskers
+Creation Review
+Eclipse Whiskers Creation Review
+Type: CreationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, April 6, 2016Project: Eclipse WhiskersProposal:
+Whiskers
+Parent Project: Eclipse IoTBackground: The Internet of Things (IoT) needs no introduction: it is a widely-held view that billions of devices will be part of the Internet of Things in just a few short years. Yet, while this explosion of devices represents boundless opportunity for innovation, this ascendancy also presents daunting challenges such as fragmentation, vendor lock-in and the proliferation of information silos. The OGC (Open Geospatial Consortium) SensorThings API is an OGC standard that allows IoT devices and their data to be connected in an easy-to-use and open way. The wide adoption of the SensorThings API would contribute to an IoT ecosystem that is healthy and interconnected, rather than one that is proprietary, incompatible and fragmented.
+Scope: Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways. As the OGC SensorThings API standard specification continues to evolve, Whiskers will evolve with it.
+Description: Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways (e.g., Raspberry Pi). The SensorThings API is an OGC (Open Geospatial Consortium) standard that allows IoT (Internet of Things) devices and their data to be connected; a major goal is to foster a healthy and open IoT ecosystem, as opposed to one dominated by proprietary information silos.
+JavaScript is ubiquitous, powering client-side web applications and server-side services alike. The availability of an open source client library is an important step in the adoption of the OGC SensorThings standard, as it makes development quicker and easier.
+In addition the a client library, Whiskers will also have a SensorThings server module for IoT gateways, such as Raspberry Pi. Developers will be able to deploy and configure IoT gateways, make them SensorThings API-compliant, and connect with spatial data servers around the world that implement the full array of OGC Sensor Web Enablement (SWE) standards.
+Whiskers aims to make SensorThings development easy for the large and growing world of IoT developers.
+Why Here?: The Eclipse Foundation is home to a large and growing number of IoT and geospatial projects (e.g., LocationTech), and is widely recognized for its good governance. Being a part of the Eclipse Community will bring Whiskers visibility, credibility and access to some of the most experienced minds in the open source world.
+Initial Contribution: There will be no initial contribution. The project will start from scratch. We expect to use some existing Eclipse IoT libraries, such as Paho, Californium, and Kura.
+Legal Issues: We are not aware of any legal issues. Whiskers will be an implementation of an OGC standard. There is no legal issues for the API. We are starting the code base from scratch, so there will be no potential source code license issues.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 1.0Project Scheduling: Whiskers aims to have an initial contribution ready by the end of Q2 2016.
+Future Work: Going forward, Whiskers will evolve along with the SensorThings API standard specification. The Sensing Profile of SensorThings (Part I) has been developed, and the Tasking Profile (Part II) is expected to be available in the upcoming months. The SensorThings Rules Engine (Part III) is also under development within OGC.
+People
+Project Leads: Steve LiangCommitters: Steve LiangJoseph ChangJames BadgerTania KhalafbeigiInterested Parties:
+SensorUp Inc. (http://www.sensorup.com)
+GeoSensorWeb Lab, University of Calgary (http://sensorweb.geomatics.ucalgary.ca/)
+Mentors: Pascal Rapicault
+Sign in to post comments.
+Comments Sign in to post comments
+Without any code and without
+Submitted by Julien Vermillard on Thu, 2016-03-31 06:01
+Without any code and without being an emanation of an existing Eclipse projet it's hard to evaluate the viability of this project.
+You have some code available somewhere?
+Log in to post comments
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Steve Liang is a Project Lead for Whiskers | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Steve Liang is a Project Lead for Whiskers
+Steve Liang is a Project Lead for Whiskers
+User: Steve LiangProject: Eclipse WhiskersType: Project LeadStatus: ActiveActive: Thursday, June 23, 2016
+Whiskers | projects.eclipse.org
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Whiskers
+×
+Status message
+This proposal has been approved and the Eclipse Whiskers project has been created.
+Whiskers
+Basics
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section. Parent Project: Eclipse IoT
+Background: The Internet of Things (IoT) needs no introduction: it is a widely-held view that billions of devices will be part of the Internet of Things in just a few short years. Yet, while this explosion of devices represents boundless opportunity for innovation, this ascendancy also presents daunting challenges such as fragmentation, vendor lock-in and the proliferation of information silos. The OGC (Open Geospatial Consortium) SensorThings API is an OGC standard that allows IoT devices and their data to be connected in an easy-to-use and open way. The wide adoption of the SensorThings API would contribute to an IoT ecosystem that is healthy and interconnected, rather than one that is proprietary, incompatible and fragmented.
+Scope: Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways. As the OGC SensorThings API standard specification continues to evolve, Whiskers will evolve with it.
+Description: Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways (e.g., Raspberry Pi). The SensorThings API is an OGC (Open Geospatial Consortium) standard that allows IoT (Internet of Things) devices and their data to be connected; a major goal is to foster a healthy and open IoT ecosystem, as opposed to one dominated by proprietary information silos.
+JavaScript is ubiquitous, powering client-side web applications and server-side services alike. The availability of an open source client library is an important step in the adoption of the OGC SensorThings standard, as it makes development quicker and easier.
+In addition the a client library, Whiskers will also have a SensorThings server module for IoT gateways, such as Raspberry Pi. Developers will be able to deploy and configure IoT gateways, make them SensorThings API-compliant, and connect with spatial data servers around the world that implement the full array of OGC Sensor Web Enablement (SWE) standards.
+Whiskers aims to make SensorThings development easy for the large and growing world of IoT developers.
+Why Here?: The Eclipse Foundation is home to a large and growing number of IoT and geospatial projects (e.g., LocationTech), and is widely recognized for its good governance. Being a part of the Eclipse Community will bring Whiskers visibility, credibility and access to some of the most experienced minds in the open source world.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 1.0Legal Issues: We are not aware of any legal issues. Whiskers will be an implementation of an OGC standard. There is no legal issues for the API. We are starting the code base from scratch, so there will be no potential source code license issues.
+Project Scheduling: Whiskers aims to have an initial contribution ready by the end of Q2 2016.
+Future Work: Going forward, Whiskers will evolve along with the SensorThings API standard specification. The Sensing Profile of SensorThings (Part I) has been developed, and the Tasking Profile (Part II) is expected to be available in the upcoming months. The SensorThings Rules Engine (Part III) is also under development within OGC.
+People
+Project Leads: Steve LiangCommitters: Steve LiangJoseph ChangJames BadgerTania KhalafbeigiMentors: Pascal RapicaultInterested Parties:
+SensorUp Inc. (http://www.sensorup.com)
+GeoSensorWeb Lab, University of Calgary (http://sensorweb.geomatics.ucalgary.ca/)
+Source Code
+Initial Contribution: There will be no initial contribution. The project will start from scratch. We expect to use some existing Eclipse IoT libraries, such as Paho, Californium, and Kura.
+Source Repository Type: GitHub
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Pascal Rapicault is a Mentor for Whiskers | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Pascal Rapicault is a Mentor for Whiskers
+Pascal Rapicault is a Mentor for Whiskers
+User: Pascal RapicaultProject: Eclipse WhiskersType: MentorStatus: ActiveActive: Wednesday, April 6, 2016
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+GitHub - eclipse-archived/whiskers.js: Eclipse Whiskers for JavaScript
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+This repository has been archived by the owner. It is now read-only.
+eclipse-archived
+/
+whiskers.js
+Archived
+Watch
+10
+Star
+12
+Fork
+4
+Eclipse Whiskers for JavaScript
+EPL-1.0 License
+12
+stars
+4
+forks
+Star
+Watch
+Code
+Issues
+3
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+4
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+30
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+dist
+lib
+.gitignore
+.jshintrc
+API.md
+LICENSE
+README.md
+package.json
+View code
+README.md
+Eclipse Whiskers
+Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways (e.g., Raspberry Pi). The SensorThings API is an OGC (Open Geospatial Consortium) standard that allows IoT (Internet of Things) devices and their data to be connected; a major goal is to foster a healthy and open IoT ecosystem, as opposed to one dominated by proprietary information silos.
+In addition the a client library, Whiskers will also have a SensorThings server module for IoT gateways, such as Raspberry Pi. Developers will be able to deploy and configure IoT gateways, make them SensorThings API-compliant, and connect with spatial data servers around the world that implement the full array of OGC Sensor Web Enablement (SWE) standards.
+Whiskers aims to make SensorThings development easy for the large and growing world of IoT developers.
+More details can be found on the Eclipse Whiskers Project page.
+Using Eclipse Whiskers
+Eclipse Whiskers is still in an early development stage, so some details may change as we stabilize the API before version 1.0.
+Using with Node.js
+This library can be used with the Node.js version of CommonJS to include all the library sub-modules as a single namespaced object. First add eclipse-whiskers as a dependency from GitHub.
+$ npm install --save eclipse/whiskers#3df4601e98b9dc4c343d20d3e40d582ff021cc40
+A module hosted by NPM will be coming at a later date. Instead of referencing the master branch, this command forces a specific commit to be used, which is highly recommended when referencing a Git repository as a new commit may come in that adds an unexpected behaviour. In the future this will be handled with the NPM module and by using semantic versioning.
+Once Eclipse Whiskers is added to your node_modules directory, it can be used in your Node application:
+var EclipseWhiskers = require('eclipse-whiskers');
+var server = new EclipseWhiskers.Backend("http://example.com/v1.0/");
+var things = server.getThings(); // returns a Q.js promise object
+At the moment, the following classes will be available:
+Backend
+Datastream
+Generic
+Location
+Observation
+ObservedProperty
+Sensor
+Thing
+More classes will be added as the API matures. For more details on using these classes, please see the API documentation.
+Using with Web Browsers
+The main Eclipse Whiskers library source files are written for Node.js and use require statements and ES2015 modules. These are not compatible with most browsers and requiring the files in an HTML script tag will not work.
+If you are using Browserify or Webpack in your web application, you could use that to bundle Eclipse Whiskers into your application by requiring it in your code:
+var EclipseWhiskers = require('eclipse-whiskers');
+This will bundle a self-contained version of Eclipse Whiskers with jQuery and Q inside. You will also have to run a ES2015 transpiler such as Babel to convert the code to be supported in most web browsers.
+Instead, I recommend you use the web version of Eclipse Whiskers that is pre-compiled for ES5 (most semi-recent web browsers support ES5). This version does not include jQuery and Q inside, those must be available in the global namespace. The file is contained in dist/eclipse-whiskers.js and can be used in a script tag:
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/q.js/1.4.1/q.js"></script>
+<script src="vendor/eclipse-whiskers.js"></script>
+Note that jQuery and Q must be included before Eclipse Whiskers. A global variable EclipseWhiskers will be made available that provides access to the API. The API documentation in API.md goes into more detail on its usage.
+Note that Eclipse Whiskers has not been tested with Q version 2.0 or newer, nor with jQuery version 3.0 or newer.
+Versioning
+Tania Khalafbeigi is a Committer for Eclipse Whiskers | projects.eclipse.org
+GitHub - eclipse-archived/whiskers.arduino: Eclipse Whiskers for Arduino
+Whiskers aims to follow Semantic Versioning. This means you can expect the library to be stable on Major version numbers, with only backwards-compatible changes on Minor and Patch version number changes. An exception is made for versions before 1.0.0, where the API is unstable while our development team focuses on a unified API — that means releases before 1.0.0 may introduce breaking changes between Minor versions.
+Issues
+You can submit issues through GitHub, through Eclipse Bugzilla, or on the mailing list.
+GitHub (Account Required)
+Whiskers Issues Page
+Eclipse Bugzilla (Account Required)
+Eclipse Whiskers Issue List
+File a new Eclipse Whiskers Bug/Issue
+Eclipse Mailing List
+Whiskers Mailing List
+License
+Whiskers is available under the Eclipse Public License Version 1.0.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+Tania Khalafbeigi is a Committer for Eclipse Whiskers
+Tania Khalafbeigi is a Committer for Eclipse Whiskers
+User: Tania KhalafbeigiProject: Eclipse WhiskersType: CommitterStatus: InactiveActive: Wednesday, May 24, 2017 to Friday, November 9, 2018
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Building Web Versions
+The web compatible version in dist/eclipse-whiskers.js can be built from the source in lib using Browserify. First install the development dependencies for Eclipse Whiskers:
+$ npm install
+$ npm install -g browserify
+$ npm install -g exorcist
+Then use Browserify to convert the require statements into globals (see browserify-shim section in package.json for that configuration) and to convert from ES2015 to ES5 using babelify.
+$ browserify --debug --transform browserify-shim --transform babelify --presets es2015 lib/shim.js | exorcist dist/eclipse-whiskers.js.map > dist/eclipse-whiskers.js
+The command is also ran through exorcist, which creates a separate JavaScript source map file. Having a source map file can make debugging Whiskers easier in the web browser, as the source will be displayed without minification.
+This web version code should be updated regularly, and must be updated for any versioned release of Eclipse Whiskers.
+If any ES2016 or ES next features are used in the source, then preset packages for babelify will need to be added — please see the babelify documentation for instructions.
+Why use browserify-shim?
+Without it, Browserify will go ahead and include a copy of jQuery and Q inside the output file. This is nice, but if you already have jQuery or Q included in your application then you have two copies, which is a waste of bandwidth. So instead we use browserify-shim to replace those require statements with references to global variables.
+An exception can be made though if you are using versions of jQuery or Q that are incompatible with Eclipse Whiskers, and in that case it would be better to not use the web version and to use Browserify and Babel on the Node.js version of Eclipse Whiskers instead.
+Contributing
+If you want to submit feature requests, ideas, bugs, issues or other comments to the project, we would love to hear it. Our primary discussion medium is the Whiskers Mailing List, but you can use Eclipse Bugzilla or GitHub Issues.
+Very important: if you want to submit patches or code to the project, you will need to sign the Eclipse Foundation Contributor License Agreement (CLA).
+Whiskers follows the Eclipse Community Code of Conduct. We aim to make Whiskers a welcoming and respectful project.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Whiskers Users
+Are you using Eclipse Whiskers for your project? We would like to hear from you! If you would also like to be publicly linked to the project, let us know and we will list you below.
+GeoSensorWeb Lab (University of Calgary, Canada): Coming Soon!
+About
+Eclipse Whiskers for JavaScript
+Resources
+Readme
+License
+EPL-1.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 2
+Languages
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+JavaScript
+100.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Jump to
+↵
+Sign in
+Sign up
+This repository has been archived by the owner. It is now read-only.
+eclipse-archived
+/
+whiskers.arduino
+Archived
+Watch
+5
+Star
+0
+Fork
+0
+Eclipse Whiskers for Arduino
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+EPL-1.0 License
+0
+stars
+0
+forks
+Star
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+James Badger is a Committer for Whiskers | projects.eclipse.org
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+1
+branch
+0
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Whiskers
+James Badger is a Committer for Whiskers
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+James Badger is a Committer for Whiskers
+User: James BadgerProject: Eclipse WhiskersType: CommitterStatus: InactiveActive: Friday, May 13, 2016 to Wednesday, January 16, 2019
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Whiskers
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+8
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Name
+Latest commit message
+Commit time
+example
+src
+LICENSE
+README.md
+View code
+README.md
+Eclipse Whiskers for Arduino
+Whiskers for Arduino is a library for connecting Arduino devices to OGC SensorThings API. The SensorThings API is an OGC (Open Geospatial Consortium) standard that allows IoT (Internet of Things) devices and their data to be connected; a major goal is to foster a healthy and open IoT ecosystem, as opposed to one dominated by proprietary information silos.
+Thanks to the financial support of Natural Resources Canada GeoConnections.
+Using Eclipse Whiskers for Ardunio
+Eclipse Whiskers for Arduino is using one other Arduino library for MQTT connections:
+PubSubClient
+Note that you need to add this library for Whiskers for Arduino to work.
+The library has methods for connecting to a SensorThings server as well as SensorThings MQTT broker.
+After connecting to the server, you can use the library method to create SensorThings entities and start uploading Observations.
+Example folder contains example usage of the library. The example code provided is for Linkit One and for internet connection it is using MediaTek LWiFi Arduino library.
+There are two main approach to use the library:
+You create all the required entities, and use the device only for sending Observations.
+The device is plug-and-play which means it creates all the required entities and then send Observations.
+In following two Sections, we explain the steps for using the library for each of these approaches.
+Plug-and-Play Device
+Connect your device to internet. SensorThings library accepts a "Client" connected to internet as one of the parameters.
+Create a SensorThings instance by passing the "Client", SensorThings server address, port used for HTTP requests, SensorThings MQTT broker address, and port used for MQTT.
+Use createEntities method of the SensorThings instance to create all the required entities. The parameters required for this method are Thing description, Datastream description, unitOfMeasurement name, Sensor description and ObservedProperty description. This method is simplified for device maker and because of that the library generate all the other entity properties based on these parameters. User can update these properties at any time with sending HTTP request to the SensorThings server.
+Use sendObservation method of the SensorThings instance to send the Observations. The parameters are result, latitude, and longitude. If your device is not moving, after the first sendObservation request, you can use sendObservation only with result parameter.
+Sending Observations only
+Create Thing, Location, Datastream, Sensor, and ObservedProperty in the SensorThings server. Keep note of the @iot.id for the Datastream that you created.
+Connect your device to internet. SensorThings library accepts a "Client" connected to internet as one of the parameters.
+Create a SensorThings instance by passing the "Client", SensorThings MQTT broker address, port used for MQTT, and @iot.id for Datastream.
+Use sendObservation method of the SensorThings instance with result parameter to send the Observations.
+About
+Eclipse Whiskers for Arduino
+Resources
+Readme
+License
+EPL-1.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 2
+Languages
+C++
+100.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Mailing list: whiskers-dev (12 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: whiskers-dev (12 subscribers)
+This is not a valid mailing list
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

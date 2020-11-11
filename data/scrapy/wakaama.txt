@@ -1,0 +1,1279 @@
+Eclipse Wakaama
+Toggle navigation
+Overview
+Getting started
+Learn more
+OMA Lightweight M2M C implementation designed to be portable on POSIX compliant systems
+What is LWM2M?
+OMA Lightweight M2M is a protocol from the Open Mobile Alliance for M2M or IoT device management.
+On top of CoAP
+UDP and SMS transport layer support
+Simple Object based resource model
+DTLS based security
+Contact
+A problem? A missing feature? An idea? Contact the community.
+Mailing list
+Bug tracker
+Security Vulnerabilities
+What is Eclipse Wakaama?
+Wakaama is not a library but files to be built with an application. It is written in C and designed to be portable on POSIX compliant systems.
+Two compilation switches are used: LWM2M_CLIENT_MODE and LWM2M_SERVER_MODE. Defining LWM2M_CLIENT_MODE enables the LWM2M Client interfaces. Defining LWM2M_SERVER_MODE enables the LWM2M Server interfaces. Both can be defined at the same time.
+Wakaama is mono-threaded. An application can call a HandlePacket API to feed Wakaama with received LWM2M packets and a Step API to perform any pending LWM2M operations.
+Wakaama provides APIs for a server application to send commands to registered LWM2M Clients. On client applications, Wakaama checks received commands for syntax and access rights and then dispatches them to the relevant objects.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 2.0 Main companies supporting this project over the last three months.
+Getting started
+Follow the examples
+Get the code by cloning the repository.
+Wakaama provides sample clients and server in its 'examples' directory. To
+try them just launch 'cmake' in any of its subdirectories then 'make'.
+You can find detailled instructions in the README at the root of the repository.
+You can try the wakaama sample client with the [Leshan Sandbox] by running:
+"./lwm2mclient -4 -h leshan.eclipse.org"
+Source Code & Examples
+Learn more
+Eclipse Leshan
+Leshan provides libraries that help people develop their own Lightweight M2M server and client
+Website
+Source Code
+Leshan & Wakaama in action
+Eclipse Foundation
+About us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+How to Contribute
+Mailing Lists
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Copyright © 2015 The Eclipse Foundation. All Rights Reserved.
+GitHub - eclipse/wakaama: Eclipse Wakaama is a C implementation of the Open Mobile Alliance's LightWeight M2M protocol (LWM2M).
+Mailing list: wakaama-dev (161 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: wakaama-dev (161 subscribers)
+Wakaama developer discussions
+About wakaama-dev
+Wakaama developer discussions
+Using wakaama-dev
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+wakaama/CONTRIBUTING.md at master · eclipse/wakaama · GitHub
+To post a message to all the list members,
+send email to wakaama-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the wakaama-dev Archives or subscribe to this list's RSS feed
+Subscribing wakaama-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: wakaama-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+wakaama
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Back to the top
+Watch
+91
+Star
+336
+Fork
+287
+Eclipse Wakaama is a C implementation of the Open Mobile Alliance's LightWeight M2M protocol (LWM2M).
+EPL-2.0 License
+336
+stars
+287
+forks
+Star
+Watch
+Code
+Issues
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+56
+Pull requests
+19
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+wakaama
+Watch
+91
+Star
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+10
+branches
+2
+tags
+Go to file
+336
+Fork
+287
+Code
+Issues
+56
+Pull requests
+19
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+Pull requests
+Actions
+Projects
+Security
+Insights
+Permalink
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+master
+wakaama/CONTRIBUTING.md
+Go to file
+Go to file
+T
+Go to line
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+sbertin-telular
+and sbernard31
+Improve floating point conversions.
+…
+e6c9671
+Nov 9, 2020
+Improve floating point conversions.
+Provides an improved range of conversions and handles scientific
+notation.
+Updates the tests.
+L
+Copy path
+Cannot retrieve contributors at this time
+70 lines (44 sloc)
+2.28 KB
+Raw
+Blame
+Contributing to Eclipse Wakaama
+Thanks for your interest in this project.
+Project description
+Wakaama provides APIs for a server application to send commands to registered
+LWM2M Clients. On client applications, Wakaama checks received commands for
+syntax and access rights and then dispatches them to the relevant objects.
+https://projects.eclipse.org/projects/iot.wakaama
+Developer resources
+Also includes improvemnets to the tests overall by making file scope
+constant variables static const and adding const to casts converting
+from text.
+Signed-off-by: Scott Bertin <sbertin@telular.com>
+e6c9671
+Git stats
+810
+The project maintains the following source code repositories
+https://github.com/eclipse/wakaama
+This project uses GitHub issues to track ongoing development and issues.
+Be sure to search for existing bugs before you create another one. Remember that
+contributions are always welcome!
+Making your changes
+Every commit you make in your patch or pull request MUST be "signed off".
+You do this by adding the -s flag when you make the commit(s), e.g.
+git commit -s -m "Shave the yak some more"
+Fork the repository on GitHub
+Create a new branch for your changes
+Make your changes
+Make sure you include tests
+Make sure the test suite passes after your changes
+Commit your changes into that branch
+Use descriptive and meaningful commit messages
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+.github/workflows
+core
+examples
+tests
+.gitignore
+.gitmodules
+CONTRIBUTING.md
+Make sure you use the -s flag when committing as explained above.
+Push your changes to your branch in your forked repository
+Submitting the changes
+Submit a pull request via the normal GitHub UI.
+After submitting
+Do not use your branch for any other development, otherwise further changes that you make will be visible in the PR.
+Eclipse Contributor Agreement
+Before your contribution can be accepted by the project team contributors must
+electronically sign the Eclipse Contributor Agreement (ECA).
+http://www.eclipse.org/legal/ECA.php
+Commits that are provided by non-committers must have a Signed-off-by field in
+the footer indicating that the author is aware of the terms by which the
+contribution has been provided to the project. The non-committer must
+additionally have an Eclipse Foundation account and must have a signed Eclipse
+Contributor Agreement (ECA) on file.
+For more information, please see the Eclipse Committer Handbook:
+LICENSE-epl-v2.0.md
+LICENSE.edl-v1.0.md
+NOTICE.md
+README.md
+SECURITY.md
+TODO
+about.html
+View code
+README.md
+Wakaama (formerly liblwm2m) is an implementation of the Open Mobile Alliance's LightWeight M2M
+protocol (LWM2M).
+Developers mailing list: https://dev.eclipse.org/mailman/listinfo/wakaama-dev
+Source Layout
+-+- core (the LWM2M engine)
+https://www.eclipse.org/projects/handbook/#resources-commit
+Contact
+Contact the project developers via the project's "dev" list.
+https://dev.eclipse.org/mailman/listinfo/wakaama-dev
+Go
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+| |
+| +- er-coap-13 (Modified Erbium's CoAP engine from
+| https://web.archive.org/web/20180316172739/http://people.inf.ethz.ch/mkovatsc/erbium.php)
+|
++- tests (test cases)
+|
++- examples
+|
++- bootstrap_server (a command-line LWM2M bootstrap server)
+|
++- client (a command-line LWM2M client with several test objects)
+|
++- lightclient (a very simple command-line LWM2M client with several test objects)
+|
++- server (a command-line LWM2M server)
+|
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+line interface)
+Compiling
+Wakaama is not a library but files to be built with an application.
+Wakaama uses CMake >= 3. Look at examples/server/CMakeLists.txt for an
+example of how to include it.
+Several compilation switches are used:
+LWM2M_BIG_ENDIAN if your target platform uses big-endian format.
+LWM2M_LITTLE_ENDIAN if your target platform uses little-endian format.
+LWM2M_CLIENT_MODE to enable LWM2M Client interfaces.
+LWM2M_SERVER_MODE to enable LWM2M Server interfaces.
+LWM2M_BOOTSTRAP_SERVER_MODE to enable LWM2M Bootstrap Server interfaces.
+LWM2M_BOOTSTRAP to enable LWM2M Bootstrap support in a LWM2M Client.
+LWM2M_SUPPORT_JSON to enable JSON payload support (implicit when defining LWM2M_SERVER_MODE)
+LWM2M_SUPPORT_SENML_JSON to enable SenML JSON payload support (implicit for LWM2M 1.1 or greater when defining LWM2M_SERVER_MODE or LWM2M_BOOTSTRAP_SERVER_MODE)
+LWM2M_OLD_CONTENT_FORMAT_SUPPORT to support the deprecated content format values for TLV and JSON.
+LWM2M_VERSION to specify which version of the LWM2M spec to support.
+Issues · eclipse/wakaama · GitHub
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Clients will support only that version. Servers will support that version and below.
+By default the latest version is supported. To specify version 1.0, for example, pass
+-DLWM2M_VERSION="1.0" to cmake.
+Depending on your platform, you need to define LWM2M_BIG_ENDIAN or LWM2M_LITTLE_ENDIAN.
+LWM2M_CLIENT_MODE and LWM2M_SERVER_MODE can be defined at the same time.
+Examples
+There are some example applications provided to test the server, client and bootstrap capabilities of Wakaama.
+The following recipes assume you are on a unix like platform and you have cmake and make installed.
+Server example
+Create a build directory and change to that.
+cmake [wakaama directory]/examples/server
+make
+./lwm2mserver [Options]
+The lwm2mserver listens on UDP port 5683. It features a basic command line
+interface. Type 'help' for a list of supported commands.
+Options are:
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+-4 Use IPv4 connection. Default: IPv6 connection
+Test client example
+Create a build directory and change to that.
+cmake [wakaama directory]/examples/client
+make
+./lwm2mclient [Options]
+DTLS feature requires the tinydtls submodule. To include it, on the first run,
+use the following commands to retrieve the sources:
+git submodule init
+git submodule update
+You need to install autoconf and automake to build with tinydtls.
+Build with tinydtls:
+Create a build directory and change to that.
+cmake -DDTLS=1 [wakaama directory]/examples/client
+make
+./lwm2mclient [Options]
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+The lwm2mclient features nine LWM2M objects:
+Security Object (id: 0)
+Server Object (id: 1)
+Access Control Object (id: 2) as a skeleton
+Device Object (id: 3) containing hard-coded values from the Example LWM2M
+Client of Appendix E of the LWM2M Technical Specification.
+Connectivity Monitoring Object (id: 4) as a skeleton
+Firmware Update Object (id: 5) as a skeleton.
+Location Object (id: 6) as a skeleton.
+Connectivity Statistics Object (id: 7) as a skeleton.
+Test Object (id: 31024) with the following description:
+Multiple
+Object | ID | Instances | Mandatory |
+Test | 31024 | Yes | No |
+Resources:
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+Supported Multiple
+Name | ID | Operations | Instances | Mandatory | Type | Range |
+test | 1 | R/W | No | Yes | Integer | 0-255 |
+exec | 2 | E | No | Yes | | |
+dec | 3 | R/W | No | Yes | Float | |
+The lwm2mclient opens udp port 56830 and tries to register to a LWM2M Server at
+127.0.0.1:5683. It features a basic command line interface. Type 'help' for a
+list of supported commands.
+Options are:
+-n NAME Set the endpoint name of the Client. Default: testlwm2mclient
+-l PORT Set the local UDP port of the Client. Default: 56830
+-h HOST Set the hostname of the LWM2M Server to connect to. Default: localhost
+-p HOST Set the port of the LWM2M Server to connect to. Default: 5683
+-4 Use IPv4 connection. Default: IPv6 connection
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+-t TIME Set the lifetime of the Client. Default: 300
+-b Bootstrap requested.
+-c Change battery level over time.
+If DTLS feature enable:
+-i Set the device management or bootstrap server PSK identity. If not set use none secure mode
+-s Set the device management or bootstrap server Pre-Shared-Key. If not set use none secure mode
+To launch a bootstrap session:
+./lwm2mclient -b
+Simpler test client example
+In the any directory, run the following commands:
+Create a build directory and change to that.
+cmake [wakaama directory]/examples/lightclient
+make
+↵
+Sign in
+Sign up
+eclipse
+/
+wakaama
+Watch
+91
+Star
+336
+Fork
+287
+./lightclient [Options]
+The lightclient is much simpler that the lwm2mclient and features only four
+LWM2M objects:
+Security Object (id: 0)
+Server Object (id: 1)
+Device Object (id: 3) containing hard-coded values from the Example LWM2M
+Client of Appendix E of the LWM2M Technical Specification.
+Test Object (id: 31024) from the lwm2mclient as described above.
+The lightclient does not feature any command-line interface.
+Options are:
+-n NAME Set the endpoint name of the Client. Default: testlightclient
+-l PORT Set the local UDP port of the Client. Default: 56830
+-4 Use IPv4 connection. Default: IPv6 connection
+About
+Eclipse Wakaama is a C implementation of the Open Mobile Alliance's LightWeight M2M protocol (LWM2M).
+Topics
+lwm2m-server
+Code
+Issues
+56
+Pull requests
+19
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+lwm2m
+lwm2m-client
+c
+iot
+coap
+internet-of-things
+device-management
+eclipseiot
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+2
+Wakaama v1.0
+Projects
+Security
+Insights
+Pinned issues
+📢 Wakaama Revival ! 🏗
+#488
+opened Nov 3, 2020 by
+sbernard31
+Open
+2
+❓ Future of 1.0 version ❓
+#487
+opened Nov 3, 2020 by
+sbernard31
+Open
+Latest
+Dec 20, 2018
++ 1 release
+Contributors 30
++ 19 contributors
+Languages
+C
+99.1%
+Other
+0.9%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+10
+🏗 Integrate open PRs 🚧
+#486
+opened Nov 3, 2020 by
+sbernard31
+Open
+6
+Labels
+8
+Milestones
+0
+Labels
+8
+Milestones
+0
+New issue
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+Index of wakaama-dev for November 2020
+Have a question about this project? Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+Pick a username
+Email Address
+Password
+Sign up for GitHub
+By clicking “Sign up for GitHub”, you agree to our terms of service and
+privacy statement. We’ll occasionally send you account related emails.
+Already on GitHub?
+Sign in
+to your account
+56 Open
+152 Closed
+56 Open
+152 Closed
+Author
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Filter by author
+Label
+Filter by label
+Use alt + click/return to exclude labels.
+Projects
+Filter by project
+Milestones
+Filter by milestone
+Assignee
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Filter by who’s assigned
+Sort
+Sort by
+Newest
+Oldest
+Most commented
+Least commented
+Recently updated
+Least recently updated
+Most reactions
+👍
+👎
+😄
+🎉
+😕
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+❤️
+🚀
+👀
+Review/Integrated upstream COAP engine improvements
+Learn More
+Documentation
+enhancement
+#495
+opened Nov 9, 2020 by
+rettichschnidi
+1
+Supported compilers, architectures, language versions
+discussion
+#494
+opened Nov 6, 2020 by
+rettichschnidi
+4
+Deleting unused branches
+discussion
+#493
+opened Nov 5, 2020 by
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+Index of wakaama-dev for November 2020
+Index by Thread Index by Year [First Page] [Prev Page][Next Page] [Last Page]November 04, 2020[wakaama-dev] Fwd: EMO(ED) Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama Posted 11:21 by EMO EMO[wakaama-dev] 📢 Wakaama revival ! 📢 Posted 10:58 by Simon Bernard
+November 03, 2020[wakaama-dev] PMC Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama Posted 04:46 by emo
+Mail converted by MHonArc
+Back to the top
+Eclipse Foundation
+sbernard31
+Add community "classic" documentation. 📘
+discussion
+#491
+opened Nov 4, 2020 by
+sbernard31
+5 of 8
+10
+📢 Wakaama Revival ! 🏗
+announce
+#488
+opened Nov 3, 2020 by
+sbernard31
+2
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+❓ Future of 1.0 version ❓
+discussion
+#487
+opened Nov 3, 2020 by
+sbernard31
+10
+🏗 Integrate open PRs 🚧
+discussion
+#486
+opened Nov 3, 2020 by
+sbernard31
+6
+Version Release Issues
+question
+#484
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+opened Sep 24, 2020 by
+879166906
+2
+Possible NULL dereference in wakaama/core/observe.c
+bug
+#481
+opened Sep 13, 2020 by
+tluio
+1
+TimeStone
+question
+#477
+opened Aug 18, 2020 by
+cruise2018
+2
+Json serialization can not process empty string
+bug
+#475
+opened Jul 23, 2020 by
+xuyouming1986
+2
+List of Wakaama Users and Consultancy Companies/Individuals
+question
+#470
+opened Jun 19, 2020 by
+rettichschnidi
+5
+why does not wakaama support add resource?
+question
+#466
+opened Apr 27, 2020 by
+zhenglining
+2
+write object failed if request set coap block2 option
+bug
+#464
+opened Apr 1, 2020 by
+xuyouming1986
+1
+test client crashed with segmentation fault with coap://leshan.eclipseprojects.io:5683
+question
+#457
+opened Nov 20, 2019 by
+mailyuanhao
+1
+should ip change trigger reregister
+question
+#454
+opened Sep 17, 2019 by
+ephimee
+2
+Why does wakaama not support UTC+13 time zone?
+bug
+#452
+opened Aug 21, 2019 by
+PetroShevchenko
+1
+Is the "Send" operation defined by lwm2m1.1 supported now?
+enhancement
+#451
+opened Aug 19, 2019 by
+luochen52
+4
+CoAP over TCP support
+enhancement
+#448
+opened Aug 6, 2019 by
+luochen52
+9
+Bootstrap-Delete incorrectly deletes the Security object for the bootstrap server
+enhancement
+#445
+opened Jul 15, 2019 by
+sbertin-telular
+1
+1
+*** Error in `./lwm2mclient': free(): invalid next size (fast): 0x00516ab0 ***)
+question
+#444
+opened Jul 5, 2019 by
+nis267
+2
+Incorrect CoAP result on security object action made by the DM server
+bug
+#440
+opened May 9, 2019 by
+fdur
+1
+please fix mem leak issue in observe_step()
+enhancement
+#437
+opened Apr 10, 2019 by
+zengbiao
+3
+JSON and SenML JSON can't omit instance for create
+enhancement
+#434
+opened Mar 11, 2019 by
+sbertin-telular
+3
+Typecasting causing undefined behavior
+bug
+#429
+opened Feb 20, 2019 by
+taubel
+1
+Previous 1 2 3 Next
+Previous Next
+ProTip!
+Add no:assignee to see everything that’s not assigned.
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+wakaama-dev
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/maillist.html
+wakaama-dev
+en-us
+Wed, 04 Nov 2020 16:24:11 GMT
+Wed, 04 Nov 2020 16:24:11 GMT
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+wakaama-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/maillist.html
+[wakaama-dev] Fwd: EMO(ED) Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00540.html
+Learn more
+Accept
+Reject
+Save preferences
+[wakaama-dev] Fwd: EMO(ED) Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+Wed, 04 Nov 2020 16:21:54 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00540.html
+emo@xxxxxxx (EMO EMO)
+[wakaama-dev] 📢 Wakaama revival ! 📢
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00539.html
+[wakaama-dev] 📢 Wakaama revival ! 📢
+Wed, 04 Nov 2020 15:58:08 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00539.html
+sbernard@xxxxxxx (Simon Bernard)
+[wakaama-dev] PMC Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00538.html
+[wakaama-dev] PMC Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+Tue, 03 Nov 2020 09:46:06 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00538.html
+Eclipse Wakaama | projects.eclipse.org
+emo@xxxxxxx (emo)
+[wakaama-dev] Project Lead election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00537.html
+[wakaama-dev] Project Lead election for Simon Bernard on Eclipse Wakaama
+Fri, 30 Oct 2020 10:16:42 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00537.html
+emo@xxxxxxx (emo)
+Re: [wakaama-dev] [iot-pmc] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00536.html
+Re: [wakaama-dev] [iot-pmc] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+Tue, 27 Oct 2020 12:02:46 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00536.html
+frederic.desbiens@xxxxxxx (Frédéric Desbiens)
+[wakaama-dev] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00535.html
+[wakaama-dev] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+wakaama-dev
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Wakaama
+Eclipse Wakaama
+Primary tabsOverview(active tab)
+Downloads
+Thu, 22 Oct 2020 14:35:44 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00535.html
+emo@xxxxxxx (emo)
+[wakaama-dev] Committer Election for Simon Bernard on Eclipse Wakaama has started
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00534.html
+[wakaama-dev] Committer Election for Simon Bernard on Eclipse Wakaama has started
+Thu, 22 Oct 2020 14:15:43 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00534.html
+emo@xxxxxxx (emo)
+[wakaama-dev] PMC Approval required for Committer Election for Scott Bertin on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00533.html
+[wakaama-dev] PMC Approval required for Committer Election for Scott Bertin on Eclipse Wakaama
+Thu, 15 Oct 2020 12:35:52 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00533.html
+emo@xxxxxxx (emo)
+[wakaama-dev] Committer Election for Scott Bertin on Eclipse Wakaama has started
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/maillist.html
+wakaama-dev
+en-us
+Wed, 04 Nov 2020 16:24:11 GMT
+Wed, 04 Nov 2020 16:24:11 GMT
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+wakaama-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/maillist.html
+[wakaama-dev] Fwd: EMO(ED) Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00540.html
+[wakaama-dev] Fwd: EMO(ED) Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+Wed, 04 Nov 2020 16:21:54 GMT
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Wakaama is not a library but files to be built with an application. It is written in C and designed to be portable on POSIX compliant systems.
+Two compilation switches are used: LWM2M_CLIENT_MODE and LWM2M_SERVER_MODE. Defining LWM2M_CLIENT_MODE enables the LWM2M Client interfaces. Defining LWM2M_SERVER_MODE enables the LWM2M Server interfaces. Both can be defined at the same time.
+Wakaama is mono-threaded. An application can call a HandlePacket API to feed Wakaama with received LWM2M packets and a Step API to perform any pending LWM2M operations.
+Wakaama provides APIs for a server application to send commands to registered LWM2M Clients. On client applications, Wakaama checks received commands for syntax and access rights and then dispatches them to the relevant objects.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 2.0Latest Releases: From September 6th, 2017 to December 19th, 2018
+NameDateReview
+1.02018-12-19
+0.52017-09-06
+Contribution Activity: Commits on this project (last 12 months).
+Project Links
+Website
+Related Projects
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00532.html
+[wakaama-dev] Committer Election for Scott Bertin on Eclipse Wakaama has started
+Tue, 13 Oct 2020 15:57:05 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00532.html
+emo@xxxxxxx (emo)
+[wakaama-dev] Changes to the Eclipse Wakaama project
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00531.html
+[wakaama-dev] Changes to the Eclipse Wakaama project
+Tue, 13 Oct 2020 15:39:08 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00531.html
+emo@xxxxxxx (EMO EMO)
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00540.html
+emo@xxxxxxx (EMO EMO)
+[wakaama-dev] 📢 Wakaama revival ! 📢
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00539.html
+[wakaama-dev] 📢 Wakaama revival ! 📢
+Wed, 04 Nov 2020 15:58:08 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00539.html
+sbernard@xxxxxxx (Simon Bernard)
+[wakaama-dev] PMC Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00538.html
+[wakaama-dev] PMC Approval required for Project Lead election for Simon Bernard on Eclipse Wakaama
+Tue, 03 Nov 2020 09:46:06 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00538.html
+emo@xxxxxxx (emo)
+[wakaama-dev] Project Lead election for Simon Bernard on Eclipse Wakaama
+Project Hierarchy:Eclipse IoT
+Eclipse Wakaama
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00537.html
+[wakaama-dev] Project Lead election for Simon Bernard on Eclipse Wakaama
+Fri, 30 Oct 2020 10:16:42 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00537.html
+emo@xxxxxxx (emo)
+Re: [wakaama-dev] [iot-pmc] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00536.html
+Re: [wakaama-dev] [iot-pmc] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+Tue, 27 Oct 2020 12:02:46 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00536.html
+frederic.desbiens@xxxxxxx (Frédéric Desbiens)
+[wakaama-dev] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00535.html
+[wakaama-dev] PMC Approval required for Committer Election for Simon Bernard on Eclipse Wakaama
+Thu, 22 Oct 2020 14:35:44 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00535.html
+emo@xxxxxxx (emo)
+[wakaama-dev] Committer Election for Simon Bernard on Eclipse Wakaama has started
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00534.html
+[wakaama-dev] Committer Election for Simon Bernard on Eclipse Wakaama has started
+Thu, 22 Oct 2020 14:15:43 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00534.html
+emo@xxxxxxx (emo)
+[wakaama-dev] PMC Approval required for Committer Election for Scott Bertin on Eclipse Wakaama
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00533.html
+[wakaama-dev] PMC Approval required for Committer Election for Scott Bertin on Eclipse Wakaama
+Thu, 15 Oct 2020 12:35:52 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00533.html
+emo@xxxxxxx (emo)
+[wakaama-dev] Committer Election for Scott Bertin on Eclipse Wakaama has started
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00532.html
+[wakaama-dev] Committer Election for Scott Bertin on Eclipse Wakaama has started
+Tue, 13 Oct 2020 15:57:05 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00532.html
+emo@xxxxxxx (emo)
+[wakaama-dev] Changes to the Eclipse Wakaama project
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00531.html
+[wakaama-dev] Changes to the Eclipse Wakaama project
+Tue, 13 Oct 2020 15:39:08 GMT
+http://www.eclipse.org/mhonarc/lists/wakaama-dev/msg00531.html
+emo@xxxxxxx (EMO EMO)
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top

@@ -1,0 +1,3541 @@
+Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Eclipse sensiNact
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Eclipse sensiNact project consists of a software platform enabling the collection, processing and redistribution of any data relevant to improving the quality of life of urban citizens, programming interfaces allowing different modes of access to data (on-demand, periodic, historic, etc.) and application development and deployment to easily and rapidly build innovative applications on top of the platform.
+Here a quick look to the existing data available via sensiNact platform from various cities such as Santander, Genova, Fujisawa and Osaka (click the "+" button and click "Add" accepting the default gateway configuration data)
+sensiNact particularly deals with the following 4 topics.
+Connectivity
+Heterogeneity of data is today’s reality in every urban environment. Emerging IoT devices, legacy systems, increasing number of social networks, mobile applications, open data repositories and web data are the potential exploitable data sources. sensiNact thus provides connectivity support to those data sources including today’s IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, MQTT, XMPP, NGSI, HTTP, CoAP, etc. With its modular approach, connectivity support for new protocols can be rapidly developed and dynamically added to the platform, even at run-time.
+Interoperability
+sensiNact platform provides a unified view over those heterogeneous sources of data and action. With the lack of a de facto standard data model today in the IoT domain, sensiNact adopts a generic and extensible data model to facilitate building adapters for various protocols. It’s core model based on 4 types of resources: sensor data, action, state variables, and properties.
+Those resources are accessible by generic and easy to use Application Programming Interfaces (API) providing synchronous (on demand) and asynchronous (periodic or event based) access to data/actions of IoT devices, as well as access to historic data.
+Data and event processing
+Developer tool
+On top of the platform, sensiNact proposes a development tool (sensiNact Studio) that allows managing devices/services connected to the platform and rapidly creating applications and deploying them to the platform. It is a service composition tool which assists developers in building applications by binding the services via events and actions. With a Domain Specific Language, the developers can express the application logic in terms of ECA (Event-Condition-Action) rules, which is verified and validated by the tool before its deployment into the sensiNact platform. The application developers can then remotely monitor and manage applications (install, start, stop, uninstall, etc.). The tool also provides means to easily build support for new types of protocols and platforms and add it to the platform on-the-fly.
+We can list the features of sensiNact as a glance as follows:
+• Plug&play: Device as a Service Approach. The flexibility of adding/removing/updating devices with a minimum impact on the running platform ;
+• Modular: Modular development and deployment for enhanced system maintenance and evolution ;
+• Dependable: sensiNact’s formal data and service models facilitate reliable IoT applications development ;
+• Scalable: sensiNact’s three layers architecture (device/gateway/cloud) allows distribution of data processing at different levels ;
+• Easy&quick: sensiNact’s comprehensive data model and APIs help to rapidly build IoT applications.
+Licenses: Eclipse Public License 1.0Active Member Companies: Member companies supporting this project over the last three months.
+Contribution Activity: Commits on this project (last 12 months).
+Project Links
+Running instance of sensiNact
+Documentation
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Contact Us
+Eclipse sensiNact
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Forums: Forum of sensiNact on the Eclipse Foundation websiteDeveloper Mailing List: sensinact-dev - sensinact developer discussionsProject Mailing Lists: sensinact-dev - This mailing list is reserved for the developers of the sensiNact ecosystem
+Project Links
+Running instance of sensiNact
+Documentation
+Forums
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Eclipse sensiNact | projects.eclipse.org
+Eclipse sensiNact | projects.eclipse.org
+Eclipse sensiNact | projects.eclipse.org
+Governance
+Eclipse sensiNact
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+You can discover data available via sensiNact platform from various cities such as Santander, Genova, Fujisawa and Osaka cities at this link.
+(click the "+" button and click "Add" accepting the default gateway configuration data)
+Scope: The Eclipse sensiNact project will in particular be dealing with the following technical aspects related to smart city platforms:
+Connectivity: providing support for gathering data from various sources in urban environments (IoT devices, legacy devices, open data, social networks, participatory sensing mobile applications, etc.)
+Interoperability: providing interoperability among heterogeneous urban data; providing developer friendly interfaces to access to data and action resources in cities in a uniformed way, supporting various state of the art remote access protocols
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Developer Resources
+Eclipse sensiNact
+Primary tabsOverview
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Who's Involved
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Downloads
+Eclipse sensiNact
+Primary tabsOverview
+Data processing: mechanisms to extract actionable information from raw data
+Developer Tool: providing a tool to build/deploy/manage smart city applications in an easy yet dependable way
+Reviews:
+NameDate
+Creation Review2017-04-05
+IP Due Diligence Type: Type A - License Compatibility Certification
+Project Links
+Running instance of sensiNact
+Documentation
+Proposal
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Report a Bug View Help wanted Bugs View Open Bugs Summarize BugsBuild Technologies: HudsonMavenSource Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see contributing via Gerrit.sensinact/org.eclipse.sensinact - Clone: git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.gitReview With Gerrit
+Browse Repository
+sensinact/org.eclipse.sensinact.gateway - Clone: git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.gateway.gitReview With Gerrit
+Browse Repository
+sensinact/org.eclipse.sensinact.studio - Clone: git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.studio.gitReview With Gerrit
+Browse Repository
+sensinact/org.eclipse.sensinact.studioweb - Clone: git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.studioweb.gitReview With Gerrit
+Browse Repository
+Project Links
+Eclipse sensiNact
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity: Commits on this project (last 12 months).Individual Contribution Activity: Commits on this project by individuals over the last three months.Organization Contribution Activity: Commits on this project by supporting organization over the last three months.Active Member Companies: Member companies supporting this project over the last three months.
+Project Members: Project Lead
+Levent Gurgen
+Committers
+Christophe Munilla
+Etienne Gandrille
+Creation Review | projects.eclipse.org
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The sensiNact Gateway and Studio just have been pushed on the public Eclipse repository.
+A snapshot version, for testing, is available below.
+In the mean time, you can clone the GiT project and compile it, it will generate a distribution in the distribution folder.
+Downloads: sensiNact Gateway 1.5-SNAPSHOT latestsensiNact Gateway 2.0-SNAPSHOT latest
+Project Links
+Running instance of sensiNact
+Documentation
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Running instance of sensiNact
+Documentation
+Dev Mailing List
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Jander Nascimento
+Levent Gurgen
+Remi Druilhe
+Mentor
+Pascal Rapicault
+Project Links
+Running instance of sensiNact
+Documentation
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Eclipse sensiNact
+Creation Review
+Eclipse sensiNact Creation Review
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Christophe Munilla is a Committer for Eclipse sensiNact | projects.eclipse.org
+Levent Gurgen is a Project Lead for Eclipse sensiNact | projects.eclipse.org
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Type: CreationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, April 5, 2017Project: Eclipse sensiNactProposal:
+Eclipse sensiNact
+Parent Project: Eclipse TechnologyBackground: The world is facing a number of critical challenges such as global warming, economic crisis, security threats, inequality, natural disasters and ageing society. Urban areas are particularly affected, given that the world population is increasingly concentrated in those areas, which is expected to be 66% by 2050.
+While occupying 2% of the earth's surface, cities use 75% of the world resources. Those resources in civil infrastructure such as water, energy, public transportation, parking spaces, buildings, roads, bridges, etc., as well as natural resources and economic resources need to be shared by this increasing population. This has direct consequences for urban citizens and for the city itself.
+Ranging from social to economic aspects, IoT and big data provide countless possibilities to enhance the quality of life and security of people, while at the same time reducing inequalities and providing new revenue opportunities for enterprising businesses, from large groups and public administrations to SMEs, startups and web entrepreneurs.
+The unprecedented number of connected things in urban environments and the need to process the associated big data naturally raises new technical challenges in terms of interoperability, data and connectivity heterogeneity, scalable and online data processing, actionable knowledge extraction, security and privacy. Eclipse sensiNact project has been created to bring a community of developers and other smart city stakeholders together who will tackle those challenges with an open approach aiming at fostering smart city business ecosystem.
+Scope: The Eclipse sensiNact project will in particular be dealing with the following technical aspects related to smart city platforms:
+Connectivity: providing support for gathering data from various sources in urban environments (IoT devices, legacy devices, open data, social networks, participatory sensing mobile applications, etc.)
+Interoperability: providing interoperability among heterogeneous urban data; providing developer friendly interfaces to access to data and action resources in cities in a uniformed way, supporting various state of the art remote access protocols
+Data processing: mechanisms to extract actionable information from raw data
+Remi Druilhe is a Committer for Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Levent Gurgen is a Project Lead for Eclipse sensiNact
+Levent Gurgen is a Project Lead for Eclipse sensiNact
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Developer Tool: providing a tool to build/deploy/manage smart city applications in an easy yet dependable way
+Description: The Eclipse sensiNact project consists of a software platform enabling the collection, processing and redistribution of any data relevant to improving the quality of life of urban citizens, programming interfaces allowing different modes of access to data (on-demand, periodic, historic, etc.) and application development and deployment to easily and rapidly build innovative applications on top of the platform.
+sensiNact particularly deals with the following 4 topics.
+Connectivity: Heterogeneity of data is today’s reality in every urban environment. Emerging IoT devices, legacy systems, increasing number of social networks, mobile applications, open data repositories and web data are the potential exploitable data sources. sensiNact thus provides connectivity support to those data sources including today’s IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, MQTT, XMPP, NGSI, HTTP, CoAP, etc. With its modular approach, connectivity support for new protocols can be rapidly developed and dynamically added to the platform, even at run-time.
+Interoperability: sensiNact platform provides a unified view over those heterogeneous sources of data and action. With the lack of a de facto standard data model today in the IoT domain, sensiNact adopts a generic and extensible data model to facilitate building adapters for various protocols. It’s core model based on 4 types of resources: sensor data, action, state variables, and properties.
+Those resources are accessible by generic and easy to use Application Programming Interfaces (API) providing synchronous (on demand) and asynchronous (periodic or event based) access to data/actions of IoT devices, as well as access to historic data.
+Data and event processing
+Developer tool
+On top of the platform, sensiNact proposes a development tool (sensiNact Studio) that allows managing devices/services connected to the platform and rapidly creating applications and deploying them to the platform. It is a service composition tool which assists developers in building applications by binding the services via events and actions. With a Domain Specific Language, the developers can express the application logic in terms of ECA (Event-Condition-Action) rules, which is verified and validated by the tool before its deployment into the sensiNact platform. The application developers can then remotely monitor and manage applications (install, start, stop, uninstall, etc.). The tool also provides means to easily build support for new types of protocols and platforms and add it to the platform on-the-fly.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Remi Druilhe is a Committer for Eclipse sensiNact
+Remi Druilhe is a Committer for Eclipse sensiNact
+User: Remi DruilheProject: Eclipse sensiNactType: CommitterStatus: ActiveActive: Wednesday, April 12, 2017
+Christophe Munilla is a Committer for Eclipse sensiNact
+Christophe Munilla is a Committer for Eclipse sensiNact
+User: Christophe MunillaProject: Eclipse sensiNactType: CommitterStatus: ActiveActive: Tuesday, April 18, 2017Contribution Activity: Commits on Eclipse sensiNact by Christophe Munilla (lifetime).
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Levent Gurgen is a Committer for Eclipse sensiNact | projects.eclipse.org
+Jander Botelho do Nascimento is a Committer for Eclipse sensiNact | projects.eclipse.org
+Pascal Rapicault is a Mentor for Eclipse sensiNact | projects.eclipse.org
+User: Levent GurgenProject: Eclipse sensiNactType: Project LeadStatus: ActiveActive: Tuesday, April 18, 2017
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+We can list the features of sensiNact as a glance as follows:
+• Plug&play: Device as a Service Approach. The flexibility of adding/removing/updating devices with a minimum impact on the running platform.
+• Modular: Modular development and deployment for enhanced system maintenance and evolution
+• Dependable: sensiNact’s formal data and service models facilitate reliable IoT applications development.
+• Scalable: sensiNact’s three layers architecture (device/gateway/cloud) allows distribution of data processing at different levels.
+• Easy&quick: sensiNact’s comprehensive data model and APIs help to rapidly build IoT applications.
+We believe that Eclipse provides a perfect environment to make our project reach its objectives, in terms of efficient project management, in terms of reaching a large number of developers and in terms of creating a business ecosystem.
+Initial Contribution: sensiNact code is composed of approximately 85 000 lines of Java code and about 1 500 classes. It is based on the OSGi framework. It is principally composed of 6 groups of software bundles
+Southbound bridges: this group includes implementation of bridges and adapters for various IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, CoAP, MQTT, XMPP, NGSI, HTTP, etc.
+Northbound bridges: this group includes implementation of remote access bridges to the platform such as REST APIs, JSON RPC, as well as publish subscribe protocols such as MQTT, XMPP, NGSI, etc.
+Studio: This group is composed of a set of visual elements based on Eclipse’s EMF, GMF and XText frameworks
+Studio web: This is an implementation of a lighter web version of the Studio
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Etienne Gandrille is a Committer for Eclipse sensiNact | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Levent Gurgen is a Committer for Eclipse sensiNact
+Levent Gurgen is a Committer for Eclipse sensiNact
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Jander Botelho do Nascimento is a Committer for Eclipse sensiNact
+Jander Botelho do Nascimento is a Committer for Eclipse sensiNact
+User: Jander NascimentoProject: Eclipse sensiNactType: CommitterStatus: ActiveActive: Friday, April 21, 2017Contribution Activity: Commits on Eclipse sensiNact by Jander Nascimento (lifetime).
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Pascal Rapicault is a Mentor for Eclipse sensiNact
+Pascal Rapicault is a Mentor for Eclipse sensiNact
+User: Pascal RapicaultProject: Eclipse sensiNactType: MentorStatus: ActiveActive: Tuesday, April 18, 2017
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Following list provides the dependencies of sensiNact to third party libraries and their associated licenses.
+org.xerial:sqlite-jdbc
+Apache Licence
+org.json:json
+JSON Licence
+org.apache.felix:org.apache.felix.gogo.runtime
+Apache Licence
+org.everit.json:org.everit.json.schema
+Apache Licence
+com.espertech:esper
+GPL v2
+org.slf4j:slf4j-api
+MIT Licence
+javax.servlet:javax.servlet-api
+-
+com.neuronrobotics:nrjavaserial-sensinact
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse sensiNact
+Etienne Gandrille is a Committer for Eclipse sensiNact
+Etienne Gandrille is a Committer for Eclipse sensiNact
+User: Etienne GandrilleProject: Eclipse sensiNactType: CommitterStatus: ActiveActive: Tuesday, April 18, 2017Contribution Activity: Commits on Eclipse sensiNact by Etienne Gandrille (lifetime).
+User: Levent GurgenProject: Eclipse sensiNactType: CommitterStatus: ActiveActive: Monday, May 8, 2017
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+SensiNact - Eclipsepedia
+LGPL v2
+javax.ws.rs:jsr311-api
+-
+org.apache.felix:org.apache.felix.http.api
+Apache Licence
+org.apache.felix:org.apache.felix.http.jetty
+Apache Licence
+org.apache.felix:org.apache.felix.ipojo
+Apache Licence
+org.apache.felix:org.apache.felix.ipojo.annotations
+Apache Licence
+philips.hue.sdk:huesdk-bundle
+Philips Licence
+org.apache.commons:commons-lang3
+Apache Licence
+it.politico.elite:enocean.library
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Skip to main content
+Log in
+Manage Cookies
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Apache Licence
+javax.jmdns:jmdns
+Apache Licence
+JSoXLib:JSoXLib
+Apache Licence
+com.tikitag:com.tikitag.client
+LGPL v2
+org.igniterealtime.smack:smack-tcp
+Apache Licence
+org.igniterealtime.smack:smack-extensions
+Apache Licence
+org.eclipse.paho:org.eclipse.paho.client.mqttv3
+Eclipse Public Licence
+org.json
+JSON Licence
+org.restlet
+Apache Licence
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+org.apache.log4j
+Apache Licence
+org.objectweb.asm
+ASM licence (http://asm.ow2.org/license.html)
+org.osgi.framework
+Eclipse Public Licence
+Dependencies to software having Eclipse conflictual licenses such as GPL, are not critical.
+Legal Issues: The sensiNact name is not owned by any entity. Currently sensiNact code is not licensed. sensiNact name is used in some collaborative projects as a software platform developed by CEA.
+The project uses third party software with various license types such as Apache v2.0 and EPL, JSON and MIT. In principle, sensiNact has no strong binding to any Eclipse conflictual license.
+Licenses: Eclipse Public License 1.0Project Scheduling: sensiNact code is ready to be provided as a first contribution. It already includes its first build. We plan to do regular releases in agile methodology, with intervals of no more than 6 months.
+· Connectivity: we are continuously looking for opportunities to integrate support for additional connectivity protocols. We will provide bridges for various emerging communication standards such as Thread, OneM2M, OMA LWM2M, OPC-UA, etc. We are planning to take benefit of Eclipse IoT open source projects to implement the necessary bridges for those protocols.
+· Interoperability: we would like to add semantic interoperability support to the sensiNact. We would like to look at closer to W3C web of things initiative. CEA as a member of OSGi IoT Expert Group member, we would like to bring reference implementation of IoT related specifications of the OSGi Alliance.
+CEA is committing to actively support the project, with at least 4 FTE. We are planning to actively participate to developer events (organized by Eclipse, as well as other national and international initiatives), as well as creating sensiNact specific events, in order to present our project to the community and attract users and developers. We are planning to reach national stakeholders using our various offices established all over France to transfer CEA technology to local industry. In addition, CEA is an active member in the European smart city ecosystem and has been coordinating and participating to several related collaborative projects involving numerous industrial and academic partners, which will certainly be part of the ecosystem we will create around the platform. CEA is also an active member of the European IoT Platform Initiative (IoT-EPI) and planning to create a smart city related working group within the Eclipse Foundation. As a member of Industrial Internet Consortium (IIC), CEA will also promote Eclipse sensiNact project towards IIC members.
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+People
+Project Leads: Levent GurgenCommitters: Jander NascimentoRémi DruilheEtienne GandrilleChristophe MunillaInterested Parties: Osaka University
+Keio University
+Engineering Ingegneria Informatica spa
+ACUTUS Software, Inc.
+JRISS
+Kyoto Sangyoo University
+ST Microelectronics
+Mentors: Pascal Rapicault
+Sign in to post comments.
+Sign in to post comments.
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+SensiNact
+Jump to: navigation,
+search
+---Navigation---Main PageCommunity portalCurrent eventsRecent changesRandom pageHelpNavigation Main Page Community portal Current events Recent changes Random page Help ---Toolbox---Page informationPermanent linkPrintable versionSpecial pagesRelated changesWhat links hereToolbox Page information Permanent link Printable version Special pages Related changes What links here
+Page
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Discussion
+View source
+History
+SensiNact
+Eclipse sensiNact
+Website
+Download
+Community
+Mailing List • Forums • IRC • mattermost
+Issues
+Open • Help Wanted • Bug Day
+Contribute
+Browse Source
+Eclipse sensiNact (lower-case on the first s and capital letter on the second N) aims at creating a common environment in which heterogeneous devices can exchange information and interact among each other in the IoT world.
+Eclipse sensiNact is composed of two tools, sensiNact Gateway aiming at integrating devices and aggregating data from various sources and sensiNact Studio aiming at interacting with the sensiNact Gateway to visualize the devices and the data.
+sensinact/org.eclipse.sensinact.studioweb - GitilesGitiles Code Review Sign In git.eclipse.org / sensinact / org.eclipse.sensinact.studiowebClone this repo:Branchesmaster4b3d2c4 remove useless variable assignation by Christophe Munilla · 2 years, 8 months ago master63531e0 Initial contribution by Christophe Munilla · 2 years, 8 months agoMore » Powered by Gitilestxt json
+SensiNact - Eclipsepedia
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+sensiNact is a horizontal platform dedicated to IoT and in particularly used in various smart city and smart home applications. sensiNact aims at managing IoT protocols and devices heterogeneity and provides synchronous (on demand) and asynchronous (periodic or event based) access to data/actions of IoT devices, as well as access to historic data with generic and easy-to-use API. To achieve these objectives, sensiNact comes with two complementary frameworks:
+sensiNact Gateway interconnects IoT devices using different southbound IoT protocols such as Zigbee, EnOcean, LoRa, XBee, MQTT, XMPP, as well as platforms such as FIWARE and allows access to them with various northbound protocols such as HTTP REST, MQTT, XMPP, JSON RPC and CDMI. The gateway can also host applications and manage them using an application manager module.
+sensiNact Studio proposes an IDE (Integrated Development Environment) based on Eclipse to manage the existing devices, in addition to develop, deploy and manage IoT applications.
+Contents
+1 Installation
+2 Starting with sensiNact
+3 Configuration
+4 sensiNact gateway internals
+5 Working with bridges
+6 Development
+Installation
+Gateway installation
+Studio installation
+Starting with sensiNact
+sensiNact Data Model
+Studio basic usage
+Configuration
+Skip to main content
+Log in
+Manage Cookies
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Endpoint connector
+HTTPS Felix Configuration
+SensiNact Remote
+sensiNact gateway internals
+Gateway Architecture
+Gateway Core
+Gateway Security
+AppManager
+Working with bridges
+Bridges introduction
+How to develop a southbound bridge (requires knowledge about Java, such as the architecture and the data model of sensiNact)
+How to create sensinact bridge local configuration
+Development
+Repositories
+Gateway repository
+org.eclipse.sensinact.studioweb.git - Unnamed repository; edit this file 'description' to name the repository.
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+Studio repository
+Studio web repository
+CI
+Jenkins dashboard
+latest 1.5 build
+latest 2.0 build
+Nexus interface.
+Sonar dashboard
+Retrieved from "https://wiki.eclipse.org/index.php?title=SensiNact&oldid=432008"
+This page was last modified 02:39, 7 May 2019 by Jander Nascimento. Based on work by Etienne Gandrille and Remi Druilhe.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+org.eclipse.sensinact.studio.git - Unnamed repository; edit this file 'description' to name the repository.
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+SensiNact
+Jump to: navigation,
+search
+---Navigation---Main PageCommunity portalCurrent eventsRecent changesRandom pageHelpNavigation Main Page Community portal Current events Recent changes Random page Help ---Toolbox---Page informationPermanent linkPrintable versionSpecial pagesRelated changesWhat links hereToolbox Page information Permanent link Printable version Special pages Related changes What links here
+Page
+Discussion
+View source
+History
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+SensiNact
+Revision as of 02:39, 7 May 2019 by Jbotnascimento.gmail.com (Talk | contribs) (→‎Configuration)
+(diff) ← Older revision | Latest revision (diff) | Newer revision → (diff)
+Eclipse sensiNact
+Website
+Download
+Community
+Mailing List • Forums • IRC • mattermost
+Issues
+Open • Help Wanted • Bug Day
+Contribute
+Browse Source
+Eclipse sensiNact (lower-case on the first s and capital letter on the second N) aims at creating a common environment in which heterogeneous devices can exchange information and interact among each other in the IoT world.
+Eclipse sensiNact is composed of two tools, sensiNact Gateway aiming at integrating devices and aggregating data from various sources and sensiNact Studio aiming at interacting with the sensiNact Gateway to visualize the devices and the data.
+sensiNact is a horizontal platform dedicated to IoT and in particularly used in various smart city and smart home applications. sensiNact aims at managing IoT protocols and devices heterogeneity and provides synchronous (on demand) and asynchronous (periodic or event based) access to data/actions of IoT devices, as well as access to historic data with generic and easy-to-use API. To achieve these objectives, sensiNact comes with two complementary frameworks:
+sensiNact Gateway interconnects IoT devices using different southbound IoT protocols such as Zigbee, EnOcean, LoRa, XBee, MQTT, XMPP, as well as platforms such as FIWARE and allows access to them with various northbound protocols such as HTTP REST, MQTT, XMPP, JSON RPC and CDMI. The gateway can also host applications and manage them using an application manager module.
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+org.eclipse.sensinact.gateway.git - Unnamed repository; edit this file 'description' to name the repository.
+sensinact/org.eclipse.sensinact - GitilesGitiles Code Review Sign In git.eclipse.org / sensinact / org.eclipse.sensinactClone this repo:Empty RepositoryThis repository is empty. Push to it to show branches and history. Powered by Gitilestxt json
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+sensinact/org.eclipse.sensinact.studio - GitilesGitiles Code Review Sign In git.eclipse.org / sensinact / org.eclipse.sensinact.studioClone this repo:BranchesmasterTagsv20181031.0200f7ae generated tests restored by Etienne Gandrille · 10 months ago masterf360cfb minor js update by Etienne Gandrille · 10 months agofe6664f base64 encoded images by Etienne Gandrille · 1 year, 2 months agob26d22d HTTP gzip payload supported by Etienne Gandrille · 1 year, 2 months ago951caec websockets updated by Etienne Gandrille · 1 year, 5 months ago1ddfaa9 Bug Fix preferences by Etienne Gandrille · 1 year, 6 months agodde4b04 https support added by Etienne Gandrille · 1 year, 6 months ago458833d GPS coordinates separator updated from : to , by Etienne Gandrille · 1 year, 7 months ago69dd074 websocket integration by Etienne Gandrille · 1 year, 7 months ago3e467ff New retlet update by Etienne Gandrille · 1 year, 8 months ago5faaa71 Removed javax exception by Etienne Gandrille · 1 year, 8 months agoa519abf manifest cleaning by Etienne Gandrille · 1 year, 8 months ago96a78ce Restlet and Jackson migrated to newer version by Etienne Gandrille · 1 year, 8 months agoe1d9d5b deconnection works again by Etienne Gandrille · 2 years ago7045096 Fix devices that are now shown in the platform by Jander Nascimento · 2 years ago v20181031.047673bb Display vairable full name by Christophe Munilla · 2 years, 1 month ago91b4223 Support added for Double attributes parsing by Etienne Gandrille · 2 years, 1 month agoec35181 updated by Etienne Gandrille · 2 years, 2 months ago8b94e5a updated by Etienne Gandrille · 2 years, 4 months ago59e66f5 updated by Etienne Gandrille · 2 years, 5 months agoMore » Powered by Gitilestxt json
+sensinact/org.eclipse.sensinact.gateway - GitilesGitiles Code Review Sign In git.eclipse.org / sensinact / org.eclipse.sensinact.gatewayClone this repo:BranchesmasternewVersionTagsBrain-IoT-D4.2-v1.0v20190415.0v20190410.0v20190410v20190409.0v20190318.0v20180318.0v20181031.03795f54 Update distribution template by Christophe Munilla · 10 days ago mastera137e21 Reference newly created modules into parent pom project by Christophe Munilla · 10 days ago2f610bc cosmetic update by Christophe Munilla · 10 days agofa8f587 Update databases connectors by Christophe Munilla · 10 days ago6e33d36 Update generic-storage-agent by Christophe Munilla · 10 days ago875e445 Introduce mixed-osgi-over-slf4j module by Christophe Munilla · 10 days agoa149400 Update headers by Christophe Munilla · 5 weeks ago15f9e61 Update headers by Christophe Munilla · 5 weeks agoaa74323 Update headers by Christophe Munilla · 5 weeks agocd64696 Fix database data search error by Christophe Munilla · 5 weeks agoe45a5ab Extend resource discrimination mechanism by Christophe Munilla · 5 weeks ago36aaae8 Update headers by Christophe Munilla · 5 weeks ago3a306fc Update headers by Christophe Munilla · 5 weeks ago4e8724f Add LogService by Christophe Munilla · 5 weeks ago5a64fd8 Fix InfluxDB dated request by Christophe Munilla · 6 weeks ago5c4caae Reference child project by Christophe Munilla · 6 weeks agoaf580de Introduce InfluxDB datadase connector by Christophe Munilla · 6 weeks agoab88563 Update needed extra-packages by Christophe Munilla · 6 weeks ago9809bb2 Improve integration of CallbackService with the sensiNact instance by Christophe Munilla · 6 weeks agoc812b43 Generic : cosmetic update by Christophe Munilla · 6 weeks agoMore » Powered by Gitilestxt json
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+index : org.eclipse.sensinact.studioweb.git
+master
+Unnamed repository; edit this file 'description' to name the repository.
+summaryrefslogtreecommitdiffstats
+log msg
+author
+committer
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+sensiNact Studio proposes an IDE (Integrated Development Environment) based on Eclipse to manage the existing devices, in addition to develop, deploy and manage IoT applications.
+Contents
+1 Installation
+2 Starting with sensiNact
+3 Configuration
+4 sensiNact gateway internals
+5 Working with bridges
+6 Development
+Installation
+Gateway installation
+Studio installation
+Starting with sensiNact
+sensiNact Data Model
+Studio basic usage
+Configuration
+Endpoint connector
+HTTPS Felix Configuration
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+range
+BranchCommit messageAuthorAge
+masterremove useless variable assignationChristophe Munilla3 years
+AgeCommit messageAuthorFilesLines
+2018-03-06remove useless variable assignationHEADmasterChristophe Munilla1-4/+0
+2018-03-06Initial contributionChristophe Munilla5-0/+1050
+Clone
+git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.studioweb.git
+https://git.eclipse.org/r/sensinact/org.eclipse.sensinact.studioweb.git
+ssh://user_id@git.eclipse.org:29418/sensinact/org.eclipse.sensinact.studioweb.git
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+SensiNact Remote
+sensiNact gateway internals
+Gateway Architecture
+Gateway Core
+Gateway Security
+AppManager
+Working with bridges
+Bridges introduction
+How to develop a southbound bridge (requires knowledge about Java, such as the architecture and the data model of sensiNact)
+How to create sensinact bridge local configuration
+Development
+Repositories
+Gateway repository
+Studio repository
+Studio web repository
+CI
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Dashboard [Jenkins]
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+index : org.eclipse.sensinact.studio.git
+master
+Unnamed repository; edit this file 'description' to name the repository.
+aboutsummaryrefslogtreecommitdiffstats
+log msg
+author
+committer
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+Jenkins dashboard
+latest 1.5 build
+latest 2.0 build
+Nexus interface.
+Sonar dashboard
+Retrieved from "https://wiki.eclipse.org/index.php?title=SensiNact&oldid=432008"
+This page was last modified 02:39, 7 May 2019 by Jander Nascimento. Based on work by Etienne Gandrille and Remi Druilhe.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Skip to contentJenkinslog inJenkinsENABLE AUTO REFRESH People Build History Project Relationship Check File FingerprintBuild QueueNo builds in the queue.Build Executor StatusAllBuildQuality S WNameLast SuccessLast FailureLast Duration WDescription%Test Result: 0 tests failing out of a total of 174 tests.100Build stability: No recent builds failed.100Gateway master
+13 hr
+- #1031N/A21 min WDescription%Build stability: All recent builds failed.0Test Result: 0 tests failing out of a total of 182 tests.100Gateway master Sonar
+1 yr 8 mo
+- #65
+3 days 13 hr
+- #15423 min WDescription%Test Result: 0 tests failing out of a total of 468 tests.100Build stability: No recent builds failed.100gerrit validation
+2 yr 4 mo
+- #4N/A10 min Icon:
+S M LLegend Atom feed for all Atom feed for failures Atom feed for just latest buildsPage generated: Nov 11, 2020 1:29:21 PM ESTREST APIJenkins ver. 2.222.4
+Nexus Repository Manager
+Nexus Repository Manager OSS 2.14.19-01
+Loading Nexus UI...
+range
+BranchCommit messageAuthorAge
+mastergenerated tests restoredEtienne Gandrille10 months
+TagDownloadAuthorAge
+v20181031.0org.eclipse.sensinact.studio-20181031.0.tar.gz org.eclipse.sensinact.studio-20181031.0.tar.xz org.eclipse.sensinact.studio-20181031.0.zip Jander Nascimento2 years
+AgeCommit messageAuthorFilesLines
+2020-01-08generated tests restoredHEADmasterEtienne Gandrille11-0/+253
+2020-01-08minor js updateEtienne Gandrille1-6/+28
+2019-09-17base64 encoded imagesEtienne Gandrille2-2/+16
+2019-09-06HTTP gzip payload supportedEtienne Gandrille3-4/+25
+2019-06-24websockets updatedEtienne Gandrille31-1705/+8
+2019-05-10Bug Fix preferencesEtienne Gandrille1-7/+7
+2019-05-06https support addedEtienne Gandrille8-22/+116
+2019-04-17GPS coordinates separator updated from : to ,Etienne Gandrille2-6/+4
+2019-04-04websocket integrationEtienne Gandrille240-1477/+834
+2019-03-19New retlet updateEtienne Gandrille11-64/+28
+[...]
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+index : org.eclipse.sensinact.gateway.git
+master
+newVersion
+Unnamed repository; edit this file 'description' to name the repository.
+summaryrefslogtreecommitdiffstats
+log msg
+Clone
+git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.studio.git
+https://git.eclipse.org/r/sensinact/org.eclipse.sensinact.studio.git
+ssh://user_id@git.eclipse.org:29418/sensinact/org.eclipse.sensinact.studio.git
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+author
+committer
+range
+BranchCommit messageAuthorAge
+masterUpdate distribution templateChristophe Munilla10 days
+newVersionUpdate to validate checkstyle processChristophe Munilla11 months
+TagDownloadAuthorAge
+Brain-IoT-D4.2-v1.0org.eclipse.sensinact.gateway-Brain-IoT-D4.2-v1.0.tar.gz org.eclipse.sensinact.gateway-Brain-IoT-D4.2-v1.0.tar.xz org.eclipse.sensinact.gateway-Brain-IoT-D4.2-v1.0.zip Jander Nascimento19 months
+v20190415.0org.eclipse.sensinact.gateway-20190415.0.tar.gz org.eclipse.sensinact.gateway-20190415.0.tar.xz org.eclipse.sensinact.gateway-20190415.0.zip Jander Nascimento19 months
+v20190410.0org.eclipse.sensinact.gateway-20190410.0.tar.gz org.eclipse.sensinact.gateway-20190410.0.tar.xz org.eclipse.sensinact.gateway-20190410.0.zip Jander Nascimento19 months
+v20190410org.eclipse.sensinact.gateway-20190410.tar.gz org.eclipse.sensinact.gateway-20190410.tar.xz org.eclipse.sensinact.gateway-20190410.zip Jander Nascimento19 months
+v20190409.0org.eclipse.sensinact.gateway-20190409.0.tar.gz org.eclipse.sensinact.gateway-20190409.0.tar.xz org.eclipse.sensinact.gateway-20190409.0.zip Jander Nascimento19 months
+v20190318.0org.eclipse.sensinact.gateway-20190318.0.tar.gz org.eclipse.sensinact.gateway-20190318.0.tar.xz org.eclipse.sensinact.gateway-20190318.0.zip Jander Nascimento20 months
+v20180318.0org.eclipse.sensinact.gateway-20180318.0.tar.gz org.eclipse.sensinact.gateway-20180318.0.tar.xz org.eclipse.sensinact.gateway-20180318.0.zip Jander Nascimento20 months
+v20181031.0org.eclipse.sensinact.gateway-20181031.0.tar.gz org.eclipse.sensinact.gateway-20181031.0.tar.xz org.eclipse.sensinact.gateway-20181031.0.zip Jander Nascimento2 years
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+AgeCommit messageAuthorFilesLines
+10 daysUpdate distribution templateHEADmasterChristophe Munilla2-1/+7
+10 daysReference newly created modules into parent pom projectChristophe Munilla1-1/+15
+10 dayscosmetic updateChristophe Munilla6-18/+31
+10 daysUpdate databases connectorsChristophe Munilla5-45/+881
+10 daysUpdate generic-storage-agentChristophe Munilla11-477/+465
+10 daysIntroduce mixed-osgi-over-slf4j moduleChristophe Munilla7-0/+446
+2020-10-04Update headersChristophe Munilla13-0/+130
+2020-10-04Update headersChristophe Munilla7-32/+34
+2020-10-04Update headersChristophe Munilla1175-2369/+2370
+2020-10-04Fix database data search errorChristophe Munilla3-50/+40
+[...]
+Clone
+git://git.eclipse.org/gitroot/sensinact/org.eclipse.sensinact.gateway.git
+https://git.eclipse.org/r/sensinact/org.eclipse.sensinact.gateway.git
+ssh://user_id@git.eclipse.org:29418/sensinact/org.eclipse.sensinact.gateway.git
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Mailing list: sensinact-dev (9 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: sensinact-dev (9 subscribers)
+sensinact developer discussions
+About sensinact-dev
+sensinact developer discussions
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Using sensinact-dev
+To post a message to all the list members,
+send email to sensinact-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the sensinact-dev Archives or subscribe to this list's RSS feed
+Subscribing sensinact-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: sensinact-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Back to the top
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Eclipse sensiNact | projects.eclipse.org
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+Eclipse sensiNact
+Eclipse sensiNact
+×
+Status message
+This proposal has been approved and the Eclipse sensiNact project has been created.
+Eclipse sensiNact
+Basics
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section. Parent Project: Eclipse Technology
+Background: The world is facing a number of critical challenges such as global warming, economic crisis, security threats, inequality, natural disasters and ageing society. Urban areas are particularly affected, given that the world population is increasingly concentrated in those areas, which is expected to be 66% by 2050.
+While occupying 2% of the earth's surface, cities use 75% of the world resources. Those resources in civil infrastructure such as water, energy, public transportation, parking spaces, buildings, roads, bridges, etc., as well as natural resources and economic resources need to be shared by this increasing population. This has direct consequences for urban citizens and for the city itself.
+Ranging from social to economic aspects, IoT and big data provide countless possibilities to enhance the quality of life and security of people, while at the same time reducing inequalities and providing new revenue opportunities for enterprising businesses, from large groups and public administrations to SMEs, startups and web entrepreneurs.
+The unprecedented number of connected things in urban environments and the need to process the associated big data naturally raises new technical challenges in terms of interoperability, data and connectivity heterogeneity, scalable and online data processing, actionable knowledge extraction, security and privacy. Eclipse sensiNact project has been created to bring a community of developers and other smart city stakeholders together who will tackle those challenges with an open approach aiming at fostering smart city business ecosystem.
+Scope: The Eclipse sensiNact project will in particular be dealing with the following technical aspects related to smart city platforms:
+Connectivity: providing support for gathering data from various sources in urban environments (IoT devices, legacy devices, open data, social networks, participatory sensing mobile applications, etc.)
+Interoperability: providing interoperability among heterogeneous urban data; providing developer friendly interfaces to access to data and action resources in cities in a uniformed way, supporting various state of the art remote access protocols
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Data processing: mechanisms to extract actionable information from raw data
+Developer Tool: providing a tool to build/deploy/manage smart city applications in an easy yet dependable way
+Description: The Eclipse sensiNact project consists of a software platform enabling the collection, processing and redistribution of any data relevant to improving the quality of life of urban citizens, programming interfaces allowing different modes of access to data (on-demand, periodic, historic, etc.) and application development and deployment to easily and rapidly build innovative applications on top of the platform.
+sensiNact particularly deals with the following 4 topics.
+Connectivity: Heterogeneity of data is today’s reality in every urban environment. Emerging IoT devices, legacy systems, increasing number of social networks, mobile applications, open data repositories and web data are the potential exploitable data sources. sensiNact thus provides connectivity support to those data sources including today’s IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, MQTT, XMPP, NGSI, HTTP, CoAP, etc. With its modular approach, connectivity support for new protocols can be rapidly developed and dynamically added to the platform, even at run-time.
+Interoperability: sensiNact platform provides a unified view over those heterogeneous sources of data and action. With the lack of a de facto standard data model today in the IoT domain, sensiNact adopts a generic and extensible data model to facilitate building adapters for various protocols. It’s core model based on 4 types of resources: sensor data, action, state variables, and properties.
+Those resources are accessible by generic and easy to use Application Programming Interfaces (API) providing synchronous (on demand) and asynchronous (periodic or event based) access to data/actions of IoT devices, as well as access to historic data.
+Data and event processing
+Developer tool
+On top of the platform, sensiNact proposes a development tool (sensiNact Studio) that allows managing devices/services connected to the platform and rapidly creating applications and deploying them to the platform. It is a service composition tool which assists developers in building applications by binding the services via events and actions. With a Domain Specific Language, the developers can express the application logic in terms of ECA (Event-Condition-Action) rules, which is verified and validated by the tool before its deployment into the sensiNact platform. The application developers can then remotely monitor and manage applications (install, start, stop, uninstall, etc.). The tool also provides means to easily build support for new types of protocols and platforms and add it to the platform on-the-fly.
+We can list the features of sensiNact as a glance as follows:
+• Plug&play: Device as a Service Approach. The flexibility of adding/removing/updating devices with a minimum impact on the running platform.
+• Modular: Modular development and deployment for enhanced system maintenance and evolution
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+• Dependable: sensiNact’s formal data and service models facilitate reliable IoT applications development.
+• Scalable: sensiNact’s three layers architecture (device/gateway/cloud) allows distribution of data processing at different levels.
+• Easy&quick: sensiNact’s comprehensive data model and APIs help to rapidly build IoT applications.
+We believe that Eclipse provides a perfect environment to make our project reach its objectives, in terms of efficient project management, in terms of reaching a large number of developers and in terms of creating a business ecosystem.
+Licenses: Eclipse Public License 1.0Legal Issues: The sensiNact name is not owned by any entity. Currently sensiNact code is not licensed. sensiNact name is used in some collaborative projects as a software platform developed by CEA.
+The project uses third party software with various license types such as Apache v2.0 and EPL, JSON and MIT. In principle, sensiNact has no strong binding to any Eclipse conflictual license.
+Project Scheduling: sensiNact code is ready to be provided as a first contribution. It already includes its first build. We plan to do regular releases in agile methodology, with intervals of no more than 6 months.
+· Connectivity: we are continuously looking for opportunities to integrate support for additional connectivity protocols. We will provide bridges for various emerging communication standards such as Thread, OneM2M, OMA LWM2M, OPC-UA, etc. We are planning to take benefit of Eclipse IoT open source projects to implement the necessary bridges for those protocols.
+· Interoperability: we would like to add semantic interoperability support to the sensiNact. We would like to look at closer to W3C web of things initiative. CEA as a member of OSGi IoT Expert Group member, we would like to bring reference implementation of IoT related specifications of the OSGi Alliance.
+CEA is committing to actively support the project, with at least 4 FTE. We are planning to actively participate to developer events (organized by Eclipse, as well as other national and international initiatives), as well as creating sensiNact specific events, in order to present our project to the community and attract users and developers. We are planning to reach national stakeholders using our various offices established all over France to transfer CEA technology to local industry. In addition, CEA is an active member in the European smart city ecosystem and has been coordinating and participating to several related collaborative projects involving numerous industrial and academic partners, which will certainly be part of the ecosystem we will create around the platform. CEA is also an active member of the European IoT Platform Initiative (IoT-EPI) and planning to create a smart city related working group within the Eclipse Foundation. As a member of Industrial Internet Consortium (IIC), CEA will also promote Eclipse sensiNact project towards IIC members.
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+People
+Project Leads: Levent GurgenCommitters: Jander NascimentoRémi DruilheEtienne GandrilleChristophe MunillaMentors: Pascal RapicaultInterested Parties: Osaka University
+Keio University
+Engineering Ingegneria Informatica spa
+ACUTUS Software, Inc.
+JRISS
+Kyoto Sangyoo University
+ST Microelectronics
+Source Code
+Initial Contribution: sensiNact code is composed of approximately 85 000 lines of Java code and about 1 500 classes. It is based on the OSGi framework. It is principally composed of 6 groups of software bundles
+Southbound bridges: this group includes implementation of bridges and adapters for various IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, CoAP, MQTT, XMPP, NGSI, HTTP, etc.
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Northbound bridges: this group includes implementation of remote access bridges to the platform such as REST APIs, JSON RPC, as well as publish subscribe protocols such as MQTT, XMPP, NGSI, etc.
+Studio: This group is composed of a set of visual elements based on Eclipse’s EMF, GMF and XText frameworks
+Studio web: This is an implementation of a lighter web version of the Studio
+Following list provides the dependencies of sensiNact to third party libraries and their associated licenses.
+org.xerial:sqlite-jdbc
+Apache Licence
+org.json:json
+JSON Licence
+org.apache.felix:org.apache.felix.gogo.runtime
+Apache Licence
+org.everit.json:org.everit.json.schema
+Apache Licence
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+com.espertech:esper
+GPL v2
+org.slf4j:slf4j-api
+MIT Licence
+javax.servlet:javax.servlet-api
+-
+com.neuronrobotics:nrjavaserial-sensinact
+LGPL v2
+javax.ws.rs:jsr311-api
+-
+org.apache.felix:org.apache.felix.http.api
+Apache Licence
+org.apache.felix:org.apache.felix.http.jetty
+Apache Licence
+org.apache.felix:org.apache.felix.ipojo
+Apache Licence
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+org.apache.felix:org.apache.felix.ipojo.annotations
+Apache Licence
+philips.hue.sdk:huesdk-bundle
+Philips Licence
+org.apache.commons:commons-lang3
+Apache Licence
+it.politico.elite:enocean.library
+Apache Licence
+javax.jmdns:jmdns
+Apache Licence
+JSoXLib:JSoXLib
+Apache Licence
+com.tikitag:com.tikitag.client
+LGPL v2
+org.igniterealtime.smack:smack-tcp
+Apache Licence
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+org.igniterealtime.smack:smack-extensions
+Apache Licence
+org.eclipse.paho:org.eclipse.paho.client.mqttv3
+Eclipse Public Licence
+org.json
+JSON Licence
+org.restlet
+Apache Licence
+org.apache.log4j
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Apache Licence
+org.objectweb.asm
+ASM licence (http://asm.ow2.org/license.html)
+org.osgi.framework
+Eclipse Public Licence
+Dependencies to software having Eclipse conflictual licenses such as GPL, are not critical.
+Source Repository Type: Git
+Sign in to post comments.
+Project Links
+Running instance of sensiNact
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse sensiNact
+Tags
+Technology TypesInternet of Things
+Build TechnologiesHudson
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Maven
+Other TagsSmart City
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

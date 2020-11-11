@@ -66,7 +66,7 @@ def nlp():
 crawl()
 reactor.run()
 
-# nlp()
-# create_link()
-# start_analyze()
-# start_convert()
+nlp()
+create_link()
+start_analyze()
+start_convert()
