@@ -1,362 +1,362 @@
 [
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://www.eclipse.org/paho/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/smarthome/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.milo"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/mosquitto"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/californium/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/ditto"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://eclipse.org/leshan"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/hawkbit/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/kura/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://www.eclipse.org/om2m"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://eclipse.org/ponte"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://www.eclipse.org/eclipsescada/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/concierge/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/wakaama/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.paho.incubator"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/vorto"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://www.eclipse.org/4diac"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.tinydtls"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/hono"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://www.eclipse.org/kapua/"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.ignite"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://www.eclipse.org/unide"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.iofog"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 2,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://agile-iot.eu"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.keti"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.duttile"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://eclipse.org/kuksa"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.kuksa"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.cyclonedds"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.thingweb"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.mita"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://www.eclipse.org/hip"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.fog05"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.tahu"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.volttron"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.keyple"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "http://projects.eclipse.org/projects/iot.yasham"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.arrowhead"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.streamsheets"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.zenoh"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.hawkbit.hara"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.iceoryx"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.fog05"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.iottestware"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.sensinact"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.sensinact"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.agail"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.whiskers"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.edje"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.tiaki"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/iot.risev2g"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://github.com/moquette-io/moquette"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/tools.titan"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/tools.titan"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.krikkit"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/tools.mtj"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.uomo"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.mihini"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/technology.koneki"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
+        "IsWordcloudGenerated": false,
         "SiteUrl": "https://projects.eclipse.org/projects/rt.ecf"
     }
 ]

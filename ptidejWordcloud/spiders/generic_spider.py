@@ -1,6 +1,6 @@
 import scrapy
 import re
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 
 from scrapy.loader import ItemLoader
 from scrapy.http.response.text import TextResponse
@@ -105,19 +105,8 @@ class GenericSpider(scrapy.Spider):
     def parseUrl(self, response, projectRoot):
         page = response.url
         if 'text' in response.headers['Content-Type'].decode('utf-8'):
-            # soup = BeautifulSoup(response.text, fromEncoding="utf-8")
-            texts = response.xpath('//text()[not(ancestor::pre)]').extract()
-            for text in texts:
-                text = self.cleanText(text)
-                if len(text) != 0 and not self.isLineMatchCode(text):
-                    yield {
-                        # "projectRoot": projectRoot,
-                        "l": page,
-                        "t": text
-                    }
-            # soup = BeautifulSoup(response.text, fromEncoding="utf-8")
-            # texts = soup.find('html').text.split('\n')
-
+            # # soup = BeautifulSoup(response.text, fromEncoding="utf-8")
+            # texts = response.xpath('//text()[not(ancestor::pre)]').extract()
             # for text in texts:
             #     text = self.cleanText(text)
             #     if len(text) != 0 and not self.isLineMatchCode(text):
@@ -126,3 +115,14 @@ class GenericSpider(scrapy.Spider):
             #             "l": page,
             #             "t": text
             #         }
+            soup = BeautifulSoup(response.text, fromEncoding="utf-8")
+            texts = soup.find('html').text.split('\n')
+
+            for text in texts:
+                text = self.cleanText(text)
+                if len(text) != 0 and not self.isLineMatchCode(text):
+                    yield {
+                        # "projectRoot": projectRoot,
+                        "l": page,
+                        "t": text
+                    }
