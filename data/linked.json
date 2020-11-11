@@ -61,7 +61,9 @@
                     "Why MQTT?",
                     "“Under the Paho banner, open source client libraries for MQTT are being curated and developed; there are already MQTT C and Java libraries with Lua, Python, C++ and JavaScript at various stages of development."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -131,7 +133,10 @@
                     "flow data bteween SQL Data base and SmartPhoen via MQTT brokersample app for connecting to CloudMQTT or Mosquitto broker By: yomegni leopold on Tue, 08 October 2019",
                     "mqtt.eclipse.org: Receiving to many MQTT Messages By: Johannes Ebner on Wed, 25 December 2019"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable",
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -222,7 +227,9 @@
                     "will be 200, if the message was successfully ACKed by the MQTT 3.1.1 broker or when the target has QoS 0",
                     "will be 503, if the MQTT 3.1.1 broker ran into an error before an acknowledgement message was received"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -244,7 +251,9 @@
                     "Using NATS instead of RabbitMQ",
                     "hi... have just run the docker image, which I thought is standalone.... but it fails badly looking for an MQTT server!"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -329,7 +338,10 @@
                     "a MQTT client needs to set the retain flag.",
                     "which implements most of the MQTT 3.1 spec."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use",
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -367,7 +379,10 @@
                     "SUBSCRIBE truncates messageSUBSCRIBE Function Block truncates message received from MQTT By: Jose Antonio Izquierdo on Mon, 04 May 2020",
                     "We already have MQTT, plain HTTP, Coap, and last year's GSoC brought us AMQP 1.0."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use",
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -597,7 +612,9 @@
                     "● Support arbitrary device protocols (MQTT, HTTP, CoAP, AMQP 1.0, etc)",
                     "● Support for arbitrary protocols (MQTT, AMQP 1.0, HTTP, …)"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -612,7 +629,9 @@
                     "add MQTT connector for internal use",
                     "add MQTT connector for internal use - change broker.port to broker.co…"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -726,7 +745,9 @@
                     "● Open-source MQTT clients",
                     "◦ MQTTS"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -743,7 +764,9 @@
                     "kuksa-cloud-mechanic - Connects to the w3c-visserver service via Websocket and communicates with the Eclipse Hono MQTT adapter.",
                     "org.eclipse.kuksa-mqtt (AGL bindings for MQTT)"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -827,7 +850,9 @@
                     "https port for the RabbitMQ management plugin: [15671]:",
                     "it needs to be set to the RabbitMQ installation directory (default path is"
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -879,7 +904,9 @@
                     "The biggest features are standardized test solutions for the IoT protocols MQTT and CoAP.",
                     "The initial contribution of IoT-Testware to Eclipse will focus on protocols like CoAP and MQTT."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -890,7 +917,10 @@
                     "sensiNact Gateway interconnects IoT devices using different southbound IoT protocols such as Zigbee, EnOcean, LoRa, XBee, MQTT, XMPP, as well as platforms such as FIWARE and allows access to them with various northbound protocols such as HTTP REST, MQTT, XMPP, JSON RPC and CDMI.",
                     "sensiNact thus provides connectivity support to those data sources including today’s IoT protocols and platforms such as LoRa, Zigbee, IEEE 802.15.4, Sigfox, enOcean, MQTT, XMPP, NGSI, HTTP, CoAP, etc."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable",
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -910,7 +940,9 @@
                     "Eclipse Whiskers for Arduino is using one other Arduino library for MQTT connections:",
                     "The library has methods for connecting to a SensorThings server as well as SensorThings MQTT broker."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1147,7 +1179,7 @@
         "Id": 2,
         "Description": "Open Platform Communication Unified Architecture",
         "Keys": [
-            "OPC UA"
+            "OPCUA"
         ],
         "projects": [
             {
@@ -1164,7 +1196,9 @@
                     "Standards: Eclipse Milo does implement the binary protocol of OPC UA also know as IEC 62541.",
                     "What I'm looking for is to generate events and alarms from an OPC UA server application."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1286,7 +1320,9 @@
                     "It implements DTLS 1.2 to secure your application",
                     "WIP: DTLS CID LoadBalancer - First Tutorials and Results"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1297,7 +1333,9 @@
                     "DTLS Client Certificate Chain not sent",
                     "DTLS based security"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1341,7 +1379,9 @@
                     "constructing a single-threaded UDP server with DTLS support in",
                     "tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1364,7 +1404,9 @@
                     "expose the non-DTLS secured port on a local interface only, thus providing easy access from within",
                     "part of the DTLS handshake."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1373,7 +1415,9 @@
                     "§ OpenWSN, CCN-lite, Emb6, lwIP, tinyDTLS…",
                     "● Includes DTLS implementation (Scandium),"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             }
         ]
     },
@@ -1400,7 +1444,9 @@
                     "Through sample implementations of a simple information structure (Production Performance Management Protocol - PPMP) tailored to manufacturing environments, we want to encourage the community to use, share, and evolve this structure together.",
                     "We assembled a few frequently asked questions about the Production Performance Protocol (PPMP) and the Unide project."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             }
         ]
     },
@@ -1647,7 +1693,10 @@
                     "would like to install the C++ binding for Cyclone DDS and <generator-name>",
                     "​Furthermore we foresee a flow of tools and additional-features and integrations from our commercial offering towards opensource as the need for them grows by the community and its uptake of DDS."
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable",
+                    "use"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1692,7 +1741,9 @@
                     "Performant and robust open-source DDS implementation maintained by ADLINK Technology Inc.",
                     "Related Projects:Eclipse IoTEclipse Cyclone DDS"
                 ],
-                "relationships": []
+                "relationships": [
+                    "interchangeable"
+                ]
             },
             {
                 "py/object": "model.LinkKeyword.LinkProject",
@@ -1780,7 +1831,10 @@
                     "node-wot provides a WoT Thing Description parser and serializer, several \"Protocol Binding\" implementing the WoT Binding Templates, as well as a runtime system (\"WoT Runtime\") providing the WoT Scripting API for applications.",
                     "node-wot provides a WoT Thing Description parser and serializer, several \"Protocol Bindings\" implementing the WoT Binding Templates, as well as a runtime system (\"WoT Runtime\") providing the WoT Scripting API for applications."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use",
+                    "interchangeable"
+                ]
             }
         ]
     },
@@ -1906,7 +1960,9 @@
                     "the addition of the Calypso features Stored Value transaction and PIN verification, the support Invalidate/Rehabilitate PO commands, and the Unlock SAM command.",
                     "to prepare Select File command (useful in particular to manage REV1 Calypso PO for which the select of the targeted DF is required)."
                 ],
-                "relationships": []
+                "relationships": [
+                    "use"
+                ]
             }
         ]
     }
