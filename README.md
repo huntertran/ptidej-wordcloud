@@ -57,6 +57,7 @@ choco install ghostscript
 # for windows:
 # pip install Twisted[windows_platform]
 [sudo] python3 -m pip install Scrapy
+[sudo] python3 -m pip install beautifulsoup4
 [sudo] python3 -m pip install matplotlib
 [sudo] python3 -m pip install Pillow
 [sudo] python3 -m pip install Wordcloud
