@@ -1,16 +1,34 @@
-open source,1
-framework,1
-smart card,7
-ticketing,3
-transaction,5
-interface,10
-mange,1
-terminal,6
-readers,17
-api,29
-secure,5
-calypso,19
-standard,2
-command,5
-implementation,4
-library,5
+open source,1,,Java,15
+framework,1,,cpp,4
+smart card,11,,,
+ticketing,4,,,
+transaction,6,,,
+interface,13,,,
+mange,1,,,
+terminal,6,,,
+readers,38,,,
+api,52,,,
+secure,8,,,
+calypso,30,,,
+standard,2,,,
+command,9,,,
+implementation,4,,,
+library,5,,,
+plugin,22,,,
+component,7,,,
+architecture,4,,,
+,,,,
+GitHub,21,,https://projects.eclipse.org/projects/iot.keyple/governance,
+repository,21,,,
+generic,2,,,
+library,2,librairies,,
+contactless,2,,,
+application,5,,,
+cryptographic,1,,,
+calculations,2,,,
+portable,2,,,
+,,,,
+management,4,,https://projects.eclipse.org/projects/iot.keyple/releases/0.7.0-0,
+emulator,1,,,
+virtual,4,,,
+communicate,1,,,

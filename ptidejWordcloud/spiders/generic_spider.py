@@ -60,8 +60,6 @@ class GenericSpider(scrapy.Spider):
                         project_name)
 
                     yield request
-                else:
-                    test = ""
 
         for item in self.parseUrl(response, projectRoot):
             yield item
