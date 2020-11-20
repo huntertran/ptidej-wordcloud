@@ -2,9 +2,6 @@ import scrapy
 import re
 from bs4 import BeautifulSoup
 
-from scrapy.loader import ItemLoader
-from scrapy.http.response.text import TextResponse
-from ptidejWordcloud.items import WordcloudItem
 from helpers.ProjectHelper import ProjectHelper
 
 
@@ -12,16 +9,15 @@ class GenericSpider(scrapy.Spider):
     name = "generic"
 
     def start_requests(self):
-        siteUrl = getattr(self, 'siteUrl', None)
-        crawlDepthLevel = int(getattr(self, 'crawlDepthLevel', 0))
+        site_url = getattr(self, 'siteUrl', None)
+        crawl_depth_level = int(getattr(self, 'crawlDepthLevel', 0))
 
-        request = scrapy.Request(siteUrl, callback=self.parseRootUrl)
-        request.cb_kwargs['root'] = self.extractBaseUrl(siteUrl)
-        request.cb_kwargs['projectRoot'] = self.extractProjectRoot(siteUrl)
-        request.cb_kwargs['level'] = crawlDepthLevel
+        request = scrapy.Request(site_url, callback=self.parseRootUrl)
+        request.cb_kwargs['root'] = self.extractBaseUrl(site_url)
+        request.cb_kwargs['projectRoot'] = self.extractProjectRoot(site_url)
+        request.cb_kwargs['level'] = crawl_depth_level
         request.cb_kwargs['current_level'] = 0
-        request.cb_kwargs['project_name'] = ProjectHelper.getProjectName(
-            siteUrl)
+        request.cb_kwargs['project_name'] = ProjectHelper.getProjectName(site_url)
 
         yield request
 
@@ -38,42 +34,42 @@ class GenericSpider(scrapy.Spider):
         else:
             return root + '/' + fragments[3]
 
-    def parseRootUrl(self, response, root, projectRoot, level, current_level, project_name):
+    def parseRootUrl(self, response, root, project_root, level, current_level, project_name):
         urls = response.selector.xpath("//a/@href").getall()
 
         for url in urls:
             if url.startswith('#') == False:
-                urlToScrap = self.buildUrl(root, url)
+                url_to_scrap = self.buildUrl(root, url)
                 # if root in urlToScrap:
                 # if root in urlToScrap and project_name in urlToScrap.lower():
-                if project_name in urlToScrap.lower():
+                if project_name in url_to_scrap.lower():
 
                     if type(current_level) is tuple:
                         current_level = current_level[0]
 
                     request = self.buildRequest(
                         root,
-                        projectRoot,
-                        urlToScrap,
+                        project_root,
+                        url_to_scrap,
                         level,
                         current_level,
                         project_name)
 
                     yield request
 
-        for item in self.parseUrl(response, projectRoot):
+        for item in self.parseUrl(response, project_root):
             yield item
 
-    def buildRequest(self, root, projectRoot, url, level, currentLevel, project_name):
-        if level == currentLevel:
+    def buildRequest(self, root, project_root, url, level, current_level, project_name):
+        if level == current_level:
             request = scrapy.Request(url, callback=self.parseUrl)
-            request.cb_kwargs['projectRoot'] = projectRoot
+            request.cb_kwargs['projectRoot'] = project_root
         else:
             request = scrapy.Request(url, callback=self.parseRootUrl)
             request.cb_kwargs['root'] = root
-            request.cb_kwargs['projectRoot'] = projectRoot
+            request.cb_kwargs['projectRoot'] = project_root
             request.cb_kwargs['level'] = level
-            request.cb_kwargs['current_level'] = currentLevel + 1,
+            request.cb_kwargs['current_level'] = current_level + 1,
             request.cb_kwargs['project_name'] = project_name
         return request
 
@@ -94,25 +90,15 @@ class GenericSpider(scrapy.Spider):
         return text
 
     def isLineMatchCode(self, line):
-        matchCode = re.search(r'\S+\s?\{(.+)\}', line)
-        if matchCode:
+        match_code = re.search(r'\S+\s?\{(.+)\}', line)
+        if match_code:
             return True
         else:
             return False
 
-    def parseUrl(self, response, projectRoot):
+    def parseUrl(self, response, project_root):
         page = response.url
         if 'text' in response.headers['Content-Type'].decode('utf-8'):
-            # # soup = BeautifulSoup(response.text, fromEncoding="utf-8")
-            # texts = response.xpath('//text()[not(ancestor::pre)]').extract()
-            # for text in texts:
-            #     text = self.cleanText(text)
-            #     if len(text) != 0 and not self.isLineMatchCode(text):
-            #         yield {
-            #             # "projectRoot": projectRoot,
-            #             "l": page,
-            #             "t": text
-            #         }
             soup = BeautifulSoup(response.text, fromEncoding="utf-8")
             texts = soup.find('html').text.split('\n')
 

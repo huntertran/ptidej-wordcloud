@@ -14,4 +14,3 @@ class WordcloudItem(scrapy.Item):
     projectRoot = scrapy.Field()
     link = scrapy.Field()
     text = scrapy.Field()
-    pass

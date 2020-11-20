@@ -5,26 +5,24 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
-import os
 from helpers.ProjectHelper import ProjectHelper
 
 class WordcloudPipeline(object):
-    dataFolder = "./data/scrapy/"
+    data_folder = "./data/scrapy/"
 
     def open_spider(self, spider):
-        ProjectHelper.createDataFolder(self.dataFolder)
-        siteUrl = spider.siteUrl
-        if siteUrl is not None:
-            projectName = ProjectHelper.getProjectName(siteUrl)
-            filePath = self.dataFolder + projectName + ".txt"
-            self.outputFile = open(filePath, 'w+', encoding='utf-8')
+        ProjectHelper.createDataFolder(self.data_folder)
+        site_url = spider.siteUrl
+        if site_url is not None:
+            project_name = ProjectHelper.getProjectName(site_url)
+            file_path = self.data_folder + project_name + ".txt"
+            self.output_file = open(file_path, 'w+', encoding='utf-8')
 
     def close_spider(self, spider):
-        self.outputFile.close()
+        self.output_file.close()
 
     def process_item(self, item, spider):
         text = item['t']
-        if not 'function' in text and not '\n' in text:
-            if not '\t' in text:
-                self.outputFile.write(text + "\n")
+        if not 'function' in text and not '\n' in text and not '\t' in text:
+            self.output_file.write(text + "\n")
         return item
