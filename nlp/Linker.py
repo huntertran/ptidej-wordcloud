@@ -61,7 +61,7 @@ def analyze_site(site, link_keywords):
     # else:
     #     index += 1
 
-    project_name = ProjectHelper.getProjectName(site.SiteUrl)
+    project_name = ProjectHelper.get_project_name(site.SiteUrl)
     # siteKey = ProjectHelper.getProjectName(site.SiteUrl)
 
     textLines = ProjectHelper.load_raw_data_file(project_name)
@@ -95,7 +95,7 @@ def create_link():
     # create barebone connected graph
     index = 0
     for site in siteDataList:
-        project_name = ProjectHelper.getProjectName(site.SiteUrl)
+        project_name = ProjectHelper.get_project_name(site.SiteUrl)
 
         # # TODO: REMOVE AFTER DEBUG
         # if(index > 5):

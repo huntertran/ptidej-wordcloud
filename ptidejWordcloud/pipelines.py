@@ -11,10 +11,10 @@ class WordcloudPipeline(object):
     data_folder = "./data/scrapy/"
 
     def open_spider(self, spider):
-        ProjectHelper.createDataFolder(self.data_folder)
+        ProjectHelper.create_data_folder(self.data_folder)
         site_url = spider.siteUrl
         if site_url is not None:
-            project_name = ProjectHelper.getProjectName(site_url)
+            project_name = ProjectHelper.get_project_name(site_url)
             file_path = self.data_folder + project_name + ".txt"
             self.output_file = open(file_path, 'w+', encoding='utf-8')
 

@@ -17,7 +17,7 @@ class GenericSpider(scrapy.Spider):
         request.cb_kwargs['projectRoot'] = self.extractProjectRoot(site_url)
         request.cb_kwargs['level'] = crawl_depth_level
         request.cb_kwargs['current_level'] = 0
-        request.cb_kwargs['project_name'] = ProjectHelper.getProjectName(site_url)
+        request.cb_kwargs['project_name'] = ProjectHelper.get_project_name(site_url)
 
         yield request
 

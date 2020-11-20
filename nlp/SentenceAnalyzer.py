@@ -176,7 +176,7 @@ def start_analyze():
             data_folder = './data/nlp/result/' + project.Project + "/"
 
             # create folder
-            ProjectHelper.createDataFolder(data_folder)
+            ProjectHelper.create_data_folder(data_folder)
 
             index = 1
 

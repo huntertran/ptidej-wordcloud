@@ -13,7 +13,7 @@ import collections
 from nltk.stem import WordNetLemmatizer
 from nlp.ResultGenerator import ResultGenerator
 from helpers.ProjectHelper import ProjectHelper
-from helpers.nlp_helper import combineStopwords
+from helpers.nlp_helper import combine_stopwords
 from model.Site import StemmedWord
 
 dataPath = './data/scrapy/'
@@ -117,7 +117,7 @@ def calculateFrequencyDistributionFromStemmedList(stemmedWordList, takeMost=None
 
 
 def writeDistributionListToFile(projectName, sortedFreqDist,  suffix=None):
-    ProjectHelper.createDataFolder(resultedDataPath)
+    ProjectHelper.create_data_folder(resultedDataPath)
     fileNameWithPath = resultedDataPath + projectName
     if suffix is not None:
         fileNameWithPath = fileNameWithPath + '-' + suffix
@@ -135,8 +135,8 @@ def generateImageFile(projectName, mostCommonKeywords):
 
 def process(siteUrl):
     print('NLP Proccessing for ', siteUrl)
-    projectName = ProjectHelper.getProjectName(siteUrl)
-    stopwords = combineStopwords()
+    projectName = ProjectHelper.get_project_name(siteUrl)
+    stopwords = combine_stopwords()
     keywordsTuple = removeStopwords(projectName, stopwords)
 
     # keywords

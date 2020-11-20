@@ -5,7 +5,7 @@ from types import SimpleNamespace as Namespace
 from nltk.tag.stanford import StanfordPOSTagger
 
 from model.GrammarRule import GrammarRule
-from helpers.nlp_helper import combineStopwords
+from helpers.nlp_helper import combine_stopwords
 from helpers.ProjectHelper import ProjectHelper
 from nlp.SentenceAnalyzer import load_linked_result, parse_with_grammar
 
@@ -24,7 +24,7 @@ def start_analyze_test():
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
 
-    stopwords = combineStopwords()
+    stopwords = combine_stopwords()
     stopwords.remove('use')
 
     grammars = []
@@ -42,7 +42,7 @@ def start_analyze_test():
         grammars.append(grammar)
 
     data_folder = './data/nlp/result/test/'
-    ProjectHelper.createDataFolder(data_folder)
+    ProjectHelper.create_data_folder(data_folder)
 
     sentence = 'Kura Framework Features MQTTGSM/GPRS 3G/4G EVDO SNMP HTTP / REST ServicesWeb ServicesBluetooth / BTLE Wi-Fi 802,15,4 / Zigbee RS485 GPIO RS232 CANbus SMBus Modbus Device Mgmt WatchDog SSLLegacy JNI?s Security SOA Power Mgmt Location Based Services'
 
