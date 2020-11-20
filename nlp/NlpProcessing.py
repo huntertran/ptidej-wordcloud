@@ -130,7 +130,7 @@ def writeDistributionListToFile(projectName, sortedFreqDist,  suffix=None):
 def generateImageFile(projectName, mostCommonKeywords):
     imageSource = dict([keyword[0], keyword[1]]
                        for keyword in mostCommonKeywords)
-    ResultGenerator.makeImage(imageSource, projectName)
+    ResultGenerator.make_image(imageSource, projectName)
 
 
 def process(siteUrl):
@@ -150,6 +150,6 @@ def process(siteUrl):
 
     writeDistributionListToFile(projectName, keywordsDistribution)
 
-    ResultGenerator.makeMask(projectName)
-    ResultGenerator.makeImage(keywordsDistribution, projectName)
+    ResultGenerator.make_mask(projectName)
+    ResultGenerator.make_image(keywordsDistribution, projectName)
     print('Wordcloud generated for ', projectName)

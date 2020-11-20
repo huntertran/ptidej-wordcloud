@@ -2,16 +2,17 @@
 
 import numpy as np
 from PIL import Image, ImageFont, ImageDraw
-import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 
 class ResultGenerator:
 
+    result_dir = './data/nlp/result/'
+
     @staticmethod
-    def makeImage(keywords, projectName):
+    def make_image(keywords, project_name):
         mask = np.array(Image.open(
-            './data/nlp/result/' + projectName + '-mask.png'))
+            ResultGenerator.result_dir + project_name + '-mask.png'))
 
         wc = WordCloud(background_color="white",
                        max_words=1000,
@@ -21,69 +22,70 @@ class ResultGenerator:
 
         # generate word cloud
         wc.generate_from_frequencies(keywords)
-        wc.to_file('./data/nlp/result/' + projectName + '.png')
-        wc.to_file('./docs/images/shapes/fullsize/' + projectName + '.png')
+        wc.to_file(ResultGenerator.result_dir + project_name + '.png')
+        wc.to_file('./docs/images/shapes/fullsize/' + project_name + '.png')
 
         # generate thumbnail
-        image = Image.open('./data/nlp/result/' + projectName + '.png')
+        image = Image.open(ResultGenerator.result_dir + project_name + '.png')
         size = image.size
         image.thumbnail((size[0] * 0.1, size[1] * 0.1),  Image.ANTIALIAS)
-        image.save('./docs/images/shapes/thumbnails/' + projectName + '.png')
+        image.save('./docs/images/shapes/thumbnails/' + project_name + '.png')
+
+    # # redundant function?
+    # @staticmethod
+    # def getMaskTextColor(word,
+    #                      font_size,
+    #                      position,
+    #                      orientation,
+    #                      random_state=None,
+    #                      **kwargs):
+    #     return "hsl(0, 0%, 0%)"
 
     @staticmethod
-    def getMaskTextColor(word,
-                         font_size,
-                         position,
-                         orientation,
-                         random_state=None,
-                         **kwargs):
-        return "hsl(0, 0%, 0%)"
-
-    @staticmethod
-    def makeMask(projectName):
+    def make_mask(project_name):
         font_path = './data/Modak-Regular.ttf'
-        projectName = projectName.upper()
+        project_name = project_name.upper()
 
         image = Image.new('RGB', (800, 800), (255, 255, 255))
         font = ImageFont.truetype(font_path, 900)
         draw = ImageDraw.Draw(image)
 
-        size = draw.multiline_textsize(text=projectName, font=font, spacing=1)
+        size = draw.multiline_textsize(text=project_name, font=font, spacing=1)
 
         image = Image.new('RGB', size, (255, 255, 255))
         draw = ImageDraw.Draw(image)
 
-        spaceBetweenChar = -80
+        space_between_char = -80
 
-        specialChars = ['a', 'v', 'm' ,'w' ,'o', 'q']
-        reducedSpaceChars = ['i']
+        special_chars = ['a', 'v', 'm' ,'w' ,'o', 'q']
+        reduced_space_chars = ['i']
 
         offset = -draw.textsize(
-            text=projectName[0],
+            text=project_name[0],
             font=font,
-            spacing=1)[0] - spaceBetweenChar
+            spacing=1)[0] - space_between_char
 
         crop_right = 0
         crop_bottom = 0
 
         is_behind_reduced_space_char = False
 
-        for char in projectName:
+        for char in project_name:
             text_size = draw.textsize(
                 text=char,
                 font=font,
                 spacing=1)
 
-            offset = text_size[0] + offset + spaceBetweenChar
+            offset = text_size[0] + offset + space_between_char
 
             if is_behind_reduced_space_char:
-                offset = offset + spaceBetweenChar*2
+                offset = offset + space_between_char*2
 
-            if char.lower() in specialChars:
-                offset = offset + spaceBetweenChar
+            if char.lower() in special_chars:
+                offset = offset + space_between_char
 
-            if char.lower() in reducedSpaceChars:
-                offset = offset - spaceBetweenChar*3
+            if char.lower() in reduced_space_chars:
+                offset = offset - space_between_char*3
                 is_behind_reduced_space_char = True
             else:
                 is_behind_reduced_space_char = False
@@ -106,9 +108,9 @@ class ResultGenerator:
         # bottom = 3 * height / 4
 
         # # Cropped image of above dimension
-        # # (It will not change orginal image)
+        # # (It will not change original image)
         # im1 = im.crop((left, top, right, bottom))
 
         image = image.crop((0, 0, crop_right, crop_bottom))
 
-        image.save('./data/nlp/result/' + projectName.lower() + '-mask.png')
+        image.save(ResultGenerator.result_dir + project_name.lower() + '-mask.png')
