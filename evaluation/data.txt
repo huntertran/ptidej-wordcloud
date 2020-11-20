@@ -1,0 +1,32 @@
+open source:1
+framework:1
+smart card:11
+ticketing:4
+transaction:6
+interface:13
+mange:1
+terminal:6
+readers:38
+api:52
+secure:8
+calypso:30
+standard:2
+command:9
+implementation:4
+library:5
+plugin:22
+component:7
+architecture:4
+GitHub:21
+repository:21
+generic:2
+library:2
+contactless:2
+application:5
+cryptographic:1
+calculations:2
+portable:2
+management:4
+emulator:1
+virtual:4
+communicate:1
