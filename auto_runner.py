@@ -29,10 +29,10 @@ def crawl():
     for site in site_data_list:
 
         # Crawling
-        if not site.IsCrawled:
+        if not site.is_crawled:
             # TODO: edit here to stop re-scraping a site on different run
-            site_data_list[index].IsCrawled = True
-            yield runner.crawl(crawler, siteUrl=site.SiteUrl, crawlDepthLevel=site.CrawlDepthLevel)
+            site_data_list[index].is_crawled = True
+            yield runner.crawl(crawler, site_url=site.site_url, crawl_depth_level=site.crawl_depth_level)
         index += 1
 
     with open(file_path, 'w') as dataFile:
@@ -41,15 +41,15 @@ def crawl():
     if reactor.running:
         reactor.stop()
     else:
-        yield runner.crawl(crawler, siteUrl="http://www.msftconnecttest.com/connecttest.txt", crawlDepthLevel=0)
+        yield runner.crawl(crawler, site_url="http://www.msftconnecttest.com/connecttest.txt", crawl_depth_level=0)
         reactor.stop()
 
 
 def nlp():
     file_path = './data/sitelist.json'
 
-    with open(file_path, 'r') as dataFile:
-        site_data_list = json.load(dataFile, object_hook=Site.decode_object)
+    with open(file_path, 'r') as data_file:
+        site_data_list = json.load(data_file, object_hook=Site.decode_object)
 
     index = 0
     for site in site_data_list:
@@ -59,8 +59,8 @@ def nlp():
             site_data_list[index].IsWordcloudGenerated = True
         index += 1
 
-    with open(file_path, 'w') as dataFile:
-        json.dump(site_data_list, dataFile, default=Site.encode_object, indent=4)
+    with open(file_path, 'w') as data_file:
+        json.dump(site_data_list, data_file, default=Site.encode_object, indent=4)
 
 
 crawl()

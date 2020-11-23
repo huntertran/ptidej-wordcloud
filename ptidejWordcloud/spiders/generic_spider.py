@@ -9,8 +9,8 @@ class GenericSpider(scrapy.Spider):
     name = "generic"
 
     def start_requests(self):
-        site_url = getattr(self, 'siteUrl', None)
-        crawl_depth_level = int(getattr(self, 'crawlDepthLevel', 0))
+        site_url = getattr(self, 'site_url', None)
+        crawl_depth_level = int(getattr(self, 'crawl_depth_level', 0))
 
         request = scrapy.Request(site_url, callback=self.parseRootUrl)
         request.cb_kwargs['root'] = self.extractBaseUrl(site_url)
