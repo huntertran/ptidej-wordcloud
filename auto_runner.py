@@ -54,9 +54,9 @@ def nlp():
     index = 0
     for site in site_data_list:
         # NLP Processing
-        if not site.IsWordcloudGenerated:
-            process(site.SiteUrl)
-            site_data_list[index].IsWordcloudGenerated = True
+        if not site.is_wordcloud_generated:
+            process(site.site_url)
+            site_data_list[index].is_wordcloud_generated = True
         index += 1
 
     with open(file_path, 'w') as data_file:
