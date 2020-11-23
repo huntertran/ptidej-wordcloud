@@ -35,7 +35,11 @@ class GenericSpider(scrapy.Spider):
             return root + '/' + fragments[3]
 
     def parseRootUrl(self, response, root, project_root, level, current_level, project_name):
-        urls = response.selector.xpath("//a/@href").getall()
+
+        urls = []
+
+        if hasattr(response, 'selector'):
+            urls = response.selector.xpath("//a/@href").getall()
 
         for url in urls:
             if url.startswith('#') == False:
@@ -100,6 +104,12 @@ class GenericSpider(scrapy.Spider):
         page = response.url
         if 'text' in response.headers['Content-Type'].decode('utf-8'):
             soup = BeautifulSoup(response.text, fromEncoding="utf-8")
+
+            html = soup.find('html')
+
+            if not hasattr(html, 'text'):
+                return
+
             texts = soup.find('html').text.split('\n')
 
             for text in texts:

@@ -58,7 +58,7 @@ def analyze_site(site, link_keywords):
     # else:
     #     index += 1
 
-    project_name = ProjectHelper.get_project_name(site.SiteUrl)
+    project_name = ProjectHelper.get_project_name(site.site_url)
 
     text_lines = ProjectHelper.load_raw_data_file(project_name)
 
@@ -87,7 +87,7 @@ def create_link():
     # create barebone connected graph
     index = 0
     for site in site_data_list:
-        project_name = ProjectHelper.get_project_name(site.SiteUrl)
+        project_name = ProjectHelper.get_project_name(site.site_url)
 
         # # TODO: REMOVE AFTER DEBUG
         # if(index > 5):
@@ -100,7 +100,7 @@ def create_link():
     print("End creating connected graph")
 
     for site in site_data_list:
-        print("Analyzing site: " + site.SiteUrl)
+        print("Analyzing site: " + site.site_url)
         analyze_site(site, link_keywords)
 
     jsonpickle.set_preferred_backend('json')
