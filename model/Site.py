@@ -44,5 +44,3 @@ class StemmedWord(object):
             # print("New unstemmed:" + unStemmed)
         else:
             self.UnStemmed[lowerUnStemmed] += 1
-            # if self.UnStemmed[unStemmed] > 0:
-            #     print("Unstemmed Counted:" + str(self.UnStemmed[unStemmed]) + "|" + unStemmed)

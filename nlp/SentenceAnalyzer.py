@@ -1,16 +1,12 @@
 # Analyze linked sentences from Linker.py
 
 import json
-import os
 import jsonpickle
 
-from model.LinkKeyword import LinkKeyword, LinkKeywordEncoder, LinkProject
 from model.GrammarRule import GrammarRule
 from types import SimpleNamespace as Namespace
 
-import nltk.tag
-import nltk.data
-from nltk import pos_tag, RegexpParser
+from nltk import RegexpParser
 from nltk.tag.stanford import StanfordPOSTagger
 from nltk.tree import Tree
 from nltk.draw.tree import TreeView
@@ -28,19 +24,13 @@ grammars = []
 
 def load_linked_result():
     file_path = './data/linked.json'
-    with open(file_path, 'r', encoding='utf8') as dataFile:
-        return jsonpickle.decode(dataFile.read())
-        # return json.load(dataFile, object_hook=lambda d: Namespace(**d))
+    with open(file_path, 'r', encoding='utf8') as data_file:
+        return jsonpickle.decode(data_file.read())
 
 
 def save_linked_result(link_keywords):
-    with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
-        # json.dump(link_keywords,
-        #           dataFile,
-        #           cls=LinkKeywordEncoder,
-        #           indent=4,
-        #           ensure_ascii=False)
-        dataFile.write(jsonpickle.encode(link_keywords))
+    with open('./data/linked.json', 'w', encoding='utf8') as data_file:
+        data_file.write(jsonpickle.encode(link_keywords))
 
 
 def load_grammar_rules(path_to_grammar):
@@ -54,7 +44,7 @@ def draw_tree(index, rel, data_folder, result):
 
     TreeView(result)._cframe.print_to_file(ps_file)
 
-    # # convert ps to png
+    # convert ps to png
     im = Image.open(ps_file)
     fig = im.convert('RGBA')
     fig.save(png_file, lossless=True)
@@ -106,20 +96,23 @@ def parse_with_grammar(tagger, grammars, keys, sentence, index, data_folder):
 
     try:
         tokens = tagger.tag(word_tokenize(sentence))
-        pass
-    except:
+    except OSError:
         return []
-        pass
 
     tokens = remove_sentence_splitter(tokens)
     tokens = modify_tag(keys, tokens)
     grammar = convert_grammars(grammars)
     cp = RegexpParser(grammar)
-    result = cp.parse(tokens)
+    parsed_token = cp.parse(tokens)
 
+    relationships = add_matched_chunk_to_relationships(parsed_token, index)
+
+    return relationships
+
+def add_matched_chunk_to_relationships(parsed_tokens, index):
     relationships = []
 
-    for chunk in result:
+    for chunk in parsed_tokens:
         if type(chunk) is Tree:
             # print('chunk found: ')
             # print(chunk)
@@ -137,6 +130,30 @@ def parse_with_grammar(tagger, grammars, keys, sentence, index, data_folder):
 
     return relationships
 
+def append_unique_relationships(project, standford_tagger, linked_keyword, index, data_folder):
+
+    relationships = []
+
+    for sentence in project.Sentences:
+
+        # try encode with ascii to eliminate usage of utf-16
+        encoded = sentence.encode('ascii', 'replace').decode()
+        if '?' in encoded:
+            sentence = encoded
+
+        sentence_relationships = parse_with_grammar(standford_tagger,
+                                                    grammars,
+                                                    linked_keyword.Keys,
+                                                    sentence,
+                                                    index,
+                                                    data_folder)
+        for rel in sentence_relationships:
+            if rel not in relationships:
+                relationships.append(rel)
+                print("New relationship founded: " + sentence)
+
+    return relationships
+
 
 def start_analyze():
     linked_keywords = load_linked_result()
@@ -151,7 +168,7 @@ def start_analyze():
 
     standford_tagger = StanfordPOSTagger(path_to_tagger, path_to_jar)
 
-    print("Start keyword analyzation")
+    print("Start keyword analysis")
 
     for linked_keyword in linked_keywords:
 
@@ -180,25 +197,7 @@ def start_analyze():
 
             index = 1
 
-            relationships = []
-
-            for sentence in project.Sentences:
-
-                # try encode with ascii to eliminate usage of utf-16
-                encoded = sentence.encode('ascii', 'replace').decode()
-                if '?' in encoded:
-                    sentence = encoded
-
-                sentence_relationships = parse_with_grammar(standford_tagger,
-                                                            grammars,
-                                                            linked_keyword.Keys,
-                                                            sentence,
-                                                            index,
-                                                            data_folder)
-                for rel in sentence_relationships:
-                    if rel not in relationships:
-                        relationships.append(rel)
-                        print("New relationship founded: " + sentence)
+            relationships = append_unique_relationships(project, standford_tagger, linked_keyword, index, data_folder)
 
             project.add_relationships(relationships)
 

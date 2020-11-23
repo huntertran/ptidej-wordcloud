@@ -31,16 +31,6 @@ class ResultGenerator:
         image.thumbnail((size[0] * 0.1, size[1] * 0.1),  Image.ANTIALIAS)
         image.save('./docs/images/shapes/thumbnails/' + project_name + '.png')
 
-    # # redundant function?
-    # @staticmethod
-    # def getMaskTextColor(word,
-    #                      font_size,
-    #                      position,
-    #                      orientation,
-    #                      random_state=None,
-    #                      **kwargs):
-    #     return "hsl(0, 0%, 0%)"
-
     @staticmethod
     def make_mask(project_name):
         font_path = './data/Modak-Regular.ttf'
