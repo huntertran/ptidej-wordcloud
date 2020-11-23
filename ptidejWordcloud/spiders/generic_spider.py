@@ -14,7 +14,7 @@ class GenericSpider(scrapy.Spider):
 
         request = scrapy.Request(site_url, callback=self.parseRootUrl)
         request.cb_kwargs['root'] = self.extractBaseUrl(site_url)
-        request.cb_kwargs['projectRoot'] = self.extractProjectRoot(site_url)
+        request.cb_kwargs['project_root'] = self.extractProjectRoot(site_url)
         request.cb_kwargs['level'] = crawl_depth_level
         request.cb_kwargs['current_level'] = 0
         request.cb_kwargs['project_name'] = ProjectHelper.get_project_name(site_url)
@@ -63,11 +63,11 @@ class GenericSpider(scrapy.Spider):
     def buildRequest(self, root, project_root, url, level, current_level, project_name):
         if level == current_level:
             request = scrapy.Request(url, callback=self.parseUrl)
-            request.cb_kwargs['projectRoot'] = project_root
+            request.cb_kwargs['project_root'] = project_root
         else:
             request = scrapy.Request(url, callback=self.parseRootUrl)
             request.cb_kwargs['root'] = root
-            request.cb_kwargs['projectRoot'] = project_root
+            request.cb_kwargs['project_root'] = project_root
             request.cb_kwargs['level'] = level
             request.cb_kwargs['current_level'] = current_level + 1,
             request.cb_kwargs['project_name'] = project_name
@@ -106,7 +106,6 @@ class GenericSpider(scrapy.Spider):
                 text = self.cleanText(text)
                 if len(text) != 0 and not self.isLineMatchCode(text):
                     yield {
-                        # "projectRoot": projectRoot,
                         "l": page,
                         "t": text
                     }
