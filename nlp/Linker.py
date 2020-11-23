@@ -29,7 +29,7 @@ def print_graph(relationships, site_nodes):
 def get_link_keyword():
     with open('./data/nlp/link_keyword.json', 'r') as data:
         link_keyword = json.load(
-            data, object_hook=LinkKeyword.decode_LinkKeyword)
+            data, object_hook=LinkKeyword.decode_object)
     return link_keyword
 
 
@@ -68,7 +68,7 @@ def analyze_site(site, link_keywords):
         for link_keyword in link_keywords:
             link_project = add_linked_sentence(
                 link_keyword, sentences, project_name)
-            if link_project.Sentences is not None and len(link_project.Sentences) > 0:
+            if link_project.sentences is not None and len(link_project.sentences) > 0:
                 link_keyword.add_link_project(link_project)
 
 
@@ -80,7 +80,7 @@ def create_link():
     file_path = './data/sitelist.json'
 
     with open(file_path, 'r') as dataFile:
-        site_data_list = json.load(dataFile, object_hook=Site.decode_Site)
+        site_data_list = json.load(dataFile, object_hook=Site.decode_object)
 
     link_keywords = get_link_keyword()
 

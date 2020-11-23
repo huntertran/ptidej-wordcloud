@@ -2,45 +2,47 @@ from collections import defaultdict
 
 
 class Site(object):
-    def __init__(self, IsCrawled=None, CrawlDepthLevel=None, IsWordcloudGenerated=None, SiteUrl=None):
-        self.IsCrawled = IsCrawled
-        self.CrawlDepthLevel = CrawlDepthLevel
-        self.IsWordcloudGenerated = IsWordcloudGenerated
-        self.SiteUrl = SiteUrl
+    def __init__(self, is_crawled=None, crawl_depth_level=None, is_wordcloud_generated=None, site_url=None):
+        self.is_crawled = is_crawled
+        self.crawl_depth_level = crawl_depth_level
+        self.is_wordcloud_generated = is_wordcloud_generated
+        self.site_url = site_url
 
-    def decode_Site(dict):
+    @staticmethod
+    def decode_object(dict):
         return Site(dict['IsCrawled'], dict['CrawlDepthLevel'], dict['IsWordcloudGenerated'], dict['SiteUrl'])
 
-    def encode_Site(siteObject):
+    @staticmethod
+    def encode_object(object):
         return {
-            'IsCrawled': siteObject.IsCrawled,
-            'CrawlDepthLevel': siteObject.CrawlDepthLevel,
-            'IsWordcloudGenerated': siteObject.IsWordcloudGenerated,
-            'SiteUrl': siteObject.SiteUrl
+            'IsCrawled': object.is_crawled,
+            'CrawlDepthLevel': object.crawl_depth_level,
+            'IsWordcloudGenerated': object.is_wordcloud_generated,
+            'SiteUrl': object.site_url
         }
 
 
 class StemmedWord(object):
-    def __init__(self, Text=None, UnStemmedWord=None):
-        self.UnStemmed = defaultdict(int)
-        self.Text = Text
+    def __init__(self, text=None, un_stemmed_word=None):
+        self.un_stemmed = defaultdict(int)
+        self.text = text
         self._count = 0
-        self.addUnStemmed(UnStemmedWord)
+        self.add_un_stemmed(un_stemmed_word)
 
     def count(self):
         if self._count == 0:
-            for unStemmed in self.UnStemmed:
-                self._count += self.UnStemmed[unStemmed]
+            for un_stemmed in self.un_stemmed:
+                self._count += self.un_stemmed[un_stemmed]
 
         return self._count
 
-    def getMostCommonUnStemmed(self):
-        return max(self.UnStemmed)
+    def get_most_common_un_stemmed(self):
+        return max(self.un_stemmed)
 
-    def addUnStemmed(self, unStemmed):
-        lowerUnStemmed = unStemmed.lower()
-        if not lowerUnStemmed in self.UnStemmed:
-            self.UnStemmed[lowerUnStemmed] = 1
+    def add_un_stemmed(self, un_stemmed):
+        lower_un_stemmed = un_stemmed.lower()
+        if not lower_un_stemmed in self.un_stemmed:
+            self.un_stemmed[lower_un_stemmed] = 1
             # print("New unstemmed:" + unStemmed)
         else:
-            self.UnStemmed[lowerUnStemmed] += 1
+            self.un_stemmed[lower_un_stemmed] += 1

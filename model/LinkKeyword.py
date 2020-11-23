@@ -4,13 +4,14 @@ import numpy
 from json import JSONEncoder
 
 class LinkKeyword(object):
-    def __init__(self, Id=None, Description=None, Keys=None):
-        self.Id = Id
-        self.Description = Description
-        self.Keys = Keys
+    def __init__(self, id=None, description=None, keys=None):
+        self.id = id
+        self.description = description
+        self.keys = keys
         self.projects = []
 
-    def decode_LinkKeyword(dict):
+    @staticmethod
+    def decode_object(dict):
         return LinkKeyword(dict['id'], dict['description'], dict['keys'])
 
     def add_link_project(self, link_project):
@@ -25,16 +26,16 @@ class LinkKeyword(object):
 
 
 class LinkProject(object):
-    def __init__(self, Project=None):
-        self.Project = Project
-        self.Sentences = []
+    def __init__(self, project=None):
+        self.project = project
+        self.sentences = []
         self.relationships = []
 
     def add_sentence(self, sentence):
-        for sen in self.Sentences:
+        for sen in self.sentences:
             if sen == sentence:
                 return
-        self.Sentences.append(sentence)
+        self.sentences.append(sentence)
     
     def add_relationships(self, relationships):
         self.relationships = relationships

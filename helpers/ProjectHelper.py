@@ -40,5 +40,5 @@ class ProjectHelper:
     def load_raw_data_file(project_name):
         data_path = './data/scrapy/'
         default_encoding = 'utf-8'
-        with open(data_path + project_name + '.txt', 'r', encoding=default_encoding) as dataFile:
-            return dataFile.readlines()
+        with open(data_path + project_name + '.txt', 'r', encoding=default_encoding) as data_file:
+            return data_file.readlines()

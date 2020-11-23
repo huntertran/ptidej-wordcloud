@@ -20,23 +20,23 @@ def crawl():
 
     crawler = runner.spider_loader.list()[0]
 
-    filePath = './data/sitelist.json'
+    file_path = './data/sitelist.json'
 
-    with open(filePath, 'r') as dataFile:
-        siteDataList = json.load(dataFile, object_hook=Site.decode_Site)
+    with open(file_path, 'r') as dataFile:
+        site_data_list = json.load(dataFile, object_hook=Site.decode_object)
 
     index = 0
-    for site in siteDataList:
+    for site in site_data_list:
 
         # Crawling
         if not site.IsCrawled:
             # TODO: edit here to stop re-scraping a site on different run
-            siteDataList[index].IsCrawled = True
+            site_data_list[index].IsCrawled = True
             yield runner.crawl(crawler, siteUrl=site.SiteUrl, crawlDepthLevel=site.CrawlDepthLevel)
         index += 1
 
-    with open(filePath, 'w') as dataFile:
-        json.dump(siteDataList, dataFile, default=Site.encode_Site, indent=4)
+    with open(file_path, 'w') as dataFile:
+        json.dump(site_data_list, dataFile, default=Site.encode_object, indent=4)
 
     if reactor.running:
         reactor.stop()
@@ -46,21 +46,21 @@ def crawl():
 
 
 def nlp():
-    filePath = './data/sitelist.json'
+    file_path = './data/sitelist.json'
 
-    with open(filePath, 'r') as dataFile:
-        siteDataList = json.load(dataFile, object_hook=Site.decode_Site)
+    with open(file_path, 'r') as dataFile:
+        site_data_list = json.load(dataFile, object_hook=Site.decode_object)
 
     index = 0
-    for site in siteDataList:
+    for site in site_data_list:
         # NLP Processing
         if not site.IsWordcloudGenerated:
             process(site.SiteUrl)
-            siteDataList[index].IsWordcloudGenerated = True
+            site_data_list[index].IsWordcloudGenerated = True
         index += 1
 
-    with open(filePath, 'w') as dataFile:
-        json.dump(siteDataList, dataFile, default=Site.encode_Site, indent=4)
+    with open(file_path, 'w') as dataFile:
+        json.dump(site_data_list, dataFile, default=Site.encode_object, indent=4)
 
 
 # crawl()

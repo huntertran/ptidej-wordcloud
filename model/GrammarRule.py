@@ -42,8 +42,9 @@ class OtherWord(object):
         self.word = word
         self.relationship = relationship
 
-    def decode_OtherWord(dict):
+    @staticmethod
+    def decode_object(dict):
         return OtherWord(dict['word'], dict['relationship'])
 
     def is_matched(self, word_to_compare):
-        return word_to_compare == word
+        return word_to_compare == self.word

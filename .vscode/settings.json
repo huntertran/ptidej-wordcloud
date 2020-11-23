@@ -57,6 +57,7 @@
         "tinydtls",
         "tolist",
         "unide",
+        "unpicklable",
         "wakaama"
     ],
     "liveServer.settings.port": 5500,
