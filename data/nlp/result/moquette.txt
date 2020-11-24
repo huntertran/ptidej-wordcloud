@@ -3,15 +3,15 @@ cookies:2068
 learning:1564
 files:1406
 security:1296
-analytics:1208
 code:1153
 jump:1117
 actions:1050
 issues:984
 builds:983
-licenses:981
+licenses:971
 understands:914
 better:909
+analytics:906
 preferred:886
 imported:862
 sessions:856
@@ -29,12 +29,10 @@ accepting:646
 contact:642
 pages:637
 windows:631
-github.com:631
 pull:629
 always:625
 rejected:622
 options:620
-third-party:620
 another:616
 reload:612
 tab:604
@@ -48,3 +46,5 @@ pricing:514
 reviews:506
 suggestions:501
 stars:490
+packaging:475
+string:460

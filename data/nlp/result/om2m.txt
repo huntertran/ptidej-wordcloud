@@ -1,7 +1,6 @@
 foundation:467
 community:446
 resources:330
-ides:313
 starts:295
 report:274
 collaborations:245
@@ -19,13 +18,6 @@ publics:193
 bugs:177
 creating:174
 pages:169
-in-cse:165
-bugforumsmailing:164
-listswikiircresearcheclipse:164
-moredocumentationgetting:164
-supporthow:164
-contributeide:164
-toolsnewcomer:164
 managing:144
 main:140
 rights:136
@@ -35,9 +27,8 @@ downloads:130
 contains:127
 status:124
 code:122
-enabling:116
+enabling:114
 privacy:113
-mn-cses:113
 logged:113
 toggle:112
 skip:111
@@ -48,3 +39,12 @@ donate:109
 directors:108
 lists:107
 lines:103
+announcements:102
+follows:101
+documentation:97
+important:97
+mailing:95
+software:93
+marketplaces:92
+discovers:91
+numbers:91

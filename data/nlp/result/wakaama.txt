@@ -1,7 +1,4 @@
-wakaama-dev:58
 https:56
-emo:44
-nov:36
 election:34
 clients:29
 simon:29
@@ -14,9 +11,7 @@ cookies:24
 gmt:24
 security:22
 approval:22
-committer:21
 learning:20
-xxxxxxx:20
 manager:18
 code:18
 builds:18
@@ -24,7 +19,6 @@ making:18
 changes:18
 mailing:17
 contributions:17
-pmc:17
 started:16
 development:15
 foundation:15
@@ -38,7 +32,6 @@ repository:14
 privacy:14
 issues:14
 lead:14
-oct:14
 licenses:13
 examples:13
 actions:13
@@ -48,3 +41,10 @@ id:13
 enables:12
 commands:12
 jump:12
+updated:12
+set:12
+defining:11
+interfaces:11
+time:11
+requests:11
+pages:11
