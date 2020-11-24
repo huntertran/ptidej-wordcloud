@@ -1,19 +1,17 @@
 # Process crawled text to extract most popular words to generate word cloud
 
 from nltk.stem import PorterStemmer
+from nltk.corpus import wordnet
 from nltk.tokenize import word_tokenize
-from nltk import FreqDist
 import re
 from nlp.ResultGenerator import ResultGenerator
 from helpers.ProjectHelper import ProjectHelper
 from helpers.nlp_helper import combine_stopwords
 from model.Site import StemmedWord
-import enchant
 
 data_path = './data/scrapy/'
 default_encoding = 'utf-8'
 resulted_data_path = './data/nlp/result/'
-english_dict = enchant.Dict("en_US")
 
 
 def get_programming_language_list():
@@ -25,6 +23,16 @@ def get_programming_language_list():
         for line in lines:
             programming_languages.append(line.strip('\n'))
     return programming_languages
+
+def get_no_synonym_list():
+    no_synonym = []
+    with open('./data/nlp/no_synonym.txt',
+              'r',
+              encoding=default_encoding) as no_synonym_file:
+        lines = no_synonym_file.readlines()
+        for line in lines:
+            no_synonym.append(line.strip('\n'))
+    return no_synonym
 
 
 def is_match_special_string(word):
@@ -70,8 +78,20 @@ def check_for_stopwords(stemmed_word,
             if stemmed_word.lower() != project_name.lower():
                 return True
 
-def is_english_word(word):
-    return english_dict.check(word)
+
+def is_english_word(word, no_synonym_words):
+    # using nltk wordnet
+    # the idea is that if a word don't have any synonym,
+    # and the word doesn't listed in the no_synonym list,
+    # then it may not correct
+
+    if word in no_synonym_words:
+        return True
+
+    if wordnet.synsets(word):
+        return True
+    else:
+        return False
 
 
 def remove_stopwords(project_name, stopwords):
@@ -81,6 +101,9 @@ def remove_stopwords(project_name, stopwords):
     programming_language_keywords = []
     programming_languages = get_programming_language_list()
 
+    no_synonym_words = []
+    no_synonym_words = get_no_synonym_list()
+
     stemmer = PorterStemmer()
 
     for line in data_lines:
@@ -89,13 +112,13 @@ def remove_stopwords(project_name, stopwords):
             words[index] = stemmer.stem(word)
 
             is_not_stopword = check_for_stopwords(words[index],
-                                word,
-                                stopwords,
-                                programming_languages,
-                                programming_language_keywords,
-                                project_name)
+                                                  word,
+                                                  stopwords,
+                                                  programming_languages,
+                                                  programming_language_keywords,
+                                                  project_name)
 
-            if is_not_stopword and is_english_word(word):
+            if is_not_stopword and is_english_word(word, no_synonym_words):
                 keywords.append(words[index])
                 insert_stemmed_keyword_with_un_stemmed_count(words[index],
                                                              word,

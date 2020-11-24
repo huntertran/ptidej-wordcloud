@@ -65,7 +65,6 @@ choco install ghostscript
 [sudo] python3 -m pip install pandas
 [sudo] python3 -m pip install --upgrade gensim
 [sudo] python3 -m pip install jsonpickle
-[sudo] python3 -m pip install pyenchant
 ```
 
 Install Natural Language Processing toolkit (nltk)
@@ -85,6 +84,7 @@ python3
 >>> nltk.download('stopwords')
 >>> nltk.download('punkt')
 >>> nltk.download('averaged_perceptron_tagger')
+>>> nltk.download('wordnet')
 >>> quit()
 ```
 
