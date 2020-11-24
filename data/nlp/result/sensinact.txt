@@ -16,7 +16,7 @@ data:97
 ide:94
 managing:72
 report:67
-builds:66
+builds:67
 starting:63
 technology:63
 foundation:62
@@ -31,7 +31,6 @@ moredocumentationgetting:46
 supporthow:46
 contributeide:46
 toolsnewcomer:46
-·:46
 projects.eclipse.org:44
 emf:44
 licence:44
@@ -45,6 +44,7 @@ contributions:38
 main:37
 editing:37
 protocols:36
-months:35
+months:36
 frameworks:34
 devices:33
+back:33

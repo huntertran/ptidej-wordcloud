@@ -3,14 +3,14 @@ iot:114
 cookies:105
 downloads:90
 coding:90
-→:84
+signed:88
 gateways:82
-signed:76
+builds:80
+development:79
 starts:74
 devices:73
 repository:73
 learning:72
-↵:72
 back:69
 commits:64
 tags:63
@@ -21,8 +21,7 @@ desktop:60
 licenses:57
 data:56
 api:56
-building:56
-development:55
+software:54
 launching:50
 packaging:49
 community:48
@@ -48,3 +47,4 @@ moredocumentationgetting:42
 supporthow:42
 contributeide:42
 toolsnewcomer:42
+https:42

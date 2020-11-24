@@ -15,11 +15,11 @@ iot:38
 projects.eclipse.org:36
 dtls:34
 downloads:32
+development:28
 implementing:28
 resources:27
 code:27
 cookies:26
-development:26
 public:26
 logged:25
 privacy:25
@@ -29,11 +29,9 @@ reviews:23
 skip:22
 links:22
 status:22
-©:22
 google:21
 main:21
 coap:21
-inc.:21
 rights:21
 reserved:21
 top:21
@@ -48,3 +46,5 @@ idedownloadlearn:19
 toggle:19
 navigation:19
 home:19
+licenses:19
+things:19

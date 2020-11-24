@@ -22,18 +22,16 @@ top:38
 privacy:37
 back:37
 public:36
+implemented:36
 activity:35
 skip:34
 content:34
 things:34
 links:34
 status:34
-©:34
-implemented:34
 google:33
 main:33
 servers:33
-inc.:33
 rights:33
 reserved:33
 projectsworking:32
@@ -48,3 +46,5 @@ toggle:32
 navigation:32
 home:32
 uscontact:32
+usdonatemembersgovernancecode:32
+conductlogo:32

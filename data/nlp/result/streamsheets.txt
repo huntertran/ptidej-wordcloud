@@ -1,4 +1,4 @@
-streamsheets:153
+streamsheets:154
 started:59
 iot:47
 managing:44
@@ -18,7 +18,7 @@ related:34
 projects.eclipse.org:32
 streams:31
 downloads:30
-development:26
+development:28
 resources:26
 users:25
 cookies:24
@@ -37,7 +37,6 @@ contents:19
 status:19
 skip:18
 navigation:18
-©:18
 projectsworking:17
 groupsmemberscommunity:17
 marketplaceeventsplanet:17
@@ -48,3 +47,4 @@ eclipsenewslettervideosblogsparticipatereport:17
 idedownloadlearn:17
 toggle:17
 home:17
+platforms:17

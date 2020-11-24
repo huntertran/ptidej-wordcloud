@@ -46,5 +46,5 @@ apis:26
 privacy:26
 skip:24
 status:24
-©:24
-inc.:24
+rights:24
+reserved:24

@@ -1,4 +1,4 @@
-development:246
+development:248
 downloads:209
 resources:196
 toggle:189
@@ -27,12 +27,12 @@ supporthow:89
 contributeide:89
 toolsnewcomer:89
 links:85
-platforms:74
+platforms:75
 tags:73
+builds:71
 projects.eclipse.org:70
 logging:69
 units:69
-builds:69
 mailing:66
 back:63
 web:63
@@ -45,6 +45,6 @@ content:53
 navigator:52
 publications:52
 status:52
-©:52
-inc.:51
 rights:51
+reserved:51
+operations:51

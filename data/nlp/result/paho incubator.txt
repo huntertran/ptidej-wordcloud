@@ -16,6 +16,7 @@ supporthow:2
 contributeide:2
 toolsnewcomer:2
 iot:2
+activity:2
 resources:2
 public:2
 mit:2
@@ -39,7 +40,6 @@ navigation:1
 home:1
 primary:1
 tabsoverview:1
-active:1
 tab:1
 involved:1
 developer:1

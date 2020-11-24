@@ -29,7 +29,6 @@ toolsnewcomer:16
 values:15
 library:14
 documentation:14
-rss-feed:14
 pages:13
 based:13
 j-interop:13
@@ -39,7 +38,6 @@ contents:12
 navigation:12
 data:12
 privacy:11
-©:11
 rights:11
 reserved:11
 managed:11
@@ -48,3 +46,5 @@ components:11
 neoscada™:10
 solutions:10
 development:10
+skip:10
+log:10

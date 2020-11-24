@@ -42,9 +42,9 @@ apis:40
 web:40
 back:38
 logs:37
+privacy:37
 contents:36
 navigation:36
-privacy:36
 public:35
 status:35
 skip:34

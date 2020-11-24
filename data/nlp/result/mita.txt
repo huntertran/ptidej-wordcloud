@@ -1,8 +1,8 @@
 iot:68
 starts:62
+development:58
 languages:57
 foundation:55
-development:54
 manager:52
 reports:49
 tags:45
@@ -17,10 +17,10 @@ projects.eclipse.org:42
 cookies:36
 downloads:36
 resources:34
+platforms:34
 code:30
 privacy:29
 rights:28
-platforms:28
 logged:27
 back:27
 devices:26
@@ -29,15 +29,14 @@ content:25
 public:25
 links:25
 status:25
-©:25
 top:25
 issues:25
 home:24
 things:24
 reviews:24
+signed:24
 google:23
 main:23
-inc.:23
 reserved:23
 projectsworking:22
 groupsmemberscommunity:22
@@ -48,3 +47,4 @@ communitymarketplaceeventsplanet:22
 eclipsenewslettervideosblogsparticipatereport:22
 idedownloadlearn:22
 toggle:22
+navigation:22
