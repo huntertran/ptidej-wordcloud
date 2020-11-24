@@ -8,10 +8,12 @@ from nlp.ResultGenerator import ResultGenerator
 from helpers.ProjectHelper import ProjectHelper
 from helpers.nlp_helper import combine_stopwords
 from model.Site import StemmedWord
+import enchant
 
 data_path = './data/scrapy/'
 default_encoding = 'utf-8'
 resulted_data_path = './data/nlp/result/'
+english_dict = enchant.Dict("en_US")
 
 
 def get_programming_language_list():
@@ -54,6 +56,24 @@ def is_in_stopwords(stemmed_word, original_word, stopwords):
             and not is_match_special_string(stemmed_word))
 
 
+def check_for_stopwords(stemmed_word,
+                        original_word,
+                        stopwords,
+                        programming_languages,
+                        programming_language_keywords,
+                        project_name):
+    if is_in_stopwords(stemmed_word, original_word, stopwords):
+        if stemmed_word in programming_languages:
+            programming_language_keywords.append(stemmed_word)
+            return False
+        else:
+            if stemmed_word.lower() != project_name.lower():
+                return True
+
+def is_english_word(word):
+    return english_dict.check(word)
+
+
 def remove_stopwords(project_name, stopwords):
     data_lines = ProjectHelper.load_raw_data_file(project_name)
     keywords = []
@@ -67,30 +87,33 @@ def remove_stopwords(project_name, stopwords):
         words = word_tokenize(line)
         for index, word in enumerate(words):
             words[index] = stemmer.stem(word)
-            # check for stop words
-            if is_in_stopwords(words[index], word, stopwords):
-                if words[index] in programming_languages:
-                    programming_language_keywords.append(words[index])
-                else:
-                    if words[index].lower() != project_name.lower():
-                        keywords.append(words[index])
-                        insert_stemmed_keyword_with_un_stemmed_count(words[index],
-                                                                     word,
-                                                                     stemmed_keywords)
+
+            is_not_stopword = check_for_stopwords(words[index],
+                                word,
+                                stopwords,
+                                programming_languages,
+                                programming_language_keywords,
+                                project_name)
+
+            if is_not_stopword and is_english_word(word):
+                keywords.append(words[index])
+                insert_stemmed_keyword_with_un_stemmed_count(words[index],
+                                                             word,
+                                                             stemmed_keywords)
     return programming_language_keywords, keywords, stemmed_keywords
 
 
-def calculate_frequency_distribution(keywords, take_most=None):
-    frequency_distribution = FreqDist(keywords)
-    if take_most is not None:
-        distribution_list = frequency_distribution.most_common(take_most)
-    else:
-        distribution_list = frequency_distribution.items()
-    sorted_freq_dist = sorted(
-        distribution_list,
-        key=lambda kv: kv[1],
-        reverse=True)
-    return sorted_freq_dist
+# def calculate_frequency_distribution(keywords, take_most=None):
+#     frequency_distribution = FreqDist(keywords)
+#     if take_most is not None:
+#         distribution_list = frequency_distribution.most_common(take_most)
+#     else:
+#         distribution_list = frequency_distribution.items()
+#     sorted_freq_dist = sorted(
+#         distribution_list,
+#         key=lambda kv: kv[1],
+#         reverse=True)
+#     return sorted_freq_dist
 
 
 def calculate_frequency_distribution_from_stemmed_list(stemmed_word_list, take_most=None):

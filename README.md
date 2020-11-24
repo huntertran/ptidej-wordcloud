@@ -65,6 +65,7 @@ choco install ghostscript
 [sudo] python3 -m pip install pandas
 [sudo] python3 -m pip install --upgrade gensim
 [sudo] python3 -m pip install jsonpickle
+[sudo] python3 -m pip install pyenchant
 ```
 
 Install Natural Language Processing toolkit (nltk)
