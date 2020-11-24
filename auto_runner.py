@@ -63,10 +63,10 @@ def nlp():
         json.dump(site_data_list, data_file, default=Site.encode_object, indent=4)
 
 
-crawl()
-reactor.run()
+# crawl()
+# reactor.run()
 
-# nlp()
+nlp()
 # create_link()
 # start_analyze()
 # start_convert()

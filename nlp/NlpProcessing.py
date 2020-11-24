@@ -37,8 +37,8 @@ def is_match_special_string(word):
 def insert_stemmed_keyword_with_un_stemmed_count(new_stemmed, new_un_stemmed, stemmed_word_list):
     is_existed = False
     for stemmed in stemmed_word_list:
-        if stemmed.Text == new_stemmed:
-            stemmed.addUnStemmed(new_un_stemmed)
+        if stemmed.text == new_stemmed:
+            stemmed.add_un_stemmed(new_un_stemmed)
             is_existed = True
             break
 
@@ -101,7 +101,7 @@ def calculate_frequency_distribution_from_stemmed_list(stemmed_word_list, take_m
     result = {}
     index = 0
     for stemmed_word in sortedstemmed_word_list:
-        most_common_un_stemmed_word = stemmed_word.getMostCommonUnStemmed()
+        most_common_un_stemmed_word = stemmed_word.get_most_common_un_stemmed()
         result[most_common_un_stemmed_word] = stemmed_word.count()
         index += 1
         if take_most is not None and index >= take_most:
