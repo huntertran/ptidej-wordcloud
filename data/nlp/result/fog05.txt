@@ -18,6 +18,7 @@ desktop:90
 licenses:89
 networks:89
 packaging:87
+analytics:87
 actions:85
 jump:85
 privacy:84
@@ -27,6 +28,8 @@ trying:80
 tags:78
 issues:78
 stars:77
+iot:76
+apis:75
 community:74
 development:73
 launching:72
@@ -37,7 +40,6 @@ latest:71
 reporting:68
 states:68
 architectures:66
-analytics:66
 plans:65
 understanding:65
 home:64
@@ -46,5 +48,3 @@ deployments:63
 status:63
 updating:63
 preferences:63
-better:63
-nodes:62

@@ -1,13 +1,16 @@
 services:44
+iot:42
 managing:37
 security:36
 downloads:34
+dns:34
 devices:33
 foundation:30
 started:28
 cookies:27
 tags:26
 report:26
+ide:26
 resources:26
 domain:24
 te:14
@@ -23,6 +26,7 @@ development:19
 privacy:19
 https:19
 types:18
+dnssec:18
 status:18
 signed:18
 name:17
@@ -43,7 +47,3 @@ main:13
 toggle:13
 navigation:13
 activities:13
-discovery:13
-directors:13
-rights:13
-reserved:13

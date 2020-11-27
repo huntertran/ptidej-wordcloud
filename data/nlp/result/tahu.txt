@@ -1,7 +1,11 @@
+mqtt:72
 manager:48
+sparkplug:48
+iot:39
 reporting:35
 foundation:35
 tags:33
+ide:32
 started:32
 licenses:32
 downloads:28
@@ -44,7 +48,3 @@ best:16
 session:16
 originating:16
 directors:16
-rights:16
-reserved:16
-top:16
-related:15

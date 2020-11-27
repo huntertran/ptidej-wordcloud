@@ -3,7 +3,10 @@ foundation:47
 tags:44
 manager:44
 report:41
+ide:38
 started:38
+iot:38
+dtls:34
 downloads:32
 development:28
 implementing:28
@@ -21,6 +24,7 @@ links:22
 status:22
 google:21
 main:21
+coap:21
 rights:21
 reserved:21
 top:21
@@ -44,7 +48,3 @@ contributions:15
 signed:15
 library:14
 mailing:14
-integrations:13
-tab:12
-information:12
-mode:12

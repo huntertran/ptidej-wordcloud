@@ -1,3 +1,4 @@
+iot:74
 smart:48
 platforms:38
 cloud:33
@@ -11,6 +12,7 @@ solutions:21
 based:19
 tags:18
 report:18
+ide:18
 started:18
 foundation:18
 downloads:17
@@ -46,5 +48,3 @@ hierarchy:9
 technology:9
 directors:9
 privacy:9
-rights:9
-reserved:9

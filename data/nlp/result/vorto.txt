@@ -19,6 +19,7 @@ community:321
 users:317
 development:310
 actions:307
+analytics:304
 devices:292
 account:289
 understanding:276
@@ -32,10 +33,10 @@ making:262
 pages:257
 free:244
 timing:242
+iot:234
 privacy:234
 software:233
 copy:230
-analytics:229
 better:229
 needs:228
 fixing:228
@@ -47,4 +48,3 @@ contributors:215
 commits:213
 join:209
 examples:207
-generous:206

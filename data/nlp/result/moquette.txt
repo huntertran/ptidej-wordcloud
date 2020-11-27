@@ -3,6 +3,7 @@ cookies:2068
 learning:1564
 files:1406
 security:1296
+analytics:1208
 code:1153
 jump:1117
 actions:1050
@@ -11,7 +12,6 @@ builds:983
 licenses:971
 understands:914
 better:909
-analytics:906
 preferred:886
 imported:862
 sessions:856

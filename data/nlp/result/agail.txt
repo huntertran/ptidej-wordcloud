@@ -1,4 +1,5 @@
 managing:136
+iot:114
 cookies:105
 downloads:90
 coding:90
@@ -19,6 +20,7 @@ go:60
 desktop:60
 licenses:57
 data:56
+api:56
 software:54
 launching:50
 packaging:49
@@ -29,6 +31,7 @@ jump:48
 nothing:48
 happens:48
 try:48
+analytics:48
 privacy:47
 foundation:45
 resources:44
@@ -37,6 +40,7 @@ status:44
 components:43
 interfaces:43
 report:42
+ide:42
 https:42
 links:41
 protocols:40
@@ -44,7 +48,3 @@ related:40
 informations:40
 websites:39
 types:37
-reviews:37
-latest:36
-preferences:36
-analytics:36

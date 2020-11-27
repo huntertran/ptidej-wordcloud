@@ -1,6 +1,7 @@
 systems:178
 services:79
 framework:60
+iot:58
 manager:55
 automation:48
 core:47
@@ -11,6 +12,7 @@ started:34
 updated:31
 tags:30
 report:30
+ide:30
 links:30
 things:27
 technology:27
@@ -46,5 +48,3 @@ skip:16
 content:16
 based:16
 leads:16
-licensing:16
-european:16

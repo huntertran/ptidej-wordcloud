@@ -6,6 +6,7 @@ please:3
 note:3
 downloads:2
 report:2
+ide:2
 started:2
 available:2
 emf:2
@@ -43,8 +44,7 @@ corona:1
 cosmos:1
 cobol:1
 dd:1
+iot:1
 examples:1
 facet:1
 flux:1
-gems:1
-glimmer:1

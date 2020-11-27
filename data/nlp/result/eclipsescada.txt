@@ -1,7 +1,9 @@
 foundation:48
 community:44
 systems:35
+scada:28
 started:28
+ide:27
 licensing:27
 report:24
 versions:22
@@ -30,6 +32,7 @@ privacy:11
 rights:11
 reserved:11
 managed:11
+committers:11
 components:11
 solutions:10
 development:10
@@ -45,6 +48,3 @@ resources:10
 status:10
 software:9
 individuals:9
-donate:9
-news:8
-downloads:8

@@ -3,6 +3,7 @@ development:78
 users:74
 foundation:64
 builds:62
+ides:58
 managing:56
 downloads:52
 report:51
@@ -29,6 +30,7 @@ contents:27
 mailing:27
 files:27
 home:26
+apis:26
 privacy:26
 skip:24
 status:24
@@ -46,5 +48,3 @@ technology:21
 activity:20
 news:19
 signing:19
-importing:19
-problems:19

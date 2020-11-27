@@ -5,9 +5,11 @@ configuring:322
 connectivity:315
 web:292
 components:275
+ui:256
 issues:224
 interfaces:217
 drivers:213
+iot:212
 clouds:209
 modems:198
 managing:196
@@ -15,6 +17,7 @@ ads:189
 versions:188
 pi:184
 wifi:184
+apis:178
 devices:166
 platforms:163
 assets:151
@@ -45,6 +48,3 @@ users:93
 des:93
 integrations:92
 dongle:92
-wan:91
-creating:88
-errors:87

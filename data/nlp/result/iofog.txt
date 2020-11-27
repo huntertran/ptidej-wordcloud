@@ -17,6 +17,7 @@ trying:139
 messages:138
 updates:137
 jump:136
+analytics:136
 actions:133
 true:133
 information:133
@@ -35,8 +36,10 @@ privacy:116
 connects:116
 https:113
 status:113
+apis:113
 new:111
 latest:111
+iot:109
 files:109
 resources:107
 cli:107
@@ -45,6 +48,3 @@ issues:105
 preferred:104
 foundation:103
 understanding:103
-analytics:102
-options:101
-reviews:100

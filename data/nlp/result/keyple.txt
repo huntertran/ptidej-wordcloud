@@ -3,6 +3,7 @@ cookies:256
 signing:251
 managing:244
 security:227
+apis:212
 learning:189
 calypso:176
 se:171
@@ -14,6 +15,7 @@ code:157
 downloads:145
 repository:142
 cards:138
+analytics:128
 issues:123
 development:121
 back:119
@@ -29,7 +31,6 @@ better:100
 commands:98
 actions:98
 reviews:98
-analytics:96
 understand:96
 go:95
 desktop:95
@@ -38,13 +39,12 @@ tab:90
 jump:90
 session:89
 implementing:87
+iot:86
 preferences:86
+ides:85
 optional:85
 report:84
 windows:82
 stars:82
 contents:79
 try:78
-launching:77
-fixes:77
-activity:76

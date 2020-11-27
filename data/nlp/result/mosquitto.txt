@@ -1,6 +1,8 @@
+mqtt:80
 community:65
 foundation:59
 messaging:52
+ides:46
 starting:43
 connects:42
 clients:40
@@ -46,5 +48,3 @@ rights:15
 reserved:15
 publishing:15
 users:15
-cookies:14
-marketplaces:14

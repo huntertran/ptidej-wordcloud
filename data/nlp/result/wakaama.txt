@@ -43,8 +43,8 @@ commands:12
 jump:12
 updated:12
 set:12
+analytics:12
 defining:11
 interfaces:11
 time:11
 requests:11
-pages:11

@@ -1,9 +1,12 @@
 devices:54
 data:43
 edge:36
+iot:31
 foundation:29
 managing:28
+api:28
 report:25
+ide:24
 started:24
 relating:23
 links:22
@@ -17,6 +20,7 @@ sensors:16
 rules:16
 formats:16
 users:15
+json:15
 public:15
 messages:14
 acquiring:14
@@ -44,7 +48,3 @@ google:11
 development:11
 describing:11
 specify:11
-ability:11
-technology:11
-home:10
-programming:10

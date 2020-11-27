@@ -1,3 +1,4 @@
+ide:11
 communications:5
 frameworks:5
 started:3
@@ -8,8 +9,10 @@ downloads:2
 report:2
 resources:2
 ecf:2
+osgi:2
 remote:2
 services:2
+wiki:2
 documentation:2
 licenses:2
 public:2
@@ -45,6 +48,3 @@ tutorials:1
 well:1
 plans:1
 efforts:1
-underway:1
-future:1
-part:1

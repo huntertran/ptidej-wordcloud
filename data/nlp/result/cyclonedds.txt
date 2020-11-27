@@ -5,9 +5,11 @@ manager:70
 starting:70
 reports:66
 foundation:66
+iot:65
 issues:60
 reviews:59
 tags:58
+ide:56
 downloads:53
 types:43
 cookies:42
@@ -29,6 +31,7 @@ content:33
 related:33
 public:32
 rights:32
+cmake:32
 skip:31
 technology:31
 needs:31
@@ -45,6 +48,3 @@ top:29
 toggle:28
 navigation:28
 hierarchy:28
-directors:28
-known:27
-plans:27

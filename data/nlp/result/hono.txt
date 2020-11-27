@@ -2,6 +2,7 @@ devices:4193
 adaption:2185
 configuring:1829
 connects:1542
+apis:1448
 messaging:1278
 settings:1266
 commands:1238
@@ -14,6 +15,7 @@ clients:848
 services:827
 property:779
 https:768
+mongodb:691
 data:672
 requests:624
 ports:612
@@ -41,10 +43,8 @@ defaults:433
 limits:423
 helm:410
 managing:406
+mqtt:404
 starts:402
 security:401
 guides:393
 registrations:387
-servers:367
-documents:346
-resources:343

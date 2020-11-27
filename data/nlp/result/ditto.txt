@@ -2,6 +2,7 @@ things:1206
 events:1015
 thomas:764
 https:725
+apis:695
 messaging:641
 alexander:599
 metadata:594
@@ -18,6 +19,7 @@ devices:384
 live:380
 protocols:359
 also:344
+json:333
 endpoints:325
 putting:314
 property:289
@@ -46,5 +48,3 @@ examples:181
 commits:180
 documented:176
 calls:175
-implementing:171
-paths:170

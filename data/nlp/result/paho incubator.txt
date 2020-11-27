@@ -5,7 +5,9 @@ licenses:3
 tags:2
 manager:2
 report:2
+ide:2
 started:2
+iot:2
 activity:2
 resources:2
 public:2
@@ -46,5 +48,3 @@ commits:1
 months:1
 related:1
 hierarchy:1
-technology:1
-things:1

@@ -1,11 +1,13 @@
 https:121
+mqtt:65
+coap:58
 hosting:38
 configured:33
 publishing:31
 listening:24
 gmt:24
 versions:23
-coap:23
+mongodb:23
 options:23
 persistent:23
 world:22
@@ -16,6 +18,7 @@ brokers:20
 top:20
 ports:20
 licenses:20
+apis:19
 protocols:19
 started:19
 callbacks:19
@@ -30,7 +33,6 @@ following:16
 makes:16
 vote:16
 resources:15
-mqtt:15
 foundation:15
 bunyan:15
 messages:15
@@ -46,5 +48,3 @@ launching:13
 add:13
 documentation:12
 accessing:12
-set:12
-hello:12

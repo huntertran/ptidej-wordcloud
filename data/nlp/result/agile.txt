@@ -1,4 +1,5 @@
 agility:13860
+iot:7223
 nodes:6209
 devices:5338
 connects:4971
@@ -8,6 +9,7 @@ pages:3498
 buttons:3415
 views:3338
 files:3133
+mqtts:3103
 starts:3071
 naming:3046
 flows:3033
@@ -24,8 +26,10 @@ follows:2290
 news:2265
 editor:2249
 deployments:2168
+ui:2134
 sd:2106
 emails:2074
+wiki:2017
 navigation:2010
 gateways:2008
 retrieving:1917
@@ -44,7 +48,3 @@ urls:1708
 creating:1641
 clicks:1629
 pi:1617
-menu:1609
-calls:1600
-ti:1600
-samples:1595
