@@ -85,7 +85,7 @@ def is_english_word(word, no_synonym_words):
     # and the word doesn't listed in the no_synonym list,
     # then it may not correct
 
-    if word in no_synonym_words:
+    if word.lower() in no_synonym_words:
         return True
 
     if wordnet.synsets(word):

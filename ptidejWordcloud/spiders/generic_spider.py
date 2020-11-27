@@ -12,20 +12,20 @@ class GenericSpider(scrapy.Spider):
         site_url = getattr(self, 'site_url', None)
         crawl_depth_level = int(getattr(self, 'crawl_depth_level', 0))
 
-        request = scrapy.Request(site_url, callback=self.parseRootUrl)
-        request.cb_kwargs['root'] = self.extractBaseUrl(site_url)
-        request.cb_kwargs['project_root'] = self.extractProjectRoot(site_url)
+        request = scrapy.Request(site_url, callback=self.parse_root_url)
+        request.cb_kwargs['root'] = self.extract_base_url(site_url)
+        request.cb_kwargs['project_root'] = self.extract_project_root(site_url)
         request.cb_kwargs['level'] = crawl_depth_level
         request.cb_kwargs['current_level'] = 0
         request.cb_kwargs['project_name'] = ProjectHelper.get_project_name(site_url)
 
         yield request
 
-    def extractBaseUrl(self, url):
+    def extract_base_url(self, url):
         fragments = url.split('/')
         return fragments[0] + "//" + fragments[2]
 
-    def extractProjectRoot(self, url):
+    def extract_project_root(self, url):
         fragments = url.split('/')
         root = fragments[0] + "//" + fragments[2]
 
@@ -34,7 +34,7 @@ class GenericSpider(scrapy.Spider):
         else:
             return root + '/' + fragments[3]
 
-    def parseRootUrl(self, response, root, project_root, level, current_level, project_name):
+    def parse_root_url(self, response, root, project_root, level, current_level, project_name):
 
         urls = []
 
@@ -43,7 +43,7 @@ class GenericSpider(scrapy.Spider):
 
         for url in urls:
             if url.startswith('#') == False:
-                url_to_scrap = self.buildUrl(root, url)
+                url_to_scrap = self.build_url(root, url)
                 # if root in urlToScrap:
                 # if root in urlToScrap and project_name in urlToScrap.lower():
                 if project_name in url_to_scrap.lower():
@@ -51,7 +51,7 @@ class GenericSpider(scrapy.Spider):
                     if type(current_level) is tuple:
                         current_level = current_level[0]
 
-                    request = self.buildRequest(
+                    request = self.build_request(
                         root,
                         project_root,
                         url_to_scrap,
@@ -64,12 +64,12 @@ class GenericSpider(scrapy.Spider):
         for item in self.parseUrl(response, project_root):
             yield item
 
-    def buildRequest(self, root, project_root, url, level, current_level, project_name):
+    def build_request(self, root, project_root, url, level, current_level, project_name):
         if level == current_level:
             request = scrapy.Request(url, callback=self.parseUrl)
             request.cb_kwargs['project_root'] = project_root
         else:
-            request = scrapy.Request(url, callback=self.parseRootUrl)
+            request = scrapy.Request(url, callback=self.parse_root_url)
             request.cb_kwargs['root'] = root
             request.cb_kwargs['project_root'] = project_root
             request.cb_kwargs['level'] = level
@@ -77,13 +77,13 @@ class GenericSpider(scrapy.Spider):
             request.cb_kwargs['project_name'] = project_name
         return request
 
-    def buildUrl(self, root, url):
+    def build_url(self, root, url):
         if url.startswith('http'):
             return url
         else:
             return root + url
 
-    def cleanText(self, text):
+    def clean_text(self, text):
         # remove all trailing whitespaces
         text = text.strip()
         # remove all redundant spaces
@@ -93,7 +93,7 @@ class GenericSpider(scrapy.Spider):
 
         return text
 
-    def isLineMatchCode(self, line):
+    def is_line_match_code(self, line):
         match_code = re.search(r'\S+\s?\{(.+)\}', line)
         if match_code:
             return True
@@ -113,8 +113,8 @@ class GenericSpider(scrapy.Spider):
             texts = soup.find('html').text.split('\n')
 
             for text in texts:
-                text = self.cleanText(text)
-                if len(text) != 0 and not self.isLineMatchCode(text):
+                text = self.clean_text(text)
+                if len(text) != 0 and not self.is_line_match_code(text):
                     yield {
                         "l": page,
                         "t": text
