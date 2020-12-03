@@ -1,32 +1,29 @@
-open source:1
-framework:1
-smart card:11
-ticketing:4
-transaction:6
-interface:13
-mange:1
-terminal:6
-readers:38
-api:52
-secure:8
-calypso:30
-standard:2
-command:9
-implementation:4
-library:5
-plugin:22
-component:7
+open source:44
+smart card:17
+ticketing:40
+transaction:51
+interface:53
+terminal:31
+readers:289
+api:208
+secure:82
+calypso:254
+standard:34
+command:48
+implementation:64
+library:36
+plugin:268
+component:50
 architecture:4
-GitHub:21
-repository:21
-generic:2
-library:2
-contactless:2
-application:5
-cryptographic:1
+repository:131
+generic:30
+contactless:32
+application:41
 calculations:2
-portable:2
-management:4
-emulator:1
-virtual:4
-communicate:1
+portable:25
+management:69
+development:73
+Secure Element: 170
+IDE:84
+observer:43
+code:238
