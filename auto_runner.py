@@ -16,11 +16,11 @@ runner = CrawlerRunner(settings)
 
 
 @defer.inlineCallbacks
-def crawl():
+def crawl(file_path):
 
     crawler = runner.spider_loader.list()[0]
 
-    file_path = './data/sitelist.json'
+    # file_path = './data/sitelist.json'
 
     with open(file_path, 'r') as dataFile:
         site_data_list = json.load(dataFile, object_hook=Site.decode_object)
@@ -45,8 +45,8 @@ def crawl():
         reactor.stop()
 
 
-def nlp():
-    file_path = './data/sitelist.json'
+def nlp(file_path):
+    # file_path = './data/sitelist.json'
 
     with open(file_path, 'r') as data_file:
         site_data_list = json.load(data_file, object_hook=Site.decode_object)
@@ -63,10 +63,10 @@ def nlp():
         json.dump(site_data_list, data_file, default=Site.encode_object, indent=4)
 
 
-# crawl()
+# crawl("./data/sitelist.json")
 # reactor.run()
 
-nlp()
-# create_link()
-# start_analyze()
-# start_convert()
+nlp("./data/sitelist.json")
+create_link()
+start_analyze()
+start_convert()
