@@ -174,8 +174,6 @@ def start_analyze():
 
         print("Start analyzing keyword: " + linked_keyword.description)
 
-        grammars = []
-
         for simple_namespace in grammar_rules:
             grammar = GrammarRule(simple_namespace.name,
                                   simple_namespace.grammar,
