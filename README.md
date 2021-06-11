@@ -11,15 +11,42 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
 
 - [1. Steps](#1-steps)
 - [2. Install package](#2-install-package)
-- [3. Run the project](#3-run-the-project)
-- [4. Debug](#4-debug)
+- [3. Config Java VM argument](#3-config-java-vm-argument)
+- [4. Run the project](#4-run-the-project)
+- [5. Debug](#5-debug)
 
 <!-- /TOC -->
 
 # 1. Steps
 <a id="markdown-steps" name="steps"></a>
 
-1. Define a project list (a simple .json file, with 4 attribute for each project: IsCrawled, CrawDepthLevel, IsWordcloudGenerated, SiteUrl. The steps follow will repeat for all the project in the list)
+1. Define the following inputs:
+    1. A project list. The steps follow will repeat for all the project in the list.
+    2. A protocol keyword list: Json file contains array of items. For example
+
+```json
+[
+    {
+        "IsCrawled": true,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": true,
+        "SiteUrl": "http://www.eclipse.org/paho/"
+    }
+]
+```
+
+```json
+[
+    {
+        "id": 1,
+        "description": "Message Queuing Telemetry Transport",
+        "keys": [
+            "MQTT",
+            "ZMQ",
+            "RabbitMQ"]
+    }
+]
+```
 2. Crawl the site with re-defined depth level, extract all text into a .txt file (a series of paragraph, we can use this later to find out relationship between projects)
 3. Preprocessing crawled data
     1. Sentence Tokenize the paragraphs
@@ -30,6 +57,12 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
 4. Draw the wordcloud
     1. Get frequency distribution of each keywords in step 3, select the 50 most common keywords (can choose any number, not just 50 😃 )
     2. Feed the drawing python lib to create the picture above, then save/serve the picture
+5. Analyze the crawled data with NLP
+    1. Split sentences and tokenize
+    2. Find the sentences containing the keywords
+    3. Use Grammar rules to identify the relationship implied by the sentence
+6. Generate graph of the relationship
+7. Draw the graph
 
 > For now, drawing grammar tree only worked on Windows
 
@@ -98,7 +131,18 @@ Using python on Windows machine require Microsoft Visual C++ Build Tools.
 
 [Here](https://www.nltk.org/data.html) is more about downloading nltk data
 
-# 3. Run the project
+# 3. Config Java VM argument
+<a id="markdown-config-java-vm-argument" name="config-java-vm-argument"></a>
+
+Stanford POS Tagger is resource consuming. You will need to increase Java heap size to avoid `java.lang.OutOfMemoryError` exception
+
+Add/modify this parameters in your vscode settings of Java
+
+```bash
+"java.jdt.ls.vmargs": "-Xmx4G -Xms512m [existing settings]"
+```
+
+# 4. Run the project
 <a id="markdown-run-the-project" name="run-the-project"></a>
 
 ```bash
@@ -106,7 +150,7 @@ cd rootProjectFolder
 [sudo] python3 auto_runner.py
 ```
 
-# 4. Debug
+# 5. Debug
 <a id="markdown-debug" name="debug"></a>
 
 For debugging with Visual Studio Code:
