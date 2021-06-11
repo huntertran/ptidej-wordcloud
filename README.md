@@ -31,6 +31,8 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
     1. Get frequency distribution of each keywords in step 3, select the 50 most common keywords (can choose any number, not just 50 😃 )
     2. Feed the drawing python lib to create the picture above, then save/serve the picture
 
+> For now, drawing grammar tree only worked on Windows
+
 # 2. Install package
 <a id="markdown-install-package" name="install-package"></a>
 

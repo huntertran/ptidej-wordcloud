@@ -9,7 +9,7 @@ from types import SimpleNamespace as Namespace
 from nltk import RegexpParser
 from nltk.tag.stanford import StanfordPOSTagger
 from nltk.tree import Tree
-from nltk.draw.tree import TreeView
+# from nltk.draw.tree import TreeView
 from nltk.tokenize import word_tokenize
 
 from helpers.ProjectHelper import ProjectHelper
@@ -38,16 +38,16 @@ def load_grammar_rules(path_to_grammar):
         return json.load(grammar_data, object_hook=lambda d: Namespace(**d))
 
 
-def draw_tree(index, rel, data_folder, result):
-    ps_file = data_folder + str(index) + '_' + rel + '_output.ps'
-    png_file = data_folder + str(index) + '_' + rel + '_output.png'
+# def draw_tree(index, rel, data_folder, result):
+#     ps_file = data_folder + str(index) + '_' + rel + '_output.ps'
+#     png_file = data_folder + str(index) + '_' + rel + '_output.png'
 
-    TreeView(result)._cframe.print_to_file(ps_file)
+#     TreeView(result)._cframe.print_to_file(ps_file)
 
-    # convert ps to png
-    im = Image.open(ps_file)
-    fig = im.convert('RGBA')
-    fig.save(png_file, lossless=True)
+#     # convert ps to png
+#     im = Image.open(ps_file)
+#     fig = im.convert('RGBA')
+#     fig.save(png_file, lossless=True)
 
 
 def convert_grammars(grammars):
