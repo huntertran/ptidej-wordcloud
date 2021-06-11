@@ -26,8 +26,9 @@ def print_graph(relationships, site_nodes):
                    tablefmt='fancy_grid'))
 
 
-def get_link_keyword():
-    with open('./data/nlp/link_keyword.json', 'r') as data:
+def get_link_keyword(linked_keyword_filepath):
+
+    with open(linked_keyword_filepath, 'r') as data:
         link_keyword = json.load(
             data, object_hook=LinkKeyword.decode_object)
     return link_keyword
@@ -72,14 +73,14 @@ def analyze_site(site, link_keywords):
                 link_keyword.add_link_project(link_project)
 
 
-def create_link():
+def create_link(sitelist_file_path, linked_keyword_filepath):
     project_nodes = {}
     project_names = []
     link_keywords = []
 
-    file_path = './data/sitelist.json'
+    # file_path = './data/sitelist.json'
 
-    with open(file_path, 'r') as dataFile:
+    with open(sitelist_file_path, 'r') as dataFile:
         site_data_list = json.load(dataFile, object_hook=Site.decode_object)
 
     link_keywords = get_link_keyword()
@@ -107,6 +108,6 @@ def create_link():
     jsonpickle.set_encoder_options('json', ensure_ascii=False)
 
     with open('./data/linked.json', 'w', encoding='utf8') as dataFile:
-        dataFile.write(jsonpickle.encode(link_keywords))
+        dataFile.write(jsonpickle.encode(link_keywords, indent=4))
 
     print("Data wrote to linked.json")

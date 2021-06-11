@@ -67,6 +67,6 @@ crawl("./input/sitelist.json")
 reactor.run()
 
 nlp("./input/sitelist.json")
-create_link()
+create_link("./input/sitelist.json", "./input/link_keyword.json")
 start_analyze()
 start_convert()
