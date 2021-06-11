@@ -114,7 +114,7 @@
         "SiteUrl": "https://www.eclipse.org/hono"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
         "IsWordcloudGenerated": true,
         "SiteUrl": "https://www.eclipse.org/kapua/"
