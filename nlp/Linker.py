@@ -83,7 +83,7 @@ def create_link(sitelist_file_path, linked_keyword_filepath):
     with open(sitelist_file_path, 'r') as dataFile:
         site_data_list = json.load(dataFile, object_hook=Site.decode_object)
 
-    link_keywords = get_link_keyword()
+    link_keywords = get_link_keyword(linked_keyword_filepath)
 
     # create barebone connected graph
     index = 0
