@@ -44,8 +44,8 @@ class data(object):
     def add_key(self, linked_keyword):
         x = random.randint(0, 30)
         y = random.randint(0, 30)
-        new_node = node(linked_keyword.Id,
-                        linked_keyword.Description,
+        new_node = node(linked_keyword.id,
+                        linked_keyword.description,
                         x,
                         y,
                         10,
@@ -56,14 +56,14 @@ class data(object):
         x = random.randint(0, 30)
         y = random.randint(0, 30)
 
-        new_node = node(project.Project,
-                        project.Project,
+        new_node = node(project.project,
+                        project.project,
                         x,
                         y,
                         5,
                         '#000000')
 
-        image_path = 'images/shapes/thumbnails/' + project.Project + '.png'
+        image_path = 'images/shapes/thumbnails/' + project.project + '.png'
         actual_image_path = './docs/' + image_path
 
         img = Image.open(actual_image_path)
@@ -80,9 +80,9 @@ class data(object):
         self.nodes.append(new_node)
 
         for relationship in project.relationships:
-            new_edge = edge('e_' + project.Project + '_' + relationship,
+            new_edge = edge('e_' + project.project + '_' + relationship,
                             relationship,
-                            project.Project,
+                            project.project,
                             str(linked_keyword.Id),
                             2,
                             '#0000ff')
@@ -90,7 +90,7 @@ class data(object):
 
     def add_projects(self, linked_keyword):
         for project in linked_keyword.projects:
-            res = any(node.id == project.Project for node in self.nodes)
+            res = any(node.id == project.project for node in self.nodes)
             if not res:
                 self.add_project(project, linked_keyword)
 
@@ -106,10 +106,10 @@ class data(object):
         self.nodes.append(transparent_node)
 
         for linked_keyword in linked_keywords:
-            new_edge = edge('transparent_' + str(linked_keyword.Id),
+            new_edge = edge('transparent_' + str(linked_keyword.id),
                             '',
                             'trans',
-                            str(linked_keyword.Id),
+                            str(linked_keyword.id),
                             0.2,
                             '#00000000')
             self.edges.append(new_edge)
