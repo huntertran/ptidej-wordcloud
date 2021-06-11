@@ -83,7 +83,7 @@ class data(object):
             new_edge = edge('e_' + project.project + '_' + relationship,
                             relationship,
                             project.project,
-                            str(linked_keyword.Id),
+                            str(linked_keyword.id),
                             2,
                             '#0000ff')
             self.edges.append(new_edge)
