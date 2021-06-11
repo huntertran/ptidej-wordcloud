@@ -43,7 +43,7 @@ def sort_num(first, second):
 def add_linked_sentence(link_keyword, sentences, project_name):
 
     link_project = LinkProject(project_name)
-    for key in link_keyword.Keys:
+    for key in link_keyword.keys:
         for sentence in sentences:
             if key in sentence:
                 link_project.add_sentence(sentence)

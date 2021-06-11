@@ -17,9 +17,9 @@ class LinkKeyword(object):
     def add_link_project(self, link_project):
 
         for project in self.projects:
-            if project.Project == link_project.Project:
-                project.Sentences = project.Sentences + link_project.Sentences
-                project.Sentences = numpy.unique(project.Sentences).tolist()
+            if project.project == link_project.project:
+                project.sentences = project.sentences + link_project.sentences
+                project.sentences = numpy.unique(project.sentences).tolist()
                 return
 
         self.projects.append(link_project)

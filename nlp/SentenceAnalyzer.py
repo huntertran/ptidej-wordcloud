@@ -134,7 +134,7 @@ def append_unique_relationships(project, standford_tagger, linked_keyword, index
 
     relationships = []
 
-    for sentence in project.Sentences:
+    for sentence in project.sentences:
 
         # try encode with ascii to eliminate usage of utf-16
         encoded = sentence.encode('ascii', 'replace').decode()
@@ -143,7 +143,7 @@ def append_unique_relationships(project, standford_tagger, linked_keyword, index
 
         sentence_relationships = parse_with_grammar(standford_tagger,
                                                     grammars,
-                                                    linked_keyword.Keys,
+                                                    linked_keyword.keys,
                                                     sentence,
                                                     index,
                                                     data_folder)
@@ -172,25 +172,25 @@ def start_analyze():
 
     for linked_keyword in linked_keywords:
 
-        print("Start analyzing keyword: " + linked_keyword.Description)
+        print("Start analyzing keyword: " + linked_keyword.description)
 
         grammars = []
 
         for simple_namespace in grammar_rules:
             grammar = GrammarRule(simple_namespace.name,
                                   simple_namespace.grammar,
-                                  linked_keyword.Keys,
+                                  linked_keyword.keys,
                                   simple_namespace.key_position,
                                   simple_namespace.other_words,
                                   simple_namespace.other_words_position)
-            grammar.set_keys(linked_keyword.Keys)
+            grammar.set_keys(linked_keyword.keys)
             grammars.append(grammar)
 
         for project in linked_keyword.projects:
 
-            print("Analyzing project: " + project.Project)
+            print("Analyzing project: " + project.project)
 
-            data_folder = './data/nlp/result/' + project.Project + "/"
+            data_folder = './data/nlp/result/' + project.project + "/"
 
             # create folder
             ProjectHelper.create_data_folder(data_folder)
