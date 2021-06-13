@@ -178,9 +178,9 @@ def process(site_url, existing_project_name):
 
     project_name = ""
     if(not existing_project_name):
-        project_name = existing_project_name
-    else:
         project_name = ProjectHelper.get_project_name(site_url)
+    else:
+        project_name = existing_project_name
 
     stopwords = combine_stopwords()
     keywords_tuple = remove_stopwords(project_name, stopwords)
