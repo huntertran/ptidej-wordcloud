@@ -188,6 +188,7 @@ def process(site_url, existing_project_name):
 
     write_distribution_list_to_file(project_name, keywords_distribution)
 
+    ResultGenerator.create_result_folders()
     ResultGenerator.make_mask(project_name)
     ResultGenerator.make_image(keywords_distribution, project_name)
     print('Wordcloud generated for ', project_name)

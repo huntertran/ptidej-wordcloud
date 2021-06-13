@@ -1,5 +1,6 @@
 # generate word-cloud image
 
+from helpers.ProjectHelper import ProjectHelper
 import numpy as np
 from PIL import Image, ImageFont, ImageDraw
 from wordcloud import WordCloud
@@ -8,6 +9,14 @@ from wordcloud import WordCloud
 class ResultGenerator:
 
     result_dir = './data/nlp/result/'
+    web_result_dir = './docs/images/shapes/fullsize/'
+    web_result_dir_thumbnail = './docs/images/shapes/thumbnails/'
+
+    @staticmethod
+    def create_result_folders():
+        ProjectHelper.create_data_folder(ResultGenerator.result_dir)
+        ProjectHelper.create_data_folder(ResultGenerator.web_result_dir)
+        ProjectHelper.create_data_folder(ResultGenerator.web_result_dir_thumbnail)
 
     @staticmethod
     def make_image(keywords, project_name):
@@ -23,13 +32,13 @@ class ResultGenerator:
         # generate word cloud
         wc.generate_from_frequencies(keywords)
         wc.to_file(ResultGenerator.result_dir + project_name + '.png')
-        wc.to_file('./docs/images/shapes/fullsize/' + project_name + '.png')
+        wc.to_file(ResultGenerator.web_result_dir + project_name + '.png')
 
         # generate thumbnail
         image = Image.open(ResultGenerator.result_dir + project_name + '.png')
         size = image.size
         image.thumbnail((size[0] * 0.1, size[1] * 0.1),  Image.ANTIALIAS)
-        image.save('./docs/images/shapes/thumbnails/' + project_name + '.png')
+        image.save(ResultGenerator.web_result_dir_thumbnail + project_name + '.png')
 
     @staticmethod
     def make_mask(project_name):
