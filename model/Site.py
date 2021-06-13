@@ -2,11 +2,12 @@ from collections import defaultdict
 
 
 class Site(object):
-    def __init__(self, is_crawled=None, crawl_depth_level=None, is_wordcloud_generated=None, site_url=None):
+    def __init__(self, is_crawled=None, crawl_depth_level=None, is_wordcloud_generated=None, site_url=None, project_name=None):
         self.is_crawled = is_crawled
         self.crawl_depth_level = crawl_depth_level
         self.is_wordcloud_generated = is_wordcloud_generated
         self.site_url = site_url
+        self.project_name = project_name
 
     @staticmethod
     def decode_object(dict):
@@ -18,7 +19,8 @@ class Site(object):
             'IsCrawled': object.is_crawled,
             'CrawlDepthLevel': object.crawl_depth_level,
             'IsWordcloudGenerated': object.is_wordcloud_generated,
-            'SiteUrl': object.site_url
+            'SiteUrl': object.site_url,
+            'ProjectName': object.project_name
         }
 
 

@@ -173,9 +173,15 @@ def generate_image_file(project_name, most_common_keywords):
     ResultGenerator.make_image(image_source, project_name)
 
 
-def process(site_url):
+def process(site_url, existing_project_name):
     print('NLP Proccessing for ', site_url)
-    project_name = ProjectHelper.get_project_name(site_url)
+
+    project_name = ""
+    if(not existing_project_name):
+        project_name = existing_project_name
+    else:
+        project_name = ProjectHelper.get_project_name(site_url)
+
     stopwords = combine_stopwords()
     keywords_tuple = remove_stopwords(project_name, stopwords)
 

@@ -3,24 +3,28 @@
         "IsCrawled": false,
         "CrawlDepthLevel": 1,
         "IsWordcloudGenerated": false,
-        "SiteUrl": "https://camel.apache.org/"
+        "SiteUrl": "https://camel.apache.org/",
+        "ProjectName": "camel"
     },
     {
         "IsCrawled": false,
         "CrawlDepthLevel": 1,
         "IsWordcloudGenerated": false,
-        "SiteUrl": "https://ignite.apache.org/"
+        "SiteUrl": "https://ignite.apache.org/",
+        "ProjectName": "ignite"
     },
     {
         "IsCrawled": false,
         "CrawlDepthLevel": 1,
         "IsWordcloudGenerated": false,
-        "SiteUrl": "http://iotdb.apache.org/"
+        "SiteUrl": "http://iotdb.apache.org/",
+        "ProjectName": "iotdb"
     },
     {
         "IsCrawled": false,
         "CrawlDepthLevel": 1,
         "IsWordcloudGenerated": false,
-        "SiteUrl": "https://plc4x.apache.org/"
+        "SiteUrl": "https://plc4x.apache.org/",
+        "ProjectName": "plc4x"
     }
 ]
