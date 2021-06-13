@@ -3,7 +3,11 @@ import os
 
 class ProjectHelper:
     @staticmethod
-    def get_project_name(full_url):
+    def get_project_name(full_url, existing_project_name):
+
+        if(len(existing_project_name)):
+            return existing_project_name
+
         result = ''
 
         name_splitted = str.split(full_url, '/')

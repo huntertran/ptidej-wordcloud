@@ -13,8 +13,9 @@ class WordcloudPipeline(object):
     def open_spider(self, spider):
         ProjectHelper.create_data_folder(self.data_folder)
         site_url = spider.site_url
+        existing_project_name = spider.project_name
         if site_url is not None:
-            project_name = ProjectHelper.get_project_name(site_url)
+            project_name = ProjectHelper.get_project_name(site_url, existing_project_name)
             file_path = self.data_folder + project_name + ".txt"
             self.output_file = open(file_path, 'w+', encoding='utf-8')
 

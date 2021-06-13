@@ -10,6 +10,7 @@ class GenericSpider(scrapy.Spider):
 
     def start_requests(self):
         site_url = getattr(self, 'site_url', None)
+        existing_project_name = getattr(self, 'project_name', None)
         crawl_depth_level = int(getattr(self, 'crawl_depth_level', 0))
 
         request = scrapy.Request(site_url, callback=self.parse_root_url)
@@ -17,7 +18,7 @@ class GenericSpider(scrapy.Spider):
         request.cb_kwargs['project_root'] = self.extract_project_root(site_url)
         request.cb_kwargs['level'] = crawl_depth_level
         request.cb_kwargs['current_level'] = 0
-        request.cb_kwargs['project_name'] = ProjectHelper.get_project_name(site_url)
+        request.cb_kwargs['project_name'] = ProjectHelper.get_project_name(site_url, existing_project_name)
 
         yield request
 

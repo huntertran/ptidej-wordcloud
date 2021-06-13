@@ -32,7 +32,7 @@ def crawl(file_path):
         if not site.is_crawled:
             # TODO: edit here to stop re-scraping a site on different run
             site_data_list[index].is_crawled = True
-            yield runner.crawl(crawler, site_url=site.site_url, crawl_depth_level=site.crawl_depth_level)
+            yield runner.crawl(crawler, site_url=site.site_url, project_name=site.project_name, crawl_depth_level=site.crawl_depth_level)
         index += 1
 
     with open(file_path, 'w') as dataFile:
