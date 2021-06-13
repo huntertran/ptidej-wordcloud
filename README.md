@@ -1,7 +1,5 @@
-Wordcloud generator for Eclipse IOT projects
+WordStorms generator for Projects in Ecosystems
 ---
-
-Best to finish in April, 2020
 
 Keyword for research: Latent Semantic Indexing - WordNet
 
@@ -71,7 +69,9 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
 
 After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawled or wordcloud generated with `true` value. Modify these values if you want to re-run any project
 
-> Requirement: python 3.7 and above
+> Requirement:
+> - python 3.7 or above
+> - Java 8 or above
 
 **Install Ghostscript**
 
