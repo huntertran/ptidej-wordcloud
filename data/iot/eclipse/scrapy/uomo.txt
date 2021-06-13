@@ -1,0 +1,4871 @@
+Eclipse UOMo | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Eclipse UOMo
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse UOMo adds Units of Measurement support for IT Systems and Services both to common programming languages like Java and Data Exchange standards like UCUM and formats including UnitsML, SensorML, MathML, general XML or JSON.
+Licenses: Eclipse Public License 1.0Latest Releases: From June 5th, 2013 to May 16th, 2018
+NameDateReview
+0.7.02018-05-16
+0.6.12017-05-28
+0.6.02013-06-05
+Contribution Activity: Commits on this project (last 12 months).
+Project Links
+Website
+Documentation
+Wiki
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Documentation | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Donate
+ProjectsWorking GroupsMembers Community MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Breadcrumbs
+HomeProjectsuomoDocumentation
+Documentation
+Documents
+Eclipse UOMo Tutorial (PDF: 2 MB)
+Presentations
+How JSR 385 could have Saved the Mars Climate Orbiter - JFokus 2020 from Werner Keil
+How JSR 385 could have Saved the Mars Climate Orbiter - Adopt-a-JSR Day from Werner Keil
+Physikal - Using Kotlin for Clean Energy - KUG Munich from Werner Keil
+Eclipse Science F2F 2016 - JSR 363 von Werner Keil
+The First IoT JSR: Units of Measurement - DevoXX BE 2015 von Werner Keil
+Social Media Week 2015 - Quantified Self and the Social Internet of Things von Werner Keil
+JSR 363 - The Answer to Life Science and the Internet of Everything von Werner Keil
+Earlier presentations
+All documents are provided under the terms and conditions of the Eclipse Foundation Software User Agreement unless otherwise specified.
+UOMo
+Download
+Documentation
+Support
+Wiki
+Overview
+Back to the top
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+UOMo | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Donate
+ProjectsWorking GroupsMembers Community MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Breadcrumbs
+HomeProjectsuomo
+Primary Links
+Eclipse
+Distribution, Update Site, Dropins
+Tutorials, Examples, Videos, Reference Documentation
+Bug
+Tracker, Newsgroup, Professional Support
+VCS,
+Workspace Setup, Wiki, Committers
+What is it?
+UOMo adds Units of Measurement support to IT Systems for Data and Services.
+This project has been provisioned. You can see the proposal
+here
+Motivation
+Developers frequently encounter the need to model units of measurement, because objects in the real world are subject to these measures. When working with units, developers need to understand the mathematics of units, how to convert between systems, and how to format and parse string representations of units. Most of this work can be consolidated into one or two Java packages, which is a primary aim of this project. This project will help developers create safe, correct software to deal with common problem of modeling units.
+Data
+Basic implementation of UCUM System for use in any context
+Help to incorporate units into W3C standard MathML
+Support OASIS standard Units Markup Language (UnitsML)
+Services
+Strong Unit Typing (Compile time support)
+HL7 Services
+Financial API based on general Units of Measurement implementation
+The focus of the project is on Java implementations, but other languages both on a JVM or other platforms will be supported as appropriate, desired and/or contributed.
+... and more ...
+Join the discussion at the forum to learn more about UOMo.
+Famous quotes
+"Questo è un piccolo passo per l'uomo ... uno ... balzo gigantesco per l'umanità"
+(Neil Armstrong, July 21st, 1969)
+Incubation
+UOMo is in the Incubation Phase.
+New and Noteworthy
+JSR 385 won JCP Award for Most Significant JSR, Spec Leads 2019-09-25
+UOMo 0.7.0 Release 2018-05-16
+Dedicated Jenkins replaces Hudson instance 2017-12-31
+UOMo 0.6.1 Release 2017-05-28
+Dedicated Hudson CI replaces shared instance 2015-12-09
+JSR 363 won JCP Award for Most Significant JSR 2015-10-26
+Happy 3rd Birthday UOMo 2013-10-20
+UOMo Tutorial 2013-06-10
+UOMo 0.6 Release Review 2013-06-05
+Updated Documentation 2013-05-27
+UOMo nominated for Eclipse Awards 2013, please vote 2013-02-01
+Happy Birthday, UOMo 2012-10-20
+GitHub Mirror of UOMo Repository 2011-04-04
+Java.net wrote about UOMo on 2010-12-15
+Project created on 2010-10-20.
+Follow: Werner Keil (lead)
+Back to the top
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.1 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.1
+Eclipse UOMo 0.6.1
+Primary tabsOverview(active tab)
+Issues
+Release Plan
+Review Information
+Release Date: Sunday, May 28, 2017
+Release Type: Service release (bug fixes only)
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse UOMo | projects.eclipse.org
+0.6.0 Release Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Developer Resources
+Eclipse UOMo
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Report a Bug View Help wanted Bugs View Open Bugs Summarize BugsBuild Technologies: TychoSource Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see contributing via Gerrit.uomo/org.eclipse.uomo - Clone: git://git.eclipse.org/gitroot/uomo/org.eclipse.uomo.gitReview With Gerrit
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+0.6.0 Release Review
+Eclipse UOMo 0.6.0 Release Review
+Type: ReleaseState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, June 5, 2013Project: Eclipse UOMoRelease ReviewRelease:
+0.6.0
+Links: Review DocumentationApproved IP Log
+Sign in to post comments.
+Project Links
+0.7.0 Release Review | projects.eclipse.org
+Browse Repository
+Project Links
+Wiki
+Website
+Documentation
+Dev Mailing List
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.7.0 | projects.eclipse.org
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+0.7.0 Release Review
+Eclipse UOMo 0.7.0 Release Review
+Type: ReleaseState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, May 16, 2018Project: Eclipse UOMoRelease:
+0.7.0
+Description: This release implements JSR 363 for Java 7 and above.
+API Certification: The project leadership certifies that the APIs in this release are "Eclipse Quality".Architectural Issues: This release adds compatibility with the Java standard JSR 363.
+Security Issues: N/A
+Non-Code Aspects: We added a few artifacts, especially a new uomo-icu module making ICU4J and optional dependency and thus reducing the footprint of modules like uomo-units.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+Eclipse UOMo 0.7.0
+Primary tabsOverview(active tab)
+Issues
+Release Plan
+Review Information
+This release implements JSR 363 for Java 7 and above.
+Release Date: Wednesday, May 16, 2018
+Review: 0.7.0 Release ReviewRelease Type: Minor releaseIP Due Diligence Type: Type A - License Compatibility Certification
+Eclipse UOMo | projects.eclipse.org
+UOMo is also used by other Eclipse projects, especially https://projects.eclipse.org/projects/technology.osbp
+Conforms To UI/UX Guidelines: Not applicable (project doesn't provide UI)Usability Details: The project has no UI other than the plugin icon.
+Comments Sign in to post comments
+Using Unit-API 1.0 (JSR 363)
+Submitted by Werner Keil on Fri, 2017-11-24 11:00
+Using Unit-API 1.0 (JSR 363) as per https://dev.eclipse.org/ipzilla/show_bug.cgi?id=12206
+Log in to post comments
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Governance
+Eclipse UOMo
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Scope: The scope of the Eclipse UOMo project is to host a variety of implementation activities related to UCUM or other unit-specific standards like UnitsML or MathML:
+Unit Standards
+Basic implementation of UCUM Logic for use in any context
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse UOMo | projects.eclipse.org
+0.6.0 | projects.eclipse.org
+Help to incorporate units into W3C standard MathML
+Support OASIS standard Units Markup Language (UnitsML)
+Implementing Units of Measurement API
+Strong Unit Typing (Compile time support)
+Financial API based on general Units of Measurement implementation
+The focus of the project is on Java implementations, but other languages both on the JVM or outside will be supported as appropriate, desired and/or contributed.
+Releases:
+NameDate
+0.7.02018-05-16
+0.6.12017-05-28
+0.6.02013-06-05
+Reviews:
+NameDate
+0.7.0 Release Review2018-05-16
+0.6.0 Release Review2013-06-05
+Creation2010-10-20
+Project Links
+Website
+Plan
+Documentation
+Proposal
+Wiki
+Current Release
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Contact Us
+Eclipse UOMo
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Forums: eclipse.uomoEclipse Community Forums: UOMoDeveloper Mailing List: uomo-dev - UOMo developersProject Mailing Lists: uomo-users - UOMo Usersuomo-core-dev - UOMo Core Developersuomo-units-dev - UOMo Units Developersuomo-ucum-dev - UOMo UCUM Developers
+Project Links
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Eclipse UOMo 0.6.0
+Primary tabsOverview(active tab)
+Issues
+Release Plan
+Review Information
+Release Date: Wednesday, June 5, 2013
+Review: 0.6.0 Release Review
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Wiki
+Website
+Documentation
+Forums
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+UOMo - Eclipsepedia
+Skip to main content
+Log in
+Manage Cookies
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+UOMo
+Jump to: navigation,
+search
+---Navigation---Main PageCommunity portalCurrent eventsRecent changesRandom pageHelpNavigation Main Page Community portal Current events Recent changes Random page Help ---Toolbox---Page informationPermanent linkPrintable versionSpecial pagesRelated changesWhat links hereToolbox Page information Permanent link Printable version Special pages Related changes What links here
+Page
+Discussion
+View source
+History
+UOMo
+UOMo adds Units of Measurement support for IT Systems and Services both to common programming languages like Java and Data Exchange standards like UCUM and formats including UnitsML, SensorML or MathML.
+The goal of Project UOMo is to combine what OHF UCUM archieved plus generic Units of Measure support in the spirit of OSGi Measurement, JSR-256 or UCAR/JSR-108 adding Static Type Safety like "Smart" Data or JScience/JSR-275.
+Why the name UOMo?
+UOMo stands for UnitsOfMeasure.org, home to UCUM or UnitsOfMeasurement.org, hosting the Units of Measurement API.
+Uomo also means "man" or "human" in Italian.
+Uomo Vitruviano, the Vitruvian Man by Leonardo da Vinci was created in honour of ancient Roman architect Vitruvius, illustrating based on his publications how to measure ideal human proportions[1]
+Given that NASA and other Space Agencies rely on Type Safe Units of Measure APIs after serious and costly incidents in lack of those, one of their greatest hero's
+(Italian) words are another great argument:
+"Questo è un piccolo passo per l'uomo ... uno ... balzo gigantesco per l'umanità"
+(Neil Armstrong, July 21st, 1969)
+Presentations
+The OHF Legacy
+Type-safe DSLs
+Retrieved from "http://wiki.eclipse.org/index.php?title=UOMo&oldid=337599"
+This page was last modified 10:46, 26 May 2013 by Werner Keil.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+GitHub - eclipse/uomo: Eclipse UOMo project repository (uomo)
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+uomo
+Mirror
+mirrored from git://git.eclipse.org/gitroot/uomo/org.eclipse.uomo.git
+Watch
+3
+Star
+6
+Fork
+5
+Eclipse UOMo project repository (uomo)
+6
+stars
+5
+forks
+Star
+Watch
+Code
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+14
+branches
+2
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+351
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+.settings
+bundles
+examples
+features
+maven
+releng
+.gitignore
+.project
+pom.xml
+View code
+About
+Eclipse UOMo project repository (uomo)
+Releases
+2
+tags
+Packages 0
+No packages published
+Contributors 2
+Languages
+Java
+99.8%
+HTML
+0.2%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Eclipse UOMo | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Downloads
+Eclipse UOMo
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Download Eclipse UOMoMarketplace: UOMo Marketplace
+Project Links
+Wiki
+Website
+Documentation
+Marketplace
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse UOMo | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Who's Involved
+Eclipse UOMo
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity: Commits on this project (last 12 months).Project Members: Project Lead
+Werner Keil
+Committers
+Otavio Santana
+Werner Keil
+Historical Committers
+Chris Senior
+Grahame Grieve
+Mentors
+Chris Aniszczyk
+Gunnar Wagenknecht
+Project Links
+Website
+Documentation
+Wiki
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.1 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.1
+Review Information
+Eclipse UOMo 0.6.1
+Primary tabsOverview
+Issues
+Release Plan
+Review Information(active tab)
+Description:
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+UOMo - Eclipsepedia
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Skip to main content
+Log in
+Manage Cookies
+Download
+Projects
+Working Groups
+Members
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Eclipse Wiki
+UOMo
+Jump to: navigation,
+search
+---Navigation---Main PageCommunity portalCurrent eventsRecent changesRandom pageHelpNavigation Main Page Community portal Current events Recent changes Random page Help ---Toolbox---Page informationPermanent linkPrintable versionSpecial pagesRelated changesWhat links hereToolbox Page information Permanent link Printable version Special pages Related changes What links here
+Page
+Discussion
+View source
+History
+UOMo
+Revision as of 10:46, 26 May 2013 by Werner.keil.gmx.net (Talk | contribs) (→‎Presentations)
+(diff) ← Older revision | Latest revision (diff) | Newer revision → (diff)
+UOMo adds Units of Measurement support for IT Systems and Services both to common programming languages like Java and Data Exchange standards like UCUM and formats including UnitsML, SensorML or MathML.
+The goal of Project UOMo is to combine what OHF UCUM archieved plus generic Units of Measure support in the spirit of OSGi Measurement, JSR-256 or UCAR/JSR-108 adding Static Type Safety like "Smart" Data or JScience/JSR-275.
+Why the name UOMo?
+UOMo stands for UnitsOfMeasure.org, home to UCUM or UnitsOfMeasurement.org, hosting the Units of Measurement API.
+Uomo also means "man" or "human" in Italian.
+Uomo Vitruviano, the Vitruvian Man by Leonardo da Vinci was created in honour of ancient Roman architect Vitruvius, illustrating based on his publications how to measure ideal human proportions[1]
+Given that NASA and other Space Agencies rely on Type Safe Units of Measure APIs after serious and costly incidents in lack of those, one of their greatest hero's
+0.6.1 | projects.eclipse.org
+(Italian) words are another great argument:
+"Questo è un piccolo passo per l'uomo ... uno ... balzo gigantesco per l'umanità"
+(Neil Armstrong, July 21st, 1969)
+Presentations
+The OHF Legacy
+Type-safe DSLs
+Retrieved from "http://wiki.eclipse.org/index.php?title=UOMo&oldid=337599"
+This page was last modified 10:46, 26 May 2013 by Werner Keil.
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Members
+Governance
+Code of Conduct
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.1
+Release Plan
+Eclipse UOMo 0.6.1
+Primary tabsOverview
+Issues
+Release Plan(active tab)
+Review Information
+Release Date: Sunday, May 28, 2017Deliverables:
+Compatibility:
+Internationalization:
+Target Environments:
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.1 | projects.eclipse.org
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.1
+Issues
+Eclipse UOMo 0.6.1
+Primary tabsOverview
+Issues(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.0 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Review Information
+Eclipse UOMo 0.6.0
+Primary tabsOverview
+Issues
+Release Plan
+Review Information(active tab)
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.0 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Issues
+Eclipse UOMo 0.6.0
+Primary tabsOverview
+Issues(active tab)
+Release Plan
+Review Information
+This release targets these issues.
+= resolved/fixed
+= unsolved/reopened
+UOMo (6)
+Business (1)
+409063 Support ICU4J 50+ and before [closed/fixed]
+UCUM (1)
+403947 Upgrade UCUM-Essence [resolved/fixed]
+Units (4)
+381507 Make well defined Quantity types final [assigned/unresolved]
+381509 Move Factory method BaseAmount.valueOf() to abstract class [resolved/wontfix]
+381510 Move BaseAmount.ONE to abstract class [resolved/fixed]
+402838 Unify Number Spellers [resolved/fixed]
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.6.0 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.6.0
+Release Plan
+Eclipse UOMo 0.6.0
+Primary tabsOverview
+Issues
+Release Plan(active tab)
+Review Information
+Release Date: Wednesday, June 5, 2013
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse UOMo | Eclipse Plugins, Bundles and Products - Eclipse Marketplace
+Google Tag Manager Skip to main content
+Create account
+Log in
+Eclipse Plugins, Bundles and Products - Eclipse Marketplace
+My Marketplace
+Add Content
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Marketplace
+Tools (1277)
+Eclipse UOMo
+Eclipse UOMo
+Eclipse UOMo 1 0 InstallDrag to Install!Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client Add this URL to your Eclipse Installation to reach this solution's update site.Mars (4.5)Luna (4.4)Kepler (4.3)Juno (4.2, 3.8)Previous to Juno (<=4.1)Neon (4.6)Oxygen (4.7)Photon (4.8)2018-09 (4.9)http://download.eclipse.org/uomo/0.6/repository/
+Learn more...
+Details Group Tabs
+Details
+UOMo is a Java/OSGi framework adding Units of Measurement support
+to applications based on simple, but type-safe class models.Categories: Application Development Frameworks, Mobile and Device Development, SOA Development, XMLTags: IoT, Sensors, Units, Measurement, m2m, data
+Additional Details
+Eclipse Versions: Mars (4.5), Luna (4.4), Kepler (4.3), Juno (4.2, 3.8), Previous to Juno (<=4.1), Neon (4.6), Oxygen (4.7), Photon (4.8), 2018-09 (4.9)Platform Support: Windows, Mac, Linux/GTKOrganization Name: Werner Keil - Creative Arts & TechnologiesDate Created: Mon, 2013-05-27 14:01Development Status: BetaLicense: EPLDate Updated: Mon, 2019-02-04 13:52Submitted by: Werner Keil
+Metrics
+DateRankingInstallsClickthroughs
+November 2020NA0 (0%)20
+October 2020890/9271 (0%)13
+September 2020NA0 (0%)9
+August 2020NA0 (0%)11
+July 2020NA0 (0%)11
+June 2020NA0 (0%)9
+May 2020860/8761 (0%)14
+April 2020NA0 (0%)12
+March 2020NA0 (0%)14
+February 2020NA0 (0%)14
+January 2020856/8711 (0%)13
+December 2019NA0 (0%)21
+November 2019NA10
+View Data for all Listings
+Errors
+Unsuccessful Installs in the last 7 Days: 0
+Download last 500 errors (CSV)
+External Install Button
+Marketplace Drag to Install buttonBy adding the following code below to your website you will be able to add an install button for Eclipse UOMo.HTML Code:<a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=878438" class="drag" title="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client"><img style="width:80px;" typeof="foaf:Image" class="img-responsive" src="http://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg" alt="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client" /></a>Markdown Syntax:[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](http://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg)](http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=878438 "Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client")Output:
+Monday, November 23, 2020 - 04:00
+Sign in to post reviews.
+Markets
+Eclipse Project (5)
+Tools (1277)Application Development Frameworks (153)
+Application Management (28)
+Application Server (38)
+BIRT (10)
+Build and Deploy (102)
+Business Intelligence, Reporting and Charting (14)
+Code Management (115)
+Collaboration (35)
+Database (44)
+Database Development (31)
+Database Persistence (17)
+Documentation (60)
+Eclipse Kura (64)
+Eclipse SmartHome (46)
+EclipseRT Target Platform Components (8)
+Editor (331)
+Entertainment (14)
+General Purpose Tools (119)
+Graphics (32)
+IDE (322)
+Internet of Things (IoT) (33)
+J2EE Development Platform (43)
+J2ME (6)
+Languages (148)
+Linux Tools (18)
+Logging (22)
+Mobile and Device Development (49)
+Modeling (89)
+Modeling Tools (141)
+Mylyn Connectors (18)
+Network (13)
+Other (71)
+Process (20)
+Profiling (22)
+Programming Languages (97)
+Reporting (34)
+Rich Client Applications (39)
+Science (5)
+SCM (17)
+Search (39)
+SOA Development (15)
+Source Code Analyzer (96)
+Systems Development (54)
+Team Development (55)
+Testing (86)
+Tools (549)
+UI (89)
+UML (40)
+Web (90)
+Web Services (31)
+Web, XML, Java EE and OSGi Enterprise Development (35)
+XML (30)
+IoT (113)Eclipse Kura (64)
+Eclipse SmartHome (46)
+RCP Applications (78)
+Training & Consulting (52)
+Long Term Support (11)
+Search
+Advanced Search
+Solutions Categories
+AllApplication Development FrameworksApplication ManagementApplication ServerBIRTBuild and DeployBusiness Intelligence, Reporting and ChartingCode ManagementCollaborationDatabaseDatabase DevelopmentDatabase PersistenceDocumentationEclipse KuraEclipse SmartHomeEclipseRT Target Platform ComponentsEditorEntertainmentGeneral Purpose ToolsGraphicsIDEInternet of Things (IoT)J2EE Development PlatformJ2MELanguagesLinux ToolsLoggingMobile and Device DevelopmentModelingModeling ToolsMylyn ConnectorsNetworkOtherProcessProfilingProgramming LanguagesReportingScienceSCMSearchSOA DevelopmentSource Code AnalyzerSystems DevelopmentTeam DevelopmentTestingToolsUIUMLWebWeb ServicesWeb, XML, Java EE and OSGi Enterprise DevelopmentXML Markets
+AllEclipse ProjectToolsIoTRCP ApplicationsTraining & Consulting Status
+AllProduction/StableBetaMatureAlpha License Type
+AllCommercialCommercial - FreeEPLGPLASLMITBSD-LikeLGPLFree for non-commercial useOther Open SourceOther
+Search
+More like this
+impulse
+IBM MobileFirst Foundation Studio
+WSO2 Developer Studio
+RapidClipse
+Voxeo CXP Developer
+Favorited by
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Publishing GuidelinesPrivacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Welcome to MarketplaceReport a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Grahame Grieve is a Committer for Eclipse UOMo | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Grahame Grieve is a Committer for Eclipse UOMo
+Grahame Grieve is a Committer for Eclipse UOMo
+User: Grahame GrieveProject: Eclipse UOMoType: CommitterStatus: InactiveActive: Thursday, October 21, 2010 to Thursday, June 23, 2011
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Chris Aniszczyk is a Mentor for Projects for Eclipse UOMo | projects.eclipse.org
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Chris Aniszczyk is a Mentor for Projects for Eclipse UOMo
+Chris Aniszczyk is a Mentor for Projects for Eclipse UOMo
+User: Chris AniszczykProject: Eclipse UOMoType: MentorStatus: ActiveActive: Wednesday, October 20, 2010
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Gunnar Wagenknecht is a Mentor for Projects for Eclipse UOMo | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Gunnar Wagenknecht is a Mentor for Projects for Eclipse UOMo
+Gunnar Wagenknecht is a Mentor for Projects for Eclipse UOMo
+User: Gunnar WagenknechtProject: Eclipse UOMoType: MentorStatus: ActiveActive: Wednesday, October 20, 2010
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Chris Senior is a Committer for Eclipse UOMo | projects.eclipse.org
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Chris Senior is a Committer for Eclipse UOMo
+Chris Senior is a Committer for Eclipse UOMo
+User: Chris SeniorProject: Eclipse UOMoType: CommitterStatus: InactiveActive: Wednesday, July 27, 2011 to Thursday, June 13, 2019Contribution Activity: Commits on Eclipse UOMo by Chris Senior (lifetime).
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Otavio Santana is a Committer for Eclipse UOMo | projects.eclipse.org
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Otavio Santana is a Committer for Eclipse UOMo
+Otavio Santana is a Committer for Eclipse UOMo
+User: Otavio SantanaProject: Eclipse UOMoType: CommitterStatus: ActiveActive: Wednesday, May 24, 2017
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+Mailing list: uomo-ucum-dev (6 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Mailing list: uomo-units-dev (6 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Werner Keil is a Project Lead for Eclipse UOMo | projects.eclipse.org
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: uomo-ucum-dev (6 subscribers)
+UOMo UCUM developers
+About uomo-ucum-dev
+UOMo UCUM developers
+Using uomo-ucum-dev
+To post a message to all the list members,
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: uomo-units-dev (6 subscribers)
+UOMo units developers
+About uomo-units-dev
+Werner Keil is a Committer for Eclipse UOMo | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Werner Keil is a Project Lead for Eclipse UOMo
+Werner Keil is a Project Lead for Eclipse UOMo
+User: Werner KeilProject: Eclipse UOMoType: Project LeadStatus: ActiveActive: Thursday, October 21, 2010Contribution Activity: Commits on Eclipse UOMo by Werner Keil (lifetime).
+Project Links
+Website
+Related Projects
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+UOMo | The Eclipse Foundation
+send email to uomo-ucum-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the uomo-ucum-dev Archives or subscribe to this list's RSS feed
+Subscribing uomo-ucum-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: uomo-ucum-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+UOMo units developers
+Using uomo-units-dev
+To post a message to all the list members,
+send email to uomo-units-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the uomo-units-dev Archives or subscribe to this list's RSS feed
+Subscribing uomo-units-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: uomo-units-devRSS Feed
+Archive
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+Werner Keil is a Committer for Eclipse UOMo
+Werner Keil is a Committer for Eclipse UOMo
+User: Werner KeilProject: Eclipse UOMoType: CommitterStatus: ActiveActive: Thursday, October 21, 2010Contribution Activity: Commits on Eclipse UOMo by Werner Keil (lifetime).
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Project Plan - | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+ProjectsWorking GroupsMembers Community MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Breadcrumbs
+HomeProposalsUOMo
+This page is deprecated and may contain some information that is no longer relevant or accurate.
+UOMo
+UOMo
+The UOMo project is a proposed open source project under the Eclipse Technology Project.
+This proposal is in the Project Proposal Phase (as defined in the
+Eclipse Development Process) and is written to declare its intent and
+scope. We solicit additional participation and input from the Eclipse
+community. Please send all feedback to the UOMo
+Forum.
+Background
+Developers frequently encounter the need to model units of measurement, because objects in the real world are subject to these measures. When working with units, developers need to understand the mathematics of units, how to convert between systems, and how to format and parse string representations of units. Most of this work can be consolidated into one or two Java packages, which is a primary aim of this project. This package will help developers create safe, correct software to deal with common problem of modeling units.
+Scope
+The scope of the UOMo project is to host a variety of implementation activities related to UCUM or other unit-related standards like UnitsML or MathML:
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Skip to main content
+Log in
+Manage Cookies
+Download
+ProjectsWorking GroupsMembers Community MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Breadcrumbs
+HomeProjectsProject Plan -
+Unable to display the project plan because the planurl was not found.
+Projects
+What's New?
+List of Projects
+Rules & Processes
+FAQ
+Tools for committers
+Back to the top
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Unit Standards
+Basic implementation of UCUM Logic for use in any context
+Help to incorporate units into W3C standard MathML
+Support OASIS standard Units Markup Language (UnitsML)
+Implementing Units of Measurement API
+Strong Unit Typing (Compile time support)
+Financial API based on general Units of Measurement implementation
+The focus of the project is on Java implementations, but other languages both on the JVM or outside will be supported as appropriate, desired and/or contributed.
+Description
+The goal of Project UOMo is to combine what OHF UCUM archieved plus generic Units of Measure support in the spirit of OSGi Measurement, JSR-256 or UCAR/JSR-108 adding Static Type Safety like "Smart" Data or JScience/JSR-275.
+UOMo stands for UnitsOfMeasure.org, home to UCUM or UnitsOfMeasurement.org, hosting the Units of Measurement API. Uomo also means "man" or "human" in Italian. And given that NASA and other Space Agencies rely on Type Safe Units of Measure APIs after serious and costly incidents in lack of those, his (Italian) words are probably the best argument:
+"Questo è un piccolo passo per l'uomo ... uno ... balzo gigantesco per l'umanità"
+(Neil Armstrong, July 21st, 1969)
+Relationship with other Projects
+Equinox: From the infrastructure point of view parts of UOMo consist of OSGi Bundles and so may be used within the Equinox system. Within OSGi parts of the OUMo project attention will be paid to ensure complete compatibility with Equinox at all times.
+ICU4J: Although not an Eclipse project by itself, the standard library for Unicode, software globalization and i18n. All Static Type Safe Unit implementations are based on ICU4J. So will be all globalization and i18n within the project.
+Apache Harmony also uses ICU4J as the basis for Java standard types like implementations of java.util.Date or Currency. This means, it is compatible with equivalent UOMo types. Allowing conversion and calculations between those. Harmony in all shapes and sizes (from Embedded to Enterprise Server) has ICU4J built-in already.
+Other users of ICU4J, like Google App Engine, GWT or Google Finance for Java may equally profit from such compatibilities.
+Units of Measurement API: A lean, Static Type Safe Java Unit-API (unitsofmeasurement.org) is used as the only non Eclipse.org dependency beside ICU4J. It provides full compatibility across different Java implementations e.g. with JScience or GeoAPI.
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Modeling: The Type Safe Units of Measure support may be used by selected EMF projects for modeling among other fields of use for measurements. Some modeling projects like AMP have already expressed their interest.
+Test and Performance Tools Platform: Project Parfait, a performance monitoring library for Java demonstrates impressingly how JSR-275, important ancestor to Unit-API can be used for performance monitoring, analysis and reports. Using those features in Unit-API through UOMo can give TPTP similar power. And would allow its exchange of performance results with Parfait or compatible performance monitoring tools.
+Mylyn: Interested in ways to improve time estimation and arithmetics or conversion to other time units (e.g. Story points), considering the notion of a task to be tightly coupled to time and date units, as in Mylyn ITask API.
+Xtext: Groovy or Fantom have demonstrated real live use cases for DSLs, in the Healthcare/Pharma or any other business where exact measurment is crucial.
+Using libraries which influenced this projects or lead to its Static Type Safe Java API, it may be used together with building blocks for DSLs like Xtext for any equivalent purpose.
+STEM/OHT: Healthcare projects both inside Eclipse Foundation and those affiliated on the outside rely on UCUM even more. HL7 or DICOM are just 2 of the most popular healthcare standards relying on UCUM as a Measurement meta-standard.
+DICOM projects like mint (Medical Image Network Transport) at EclipseLabs also can profit from UCUM implementation support.
+GEF/RAP/UI/E4: Units of Measure may be used e.g. for Layout Managers, demonstrated by MigLayout for SWT.
+WTP: XML support, especially Vex shall be extended to support unit-related markup languages like UnitsML or MathML. Also UCUM support for Enterprise applications and services.
+OFMP: Although little has moved in this sector for those areas ready to use Eclipse technologies this project can lay foundations for Financial applications like Currency Exchange. JScience or Google Financials (based on ICU4J) have demonstrated this. As it is based on both ICU4J and the same Java API, it's be compatible with both to some extent.
+SMILA: Ontology Services like that used by SMILA heavily rely on context and type safe RDF data. For Units of Measure UCUM is the most widely accepted standard for such RDF markup.
+Initial Contribution
+The initial code contribution will consist of the following components:
+The UCUM component as currently present in the OHF project
+The Static Type Safe Units Implementation based on ICU4J and Units of Measurement API
+contributed by Werner Keil, Ikayzo and others
+with help and inspiration from "Smart" Data by Paul Morrison
+further input and concepts provided by Peter Kriens based on OSGi Measurement
+Business bundle based on Business Data Types by Paul Morrison and Denis Garneau
+Committers
+The following individuals are proposed as initial committers to the project:
+Werner Keil, emergn (project lead)
+Werner is founding member and committer on the Babel project where he has made significant contributions over
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Grahame Grieve, Jiva Medical
+Grahame has provided significant contributions to the existing code base. He will contribute
+Daniel Leuck, Ikayzo
+Daniel has provided significant contributions to the existing code base, especially leading Globalization and infrastructure like CI or SCM for initial contribution.
+He will especially contribute to Globalization and i18n in this new project, through means of Eclipse Babel. Allowing him to share his experience with other projects using Babel where applicable.
+John Paul Morrison, J.P. Morrison Enterprises, Ltd.
+Paul is probably best known for inventing Flow-based programming (FBP). He worked at IBM since the 1960s
+on compilers, data bases, text processing, and applications in a number of different areas, especially in the field of banking. He will help this new project with his unique half century IT experience in Business and Domain- or Flow-driven development.
+Scott Murphy, Ikayzo
+Scott has provided significant contributions to the existing code base, especially Japanese Translation. He will continue supporting Globalization and i18n in this new project, through means of Eclipse Babel, allowing him to share translations also with other projects using Babel.
+Mika Terada, Ikayzo
+Mika has provided significant contributions to the existing code base, especially Japanese Translation. She will continue supporting Globalization and i18n in this new project, through means of Eclipse Babel, allowing her to share translations also with other projects using Babel.
+Anatol Filin, Gramant
+Anatol has provided significant contributions to the existing code base, especially Russian Translation. He will continue supporting Globalization and i18n in this new project, through means of Eclipse Babel, allowing him to share translations also with other projects using Babel.
+Mentors
+The following Architecture Council members will mentor this
+project:
+Chris Aniszczyk
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Gunnar Wagenknecht
+Interested Parties
+The following individuals, organisations, companies and projects have
+expressed interest in this project:
+Peter Kriens, Eclipse Equinox/OSGi Alliance
+Gunther Schadow, UCUM Organization
+Christof Gessner, ISO TC 215
+Martin Lorenz, Austrian Standards Institute
+Arnold Leitner, Director of the Metrology Service (BEV)
+Eishay Smith, kaChing
+Martin Desruisseaux, GeoAPI
+Karen Legrand, IEM
+Jean-Marie Dautelle, Thales Group
+Chris Senior, Snap-on Incorporated
+Ben Hoskins, emergn
+Paul Morrison, J.P. Morrison Enterprises, Ltd.
+Denis Garneau, Individual
+Dr. Davide Sottara, Italian National Agency for the Energy and the Environment (ENEA)
+Mik Kersten, TaskTop/Mylyn
+Miles Parker, Eclipse AMP
+John Conlon, Verticon, Inc.
+Tonny Madsen, The RCP Company
+Brian Frank, Fantom Language
+Paul Cowan, Parfait
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Frederic Conrotte, Eclipse OFMP
+Deepak Dasaratha Rao, Samsung Electronics Corporation
+Project Scheduling
+Q3/2010: First version based on existing framework (UCUM, Units)
+Q4/2010: Rework of extension framework, extending support for other languages/platforms (UCUM), increased support for Business applications (Units)
+Q2/2011: Adding to Indigo Release Train where appropriate
+Q3/2011: Support and adjustments to Java 7, once available
+Changes to this Document
+Date
+Change
+02-June-2010
+Document created
+23-June-2010
+Updated for declaration
+25-July-2010
+Updated with further interested party and financial API
+02-September-2010
+Updated with further interested parties, projects and business/DSL aspects
+12-September-2010
+Updated with additional standards like UnitsML or MathML
+28-September-2010
+Updated with additional projects, interested parties and changes to Unit-API. Ready for CR
+Links
+Mailing list: uomo-core-dev (7 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Proposals
+Back to the top
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: uomo-core-dev (7 subscribers)
+UOMo core developers
+About uomo-core-dev
+UOMo core developers
+Using uomo-core-dev
+To post a message to all the list members,
+send email to uomo-core-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the uomo-core-dev Archives or subscribe to this list's RSS feed
+Subscribing uomo-core-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: uomo-core-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Back to the top
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+uomo/org.eclipse.uomo - GitilesGitiles Code Review Sign In git.eclipse.org / uomo / org.eclipse.uomoClone this repo:Branchesmaster0.6.00.6.10.70.8java7legacyreleng_sandboxtychov0.6.0More...Tags0.7.00.6.131a70f1 159353: Added POM [If7eada8f] by Werner Keil · 7 months ago masterdfcbc75 Updated POM [If7eada8f] by Werner Keil · 7 months agof4509d9 Updated examples by Werner Keil · 8 months ago39d9bf5 updated demos by Werner Keil · 8 months ago3d0bf98 Updated ICU bundle by Werner Keil · 8 months agoe3cb558 Bumped up version by Werner Keil · 8 months agoecba8cf Merged from 0.8 by Werner Keil · 8 months ago6b15ef6 Updated master by Werner Keil · 8 months agoc7025e2 Merged from 0.8 by Werner Keil · 8 months ago70881e4 Updated target version, Tycho by Werner Keil · 8 months agoc6e71f5 Make build work again by Werner Keil · 8 months ago028d54f Updated dependencies by Werner Keil · 8 months ago3420943 Update dependencies by Werner Keil · 8 months ago9f308ab Updated header by Werner Keil · 8 months ago23e2d8e Updated dependencies by Werner Keil · 8 months ago42143ab Preparing 0.8 by Werner Keil · 8 months ago428fad9 Updated targets by Werner Keil · 8 months agofc9ff9d Cleaning examples by Werner Keil · 8 months ago56e0cbe Added POM by Werner Keil · 8 months ago4aeed21 New snapshot by Werner Keil · 8 months agoMore » Powered by Gitilestxt json
+Back to the top
+0.7.0 | projects.eclipse.org
+0.7.0 | projects.eclipse.org
+0.7.0 | projects.eclipse.org
+Mailing list: uomo-dev (7 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+Review Information
+Eclipse UOMo 0.7.0
+Primary tabsOverview
+Issues
+Release Plan
+Review Information(active tab)
+Description: This release implements JSR 363 for Java 7 and above.
+API Certification: The project leadership certifies that the APIs in this release are "Eclipse Quality".Architectural Issues: This release adds compatibility with the Java standard JSR 363.
+Security Issues: N/A
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+Issues
+Eclipse UOMo 0.7.0
+Primary tabsOverview
+Issues(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse UOMo
+0.7.0
+Release Plan
+Eclipse UOMo 0.7.0
+Primary tabsOverview
+Issues
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: uomo-dev (7 subscribers)
+UOMo developers
+About uomo-dev
+UOMo developers
+Using uomo-dev
+To post a message to all the list members,
+send email to uomo-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the uomo-dev Archives or subscribe to this list's RSS feed
+Subscribing uomo-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+Non-Code Aspects: We added a few artifacts, especially a new uomo-icu module making ICU4J and optional dependency and thus reducing the footprint of modules like uomo-units.
+UOMo is also used by other Eclipse projects, especially https://projects.eclipse.org/projects/technology.osbp
+Conforms To UI/UX Guidelines: Not applicable (project doesn't provide UI)Usability Details: The project has no UI other than the plugin icon.
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+= unsolved/reopened
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Release Plan(active tab)
+Review Information
+Release Date: Wednesday, May 16, 2018Deliverables:
+This UOMo version implements the Java Units of Measurement standard JSR 363
+Compatibility: While backward-compatible with UOMo 0.6 this release added compatibility with the Java standard JSR 363.
+A TCK test harness for UOMo is available under https://github.com/unitsofmeasurement/unit-tck-usage/tree/uomo
+Target Environments: The minimum JRE version for UOMo 0.7 is Java 7.
+IP Due Diligence Type: Type A - License Compatibility Certification
+Project Links
+Website
+Related Projects
+Project Hierarchy:Eclipse Technology
+Eclipse UOMo
+Tags
+Technology TypesInternet of Things
+Modeling
+Build TechnologiesTycho
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: uomo-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing list: uomo-users (8 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Codex UOMo: Happy 3rd Birthday UOMo
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: uomo-users (8 subscribers)
+UOMo users
+About uomo-users
+UOMo users
+Using uomo-users
+To post a message to all the list members,
+send email to uomo-users@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the uomo-users Archives or subscribe to this list's RSS feed
+Subscribing uomo-users
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: uomo-usersRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Community Forums: UOMo
+Skip to main content
+Downloads
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Eclipse IDE
+Download
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Toggle navigation
+Breadcrumbs
+Home
+Projects
+Forums
+Eclipse Community Forums
+Forum Search:
+Search Help
+Register Login Home
+Home » Eclipse Projects » UOMoShow: Today's Messages :: Unanswered Messages :: Show Polls :: Message Navigator
+Topic
+Replies
+Views
+Last message
+Wrong Prefixes in Unit CalculationWrong Prefixes in Unit Calculation By: Ines Gradischnig on Sun, 21 August 2016
+0
+5083
+Sun, 21 August 2016 14:02By: Ines Gradischnig
+Generic Elements containing BaseAmount By: Nieves Salor on Mon, 06 April 2015
+0
+3566
+Mon, 06 April 2015 13:03By: Nieves Salor
+Which version of UOMo to use with Eclipse LunaUOmo Version By: lokuz Mising name on Fri, 03 April 2015
+0
+2813
+Fri, 03 April 2015 18:36By: lokuz Mising name
+1
+3900
+Sat, 20 December 2014 18:01By: Werner Keil
+Can I used Uomo from a regular java project?Using Uomo By: Andrew Broadbent on Tue, 11 November 2014
+1
+2320
+Fri, 14 November 2014 15:07By: Andrew Broadbent
+UOMo and com.ibm.icu version By: thomas huster on Tue, 14 October 2014
+1
+3480
+Mon, 20 October 2014 11:13By: thomas huster
+Mass Density Unit By: Derek Vasconcelos on Wed, 05 February 2014
+1
+4747
+Mon, 12 May 2014 22:35By: Werner Keil
+UOMo Tutorial By: Werner Keil on Wed, 03 July 2013
+0
+2723
+Wed, 03 July 2013 21:11By: Werner Keil
+UOMo 0.6 Review By: Werner Keil on Wed, 15 May 2013
+0
+3567
+Wed, 15 May 2013 07:48By: Werner Keil
+UOMo around the World By: Werner Keil on Thu, 09 May 2013
+0
+4358
+Thu, 09 May 2013 14:54By: Werner Keil
+UOMo around the World By: Werner Keil on Thu, 09 May 2013
+0
+3839
+Thu, 09 May 2013 14:54By: Werner Keil
+UOMo around the World By: Werner Keil on Thu, 09 May 2013
+0
+3910
+Thu, 09 May 2013 14:54By: Werner Keil
+UOMo around the World By: Werner Keil on Thu, 09 May 2013
+0
+3779
+Thu, 09 May 2013 14:54By: Werner Keil
+UOMo around the World By: Werner Keil on Thu, 09 May 2013
+0
+3513
+Thu, 09 May 2013 14:54By: Werner Keil
+UOMo around the World By: Werner Keil on Thu, 09 May 2013
+0
+3916
+Thu, 09 May 2013 14:54By: Werner Keil
+How to download and use By: David Momper on Mon, 25 February 2013
+2
+12791
+Sat, 06 April 2013 11:04By: Werner Keil
+Osgi requirements By: Barry DeZonia on Wed, 27 February 2013
+2
+4878
+Tue, 02 April 2013 15:24By: Werner Keil
+Please vote for UOMo at Eclipse Awards 2013 By: Werner Keil on Mon, 11 February 2013
+0
+2589
+Mon, 11 February 2013 00:42By: Werner Keil
+Units of measure implementations By: Barry DeZonia on Tue, 15 January 2013
+24
+12097
+Sat, 26 January 2013 16:58By: Werner Keil
+DemoCamps November 2012 By: Werner Keil on Mon, 19 November 2012
+0
+3149
+Mon, 19 November 2012 19:42By: Werner Keil
+Opinion: UOMo or jsciencewhat is more usable at the moment? By: Roland Kofler on Tue, 05 June 2012
+4
+53896
+Thu, 15 November 2012 17:41By: Werner Keil
+Eclipse DemoCamp Copenhagen featuring M2M, UOMo and Much much More By: Werner Keil on Sat, 20 October 2012
+0
+3567
+Sat, 20 October 2012 19:49By: Werner Keil
+UOMo Moments at JavaOne Embedded By: Werner Keil on Mon, 15 October 2012
+0
+3097
+Mon, 15 October 2012 20:56By: Werner Keil
+Bug in conversions in RC3Bug inconversions in RC3 By: Brent Clark on Fri, 03 August 2012
+3
+4344
+Sat, 18 August 2012 19:28By: Werner Keil
+DemoCamps Juno 2012 By: Werner Keil on Mon, 16 April 2012
+3
+5304
+Sun, 17 June 2012 22:19By: Werner Keil
+Build instructions?Build instructions? By: Trevor Robinson on Sat, 05 May 2012
+1
+8751
+Sat, 12 May 2012 23:47By: Werner Keil
+Eclipse REP Apps using JSR-275 By: Werner Keil on Wed, 28 March 2012
+0
+6973
+Wed, 28 March 2012 22:00By: Werner Keil
+Happy Birthday UOMo! By: Werner Keil on Wed, 19 October 2011
+1
+5147
+Thu, 29 December 2011 20:43By: Werner Keil
+Happy Birthday Eclipse! By: Werner Keil on Tue, 15 November 2011
+1
+4184
+Fri, 02 December 2011 02:20By: Werner Keil
+Eclipse UOMo at JavaOne 2011 By: Werner Keil on Sat, 10 September 2011
+0
+4637
+Sat, 10 September 2011 13:42By: Werner Keil
+UOMo talk proposed for EclipseCon Europe 2011 By: Werner Keil on Sun, 04 September 2011
+1
+5060
+Sat, 10 September 2011 13:40By: Werner Keil
+New package proposed for Unit Systems By: Werner Keil on Sun, 28 August 2011
+0
+5358
+Sun, 28 August 2011 13:58By: Werner Keil
+Fw: [uomo-dev] Welcome Chris Senior as a new technology.uomo Committer By: Werner Keil on Thu, 28 July 2011
+0
+4925
+Thu, 28 July 2011 19:27By: Werner Keil
+A small Step... By: Werner Keil on Wed, 20 July 2011
+0
+13142
+Wed, 20 July 2011 19:08By: Werner Keil
+I'm getting "The activator org.eclipse.uomo.core.Activator for bundle org.eclipse.uomo.core is By: Carlo Salinari on Sun, 27 February 2011
+16
+21839
+Sun, 10 July 2011 14:56By: Werner Keil
+uomo in structural engineering project By: Eclipse User on Fri, 13 May 2011
+7
+7754
+Tue, 05 July 2011 15:15By: Werner Keil
+Babel Id for UOMo? By: Werner Keil on Fri, 29 October 2010
+1
+7882
+Tue, 28 June 2011 14:03By: Werner Keil
+UOMo at Eclipse DemoCamp Pune By: Werner Keil on Mon, 20 June 2011
+0
+5676
+Mon, 20 June 2011 19:09By: Werner Keil
+Re: Events 2011 By: Werner Keil on Tue, 21 December 2010
+3
+6080
+Sun, 05 June 2011 09:59By: Werner Keil
+just to be sure By: Carlo Salinari on Sat, 30 April 2011
+2
+5044
+Wed, 25 May 2011 16:31By: Werner Keil
+UOMo at Eclipse Day India By: Werner Keil on Mon, 02 May 2011
+0
+5534
+Mon, 02 May 2011 14:19By: Werner Keil
+Git RepositoryGit VCS By: Werner Keil on Tue, 09 November 2010
+1
+5943
+Tue, 05 April 2011 21:41By: Werner Keil
+UOMo Examples By: Werner Keil on Sun, 23 January 2011
+2
+6909
+Sun, 06 March 2011 17:58By: Werner Keil
+UOMo Logo By: Werner Keil on Sun, 27 February 2011
+0
+5010
+Sun, 27 February 2011 12:37By: Werner Keil
+Hudson CI Live By: Werner Keil on Wed, 29 December 2010
+5
+6555
+Sat, 19 February 2011 19:32By: Werner Keil
+running uomo examples in eclipse By: Carlo Salinari on Wed, 26 January 2011
+8
+20930
+Fri, 18 February 2011 17:07By: Carlo Salinari
+UOMo at Chennai JUG By: Werner Keil on Sat, 11 December 2010
+2
+5481
+Tue, 08 February 2011 18:39By: Werner Keil
+I'm very interested in this project... By: Tonny Madsen on Fri, 06 August 2010
+7
+8236
+Wed, 05 January 2011 21:24By: Werner Keil
+Re: DemoCamps Dec. 6-10: Berlin, Florence, Karlsruhe By: Werner Keil on Sun, 19 December 2010
+0
+5353
+Sun, 19 December 2010 16:26By: Werner Keil
+UOMo at your DemoCamp By: Werner Keil on Sat, 11 September 2010
+4
+5914
+Mon, 06 December 2010 19:09By: Werner Keil
+UOMo Business By: Werner Keil on Thu, 25 November 2010
+0
+4851
+Thu, 25 November 2010 17:21By: Werner Keil
+Creation Review succesful! By: Werner Keil on Wed, 20 October 2010
+1
+3850
+Fri, 29 October 2010 08:34By: Werner Keil
+Creation Review scheduled By: Werner Keil on Fri, 01 October 2010
+0
+7119
+Fri, 01 October 2010 19:18By: Werner Keil
+UOMo / Unit-API at JavaOne 2010 By: Werner Keil on Tue, 21 September 2010
+0
+5325
+Tue, 21 September 2010 18:11By: Werner Keil
+How to contribute? By: Stathis Alexopoulos on Wed, 15 September 2010
+4
+4961
+Fri, 17 September 2010 07:27By: Stathis Alexopoulos
+How to contribute? By: Stathis Alexopoulos on Wed, 15 September 2010
+3
+4943
+Thu, 16 September 2010 17:48By: Werner Keil
+Re: GIS comes to AMP.. By: Werner Keil on Sun, 12 September 2010
+0
+Dashboard [Jenkins]
+org.eclipse.uomo.git - Eclipse UOMo repository
+5434
+Sun, 12 September 2010 14:34By: Werner Keil
+Re: GIS comes to AMP.. By: Werner Keil on Sun, 12 September 2010
+0
+5076
+Sun, 12 September 2010 14:34By: Werner Keil
+UOMo at your DemoCamp By: Werner Keil on Sat, 11 September 2010
+0
+5314
+Sat, 11 September 2010 09:53By: Werner Keil
+I'm very interested in this project... By: Tonny Madsen on Fri, 06 August 2010
+0
+5400
+Fri, 06 August 2010 12:23By: Tonny Madsen
+OUMo Financial By: Werner Keil on Wed, 21 July 2010
+2
+4387
+Fri, 06 August 2010 08:18By: Werner Keil
+Proposal feedback, interested party By: Miles Parker on Thu, 24 June 2010
+26
+18355
+Mon, 26 July 2010 10:53By: Werner Keil
+UOMo at Eclipse Summit Europe 2010 By: Werner Keil on Thu, 22 July 2010
+2
+4768
+Skip to contentJenkinslog inJenkinsENABLE AUTO REFRESH People Build HistoryBuild QueueNo builds in the queue.Build Executor StatusAll S WNameLast SuccessLast FailureLast Duration WDescription%Build stability: No recent builds failed.100uomo-0.6.1
+6 hr 45 min
+- #1255N/A57 sec WDescription%Build stability: No recent builds failed.100uomo-0.7
+9 hr 37 min
+- #1314N/A1 min 32 sec WDescription%Build stability: No recent builds failed.100uomo-0.8
+10 hr
+- #249N/A5 min 24 sec WDescription%Build stability: No recent builds failed.100uomo-master
+22 hr
+- #1003N/A10 min Icon:
+S M LLegend Atom feed for all Atom feed for failures Atom feed for just latest buildsPage generated: Nov 23, 2020 1:38:11 PM ESTREST APIJenkins ver. 2.222.4
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Mon, 26 July 2010 10:24By: Werner Keil
+UOMo at Eclipse Summit Europe 2010 By: Werner Keil on Thu, 22 July 2010
+0
+5151
+Thu, 22 July 2010 18:02By: Werner Keil
+OUMo Financial By: Werner Keil on Wed, 21 July 2010
+0
+4782
+Wed, 21 July 2010 20:37By: Werner Keil
+Re: Interim collaboration area @Google Code By: Werner Keil on Wed, 14 July 2010
+4
+4385
+Wed, 21 July 2010 20:36By: Werner Keil
+Units of Measure API at Google Code By: Werner Keil on Tue, 20 July 2010
+0
+5299
+Tue, 20 July 2010 18:06By: Werner Keil
+Units of Measure API at Google Code By: Werner Keil on Tue, 20 July 2010
+0
+5002
+Tue, 20 July 2010 18:06By: Werner Keil
+Fantom and Units By: Werner Keil on Fri, 16 July 2010
+0
+5514
+Fri, 16 July 2010 12:34By: Werner Keil
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+Fantom and Units By: Werner Keil on Fri, 16 July 2010
+0
+4566
+Fri, 16 July 2010 12:34By: Werner Keil
+Re: Interim collaboration area @Google Code By: Werner Keil on Wed, 14 July 2010
+0
+4561
+Wed, 14 July 2010 09:11By: Werner Keil
+Interview with JAXenter By: Werner Keil on Thu, 08 July 2010
+0
+4804
+Thu, 08 July 2010 10:16By: Werner Keil
+Interview with JAXenter By: Werner Keil on Thu, 08 July 2010
+0
+5220
+Thu, 08 July 2010 10:16By: Werner Keil
+Operations on Quantity(Amount) vs. Unit By: Werner Keil on Sun, 04 July 2010
+0
+4973
+Sun, 04 July 2010 11:33By: Werner Keil
+Operations on Quantity(Amount) vs. Unit By: Werner Keil on Sun, 04 July 2010
+0
+5638
+Sun, 04 July 2010 11:33By: Werner Keil
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+index : org.eclipse.uomo.git
+0.6.0
+0.6.1
+0.7
+0.8
+java7
+legacy
+master
+releng_sandbox
+tycho
+v0.6.0
+v0.6.0.RC3
+v0.6.0.RC4
+v0.6.0_old_ICU
+v0.6.0_old_icu
+Eclipse UOMo repository
+Proposal feedback, interested party By: Miles Parker on Thu, 24 June 2010
+0
+4557
+Thu, 24 June 2010 17:02By: Miles Parker
+Welcome to eclipse.uomo By: Eclipse Webmaster on Thu, 24 June 2010
+0
+4822
+Thu, 24 June 2010 04:01By: Eclipse Webmaster
+Welcome to eclipse.uomo By: Eclipse Webmaster on Thu, 24 June 2010
+0
+5784
+Thu, 24 June 2010 04:01By: Eclipse Webmaster
+Goto Forum:
+- Newcomers Newcomers- Language IDEs AJDT Andmore C / C++ IDE (CDT) Che Java Development Tools (JDT) Objectteams Orion PHP Development Tools (PDT) Eclipse Web Tools Platform Project (WTP) ServerTools (WTP)- Modeling AMP Amalgam ATL BPEL Designer Compare Ecore Tools EMF EMF "Technology" (Ecore Tools, EMFatic, etc) Epsilon eTrice Extended Editing Framework (READ ONLY) Eclipse Generation Factories (EGF) GMF (Graphical Modeling Framework) Graphiti M2T (model-to-text transformation) MDT (Model Development Tools) Modeling (top-level project) OCL Papyrus TMF (Xtext) UML2 UML2 Tools XSD MoDisco Presentation Modeling Framework (PMF) Sphinx VIATRA Model-to-Model Transformation QVT-OML QVT-Relations EMF Diff/Merge EMF Parsley Eclipse Layout Kernel- Eclipse Projects 4DIAC - Framework for Distributed Industrial Automation and Control ACTF Advanced Scripting Environment (EASE) Agile UML APP4MC AsciiDoc Language Babel BIRT BPMN 2.0 Modeler Buckminster dev Buildship Californium (Cf) CoAP Framework Capra ChemClipse Cloud Application Management Framework Commercial Common Build Infrastructure Concierge Dali Dash Dirigible DSDP - Mobile Tools for Java (MTJ) DSDP - Real-Time Software Components (RTSC) DSDP - Target Management DTP Dynamic Languages Toolkit (DLTK) e(fx)clipse EATOP Eclipse 4 Eclipse Adore Eclipse Advanced Visualization Eclipse Agail Eclipse Apogy Eclipse Arrowhead Eclipse Avsys Eclipse Basyx Eclipse Bridge.IoT Eclipse Bundle Recipes Eclipse Cargotracker Eclipse Ceylon Eclipse Che4z Eclipse Cloe Eclipse Codewind Eclipse CogniCrypt Eclipse Collections Eclipse Communications Framework (ECF) Eclipse Corrosion Eclipse Crossmeter Eclipse Cyclone DDS Eclipse Dartboard Eclipse Deeplearning4j Eclipse Ditto Eclipse Duttile Eclipse EclEmma Eclipse EdiTDor Eclipse Embedded CDT Eclipse EMF Cloud Eclipse Enterprise for Java Eclipse ESCET Eclipse fog05 Eclipse Formal Modeling Eclipse Free BIRD Tools Eclipse GLSP Eclipse Grizzly Eclipse Hara Eclipse Hawk Eclipse iceoryx Eclipse Implementation of JAXB Eclipse ioFog Eclipse IoT Packages Eclipse Jakarta EE Platform Eclipse Jakarta EE TCK Eclipse January Eclipse JDT LS Eclipse Jemo Eclipse Jersey Eclipse Jifa Eclipse JKube Eclipse JNoSQL Eclipse JustJ Eclipse Kapua Eclipse Keyple Eclipse Kiso Eclipse Krazo Eclipse Kuksa Eclipse LemMinX Eclipse LSP4J Eclipse LSP4MP Eclipse Metro Eclipse Microprofile Eclipse Milo Eclipse Mojarra Eclipse MOSAIC Eclipse MRAA Eclipse N4JS Eclipse OneOFour Eclipse Open Standard Business Platform Eclipse Open VSX Eclipse OpenJ9 Eclipse OpenK Core Modules Eclipse openK User Modules Eclipse OpenMQ Eclipse OpenVSX Eclipse ORB Eclipse Packager Eclipse Packages Eclipse Passage Eclipse Phizog Eclipse Platform Eclipse Project for Common Annotations Eclipse Project for Concurrency Utilities Eclipse Project for EJB Eclipse Project for Enterprise Security Eclipse Project for Expression Language Eclipse Project for Interceptors Eclipse Project for JACC Eclipse Project for JAF Eclipse Project for JASPIC Eclipse Project for JavaMail Eclipse Project for JAX-RS Eclipse Project for JAX-WS Eclipse Project for JAXB Eclipse Project for JCA Eclipse Project for JMS Eclipse Project for JPA Eclipse Project for JSON Processing Eclipse Project for JSON-B Eclipse Project for JSP Eclipse Project for JSTL Eclipse Project for JTA Eclipse Project for Servlet Eclipse Project for Stable Jakarta EE APIs Eclipse Project for WebSocket Eclipse RedDeer Eclipse Repairnator Eclipse Rich Beans Eclipse RT (runtime) Eclipse SCADA Eclipse Scanning Eclipse SeCo Blocks Eclipse sensiNact Eclipse Shellwax Eclipse Signalling Engineering Toolbox Eclipse sim@openPASS Eclipse Skills Eclipse SmartMDSD Eclipse Sprotty Eclipse Steady Eclipse Streamsheets Eclipse SW360 Eclipse SW360antenna Eclipse SWTChart Eclipse SystemFOCUS Eclipse Tahu Eclipse TEA Eclipse TeXlipse Eclipse Theia Eclipse ThingWeb Eclipse Titan Eclipse TM4E Eclipse Transformer Eclipse Tyrus Eclipse UML Generators Eclipse UML Profiles Repository Eclipse UPM Eclipse USS SDK Eclipse VOLTTRON Eclipse WaSP Eclipse Website Eclipse Wild Web Developer Eclipse XACC Eclipse Xpect Eclipse Xsemantics Eclipse Yasson Eclipse zenoh EclipseLink eGerrit EGit / JGit eLogbook@openk EPF EPP Equinox eRCP Examples for Jakarta EE Franca Fundamental Modeling Concepts GEF GEF3D Gemini GEMOC Studio Gendoc GlassFish GlassFish Tools Golo Handly hawkBit Hono Hudson Ignite Ignite|IoT IoT-Testware Jakarta Activation Jakarta Annotations Jakarta Authentication Jakarta Authorization Jakarta Batch Jakarta Bean Validation Jakarta Concurrency Jakarta Connectors Jakarta Contexts and Dependency Injection Jakarta EE Examples Jakarta EE Platform Jakarta EE TCK Jakarta Enterprise Beans Jakarta Expression Language Jakarta Interceptors Jakarta JSON Binding Jakarta JSON Processing Jakarta Mail Jakarta Messaging Jakarta MVC Jakarta NoSQL Jakarta Pages Jakarta Persistence Jakarta RESTful Web Services Jakarta Security Jakarta Server Faces Jakarta Server Pages Jakarta Servlet Jakarta Stable APIs Jakarta Standard Tag Library Jakarta Transactions Jakarta WebSocket Jakarta XML Binding Jakarta XML Web Services Java Workflow Tooling Java WorkFlow Tooling (JWT) JavaServer Faces JDT LS JFace Jubula Keti Kura Libra Linux Tools Linux Tools Project Lua Development Tools Lyo Mangrove Marketplace Client Project Maven Integration for Web Tools Platform Mbeddr MDM|BL Memory Analyzer Microprofile Mita Model Driven Health Tools Model Focusing Tools Mosquitto Mylyn Mylyn Builds Mylyn Context Mylyn Intent Mylyn Versions NatTable Nebula Ogee OM2M OMR Oomph OpenHW Group CORE-V cores openK platform Orbit OSEE P2 Package Drone Paho Paho Incubator Papyrus for Real Time Platform - User Assistance (UA) Plugin Development Environment (PDE) Ponte project_hip [archived] RasterFrames RCP Testing Tool RDF4J Remote Application Platform (RAP) Requirements Modeling Framework Rich Client Platform (RCP) Riena Runtime Packaging Runtimes Sapphire Scanning scout SeMantic Information Logistics Architecture (SMILA) Service Oriented Architecture Simultaneous release Sirius Sisu Skalli Soteria Sparkplug Specification Project Spatiotemporal Epidemiological Modeler (STEM) Standard Widget Toolkit (SWT) Starter for Jakarta EE Subversive SWTBot Tangle Identity Tangle Marketplaces Target Communication Framework Target Management Technology Project and PMC The Eclipse Integrated Computational Environment Thym Tigerstripe tinydtls Tools for Cloud Foundry Trace Compass Triquetrum Turkish Users Unide UOMo Vert.x Vex Virgo Vorto Wakaama Webtools incubator WindowBuilder XML Schema Definition (XSD) XWT- Polarsys Capella General Arcadia Capella workbench Capella Studio M2Doc Requirements Addon Kitalpha 3p CHESS- General (non-technical) Eclipse Foundation Project Proposals Jobs and employment Polish users Test- Eclipse Working Groups Automotive IWG Science WG- Proposals OSGi Enterprise Tools Eclipse Advanced Scripting Environment (EASE) DAWNSci Eclipse Sumo- Archived Potomac B3 Tiaki MOFScript secRT Chinese users AMW Buckminster ATF Board committer reps Blinki COBOL Pulsar Albireo Code Recommenders Incubator Code Recommenders Apricot Service Oriented Architecture GMT (Generative Modeling Technologies) IDE4EDU Damos AM3 openArchitectureWare BPMN Modeler EMF Store EMF Client Apogee C-Sharp Corona Hibachi Glimmer Maynstall DSDP - Device Debugging DSDP - Native Application Builder (NAB) eBPM ORMF eBAM DSDP - Tools for Mobile Linux (TML) Eclipse aCute Spaces ScalaModules Visual Editor (VE) Textual Concrete Syntax (TCS) P2 dev Cloud Deployment Toolkit Memory Analyzer (MAT) DSDP COSMOS Esl OFMP Faceted Project Framework UMLX IAM (Eclipse Integration for Apache Maven) M2M (model-to-model transformation) OHF Tycho Sketch IMP g-Eclipse Eclipse HIP Eclipse Examples EMF-IncQuery Eclipse Process Manager (Stardust) Eclipse IOTA Trinity Swordfish Maven Integration (M2E) Koneki Mihini Test and Performance Tools Platform (TPTP) Voicetools Sequoyah Xtend Eclipse LSP4E Eclipse Monkey Project Runtime Analysis Tools Service Oriented Architecture GEMS WTP - PAVE Service Oriented Architecture Tools Platform (STP) MST OMCW Silverlight Development Toolkit (SLDT) Woolsey Winery Higgins EGL Development Tools Service Component Architecture (SCA) Tools Wazaabi Eclipse Picasso MDM WEB Krikkit Gyrex Eclipse Papyrus for xtUML StatET Edje RISE V2G Eclipse Whiskers Flux Eclipse SmartHome Remus Information Management
+[ Syndicate this forum (XML) ]
+[ ]
+Legend
+New Messages
+summaryrefslogtreecommitdiffstats
+log msg
+author
+committer
+range
+BranchCommit messageAuthorAge
+0.6.0ASSIGNED - bug 342070: Update Website keilw7 years
+0.6.1Updated Tycho versionWerner Keil8 months
+0.7Updated classpathWerner Keil9 months
+0.8Updated pomWerner Keil7 months
+java7Updated central classes to be ICU neutralWerner Keil4 years
+legacyLegacy BuildWerner Keil4 years
+master159353: Added POM [If7eada8f]Werner Keil7 months
+v0.6.0ASSIGNED - bug 332369: Update Documentation keilw7 years
+v0.6.0_old_ICUASSIGNED - bug 342070: Update Website keilw7 years
+v0.6.0_old_icuNEW - bug 409063: Support ICU4J 50+ and before keilw8 years
+[...] TagDownloadAuthorAge
+0.7.0org.eclipse.uomo-0.7.0.tar.gz org.eclipse.uomo-0.7.0.tar.xz org.eclipse.uomo-0.7.0.zip Werner Keil3 years
+0.6.1org.eclipse.uomo-0.6.1.tar.gz org.eclipse.uomo-0.6.1.tar.xz org.eclipse.uomo-0.6.1.zip Werner Keil3 years
+AgeCommit messageAuthorFilesLines
+2020-05-02159353: Added POM [If7eada8f]HEADmasterWerner Keil49-69/+70
+2020-05-02Updated POM [If7eada8f]Werner Keil2-19/+20
+2020-04-01Updated examplesWerner Keil1-1/+1
+No New messages
+Locked (w/ unread messages)
+Locked
+Moved to another forum
+Current Time: Mon Nov 23 18:38:11 GMT 2020
+Powered by FUDForum. Page generated in 0.01381 seconds
+.:: Contact :: Home ::.
+Powered by: FUDforum 3.0.2.Copyright ©2001-2010 FUDforum Bulletin Board Software
+Back to the top
+Sign up to our Newsletter
+A fresh new issue delivered monthly
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+2020-04-01updated demosWerner Keil9-57/+145
+2020-04-01Updated ICU bundleWerner Keil5-14/+85
+2020-03-31Bumped up versionWerner Keil49-66/+66
+2020-03-31Merged from 0.8Werner Keil53-277/+82
+2020-03-31Updated masterWerner Keil18-53/+165
+2020-03-31Merged from 0.8Werner Keil258-22953/+393
+2020-03-25Updated target version, TychoWerner Keil6-41/+23
+[...]
+Clone
+git://git.eclipse.org/gitroot/uomo/org.eclipse.uomo.git
+https://git.eclipse.org/r/uomo/org.eclipse.uomo.git
+ssh://user_id@git.eclipse.org:29418/uomo/org.eclipse.uomo.git
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Runtime
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Proposals | projects.eclipse.org
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Proposals
+Proposals
+Eclipse OpenMCx
+"Eclipse OpenMCx" is an open, tool-neutral co-simulation middleware based upon Modelica [1] simulation standards, such as Functional Mock-up Interface (FMI) [2] and Distributed-Co-Simulation-Protocol (DCP) [3], aiming to support advanced simulation applications with a heterogenous toolchain in a distributed collaborative development process.
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse LSP4Jakarta, the Language Server for Jakarta EE
+A language server implementation based on the Language Server Protocol for the Jakarta EE programming model. This LSP4Jakarta (Language Server for Jakarta EE) will provide core language support capabilities (such as code complete, diagnostics, quick fixes) to enable developers to easily and quickly develop cloud-native applications using the Jakarta EE APIs.
+The Eclipse client for the Language Server for Jakarta EE will surface the capabilities provided by the language server to developers using the Eclipse (desktop) IDE.
+Eclipse Scenario Architect
+Eclipse EdiTDor
+The tool will be developed using web technologies in a way that allows to easily integrate and embed it into other web applications. The tool will cover the following features:
+Creating a new Thing Description (Template) from scratch
+Rendering a Thing Description (Template)
+Editing the Thing Description (Template)
+Validating the Thing Description (Template)
+Exporting the Thing Description (Template) from the visual representation into JSON-LD
+Eclipse Digital Cockpit
+The Eclipse Digital Cockpit provides an Edge Runtime focused on industrial automation. It stands somewhere between a simple Edge Runtime, an "Android for the machine" and a lightweight "Application Server" where services and Apps can be deployed to.
+Besides the Edge Runtime there are multiple backends like an App Store (under development) or a Telemetry Backend which takes telemetry values that Apps or Services from the Cockpit send out.
+Most importants services for common concerns are
+Sparkplug
+Define an MQTT Topic Namespace
+The intent of the Sparkplug specification is to define and document a Topic Namespace that is well thought out and optimized for the SCADA/IIoT solution sector.
+Define an MQTT Payload
+The intent of the Sparkplug specification is to strive to define payload encoding architectures that remain true to the original, lightweight, bandwidth efficient, low latency features of MQTT while adding modern encoding schemes targeting the SCADA/IIoT solution sector.
+Eclipse WaSP
+Eclipse WaSP implements Jakarta Pages, a technology that helps software developers create dynamically generated web pages based on HTML, XML, or other document types.
+Eclipse LSP4MP - Language Server for Eclipse MicroProfile
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+A language server implementation based on the Language Server Protocol for Eclipse MicroProfile programming model. This Language Server for Eclipse MicroProfile (LSP4MP) will provide core language support capabilities (such as code complete, diagnostics, quick fixes) to enable developers to easily and quickly develop cloud-native applications using MicroProfile APIs.
+Eclipse Arrowhead
+The Eclipse Arrowhead project consists of systems and services that are needed for anyone to design, implement and deploy Arrowhead-compliant System of Systems. The generic concept of the Arrowhead Framework is based on the concept of Service Oriented Architectures, and aims at enabling all of its users to work in a common and unified approach – leading towards high levels of interoperability.
+Eclipse JustJ
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+projects.eclipse.org | Get involved in Eclipse projects to help contribute to their success. We welcome users and adopters as part of the community.
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+List of Projects
+List of Projects
+Search
+Technology Types
+- Any -Cloud Native JavaInternet of ThingsLanguageModelingOSGiRuntimeSpecificationTestingTools
+State
+- Any -IncubatingMature
+Include
+Archived Projects
+Apply
+Eclipse EMFStore
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Runtime
+Tools
+Eclipse EMFStore is a model repository (server) for EMF featuring collaborative editing and versioning of models. Read more...
+Latest release: 1.10.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Epsilon
+Modeling
+Epsilon is a family of languages and tools for code generation, model-to-model transformation, model validation, comparison, migration and refactoring that work out-of-the-box with EMF and other ty Read more...
+Latest release: 2.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Eclipse OCL (Object Constraint Language)
+Language
+Modeling
+Tools
+Eclipse OCL provides libraries and tools for the Object Constraint Language (OCL) OMG standard using EMF-based models. Read more...
+Latest release: 2020-06 (6.12.0)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Paho
+Internet of Things
+Runtime
+Tools
+The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and In Read more...
+Latest release: 1.4.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Governance
+Contact
+Eclipse QVT Operational
+Language
+Modeling
+Tools
+The Eclipse QVT Operational component is an implementation of the Operational Mappings Language defined by Meta Object Facility™ (MOF™) 2.0 Query/View/Transformation™ (QVT™). Read more...
+Latest release: 2020-06 (3.10.2)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Trace Compass
+Tools
+Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing lo Read more...
+Latest release: 6.1.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Contact
+Eclipse Apogy
+This project provides a multi-mission operations and planning software framework. Apogy uses Eclipse Modeling Framework models to define the systems being controlled, the environment in which these systems are operated, the operations being carried out and the corresponding data produced during operations.
+Read more...
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Collections
+OSGi
+Testing
+Tools
+Eclipse Collections is a collections framework for Java. Read more...
+Latest release: 10.4.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse - The Eclipse Foundation open source community website. | An amazing open source community of Tools, Projects and Collaborative Working Groups.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Eclipse GlassFish Tools
+Tools
+Eclipse GlassFish Tools enables publishing of Eclipse IDE projects to GlassFish server, as well as controlling GlassFish server from within Eclipse IDE. It extends Eclipse Web Tools Platform.
+Read more...
+Latest release: 1.0.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse MDT UML2
+Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform. Read more...
+Latest release: 5.5.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Ogee
+Modeling
+Eclipse Ogee provides Eclipse Platform-based developer tools for the provisioning and consumption of OData services regardless of the service provisioning platform and service consuming technology. Read more...
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Toggle Dropdown
+Website
+Latest release: 0.7.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Dynamic Languages Toolkit
+Language
+Tools
+The Eclipse Dynamic Languages Toolkit (DLTK) is a tool for vendors, researchers, and end-users who rely on dynamic languages. Read more...
+Latest release: 6.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse EMF Client Platform
+Modeling
+OSGi
+Runtime
+Tools
+The Eclipse EMF Client Platform is a framework for building EMF-based client applications. Read more...
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Latest release: 1.25.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Lua Development Tools
+Language
+Tools
+Eclipse Lua Development Tools (LDT) is about providing Lua developers with an IDE providing the user experience developers expect fr Read more...
+Latest release: 1.4.2
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Nebula - Supplemental Widgets for SWT
+Runtime
+Eclipse Nebula is a place where different Eclipse-Projects and Independent developers collaborate on building Custom SWT widgets and reusea Read more...
+Latest release: 2.4.3
+Download
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Sirius
+Modeling
+Eclipse Sirius enables the specification of a modeling workbench in terms of graphical, table or tree editors with validation rules and actions using declarative descriptions.
+Read more...
+Latest release: 6.3.5
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse Web Tools Platform Project
+Language
+Tools
+The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse WTP Source Editing
+Tools
+The Eclipse Source Editing project provides source editing support for typical "web" languages and the mixing of them, with a focus on making the editors extensible and easily reusable. Read more...
+Latest release: 3.19 (2020-09)
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+Eclipse ATL
+Modeling
+Eclipse ATL (ATL Transformation Language) is a model transformation language and toolkit. Read more...
+Latest release: 4.2.1
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Governance
+Contact
+Eclipse EMF Diff/Merge
+Modeling
+Eclipse EMF Diff/Merge is a diff/merge tool for models. Its main purpose is to help build higher-level tools that need to merge models based on consistency rules. GUI components are also provided. Read more...
+Latest release: 0.12.0
+Download
+Toggle Dropdown
+Website
+Developer Resources
+Who's Involved
+Governance
+Contact
+1
+2
+3
+4
+5
+6
+7
+8
+9
+…
+next ›
+last »
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

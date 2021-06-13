@@ -1,0 +1,654 @@
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Eclipse Duttile
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Eclipse Duttile embrace the AgileConstellation mindset, which have the aim to extend the agile philosophy beyond the software/digital world.
+It looks at the world of the Internet of Things in a holistic manner, suggesting an approach in which the various elements are part of a single integrated process. It proposes a new cross-domain methodology that aims to provide adequate tools for the governance of the IoT projects, building the experience gained until now, in a jointly and reasoned way. The core approaches became from the world of software and hardware development, both different but always complementary.
+Eclipse Duttile define a rich process to create solutions bound to the Internet of Things world, with an emphasis on end-to-end solutions and their Value. In particular, the creation of a specific solution comes through three different well-defined steps:
+Prototype Phase: it’s the first phase of the process. There’s the Vision definition, Fast Prototypization and Product Backlog definition using a specific planning phase;
+Engineering Phase: in this step, the solution is engineerized and developed. It’s, as one could deduct, of the most important and complex phase of the whole process;
+Workout Phase: it’s the last phase, focalized onto the Deployment, support and the continuous improvement of the product.
+The intrinsic complexity assigns an important role to the Solution Definition of Done (sDoD): it is the way to explicitly define WHEN the various Ceremonies and Artifacts of Duttile can be marked as “completed”.
+The intrinsic complexity assigns an important role to the Solution Definition of Done (sDoD): it is the way to explicitly define WHEN the various Ceremonies and Artifacts of Duttile can be marked as “completed”.
+The project envision is made using the Fast Prototyping Practice coming from the AgileConstellation mindset and declinated to the IoT domain:
+Every phase has its own specific goals:
+Over the goals of the individual steps, that we are going to find out soon, Eclipse Duttile has several business objectives of growth and management, defined Cross Phases Goal:
+Team Improvement, Agile IoT Team operates in such a way to improve itself constantly, both from a technical and methodological point of view;
+Company Improvement, the development of the solution should bring to the company an enrichment of know-how in combination with the improvement of internal processes;
+Company Agility, business processes must become flexible and break down bureaucracy barriers;
+Buffer Budget, the importance of identifying all stages, especially on the hardware, leading to the need for a budget for the "daily expenses". Consider buying a small resistor to the EVK (Evaluation Kit) for the cost of a few euros: for this activity, it is unthinkable that we should complex procurement processes that lead to weeks of waiting.
+Licenses: Creative Commons Attribution 4.0 (International) LicenseContribution Activity: Commits on this project (last 12 months).
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Developer Resources
+Eclipse Duttile
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Source Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see contributing via Gerrit.duttile/duttile - Clone: git://git.eclipse.org/gitroot/duttile/duttile.gitReview With Gerrit
+Browse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Governance
+Eclipse Duttile
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Scope: Eclipse Duttile produces a shared Agile/Lean methodology that links the tools and utilities available in the Eclipse IoT ecosystem.
+People that use Eclipse Duttile form a full delivery team that follow the AgileConstellation Manifesto philosophy, principles and practices, working in Agile and Lean manners to improve the efficacy and efficiency of their daily actions.
+Working Group: Internet of Things (IoT)Reviews:
+NameDate
+Creation Review2017-09-20
+Project Links
+Proposal
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Contact Us
+Eclipse Duttile
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Developer Mailing List: duttile-dev - duttile developer discussions
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Downloads
+Eclipse Duttile
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+You can download the full documents package (docx and pdf) clicking on the "Download Eclipse Duttile".
+duttile/duttile - GitilesGitiles Code Review Sign In git.eclipse.org / duttile / duttileClone this repo:Branchesmaster4f2eef3 by Unknown · 10 days ago master1d2ffe9 by Unknown · 3 weeks ago00f73df by Unknown · 6 months ago01a7fc5 by Unknown · 6 months ago3cd2773 by Unknown · 7 months agoMore »Eclipse Duttile Project Powered by Gitilestxt json
+Remember that Eclipse Duttile is hosted in the following git repository: href="https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/
+If you want to collaborate with us, please clone it and suggest your update.
+Download Eclipse Duttile
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Who's Involved
+Eclipse Duttile
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity: Commits on this project (last 12 months).Individual Contribution Activity: Commits on this project by individuals over the last three months.Organization Contribution Activity: Commits on this project by supporting organization over the last three months.Project Members: Project Lead
+Felice Pescatore
+Committers
+Alessandro Alpi
+Felice Pescatore
+Paolo Patierno
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+duttile/duttile - GitilesGitiles Code Review Sign In git.eclipse.org / duttile / duttileClone this repo:Branchesmaster4f2eef3 by Unknown · 10 days ago master1d2ffe9 by Unknown · 3 weeks ago00f73df by Unknown · 6 months ago01a7fc5 by Unknown · 6 months ago3cd2773 by Unknown · 7 months agoMore »Eclipse Duttile Project Powered by Gitilestxt json
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Eclipse Duttile
+×
+Status message
+This proposal has been approved and the Eclipse Duttile project has been created.
+Eclipse Duttile
+Basics
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section. Parent Project: Eclipse IoT
+Background: An IoT solution belongs to different technological domains, with their own rules and specifications related to different aspects: The Hardware, with strong and predictable processes, the Software, where the complexity and the change is always present, the Cloud and Big Data with its own rules and risks.
+Today, typically, hybrid software and hardware solutions are developed in a parallel way with synchronization meetings useful to start the integration process and, subsequently, to the test process.
+This is a typical Big Bang Integration approach, with different critical issues:
+Development efficiency is heavily penalized as different teams don’t constantly communicate with each other, without sharing their knowledge;
+Issues are discovered in the late solution development phase, with high fixing problems, mostly due to the hardware fixing;
+As of the need of shortening / respect the time-to-market, the final product, often, has a compromised solution to problems (based on software workaround, wherever components cannot perfectly integrate with each other), thus lowering the global product quality.
+Eclipse Duttile affords all this aspects in a holist mode to best perform different goals typically annexed with a professional marketable IoT Solutions. Eclipse Duttile is based on the Philosophy, Values and Principles of the AgileIoT Manifesto, that you can find at: agileiot.org
+Scope: Eclipse Duttile produces a shared Agile/Lean methodology that links the tools and utilities available in the Eclipse IoT ecosystem.
+People that use Eclipse Duttile form a full delivery team that follow the AgileIoT manifesto philosophy, principles and practices, working in Agile and Lean manners to improve the efficacy and efficiency of their daily actions.
+Description: Eclipse Duttile looks at the world of the Internet of Things in a holistic manner, suggesting an approach in which the various elements are part of a single integrated process. It proposes a new cross-domain methodology that aims to provide adequate tools for the governance of the IoT projects, building the experience gained until now, in a jointly and reasoned way. The core approaches became from the world of software and hardware development, both different but always complementary.
+Eclipse Duttile defines a rich process based on three different well-defined steps:
+Prototype Phase (timing: typically, 2-4 weeks). It’s the first phase of the process. There’s the Vision definition, Fast Prototyping and Product Backlog definition using a specific planning phase;
+Engineering Phase (timing: time needed for reaching the Value). In this step, the solution is engineered and developed. It’s, as one could deduct, the most important and complex phase of the whole process;
+Workout Phase (timing: Typically, 1-2 weeks). It’s the last phase, focalized onto the Deployment, Support and the Continuous Improvement of the product.
+The intrinsic complexity assigns an important role to the Solution Definition of Done (sDoD): it is the way to explicitly define WHEN the various Ceremonies and Artifacts of Duttile can be marked as “completed”.
+Every phase has its own specific goals:
+supported by several business objectives of growth and management, defined Cross Phases Goal:
+Team Improvement, team operates in such a way to improve itself constantly, both from a technical and methodological point of view;
+Company Improvement, the development of the solution should bring to the company an enrichment of know-how in combination with the improvement of internal processes;
+Company Agility, business processes must become flexible and break down bureaucracy barriers;
+Buffer Budget, the importance of identifying all stages, especially on the hardware, leading to the need for a budget for the "daily expenses". Consider buying a small resistor to the EVK (Evaluation Kit) for the cost of a few euros: for this activity, it is unthinkable that we should complex procurement processes that lead to weeks of waiting.
+Prototyping Phase
+The Prototyping Phase is the phase in which the company decide to create a new solution and, starting from an idea or an initial need, defines the Solution Vision. With the Solution Vision the company highlights the specific objectives related to the customer needs, going to define the Solution Goals and the validation metrics.
+To do this, you need to validate the hypothesis underlying the Vision, structuring teams and corporate assets to be sure that the product is achievable. All these actions are made with the make-measure-learn loop.
+Solution Big Picture and the reference Product Backlog are the primary artifacts.
+In detail, for the prototyping phase, you have the following Goal:
+Vision Definition, here we define the Vision of the solution, identifying needs to satisfy and the reference market;
+Fast Prototyping Team, the Fast Prototyping Team is created, getting needed roles externally;
+Full Eclipse Duttile Team, the complete Eclipse Duttile Team is created;
+Solution Definition of Done, creation of the initial reference document for the Definition of Done;
+Similarity Search, as consequence of the Vision and the solution coming from it, the market is analyzed to verify if equivalent proposals are already present. In the case some others exist, we proceed by qualitative comparison to understand how our product could be positioned in the market to differentiate from them.
+Hypothesis Validation, hypothesis is validated using the Fast Prototyping ceremonies;
+Set Work Environment, the work area is arranged or created. This aspect is relevant for the development of an IoT solution as the need of hardware prototyping requires properly equipped dedicated spaces;
+Define Product Backlog, the Product Backlog is defined on the base of prototyping results.
+These goals allow to achieve the Solution Vision, and to create the Intentional Architecture, to start the Vision Fast Prototyping and create the Product Backlog.
+Engineering Phase
+With the Engineering Phase the implementation of the solution goes live. At this stage, most of the emphasis is placed on product development, but an attention is put on support aspects that must be supported by all the company.
+This phase start with the definition of the Mid Picture by the team (if there is more than one team, each team defines its Mid Picture). The Mid Picture defines the goal of the iteration in relation to the reference Goals:
+Full Deployable Solution, the objective is the creation of a ready-to-use solution for the final customer;
+Reduce uncertainty, reduce to the bare minimum the uncertainty, particularly those related to the hardware and the firmware of Smart Things, services and Cloud aspects;
+Bill of Materials (BOM), Smart Thing Bill of Materials is defined;
+Verify Full Solution, establish and validate objective elements to assess the actual adherence to stakeholders specific expectations;
+Coordinate External Manufacturing, managing the relationship with the external manufacturing team responsible for implementing the Smart Things:
+Packaging Verify, implement packaging validation actions of the Smart Things and the whole solution.
+The Mid Picture is based on a set of Value Stories during the Makers Backlog Planning owned by the Product Owner. Team define working tasks and locates them into the Makers Board.
+When all works are completed, team do the Solution Overview, Technical and Methodology Retrospective.
+Workout Phase
+The Workout Phase is focused on putting into operation (deployment) and all the services needed to support the customer are activated.
+In detail, you have the following phase Goals:
+Deployment Strategy, it is defined the deployment strategy for the whole solution;
+Solution Continuous Improvement, after the release, the solution is constantly improved, mainly with continuous firmware update, services update and cloud aspects update;
+Remote Improvement, implement technical and technological solutions that allow to update as much as possible directly from remote;
+Solution Support, it is produced all that is necessary to drive the use of the solution (for example, user manuals) and optionally activated a customer-care support;
+When the solution is working, it’s time to support the customers and to constantly improve the solution itself, implementing updates on the firmware, services and cloud with continuous improvement & integration practices.
+The hardware items will be update rarely (especially due to high costs), unless a new release is needed. It’s mandatory to apply a set of tools for the remote deployment, especially when the number of the Smart Things is very large and geographically distributed.
+Why Here?: The value of Eclipse Duttile is to support a business focus in delivery marketable IoT solutions through the tools and the projects part of the Eclipse IoT ecosystem.
+Licenses: Creative Commons Attribution 4.0 (International) LicenseLegal Issues: None
+Project Scheduling: Eclipse Duttile is in a consistent status, and the roadmap to release version 1.0 is:
+2 months for get all contributions for the communities to review all the main aspects of the framework, including terminologies, poster and all the other aspects;
+1 months to general review and contributor approvals;
+Version 1.0 release;
+Proposal of new modify based on case study and adoption feedback.
+Future Work: The Eclipse Duttile Team will update the framework with suggestions, extensions and evidences coming from their implementation on the ground.
+People
+Project Leads: Felice PescatoreCommitters: Alessandro AlpiIgor AntonacciMatteo EmiliGiuseppe FamigliettiPaolo PatiernoGian Maria RicciAndrea PalumboVincent ThavonekhamGiulio VianFelice PescatoreMentors: Benjamin Cabé
+Source Code
+Initial Contribution: Eclipse Duttile is in a mature state after more than one year of work. There is no code, but it is based on:
+Poster (psd format)
+Mind Map (mac format)
+Full framework description (open format, git, docx, pdf)
+Logo (pdf & psd format)
+Source Repository Type: Git
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing list: duttile-dev (6 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: duttile-dev (6 subscribers)
+duttile developer discussions
+About duttile-dev
+duttile developer discussions
+Using duttile-dev
+To post a message to all the list members,
+send email to duttile-dev@eclipse.org. You must be subscribed
+Creation Review | projects.eclipse.org
+to the list before you can post. To access a web archive of this list, visit the duttile-dev Archives or subscribe to this list's RSS feed
+Subscribing duttile-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: duttile-devRSS Feed
+Archive
+Eclipse Foundation
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Eclipse Duttile
+Creation Review
+Eclipse Duttile Creation Review
+Type: CreationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, September 20, 2017Project: Eclipse DuttileProposal:
+Eclipse Duttile
+Parent Project: Eclipse IoTBackground: An IoT solution belongs to different technological domains, with their own rules and specifications related to different aspects: The Hardware, with strong and predictable processes, the Software, where the complexity and the change is always present, the Cloud and Big Data with its own rules and risks.
+Today, typically, hybrid software and hardware solutions are developed in a parallel way with synchronization meetings useful to start the integration process and, subsequently, to the test process.
+This is a typical Big Bang Integration approach, with different critical issues:
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Development efficiency is heavily penalized as different teams don’t constantly communicate with each other, without sharing their knowledge;
+Issues are discovered in the late solution development phase, with high fixing problems, mostly due to the hardware fixing;
+As of the need of shortening / respect the time-to-market, the final product, often, has a compromised solution to problems (based on software workaround, wherever components cannot perfectly integrate with each other), thus lowering the global product quality.
+Eclipse Duttile affords all this aspects in a holist mode to best perform different goals typically annexed with a professional marketable IoT Solutions. Eclipse Duttile is based on the Philosophy, Values and Principles of the AgileIoT Manifesto, that you can find at: agileiot.org
+Scope: Eclipse Duttile produces a shared Agile/Lean methodology that links the tools and utilities available in the Eclipse IoT ecosystem.
+People that use Eclipse Duttile form a full delivery team that follow the AgileIoT manifesto philosophy, principles and practices, working in Agile and Lean manners to improve the efficacy and efficiency of their daily actions.
+Description: Eclipse Duttile looks at the world of the Internet of Things in a holistic manner, suggesting an approach in which the various elements are part of a single integrated process. It proposes a new cross-domain methodology that aims to provide adequate tools for the governance of the IoT projects, building the experience gained until now, in a jointly and reasoned way. The core approaches became from the world of software and hardware development, both different but always complementary.
+Eclipse Duttile defines a rich process based on three different well-defined steps:
+Prototype Phase (timing: typically, 2-4 weeks). It’s the first phase of the process. There’s the Vision definition, Fast Prototyping and Product Backlog definition using a specific planning phase;
+Engineering Phase (timing: time needed for reaching the Value). In this step, the solution is engineered and developed. It’s, as one could deduct, the most important and complex phase of the whole process;
+Workout Phase (timing: Typically, 1-2 weeks). It’s the last phase, focalized onto the Deployment, Support and the Continuous Improvement of the product.
+The intrinsic complexity assigns an important role to the Solution Definition of Done (sDoD): it is the way to explicitly define WHEN the various Ceremonies and Artifacts of Duttile can be marked as “completed”.
+Every phase has its own specific goals:
+supported by several business objectives of growth and management, defined Cross Phases Goal:
+Team Improvement, team operates in such a way to improve itself constantly, both from a technical and methodological point of view;
+Company Improvement, the development of the solution should bring to the company an enrichment of know-how in combination with the improvement of internal processes;
+Company Agility, business processes must become flexible and break down bureaucracy barriers;
+Buffer Budget, the importance of identifying all stages, especially on the hardware, leading to the need for a budget for the "daily expenses". Consider buying a small resistor to the EVK (Evaluation Kit) for the cost of a few euros: for this activity, it is unthinkable that we should complex procurement processes that lead to weeks of waiting.
+Prototyping Phase
+The Prototyping Phase is the phase in which the company decide to create a new solution and, starting from an idea or an initial need, defines the Solution Vision. With the Solution Vision the company highlights the specific objectives related to the customer needs, going to define the Solution Goals and the validation metrics.
+To do this, you need to validate the hypothesis underlying the Vision, structuring teams and corporate assets to be sure that the product is achievable. All these actions are made with the make-measure-learn loop.
+Solution Big Picture and the reference Product Backlog are the primary artifacts.
+In detail, for the prototyping phase, you have the following Goal:
+Vision Definition, here we define the Vision of the solution, identifying needs to satisfy and the reference market;
+Fast Prototyping Team, the Fast Prototyping Team is created, getting needed roles externally;
+Full Eclipse Duttile Team, the complete Eclipse Duttile Team is created;
+Solution Definition of Done, creation of the initial reference document for the Definition of Done;
+Similarity Search, as consequence of the Vision and the solution coming from it, the market is analyzed to verify if equivalent proposals are already present. In the case some others exist, we proceed by qualitative comparison to understand how our product could be positioned in the market to differentiate from them.
+Hypothesis Validation, hypothesis is validated using the Fast Prototyping ceremonies;
+Set Work Environment, the work area is arranged or created. This aspect is relevant for the development of an IoT solution as the need of hardware prototyping requires properly equipped dedicated spaces;
+Define Product Backlog, the Product Backlog is defined on the base of prototyping results.
+These goals allow to achieve the Solution Vision, and to create the Intentional Architecture, to start the Vision Fast Prototyping and create the Product Backlog.
+Engineering Phase
+With the Engineering Phase the implementation of the solution goes live. At this stage, most of the emphasis is placed on product development, but an attention is put on support aspects that must be supported by all the company.
+This phase start with the definition of the Mid Picture by the team (if there is more than one team, each team defines its Mid Picture). The Mid Picture defines the goal of the iteration in relation to the reference Goals:
+Full Deployable Solution, the objective is the creation of a ready-to-use solution for the final customer;
+Reduce uncertainty, reduce to the bare minimum the uncertainty, particularly those related to the hardware and the firmware of Smart Things, services and Cloud aspects;
+Bill of Materials (BOM), Smart Thing Bill of Materials is defined;
+Verify Full Solution, establish and validate objective elements to assess the actual adherence to stakeholders specific expectations;
+Coordinate External Manufacturing, managing the relationship with the external manufacturing team responsible for implementing the Smart Things:
+Packaging Verify, implement packaging validation actions of the Smart Things and the whole solution.
+The Mid Picture is based on a set of Value Stories during the Makers Backlog Planning owned by the Product Owner. Team define working tasks and locates them into the Makers Board.
+When all works are completed, team do the Solution Overview, Technical and Methodology Retrospective.
+Workout Phase
+The Workout Phase is focused on putting into operation (deployment) and all the services needed to support the customer are activated.
+In detail, you have the following phase Goals:
+Deployment Strategy, it is defined the deployment strategy for the whole solution;
+Solution Continuous Improvement, after the release, the solution is constantly improved, mainly with continuous firmware update, services update and cloud aspects update;
+Remote Improvement, implement technical and technological solutions that allow to update as much as possible directly from remote;
+Solution Support, it is produced all that is necessary to drive the use of the solution (for example, user manuals) and optionally activated a customer-care support;
+When the solution is working, it’s time to support the customers and to constantly improve the solution itself, implementing updates on the firmware, services and cloud with continuous improvement & integration practices.
+The hardware items will be update rarely (especially due to high costs), unless a new release is needed. It’s mandatory to apply a set of tools for the remote deployment, especially when the number of the Smart Things is very large and geographically distributed.
+Why Here?: The value of Eclipse Duttile is to support a business focus in delivery marketable IoT solutions through the tools and the projects part of the Eclipse IoT ecosystem.
+Initial Contribution: Eclipse Duttile is in a mature state after more than one year of work. There is no code, but it is based on:
+Poster (psd format)
+Mind Map (mac format)
+Full framework description (open format, git, docx, pdf)
+Logo (pdf & psd format)
+Legal Issues: None
+Licenses: Creative Commons Attribution 4.0 (International) LicenseProject Scheduling: Eclipse Duttile is in a consistent status, and the roadmap to release version 1.0 is:
+2 months for get all contributions for the communities to review all the main aspects of the framework, including terminologies, poster and all the other aspects;
+1 months to general review and contributor approvals;
+Version 1.0 release;
+Proposal of new modify based on case study and adoption feedback.
+Future Work: The Eclipse Duttile Team will update the framework with suggestions, extensions and evidences coming from their implementation on the ground.
+People
+Project Leads: Felice PescatoreCommitters: Alessandro AlpiIgor AntonacciMatteo EmiliGiuseppe FamigliettiPaolo PatiernoGian Maria RicciAndrea PalumboVincent ThavonekhamGiulio VianFelice PescatoreMentors: Benjamin Cabé
+Sign in to post comments.
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Felice Pescatore is a Committer for Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Felice Pescatore is a Committer for Eclipse Duttile
+Felice Pescatore is a Committer for Eclipse Duttile
+User: Felice PescatoreProject: Eclipse DuttileType: CommitterStatus: ActiveActive: Tuesday, October 24, 2017Contribution Activity: Commits on Eclipse Duttile by Felice Pescatore (lifetime).
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Felice Pescatore is a Project Lead for Eclipse Duttile | projects.eclipse.org
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Felice Pescatore is a Project Lead for Eclipse Duttile
+Felice Pescatore is a Project Lead for Eclipse Duttile
+User: Felice PescatoreProject: Eclipse DuttileType: Project LeadStatus: ActiveActive: Monday, April 6, 2020Contribution Activity: Commits on Eclipse Duttile by Felice Pescatore (lifetime).
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Paolo Patierno is a Committer for Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Paolo Patierno is a Committer for Eclipse Duttile
+Paolo Patierno is a Committer for Eclipse Duttile
+User: Paolo PatiernoProject: Eclipse DuttileType: CommitterStatus: ActiveActive: Thursday, January 4, 2018
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Alessandro Alpi is a Committer for Eclipse Duttile | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Duttile
+Alessandro Alpi is a Committer for Eclipse Duttile
+Alessandro Alpi is a Committer for Eclipse Duttile
+User: Alessandro AlpiProject: Eclipse DuttileType: CommitterStatus: ActiveActive: Monday, October 2, 2017
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse Duttile
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

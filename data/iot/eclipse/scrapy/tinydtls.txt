@@ -1,0 +1,1086 @@
+Eclipse tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Eclipse tinydtls
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine. It is implemented in C and provides support for the mandatory cipher suites specified in CoAP.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 1.0Latest Releases: From November 15th, 2017 to November 15th, 2017
+NameDateReview
+0.92017-11-15
+Contribution Activity: Commits on this project (last 12 months).
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.9 Release Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+0.9
+0.9 Release Review
+Eclipse tinydtls 0.9 Release Review
+Type: ReleaseState: PendingEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, December 6, 2017Project: Eclipse tinydtlsRelease:
+0.9
+Description: The first official release after migrating the project to Eclipse. It is tagged as minor release to address open issues from the current and former issue tracker.
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Downloads
+Eclipse tinydtls
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.9 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+0.9
+Eclipse tinydtls 0.9
+Primary tabsOverview(active tab)
+Issues
+Release Plan
+Review Information
+The first official release after migrating the project to Eclipse. It is tagged as minor release to address open issues from the current and former issue tracker.
+Release Date: Wednesday, November 15, 2017
+Review: 0.9 Release ReviewRelease Type: Minor release
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Contact Us
+Eclipse tinydtls
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Eclipse tinydtls | projects.eclipse.org
+Developer Mailing List: tinydtls-dev - tinydtls developer discussions
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Governance
+Eclipse tinydtls
+Primary tabsOverview
+Downloads
+Eclipse tinydtls | projects.eclipse.org
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Scope: tinydtls provides a light-weight implementation of the DTLS protocol that can be used in devices with tight memory constraints, i.e. in the order of 100 KiB flash memory and about 10 KiB RAM. The cipher suites supported by tinydtls are limited to TLS_PSK_WITH_AES_128_CCM_8 and TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 that are mandatory-to-implement for CoAP. In scope:
+Integration of new cipher suites as they become available and are recommended for use with CoAP, e.g. the proposed TLS_ECDHE_PSK_WITH_AES_128_CCM_8 to achieve forward secrecy in the PSK mode of CoAP.
+Implementation of DTLS extensions that are useful in constrained environments, e.g. the maximum fragment length negotiation specified in RFC6066.
+Provide an interface for using hardware acceleration for cryptographic computations such as AES or ECC.
+Include optional lua binding for rapid prototyping of DTLS-enabled applications.
+Optimize memory usage and runtime behavior.
+Improve code quality, including error handling and robustness.
+Out of scope:
+Development of new cipher suites.
+Implementing application logic except for example code that illustrates how to use the library.
+Support for CoAP's certificate mode.
+Working Group: Internet of Things (IoT)Releases:
+NameDate
+0.92017-11-15
+Reviews:
+NameDate
+0.9 Release Review2017-12-06
+Creation Review2015-08-19
+Project Links
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Developer Resources
+Eclipse tinydtls
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Report a Bug View Help wanted Bugs View Open Bugs Summarize BugsContributions to tinydtls are solicited in several ways:
+Proposal
+Current Release
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing Lists
+You are welcome to subscribe to the tinydtls developers' mailing list and ask questions, discuss the latest features or report bugs.
+Report Bugs
+If you have encountered bugs or want to request a new feature, you can open a new ticket at the Eclipse bug tracking tool.
+Fix Bugs
+If you encounter bugs in the master or develop tree please submit a patch for review in the Gerrit interface.
+Source Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc. This project uses Gerrit Code Review; please see contributing via Gerrit.tinydtls - Project repository hosted on GitHub.Clone: https://github.com/eclipse/tinydtls.gitBrowse Repository
+tinydtls/org.eclipse.tinydtls - Clone: git://git.eclipse.org/gitroot/tinydtls/org.eclipse.tinydtls.gitReview With Gerrit
+Browse Repository
+Build Links:
+Build LinksBuild Status
+https://hudson.eclipse.org/tinydtls/
+Project Links
+Dev Mailing List
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Who's Involved
+Eclipse tinydtls
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity: Commits on this project (last 12 months).Project Members: Project Lead
+Olaf Bergmann
+Committers
+Olaf Bergmann
+Simon Bernard
+Mentors
+Benjamin Cabé
+Wayne Beaton
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+To use PolyGerrit, please enable JavaScript in your browser settings, and then refresh this page.
+GitHub - eclipse/tinydtls: Eclipse tinydtls
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+0.9 | projects.eclipse.org
+Trending
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+0.9
+Release Plan
+Eclipse tinydtls 0.9
+Primary tabsOverview
+Issues
+Release Plan(active tab)
+Review Information
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+tinydtls
+Watch
+9
+Star
+26
+Fork
+12
+Eclipse tinydtls
+Release Date: Wednesday, November 15, 2017Deliverables:
+Fix open issues
+Integration of backports from iotivity
+Substitution of obolete ECC code (to be replaced by sodium or micro-ecc)
+Compatibility: OIC folks propose API changes to reflect their needs. It is intended to make these changes as little intrusive as possible.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+projects.eclipse.org/projects/iot.tinydtls
+View license
+26
+stars
+12
+forks
+Star
+Watch
+Code
+Issues
+6
+Pull requests
+1
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+3
+branches
+4
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+60
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+aes
+doc
+ecc
+platform-specific
+sha2
+tests
+.gitignore
+ABOUT.md
+CONTRIBUTING.md
+LICENSE
+Makefile.in
+Makefile.tinydtls
+README
+alert.h
+ccm.c
+ccm.h
+configure.ac
+crypto.c
+crypto.h
+dtls.c
+dtls.h
+dtls_debug.c
+dtls_debug.h
+dtls_time.c
+dtls_time.h
+global.h
+hmac.c
+hmac.h
+netq.c
+netq.h
+numeric.h
+peer.c
+peer.h
+prng.h
+session.c
+session.h
+state.h
+tinydtls.h
+uthash.h
+utlist.h
+View code
+README
+CONTENTS
+constructing a single-threaded UDP server with DTLS support in
+C99. The following components are available:
+* dtls
+Basic support for DTLS with pre-shared key mode and RPK mode with ECC.
+* tests
+The subdirectory tests contains test programs that show how each
+component is used.
+BUILDING
+When using the code from the git repository at sourceforge, invoke
+$ autoconf
+$ autoheader
+$ ./configure
+to re-create the configure script.
+On Contiki, place the tinydtls library into the apps folder. After
+configuration, invoke make to build the library and associated test
+programs. To add tinydtls as Contiki application, drop it into the
+apps directory and add the following line to your Makefile:
+APPS += tinydtls/aes tinydtls/sha2 tinydtls/ecc tinydtls
+About
+Eclipse tinydtls
+projects.eclipse.org/projects/iot.tinydtls
+Resources
+Readme
+License
+View license
+Releases
+4
+tags
+Packages 0
+No packages published
+Contributors 3
+Languages
+C
+95.2%
+Perl
+2.0%
+0.9 | projects.eclipse.org
+Makefile
+1.8%
+Other
+1.0%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+0.9
+Issues
+Eclipse tinydtls 0.9
+Primary tabsOverview
+Issues(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.9 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+0.9
+Review Information
+Eclipse tinydtls 0.9
+Primary tabsOverview
+Issues
+Release Plan
+Review Information(active tab)
+Description: The first official release after migrating the project to Eclipse. It is tagged as minor release to address open issues from the current and former issue tracker.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Wayne Beaton is a Mentor for tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Wayne Beaton is a Mentor for tinydtls
+Wayne Beaton is a Mentor for tinydtls
+User: Wayne BeatonProject: Eclipse tinydtlsType: MentorStatus: ActiveActive: Monday, August 24, 2015
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing list: tinydtls-dev (56 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: tinydtls-dev (56 subscribers)
+tinydtls developer discussions
+About tinydtls-dev
+tinydtls developer discussions
+Using tinydtls-dev
+To post a message to all the list members,
+send email to tinydtls-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the tinydtls-dev Archives or subscribe to this list's RSS feed
+Subscribing tinydtls-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+Simon Bernard is a Committer for tinydtls | projects.eclipse.org
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: tinydtls-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Simon Bernard is a Committer for tinydtls
+Simon Bernard is a Committer for tinydtls
+User: Simon BernardProject: Eclipse tinydtlsType: CommitterStatus: ActiveActive: Wednesday, August 26, 2015Contribution Activity: Commits on Eclipse tinydtls by Simon Bernard (lifetime).
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+Olaf Bergmann is a Project Lead for tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Olaf Bergmann is a Project Lead for tinydtls
+Olaf Bergmann is a Project Lead for tinydtls
+User: Olaf BergmannProject: Eclipse tinydtlsType: Project LeadStatus: ActiveActive: Friday, February 12, 2016Contribution Activity: Commits on Eclipse tinydtls by Olaf Bergmann (lifetime).
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse - The Eclipse Foundation open source community website. | An amazing open source community of Tools, Projects and Collaborative Working Groups.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+Benjamin Cabe is a Mentor for tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Benjamin Cabe is a Mentor for tinydtls
+Benjamin Cabe is a Mentor for tinydtls
+User: Benjamin CabéProject: Eclipse tinydtlsType: MentorStatus: ActiveActive: Monday, August 24, 2015
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Olaf Bergmann is a Committer for tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+Olaf Bergmann is a Committer for tinydtls
+Olaf Bergmann is a Committer for tinydtls
+User: Olaf BergmannProject: Eclipse tinydtlsType: CommitterStatus: ActiveActive: Friday, August 28, 2015Contribution Activity: Commits on Eclipse tinydtls by Olaf Bergmann (lifetime).
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+tinydtls | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+tinydtls
+×
+Status message
+This proposal has been approved and the Eclipse tinydtls project has been created.
+tinydtls
+Basics
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section. Parent Project: Eclipse IoT
+Background: TZI began development of tinydtls in 2011 to estimate the memory footprint of a minimal Datagram Transport Layer Security (DTLS) engine. At that time, the Constrained RESTful Environments (CoRE) working group in the IETF scrutinized various options for securing the Constrained Application Protocol (CoAP). One question addressed the applicability of DTLS together with two new cipher suites that have been proposed for resource-limited network nodes, i.e. TLS_PSK_WITH_AES_128_CCM_8 for Pre-Shared Key (PSK) mode, and TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 for Raw Public Key (RPK) mode. As these new cipher suites as well as the use of raw public keys in DTLS were still in an early phase of standardization, no known DTLS implementation provided support. It would not have been too hard to enhance existing open source DTLS implementations, though. But in turn, investigating the bare minimum that is required to run a minimal DTLS stack would have implied significant changes to the existing code. Developing the DTLS engine from scratch also allowed to support not only POSIX-compliant systems but also embedded operating systems such as Contiki. Since its initial release, tinydtls has become an important tool for experimenting with DTLS in constrained devices by users from academia as well as industry. It has been used as a blueprint and reference platform during development of other DTLS implementations such as Scandium and contiki-dtls, and is designed to integrate with libcoap, a widely deployed CoAP implementation in C. Bindings for other languages such as lua exist.
+Scope: tinydtls provides a light-weight implementation of the DTLS protocol that can be used in devices with tight memory constraints, i.e. in the order of 100 KiB flash memory and about 10 KiB RAM. The cipher suites supported by tinydtls are limited to TLS_PSK_WITH_AES_128_CCM_8 and TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 that are mandatory-to-implement for CoAP. In scope:
+Integration of new cipher suites as they become available and are recommended for use with CoAP, e.g. the proposed TLS_ECDHE_PSK_WITH_AES_128_CCM_8 to achieve forward secrecy in the PSK mode of CoAP.
+Implementation of DTLS extensions that are useful in constrained environments, e.g. the maximum fragment length negotiation specified in RFC6066.
+Provide an interface for using hardware acceleration for cryptographic computations such as AES or ECC.
+Include optional lua binding for rapid prototyping of DTLS-enabled applications.
+Optimize memory usage and runtime behavior.
+Improve code quality, including error handling and robustness.
+Out of scope:
+Development of new cipher suites.
+Implementing application logic except for example code that illustrates how to use the library.
+Support for CoAP's certificate mode.
+Description: tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine. It is implemented in C and provides support for the mandatory cipher suites specified in CoAP.
+Why Here?: Currently, the library is used by Wakaama to facilitate security on the transport layer. Wakaama and other CoAP implementations need DTLS support for secure communication at transport layer. Hosting the project at Eclipse can facilitate integration with other projects such as libcoap or Wakaama. Users that want to use DTLS with their Eclipse projects currently have to do the integration part by themselves. As this is a difficult task, errors that affect the overall security of their projects are more likely.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 1.0Legal Issues: The library contains an implementation of the Rijndael algorithm (AES) from OpenBSD. The license information is available in the source file rijndael.c. The SHA256 implementation included with tinydtls is licensed under BSD (taken from Aaron D. Gifford). The implementation of the ECC curve secp256r1 was originally developed by Chris K Cockrum and has been put under MIT license. Additional contributions to tinydtls are from Hauke Mehrtens.
+Future Work:
+Adding luadtls to the [tinydtls] code base.
+Integration with libcoap
+Support third-party crypto libraries such as micro-ecc
+API for hardware acceleration
+Enhance code quality
+People
+Project Leads: Olaf BergmannCommitters: Olaf BergmannSimon BernardMentors: Benjamin CabéInterested Parties: Julien Vermillard
+Source Code
+Initial Contribution: The initial contribution will be from the existing code base at SourceForge. The large part of the code is copyright by Olaf Bergmann, with additional contributions are from Hauke Mehrtens.
+luadtls will be contributed by Simon Bernard.
+Source Repository Type: GitSource Repositories: http://sourceforge.net/p/tinydtls/code/https://github.com/sbernard31/luadtls
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse tinydtls
+tinydtls
+Creation Review
+Eclipse tinydtls Creation Review
+Type: CreationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, August 19, 2015Project: Eclipse tinydtlsProposal:
+tinydtls
+Parent Project: Eclipse IoTBackground: TZI began development of tinydtls in 2011 to estimate the memory footprint of a minimal Datagram Transport Layer Security (DTLS) engine. At that time, the Constrained RESTful Environments (CoRE) working group in the IETF scrutinized various options for securing the Constrained Application Protocol (CoAP). One question addressed the applicability of DTLS together with two new cipher suites that have been proposed for resource-limited network nodes, i.e. TLS_PSK_WITH_AES_128_CCM_8 for Pre-Shared Key (PSK) mode, and TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 for Raw Public Key (RPK) mode. As these new cipher suites as well as the use of raw public keys in DTLS were still in an early phase of standardization, no known DTLS implementation provided support. It would not have been too hard to enhance existing open source DTLS implementations, though. But in turn, investigating the bare minimum that is required to run a minimal DTLS stack would have implied significant changes to the existing code. Developing the DTLS engine from scratch also allowed to support not only POSIX-compliant systems but also embedded operating systems such as Contiki. Since its initial release, tinydtls has become an important tool for experimenting with DTLS in constrained devices by users from academia as well as industry. It has been used as a blueprint and reference platform during development of other DTLS implementations such as Scandium and contiki-dtls, and is designed to integrate with libcoap, a widely deployed CoAP implementation in C. Bindings for other languages such as lua exist.
+Scope: tinydtls provides a light-weight implementation of the DTLS protocol that can be used in devices with tight memory constraints, i.e. in the order of 100 KiB flash memory and about 10 KiB RAM. The cipher suites supported by tinydtls are limited to TLS_PSK_WITH_AES_128_CCM_8 and TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 that are mandatory-to-implement for CoAP. In scope:
+Integration of new cipher suites as they become available and are recommended for use with CoAP, e.g. the proposed TLS_ECDHE_PSK_WITH_AES_128_CCM_8 to achieve forward secrecy in the PSK mode of CoAP.
+Implementation of DTLS extensions that are useful in constrained environments, e.g. the maximum fragment length negotiation specified in RFC6066.
+Provide an interface for using hardware acceleration for cryptographic computations such as AES or ECC.
+Include optional lua binding for rapid prototyping of DTLS-enabled applications.
+Optimize memory usage and runtime behavior.
+Improve code quality, including error handling and robustness.
+Out of scope:
+Development of new cipher suites.
+Implementing application logic except for example code that illustrates how to use the library.
+Support for CoAP's certificate mode.
+Description: tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine. It is implemented in C and provides support for the mandatory cipher suites specified in CoAP.
+Why Here?: Currently, the library is used by Wakaama to facilitate security on the transport layer. Wakaama and other CoAP implementations need DTLS support for secure communication at transport layer. Hosting the project at Eclipse can facilitate integration with other projects such as libcoap or Wakaama. Users that want to use DTLS with their Eclipse projects currently have to do the integration part by themselves. As this is a difficult task, errors that affect the overall security of their projects are more likely.
+Initial Contribution: The initial contribution will be from the existing code base at SourceForge. The large part of the code is copyright by Olaf Bergmann, with additional contributions are from Hauke Mehrtens.
+luadtls will be contributed by Simon Bernard.
+Legal Issues: The library contains an implementation of the Rijndael algorithm (AES) from OpenBSD. The license information is available in the source file rijndael.c. The SHA256 implementation included with tinydtls is licensed under BSD (taken from Aaron D. Gifford). The implementation of the ECC curve secp256r1 was originally developed by Chris K Cockrum and has been put under MIT license. Additional contributions to tinydtls are from Hauke Mehrtens.
+Licenses: Eclipse Distribution License 1.0 (BSD)Eclipse Public License 1.0Future Work:
+Adding luadtls to the [tinydtls] code base.
+Integration with libcoap
+Support third-party crypto libraries such as micro-ecc
+API for hardware acceleration
+Enhance code quality
+People
+Project Leads: Olaf BergmannCommitters: Olaf BergmannSimon BernardInterested Parties: Julien Vermillard
+Mentors: Benjamin Cabé
+Sign in to post comments.
+Sign in to post comments.
+Related Projects
+Project Hierarchy:Eclipse IoT
+Eclipse tinydtls
+Tags
+Technology TypesInternet of Things
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "verb__adj__keyword",
+        "grammar": "{<VBG|VB><.*>*<IN><.*>*<KEYWORD>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "use",
+                "relationship": "use"
+            },
+            {
+                "word": "commun",
+                "relationship": "use"
+            },
+            {
+                "word": "appli",
+                "relationship": "use"
+            },
+            {
+                "word": "connect",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 0
+    },
+    {
+        "name": "noun_prep_det_key",
+        "grammar": "{<NN|NNS><IN><DT>?<.*>*<KEYWORD>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "implement",
+                "relationship": "interchangeable"
+            },
+            {
+                "word": "connect",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 0
+    },
+    {
+        "name": "prep_key_noun",
+        "grammar": "{<IN><KEYWORD><NN>}",
+        "key_position": 1,
+        "other_words": [
+            {
+                "word": "protocol",
+                "relationship": "use"
+            },
+            {
+                "word": "connect",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 2
+    },
+    {
+        "name": "key_noun",
+        "grammar": "{<KEYWORD><NNP|NN>}",
+        "key_position": 0,
+        "other_words": [
+            {
+                "word": "implement",
+                "relationship": "interchangeable"
+            }
+        ],
+        "other_words_position": 1
+    },
+    {
+        "name": "verb_prep_key",
+        "grammar": "{<VB|VBG|VBZ><.*>*<IN>*<.*>*<KEYWORD>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "connect",
+                "relationship": "use"
+            },
+            {
+                "word": "sent",
+                "relationship": "use"
+            },
+            {
+                "word": "implement",
+                "relationship": "interchangeable"
+            },
+            {
+                "word": "appli",
+                "relationship": "use"
+            },
+            {
+                "word": "support",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 0
+    }
+]

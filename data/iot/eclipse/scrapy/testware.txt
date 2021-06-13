@@ -1,0 +1,3076 @@
+Eclipse IoT-Testware | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Eclipse IoT-Testware
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+It is the aim of the project to supply a rich set of TTCN-3 test suites and test cases for IoT technologies to enable developers in setting up a comprehensive test environment of their own, if needed from the beginning of a project. TTCN-3 has been defined and standardized by the European Telecommunication Standards Institute in ETSI ES 201873 and related extension packages. It is implemented and supported in Eclipse IoT by the Eclipse Titan project.
+The initial contribution of IoT-Testware to Eclipse will focus on protocols like CoAP and MQTT. This list will be extended during the project. To ensure test and implementation technology independence, and the test suites will be realized in TTCN-3 and implemented with Titan. The test suites will contain tests for conformance, interoperability, performance, robustness, and security aspects.
+Eclipse Titan has already protocol modules for IoT including type systems and codec. IoT-Testware will rely on these type systems and develop codec libraries and test cases based on them.
+The IoT-Testware test suites will have a well-defined test suite structure (TSS) and a set of protocol implementation conformance statements (PICS) as well as protocol implementation extra information for testing (PIXIT). The work will follow the standardized approach as defined in ISO “Conformance Test Methodology and Framework” IS 9646 and the best practices as described by ETSI White Paper No 3 “Achieving Technical Interoperability – the ETSI Approach”.
+Licenses: Eclipse Public License 1.0Latest Releases: From January 15th, 2020 to January 15th, 2020
+NameDateReview
+0.1.02020-01-15
+Contribution Activity: Commits on this project (last 12 months).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.1.0 Release Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+0.1.0
+0.1.0 Release Review
+Eclipse IoT-Testware 0.1.0 Release Review
+Type: ReleaseState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, January 15, 2020Project: Eclipse IoT-TestwareRelease:
+0.1.0
+Description: The release 0.1.0 will be the first minor release of the IoT-Testware.
+The biggest features are standardized test solutions for the IoT protocols MQTT and CoAP.
+Architectural Issues: Originally, the IoT-Testware was a CLI tool only, thus the extensibility and the architectural quality in general was limited. We solved the problem by introducing a simple architecture based on docker. Heart of the docker virtualization is an installation script realized with python. It is open for extensions. A more detailed describtion can be found in our documentation.
+Security Issues: There are no concrete consideration made concerning security.
+Non-Code Aspects: We would like to list the followng aspects:
+Our project documentation
+Articles about the IoT-Testware
+Our talk at the EclipseCon 2018
+Conforms To UI/UX Guidelines: Not applicable (project doesn't provide UI)Usability Details: There are no concrete consideration made concerning usability.
+End of Life: There are no concrete consideration made concerning end of life.
+Standards: Our test solutions, including conformance, performance and robustness (fuzzing), based on the developing ETSI standards delveloped in the WG MTS-TST.
+Note: The standards are publicly accessible for ETSI members or as soon as they are in a final stage (arround May 2020).
+Communities: We have a strong relationship with the Eclipse Titan project. The IoT-Testware project is using the Eclipse Titan project intensely that is reflected in the Eclipse Titan forum.
+Furthermore, we are listed in the following communities:
+awesome-mqtt
+AIOTI IoT LSP Standard Framework Concepts (sec. 5.3.2)
+Additionally, we have shown activities in the MQTT Discussion Group @ Google-Groups.
+Sign in to post comments.
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+0.1.0 | projects.eclipse.org
+Eclipse IoT-Testware | projects.eclipse.org
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+0.1.0
+Eclipse IoT-Testware 0.1.0
+Primary tabsOverview(active tab)
+Issues
+Release Plan
+Review Information
+The release 0.1.0 will be the first minor release of the IoT-Testware.
+The biggest features are standardized test solutions for the IoT protocols MQTT and CoAP.
+Release Date: Wednesday, January 15, 2020
+Review: 0.1.0 Release ReviewRelease Type: Minor releaseIP Due Diligence Type: Type A - License Compatibility Certification
+Related Projects
+Eclipse IoT-Testware | projects.eclipse.org
+Eclipse IoT-Testware | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Governance
+Eclipse IoT-Testware
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Downloads
+Eclipse IoT-Testware
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Contact Us
+Eclipse IoT-Testware
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us(active tab)
+Developer Mailing List: iottestware-dev - iottestware developer discussions
+The project IoT-Testware has been selected for presentation at the EclipseCon 2018.
+You may also get background information on IoT-Testware and TTCN-3 from the following presentations:
+Quality engineering for the IoT
+An introduction to TTCN-3
+Scope: It is the scope of the project to support conformance, interoperability, robustness, and security testing of IoT devices and services via TTCN-3 test suites and cases. The project should help companies to improve their IoT product quality though sharing of pre-competitive test suites.
+Releases:
+NameDate
+0.1.02020-01-15
+Reviews:
+NameDate
+0.1.0 Release Review2020-01-15
+Creation Review2017-06-07
+Project Links
+Proposal
+Current Release
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Eclipse IoT-Testware | projects.eclipse.org
+For all information concerning downloading an set up the IoT-Testware, we refer to our documentation.
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Developer Resources
+Eclipse IoT-Testware
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Source Repositories: You can use the code from these repositories to experiment, test, build, create patches, issue pull requests, etc.iottestware - Project repository hosted on GitHub.Clone: https://github.com/eclipse/iottestware.gitBrowse Repository
+iottestware.coap - Project repository hosted on GitHub.Clone: https://github.com/eclipse/iottestware.coap.gitBrowse Repository
+iottestware.mqtt - Project repository hosted on GitHub.Clone: https://github.com/eclipse/iottestware.mqtt.gitBrowse Repository
+iottestware.opcua - Project repository hosted on GitHub.Clone: https://github.com/eclipse/iottestware.opcua.gitBrowse Repository
+iottestware.fuzzing - Project repository hosted on GitHub.Clone: https://github.com/eclipse/iottestware.fuzzing.gitBrowse Repository
+iottestware.dashboard - Project repository hosted on GitHub.Clone: https://github.com/eclipse/iottestware.dashboard.gitBrowse Repository
+iottestware.performance - Project repository hosted on GitHub.Clone: https://github.com/eclipse/iottestware.performance.gitBrowse Repository
+Project Links
+Dev Mailing List
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse IoT-Testware | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Who's Involved
+Eclipse IoT-Testware
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Contact Us
+Contribution Activity: Commits on this project (last 12 months).Individual Contribution Activity: Commits on this project by individuals over the last three months.Organization Contribution Activity: Commits on this project by supporting organization over the last three months.Project Members: Project Leads
+Axel Rennoch
+Sascha Hackel
+Tom Ritter
+Committers
+Alexander Kaiser
+Avdoot Chalke
+Axel Rennoch
+Bostjan Pintar
+Daniel Pop
+Gyorgy Rethy
+Marion Jost
+Sascha Hackel
+Tom Ritter
+Historical Committer
+Naum Spaseski
+Mentor
+Wayne Beaton
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+install.py — Eclipse IoT-Testware documentation
+Eclipse IoT-Testware
+master
+Contents
+Quickstart Guide
+Installation
+Target Environment
+Dashboard
+Dockerized Command Line
+Manual Installation
+install.py
+Install with Eclipse IDE
+Install with Docker
+Protocol Conformance Testing
+ETSI and Eclipse Foundation
+Dashboard
+MQTT Test Suite
+CoAP Test Suite
+OPC-UA Test Suite
+Fuzzing
+Smart Fuzzing Proxy
+About Eclipse IoT-Testware
+Glossary
+References
+License
+References — Eclipse IoT-Testware documentation
+Annex
+MQTT Specification
+CoAP RFC 7252
+Eclipse IoT-Testware
+Docs »
+Installation »
+install.py
+Edit on GitHub
+Next
+Previous
+install.py¶
+This documentation helps you to understand and use the install.py script.
+Contents
+install.py
+Prerequisites
+help command
+protocol command
+build command
+path command
+executable command
+verbose command
+Prerequisites¶
+Latest version of Python
+Latest version of Eclipse Titan. For installation details please consult the official downloads
+help command¶
+Eclipse IoT-Testware
+master
+Contents
+Quickstart Guide
+Installation
+Protocol Conformance Testing
+ETSI and Eclipse Foundation
+Dashboard
+MQTT Test Suite
+CoAP Test Suite
+OPC-UA Test Suite
+Fuzzing
+Smart Fuzzing Proxy
+About Eclipse IoT-Testware
+Glossary
+References
+2017
+2018
+2019
+License
+Annex
+MQTT Specification
+CoAP RFC 7252
+Eclipse IoT-Testware
+You can refer to the help command if you don’t know how to continue at any point.
+Simply run one the following command:
+python install.py -h
+python install.py --help
+The result gives you a first idea, what is possible with the script. The output looks like this:
+-h
+show this help message and exit
+-p PROTO
+sets a protocol that will be cloned together with its
+dependencies
+-b
+build the project and create a Makefile
+--path PATH
+specify optionally your root directory, where all
+dependencies will be stored
+-e NAME
+set the name of the executable that will be generated
+-v
+progress status output is verbose
+protocol command¶
+The protocol command is the a mandatory flag. It will scan your working directory to check whether all dependencies are met. In case there is something missing, the script will download the missing dependencies automatically.
+The command demands a parameter representing the interesting protocol.
+Let’s assume you would like to run tests against a CoAP implementation. Run one of the following command to get the CoAP conformance test suite and all it’s dependencies:
+python install.py -p coap
+Docs »
+References
+Edit on GitHub
+Next
+Previous
+References¶
+2017¶
+[HKR17]
+[KKR17]
+[RennochAxel17]
+[SKRW17]
+[SR17]
+2018¶
+[Sch18]
+[RH18]
+[RHK18]
+2019¶
+[RK19]
+[RK19]
+[HKR17]Sascha Hackel, Dorian Knobloch, and Axel Rennoch. Qualitätsanalyse mit IoT-Testware. url: https://gi.de/fileadmin/FG/TAV/42.TAV/42_GI-TAV_paper_1.pdf, 2017.
+[KKR17]Alexander Kaiser, Sascha Kretzschmann, and Axel Rennoch. Eclipse IoT-Testware: Die Open-Source-Testsuite für das MQTT-Protokoll. url: http://www.sigs.de/public/ots/2017/OTS_Testing_2017/Kaiser_OTS_Testing_2017.pdf, 2017.
+[MVQ18]Federico Maggi, Rainer Vosseler, and Davide Quarta. The Fragility of Industrial IoT’s Data Backbone. Trend Micro Research White Paper, pages 65, 2018.
+[RH18]Axel Rennoch and Sascha Hackel. Quality analysis with IoT-Testware. url: http://publica.fraunhofer.de/eprints/urn_nbn_de_0011-n-4971018.pdf, 2018.
+python install.py --protocol coap
+Use the same procedure for any available protocol.
+build command¶
+This optional command can be used to build the IoT-Tesware. It builds a Makefile first and creates an executable afterwards. You can only build one protocol at a time. It is determined by the protocol command.
+To build the CoAP test suite for example, run one of the following commands:
+python install.py -p coap -b
+python install.py -p coap --build
+path command¶
+When you run the install script, it creates a folder structure under ~/Titan by default. This is your base directory where the IoT-Testware and all it’s dependencies are stored:
+IoT-Testware
+You find the test suites for the protocols you have chosen via the protocol command. It creates a folder for every protocol separately in the form of iottestware.<PROTOCOL>
+Libraries
+Collection of libraries needed for the specific IoT-Testware protocol.
+ProtocolModules
+The protocol modules, provided in developer resources, are included inside this directory. The subset of protocol modules are protocol dependent. They define the protocol types.
+TestPorts
+To bridge the gap between the test suite and the system under test (SUT), test ports are needed. They are provided by Eclipse Titan project.
+executable command¶
+With this command it is possible to name the executable that is generated when calling the build command. In contrast, the install script chose a default name for the executable following the scheme:
+iottestware.<PROTOCOL>
+To set your own name for the resulting executable, let’s say “myExecutable” simply run one of this command:
+python install.py -p coap -e myExecutable
+python install.py -p coap --executable_name myExecutable
+Welcome — Eclipse IoT-Testware documentation
+[RHK18]Axel Rennoch, Sascha Hackel, and Dorian Knobloch. Test Execution Infrastructure for IoT Quality Analysis. url: http://vvass2018.ist.tugraz.at/wp-content/uploads/2018/08/IoT-T_Testware_VVASS.pdf, 2018.
+[SR17]Schieferdecker, Ina and Axel Rennoch. IoT Testing and the Eclipse IoT Testware. url: https://paris.utdallas.edu/qrs17/docs/Keynote-Ina-Schieferdecker-slides.pdf, 2017.
+[Sch18]Ina Schieferdecker. IoT Testware - Modern Automated Test Solutions for IoT Components and Systems. 2018.
+[SKRW17]Ina Schieferdecker, Sascha Kretzschmann, Axel Rennoch, and Michael Wagner. IoT-testware - an eclipse project. url: https://ieeexplore.ieee.org/document/8009903, 2017.
+[RennochAxel17]Rennoch, Axel. Test automation for the iot: iot-testware. url: https://www.iotcamp.net/fileadmin/iot-barcamp/IoTcamp2017_FOKUS-Rennoch.pdf, 2017.
+Next
+Previous
+© Copyright 2018, Eclipse IoT-Testware Contributors
+Revision d718be0e.
+Built with Sphinx using a theme provided by Read the Docs.
+Read the Docs
+v: master
+Versions
+master
+latest
+development
+Downloads
+pdf
+html
+epub
+On Read the Docs
+Project Home
+verbose command¶
+If you set this command, the console output will be verbose and give you more information during the process. By default, the output is quite, meaning only important messages are shown.
+To switch the verbose output on, you add either `` -v `` or `` –verbose `` to your command like in the following examples:
+python install.py -p coap --verbose -e myExecutable
+python install.py -p coap -b -v
+python install.py --verbose --protocol coap
+Next
+Previous
+© Copyright 2018, Eclipse IoT-Testware Contributors
+Revision d718be0e.
+Built with Sphinx using a theme provided by Read the Docs.
+Read the Docs
+v: master
+Versions
+master
+latest
+development
+Downloads
+pdf
+html
+Eclipse IoT-Testware
+master
+Contents
+Quickstart Guide
+Installation
+Protocol Conformance Testing
+ETSI and Eclipse Foundation
+Dashboard
+MQTT Test Suite
+CoAP Test Suite
+OPC-UA Test Suite
+Fuzzing
+Smart Fuzzing Proxy
+About Eclipse IoT-Testware
+Glossary
+References
+License
+Annex
+MQTT Specification
+CoAP RFC 7252
+Eclipse IoT-Testware
+Docs »
+Welcome
+Edit on GitHub
+Builds
+Free document hosting provided by Read the Docs.
+epub
+On Read the Docs
+Project Home
+Builds
+Free document hosting provided by Read the Docs.
+Next
+Welcome¶
+Great that you considering the Eclipse IoT-Testware to test your implementations.
+We would like to guide you to start with the test suites.
+Contents¶
+Quickstart Guide
+Preparation
+Installation
+Installation
+Target Environment
+Dashboard
+Dockerized Command Line
+Manual Installation
+Protocol Conformance Testing
+General
+Test Suite Structure
+Test Configurations
+Test Purpose Catalogues
+IoT-Testware Test Suites
+ETSI and Eclipse Foundation
+Dashboard
+Introduction
+Overview
+Backend
+Frontend
+Integration
+MQTT Test Suite
+MQTT Protocol
+Test Configurations
+Test Purposes
+Test System
+Test Cases
+Test Case Functions
+Translation Port
+Generic Functions
+Test Templates
+Default Behaviours
+CoAP Test Suite
+CoAP Protocol
+Test Configurations
+Test Purposes
+Test System
+Test Cases
+Test Case Functions
+Translation Port
+Generic Functions
+Test Templates
+Default Behaviours
+OPC-UA Test Suite
+Fuzzing
+Smart Fuzzing Proxy
+Installation
+General Concept
+Identify the SUT
+Identify Input fields
+Choose a Test Data Generator
+Running a Fuzzing Session
+Analyzing Fuzzing Logging
+About Eclipse IoT-Testware
+IoT-Testware Team
+Objective
+Conformance Test Methodology and Framework
+Implementation
+Glossary
+References
+2017
+2018
+2019
+License
+Annex¶
+MQTT Specification
+CoAP RFC 7252
+Indices and tables¶
+Index
+Module Index
+Search Page
+Next
+© Copyright 2018, Eclipse IoT-Testware Contributors
+Revision d718be0e.
+Built with Sphinx using a theme provided by Read the Docs.
+Read the Docs
+v: master
+Versions
+master
+latest
+development
+Downloads
+pdf
+html
+epub
+On Read the Docs
+Project Home
+Builds
+Free document hosting provided by Read the Docs.
+Eclipse IoT-Testware | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Eclipse IoT-Testware
+×
+Status message
+This proposal has been approved and the Eclipse IoT-Testware project has been created.
+Eclipse IoT-Testware
+Basics
+This proposal is in the Project Proposal Phase (as defined in the Eclipse Development Process) and is written to declare its intent and scope. We solicit additional participation and input from the community. Please login and add your feedback in the comments section. Parent Project: Eclipse Technology
+Background: The open source community has produced a lot of excellent technology, frameworks and products that help with implementing IoT applications. A developer usually selects an appropriate set of technology and components and incorporates them into an application. The chosen components need to support the implementation of all relevant aspects of an IoT solution including device connectivity, management, monitoring, and business logic and last but not least security enforcement at all levels.
+Implementing test suites and cases covering the many aspects, levels, interfaces and protocols ensuring scalability, interoperability and security is a tedious task. There is currently a lot of redundant pre competitive activities ongoing with limited access and impact to the IoT community.
+Scope: It is the scope of the project to support conformance, interoperability, robustness, and security testing of IoT devices and services via TTCN-3 test suites and cases. The project should help companies to improve their IoT product quality though sharing of pre-competitive test suites.
+Description: It is the aim of the project to supply a rich set of TTCN-3 test suites and test cases for IoT technologies to enable developers in setting up a comprehensive test environment of their own, if needed from the beginning of a project. TTCN-3 has been defined and standardized by the European Telecommunication Standards Institute in ETSI ES 201873 and related extension packages. It is implemented and supported in Eclipse IoT by the Titan project.
+The initial contribution of IoT-Testware to Eclipse will focus on protocols like CoAP and MQTT. This list will be extended during the project. To ensure test and implementation technology independence, and the test suites will be realized in TTCN-3 and implemented with Titan. The test suites will contain tests for conformance, interoperability, robustness, and security aspects.
+Eclipse Titan has already protocol modules for CoAP and MQTT including type systems and codec. IoT-Testware will rely on these type systems and develop codec libraries and test cases based on them.
+The IoT-Testware test suites will have a well-defined test suite structure (TSS) and a set of protocol implementation conformance statements (PICS) as well as protocol implementation extra information for testing (PIXIT). The work will follow the standardized approach as defined in ISO “Conformance Test Methodology and Framework” IS 9646 and the best practices as described by ETSI White Paper No 3 “Achieving Technical Interoperability – the ETSI Approach”.
+Why Here?: Eclipse IoT-Testware will collaborate with the Eclipse Titan project as the Eclipse open source solution for executing TTCN-3, even though the project will be TTCN-3 tool independent (and e.g. other tools such as the Spirent TTworkbench could be used instead).
+Licenses: Eclipse Public License 1.0Legal Issues: The currently available parts of the implementation and IP are completely owned by Fraunhofer FOKUS and will be made available under EPL according to the Eclipse Foundation regulations.
+Project Scheduling: The initial contribution Q3 2017.
+We expect a production ready "1.0" release in Q3 of 2018.
+People
+Project Leads: Axel RennochTom RitterCommitters: György RéthySamir MedjiahAxel RennochSascha KretzschmannAlexander KaiserBogdan Stanca-KapostaNaum SpaseskiTom RitterMentors: Wayne BeatonInterested Parties: Fraunhofer FOKUS
+itemis AG
+Ericsson
+LAAS/CNRS
+relayr GmbH
+Easy Global Market
+Spirent Communications
+Source Code
+Source Repository Type: GitHub
+Sign in to post comments.
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.1.0 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+0.1.0
+Review Information
+Eclipse IoT-Testware 0.1.0
+Primary tabsOverview
+Issues
+Release Plan
+Review Information(active tab)
+Description: The release 0.1.0 will be the first minor release of the IoT-Testware.
+The biggest features are standardized test solutions for the IoT protocols MQTT and CoAP.
+Architectural Issues: Originally, the IoT-Testware was a CLI tool only, thus the extensibility and the architectural quality in general was limited. We solved the problem by introducing a simple architecture based on docker. Heart of the docker virtualization is an installation script realized with python. It is open for extensions. A more detailed describtion can be found in our documentation.
+Security Issues: There are no concrete consideration made concerning security.
+Non-Code Aspects: We would like to list the followng aspects:
+Our project documentation
+Articles about the IoT-Testware
+Our talk at the EclipseCon 2018
+Conforms To UI/UX Guidelines: Not applicable (project doesn't provide UI)Usability Details: There are no concrete consideration made concerning usability.
+End of Life: There are no concrete consideration made concerning end of life.
+Standards: Our test solutions, including conformance, performance and robustness (fuzzing), based on the developing ETSI standards delveloped in the WG MTS-TST.
+Note: The standards are publicly accessible for ETSI members or as soon as they are in a final stage (arround May 2020).
+Communities: We have a strong relationship with the Eclipse Titan project. The IoT-Testware project is using the Eclipse Titan project intensely that is reflected in the Eclipse Titan forum.
+Furthermore, we are listed in the following communities:
+awesome-mqtt
+AIOTI IoT LSP Standard Framework Concepts (sec. 5.3.2)
+Additionally, we have shown activities in the MQTT Discussion Group @ Google-Groups.
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Wayne Beaton is a Mentor for Eclipse IoT-Testware | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Wayne Beaton is a Mentor for Eclipse IoT-Testware
+Wayne Beaton is a Mentor for Eclipse IoT-Testware
+User: Wayne BeatonProject: Eclipse IoT-TestwareType: MentorStatus: ActiveActive: Wednesday, June 7, 2017
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+0.1.0 | projects.eclipse.org
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+0.1.0
+Release Plan
+Eclipse IoT-Testware 0.1.0
+Primary tabsOverview
+Issues
+Release Plan(active tab)
+Review Information
+Release Date: Wednesday, January 15, 2020Deliverables:
+Standardized conformance test purposes for MQTT and CoAP
+Conformance test suites for MQTT and CoAP
+Robustness testing for MQTT and CoAP
+Standardized performance test purposes for MQTT and CoAP
+Performance test suites for MQTT and CoAP
+Target Environments: Information about the Environment can be found in the docs.
+Milestones:
+NameDateDescription
+M12019/08/19Evaluation of test methods/tools for robustness and performance tests for MQTT and CoAP
+M22019/11/08Prototypical implementation of robustness and performance tests scenarios for MQTT and CoAP
+M32019/11/29Finish work for conformance test purposes and test suites for MQTT and CoAP
+M42019/12/13Finish work for robustness and performance test implementation for MQTT and CoAP
+IP Due Diligence Type: Type A - License Compatibility Certification
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Creation Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Eclipse IoT-Testware
+Creation Review
+Eclipse IoT-Testware Creation Review
+Type: CreationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, June 7, 2017Project: Eclipse IoT-TestwareProposal:
+Eclipse IoT-Testware
+Parent Project: Eclipse TechnologyBackground: The open source community has produced a lot of excellent technology, frameworks and products that help with implementing IoT applications. A developer usually selects an appropriate set of technology and components and incorporates them into an application. The chosen components need to support the implementation of all relevant aspects of an IoT solution including device connectivity, management, monitoring, and business logic and last but not least security enforcement at all levels.
+Implementing test suites and cases covering the many aspects, levels, interfaces and protocols ensuring scalability, interoperability and security is a tedious task. There is currently a lot of redundant pre competitive activities ongoing with limited access and impact to the IoT community.
+Scope: It is the scope of the project to support conformance, interoperability, robustness, and security testing of IoT devices and services via TTCN-3 test suites and cases. The project should help companies to improve their IoT product quality though sharing of pre-competitive test suites.
+Description: It is the aim of the project to supply a rich set of TTCN-3 test suites and test cases for IoT technologies to enable developers in setting up a comprehensive test environment of their own, if needed from the beginning of a project. TTCN-3 has been defined and standardized by the European Telecommunication Standards Institute in ETSI ES 201873 and related extension packages. It is implemented and supported in Eclipse IoT by the Titan project.
+The initial contribution of IoT-Testware to Eclipse will focus on protocols like CoAP and MQTT. This list will be extended during the project. To ensure test and implementation technology independence, and the test suites will be realized in TTCN-3 and implemented with Titan. The test suites will contain tests for conformance, interoperability, robustness, and security aspects.
+Eclipse Titan has already protocol modules for CoAP and MQTT including type systems and codec. IoT-Testware will rely on these type systems and develop codec libraries and test cases based on them.
+The IoT-Testware test suites will have a well-defined test suite structure (TSS) and a set of protocol implementation conformance statements (PICS) as well as protocol implementation extra information for testing (PIXIT). The work will follow the standardized approach as defined in ISO “Conformance Test Methodology and Framework” IS 9646 and the best practices as described by ETSI White Paper No 3 “Achieving Technical Interoperability – the ETSI Approach”.
+Why Here?: Eclipse IoT-Testware will collaborate with the Eclipse Titan project as the Eclipse open source solution for executing TTCN-3, even though the project will be TTCN-3 tool independent (and e.g. other tools such as the Spirent TTworkbench could be used instead).
+Legal Issues: The currently available parts of the implementation and IP are completely owned by Fraunhofer FOKUS and will be made available under EPL according to the Eclipse Foundation regulations.
+Licenses: Eclipse Public License 1.0Project Scheduling: The initial contribution Q3 2017.
+We expect a production ready "1.0" release in Q3 of 2018.
+People
+Project Leads: Axel RennochTom RitterCommitters: György RéthySamir MedjiahAxel RennochSascha KretzschmannAlexander KaiserBogdan Stanca-KapostaNaum SpaseskiTom RitterInterested Parties: Fraunhofer FOKUS
+itemis AG
+Ericsson
+LAAS/CNRS
+relayr GmbH
+Easy Global Market
+Spirent Communications
+Mentors: Wayne Beaton
+Sign in to post comments.
+Sign in to post comments.
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Mailing list: iottestware-dev (21 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: iottestware-dev (21 subscribers)
+iottestware developer discussions
+About iottestware-dev
+iottestware developer discussions
+Using iottestware-dev
+To post a message to all the list members,
+send email to iottestware-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the iottestware-dev Archives or subscribe to this list's RSS feed
+Subscribing iottestware-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: iottestware-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+0.1.0 | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+0.1.0
+Issues
+Eclipse IoT-Testware 0.1.0
+Primary tabsOverview
+Issues(active tab)
+Release Plan
+Review Information
+This project has not assigned any issues to this release.
+= resolved/fixed
+= unsolved/reopened
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Naum Spaseski is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Naum Spaseski is a Committer for Eclipse IoT-Testware
+Naum Spaseski is a Committer for Eclipse IoT-Testware
+User: Naum SpaseskiProject: Eclipse IoT-TestwareType: CommitterStatus: InactiveActive: Thursday, September 14, 2017 to Friday, March 1, 2019
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Tom Ritter is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Tom Ritter is a Committer for Eclipse IoT-Testware
+Tom Ritter is a Committer for Eclipse IoT-Testware
+User: Tom RitterProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Thursday, June 22, 2017
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Eclipse IoT-Testware: The Open-Source testing solution | EclipseCon Europe 2018
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Create account
+Log in
+EclipseCon - Eclipse Foundation
+Ludwigsburg, Germany · October 23 - 25, 2018
+Conference My Submissions
+My Schedule
+News
+Talk Tracks
+Program List
+Program Schedule
+BoF Schedule
+Propose a BoF
+Registration
+Session Slides
+Features Eclipse Community Day
+All Things IoT @ ECE
+Project Quality Day
+IoT Playground
+Eclipse Night School
+Keynotes
+Smart Home Day
+Sponsors Be a Sponsor
+Information for Exhibitors
+Sascha Kretzschmann is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Our Sponsors
+Special offers from our sponsors
+What our Sponsors say about EclipseCon Europe
+Community Speakers
+Code of Conduct
+Attendees
+Past Conferences
+JUG Partner Program
+Community Resources
+Venue Conference Venues
+Hotels
+Ludwigsburg
+About Us EclipseCon Europe 2018
+OSGi Community Event
+Program Committee
+The Eclipse Foundation
+Toggle navigation
+Home
+EclipseCon
+EclipseCon Europe 2018
+Sessions
+Eclipse IoT-Testware: The Open-Source testing solution
+Eclipse IoT-Testware: The Open-Source testing solution
+Session details
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Sascha Kretzschmann is a Committer for Eclipse IoT-Testware
+Sascha Kretzschmann is a Committer for Eclipse IoT-Testware
+User: Sascha HackelProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Thursday, June 22, 2017Contribution Activity: Commits on Eclipse IoT-Testware by Sascha Hackel (lifetime).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Status: AcceptedSpeaker(s): Alexander Kaiser (Relayr)Sascha Hackel (Fraunhofer Institute for Open Communication Systems (FOKUS))Experience level: IntermediateTags: iottestingsecurityInteroperabilityConformanceSession Track: Project Quality DaySession Type: Standard
+According to the Eclipse’s IoT Developer Survey from the past years, Security, Interoperability and Connectivity are the key challenges for IoT. While these topics constantly rank in the top five, comprehensive open-source solutions are still rare.
+This session will introduce the attendees to the roots and motivation of the Eclipse IoT-Testware. Building on this, the major concerns of future IoT will be examined, possible solutions proposed and underpinned with examples.
+By accomplishing the session the attendees will be able to overview the problem state and understand the urgent need for open-source testing solutions. Furthermore, such a solution – the Eclipse IoT-Testware – will be put in the attendees’ hands.
+Therefore the session will cover the following topics:
+Eclipse IoT-Testware
+motivation and scope
+how to: access and operation
+benefits and value of the outcome
+The role of TTCN-3 in industry
+A link to international standardization
+Short live Demonstration (alternatively a short link to the demonstrator at ECE2018 IoT Playground)
+Schedule info
+Time: 24 Oct 2018 - 10:25 to 24 Oct 2018 - 11:00Room: FMZ Präsentationsraum
+Sign in to post comments.
+Special offersFrom these sponsors!
+Our Sponsors
+For information about becoming a sponsor, please visit the EclipseCon Europe 2018 sponsor prospectus page.
+Elite Dual ECE/OSGi CE
+Elite
+Premium
+Basic
+Supporter
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+IoT Theme Day
+Project Quality Day
+Conference App Provider
+Media
+Smart Home Day
+JUG Partners
+Our Other Events
+Eclipse events are hosted all over the world!
+All Events
+Past Conferences
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Gyorgy Rethy is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+EclipseCon is brought to you by The Eclipse Foundation with the support of our sponsors. Powered by Drupal and built on COD.
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Gyorgy Rethy is a Committer for Eclipse IoT-Testware
+Gyorgy Rethy is a Committer for Eclipse IoT-Testware
+User: Gyorgy RethyProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Thursday, June 22, 2017
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+GitHub - eclipse/iottestware.performance: IoT testware performance
+Marion Jost is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Marion Jost is a Committer for Eclipse IoT-Testware
+Marion Jost is a Committer for Eclipse IoT-Testware
+User: Marion JostProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Friday, May 4, 2018Contribution Activity: Commits on Eclipse IoT-Testware by Marion Jost (lifetime).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+GitHub - eclipse/iottestware.fuzzing
+Daniel Pop is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this repository
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Daniel Pop is a Committer for Eclipse IoT-Testware
+Daniel Pop is a Committer for Eclipse IoT-Testware
+User: Daniel PopProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Thursday, December 12, 2019Contribution Activity: Commits on Eclipse IoT-Testware by Daniel Pop (lifetime).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+iottestware.performance
+Watch
+6
+Star
+2
+Fork
+1
+IoT testware performance
+EPL-1.0 License
+2
+stars
+1
+fork
+Star
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+Bostjan Pintar is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Tags
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+iottestware.fuzzing
+Watch
+7
+Star
+4
+Fork
+2
+4
+stars
+2
+forks
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Bostjan Pintar is a Committer for Eclipse IoT-Testware
+Bostjan Pintar is a Committer for Eclipse IoT-Testware
+User: Bostjan PintarProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Friday, June 16, 2017
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+1
+branch
+1
+tag
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+Star
+Watch
+Code
+Issues
+0
+Pull requests
+3
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+11
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+Docs/Performance
+cfg
+src
+CONTRIBUTING.md
+GUIDELINES.md
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+5
+branches
+1
+tag
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+LICENSE
+README.md
+iottestware.mqtt.tpd
+View code
+README.md
+Eclipse MQTT performance test suite
+A performance test suite for the IoT protocols MQTT and CoAP. The work is related to the ETSI standardization project https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=54411 and https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=54412.
+Versioning
+We use Github for versioning. For the versions available, see the tags on this repository.
+Authors
+Sascha Hackel - Initial work - Fraunhofer FOKUS
+Alexander Kaiser - Initial work - relayr
+Ilie Daniel Gheorghe Pop - Initial work - Fraunhofer FOKUS
+See also the list of contributors who participated in this project.
+License
+Eclipse Public License - v 1.0
+About
+IoT testware performance
+Resources
+Readme
+License
+EPL-1.0 License
+Releases
+1
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+6
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+resources
+src
+v0.1.0M4
+Latest
+Dec 13, 2019
+Packages 0
+No packages published
+Contributors 2
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+GitHub - eclipse/iottestware.opcua: opcua
+tests
+.flake8
+.gitignore
+.pre-commit-config.yaml
+Pipfile
+Pipfile.lock
+README.md
+monkey
+proxy.py
+smart_mutator.py
+tox.ini
+View code
+README.md
+Eclipse IoT-Testware Fuzzing
+A flexible and configurable Proxy-Fuzzer for IoT protocols like MQTT and CoAP.
+Getting Started
+Refer to the documentation to get started easily.
+Versioning
+We use Github for versioning. For the versions available, see the tags on this repository.
+Authors
+Alexander Kaiser - Initial work - relayr
+See also the list of contributors who participated in this project.
+License
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Eclipse Public License - v 2.0
+About
+No description, website, or topics provided.
+Resources
+Readme
+Releases
+1
+v0.1.0M2
+Latest
+Nov 25, 2019
+Packages 0
+No packages published
+Contributors 3
+Languages
+Python
+99.1%
+Shell
+0.9%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Avdoot Chalke is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+GitHub - eclipse/iottestware.dashboard: iottestware dashboard
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+iottestware.opcua
+Watch
+7
+Star
+0
+Fork
+0
+opcua
+EPL-1.0 License
+0
+stars
+0
+forks
+Star
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Avdoot Chalke is a Committer for Eclipse IoT-Testware
+Avdoot Chalke is a Committer for Eclipse IoT-Testware
+User: Avdoot ChalkeProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Tuesday, July 25, 2017Contribution Activity: Commits on Eclipse IoT-Testware by Avdoot Chalke (lifetime).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Learn more
+Accept
+Reject
+Save preferences
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Learning Lab
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+GitHub - eclipse/iottestware.mqtt: iottestware.mqtt
+Tom Ritter is a Project Lead for Eclipse IoT-Testware | projects.eclipse.org
+GitHub - eclipse/iottestware.coap: iottestware.coap
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+2
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Tom Ritter is a Project Lead for Eclipse IoT-Testware
+Tom Ritter is a Project Lead for Eclipse IoT-Testware
+User: Tom RitterProject: Eclipse IoT-TestwareType: Project LeadStatus: ActiveActive: Wednesday, June 7, 2017
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+iottestware.dashboard
+Watch
+8
+Star
+2
+Fork
+1
+iottestware dashboard
+EPL-2.0 License
+2
+stars
+1
+fork
+Star
+Watch
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+18
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+cfg
+docs/Conformance
+Sascha Kretzschmann is a Project Lead for Eclipse IoT-Testware | projects.eclipse.org
+Axel Rennoch is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+Alexander Kaiser is a Committer for Eclipse IoT-Testware | projects.eclipse.org
+GitHub - eclipse/iottestware
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Code
+Issues
+0
+Pull requests
+1
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+src
+CONTRIBUTING.md
+GUIDELINES.md
+LICENSE
+README.md
+iottestware.opcua.tpd
+View code
+README.md
+Eclipse OPC-UA test suite
+A conformance test suite for the IoT protocol OPC-UA written in TTCN-3. You may find initial test purposes in https://github.com/eclipse/iottestware.opcua/tree/master/docs/Conformance.
+Getting Started
+Refer to the general installation script in the main repository.
+Authors
+Sascha Hackel - Initial work - Fraunhofer FOKUS
+Axel Rennoch - Initial work - Fraunhofer FOKUS
+Avdoot Chalke - Initial work - Fraunhofer FOKUS
+License
+Eclipse Public License 1.0 (EPL-1.0)
+About
+opcua
+Resources
+Readme
+License
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Sascha Kretzschmann is a Project Lead for Eclipse IoT-Testware
+Sascha Kretzschmann is a Project Lead for Eclipse IoT-Testware
+User: Sascha HackelProject: Eclipse IoT-TestwareType: Project LeadStatus: ActiveActive: Wednesday, August 22, 2018Contribution Activity: Commits on Eclipse IoT-Testware by Sascha Hackel (lifetime).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Axel Rennoch is a Committer for Eclipse IoT-Testware
+Axel Rennoch is a Committer for Eclipse IoT-Testware
+User: Axel RennochProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Friday, June 9, 2017Contribution Activity: Commits on Eclipse IoT-Testware by Axel Rennoch (lifetime).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Alexander Kaiser is a Committer for Eclipse IoT-Testware
+Alexander Kaiser is a Committer for Eclipse IoT-Testware
+User: Alexander KaiserProject: Eclipse IoT-TestwareType: CommitterStatus: ActiveActive: Monday, July 3, 2017
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+iottestware.mqtt
+Watch
+12
+Star
+6
+Fork
+4
+iottestware.mqtt
+EPL-1.0 License
+6
+stars
+4
+forks
+Star
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+iottestware.coap
+Watch
+9
+Star
+1
+Fork
+2
+iottestware.coap
+EPL-1.0 License
+1
+star
+2
+forks
+Star
+Sign up for free
+Dismiss
+master
+3
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+EPL-1.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 4
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Technology TypesInternet of Things
+Testing
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Watch
+Code
+Issues
+0
+Pull requests
+0
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+GitHub is where the world builds software
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+14
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+backend
+frontend
+test/backend
+.gitignore
+Dockerfile
+LICENSE
+README.md
+git_log.py
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+iottestware
+Watch
+9
+Star
+7
+Fork
+5
+EPL-1.0 License
+7
+stars
+5
+forks
+Star
+Watch
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+2
+branches
+1
+tag
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+2
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+package-lock.json
+package.json
+View code
+README.md
+IoT-Testware Dashboard
+Get started
+If it is your first time or you would like to get some help, please read the Quickstart Guide to get everything set up and to have an easy start with the IoT-Testware.
+Versioning
+We use Github for versioning. For the versions available, see the tags on this repository.
+Authors
+Alexander Kaiser - Initial work - relayr
+Gautam Pahuja - Initial work - relayr
+Sascha Hackel - Initial work - Fraunhofer FOKUS
+Ferdinand Wolff - Initial work - Fraunhofer FOKUS
+See also the list of contributors who participated in this project.
+If you want to contribute to the IoT-Testware please refer to How to contribute
+License
+Eclipse Public License - v 2.0
+About
+Axel Rennoch is a Project Lead for Eclipse IoT-Testware | projects.eclipse.org
+Code
+Issues
+12
+Pull requests
+0
+Actions
+Projects
+1
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+95
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+cfg
+docs/Conformance
+src
+.gitignore
+CONTRIBUTING.md
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+32
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+cfg
+docs/Conformance
+src
+sut
+.gitignore
+COAP_Summary.pdf
+iottestware dashboard
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 2
+Languages
+JavaScript
+88.8%
+CSS
+9.9%
+Other
+1.3%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse Technology
+Eclipse IoT-Testware
+Axel Rennoch is a Project Lead for Eclipse IoT-Testware
+Axel Rennoch is a Project Lead for Eclipse IoT-Testware
+User: Axel RennochProject: Eclipse IoT-TestwareType: Project LeadStatus: ActiveActive: Wednesday, June 7, 2017Contribution Activity: Commits on Eclipse IoT-Testware by Axel Rennoch (lifetime).
+Related Projects
+Related Projects:Eclipse Tools ProjectEclipse Titan
+Project Hierarchy:Eclipse Technology
+Eclipse IoT-Testware
+Tags
+Technology TypesInternet of Things
+Testing
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+2
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+GUIDELINES.md
+LICENSE
+MQTT_Summary.pdf
+README.md
+fuzzing_proxy.sh
+iottestware.mqtt.tpd
+oracle_broker_demo.sh
+selftest.sh
+start_mqtt_fuzzing.py
+View code
+README.md
+Eclipse MQTT test suite
+A Conformance Test Suite for the IoT protocol MQTT written in TTCN-3. You may find initial test purposes in https://github.com/eclipse/iottestware.mqtt/tree/master/docs/Conformance. The work is related to the ETSI standardization project https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=54401.
+Getting Started
+If it is your first time or you would like to get some help, please read the Quickstart Guide to get everything set up and to have an easy start with the IoT-Testware.
+Versioning
+We use Github for versioning. For the versions available, see the tags on this repository.
+Authors
+Alexander Kaiser - Initial work - relayr
+See also the list of contributors who participated in this project.
+License
+CONTRIBUTING.md
+GUIDELINES.md
+LICENSE
+README.md
+iottestware.coap.tpd
+View code
+README.md
+Eclipse CoAP test suite
+A conformance test suite for the IoT protocol CoAP written in TTCN-3. You may find initial test purposes in https://github.com/eclipse/iottestware.coap/tree/master/docs/Conformance. The work is related to the ETSI standardization project https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=54400.
+Getting Started
+If it is your first time or you would like to get some help, please read the Quickstart Guide to get everything set up and to have an easy start with the IoT-Testware.
+Versioning
+We use Github for versioning. For the versions available, see the tags on this repository.
+Authors
+Sascha Hackel - Initial work - Fraunhofer FOKUS
+Axel Rennoch - Initial work - Fraunhofer FOKUS
+Avdoot Chalke - Initial work - Fraunhofer FOKUS
+License
+Eclipse Public License 1.0 (EPL-1.0)
+About
+iottestware.coap
+Resources
+Readme
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Tools
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+99
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+docs
+.gitignore
+CONTRIBUTING.md
+Eclipse Public License - v 1.0
+About
+iottestware.mqtt
+Resources
+Readme
+License
+EPL-1.0 License
+Releases
+1
+v0.1.0M3
+Latest
+Nov 29, 2019
+Packages 0
+No packages published
+Contributors 5
+Languages
+C++
+53.8%
+Python
+32.1%
+Shell
+14.1%
+© 2020 GitHub, Inc.
+License
+EPL-1.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 5
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+Accept
+Reject
+Save preferences
+Dockerfile
+GUIDELINES.md
+Jenkinsfile
+LICENSE
+README.md
+install.py
+View code
+README.md
+IoT-Testware
+This is the core repository of the IoT-Testware project. Currently this is the location for e.g. documentation of test purposes.
+Get started
+If it is your first time or you would like to get some help, please read the Quickstart Guide to get everything set up and to have an easy start with the IoT-Testware.
+Test suite resources
+TTCN-3 sources and related auxiliary files are located in repositories of the sub-projects:
+iottestware.coap
+iottestware.mqtt
+iottestware.opcua
+iottestware.fuzzing
+iottestware.dashboard
+iottestware.performance
+You may download and use the free TDL tools from ETSI to display TDL-TO files with syntax highlighting.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+About
+No description, website, or topics provided.
+Resources
+Readme
+License
+EPL-1.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 6
+Languages
+Python
+87.5%
+Dockerfile
+12.5%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences

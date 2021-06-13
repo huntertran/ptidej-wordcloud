@@ -1,0 +1,1405 @@
+Ponte - Bringing Things to REST developers
+Toggle navigation
+Ponte
+Install
+Architecture
+API
+Source
+Subscribe to the Mailing List »
+Install »
+Protocols
+Ponte allows you to publish and receive the data using any protocol: HTTP, MQTT and CoAP.
+You can mix and match: submit with CoAP and subscribe via MQTT.
+Thanks to MQTT subscribes and CoAP observe, your devices can get updated in real-time.
+Thanks to MQTT-over-Websockets, your users can too!
+Learn more »
+Data Formats
+Ponte aims to convert multiple data formats, you will be able to publish your data in JSON,
+MsgPack, Byson, BSON and XML. Need another one? Use HTTP accept queries to get another version.
+We are building it..
+Security and Privacy
+Ponte will help you, the developer, in building a user-driven security solution to support the communication between all these devices.
+Thanks to Ponte, there will be no need to prepare a custom authentication for your things, and another for your users.
+We are building it..
+Architecture
+The diagram on the right shows Ponte's architecture.
+Ponte bridges three different application protocols:
+HTTP, MQTT and CoAP.
+The Internet of Things is about real-world events,
+so Ponte is based on some of most powerful
+publish/subscribe brokers:
+RabbitMQ and all implementations of
+the AMQP protocol.
+Redis, the fabulous key/value store by
+@antirez.
+Mosquitto and all implementations of the
+MQTT protocol.
+MongoDB, the documental NoSQL that
+is revolutioning how web apps are built.
+The Web is about accessing syndicated data: after a payload
+is published, it must be retained for supporting standard
+HTTP/REST access.
+Ponte supports MongoDB,
+Redis, and
+LevelDB as
+storage engines.
+HTTP API
+HTTP is an implementation of the REST pattern, where a resource can be
+manipulated using standard verbs: GET, PUT, POST and DELETE.
+This allows to syndicate the things resources in a very straighforward way over a
+database, by indexing their URIs.
+Each thing is available at: http://<your ponte>/resources/<your thing>
+MQTT API
+MQTT
+is an implementation of the publish/subscribe pattern.
+Ponte is based on
+Mosca
+which implements most of the MQTT 3.1 spec.
+In order to syndicate a value for HTTP access, publish
+with the 'retain' flag.
+Subscribe to your things to receive live updates.
+Each thing is available at: mqtt://<your ponte>/<your thing>
+CoAP API
+CoAP
+is an implementation of the REST pattern on the UDP protocol,
+where a resource can be manipulated using standard verbs: GET, PUT, POST and DELETE.
+This allows to syndicate the things resources in a very straighforward way over a
+database, by indexing their URIs.
+Ponte fully supports the observe
+spec, to receive live updates from you things.
+Each thing is available at: coap://<your ponte>/r/<your thing>
+Install
+The current implementation of Ponte is built on top of
+the Node.js
+framework that provides a fast event-loop.
+As an Eclipse project, we aim to have multiple implemantions of the same
+concepts, and the node.js implementation is the first.
+After installing node.js v0.10, just install the latest version from
+NPM:
+$ npm install ponte -g
+$ ponte
+See the README
+for the full docs.
+Copyright © 2013 The Eclipse Foundation.
+All Rights Reserved.
+Home
+Privacy Policy
+Terms of Use
+Copyright Agent
+Legal
+ponte - npm
+❤Necessarily Precedes MischiefProductsProTeamsPricingDocumentationCommunitynpmSearchSign UpSign InMiss any of our Open RFC calls?Watch the recordings here! »ponte0.0.16 • Public • Published 5 years ago Readme ExploreBETA10Dependencies0Dependents15Versions Ponte
+Ponte is a multi-transport Internet of Things / Machine to Machine broker.
+As the current state it supports MQTT and REST
+APIs over HTTP and CoAP.
+Ponte is under active development, but it should work :).
+If you plan to use Ponte in production
+let us know, we'll be more than
+happy to help you getting started and solve any issue you'll find out.
+A test instance of ponte is available at ponte.eclipse.org, on HTTP,
+MQTT and CoAP standard ports.
+Report bugs at the Eclipse
+Bugzilla
+and join the mailing list.
+Installation
+Ponte is a node.js application, so it needs node.js
+to run. The currently recommended version is node 4.3.1, which is the Longtime Support Version. Ponte is tested against versions 0.12, 4.3.1 and 5. Attention: you should currently not use ponte with node 5.7
+$ npm install ponte bunyan -g
+$ ponte -v | bunyan
+Then you can connect to it with your preferred MQTT,
+CoAP or
+HTTP client.
+Command Line Options
+$ ./bin/ponte --help
+Usage: ponte [options]
+Options:
+-h, --help output usage information
+-V, --version output the version number
+-m, --mqtt-port <n> the mqtt port to listen to
+-p, --http-port <n> the http port to listen to
+-a, --coap-port <n> the coap port to listen to
+--host <host> the host to listen to
+--coap-host <host> the host to listen to for coap requests
+--mqtt-host <host> the host to listen to for mqtt requests
+--http-host <host> the host to listen to for http requests
+-d, --db <path> the path were to store the database
+-c, --config <c> the config file to use (override every other option)
+-v, --verbose set the bunyan log to INFO
+--very-verbose set the bunyan log to DEBUG
+Usage Example
+Start ponte:
+$ ponte -v | bunyan
+Publishing from HTTP to MQTT
+Publish from HTTP:
+$ curl -X PUT -d 'world' http://localhost:3000/resources/hello
+The messages from HTTP are retained, which means that are sent to
+every new subscriber.
+Subscribe using mosquitto_sub (mosquitto):
+$ mosquitto_sub -t "hello" -v
+hello world
+Publishing from MQTT to HTTP
+In order to publish a message that can be read from HTTP,
+a MQTT client needs to set the retain flag.
+This is how it is done using mosquitto_pub:
+$ mosquitto_pub -t hello-from-mqtt -m "world" -r
+Reading the published value is an HTTP GET away:
+$ curl http://localhost:3000/resources/hello-from-mqtt
+world
+Publishing from CoAP to MQTT
+You can send CoAP messages from the command line using coap-cli
+In the following example we do a CoAP PUT to a resource:
+$ echo -n 'world' | coap put coap://localhost/r/hello
+Subscribe using mosquitto_sub (mosquitto):
+$ mosquitto_sub -t "hello" -v
+hello world
+Publishing MQTT to CoAP
+In order to publish a message that can be read from CoAP,
+a MQTT client needs to set the retain flag.
+This is how it is done using mosquitto_pub:
+$ mosquitto_pub -t hello-from-mqtt -m "world" -r
+In order to receive the live updates with CoAP, we need to
+use the observe switch:
+$ coap -o coap://localhost/r/hello-from-mqtt
+Embedding
+Ponte can be run in embbedded mode, by listening to specific events:
+Configuration
+Configuration with MongoDB
+Ponte can be run on top of MongoDB with the following configuration:
+Launch it with $ ponte -c config.js.
+Configuration with Redis
+Ponte can be run on top of Redis with the following configuration:
+Launch it with $ ponte -c config.js.
+Configuration with MQTT and Redis
+Ponte can be run on top of MQTT broker while using Redis (or similarly MongoDB) with the following configuration:
+Configuration with authentication and authorization callbacks
+Launch it with $ ponte -c config.js.
+Pub/Sub Brokers
+Ponte is based on
+Ascoltatori, so it supports the same backends:
+RabbitMQ and all implementations of
+the AMQP protocol.
+Redis, the fabulous key/value store by
+@antirez.
+Mosquitto and all implementations of the
+MQTT protocol.
+MongoDB, the documental NoSQL that
+is revolutionizing how web apps are built.
+ZeroMQ without a central broker, so
+Ascoltatori can also be used in a P2P fashion.
+Persistence
+Ponte requires a persistent storage for HTTP syndication and MQTT
+support.
+At the current state, it uses Mosca
+persistence layer.
+Thus, it offers several persitence options:
+Memory,
+LevelUp,
+Redis,
+MongoDB
+All of them can be configured from the configuration file, under the
+persistence key. The only exception is LevelUp, which can be specified
+by using the --db option from the command line.
+To do
+These are the new features you should expect in the coming
+months:
+Add Web Hooks support.
+Document configuration options.
+Add WebSocket and Server-Sent Events support.
+Add a Web App for reading and writing.
+Standalone persistence layer.
+Any help is very welcome, so feel free to submit a pull-request.
+Eclipse, QEST and Ponte
+Ponte is a proposal at Eclipse, and this is a pure-JS rewrite of
+QEST in Javascript and on top of
+Mosca.
+You can find the Eclipse Project Proposal here:
+http://eclipse.org/proposals/technology.ponte/
+Contributing to Ponte
+Check out the latest master to make sure the feature hasn't been
+implemented or the bug hasn't been fixed yet
+Check out the issue tracker to make sure someone already hasn't
+requested it and/or contributed it
+Fork the project
+Start a feature/bugfix branch
+Commit and push until you are happy with your contribution
+Make sure to add tests for it. This is important so I don't break it
+in a future version unintentionally.
+Please try not to mess with the Makefile and package.json. If you
+want to have your own version, or is otherwise necessary, that is
+fine, but please isolate to its own commit so I can cherry-pick around
+it.
+LICENSE
+Ponte is dual licensed under the "Eclipse Public License - v 1.0" and the
+"Eclipse Distribution License - v 1.0".
+KeywordsnoneInstallnpm i ponteDownloadsWeekly Downloads22Version0.0.16LicenseEPL-1.0 OR BSD-3-ClauseHomepagegithub.com/eclipse/ponte#readmeRepositoryGitgithub.com/eclipse/ponteLast publish5 years agoCollaboratorsTry on RunKitReport malwareSupportHelpCommunityAdvisoriesStatusContact npmCompanyAboutBlogPressTerms & PoliciesPoliciesTerms of UseCode of ConductPrivacy
+Ponte - M2M Bridge Framework for REST developers | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+ProjectsWorking GroupsMembers Community MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Breadcrumbs
+HomeProposalsPonte - M2M Bridge Framework for RE...
+This page is deprecated and may contain some information that is no longer relevant or accurate.
+Ponte - M2M Bridge Framework for REST developers
+Ponte - M2M Bridge Framework for REST developers
+The Ponte project is a proposed open source project under the
+Eclipse Technology Project.
+This proposal is in the Project Proposal Phase (as defined in the
+Eclipse Development Process) and is written to declare its intent and
+scope. We solicit additional participation and input from the Eclipse
+community. Please send all feedback to the
+Eclipse Proposals
+Forum.
+Background
+The advent of the World Wide Web revolutionized the way we work, communicate, socialize,
+and how business is done: the Internet has become one the most pervasive technology.
+Recently, smartphones and mobile broadband enabled us to carry the Internet in our pocket,
+seamlessy integrating it in our lives.
+However, everyday objects remain disconnected from the virtual world, while the "Internet of Things" (IoT)
+movement is exploring how to interconnect them.
+This technology shift is supposed to be greater than the advent of mobile phones, and a 2020 scenario
+where non-phone interconnected devices will be 10 times the phone devices (50 vs 5 billions) is foreseen.
+Billions of interconnected devices is a challenge for the whole Internet and for the objects themselves,
+and in order to operate at that scale several major issues should be resolved.
+Billions of interconnected devices is a challenge for software developers: every device must be able to
+communicate to every other possible device. However, there is no lingua franca between all these devices.
+The devices, often called Machines, can be divided into sensors and actuators.
+Sensors reacts to events from the real world, while actuators reacts to events from the virtual one.
+Thus, event processing is a core feature of every IoT project. Most event processing systems are built
+around the popular publish/subscribe pattern. As of today, there exist several protocols for interconnecting machines,
+and they all fall under the label Machine-To-Machine (M2M).
+The requirements of machines and people are distinctly different, and it may be hard to define a protocol
+and the associated best practices to statisfy both of them. However, we can address these compelling requirements
+by bridging these protocols, and let developers access the M2M world from within their comfort zone.
+See also: Introducing the QEST broker: Scaling the IoT by bridging MQTT and REST
+M Collina, GE Corazza, A Vanelli-Coralli - Personal Indoor and Mobile Radio Communications, 2012.
+Matteo Collina's Presentation at EclipseCon France 2013: "Exposing M2M to the REST of us"
+GitHub - eclipse/ponte: Ponte Project
+Exposing M2M to the REST of us from Matteo Collina
+Scope
+The scope of the Ponte project is threefold:
+Define a simple REST API to expose the machines needs through REST, exposing multiple protocols (MQTT, CoAP) through the same API.
+Embrace multiple data formats, such as JSON, XML, Msgpack, Bysant and provide ways to automatically convert between them;
+eventually, common representation of sensors and actuators data will be defined (or adopted from Paho).
+Define and build a user-driven security solution to support the communication between all these devices.
+Description
+The following are the plan items for the Ponte project:
+Build a reusable solution for bridging several M2M protocols to REST:
+Formalize a REST API for reading, writing and accessing the history of sensors and actuators.
+Expose the MQ Telemetry Transport, also hosted within Eclipse, through the REST API.
+Expose the Constrained Application Protocol (CoAP), which is being standardized by the IETF, through the REST API.
+Define an internal API for adding new protocols easily, through plugins.
+Define a a JSON-based support for message formats, and add converters between them.
+The converters API should be exposed to Ponte through plugins.
+Study an OAuth 2 solution that can be embedded inside the machines,
+to allow the end user, and eventually the owner, to authorize or deny every access.
+Why Eclipse?
+In recent years, Eclipse has attracted several machine-to-machine projects, such as Paho, Koneki and Mihini. Thanks to all these contributions, the Eclipse Software Foundation has built an thriving community of M2M developers.
+The initial contribution of Ponte is based upon QEST, which is developed as part of Matteo Collina's Ph.D. This project has the aim to build a platform to make the developing of new, M2M solution easy for web developers.
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Code review
+Project management
+Integrations
+Actions
+Packages
+Security
+Team management
+Hosting
+Mobile
+Customer stories →
+Security →
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn & contribute
+Topics
+Collections
+Trending
+Initial Contribution
+All the source code of QEST, an initial implementation for bridging REST and MQTT world, which is available at GitHub: http://github.com/mcollina/qest.
+QEST is written in CoffeeScript, but it is in the process of migrating to plain Javascript.
+Licenses
+Ponte will be dual licensed under the Eclipse Public License (EPL) 1.0
+and Eclipse Distribution License (EDL) 1.0.
+Legal Issues
+As QEST is built on top of Node.js, the framework dependency needs to be approved. Moreover, the permission of moving QEST to Eclipse will be needed by the University of Bologna.
+Committers
+The following individuals are proposed as initial committers to the project:
+Matteo Collina, University of Bologna
+We welcome additional committers and contributions.
+Mentors
+The following Architecture Council members will mentor this
+project:
+Benjamin Cabé, Sierra Wireless
+Ian Bull, EclipseSource
+Interested Parties
+The following individuals, organisations, companies and projects have
+expressed interest in this project:
+University of Bologna
+Sierra Wireless
+Gregor Schiele, Digital Enterprise Research Institute
+Andy Piper, Eclipse Paho project co-lead
+Werner Keil, Eclipse UOMo Project lead
+Learning Lab
+Open source guides
+Connect with others
+Events
+Community forum
+GitHub Education
+GitHub Stars program
+Marketplace
+Pricing
+Plans →
+Compare plans
+Contact Sales
+Nonprofit →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+Toby Jaffey
+Rupen Patel, Mercurium
+Mavigex
+Niranjan Shukla, Accenture
+Vatsal Shah, Litmus Automation
+Project Scheduling
+Changes to this Document
+18-Jul-2013
+One more interested party
+03-Jul-2013
+One more interested party
+12-Jun-2013
+One more interested party
+06-Jun-2013
+Added "Exposing M2M to the REST of us" presentation done at EclipseCon France 2013
+27-May-2013
+Added new mentor and interested parties
+24-May-2013
+Added interested parties
+09-May-2013
+Document created
+Links
+Proposals
+Back to the top
+Eclipse Foundation
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+ponte
+Watch
+51
+Star
+348
+Fork
+60
+Ponte Project
+View license
+348
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+stars
+60
+forks
+Star
+Watch
+Code
+Issues
+25
+Pull requests
+3
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Dismiss
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+GitHub is where the world builds software
+Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+Sign up for free
+Dismiss
+master
+4
+branches
+0
+tags
+Go to file
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+Go back
+Latest commit
+Git stats
+59
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+artwork
+bin
+examples
+lib
+public
+test
+.gitignore
+.npmignore
+.travis.yml
+LICENSE-EDL
+LICENSE-EPL
+README.md
+architecture.ai
+architecture.png
+edl-v10.html
+epl-v10.html
+notice.html
+package.json
+View code
+README.md
+Ponte
+Ponte is a multi-transport Internet of Things / Machine to Machine broker.
+As the current state it supports MQTT and REST
+APIs over HTTP and CoAP.
+Ponte is under active development, but it should work :).
+If you plan to use Ponte in production
+let us know, we'll be more than
+happy to help you getting started and solve any issue you'll find out.
+A test instance of ponte is available at ponte.eclipse.org, on HTTP,
+MQTT and CoAP standard ports.
+Report bugs at the Eclipse
+Bugzilla
+and join the mailing list.
+Installation
+Ponte is a node.js application, so it needs node.js
+to run. The currently recommended version is node 4.3.1, which is the Longtime Support Version. Ponte is tested against versions 0.12, 4.3.1 and 5. Attention: you should currently not use ponte with node 5.7
+$ npm install ponte bunyan -g
+$ ponte -v | bunyan
+Then you can connect to it with your preferred MQTT,
+CoAP or
+HTTP client.
+Command Line Options
+$ ./bin/ponte --help
+Usage: ponte [options]
+Options:
+-h, --help output usage information
+-V, --version output the version number
+-m, --mqtt-port <n> the mqtt port to listen to
+-p, --http-port <n> the http port to listen to
+-a, --coap-port <n> the coap port to listen to
+--host <host> the host to listen to
+--coap-host <host> the host to listen to for coap requests
+--mqtt-host <host> the host to listen to for mqtt requests
+--http-host <host> the host to listen to for http requests
+-d, --db <path> the path were to store the database
+-c, --config <c> the config file to use (override every other option)
+-v, --verbose set the bunyan log to INFO
+--very-verbose set the bunyan log to DEBUG
+Usage Example
+Start ponte:
+$ ponte -v | bunyan
+Publishing from HTTP to MQTT
+Publish from HTTP:
+$ curl -X PUT -d 'world' http://localhost:3000/resources/hello
+The messages from HTTP are retained, which means that are sent to
+every new subscriber.
+Subscribe using mosquitto_sub (mosquitto):
+$ mosquitto_sub -t "hello" -v
+hello world
+Publishing from MQTT to HTTP
+In order to publish a message that can be read from HTTP,
+a MQTT client needs to set the retain flag.
+This is how it is done using mosquitto_pub:
+$ mosquitto_pub -t hello-from-mqtt -m "world" -r
+Reading the published value is an HTTP GET away:
+$ curl http://localhost:3000/resources/hello-from-mqtt
+world
+Publishing from CoAP to MQTT
+You can send CoAP messages from the command line using coap-cli
+In the following example we do a CoAP PUT to a resource:
+$ echo -n 'world' | coap put coap://localhost/r/hello
+Subscribe using mosquitto_sub (mosquitto):
+$ mosquitto_sub -t "hello" -v
+hello world
+Publishing MQTT to CoAP
+In order to publish a message that can be read from CoAP,
+a MQTT client needs to set the retain flag.
+This is how it is done using mosquitto_pub:
+$ mosquitto_pub -t hello-from-mqtt -m "world" -r
+In order to receive the live updates with CoAP, we need to
+use the observe switch:
+$ coap -o coap://localhost/r/hello-from-mqtt
+Embedding
+Ponte can be run in embbedded mode, by listening to specific events:
+var ponte = require("ponte");
+var opts = {
+logger: {
+level: 'info'
+},
+http: {
+port: 3000 // tcp
+},
+mqtt: {
+port: 3001 // tcp
+},
+coap: {
+port: 3000 // udp
+},
+persistence: {
+type: 'level',
+path: './db'
+}
+};
+var server = ponte(opts);
+console.log("Resource Updated", resource, buffer);
+});
+// Stop the server after 1 minute
+console.log("server stopped");
+});
+}, 60 * 1000);
+Configuration
+Configuration with MongoDB
+Ponte can be run on top of MongoDB with the following configuration:
+module.exports = {
+persistence: {
+// same as http://mcollina.github.io/mosca/docs/lib/persistence/mongo.js.html
+type: "mongo",
+url: "mongodb://localhost:27017/ponte"
+},
+broker: {
+// same as https://github.com/mcollina/ascoltatori#mongodb
+type: "mongo",
+url: "mongodb://localhost:27017/ponte"
+},
+logger: {
+level: 30, // or 20 or 40
+name: "MongoPonte"
+}
+};
+Launch it with $ ponte -c config.js.
+Configuration with Redis
+Ponte can be run on top of Redis with the following configuration:
+module.exports = {
+persistence: {
+// same as http://mcollina.github.io/mosca/docs/lib/persistence/redis.js.html
+type: "redis",
+host: "localhost"
+},
+broker: {
+// same as https://github.com/mcollina/ascoltatori#redis
+type: "redis",
+host: "localhost"
+},
+logger: {
+level: 20,
+name: "Config Test Logger"
+}
+};
+Launch it with $ ponte -c config.js.
+Configuration with MQTT and Redis
+Ponte can be run on top of MQTT broker while using Redis (or similarly MongoDB) with the following configuration:
+module.exports = {
+persistence: {
+// same as http://mcollina.github.io/mosca/docs/lib/persistence/redis.js.html
+type: "redis",
+host: "localhost"
+},
+broker: {
+// same as https://github.com/mcollina/ascoltatori#mqtt
+type: "mqtt",
+port: "2883",
+host: "localhost"
+},
+logger: {
+level: 20,
+name: "Config Test Logger"
+}
+};
+Configuration with authentication and authorization callbacks
+module.exports = {
+coap: {
+/**
+*/
+// Examples:
+// Error: callback(error);
+// Not authenticated: callback(null, false);
+},
+/**
+*/
+// Examples:
+// Error: callback(error);
+// Authorized: callback(null, true);
+// Not authorized: callback(null, false);
+},
+/**
+*/
+// Examples:
+// Error: callback(error);
+// Authorized: callback(null, true);
+// Not authorized: callback(null, false);
+}
+},
+http: {
+/**
+*/
+// See coap.authenticate
+},
+/**
+*/
+// See coap.authorizeGet
+},
+/**
+*/
+// See coap.authorizePut
+}
+},
+mqtt: {
+/**
+* @link https://github.com/mcollina/mosca/wiki/Authentication-&-Authorization
+*/
+// ...
+},
+// ...
+},
+// ...
+}
+}
+}
+Launch it with $ ponte -c config.js.
+Pub/Sub Brokers
+Ponte is based on
+Ascoltatori, so it supports the same backends:
+RabbitMQ and all implementations of
+the AMQP protocol.
+Redis, the fabulous key/value store by
+@antirez.
+Mosquitto and all implementations of the
+MQTT protocol.
+MongoDB, the documental NoSQL that
+is revolutionizing how web apps are built.
+ZeroMQ without a central broker, so
+Ascoltatori can also be used in a P2P fashion.
+Persistence
+Ponte requires a persistent storage for HTTP syndication and MQTT
+support.
+At the current state, it uses Mosca
+persistence layer.
+Thus, it offers several persitence options:
+Memory,
+LevelUp,
+Redis,
+MongoDB
+All of them can be configured from the configuration file, under the
+persistence key. The only exception is LevelUp, which can be specified
+by using the --db option from the command line.
+To do
+These are the new features you should expect in the coming
+months:
+Add Web Hooks support.
+Document configuration options.
+Add WebSocket and Server-Sent Events support.
+Add a Web App for reading and writing.
+Standalone persistence layer.
+Any help is very welcome, so feel free to submit a pull-request.
+Eclipse, QEST and Ponte
+Ponte is a proposal at Eclipse, and this is a pure-JS rewrite of
+QEST in Javascript and on top of
+Mosca.
+You can find the Eclipse Project Proposal here:
+http://eclipse.org/proposals/technology.ponte/
+Contributing to Ponte
+Install [JavaScript Standard Style] (https://github.com/feross/standard)
+$ npm i -g standard
+Check out the latest master to make sure the feature hasn't been
+implemented or the bug hasn't been fixed yet
+Check out the issue tracker to make sure someone already hasn't
+requested it and/or contributed it
+Fork the project
+Start a feature/bugfix branch
+Commit and push until you are happy with your contribution
+Make sure to add tests for it. This is important so I don't break it
+in a future version unintentionally.
+Please try not to mess with the Makefile and package.json. If you
+want to have your own version, or is otherwise necessary, that is
+fine, but please isolate to its own commit so I can cherry-pick around
+it.
+LICENSE
+Ponte is dual licensed under the "Eclipse Public License - v 1.0" and the
+"Eclipse Distribution License - v 1.0".
+About
+Ponte Project
+Resources
+Readme
+License
+View license
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 8
+Languages
+JavaScript
+85.1%
+HTML
+14.9%
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Cookie Preferences
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+Learn more.
+Accept
+Reject
+We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+You can always update your selection by clicking Cookie Preferences at the bottom of the page.
+For more information, see our Privacy Statement.
+Essential cookies
+Learn more
+Always active
+Analytics cookies
+We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task.
+Learn more
+Accept
+Reject
+Save preferences
+Mailing list: ponte-dev (110 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: ponte-dev (110 subscribers)
+Ponte project developer discussions
+About ponte-dev
+Ponte project developer discussions
+Using ponte-dev
+To post a message to all the list members,
+send email to ponte-dev@eclipse.org. You must be subscribed
+to the list before you can post. To access a web archive of this list, visit the ponte-dev Archives or subscribe to this list's RSS feed
+Subscribing ponte-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: ponte-devRSS Feed
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+ponte-dev
+http://dev.eclipse.org/mhonarc/lists/ponte-dev/maillist.html
+ponte-dev
+en-us
+Thu, 09 Jan 2020 16:55:16 GMT
+Thu, 09 Jan 2020 16:55:16 GMT
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+ponte-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/ponte-dev/maillist.html
+[ponte-dev] Fast-track committer access for Mark Healey on Eclipse Ponte
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00012.html
+[ponte-dev] Fast-track committer access for Mark Healey on Eclipse Ponte
+Tue, 10 Jul 2018 17:36:21 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00012.html
+benjamin.cabe@xxxxxxx (Benjamin Cabé)
+[ponte-dev] Moving to Gerrit.
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00011.html
+[ponte-dev] Moving to Gerrit.
+Mon, 11 Jun 2018 19:08:51 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00011.html
+webmaster@xxxxxxx (Eclipse Webmaster)
+[ponte-dev] Vote for Committer status for Jovan Kostovski has failed
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00010.html
+[ponte-dev] Vote for Committer status for Jovan Kostovski has failed
+Thu, 31 Aug 2017 04:00:02 GMT
+Index of ponte-dev for July 2018
+ponte-dev
+http://dev.eclipse.org/mhonarc/lists/ponte-dev/maillist.html
+ponte-dev
+en-us
+Thu, 09 Jan 2020 16:55:16 GMT
+Thu, 09 Jan 2020 16:55:16 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00010.html
+portal-noreply@xxxxxxx (portal on behalf of emo)
+[ponte-dev] Committer vote for Jovan Kostovski has been approved by the PMC
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00009.html
+[ponte-dev] Committer vote for Jovan Kostovski has been approved by the PMC
+Tue, 02 May 2017 17:50:01 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00009.html
+portal-noreply@xxxxxxx (portal on behalf of portal-noreply)
+[ponte-dev] Committer vote for Jovan Kostovski has concluded successfully
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00008.html
+[ponte-dev] Committer vote for Jovan Kostovski has concluded successfully
+Tue, 02 May 2017 17:38:01 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00008.html
+portal-noreply@xxxxxxx (portal on behalf of )
+[ponte-dev] Vote for Committer status for Jovan Kostovski was started by Matteo Collina
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00007.html
+[ponte-dev] Vote for Committer status for Jovan Kostovski was started by Matteo Collina
+Tue, 02 May 2017 17:38:01 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00007.html
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+ponte-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/ponte-dev/maillist.html
+[ponte-dev] Fast-track committer access for Mark Healey on Eclipse Ponte
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00012.html
+[ponte-dev] Fast-track committer access for Mark Healey on Eclipse Ponte
+Tue, 10 Jul 2018 17:36:21 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00012.html
+benjamin.cabe@xxxxxxx (Benjamin Cabé)
+[ponte-dev] Moving to Gerrit.
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00011.html
+[ponte-dev] Moving to Gerrit.
+Mon, 11 Jun 2018 19:08:51 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00011.html
+webmaster@xxxxxxx (Eclipse Webmaster)
+[ponte-dev] Vote for Committer status for Jovan Kostovski has failed
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00010.html
+[ponte-dev] Vote for Committer status for Jovan Kostovski has failed
+Thu, 31 Aug 2017 04:00:02 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00010.html
+portal-noreply@xxxxxxx (portal on behalf of )
+[ponte-dev] FW: [iot-pmc] Future of Eclipse Ponte - call to action!
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00006.html
+[ponte-dev] FW: [iot-pmc] Future of Eclipse Ponte - call to action!
+Mon, 14 Nov 2016 16:57:29 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00006.html
+benjamin@xxxxxxx (Benjamin Cabé)
+[ponte-dev] What makes good API tutorials
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00005.html
+[ponte-dev] What makes good API tutorials
+Tue, 29 Mar 2016 04:26:31 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00005.html
+jingxuanzhang@xxxxxxx (jingxuanzhang)
+Re: [ponte-dev] Webhooks support
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00004.html
+Re: [ponte-dev] Webhooks support
+Sat, 21 Jun 2014 14:13:51 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00004.html
+matteo.collina@xxxxxxx (Matteo Collina)
+Re: [ponte-dev] Webhooks support
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00003.html
+Re: [ponte-dev] Webhooks support
+Sun, 15 Jun 2014 17:04:20 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00003.html
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+portal-noreply@xxxxxxx (portal on behalf of emo)
+[ponte-dev] Committer vote for Jovan Kostovski has been approved by the PMC
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00009.html
+[ponte-dev] Committer vote for Jovan Kostovski has been approved by the PMC
+Tue, 02 May 2017 17:50:01 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00009.html
+portal-noreply@xxxxxxx (portal on behalf of portal-noreply)
+[ponte-dev] Committer vote for Jovan Kostovski has concluded successfully
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00008.html
+[ponte-dev] Committer vote for Jovan Kostovski has concluded successfully
+Tue, 02 May 2017 17:38:01 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00008.html
+portal-noreply@xxxxxxx (portal on behalf of )
+[ponte-dev] Vote for Committer status for Jovan Kostovski was started by Matteo Collina
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00007.html
+[ponte-dev] Vote for Committer status for Jovan Kostovski was started by Matteo Collina
+Tue, 02 May 2017 17:38:01 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00007.html
+portal-noreply@xxxxxxx (portal on behalf of )
+[ponte-dev] FW: [iot-pmc] Future of Eclipse Ponte - call to action!
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00006.html
+[ponte-dev] FW: [iot-pmc] Future of Eclipse Ponte - call to action!
+Mon, 14 Nov 2016 16:57:29 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00006.html
+benjamin@xxxxxxx (Benjamin Cabé)
+niranjan.shukla@xxxxxxx (Niranjan Shukla)
+Ponte is a multi-transport Internet of Things / Machine to Machine broker.
+As the current state it supports MQTT and REST
+APIs over HTTP and CoAP.
+Ponte is under active development, but it should work :).
+If you plan to use Ponte in production
+let us know, we'll be more than
+happy to help you getting started and solve any issue you'll find out.
+A test instance of ponte is available at ponte.eclipse.org, on HTTP,
+MQTT and CoAP standard ports.
+Report bugs at the Eclipse
+Bugzilla
+and join the mailing list.
+Installation
+Ponte is a node.js application, so it needs node.js
+to run. The currently recommended version is node 4.3.1, which is the Longtime Support Version. Ponte is tested against versions 0.12, 4.3.1 and 5. Attention: you should currently not use ponte with node 5.7
+$ npm install ponte bunyan -g
+$ ponte -v | bunyan
+Then you can connect to it with your preferred MQTT,
+CoAP or
+HTTP client.
+Command Line Options
+$ ./bin/ponte --help
+Usage: ponte [options]
+Options:
+-h, --help output usage information
+-V, --version output the version number
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+Index of ponte-dev for July 2018
+Index by Thread Index by Year [First Page] [Prev Page][Next Page] [Last Page]July 10, 2018[ponte-dev] Fast-track committer access for Mark Healey on Eclipse Ponte Posted 13:36 by Benjamin Cabé
+Mail converted by MHonArc
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+[ponte-dev] What makes good API tutorials
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00005.html
+[ponte-dev] What makes good API tutorials
+Tue, 29 Mar 2016 04:26:31 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00005.html
+jingxuanzhang@xxxxxxx (jingxuanzhang)
+Re: [ponte-dev] Webhooks support
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00004.html
+Re: [ponte-dev] Webhooks support
+Sat, 21 Jun 2014 14:13:51 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00004.html
+matteo.collina@xxxxxxx (Matteo Collina)
+Re: [ponte-dev] Webhooks support
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00003.html
+Re: [ponte-dev] Webhooks support
+Sun, 15 Jun 2014 17:04:20 GMT
+http://www.eclipse.org/mhonarc/lists/ponte-dev/msg00003.html
+niranjan.shukla@xxxxxxx (Niranjan Shukla)
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Welcome to Eclipse
+-m, --mqtt-port <n> the mqtt port to listen to
+-p, --http-port <n> the http port to listen to
+-a, --coap-port <n> the coap port to listen to
+--host <host> the host to listen to
+--coap-host <host> the host to listen to for coap requests
+--mqtt-host <host> the host to listen to for mqtt requests
+--http-host <host> the host to listen to for http requests
+-d, --db <path> the path were to store the database
+-c, --config <c> the config file to use (override every other option)
+-v, --verbose set the bunyan log to INFO
+--very-verbose set the bunyan log to DEBUG
+Usage Example
+Start ponte:
+$ ponte -v | bunyan
+Publishing from HTTP to MQTT
+Publish from HTTP:
+$ curl -X PUT -d 'world' http://localhost:3000/resources/hello
+The messages from HTTP are retained, which means that are sent to
+every new subscriber.
+Subscribe using mosquitto_sub (mosquitto):
+$ mosquitto_sub -t "hello" -v
+hello world
+Publishing from MQTT to HTTP
+In order to publish a message that can be read from HTTP,
+a MQTT client needs to set the retain flag.
+This is how it is done using mosquitto_pub:
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+$ mosquitto_pub -t hello-from-mqtt -m "world" -r
+Reading the published value is an HTTP GET away:
+$ curl http://localhost:3000/resources/hello-from-mqtt
+world
+Publishing from CoAP to MQTT
+You can send CoAP messages from the command line using coap-cli
+In the following example we do a CoAP PUT to a resource:
+$ echo -n 'world' | coap put coap://localhost/r/hello
+Subscribe using mosquitto_sub (mosquitto):
+$ mosquitto_sub -t "hello" -v
+hello world
+Publishing MQTT to CoAP
+In order to publish a message that can be read from CoAP,
+a MQTT client needs to set the retain flag.
+This is how it is done using mosquitto_pub:
+$ mosquitto_pub -t hello-from-mqtt -m "world" -r
+In order to receive the live updates with CoAP, we need to
+use the observe switch:
+$ coap -o coap://localhost/r/hello-from-mqtt
+Embedding
+Ponte can be run in embbedded mode, by listening to specific events:
+var ponte = require("ponte");
+var opts = {
+logger: {
+level: 'info'
+},
+http: {
+port: 3000 // tcp
+},
+mqtt: {
+port: 3001 // tcp
+},
+coap: {
+port: 3000 // udp
+},
+persistence: {
+type: 'level',
+path: './db'
+}
+};
+var server = ponte(opts);
+console.log("Resource Updated", resource, buffer);
+});
+// Stop the server after 1 minute
+console.log("server stopped");
+});
+}, 60 * 1000);
+Configuration
+Configuration with MongoDB
+Ponte can be run on top of MongoDB with the following configuration:
+module.exports = {
+persistence: {
+// same as http://mcollina.github.io/mosca/docs/lib/persistence/mongo.js.html
+type: "mongo",
+url: "mongodb://localhost:27017/ponte"
+},
+broker: {
+// same as https://github.com/mcollina/ascoltatori#mongodb
+type: "mongo",
+url: "mongodb://localhost:27017/ponte"
+},
+logger: {
+level: 30, // or 20 or 40
+name: "MongoPonte"
+}
+};
+Launch it with $ ponte -c config.js.
+Configuration with Redis
+Ponte can be run on top of Redis with the following configuration:
+module.exports = {
+persistence: {
+// same as http://mcollina.github.io/mosca/docs/lib/persistence/redis.js.html
+type: "redis",
+host: "localhost"
+},
+broker: {
+// same as https://github.com/mcollina/ascoltatori#redis
+type: "redis",
+host: "localhost"
+},
+logger: {
+level: 20,
+name: "Config Test Logger"
+}
+};
+Launch it with $ ponte -c config.js.
+Configuration with MQTT and Redis
+Ponte can be run on top of MQTT broker while using Redis (or similarly MongoDB) with the following configuration:
+module.exports = {
+persistence: {
+// same as http://mcollina.github.io/mosca/docs/lib/persistence/redis.js.html
+type: "redis",
+host: "localhost"
+},
+broker: {
+// same as https://github.com/mcollina/ascoltatori#mqtt
+type: "mqtt",
+port: "2883",
+host: "localhost"
+},
+logger: {
+level: 20,
+name: "Config Test Logger"
+}
+};
+Configuration with authentication and authorization callbacks
+module.exports = {
+coap: {
+/**
+*/
+// Examples:
+// Error: callback(error);
+// Not authenticated: callback(null, false);
+},
+/**
+*/
+// Examples:
+// Error: callback(error);
+// Authorized: callback(null, true);
+// Not authorized: callback(null, false);
+},
+/**
+*/
+// Examples:
+// Error: callback(error);
+// Authorized: callback(null, true);
+// Not authorized: callback(null, false);
+}
+},
+http: {
+/**
+*/
+// See coap.authenticate
+},
+/**
+*/
+// See coap.authorizeGet
+},
+/**
+*/
+// See coap.authorizePut
+}
+},
+mqtt: {
+/**
+* @link https://github.com/mcollina/mosca/wiki/Authentication-&-Authorization
+*/
+// ...
+},
+// ...
+},
+// ...
+}
+}
+}
+Launch it with $ ponte -c config.js.
+Pub/Sub Brokers
+Ponte is based on
+Ascoltatori, so it supports the same backends:
+RabbitMQ and all implementations of
+the AMQP protocol.
+Redis, the fabulous key/value store by
+@antirez.
+Mosquitto and all implementations of the
+MQTT protocol.
+MongoDB, the documental NoSQL that
+is revolutionizing how web apps are built.
+ZeroMQ without a central broker, so
+Ascoltatori can also be used in a P2P fashion.
+Persistence
+Ponte requires a persistent storage for HTTP syndication and MQTT
+support.
+At the current state, it uses Mosca
+persistence layer.
+Thus, it offers several persitence options:
+Memory,
+LevelUp,
+Redis,
+MongoDB
+All of them can be configured from the configuration file, under the
+persistence key. The only exception is LevelUp, which can be specified
+by using the --db option from the command line.
+To do
+These are the new features you should expect in the coming
+months:
+[ ] Add Web Hooks support.
+[ ] Document configuration options.
+[ ] Add WebSocket and Server-Sent Events support.
+[ ] Add a Web App for reading and writing.
+[ ] Standalone persistence layer.
+Any help is very welcome, so feel free to submit a pull-request.
+Eclipse, QEST and Ponte
+Ponte is a proposal at Eclipse, and this is a pure-JS rewrite of
+QEST in Javascript and on top of
+Mosca.
+You can find the Eclipse Project Proposal here:
+http://eclipse.org/proposals/technology.ponte/
+Contributing to Ponte
+Check out the latest master to make sure the feature hasn't been
+implemented or the bug hasn't been fixed yet
+Check out the issue tracker to make sure someone already hasn't
+requested it and/or contributed it
+Fork the project
+Start a feature/bugfix branch
+Commit and push until you are happy with your contribution
+Make sure to add tests for it. This is important so I don't break it
+in a future version unintentionally.
+Please try not to mess with the Makefile and package.json. If you
+want to have your own version, or is otherwise necessary, that is
+fine, but please isolate to its own commit so I can cherry-pick around
+it.
+LICENSE
+Ponte is dual licensed under the "Eclipse Public License - v 1.0" and the
+"Eclipse Distribution License - v 1.0".
+Metadatapackage on npmhttps://npmjs.com/package/pontelicenseEPL-1.0 OR BSD-3-Clause×RunKit is a free, in-browser JavaScript dev environment for prototyping Node.js code, with every npm package installed. Sign up to share your code.Sign Up for Free

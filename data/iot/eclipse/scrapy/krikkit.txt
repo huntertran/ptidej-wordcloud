@@ -1,0 +1,642 @@
+Eclipse Krikkit | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Krikkit
+Primary tabsOverview(active tab)
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+The Krikkit architecture is a publish/subscribe mechanism where rules/policies are registered on edge routers/gateways that have visibility into and communicate with sensors. The rules can be used to describe what data should be acquired. For example, we can acquire data based on network parameters such as protocol, IP address or port. We can also specify that content payload that matches certain criteria should be processed. For example, we could write a rule that says we wish to acquire data from sensors where the temperature is within a certain range. The Krikkit library provides the API and runs in the user's programming environment and can be linked against. In essence, a user writes a C program that specifies what data he is interested in. The API helps the user translate this program into a standard and open JSON format encapsulated as a REST message that can be understood by any edge device that supports the Krikkit API. A key part of the project is to work towards community consensus (de facto standardization) regarding the format of the JSON format used to express a policy. This policy is then sent by the API to the edge device of interest using a RESTful communication paradigm. This is the publish part of the architecture.
+An edge device supporting the Krikkit API will listen to the REST messages containing the JSON payloads that express the rules and will register them. A component of Krikkit runs on the edge devices and translates the rules from JSON format to the internal format of the device. The device will be responsible for translating the JSON messages into internal representations that it can understand since these representations are specific to each device. Traffic that flows through the device will be searched against the rules. The devices may have the ability to index and search the payload and content in the sensor data and also to execute queries on the payload. In this manner, the data at the edge of the network can be searched in real-time using the API to discover nuggets of information from the mountain of raw data. The rules may also specify what should be done with the matching traffic. Results of successful hits could be sent (again in a RESTful manner) to an endpoint which will be listening for responses from the edge device. This is the subscribe part of the architecture.
+Licenses: Eclipse Public License 1.0
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Krikkit | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Downloads
+Eclipse Krikkit
+Primary tabsOverview
+Downloads(active tab)
+Who's Involved
+Developer Resources
+Governance
+Contact Us
+This project has not provided download information.
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Krikkit | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Governance
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Krikkit
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance(active tab)
+Contact Us
+Scope: The Krikkit Eclipse project provides an API through a software library that will enable a user or developer to 'program' IoT edge devices such as sensor gateways and make it easy to acquire and manage data. Such a library could also potentially be used as a plug-in in Eclipse frameworks to ease the programming of IoT devices.
+Specifically, Krikkit library provides a REST ful API for a programmer to specify and describe the data of interest. The edge devices may also have the ability to understand the semantics of the content/payload of the sensor data. The API, in this case can also be used to write queries describing the content which if matched against can result in further actions.
+The API translates these policies into an open format that can be understood by the edge devices. Krikkit also includes in its scope the format and definition for the JSON messages that will be used to communicate with the devices.
+Different edge devices may have different internal representations and different capabilities. For example, not all edge devices may be able to understand and search the payload. The scope of the proposal is only to describe what data is to be acquired, not the specification on how the capabilities of the device are to be implemented or even what the capabilities should be. The proposal also does not specify how the rules are to be represented internally on the edge devices.
+Working Group: Internet of Things (IoT)Reviews:
+NameDate
+Termination Review2017-10-18
+Top-level Project Creation Review2014-08-13
+Project Links
+Proposal
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Eclipse Krikkit | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Who's Involved
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Krikkit
+Primary tabsOverview
+Downloads
+Who's Involved(active tab)
+Developer Resources
+Governance
+Eclipse Krikkit | projects.eclipse.org
+Contact Us
+Project Members: Historical Committers
+Phuong Tran
+Raghuram Sudhaakar
+Vijay Subramanian
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Contact Us
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Krikkit
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources
+Governance
+Eclipse Krikkit | projects.eclipse.org
+Contact Us(active tab)
+Developer Mailing List: krikkit-dev -
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Developer Resources
+×
+Warning message
+This project is archived. Some links on this page may not work.
+Eclipse Krikkit
+Primary tabsOverview
+Downloads
+Who's Involved
+Developer Resources(active tab)
+Governance
+Contact Us
+Report a Bug View Help wanted Bugs View Open Bugs Summarize Bugs
+Project Links
+Dev Mailing List
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Krikkit | The Eclipse Foundation
+Skip to main content
+Log in
+Manage Cookies
+Download
+ProjectsWorking GroupsMembers Community MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Breadcrumbs
+HomeProposalsKrikkit
+This page is deprecated and may contain some information that is no longer relevant or accurate.
+Krikkit
+Krikkit
+The Krikkit project is a proposed open source project under the Technology
+Top-level Project.
+This proposal is in the Project Proposal Phase (as defined in the
+Eclipse Development Process) and is written to declare its intent and
+scope. We solicit additional participation and input from the Eclipse
+community. Please send all feedback to the Eclipse
+Proposals Forum.
+Background
+The next step in the evolution of the Internet is what is being
+termed as The Internet of Things or IoT (also referred to as Internet
+of Everything in some contexts). It is expected that the next phase
+will see a paradigm shift in the way we communicate with a host of low
+powered devices such as sensors. As billions of sensor devices and
+nodes are attached to the network, they will generate vast amounts of
+data that will need to be processed. The amount of data generated will
+dwarf the already huge amount of Internet traffic generates today. The
+amount of processing that is required to sift through this raw data to
+glean useful information and knowledge will be huge and it will be a
+challenge to do it efficiently with current approaches. The current
+approach of "store first, analyze later" where all the data is
+processed in the cloud/backend at a later time may not be feasible not
+only due to the large amounts of data but also the need to take
+actions in real time based on the streaming data i.e. on data that is
+in motion and not static.
+To address these forthcoming challenges, we need to rethink the
+way we acquire and manage data. Instead of capturing all the data to
+be processed at the edge, we need a way to instruct the low powered,
+memory and resource constrained edge devices such as sensors and
+sensor gateways as to what data is of interest and what aspects of it
+to capture. From a user point of view, not all data is of interest and
+the ability to set rules/policies on the edge devices along with
+capabilities to search the data in real time and trigger subsequent
+actions will engender powerful advantages. The key benefit would be
+dramatic bandwidth reduction as we reduce the amount of data being
+sent back by eliminating data that is not needed. Secondly, devices at
+the edge may have the ability to understand the data and the ability
+to query the devices for semantic information available in sensor data
+will be valuable.
+To realize this vision of acquiring and managing data in motion
+in real time, we need a mechanism to communicate with the edge devices
+and a common language for doing so. This communication must provide
+the ability to set rules to describe data of interest, ability to
+understand and search the data including content and payload and the
+ability to trigger actions (e.g. actuate sensors) in response to
+events conditioned on rules. This proposal attempts to address the
+need for such a communication paradigm by providing an
+publish/subscribe architecture and API. This API will enable users to
+program the edge devices to acquire, search and deliver only data of
+interest while minimizing the bandwidth requirements. This will allow
+the scalability needed to manage a large number of devices in the IoT
+space.
+Scope
+The Krikkit Eclipse project provides an API through a software
+library that will enable a user or developer to 'program' IoT edge devices
+such as sensor gateways and make it easy to acquire and manage data. Such a
+library could also potentially be used as a plug-in in Eclipse
+frameworks to ease the programming of IoT devices.
+Specifically, Krikkit library provides a REST ful API for a
+programmer to specify and describe the data of interest. The edge
+devices may also have the ability to understand the semantics of the
+content/payload of the sensor data. The API, in this case can also be
+used to write queries describing the content which if matched against
+can result in further actions.
+The API translates these policies into an open format that can
+be understood by the edge devices. Krikkit also includes in its scope
+the format and definition for the JSON messages that will be used to
+communicate with the devices.
+Different edge devices may have different internal
+representations and different capabilities. For example, not all edge
+devices may be able to understand and search the payload. The scope of
+the proposal is only to describe what data is to be acquired, not the
+specification on how the capabilities of the device are to be
+implemented or even what the capabilities should be. The proposal also
+does not specify how the rules are to be represented internally on the
+edge devices.
+Description
+The Krikkit architecture is a publish/subscribe mechanism where
+rules/policies are registered on edge routers/gateways that have
+visibility into and communicate with sensors. The rules can be used to
+describe what data should be acquired. For example, we can acquire
+data based on network parameters such as protocol, IP address or port.
+We can also specify that content payload that matches certain criteria
+should be processed. For example, we could write a rule that says we
+wish to acquire data from sensors where the temperature is within a
+certain range. The Krikkit library provides the API and runs in the
+user's programming environment and can be linked against. In essence,
+a user writes a C program that specifies what data he is interested
+in. The API helps the user translate this program into a standard and
+open JSON format encapsulated as a REST message that can be understood
+by any edge device that supports the Krikkit API. A key part of the
+project is to work towards community consensus (de facto
+standardization) regarding the format of the JSON format used to
+express a policy. This policy is then sent by the API to the edge
+device of interest using a RESTful communication paradigm. This is the
+publish part of the architecture.
+An edge device supporting the Krikkit API will listen to the REST
+messages containing the JSON payloads that express the rules and will
+register them. A component of Krikkit runs on the edge devices and
+translates the rules from JSON format to the internal format of the
+device. The device will be responsible for translating the JSON
+messages into internal representations that it can understand since
+these representations are specific to each device. Traffic that flows
+through the device will be searched against the rules. The devices may
+have the ability to index and search the payload and content in the
+sensor data and also to execute queries on the payload. In this
+manner, the data at the edge of the network can be searched in
+real-time using the API to discover nuggets of information from the
+mountain of raw data. The rules may also specify what should be done
+with the matching traffic. Results of successful hits could be sent
+(again in a RESTful manner) to an endpoint which will be listening for
+responses from the edge device. This is the subscribe part of the
+architecture.
+Why Eclipse?
+There are currently several machine-to-machine and IoT related
+projects under the Eclipse Foundation umbrella. Since this a related
+area of work, we would like to leverage the expertise and community
+around these projects. Moreover, we see some areas where we can
+co-ordinate with existing projects such as the Ponte project which
+already aims to build a flexible M2M RESTful communication framework.
+Beyond this, we would like to contribute to the programmability
+of IoT devices by releasing open source software. This open source
+implementation of the API will accelerate the deployment of IoT
+devices.
+The Eclipse Foundation can help is in achieving the goals above
+and we see it as a perfect vehicle to take our vision of IoT forward.
+Initial Contribution
+Our existing code implements our vision of the API described
+above. The code is still being extended to support additional features
+and community feedback is expressly desired.
+Code copyright is held by Cisco Systems. There are no libraries
+beyond normal C libraries. The project will use the Eclipse Public
+License.
+The code contains 2 components:
+1: The main component is a C library that provides an API (the
+Krikkit API ) that allows a user to specify the policy expressing how
+to acquire the data and what to do with it. The library runs in the
+user's programming environment and converts the API inputs into a JSON
+payload, encapsulates it in a REST message and registers it at the
+edge device. To make it easier to use the Krikkit library, a plug-in
+for Eclipse frameworks may be provided.
+2: The second component is the software running on the edge
+device that parses the JSON payload of incoming policies and
+translates them into a format understood by the edge device. Since
+different edge devices may have different internal formats that
+describe different capabilities, we will provide a simple reference
+example. The translation of the JSON payload into internal device
+representation and the way it is used is beyond the scope of this
+proposal. What will be provided is only an example of how this can be
+done.
+Legal Issues
+As far as we know, there are no legal issues associated with
+this project. There are no trademark issues relating to the project
+name. All the code was written for this project with the intention to release
+it inder the Eclipe Public License. The API currently supports the
+ability to use SSL for communication for which the OpenSSL package is
+being used.
+Committers
+The following individuals are proposed as initial committers to
+the project:
+Vijay Subramanian, Cisco Systems
+Raghuram Sudhaakar, Cisco Systems
+We welcome additional committers and contributions.
+Mentors
+The following Architecture Council members will mentor this
+project:
+Naci Dai
+Denis Roy
+Interested Parties
+The following individuals, organisations, companies and projects
+have expressed interest in this project:
+Wes Johnson, Eurotech
+Davra Networks
+Project Scheduling
+Changes to this Document
+Date
+Change
+11-October-2013
+Document created
+Links
+Proposals
+Back to the top
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Raghuram Sudhaakar is a Committer for Krikkit | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Raghuram Sudhaakar is a Committer for Krikkit
+Raghuram Sudhaakar is a Committer for Krikkit
+User: Raghuram SudhaakarProject: Eclipse KrikkitType: CommitterStatus: InactiveActive: Thursday, April 24, 2014 to Thursday, October 19, 2017
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Vijay Subramanian is a Committer for Krikkit | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Vijay Subramanian is a Committer for Krikkit
+Vijay Subramanian is a Committer for Krikkit
+User: Vijay SubramanianProject: Eclipse KrikkitType: CommitterStatus: InactiveActive: Monday, April 7, 2014 to Thursday, October 19, 2017
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Termination Review | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Termination Review
+Eclipse Krikkit Termination Review
+Type: TerminationState: SuccessfulEnd Date of the Review Period: Reviews run for a minimum of one week. The outcome of the review is decided on this date. This is the last day to make comments or ask questions about this review.Wednesday, October 18, 2017Project: Eclipse KrikkitThere is no activity on this project. It has been determined that we are going to archive it.
+Sign in to post comments.
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Peter Tran is a Committer for Krikkit | projects.eclipse.org
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+projects.eclipse.org
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Home
+Projects
+Eclipse IoT
+Eclipse Krikkit
+Peter Tran is a Committer for Krikkit
+Peter Tran is a Committer for Krikkit
+User: Phuong TranProject: Eclipse KrikkitType: CommitterStatus: InactiveActive: Friday, October 17, 2014 to Thursday, October 19, 2017
+Related Projects
+Related Projects:Eclipse IoTEclipse Ponte
+Project Hierarchy:Eclipse IoT
+Eclipse Krikkit
+Tags
+Technology TypesInternet of Things
+Mailing list: krikkit-dev (0 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+Runtime
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: krikkit-dev (0 subscribers)
+This is not a valid mailing list
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top

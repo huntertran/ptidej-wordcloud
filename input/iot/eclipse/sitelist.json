@@ -1,0 +1,26 @@
+[
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://camel.apache.org/"
+    },
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://ignite.apache.org/"
+    },
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "http://iotdb.apache.org/"
+    },
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://plc4x.apache.org/"
+    }
+]
