@@ -78,8 +78,6 @@ def create_link(sitelist_file_path, linked_keyword_filepath):
     project_names = []
     link_keywords = []
 
-    # file_path = './data/sitelist.json'
-
     with open(sitelist_file_path, 'r') as dataFile:
         site_data_list = json.load(dataFile, object_hook=Site.decode_object)
 
