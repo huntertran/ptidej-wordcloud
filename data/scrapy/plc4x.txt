@@ -1,0 +1,44 @@
+PLC4X –
+Home
+Users
+Developers
+Apache
+The universal
+protocol adapter for
+Industrial IoT
+PLC4X is a set of libraries
+for
+communicating with
+industrial
+programmable logic controllers (PLCs) using a variety of protocols but with a shared API.
+Get started
+Connect your shopfloor assets without retrofit.
+In contrast to other approaches, Apache PLC4X lets you connect your
+industrial assets without needing to modify them.
+Integrations.
+PLC4X comes with many built-in integrations to further process your asset data.
+Apache Calcite
+Apache Camel
+Apache Edgent
+Apache IoTDB
+Apache Kafka
+Apache Nifi
+Apache StreamPipes (incubating)
+Eclipse Ditto
+Previous
+Next
+Secure by design.
+Not only are PLC4X drivers implemented with security in mind, also our passive-mode drivers bring to you guaranteed side-effect-freeness without the need to pay for validated software.
+Get the performance you need.
+Most approaches like OPC-UA currently don't deliver the performance needed for machine learning, deep learning and AI. PLC4X allows you to get the data volumes in the resolutions needed, without stressing out your industrial hardware.
+No license costs, no restrictive licenses.
+Being open source, PLC4X is free of charge. Start experimenting
+without worrying about license costs or shady license agreements. The Apache 2.0 is one of the worlds most trusted and adopted open source licenses out there.
+Get the commercial support you need.
+Just because you can download and use PLC4X for free doesn't mean that you're left on your own. Some of our community member's companies can also provide you with the commercial support you need.
+Copyright © 2017–2021 The Apache Software Foundation.
+All rights reserved.
+Apache PLC4X, PLC4X, Apache, the Apache feather logo, and the Apache PLC4X project logo are either registered trademarks or trademarks of The Apache Software Foundation in the United States and other countries. All other marks mentioned may be trademarks or registered trademarks of their respective owners.
+Home screen image taken from Flickr, "Tesla Robot Dance" by Steve Jurvetson, licensed
+under CC BY 2.0 Generic, image cropped
+and blur effect added.

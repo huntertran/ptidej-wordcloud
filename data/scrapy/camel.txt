@@ -1,0 +1,2807 @@
+Home - Apache Camel Blog Documentation Community Download Apache Camel Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data. Get Started What is Camel? What's New? 28 May 2021 RELEASE 2.25.4 The Camel community announces the immediate availability of Camel 2.25.4... Read More 28 May 2021 Webinar Integrate Systems in the Age of Camel and Quarkus 45 min webinar covering latest with Apache Camel, Camel Quarkus, Camel K and Kamelets... Read More 21 May 2021 Apache Camel 3.10 What's New Details of what we have done in the Camel 3.10 release.... Read More Why Camel? Based on Enterprise Integration Patterns Camel supports most of the Enterprise Integration Patterns from the excellent book by Gregor Hohpe and Bobby Woolf, and newer integration patterns from microservice architectures to help you solve your integration problem by applying best practices out of the box. Read more on EIP Runs Everywhere Apache Camel is standalone, and can be embedded as a library within Spring Boot, Quarkus, Application Servers, and in the clouds. Camel subprojects focus on making your work easy. Go to Camel Subprojects Packed with Components Packed with several hundred components that are used to access databases, message queues, APIs or basically anything under the sun. Helping you integrate with everything. Go to Component Reference Supports over 50 Data Formats Camel supports around 50 data formats, allowing to translate messages in multiple formats, and with support from industry standard formats from finance, telco, health-care, and more. See Supported Formats Apache Camel Projects Camel Core Apache Camel helps you integrate various systems consuming or producing data. Read More Camel K Apache Camel K is a lightweight integration framework that runs natively on Kubernetes. Read More Camel Quarkus Apache Camel Quarkus packages 280+ Camel components as Quarkus extensions. Read More Camel Kafka Connector Apache Camel Kafka Connector embeds Camel within Kafka Connect. Read More Camel Spring Boot Apache Camel Spring Boot runs Camel on Spring Boot and provides starters for Camel components. Read More Camel Karaf Apache Camel Karaf makes running Apache Camel components to run in the OSGi environment. Read More Apache & OpenSource Camel is your project! Camel is an Apache Software Foundation project, available under the Apache v2 license. It’s a complete open community, always listening to proposals and comments. Sources, mailing lists, issue tracker: it’s fully open, you can access directly. We also love contributions: don’t hesitate to contribute. You can contribute by editing this page! Be Involved In The Community | How To Contribute Edit this Page Back to top Overview＋ Blog Documentation Community Download Documentation＋ User Manual Components Camel-K Camel Kafka Connector Camel Quarkus Camel Spring Boot Camel Karaf FAQ Community＋ Support Contributing Mailing Lists User stories Articles Books Team About＋ Acknowledgments Apache Events License Security Sponsorship Thanks © 2004-2021 The Apache Software Foundation. Apache Camel, Camel, Apache, the Apache feather logo, and the Apache Camel project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Privacy Policy Code of Conduct Sitemap
+camel
+Log in
+Sign up
+Log in to Zulip
+camel
+https://camel.zulipchat.com
+Apache Camel official chat room
+Email
+Password
+Log in
+OR
+Log in with Google
+Log in with GitHub
+Log in with GitLab
+Forgot your password?
+Sign up
+About Zulip
+Home
+Why Zulip
+Features
+Plans & pricing
+Team and History
+Help & community
+Community chat
+Help center
+Twitter & Blog
+GitHub
+& ReadTheDocs
+Support
+Accounts
+New organization
+Log in
+Sign up
+Terms of Service
+Privacy policy
+Apps & integrations
+Desktop & mobile apps
+Integrations
+REST API
+Sign in to GitHub · GitHub
+Skip to content
+GitHub no longer supports this web browser.
+Learn more about the browsers we support.
+Sign in to GitHub
+Username or email address
+Password
+Forgot password?
+New to GitHub?
+Create an account.
+Terms
+Privacy
+Security
+Contact GitHub
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+JavaScript is not available.
+We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using twitter.com. You can see a list of supported browsers in our Help Center.
+Help Center
+Terms of Service
+Privacy Policy
+Cookie Policy
+Imprint
+Ads info
+© 2021 Twitter, Inc.
+Something went wrong, but don’t fret — let’s give it another shot.
+GitHub - apache/camel: Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+apache
+/
+camel
+Notifications
+Star
+3.8k
+Fork
+4.3k
+Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
+camel.apache.org
+Apache-2.0 License
+3.8k
+stars
+4.3k
+forks
+Star
+Notifications
+Code
+Pull requests
+3
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+main
+Switch branches/tags
+Branches
+Tags
+View all branches
+View all tags
+39
+branches
+178
+tags
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio Code
+Your codespace will open once ready.
+There was a problem preparing your codespace, please try again.
+Latest commit
+davsclaus
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+…
+6f6ec77
+Jun 12, 2021
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+6f6ec77
+Git stats
+53,029
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+.github
+GH Action: Point the create pull request to main as base
+Apr 21, 2021
+.mvn
+CAMEL-15488: upgrade to maven wrapper 0.5.6
+Oct 2, 2020
+apache-camel
+Exclude docs/node and docs/.yarn from assembly
+Jun 8, 2021
+archetypes
+Skip checkstyle for maven archetypes
+Jun 11, 2021
+bom
+CAMEL-16674: Regen
+Jun 9, 2021
+buildingtools
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+camel-dependencies
+Sync deps
+Jun 11, 2021
+catalog
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+components
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+core
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+docs
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+dsl
+yaml-dsl: make it simple to configure route local beans
+Jun 11, 2021
+etc
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+init
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+parent
+Upgrade OWASP Maven Plugin to version 6.2.2
+Jun 11, 2021
+test-infra
+CAMEL-16698: do log when unable to determine docker availability (#5634)
+Jun 10, 2021
+tests
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+tooling
+Move huawei components into middle folder
+Jun 10, 2021
+.asf.yaml
+Update .asf.yaml
+Nov 9, 2020
+.gitattributes
+Update Maven wrapper to version 0.4.0
+Mar 10, 2018
+.gitignore
+add linting setup for gulpfile
+Jun 16, 2020
+.gitmodules
+Added tibdex/backport gh action as submodule
+Feb 1, 2021
+CONTRIBUTING.md
+CAMEL-16576: minor fixes to new CONTRIBUTING.md
+May 10, 2021
+Jenkinsfile
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+Jenkinsfile.deploy
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+Jenkinsfile.full.pipeline
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+Jenkinsfile.jdk11
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+Jenkinsfile.jdk16
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+KEYS
+Added Andrea Tarocchi (a.k.a. valdar) PGP key
+Dec 3, 2020
+LICENSE.txt
+Update License file
+Jun 8, 2021
+NOTICE.txt
+Updated Notice file
+Jun 8, 2021
+README.md
+Fix links in README.md. Change site.yml to antora-playbook.yml in how…
+May 10, 2021
+doap.rdf
+Fixing doap JIRA link
+Oct 18, 2019
+mvnw
+CAMEL-15488: upgrade to maven wrapper 0.5.6
+Oct 2, 2020
+mvnw.cmd
+CAMEL-15488: upgrade to maven wrapper 0.5.6
+Oct 2, 2020
+pom.xml
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+View code
+Apache Camel
+Introduction
+Components
+Examples
+Getting Started
+Licensing
+README.md
+Apache Camel
+Apache Camel is a powerful, open-source integration framework based on prevalent
+Enterprise Integration Patterns with powerful bean integration.
+Introduction
+Camel enables the creation of the Enterprise Integration Patterns to implement routing
+and mediation rules in either a Java-based Domain Specific Language (or Fluent API),
+via Spring or Blueprint based Xml Configuration files, or via the Scala DSL.
+That means you get smart completion of routing rules in your IDE whether
+in your Java, Scala, or XML editor.
+Apache Camel uses URIs to enable easier integration with all kinds of
+transport or messaging model including HTTP, ActiveMQ, JMS, JBI, SCA, MINA
+or CXF together with working with pluggable Data Format options.
+Apache Camel is a small library that has minimal dependencies for easy embedding
+in any Java application. Apache Camel lets you work with the same API regardless of the
+transport type, making it possible to interact with all the components provided out-of-the-box,
+with a good understanding of the API.
+Apache Camel has powerful Bean Binding and integrated seamlessly with
+popular frameworks such as Spring, CDI, and Blueprint.
+Apache Camel has extensive testing support allowing you to easily
+unit test your routes.
+Components
+Apache Camel comes alongside several artifacts with components, data formats, languages, and kinds.
+The up to date list is available online at the Camel website:
+Components: https://camel.apache.org/components/latest/
+Data Formats: https://camel.apache.org/components/latest/dataformats/
+Languages: https://camel.apache.org/components/latest/languages/
+Miscellaneous: https://camel.apache.org/components/latest/#_miscellaneous_components
+Examples
+Apache Camel comes with many examples.
+The up to date list is available online at GitHub:
+Examples: https://github.com/apache/camel-examples/tree/main/examples#welcome-to-the-apache-camel-examples
+Getting Started
+To help you get started, try the following links:
+Getting Started
+https://camel.apache.org/getting-started.html
+The beginner examples are another powerful alternative pathway for getting started with Apache Camel.
+Examples: https://github.com/apache/camel-examples/tree/main/examples#welcome-to-the-apache-camel-examples
+Building
+https://camel.apache.org/building.html
+Contributions
+We welcome all kinds of contributions, the details of which are specified here:
+https://github.com/apache/camel/blob/main/CONTRIBUTING.md
+Please refer to the website for details of finding the issue tracker,
+email lists, GitHub, chat
+Website: https://camel.apache.org/
+Github (source): https://github.com/apache/camel
+Issue tracker: https://issues.apache.org/jira/projects/CAMEL
+Mailing-list: https://camel.apache.org/community/mailing-list/
+Chat: https://camel.zulipchat.com/
+StackOverflow: https://stackoverflow.com/questions/tagged/apache-camel
+Twitter: https://twitter.com/ApacheCamel
+Support
+For additional help, support, we recommend referencing this page first:
+https://camel.apache.org/community/support/
+Getting Help
+If you get stuck somewhere, please feel free to reach out to us on either StackOverflow, Chat, or the email mailing list.
+Please help us make Apache Camel better - we appreciate any feedback
+you may have.
+Enjoy!
+The Camel riders!
+Licensing
+The terms for software licensing are detailed in the LICENSE.txt file,
+located in the working directory.
+This distribution includes cryptographic software. The country in
+which you currently reside may levy restrictions on the import,
+possession, use, and re-export to foreign countries of
+encryption software. BEFORE using any encryption software, please
+check your country's laws, regulations, and policies concerning the
+import, possession, or use, and re-export of encryption software, to
+see if this is permitted. See http://www.wassenaar.org/ for more
+information.
+The U.S. Government Department of Commerce, Bureau of Industry and
+Security (BIS) has classified this software as Export Commodity
+Control Number (ECCN) 5D002.C.1, which includes information security
+algorithms. The form and manner of this Apache Software Foundation
+distribution makes it eligible for export under the License Exception
+ENC Technology Software Unrestricted (TSU) exception (see the BIS
+Export Administration Regulations, Section 740.13) for both object
+code and source code.
+The following provides more details on the included cryptographic
+software:
+camel-ahc can be configured to use https.
+camel-atmosphere-websocket can be used for secure communications.
+camel-crypto can be used for secure communications.
+camel-cxf can be configured for secure communications.
+camel-ftp can be configured for secure communications.
+camel-http can be configured to use https.
+camel-infinispan can be configured for secure communications.
+camel-jasypt can be used for secure communications.
+camel-jetty can be configured to use https.
+camel-mail can be configured for secure communications.
+camel-nagios can be configured for secure communications.
+camel-netty-http can be configured to use https.
+camel-undertow can be configured to use https.
+camel-xmlsecurity can be configured for secure communications.
+About
+Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
+camel.apache.org
+Topics
+java
+integration
+camel
+Resources
+Readme
+License
+Apache-2.0 License
+Releases
+178
+tags
+Packages 0
+No packages published
+Used by 10
++ 2
+Contributors 763
++ 752 contributors
+Languages
+Java
+99.1%
+Groovy
+0.3%
+XSLT
+0.3%
+HTML
+0.2%
+JavaScript
+0.1%
+Kotlin
+0.0%
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+GitHub - apache/camel: Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Mailing Lists - Apache Camel Blog Documentation Community Download Mailing Lists Contents Use Camel User List Post plain text mails Use Camel User List You should post and subscribe to the Camel User List for all your questions on using Camel, or how to do X with Camel etc. If in doubt use this list. The Camel Developer List, is for the Camel team to discus development of the actual Camel project; do not use this list for questions on using Camel. Again to re-iterate, use the Camel User List, for your Camel questions. This is the correct mailing list, and has the most people there ready for helping you. Post plain text mails When posting to the mailing lists, use plain text mails. Do not use HTML mails. HTML mails is more likely to be targeted as spam mails and will be rejected; as well it’s not easily readable by others. List Name Address Subscribe Unsubscribe Archive Comment Camel User List users@camel.apache.org subscribe unsubscribe Archives Use this list for your Camel questions. Camel Developer List dev@camel.apache.org subscribe unsubscribe Archives Used by Camel contributors to discuss development of Camel. Camel Commits List commits@camel.apache.org subscribe unsubscribe Archives Notifications on changes to the Camel code Camel Issues List issues@camel.apache.org subscribe unsubscribe Archives Notifications of JIRA issues Edit this Page Back to top Overview＋ Blog Documentation Community Download Documentation＋ User Manual Components Camel-K Camel Kafka Connector Camel Quarkus Camel Spring Boot Camel Karaf FAQ Community＋ Support Contributing Mailing Lists User stories Articles Books Team About＋ Acknowledgments Apache Events License Security Sponsorship Thanks © 2004-2021 The Apache Software Foundation. Apache Camel, Camel, Apache, the Apache feather logo, and the Apache Camel project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Privacy Policy Code of Conduct Sitemap
+Support - Apache Camel Blog Documentation Community Download Support Contents Getting help Reporting bugs - Please read this first Reporting security issues Alternative discussion forums Using deprecated components How to get help How to get help faster Commercial Support Getting help If you are experiencing problems using Camel then please report your problem to our mailing list or Zulip chat. This allows the entire community to help with your problem. If indeed a bug has been identified in the Camel software, then document the problem in our Issue Tracker. Please refrain from immediately opening a ticket in the issue tracker unless you are certain it’s a problem in the Camel software. If you are in doubt, we appreciate asking the mailing list or Zulip chat first. Please read the section below (How to get help), and follow the bullets advised there first: Issue tracker FAQ Reporting bugs - Please read this first We prefer people to get in touch first using the mailing list, or Zulip chat. Or take time to read FAQs, or search in the mailing list archives to find answers. Unfortunately some people create a JIRA ticket as first thing. Please don’t do that! Only if you are sure it really is a bug etc. JIRA tickets create noise for the Camel team to react on issues that are not bugs but are already covered in FAQs, in the mailing lists etc., or in the existing documentation. Also on the mailing lists there are more people active to help you better. Also please avoid sending direct emails to members of the Camel team - we are busy already. And conversations about Camel should happen in the public, and not via private emails. Reporting security issues If you have found a security issue in Camel please contact the Apache Software Foundation security team. Don’t share the details in public (i.e. chat or users/developer mailing lists). We will receive details you send and resolve the issue as soon as possible. We might also contact you requesting further details as needed. Alternative discussion forums There’s a number of sites outside Apache that offer discussion forums on Camel. For example, Stack Overflow is a popular Q & A site with a dedicated Apache Camel forum. You are also likely to find helpful discussions on technical blogs, on Google, or even on Twitter. Using deprecated components Deprecated components are not supported and issues such as bugs may not be fixed. We encourage users to migrate away from using any deprecated component. A list of deprecated components is listed on the github page at: https://github.com/apache/camel/tree/master/components#components How to get help Before you report a problem, you may wish to read the FAQ. When you report an issue, please be sure to include as much information as possible. The more we know, the easier it is to reach an effective solution quickly. What version do you use What version of Camel do you use? Remember to include this information. what are the version numbers of involved software components? (this is very important to detail) what platform and JDK? any particular container being used? and if so, what version? stack traces generally really help! (Remember to post which version of Camel you use, this is important to know when posting stacktraces.) If in doubt, include the whole thing; often exceptions get wrapped in other exceptions and the exception right near the bottom explains the actual error, not the first few lines at the top. It’s very easy for us to skim-read past unnecessary parts of a stack trace. log output can be useful too; sometimes enabling DEBUG logging can help your code & configuration files are often useful did it work before? what have you changed to break it? try upgrading to the latest release and see if it’s fixed there try the latest SNAPSHOT to see if it’s fixed in the pre-release search the user forum to see if has been discussed before see the “known issues” section in the release notes and check the issue tracker to see if the issue has already been reported do not send private emails to Camel Team members to ask them to help you faster, or in the private only. Help on Apache Camel is volunteer based and must happen in the open on the public Mailing Lists. If you want to get help faster or in private, then see further below. How to get help faster We can help you much quicker if you try the following provide us with a JUnit test case that demonstrates your issue. e.g. if you think you’ve found a bug, can you create a test case to demonstrate the bug? submit a patch fixing the bug! (We also buy you beer when we meet you if you submit bug fixes (smile) ) for memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it’s huge) to the JIRA we can normally fix things much faster. For example, you could run jmap/jhat, JProfiler or YourKit on your code and send us the output. To find memory leaks it’s quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what’s wrong from that. Commercial Support This is an open source project, so the amount of time we have available to help resolve your issue is often limited as all help is provided on a volunteer basis. If you want to get priority help, need to get up to speed quickly, require some training or mentoring, or need full 24 x 7 production support you could contact one of the following companies with Commercial Camel Offerings. Edit this Page Back to top Overview＋ Blog Documentation Community Download Documentation＋ User Manual Components Camel-K Camel Kafka Connector Camel Quarkus Camel Spring Boot Camel Karaf FAQ Community＋ Support Contributing Mailing Lists User stories Articles Books Team About＋ Acknowledgments Apache Events License Security Sponsorship Thanks © 2004-2021 The Apache Software Foundation. Apache Camel, Camel, Apache, the Apache feather logo, and the Apache Camel project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Privacy Policy Code of Conduct Sitemap
+Expression Languages :: Apache Camel Blog Documentation Community Download Camel Components Components ActiveMQ AMQP ArangoDb AS2 Asterisk Async HTTP Client (AHC) Async HTTP Client (AHC) Websocket AtlasMap Atmos Atmosphere Websocket Atom Atomix Map Atomix Messaging Atomix MultiMap Atomix Queue Atomix Set Atomix Value Avro RPC AWS 2 AWS 2 Athena AWS 2 CloudWatch AWS 2 DynamoDB AWS 2 DynamoDB Streams AWS 2 Elastic Compute Cloud (EC2) AWS 2 Elastic Container Service (ECS) AWS 2 Elastic Kubernetes Service (EKS) AWS 2 Eventbridge AWS 2 Identity and Access Management (IAM) AWS 2 Key Management Service (KMS) AWS 2 Kinesis AWS 2 Kinesis Firehose AWS 2 Lambda AWS 2 Managed Streaming for Apache Kafka (MSK) AWS 2 MQ AWS 2 S3 Storage Service AWS 2 Security Token Service (STS) AWS 2 Simple Email Service (SES) AWS 2 Simple Notification System (SNS) AWS 2 Simple Queue Service (SQS) AWS 2 Translate AWS Secrets Manager Azure Azure CosmosDB Azure Event Hubs Azure Storage Blob Service Azure storage datalake service Azure Storage Queue Service Bean Bean Validator Beanstalk Bonita Box Braintree Browse Caffeine Cache Caffeine LoadCache Cassandra CQL ChatScript Chunk Class CM SMS Gateway CMIS CoAP CometD Consul Control Bus Corda Couchbase CouchDB Cron Crypto (JCE) CXF CXF-RS Data Format Dataset DataSet Test Debezium Debezium MongoDB Connector Debezium MySQL Connector Debezium PostgresSQL Connector Debezium SQL Server Connector Deep Java Library DigitalOcean Direct Direct VM Disruptor DNS Docker Dozer Drill Dropbox Ehcache Elasticsearch Rest ElSQL Etcd Keys Etcd Stats Etcd Watch Exec Facebook FHIR File File Watch Flatpack Flink FOP Freemarker FTP FTPS Ganglia Geocoder Git GitHub Google Google BigQuery Google BigQuery Standard SQL Google Calendar Google Calendar Stream Google Cloud Functions Google Drive Google Mail Google Mail Stream Google Pubsub Google Sheets Google Sheets Stream Google Storage Gora Grape GraphQL gRPC Guava EventBus Hazelcast Hazelcast Atomic Number Hazelcast Instance Hazelcast List Hazelcast Map Hazelcast Multimap Hazelcast Queue Hazelcast Replicated Map Hazelcast Ringbuffer Hazelcast SEDA Hazelcast Set Hazelcast Topic HBase HDFS HTTP Huawei Cloud FunctionGraph SimpleNotification IEC 60870 Client IEC 60870 Server Ignite Ignite Cache Ignite Compute Ignite Events Ignite ID Generator Ignite Messaging Ignite Queues Ignite Sets Infinispan Infinispan Embedded InfluxDB IOTA IPFS IRC IronMQ Javax Websocket JBPM JCache JClouds JCR JDBC Jetty Jetty Websocket JGroups JGroups raft Jing Jira JMS JMX JOLT JOOQ JPA JSLT JSON Schema Validator JSONata JT400 Kafka Kamelet Kamelet Reify Kubernetes Kubernetes ConfigMap Kubernetes Custom Resources Kubernetes Deployments Kubernetes HPA Kubernetes Job Kubernetes Namespaces Kubernetes Nodes Kubernetes Persistent Volume Kubernetes Persistent Volume Claim Kubernetes Pods Kubernetes Replication Controller Kubernetes Resources Quota Kubernetes Secrets Kubernetes Service Account Kubernetes Services Openshift Build Config Openshift Builds Kudu Language LDAP LDIF Log Lucene Lumberjack Mail Master Metrics Micrometer MicroProfile Metrics Mina Minio MLLP Mock MongoDB MongoDB GridFS MSV Mustache MVEL MyBatis MyBatis Bean Nagios Nats Netty Netty HTTP Nitrite NSQ OAI-PMH Olingo2 Olingo4 OPC UA Client OPC UA Server OpenStack OpenStack Cinder OpenStack Glance OpenStack Keystone OpenStack Neutron OpenStack Nova OpenStack Swift OptaPlanner Paho Paho MQTT 5 PDF Platform HTTP PostgresSQL Event PostgresSQL Replication Slot Printer Properties PubNub Pulsar Quartz QuickFix RabbitMQ Reactive Streams Ref REST REST API REST OpenApi REST Swagger Resteasy Robot Framework RSS Saga Salesforce SAP NetWeaver Scheduler Schematron SCP SEDA Service ServiceNow Servlet SFTP Simple JMS Simple JMS2 SIP Slack SMPP SNMP Solr Soroush Spark Splunk Splunk HEC Spring Spring Batch Spring Event Spring Integration Spring LDAP Spring Redis Spring WebService Spring JDBC Spring RabbitMQ SQL SQL Stored Procedure SSH StAX Stitch Stomp Stream String Template Stub Telegram Thrift Tika Timer Twilio Twitter Direct Message Twitter Search Twitter Timeline Undertow Validator Velocity Vert.x Vert.x HTTP Client Vert.x Kafka Vert.x WebSocket VM Weather Web3j Ethereum Blockchain Webhook Weka Wordpress Workday XChange XJ XML Security Sign XML Security Verify XMPP XQuery XSLT XSLT Saxon Yammer Zendesk ZooKeeper ZooKeeper Master Data Formats Any23 ASN.1 File Avro Avro Jackson Barcode Base64 BeanIO Bindy CBOR Crypto (Java Cryptographic Extension) CSV FHIR JSon FHIR XML Flatpack Grok GZip Deflater HL7 iCal JacksonXML JAXB JSON Fastjson JSON Gson JSON Jackson JSON Johnzon JSON JSON-B JSON XStream JSonApi LZF Deflate Compression MIME Multipart PGP Protobuf Protobuf Jackson RSS SOAP Syslog Tar File Thrift TidyMarkup uniVocity CSV uniVocity Fixed Length uniVocity TSV XML Security XStream YAML SnakeYAML Zip Deflate Compression Zip File Languages Bean method Constant CSimple DataSonnet ExchangeProperty File Groovy Header HL7 Terser jOOR JsonPath MVEL OGNL Ref Simple SpEL Tokenize XML Tokenize XPath XQuery Miscellaneous Components Attachments AWS XRay Caffeine Lrucache CDI CSimple jOOR CXF Transport Elytron Etcd3 Headersmap Hystrix Jasypt Jfr JTA Kamelet Main LevelDB LevelDB-legacy LRA Main Microprofile Config Microprofile Fault Tolerance Microprofile Health Openapi Java OpenTelemetry OpenTracing Platform Http Vertx Reactive Executor Vert.x Reactor Redis Resilience4j Resourceresolver Github Ribbon RxJava Shiro Spring Java Configuration Spring Main Spring Security Spring Xml Swagger Java Test Test CDI Test JUnit5 Test Spring Test Spring JUnit5 Testcontainers Testcontainers JUnit5 Testcontainers Spring Testcontainers Spring Junit5 ThreadPoolFactory Vert.x ThreadPoolFactory Vert.x Tracing Undertow Spring Security Yaml Dsl Zipkin Enterprise Integration Patterns Aggregate Batch-config Bean Change Data Capture Channel Adapter Choice Circuit Breaker Claim Check Competing Consumers Composed Message Processor Content Based Router Content Enricher Content Filter Convert Body To Correlation Identifier Custom Load Balancer Dead Letter Channel Delay Durable Subscriber Dynamic Router Enrich Event Driven Consumer Event Message Failover Fault Tolerance Configuration Fault Tolerance EIP Filter From Guaranteed Delivery Hystrix Configuration Hystrix EIP (deprecated) Idempotent Consumer In Only In Out Intercept Kamelet Load Balance Log Loop Marshal EIP Message Message Broker Message Bus Message Channel Message Dispatcher Message Endpoint Message Expiration Message History Message Router Message Translator Messaging Bridge Messaging Gateway Messaging Mapper Multicast Normalizer On Fallback Otherwise Pipeline Point to Point Channel Poll Enrich Polling Consumer Process Process Manager Publish Subscribe Channel Random Recipient List Remove Header Remove Headers Remove Properties Remove Property Request Reply Resequence Resilience4j Configuration Resilience4j EIP Return Address Rollback Round Robin Routing Slip Saga Sample Scatter Gather Script Selective Consumer Service Activator Service Call Set Body Set Header Set Out Header EIP (deprecated) Set Property Sort Split Step Sticky Stop Stream-config Threads Throttle To To D Topic Transactional Client Transform Unmarshal EIP Validate Weighted When Wire Tap Camel Components latest User manual latest Camel Components latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) 2.x Camel K latest Camel Kafka Connector latest 0.7.x 0.4.x Kamelet Catalog latest Camel Karaf latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) Camel Quarkus latest Camel Spring Boot latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) Camel Components Languages latest latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) 2.x Edit this Page Expression Languages Below is the list of expression languages that are provided by Apache Camel. Number of Languages: 20 in 13 JAR artifacts (0 deprecated) Language Artifact Support Level Since Description Bean method camel-bean Stable 1.3 Call a method of the specified Java bean passing the Exchange, Body or specific headers to it. Constant camel-core-languages Stable 1.5 A fixed value set only once during the route startup. CSimple camel-core-languages Stable 3.7 Evaluate a compile simple expression language. DataSonnet camel-datasonnet Stable 3.7 To use DataSonnet scripts in Camel expressions or predicates. ExchangeProperty camel-core-languages Stable 2.0 Get the value of named Camel Exchange property. File camel-core-languages Stable 1.1 For expressions and predicates using the file/simple language. Groovy camel-groovy Stable 1.3 Evaluate a Groovy script. Header camel-core-languages Stable 1.5 Get the value of the named Camel Message header. HL7 Terser camel-hl7 Stable 2.11 Get the value of an HL7 message field specified by terse location specification syntax. jOOR camel-joor Stable 3.7 Evaluate a jOOR (Java compiled once at runtime) expression language. JsonPath camel-jsonpath Stable 2.13 Evaluate a JsonPath expression against a JSON message body. MVEL camel-mvel Stable 2.0 Evaluate an MVEL template against the Camel Exchange. OGNL camel-ognl Stable 1.1 Evaluate an Apache Commons Object Graph Navigation Library (OGNL) expression against the Camel Exchange. Ref camel-core-languages Stable 2.8 Look up an expression in the Camel Registry and evaluate it. Simple camel-core-languages Stable 1.1 Evaluate Camel’s built-in Simple language expression against the Camel Exchange. SpEL camel-spring Stable 2.7 Evaluate a Spring Expression Language (SpEL) expression against the Camel Exchange. Tokenize camel-core-languages Stable 2.0 Tokenize text payloads using the specified delimiter patterns. XML Tokenize camel-xml-jaxp Stable 2.14 Tokenize XML payloads using the specified path expression. XPath camel-xpath Stable 1.1 Evaluate an XPath expression against an XML payload. XQuery camel-saxon Stable 1.0 Evaluate an XQuery expressions against an XML payload. Back to top Overview＋ Blog Documentation Community Download Documentation＋ User Manual Components Camel-K Camel Kafka Connector Camel Quarkus Camel Spring Boot Camel Karaf FAQ Community＋ Support Contributing Mailing Lists User stories Articles Books Team About＋ Acknowledgments Apache Events License Security Sponsorship Thanks © 2004-2021 The Apache Software Foundation. Apache Camel, Camel, Apache, the Apache feather logo, and the Apache Camel project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Privacy Policy Code of Conduct Sitemap
+Data Formats :: Apache Camel Blog Documentation Community Download Camel Components Components ActiveMQ AMQP ArangoDb AS2 Asterisk Async HTTP Client (AHC) Async HTTP Client (AHC) Websocket AtlasMap Atmos Atmosphere Websocket Atom Atomix Map Atomix Messaging Atomix MultiMap Atomix Queue Atomix Set Atomix Value Avro RPC AWS 2 AWS 2 Athena AWS 2 CloudWatch AWS 2 DynamoDB AWS 2 DynamoDB Streams AWS 2 Elastic Compute Cloud (EC2) AWS 2 Elastic Container Service (ECS) AWS 2 Elastic Kubernetes Service (EKS) AWS 2 Eventbridge AWS 2 Identity and Access Management (IAM) AWS 2 Key Management Service (KMS) AWS 2 Kinesis AWS 2 Kinesis Firehose AWS 2 Lambda AWS 2 Managed Streaming for Apache Kafka (MSK) AWS 2 MQ AWS 2 S3 Storage Service AWS 2 Security Token Service (STS) AWS 2 Simple Email Service (SES) AWS 2 Simple Notification System (SNS) AWS 2 Simple Queue Service (SQS) AWS 2 Translate AWS Secrets Manager Azure Azure CosmosDB Azure Event Hubs Azure Storage Blob Service Azure storage datalake service Azure Storage Queue Service Bean Bean Validator Beanstalk Bonita Box Braintree Browse Caffeine Cache Caffeine LoadCache Cassandra CQL ChatScript Chunk Class CM SMS Gateway CMIS CoAP CometD Consul Control Bus Corda Couchbase CouchDB Cron Crypto (JCE) CXF CXF-RS Data Format Dataset DataSet Test Debezium Debezium MongoDB Connector Debezium MySQL Connector Debezium PostgresSQL Connector Debezium SQL Server Connector Deep Java Library DigitalOcean Direct Direct VM Disruptor DNS Docker Dozer Drill Dropbox Ehcache Elasticsearch Rest ElSQL Etcd Keys Etcd Stats Etcd Watch Exec Facebook FHIR File File Watch Flatpack Flink FOP Freemarker FTP FTPS Ganglia Geocoder Git GitHub Google Google BigQuery Google BigQuery Standard SQL Google Calendar Google Calendar Stream Google Cloud Functions Google Drive Google Mail Google Mail Stream Google Pubsub Google Sheets Google Sheets Stream Google Storage Gora Grape GraphQL gRPC Guava EventBus Hazelcast Hazelcast Atomic Number Hazelcast Instance Hazelcast List Hazelcast Map Hazelcast Multimap Hazelcast Queue Hazelcast Replicated Map Hazelcast Ringbuffer Hazelcast SEDA Hazelcast Set Hazelcast Topic HBase HDFS HTTP Huawei Cloud FunctionGraph SimpleNotification IEC 60870 Client IEC 60870 Server Ignite Ignite Cache Ignite Compute Ignite Events Ignite ID Generator Ignite Messaging Ignite Queues Ignite Sets Infinispan Infinispan Embedded InfluxDB IOTA IPFS IRC IronMQ Javax Websocket JBPM JCache JClouds JCR JDBC Jetty Jetty Websocket JGroups JGroups raft Jing Jira JMS JMX JOLT JOOQ JPA JSLT JSON Schema Validator JSONata JT400 Kafka Kamelet Kamelet Reify Kubernetes Kubernetes ConfigMap Kubernetes Custom Resources Kubernetes Deployments Kubernetes HPA Kubernetes Job Kubernetes Namespaces Kubernetes Nodes Kubernetes Persistent Volume Kubernetes Persistent Volume Claim Kubernetes Pods Kubernetes Replication Controller Kubernetes Resources Quota Kubernetes Secrets Kubernetes Service Account Kubernetes Services Openshift Build Config Openshift Builds Kudu Language LDAP LDIF Log Lucene Lumberjack Mail Master Metrics Micrometer MicroProfile Metrics Mina Minio MLLP Mock MongoDB MongoDB GridFS MSV Mustache MVEL MyBatis MyBatis Bean Nagios Nats Netty Netty HTTP Nitrite NSQ OAI-PMH Olingo2 Olingo4 OPC UA Client OPC UA Server OpenStack OpenStack Cinder OpenStack Glance OpenStack Keystone OpenStack Neutron OpenStack Nova OpenStack Swift OptaPlanner Paho Paho MQTT 5 PDF Platform HTTP PostgresSQL Event PostgresSQL Replication Slot Printer Properties PubNub Pulsar Quartz QuickFix RabbitMQ Reactive Streams Ref REST REST API REST OpenApi REST Swagger Resteasy Robot Framework RSS Saga Salesforce SAP NetWeaver Scheduler Schematron SCP SEDA Service ServiceNow Servlet SFTP Simple JMS Simple JMS2 SIP Slack SMPP SNMP Solr Soroush Spark Splunk Splunk HEC Spring Spring Batch Spring Event Spring Integration Spring LDAP Spring Redis Spring WebService Spring JDBC Spring RabbitMQ SQL SQL Stored Procedure SSH StAX Stitch Stomp Stream String Template Stub Telegram Thrift Tika Timer Twilio Twitter Direct Message Twitter Search Twitter Timeline Undertow Validator Velocity Vert.x Vert.x HTTP Client Vert.x Kafka Vert.x WebSocket VM Weather Web3j Ethereum Blockchain Webhook Weka Wordpress Workday XChange XJ XML Security Sign XML Security Verify XMPP XQuery XSLT XSLT Saxon Yammer Zendesk ZooKeeper ZooKeeper Master Data Formats Any23 ASN.1 File Avro Avro Jackson Barcode Base64 BeanIO Bindy CBOR Crypto (Java Cryptographic Extension) CSV FHIR JSon FHIR XML Flatpack Grok GZip Deflater HL7 iCal JacksonXML JAXB JSON Fastjson JSON Gson JSON Jackson JSON Johnzon JSON JSON-B JSON XStream JSonApi LZF Deflate Compression MIME Multipart PGP Protobuf Protobuf Jackson RSS SOAP Syslog Tar File Thrift TidyMarkup uniVocity CSV uniVocity Fixed Length uniVocity TSV XML Security XStream YAML SnakeYAML Zip Deflate Compression Zip File Languages Bean method Constant CSimple DataSonnet ExchangeProperty File Groovy Header HL7 Terser jOOR JsonPath MVEL OGNL Ref Simple SpEL Tokenize XML Tokenize XPath XQuery Miscellaneous Components Attachments AWS XRay Caffeine Lrucache CDI CSimple jOOR CXF Transport Elytron Etcd3 Headersmap Hystrix Jasypt Jfr JTA Kamelet Main LevelDB LevelDB-legacy LRA Main Microprofile Config Microprofile Fault Tolerance Microprofile Health Openapi Java OpenTelemetry OpenTracing Platform Http Vertx Reactive Executor Vert.x Reactor Redis Resilience4j Resourceresolver Github Ribbon RxJava Shiro Spring Java Configuration Spring Main Spring Security Spring Xml Swagger Java Test Test CDI Test JUnit5 Test Spring Test Spring JUnit5 Testcontainers Testcontainers JUnit5 Testcontainers Spring Testcontainers Spring Junit5 ThreadPoolFactory Vert.x ThreadPoolFactory Vert.x Tracing Undertow Spring Security Yaml Dsl Zipkin Enterprise Integration Patterns Aggregate Batch-config Bean Change Data Capture Channel Adapter Choice Circuit Breaker Claim Check Competing Consumers Composed Message Processor Content Based Router Content Enricher Content Filter Convert Body To Correlation Identifier Custom Load Balancer Dead Letter Channel Delay Durable Subscriber Dynamic Router Enrich Event Driven Consumer Event Message Failover Fault Tolerance Configuration Fault Tolerance EIP Filter From Guaranteed Delivery Hystrix Configuration Hystrix EIP (deprecated) Idempotent Consumer In Only In Out Intercept Kamelet Load Balance Log Loop Marshal EIP Message Message Broker Message Bus Message Channel Message Dispatcher Message Endpoint Message Expiration Message History Message Router Message Translator Messaging Bridge Messaging Gateway Messaging Mapper Multicast Normalizer On Fallback Otherwise Pipeline Point to Point Channel Poll Enrich Polling Consumer Process Process Manager Publish Subscribe Channel Random Recipient List Remove Header Remove Headers Remove Properties Remove Property Request Reply Resequence Resilience4j Configuration Resilience4j EIP Return Address Rollback Round Robin Routing Slip Saga Sample Scatter Gather Script Selective Consumer Service Activator Service Call Set Body Set Header Set Out Header EIP (deprecated) Set Property Sort Split Step Sticky Stop Stream-config Threads Throttle To To D Topic Transactional Client Transform Unmarshal EIP Validate Weighted When Wire Tap Camel Components latest User manual latest Camel Components latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) 2.x Camel K latest Camel Kafka Connector latest 0.7.x 0.4.x Kamelet Catalog latest Camel Karaf latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) Camel Quarkus latest Camel Spring Boot latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) Camel Components Data Formats latest latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) 2.x Edit this Page Data Formats Below is the list of data formats that are provided by Apache Camel. Number of Data Formats: 46 in 40 JAR artifacts (0 deprecated) Data Format Artifact Support Level Since Description Any23 camel-any23 Stable 3.0 Extract RDF data from HTML documents. ASN.1 File camel-asn1 Stable 2.20 Encode and decode data structures using Abstract Syntax Notation One (ASN.1). Avro camel-avro Stable 2.14 Serialize and deserialize messages using Apache Avro binary data format. Avro Jackson camel-jackson-avro Preview 3.10 Marshal POJOs to Avro and back using Jackson. Barcode camel-barcode Stable 2.14 Transform strings to various 1D/2D barcode bitmap formats and back. Base64 camel-base64 Stable 2.11 Encode and decode data using Base64. BeanIO camel-beanio Stable 2.10 Marshal and unmarshal Java beans to and from flat files (such as CSV, delimited, or fixed length formats). Bindy camel-bindy Stable 2.0 Marshal and unmarshal between POJOs and key-value pair (KVP) format using Camel Bindy CBOR camel-cbor Stable 3.0 Unmarshal a CBOR payload to POJO and back. Crypto (Java Cryptographic Extension) camel-crypto Stable 2.3 Encrypt and decrypt messages using Java Cryptography Extension (JCE). CSV camel-csv Stable 1.3 Handle CSV (Comma Separated Values) payloads. FHIR JSon camel-fhir Stable 2.21 Marshall and unmarshall FHIR objects to/from JSON. FHIR XML camel-fhir Stable 2.21 Marshall and unmarshall FHIR objects to/from XML. Flatpack camel-flatpack Stable 2.1 Marshal and unmarshal Java lists and maps to/from flat files (such as CSV, delimited, or fixed length formats) using Flatpack library. Grok camel-grok Stable 3.0 Unmarshal unstructured data to objects using Logstash based Grok patterns. GZip Deflater camel-zip-deflater Stable 2.0 Compress and decompress messages using java.util.zip.GZIPStream. HL7 camel-hl7 Stable 2.0 Marshal and unmarshal HL7 (Health Care) model objects using the HL7 MLLP codec. iCal camel-ical Stable 2.12 Marshal and unmarshal iCal (.ics) documents to/from model objects provided by the iCal4j library. JacksonXML camel-jacksonxml Stable 2.16 Unmarshal a XML payloads to POJOs and back using XMLMapper extension of Jackson. JAXB camel-jaxb Stable 1.0 Unmarshal XML payloads to POJOs and back using JAXB2 XML marshalling standard. JSON Fastjson camel-fastjson Stable 2.20 Marshal POJOs to JSON and back using Fastjson JSON Gson camel-gson Stable 2.10 Marshal POJOs to JSON and back using Gson JSON Jackson camel-jackson Stable 2.0 Marshal POJOs to JSON and back using Jackson JSON Johnzon camel-johnzon Stable 2.18 Marshal POJOs to JSON and back using Johnzon JSON JSON-B camel-jsonb Stable 3.7 Marshal POJOs to JSON and back using JSON-B. JSON XStream camel-xstream Stable 2.0 Marshal POJOs to JSON and back using XStream JSonApi camel-jsonapi Stable 3.0 Marshal and unmarshal JSON:API resources using JSONAPI-Converter library. LZF Deflate Compression camel-lzf Stable 2.17 Compress and decompress streams using LZF deflate algorithm. MIME Multipart camel-mail Stable 2.17 Marshal Camel messages with attachments into MIME-Multipart messages and back. PGP camel-crypto Stable 2.9 Encrypt and decrypt messages using Java Cryptographic Extension (JCE) and PGP. Protobuf camel-protobuf Stable 2.2 Serialize and deserialize Java objects using Google’s Protocol buffers. Protobuf Jackson camel-jackson-protobuf Preview 3.10 Marshal POJOs to Protobuf and back using Jackson. RSS camel-rss Stable 2.1 Transform from ROME SyndFeed Java Objects to XML and vice-versa. SOAP camel-soap Stable 2.3 Marshal Java objects to SOAP messages and back. Syslog camel-syslog Stable 2.6 Marshall SyslogMessages to RFC3164 and RFC5424 messages and back. Tar File camel-tarfile Stable 2.16 Archive files into tarballs or extract files from tarballs. Thrift camel-thrift Stable 2.20 Serialize and deserialize messages using Apache Thrift binary data format. TidyMarkup camel-tagsoup Stable 2.0 Parse (potentially invalid) HTML into valid HTML or DOM. uniVocity CSV camel-univocity-parsers Stable 2.15 Marshal and unmarshal Java objects from and to CSV (Comma Separated Values) using UniVocity Parsers. uniVocity Fixed Length camel-univocity-parsers Stable 2.15 Marshal and unmarshal Java objects from and to fixed length records using UniVocity Parsers. uniVocity TSV camel-univocity-parsers Stable 2.15 Marshal and unmarshal Java objects from and to TSV (Tab-Separated Values) records using UniVocity Parsers. XML Security camel-xmlsecurity Stable 2.0 Encrypt and decrypt XML payloads using Apache Santuario. XStream camel-xstream Stable 1.3 Marshal and unmarshal POJOs to/from XML using XStream library. YAML SnakeYAML camel-snakeyaml Stable 2.17 Marshal and unmarshal Java objects to and from YAML using SnakeYAML Zip Deflate Compression camel-zip-deflater Stable 2.12 Compress and decompress streams using java.util.zip.Deflater and java.util.zip.Inflater. Zip File camel-zipfile Stable 2.11 Compression and decompress streams using java.util.zip.ZipStream. Back to top Overview＋ Blog Documentation Community Download Documentation＋ User Manual Components Camel-K Camel Kafka Connector Camel Quarkus Camel Spring Boot Camel Karaf FAQ Community＋ Support Contributing Mailing Lists User stories Articles Books Team About＋ Acknowledgments Apache Events License Security Sponsorship Thanks © 2004-2021 The Apache Software Foundation. Apache Camel, Camel, Apache, the Apache feather logo, and the Apache Camel project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Privacy Policy Code of Conduct Sitemap
+camel/CONTRIBUTING.md at main · apache/camel · GitHub
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+apache
+/
+camel
+Notifications
+Star
+3.8k
+camel-api 3.10.0 javadoc (org.apache.camel)
+Building Camel from Source :: Apache Camel Blog Documentation Community Download User manual Getting started Getting Started with Apache Camel What are the dependencies? Resources & Guides Books Building Camel JAR Dependencies Camel Boot Camel Maven Plugin Camel Component Maven Plugin Camel Maven Report Plugin Camel Maven Archetypes Configuring Camel Configuring route startup ordering and autostartup Creating a new Spring based Camel Route Component-dsl Endpoint-dsl Examples Graceful Shutdown Error handling in Camel Using OSGi blueprint with Camel How to use Camel property placeholders Templating Testing Working with REST and Rest DSL Writing Components XML Configuration XML Reference Release guide Improving the Documentation Migration and Upgrade Camel 2.x to 3.0 Migration Guide Camel 3.x Upgrade Guide Architecture Async Asynchronous Routing Engine Backlog debugger Backlog Tracer Business Activity Monitoring Batch Consumer Bean Binding Bean Integration Binding BrowsableEndpoint Core Context Clustering and loadbalancing Endpoints Complex Event Processing Component Data Format Debugger Delay interceptor Dependency Injection Dozer Type Conversion Endpoint Annotations Exception Clause Exchange Pooling Fluent Builders HTTP-Session Handling Parameter Binding Annotations POJO Producing POJO Consuming Error Handler Message Exchange Exchange Pattern Using Exchange pattern annotations Expressions Content Enrichment Injector Intercept Inversion Of Control With Smart Defaults JMX Camel Lifecycle OnCompletion Pluggable Class Resolvers Predicates Processor Registry RouteBuilder LambdaRouteBuilder RouteController RoutePolicy RouteTemplate Routes Stream caching Transformer Threading Model Tracer Transport Type Converter URIs UuidGenerator Validator Hiding Middleware Health Checks Domain Specific Languages Camel Domain Specific Language Languages Java DSL Spring support FAQ Can I get commercial support? How can I get help? How can I get the source code? How does Camel compare to Mule? How does Camel compare to ServiceMix? How does Camel compare to ServiceMix EIP? How does Camel compare to Synapse? How does Camel work? How does Camel work with ActiveMQ? How does Camel work with ServiceMix? How does the Camel API compare to? How does the website work? How do I become a committer? How do I compile the code? How do I edit the website? How do I run Camel using Java WebStart? If I use ServiceMix when should I use Camel? Is Camel an ESB? Is Camel IoC friendly? Running Camel standalone What are the dependencies? What is a router? What is Camel? What is the license? What jars do I need? What languages are supported? What platforms are supported? Why the name Camel? Classloader issue of servicemix-camel component How do I specify which method to use when using beans in routes? How can I create a custom component or endpoint? How can I get the remote connection IP address from the camel-cxf consumer ? How can I stop a route from a route? How can webservice clients see remote faults with stacktraces when using camel-cxf? How does Camel look up beans and endpoints? How do I add a component? How do I change the logging? How do I configure endpoints? How do I configure password options on Camel endpoints without the value being encoded? How do I configure the default maximum cache size for ProducerCache or ProducerTemplate? How do I configure the maximum endpoint cache size for CamelContext? How do I debug my route? How do I disable JMX? How do I enable streams when debug logging messages in Camel? How do I handle failures when consuming for example from a FTP server? How do I import rests from other XML files? How do I import routes from other XML files? How do I let Jetty match wildcards? How do I name my routes? How do I restart CamelContext? How do I retrieve the thrown Exception during processing an Exchange? How do I retry failed messages forever? How do I retry processing a message from a certain point back or an entire route? How do I reuse the ContextTestSupport class in my unit tests? How do I run ActiveMQ and Camel in JBoss? How do I set the max chars when debug logging messages in Camel? How do I use a big (uber) JAR? How do I use Camel inside ServiceMix? How do I use Spring Property Placeholder with Camel XML? How do I use URIs with parameters in XML? How do I write a custom Processor which sends multiple messages? How should I invoke my POJOs or Spring Services? How should I package applications using Camel and ActiveMQ? How to avoid importing bunch of cxf packages when start up the camel-cxf endpoint from OSGi platform? How to avoid sending some or all message headers? How to define a static Camel converter method in Scala? How to remove the http protocol headers in the camel message? How to send the same message to multiple endpoints? How to switch the CXF consumer between HTTP and HTTPS without touching the Spring configuration? How to use a dynamic URI in to()? Is there an IDE? Should I deploy Camel inside the ActiveMQ broker or in another application? Using camel-core-tests.jar Using getIn or getOut methods on Exchange Why can’t I use + sign in my password? Why can I not use when or otherwise in a Java Camel route? Why does FTP component not download any files? Why does my file consumer not pick up the file, and how do I let the file consumer use the Camel error handler? Why does useOriginalMessage with error handler not work as expected? Why do my message lose its headers during routing? Why is my message body empty? Why is my processor not showing up in JConsole? Why is the exception null when I use onException? Why use multiple CamelContext? How do I enable debug logging? How do I use Java 1.4 logging? How do I use log4j? How do I invoke Camel routes from JBI? How Do I Make My JMS Endpoint Transactional? How do I set the MEP when interacting with JBI? How do the direct, event, seda and vm endpoints compare? How do the Timer and Quartz endpoints compare? Why does my JMS route only consume one message at once? Exception - BeanDefinitionStoreException Exception - javax.naming.NoInitialContextException Exception - org.apache.camel.NoSuchEndpointException Exception - org.xml.sax.SAXParseException Memory leak when adding and removing routes at runtime Why do Camel throw so many NoClassDefFoundException on startup? Why does Camel use too many threads with ProducerTemplate? Why does maven not download dependencies? Reference Components Data Formats Languages EIPs User manual latest User manual latest Camel Components latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) 2.x Camel K latest Camel Kafka Connector latest 0.7.x 0.4.x Kamelet Catalog latest Camel Karaf latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) Camel Quarkus latest Camel Spring Boot latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) User manual Resources & Guides Building Edit this Page Building Camel from Source Camel uses Maven as its build and management tool. If you don’t fancy using Maven you can use your IDE directly or Download a distribution or JAR. Prequisites Required: Java 1.8 or 1.11 Maven Wrapper is used and bundled. Otherwise, download and install Maven Maven 3.6.x or newer is required to build Camel 3 onwards Get the latest source from Github Maven options To build camel maven has to be configured to use more memory Unix/Linux/Mac export MAVEN_OPTS="-Xms2048m -Xmx3584m" Windows set MAVEN_OPTS="-Xms2048m -Xmx3584m" A normal build Beware this runs all the unit tests which takes a couple of hours. mvn clean install A quick build without running tests The following skips building the manual, the distro and does not execute the unit tests, which can complete in 15-20 minutes. mvn clean install -Pfastinstall A normal build without running tests but checkstyle verification enabled mvn clean install -Pfastinstall,sourcecheck Building with checkstyle To enable source style checking with checkstyle, build Camel with the -Psourcecheck parameter mvn clean install -Psourcecheck Building source jars If you want to build jar files with the source code, that for instance Eclipse can important so you can debug the Camel code as well. Then you can run this command from the camel root folder: mvn clean source:jar install -Pfastinstall Working with karaf features If you change anything in the features.xml from platform/karaf you can run a validation step to ensure the generated features.xml file is correct. You can do this running the following maven goal from the platform directory. mvn clean install -Pvalidate Back to top Overview＋ Blog Documentation Community Download Documentation＋ User Manual Components Camel-K Camel Kafka Connector Camel Quarkus Camel Spring Boot Camel Karaf FAQ Community＋ Support Contributing Mailing Lists User stories Articles Books Team About＋ Acknowledgments Apache Events License Security Sponsorship Thanks © 2004-2021 The Apache Software Foundation. Apache Camel, Camel, Apache, the Apache feather logo, and the Apache Camel project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Privacy Policy Code of Conduct Sitemap
+Getting Started :: Apache Camel Blog Documentation Community Download User manual Getting started Getting Started with Apache Camel What are the dependencies? Resources & Guides Books Building Camel JAR Dependencies Camel Boot Camel Maven Plugin Camel Component Maven Plugin Camel Maven Report Plugin Camel Maven Archetypes Configuring Camel Configuring route startup ordering and autostartup Creating a new Spring based Camel Route Component-dsl Endpoint-dsl Examples Graceful Shutdown Error handling in Camel Using OSGi blueprint with Camel How to use Camel property placeholders Templating Testing Working with REST and Rest DSL Writing Components XML Configuration XML Reference Release guide Improving the Documentation Migration and Upgrade Camel 2.x to 3.0 Migration Guide Camel 3.x Upgrade Guide Architecture Async Asynchronous Routing Engine Backlog debugger Backlog Tracer Business Activity Monitoring Batch Consumer Bean Binding Bean Integration Binding BrowsableEndpoint Core Context Clustering and loadbalancing Endpoints Complex Event Processing Component Data Format Debugger Delay interceptor Dependency Injection Dozer Type Conversion Endpoint Annotations Exception Clause Exchange Pooling Fluent Builders HTTP-Session Handling Parameter Binding Annotations POJO Producing POJO Consuming Error Handler Message Exchange Exchange Pattern Using Exchange pattern annotations Expressions Content Enrichment Injector Intercept Inversion Of Control With Smart Defaults JMX Camel Lifecycle OnCompletion Pluggable Class Resolvers Predicates Processor Registry RouteBuilder LambdaRouteBuilder RouteController RoutePolicy RouteTemplate Routes Stream caching Transformer Threading Model Tracer Transport Type Converter URIs UuidGenerator Validator Hiding Middleware Health Checks Domain Specific Languages Camel Domain Specific Language Languages Java DSL Spring support FAQ Can I get commercial support? How can I get help? How can I get the source code? How does Camel compare to Mule? How does Camel compare to ServiceMix? How does Camel compare to ServiceMix EIP? How does Camel compare to Synapse? How does Camel work? How does Camel work with ActiveMQ? How does Camel work with ServiceMix? How does the Camel API compare to? How does the website work? How do I become a committer? How do I compile the code? How do I edit the website? How do I run Camel using Java WebStart? If I use ServiceMix when should I use Camel? Is Camel an ESB? Is Camel IoC friendly? Running Camel standalone What are the dependencies? What is a router? What is Camel? What is the license? What jars do I need? What languages are supported? What platforms are supported? Why the name Camel? Classloader issue of servicemix-camel component How do I specify which method to use when using beans in routes? How can I create a custom component or endpoint? How can I get the remote connection IP address from the camel-cxf consumer ? How can I stop a route from a route? How can webservice clients see remote faults with stacktraces when using camel-cxf? How does Camel look up beans and endpoints? How do I add a component? How do I change the logging? How do I configure endpoints? How do I configure password options on Camel endpoints without the value being encoded? How do I configure the default maximum cache size for ProducerCache or ProducerTemplate? How do I configure the maximum endpoint cache size for CamelContext? How do I debug my route? How do I disable JMX? How do I enable streams when debug logging messages in Camel? How do I handle failures when consuming for example from a FTP server? How do I import rests from other XML files? How do I import routes from other XML files? How do I let Jetty match wildcards? How do I name my routes? How do I restart CamelContext? How do I retrieve the thrown Exception during processing an Exchange? How do I retry failed messages forever? How do I retry processing a message from a certain point back or an entire route? How do I reuse the ContextTestSupport class in my unit tests? How do I run ActiveMQ and Camel in JBoss? How do I set the max chars when debug logging messages in Camel? How do I use a big (uber) JAR? How do I use Camel inside ServiceMix? How do I use Spring Property Placeholder with Camel XML? How do I use URIs with parameters in XML? How do I write a custom Processor which sends multiple messages? How should I invoke my POJOs or Spring Services? How should I package applications using Camel and ActiveMQ? How to avoid importing bunch of cxf packages when start up the camel-cxf endpoint from OSGi platform? How to avoid sending some or all message headers? How to define a static Camel converter method in Scala? How to remove the http protocol headers in the camel message? How to send the same message to multiple endpoints? How to switch the CXF consumer between HTTP and HTTPS without touching the Spring configuration? How to use a dynamic URI in to()? Is there an IDE? Should I deploy Camel inside the ActiveMQ broker or in another application? Using camel-core-tests.jar Using getIn or getOut methods on Exchange Why can’t I use + sign in my password? Why can I not use when or otherwise in a Java Camel route? Why does FTP component not download any files? Why does my file consumer not pick up the file, and how do I let the file consumer use the Camel error handler? Why does useOriginalMessage with error handler not work as expected? Why do my message lose its headers during routing? Why is my message body empty? Why is my processor not showing up in JConsole? Why is the exception null when I use onException? Why use multiple CamelContext? How do I enable debug logging? How do I use Java 1.4 logging? How do I use log4j? How do I invoke Camel routes from JBI? How Do I Make My JMS Endpoint Transactional? How do I set the MEP when interacting with JBI? How do the direct, event, seda and vm endpoints compare? How do the Timer and Quartz endpoints compare? Why does my JMS route only consume one message at once? Exception - BeanDefinitionStoreException Exception - javax.naming.NoInitialContextException Exception - org.apache.camel.NoSuchEndpointException Exception - org.xml.sax.SAXParseException Memory leak when adding and removing routes at runtime Why do Camel throw so many NoClassDefFoundException on startup? Why does Camel use too many threads with ProducerTemplate? Why does maven not download dependencies? Reference Components Data Formats Languages EIPs User manual latest User manual latest Camel Components latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) 2.x Camel K latest Camel Kafka Connector latest 0.7.x 0.4.x Kamelet Catalog latest Camel Karaf latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) Camel Quarkus latest Camel Spring Boot latest 3.10.x 3.7.x (LTS) 3.4.x (LTS) User manual Getting started Edit this Page Getting Started First you need to Download the Camel distribution; or you could grab the Source and try Building it yourself. Then come back here and you might want to read the following documentation before continuing: Longer Getting Started Guide Find out about Enterprise Integration Patterns and how to implement them with Camel Review the Architecture guide to see how to build Routes using the Java DSL or XML DSL Working with CamelContexts and RouteBuilders To get started with Camel: Create a CamelContext. Optionally, configure components or endpoints. Add whatever routing rules you wish using the DSL and RouteBuilder or using XML DSL. Start the Camel context. When your application is closing you may wish to stop the context When you are ready, why not Walk through an Example? And then continue the walk Walk through another example. Working with Spring If you use Spring as a Dependency Injection container then please refer to the Camel Spring documentation. Other Resources We strongly suggest that you brew a cup of coffee or tea and take the 30 minutes to read one or more of the following resources: Camel in Action, Chapter 1 (direct link) free chapter 1 of the Camel in Action book. Highly recommended to read to learn what Camel is and the basic Camel concepts. This is a free chapter you can download directly as a pdf (about 20 pages) and introduces you to Camel. We have been told by experience Camel end users they wished this chapter was available to them when they started learning Camel. Open Source Integration with Apache Camel and How Fuse IDE Can Help by Jonathan Anstey. Updated article of the Apache Camel: Integration Nirvana. Great article to learn what Camel is and has a good use case example. Several of the vendors on the Commercial Camel Offerings page also offer various tutorials, webinars, examples, etc…​. that may be useful. Articles is a link collection with articles, blogs, podcasts, presentations and the likes about Camel done by people from the community. Back to top Overview＋ Blog Documentation Community Download Documentation＋ User Manual Components Camel-K Camel Kafka Connector Camel Quarkus Camel Spring Boot Camel Karaf FAQ Community＋ Support Contributing Mailing Lists User stories Articles Books Team About＋ Acknowledgments Apache Events License Security Sponsorship Thanks © 2004-2021 The Apache Software Foundation. Apache Camel, Camel, Apache, the Apache feather logo, and the Apache Camel project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Privacy Policy Code of Conduct Sitemap
+Newest 'apache-camel' Questions - Stack Overflow
+Maven Central Repository Search
+Sorry, your browser does not support JavaScript!
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+Fork
+4.3k
+Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
+camel.apache.org
+Apache-2.0 License
+3.8k
+stars
+4.3k
+forks
+Star
+Notifications
+Code
+Pull requests
+3
+Actions
+Projects
+0
+Security
+Insights
+org.apache.camel
+camel-api
+apache-camel
+camel
+camel-activemq
+camel-amqp
+camel-api
+camel-as2
+camel-as2-parent
+camel-atmos
+camel-attachments
+camel-avro
+camel-aws
+camel-aws-sqs
+camel-aws-sqs-starter
+camel-aws2-sqs
+camel-azure
+camel-bam
+camel-base
+camel-base-engine
+camel-bean
+Stack Overflow
+About
+Products
+For Teams
+Stack Overflow
+Public questions & answers
+Stack Overflow for Teams
+Where developers & technologists share private knowledge with coworkers
+Jobs
+Programming & related technical career opportunities
+Talent
+Recruit tech talent & build your employer brand
+Advertising
+Reach developers & technologists worldwide
+About the company
+Loading…
+Log in
+Sign up
+current community
+Stack Overflow
+help
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+apache
+/
+camel
+Notifications
+Star
+3.8k
+Fork
+4.3k
+Code
+More
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+main
+Switch branches/tags
+Branches
+Tags
+View all branches
+View all tags
+39
+branches
+178
+tags
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+- ASF JIRA
+camel-bean-validator
+camel-bindy
+camel-blueprint
+camel-book
+camel-cache
+camel-caffeine-lrucache
+camel-catalog
+camel-cdi
+camel-cm-sms
+camel-component
+camel-core
+camel-core-engine
+camel-core-model
+camel-core-osgi
+camel-core-starter
+camel-core-xml
+camel-crypto
+camel-csv
+camel-cxf
+camel-cxf-transport
+chat
+Meta Stack Overflow
+your communities
+Sign up or log in to customize your list.
+more stack exchange communities
+company blog
+People who code: we want your input. Take the Survey
+Home
+Public
+Questions
+Tags
+Users
+Find a Job
+Jobs
+Companies
+Teams
+Stack Overflow for Teams
+– Collaborate and share knowledge with a private group.
+Create a free Team
+What is Teams?
+Teams
+What’s this?
+Pull requests
+3
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Permalink
+main
+Switch branches/tags
+Branches
+Tags
+View all branches
+View all tags
+camel/CONTRIBUTING.md
+Go to file
+Go to file
+T
+Go to line
+L
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio Code
+Your codespace will open once ready.
+There was a problem preparing your codespace, please try again.
+Latest commit
+davsclaus
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+…
+6f6ec77
+Jun 12, 2021
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+6f6ec77
+Git stats
+53,029
+commits
+Files
+Permalink
+Linked ApplicationsLoading…DashboardsProjectsIssues
+Help
+Jira Core help
+Keyboard Shortcuts
+About Jira
+Jira Credits
+Log In
+Atlassian Jira Project Management Software
+(v8.3.4#803005-sha1:1f96e09)
+About Jira
+Report a problem
+Powered by a free Atlassian Jira open source license for Apache Software Foundation. Try Jira - bug tracking software for your team.
+Atlassian
+camel-dataset
+camel-direct
+camel-ehcache
+camel-ejb
+camel-endpointdsl
+camel-exec
+camel-file
+camel-file-watch
+camel-flatpack
+camel-freemarker
+camel-ftp
+camel-google-mail
+camel-groovy
+camel-grpc
+camel-gson
+camel-guice
+camel-hazelcast
+camel-health
+camel-hl7
+camel-http
+camel-http-common
+camel-http4
+camel-ignite
+Create free Team
+Teams
+Q&A for work
+Connect and share knowledge within a single location that is structured and easy to search.
+Learn more
+Questions tagged [apache-camel]
+Ask Question
+Apache Camel is an open source integration framework that focuses on quick and easy integration of systems consuming or producing data.
+Learn more…
+Top users
+Synonyms (1)
+10,554
+questions
+Newest
+Active
+Bountied
+Unanswered
+More
+Bountied
+0
+Copy path
+Copy permalink
+klease
+CAMEL-16576: minor fixes to new CONTRIBUTING.md
+Latest commit
+d7cb73b
+May 9, 2021
+History
+12
+contributors
+Users who have contributed to this file
+26 lines (15 sloc)
+1.17 KB
+Raw
+Blame
+Open with Desktop
+View raw
+View blame
+Contributing to Apache Camel
+First of all, thank you for having an interest in contributing to Apache Camel.
+If this is your first contribution to Camel, please review the guidelines for contributing to Camel and its related projects.
+Then follow these simple guidlines for working on the code and committing your changes.
+Fork and then clone the github camel repository:
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+.github
+GH Action: Point the create pull request to main as base
+Apr 21, 2021
+.mvn
+CAMEL-15488: upgrade to maven wrapper 0.5.6
+Oct 2, 2020
+apache-camel
+Exclude docs/node and docs/.yarn from assembly
+Jun 8, 2021
+archetypes
+Skip checkstyle for maven archetypes
+Jun 11, 2021
+bom
+CAMEL-16674: Regen
+Jun 9, 2021
+buildingtools
+Set version to 3.11.0-SNAPSHOT
+camel-jackson
+camel-jasypt
+camel-jaxb
+camel-jdbc
+camel-jetty
+camel-jetty-common
+camel-jetty9
+camel-jms
+camel-jmx
+camel-jpa
+camel-jsonpath
+camel-jsonpath-starter
+camel-kafka
+camel-language
+camel-log
+camel-mail
+camel-main
+camel-management
+camel-metrics
+camel-mina
+camel-mina2
+camel-mllp
+Unanswered
+Frequent
+Votes
+Unanswered (my tags)
+Filter
+Filter by
+No answers
+No accepted answer
+Has bounty
+Sorted by
+Newest
+Recent activity
+Most votes
+Most frequent
+Bounty ending soon
+Tagged with
+My watched tags
+The following tags:
+Apply filter
+Cancel
+0
+votes
+0answers
+git clone https://github.com/your-github-username/camel.git
+Build the project using maven:
+mvn clean install -Pfastinstall
+Add a unit test with assertions for your changes.
+Run checkstyle using the sourcecheck profile in maven:
+mvn clean install -Psourcecheck
+Check the documentation (.adoc file) for the code which you have modified and update it if required. For example if you have added or modified a component, the documentation file is in the src/main/docs folder.
+Write a commit messsage which references the related JIRA or Github issue and includes some detail of your changes.
+Push to your fork and create a pull request.
+Stay engaged, follow and respond to comments or questions you might be asked by the Camel team.
+Go
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+May 20, 2021
+camel-dependencies
+Sync deps
+Jun 11, 2021
+catalog
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+components
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+core
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+docs
+CAMEL-16716: camel-mongodb - Fixed streamFilter option
+Jun 12, 2021
+dsl
+yaml-dsl: make it simple to configure route local beans
+Jun 11, 2021
+camel-mock
+camel-mongodb
+camel-mqtt
+camel-msv
+camel-mvel
+camel-netty
+camel-netty4
+camel-opentracing-starter
+camel-optaplanner
+camel-osgi
+camel-paho
+camel-pdf
+camel-platform-http
+camel-protobuf
+camel-quartz
+camel-quartz2
+camel-rabbitmq
+camel-rest
+camel-restlet
+camel-rx
+camel-salesforce
+camel-scala
+camel-schematron
+camel-script
+6 views
+Failed to create route because of No bean could be found in the registry for Processor1 of type: org.apache.camel.Processor
+I am getting error message during Camel testing - @RunWith(PowerMockRunner.class) and test class extends CamelTestSupport even though I register the bean.
+Error messgage: in route:..[OnExcept... ...
+apache-camel spring-camel
+asked 1 hour ago
+Julia
+9977 bronze badges
+0
+votes
+0answers
+5 views
+PowerMockRunner with CamelTestSupport
+I am trying to find a way to do test camel route which has variables with @Value and Beans on its route.
+below code fails with error msg,
+...ModelCamelContext.getPropertiesComponent()Lorg/apache/camel/...
+apache-camel spring-camel
+asked 5 hours ago
+Julia
+9977 bronze badges
+0
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+etc
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+init
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+parent
+Upgrade OWASP Maven Plugin to version 6.2.2
+Jun 11, 2021
+test-infra
+CAMEL-16698: do log when unable to determine docker availability (#5634)
+Jun 10, 2021
+tests
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+tooling
+Move huawei components into middle folder
+Jun 10, 2021
+.asf.yaml
+Update .asf.yaml
+Nov 9, 2020
+.gitattributes
+camel-servlet
+camel-servletlistener
+camel-sjms
+camel-sjms2
+camel-snmp
+camel-soap
+camel-splunk-hec
+camel-spring
+camel-spring-boot
+camel-spring-boot-dependencies
+camel-spring-boot-starter
+camel-spring-javaconfig
+camel-spring-main
+camel-sql
+camel-ssh
+camel-stream
+camel-support
+camel-swagger-java
+camel-swagger-java-starter
+camel-test
+camel-test-blueprint
+camel-test-cdi
+camel-test-junit5
+camel-test-karaf
+votes
+0answers
+11 views
+how to use aggregator alongside with splitter efficiently in Apache Camel
+I am building a custom ETL pipeline that pulls data from OracleDB having XMLType Fields, parsing the fields in row processor and load the data into MongoDB like this:
+<route streamCache="true&...
+java performance apache-camel
+asked 7 hours ago
+Rio
+322 bronze badges
+0
+votes
+0answers
+18 views
+Producer Template in Camel Spring Test shows NullPointerException
+On creating a sample Test for a Camel route in spring app getting error as
+java.lang.NullPointerException: Cannot invoke "org.apache.camel.ProducerTemplate.sendBodyAndHeader(String, Object, ...
+java spring junit apache-camel
+asked 15 hours ago
+codeforHarman
+2166 bronze badges
+0
+votes
+Update Maven wrapper to version 0.4.0
+Mar 10, 2018
+.gitignore
+add linting setup for gulpfile
+Jun 16, 2020
+.gitmodules
+Added tibdex/backport gh action as submodule
+Feb 1, 2021
+CONTRIBUTING.md
+CAMEL-16576: minor fixes to new CONTRIBUTING.md
+May 10, 2021
+Jenkinsfile
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+Jenkinsfile.deploy
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+Jenkinsfile.full.pipeline
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+Jenkinsfile.jdk11
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+camel-test-spring
+camel-test-spring-junit5
+camel-twitter
+camel-undertow
+camel-util
+camel-velocity
+camel-xml-jaxp
+camel-xmlbeans
+camel-xpath
+camel-xstream
+camel-zipfile
+camel-zookeeper
+camel-zookeeper-master
+spi-annotations
+3.10.0
+3.10.0
+3.9.0
+3.8.0
+3.7.4
+3.7.3
+3.7.2
+3.7.1
+3.7.0
+3.6.0
+0answers
+5 views
+Failed to execute goal cxf-codegen-plugin:3.2.4:wsdl2java (generate-sources) project OAS: org.apache.cxf.helpers.JavaUtils.isJava9Compatible()Z
+I have tried changing the compiler and compliance from 1.8 to 11.0 with no change. I suspect it has to do with the version of Karaf (4.3) and the libraries / bundles / packages associated with that ...
+apache-camel apache-karaf cxf-codegen-plugin
+asked 18 hours ago
+Mike Oliver
+2155 bronze badges
+0
+votes
+0answers
+15 views
+Not able to exclude com.sun.xml.bind (jaxb-core, jaxb-impl) from apache camel
+I need to use JAXB but cannot use the EDL or CDDL licensed libraries. Is there any solution for this?
+I am currently using apache camel (maven dependency) in my project where internally it uses EDL ...
+java jaxb apache-camel
+asked yesterday
+Arindam
+39411 gold badge33 silver badges1616 bronze badges
+0
+votes
+1answer
+24 views
+Apache Camel's load balanced route doesn't work if one of the endpoint stops connecting
+I have a scenario in which if my endpoint1 is down, all messages should be routed to endpoint2 or vice versa. In case both are up then messages should be sent in round robin fashion. Can someone ...
+java spring-boot apache-camel
+Jenkinsfile.jdk16
+Moving from master branch to main - Jenkinsfile
+Apr 20, 2021
+KEYS
+Added Andrea Tarocchi (a.k.a. valdar) PGP key
+Dec 3, 2020
+LICENSE.txt
+Update License file
+Jun 8, 2021
+NOTICE.txt
+Updated Notice file
+Jun 8, 2021
+README.md
+Fix links in README.md. Change site.yml to antora-playbook.yml in how…
+May 10, 2021
+doap.rdf
+Fixing doap JIRA link
+Oct 18, 2019
+mvnw
+CAMEL-15488: upgrade to maven wrapper 0.5.6
+Oct 2, 2020
+mvnw.cmd
+CAMEL-15488: upgrade to maven wrapper 0.5.6
+3.5.0
+3.4.5
+3.4.4
+3.4.3
+3.4.2
+3.4.1
+3.4.0
+3.3.0
+3.2.0
+3.1.0
+3.0.1
+3.0.0
+3.0.0-RC3
+3.0.0-RC2
+3.0.0-RC1
+3.0.0-M4
+3.0.0-M3
+3.0.0-M2
+asked 2 days ago
+Saawan
+31333 silver badges1717 bronze badges
+0
+votes
+0answers
+7 views
+Camel route SNMP Trap route - No response for V3 traps
+I am new in Camel, trying to create a SNMP Camel route
+from("snmp:0.0.0.0:162?protocol=udp&type=TRAP&securityName="
++ new OctetString("MD5DES")+"&snmpVersion="...
+apache-camel snmp net-snmp spring-camel snmp4j
+asked 2 days ago
+Anand Chaturvedi
+111 bronze badge
+0
+votes
+1answer
+29 views
+Apache Camel SFTP: “JSchException: invalid privatekey: [B@7c033a39” with OpenSSH private key
+I'm trying to connect to an sftp server with a 'new' private key that starts with BEGIN OPENSSH PRIVATE KEY (the 'old' version starts with BEGIN RSA PRIVATE KEY ).
+Oct 2, 2020
+pom.xml
+Set version to 3.11.0-SNAPSHOT
+May 20, 2021
+View code
+Apache Camel
+Introduction
+Components
+Examples
+Getting Started
+Licensing
+README.md
+Apache Camel
+Apache Camel is a powerful, open-source integration framework based on prevalent
+Enterprise Integration Patterns with powerful bean integration.
+Introduction
+Camel enables the creation of the Enterprise Integration Patterns to implement routing
+and mediation rules in either a Java-based Domain Specific Language (or Fluent API),
+via Spring or Blueprint based Xml Configuration files, or via the Scala DSL.
+That means you get smart completion of routing rules in your IDE whether
+in your Java, Scala, or XML editor.
+Apache Camel uses URIs to enable easier integration with all kinds of
+transport or messaging model including HTTP, ActiveMQ, JMS, JBI, SCA, MINA
+3.0.0-M1
+Bookmarks
+×
+Latest version of org.apache.camel:camel-api
+https://javadoc.io/doc/org.apache.camel/camel-api
+Current version 3.10.0
+https://javadoc.io/doc/org.apache.camel/camel-api/3.10.0
+package-list path (used for javadoc generation -link option)
+https://javadoc.io/doc/org.apache.camel/camel-api/3.10.0/package-list
+Close
+[CAMEL-16698] Integration tests are not running - ASF JIRA
+-----BEGIN OPENSSH PRIVATE KEY-----
+....
+apache-camel sftp jsch openssh
+asked 2 days ago
+aSemy
+25622 gold badges44 silver badges1616 bronze badges
+-2
+votes
+0answers
+23 views
+Wanted to know the implementation of Apache camel and please dont judge me as i have just started using apache camel [closed]
+I want to know how to use consumertemplate in apache camel for calling an api and then that api will call http link of a webpage
+java spring-boot apache-camel
+asked 2 days ago
+DHANANJAY RAGHAV
+1
+0
+votes
+0answers
+35 views
+How to consume messages from Apache Camel JMS as Transacted Batch?
+I know there is component sjms-batch which could perfectly solve my problem, but that component exist in Camel 3.7, and i need to use Camel 3.8. According to Camel documentation this component doesn't ...
+apache-camel camel-jms
+or CXF together with working with pluggable Data Format options.
+Apache Camel is a small library that has minimal dependencies for easy embedding
+in any Java application. Apache Camel lets you work with the same API regardless of the
+transport type, making it possible to interact with all the components provided out-of-the-box,
+with a good understanding of the API.
+Apache Camel has powerful Bean Binding and integrated seamlessly with
+popular frameworks such as Spring, CDI, and Blueprint.
+Apache Camel has extensive testing support allowing you to easily
+unit test your routes.
+Components
+Apache Camel comes alongside several artifacts with components, data formats, languages, and kinds.
+The up to date list is available online at the Camel website:
+Components: https://camel.apache.org/components/latest/
+Data Formats: https://camel.apache.org/components/latest/dataformats/
+Languages: https://camel.apache.org/components/latest/languages/
+Miscellaneous: https://camel.apache.org/components/latest/#_miscellaneous_components
+Examples
+Apache Camel comes with many examples.
+The up to date list is available online at GitHub:
+Linked ApplicationsLoading…DashboardsProjectsIssues
+Help
+Jira Core help
+Keyboard Shortcuts
+About Jira
+Jira Credits
+Log In
+CamelCAMEL-16698Integration tests are not runningLog In ExportXMLWordPrintableJSONDetails
+Type:
+Task
+Status:
+Open
+Priority:
+Major
+Resolution:
+Unresolved
+Affects Version/s:
+None
+Fix Version/s:
+None
+Component/s:
+tests
+Labels:
+asked Jun 10 at 17:25
+ngli0703
+1
+0
+votes
+0answers
+14 views
+Converting DOM to XML in Apache Camel XML
+I'm converting over an API to Camel from Mule 4 and a required step for this API is the DOM to XML transformation. I have tried <marshal><xstream></xstream></marshal> for the ...
+java xml apache-camel
+asked Jun 10 at 12:16
+MFig
+1111 bronze badge
+0
+votes
+1answer
+17 views
+Create http and https endpoint using camel in the same server with jetty
+I am trying to create HTTP and HTTPS endpoint in one of my web service.
+I want secure few endpoints with HTTPS and other endpoints with plain HTTP.
+I am using the below code to do the same.
+public ...
+Examples: https://github.com/apache/camel-examples/tree/main/examples#welcome-to-the-apache-camel-examples
+Getting Started
+To help you get started, try the following links:
+Getting Started
+https://camel.apache.org/getting-started.html
+The beginner examples are another powerful alternative pathway for getting started with Apache Camel.
+Examples: https://github.com/apache/camel-examples/tree/main/examples#welcome-to-the-apache-camel-examples
+Building
+https://camel.apache.org/building.html
+Contributions
+We welcome all kinds of contributions, the details of which are specified here:
+https://github.com/apache/camel/blob/main/CONTRIBUTING.md
+Please refer to the website for details of finding the issue tracker,
+email lists, GitHub, chat
+Website: https://camel.apache.org/
+Github (source): https://github.com/apache/camel
+Issue tracker: https://issues.apache.org/jira/projects/CAMEL
+Mailing-list: https://camel.apache.org/community/mailing-list/
+Chat: https://camel.zulipchat.com/
+StackOverflow: https://stackoverflow.com/questions/tagged/apache-camel
+[CAMEL-16576] Merge duplicate adoc and md files related to community topics - ASF JIRA
+None
+Estimated Complexity:
+Unknown
+Description
+I received a report that some of our integration tests are not running. Therefore I opening this task to investigate this and take note of affected components.
+AttachmentsIssue Links
+links to
+GitHub Pull Request #5634
+Activity
+People
+Assignee:
+Otavio Rodolfo Piske
+Reporter:
+Otavio Rodolfo Piske
+Votes:
+0
+Vote for this issue
+Watchers:
+1
+Start watching this issue
+Dates
+java ssl https apache-camel jetty
+asked Jun 10 at 11:36
+daksh
+31922 silver badges55 bronze badges
+0
+votes
+0answers
+32 views
+Query regarding unit testing of camel multiple routes within the same class
+I'm having issues unit testing multiple camel routes within the same class.I have a class which contains several route definitions. e.g. as below:
+public class A extends RouteBuilder{
+@Override
+...
+java unit-testing apache-camel
+asked Jun 10 at 9:18
+Apurava Singh
+1
+0
+votes
+0answers
+10 views
+Apache Camel usage of OnError and ErrorHandlerRef
+Twitter: https://twitter.com/ApacheCamel
+Support
+For additional help, support, we recommend referencing this page first:
+https://camel.apache.org/community/support/
+Getting Help
+If you get stuck somewhere, please feel free to reach out to us on either StackOverflow, Chat, or the email mailing list.
+Please help us make Apache Camel better - we appreciate any feedback
+you may have.
+Enjoy!
+The Camel riders!
+Licensing
+The terms for software licensing are detailed in the LICENSE.txt file,
+located in the working directory.
+This distribution includes cryptographic software. The country in
+which you currently reside may levy restrictions on the import,
+possession, use, and re-export to foreign countries of
+encryption software. BEFORE using any encryption software, please
+check your country's laws, regulations, and policies concerning the
+Linked ApplicationsLoading…DashboardsProjectsIssues
+Help
+Jira Core help
+Keyboard Shortcuts
+About Jira
+Jira Credits
+Log In
+CamelCAMEL-16576Merge duplicate adoc and md files related to community topicsLog In ExportXMLWordPrintableJSONDetails
+Type:
+Task
+Status:
+Resolved
+Priority:
+Minor
+Resolution:
+Fixed
+Affects Version/s:
+3.9.0
+Fix Version/s:
+Created:
+5 days ago 19:59
+Updated:
+3 days ago 10:32
+Atlassian Jira Project Management Software
+(v8.3.4#803005-sha1:1f96e09)
+About Jira
+Report a problem
+Powered by a free Atlassian Jira open source license for Apache Software Foundation. Try Jira - bug tracking software for your team.
+Atlassian
+In my application Camel route, I want to use ErrorHandlerRef where I defined dead letter queue builder and also OnError handler. Definition on dead letter queue builder is right below.
+@Bean()
+public ...
+java rabbitmq apache-camel messaging
+asked Jun 10 at 8:50
+Adam
+111 bronze badge
+0
+votes
+1answer
+19 views
+Understanding Apache Camel Routing for Amazon SQS
+apache-camel apache-camel-aws
+asked Jun 9 at 12:35
+Rakshith
+62688 silver badges2020 bronze badges
+0
+votes
+import, possession, or use, and re-export of encryption software, to
+see if this is permitted. See http://www.wassenaar.org/ for more
+information.
+The U.S. Government Department of Commerce, Bureau of Industry and
+Security (BIS) has classified this software as Export Commodity
+Control Number (ECCN) 5D002.C.1, which includes information security
+algorithms. The form and manner of this Apache Software Foundation
+distribution makes it eligible for export under the License Exception
+ENC Technology Software Unrestricted (TSU) exception (see the BIS
+Export Administration Regulations, Section 740.13) for both object
+code and source code.
+The following provides more details on the included cryptographic
+software:
+camel-ahc can be configured to use https.
+camel-atmosphere-websocket can be used for secure communications.
+camel-crypto can be used for secure communications.
+camel-cxf can be configured for secure communications.
+camel-ftp can be configured for secure communications.
+camel-http can be configured to use https.
+camel-infinispan can be configured for secure communications.
+camel-jasypt can be used for secure communications.
+camel-jetty can be configured to use https.
+3.10.0
+Component/s:
+website
+Labels:
+website
+Estimated Complexity:
+Unknown
+Description
+In the User Manual, most of the files in the "Community" section (Mailing Lists, Support, Team, User Stories, as well as Books in the "Resources & Guides" section, exist as .adoc files in the camel project but also as .md files in camel-website/content/community. Some links in the website reference adoc files and others reference md files.
+Both sets of files have changes so the content is not always consistent.Only one set of files should be maintained and the other ones should be removed.
+After discussion with Zoran Regvart it has been decided to remove the .adoc files and keep the .md files.
+The Community section in the user manual navigation panel and index page will be removed.
+The /CONTRIBUTING.md in the GitHub Camel repository contains almost the same content as the contributing.adoc file in the User Manual. The main contributing content will be put in the camel-website/content/community section. The CONTRIBUTING.md file at the repository root will be contain only the guidelines for actually making a contribution and it will link to the Community contributing.md file.
+AttachmentsOptionsSort By NameSort By DateAscendingDescendingAttachmentsanalysis_and_proposal.txt04/May/21 17:123 kBKaren LeaseIssue Links
+links to
+GitHub Pull Request #45
+GitHub Pull Request #573
+GitHub Pull Request #5531
+Activity
+People
+1answer
+52 views
+Camel transacted JMS component doesn't work with Aggregator
+I discovered that JMS component with option transacted=true doesn't work well with Aggregator. My route is transactional until it reach the Aggregator, after Aggregator my route is not anymore ...
+apache-camel camel-jms
+asked Jun 9 at 10:20
+ngli0703
+1
+0
+votes
+1answer
+28 views
+How to unmarshal XML file in apache camel
+I have two classes ItemsDto and ItemDto
+they represent data from XML file
+@XmlR
+ootElement(name = "items")
+@XmlAccessorType(XmlAccessType.FIELD)
+public class ItemsDto {
+camel-mail can be configured for secure communications.
+camel-nagios can be configured for secure communications.
+camel-netty-http can be configured to use https.
+camel-undertow can be configured to use https.
+camel-xmlsecurity can be configured for secure communications.
+About
+Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
+camel.apache.org
+Topics
+java
+integration
+camel
+Resources
+Readme
+License
+Apache-2.0 License
+Releases
+178
+tags
+Packages 0
+No packages published
+Used by 10
+Assignee:
+Unassigned
+Reporter:
+Karen Lease
+Votes:
+0
+Vote for this issue
+Watchers:
+3
+Start watching this issue
+Dates
+Created:
+04/May/21 17:08
+Updated:
+14/May/21 04:16
+Resolved:
+11/May/21 10:50
+Atlassian Jira Project Management Software
+(v8.3.4#803005-sha1:1f96e09)
+About Jira
+Report a problem
+Powered by a free Atlassian Jira open source license for Apache Software Foundation. Try Jira - bug tracking software for your team.
+@XmlElementRef
+...
+xml routes apache-camel unmarshalling
+asked Jun 8 at 18:56
+Nenad Siler
+511 bronze badge
+0
+votes
+1answer
+30 views
+apache camel : generate random numeric ID in xslt
+In apache camel, I am using xslt to create xml request. I want to generate random ID and pass it as RequestID as one of attribute. Is there any way to generate numeric ID in xslt.
+<RequestID>...
+apache-camel xslt-2.0 numeric
+asked Jun 8 at 18:15
+DummyGuy
+37566 silver badges1717 bronze badges
+0
+votes
+0answers
+10 views
+Apache camel: set fetchSize when useHeadersAsParameters is true
++ 2
+Contributors 763
++ 752 contributors
+Languages
+Java
+99.1%
+Groovy
+0.3%
+XSLT
+0.3%
+HTML
+0.2%
+JavaScript
+0.1%
+Kotlin
+0.0%
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Atlassian
+How to set 'fetchSize' if I use parameter 'useHeadersAsParameters'?
+I tried next options:
+1)
+.to("jdbc:dataSource?useHeadersAsParameters=true&statement.fetchSize=1000")
+2)
+....
+java jdbc apache-camel
+asked Jun 8 at 13:37
+Abel Nightroad
+7611 bronze badge
+-1
+votes
+2answers
+38 views
+Apache camel route a URI to another URI
+Is it possible to route all of request to another server directly? For example route all of this project specific rest endpoint localhost:8080/get-something to another project endpoint like this: ...
+java spring-boot apache-camel restlet http4s
+asked Jun 6 at 17:33
+primElite
+111 bronze badge
+0
+votes
+1answer
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+34 views
+Why Apache Camel result on Graceful shutdown
+Hello I have an app written in Kotlin and using Spring boot Framework and Apache Camel:
+https://camel.apache.org/components/latest/smpp-component.html#_spring_boot_auto_configuration
+So I am new in ...
+kotlin apache-camel smpp
+asked Jun 6 at 16:07
+Fernando Pie
+80811 gold badge1010 silver badges2727 bronze badges
+0
+votes
+0answers
+16 views
+Getting Invalid payload exception on a camel route only while testing through integration test case
+This route responds successfully when invoked from other routes. But throws below error before hitting service.url and occurs only when running the integration test case mention below.
+Error
+org....
+java mockito apache-camel integration-testing spring-camel
+asked Jun 5 at 5:00
+karthik
+1341313 bronze badges
+[CAMEL-16674] Camel component // Huawei Cloud FunctionGraph Component - ASF JIRA
+0
+votes
+0answers
+31 views
+Import CSV to SQL with camel, filter problem?
+Im totally new to Apache Camel and I have a hard time reading their documentation. Here is my simplified route.
+from("direct:importSuppression")
+.onException(Exception::class.java)....
+csv kotlin filter apache-camel camel-sql
+asked Jun 4 at 20:01
+sherkal
+1322 silver badges66 bronze badges
+-2
+votes
+0answers
+18 views
+Is there any Apache Camel alternate in .NET? [closed]
+There is a need to write an integration layer (some sort of a Microservice with in a product) that connects to other applications primarily through File and APIs. The product is written using ...
+Linked ApplicationsLoading…DashboardsProjectsIssues
+Help
+Jira Core help
+Keyboard Shortcuts
+About Jira
+Jira Credits
+Log In
+CamelCAMEL-16674Camel component // Huawei Cloud FunctionGraph ComponentLog In ExportXMLWordPrintableJSONDetails
+Type:
+New Feature
+Status:
+Open
+Priority:
+Major
+Resolution:
+Unresolved
+Affects Version/s:
+None
+Fix Version/s:
+CAMEL-16698: do log when unable to determine docker availability by orpiske · Pull Request #5634 · apache/camel · GitHub
+apache-camel integration
+asked Jun 4 at 16:50
+Prerna Arora
+333 bronze badges
+0
+votes
+0answers
+32 views
+Apache Camel: Send half of data to one route and other half to second route. Camel Load balancer not working
+I have a use case of sending messages reading from file and send half of the total records to one kafka producer and other half to second kafka producer.
+I tried with load balancing option. It does ...
+java spring-boot apache-camel
+asked Jun 4 at 7:26
+Saawan
+31333 silver badges1717 bronze badges
+0
+votes
+1answer
+94 views
+get JMSMessageID when use producerTemplate
+In Camel,
+ProducerTemplate producerTemplate = exchange.getContext().createProducerTemplate();
+producerTemplate.sendBody("endpointqueue?includeSentJMSMessageID=true", ExchangePattern.InOnly, ...
+3.11.0
+Component/s:
+None
+Labels:
+None
+Estimated Complexity:
+Unknown
+Description
+AttachmentsIssue Links
+links to
+GitHub Pull Request #5612
+GitHub Pull Request #5652
+Activity
+People
+Assignee:
+Unassigned
+Reporter:
+Hokutor
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+apache-camel jms
+asked Jun 4 at 3:13
+Julia
+9977 bronze badges
+0
+votes
+1answer
+34 views
+Using dynamic fileName in camel file route
+I have a problem reading different fileName from Camel file component.
+.to(file:/out)
+file routes apache-camel
+asked Jun 3 at 20:56
+Nenad Siler
+511 bronze badge
+-1
+votes
+0answers
+Votes:
+0
+Vote for this issue
+Watchers:
+2
+Start watching this issue
+Dates
+Created:
+31/May/21 18:14
+Updated:
+2 days ago 05:57
+Atlassian Jira Project Management Software
+(v8.3.4#803005-sha1:1f96e09)
+About Jira
+Report a problem
+Powered by a free Atlassian Jira open source license for Apache Software Foundation. Try Jira - bug tracking software for your team.
+Atlassian
+[CAMEL-15488] Upgrade to maven wrapper 0.5.6 - ASF JIRA
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+27 views
+Apache Camel + Apache Http Client - connection refused error
+I have WS on address :
+https://blablabla.com/ws/test.svc
+When I test IT sending xml request on SoapUI everything is fine (no credentials/auth/certificate is required - plain non-secured WS).
+When I ...
+java ssl apache-camel soapui apache-httpclient-4.x
+asked Jun 3 at 8:12
+BartekS
+3511 silver badge66 bronze badges
+0
+votes
+0answers
+18 views
+How to mock routes inside the Multicast in Apache Camel Test
+How to mock routes inside the Multicast in Apache Camel Test
+I am getting an error when mocking the routes inside the multicast in Cameltest, I probably missed something or I incorrectly doing this
+...
+java spring-boot apache-camel
+asked Jun 3 at 4:50
+Linked ApplicationsLoading…DashboardsProjectsIssues
+Help
+Jira Core help
+Keyboard Shortcuts
+About Jira
+Jira Credits
+Log In
+CamelCAMEL-15488Upgrade to maven wrapper 0.5.6Log In ExportXMLWordPrintableJSONDetails
+Type:
+Task
+Status:
+Resolved
+Priority:
+Major
+Resolution:
+Fixed
+Affects Version/s:
+None
+Fix Version/s:
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+teodoro
+21566 silver badges1717 bronze badges
+0
+votes
+0answers
+24 views
+Camel Parallel Processing skipping indexes randomly
+So, i have a quite complex routing at the project i'm working on, and while i'm somewhat new to Camel even my colleagues who designed the route couldn't help solve this problem, that is indexes being ...
+java parallel-processing apache-camel
+asked Jun 2 at 19:19
+Enzo Lopes
+1122 bronze badges
+1
+vote
+0answers
+42 views
+Java SFTP :: Apache Camel RemoteFileProducer is ignoring exception
+I have a Java application, running on a WildFly server which connects to a remote SFTP server using Apache Camel 3.7.3. This application sends files to the SFTP server.
+When I test my application ...
+java apache-camel sftp
+asked Jun 2 at 13:58
+stromanneke
+1133 bronze badges
+3.6.0
+Component/s:
+build system
+Labels:
+help-wanted
+Estimated Complexity:
+Novice
+Description
+We use 0.5.5, but 0.5.6 is released
+AttachmentsIssue Links
+links to
+GitHub Pull Request #4344
+Activity
+People
+Assignee:
+Unassigned
+Reporter:
+Claus Ibsen
+Votes:
+0
+Vote for this issue
+Watchers:
+1
+Start watching this issue
+apache
+/
+camel
+Notifications
+Star
+3.8k
+Fork
+4.3k
+Code
+Pull requests
+3
+Actions
+Projects
+0
+Security
+Insights
+More
+Code
+Pull requests
+Actions
+Projects
+-2
+votes
+0answers
+17 views
+Migrate the Tibco BW
+We want to Migrate the Tibco BW in our Legacy Application. What are the Best Alternatives for the Tibco BW. I saw the Tibco BW can be Migrated to Apache Camel
+https://www.redhat.com/de/about/videos/...
+apache-camel tibco-business-works tibco-rv
+asked Jun 2 at 13:15
+Syed Ghouse Habib
+1166 bronze badges
+0
+votes
+1answer
+20 views
+Circuit Breaker for asynchronous channel along with Dead Letter Channel
+I have a requirement to use circuit breaker along with a Dead Letter Channel (DLC). The errored out messages should go to DLC. The other messages should not be consumed while the circuit is open.
+...
+design-patterns apache-camel eai
+asked Jun 2 at 12:48
+SRaj
+[CAMEL-16716] camel-mongodb streamFilter component option not honored - ASF JIRA
+Dates
+Created:
+31/Aug/20 14:47
+Updated:
+02/Oct/20 05:09
+Resolved:
+02/Oct/20 05:09
+Atlassian Jira Project Management Software
+(v8.3.4#803005-sha1:1f96e09)
+About Jira
+Report a problem
+Powered by a free Atlassian Jira open source license for Apache Software Foundation. Try Jira - bug tracking software for your team.
+Atlassian
+Security
+Insights
+New issue
+Have a question about this project? Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+Pick a username
+Email Address
+Password
+Sign up for GitHub
+By clicking “Sign up for GitHub”, you agree to our terms of service and
+privacy statement. We’ll occasionally send you account related emails.
+Already on GitHub?
+Sign in
+to your account
+Jump to bottom
+CAMEL-16698: do log when unable to determine docker availability
+#5634
+Merged
+orpiske
+merged 1 commit into
+apache:main
+from
+65477 silver badges1717 bronze badges
+0
+votes
+1answer
+26 views
+How to remove element from XML in Camel route?
+Suppose I have next XML coming from Oracle queue to Camel route:
+<book>
+<author>Jack London</author>
+<name>White Fang</name>
+<publisher>Penguin</...
+java xml spring apache-camel
+asked Jun 2 at 8:37
+Andrey
+19511 gold badge22 silver badges1414 bronze badges
+0
+votes
+0answers
+37 views
+camel rest rest integration
+Linked ApplicationsLoading…DashboardsProjectsIssues
+Help
+Jira Core help
+Keyboard Shortcuts
+About Jira
+Jira Credits
+Log In
+CamelCAMEL-16716camel-mongodb streamFilter component option not honoredLog In ExportXMLWordPrintableJSONDetails
+Type:
+Bug
+Status:
+Resolved
+Priority:
+Major
+Resolution:
+Fixed
+Affects Version/s:
+3.10.0
+orpiske:camel-16698
+Jun 10, 2021
+Merged
+CAMEL-16698: do log when unable to determine docker availability
+#5634
+orpiske
+merged 1 commit into
+apache:main
+from
+orpiske:camel-16698
+Jun 10, 2021
+Conversation
+7
+Commits
+1
+Checks
+2
+Files changed
+Conversation
+Copy link
+I would like to invoke a rest endpoint and post it to another endpoint after some processing using Apache Camel RouteBuilder. How can I do this?
+This is just a sample code I am trying locally. (the ...
+java spring-boot apache-camel
+asked Jun 1 at 19:53
+enigmatic
+111 bronze badge
+0
+votes
+1answer
+21 views
+route url to external rest conroller using apache camel
+Is there any way to route all request to specific URI to another projects rest controller?
+consider the code below:
+@Component
+public class CamelSportsRouteBuilder extends RouteBuilder {
+@...
+java spring spring-boot spring-mvc apache-camel
+asked Jun 1 at 11:56
+primElite
+Fix Version/s:
+3.11.0
+Component/s:
+camel-mongodb3
+Labels:
+None
+Estimated Complexity:
+Unknown
+Description
+Although streamFilter is declared as a UriParam: https://github.com/apache/camel/blob/main/components/camel-mongodb/src/main/java/org/apache/camel/component/mongodb/MongoDbEndpoint.java#L108 (it should be annotated as consumer only though)
+it is not honored. Such filter is only loaded from property: https://github.com/apache/camel/blob/main/components/camel-mongodb/src/main/java/org/apache/camel/component/mongodb/MongoDbChangeStreamsConsumer.java#L60-L64
+as reported in ckc issue: https://github.com/apache/camel-kafka-connector/issues/1112
+AttachmentsActivity
+People
+Assignee:
+Claus Ibsen
+Reporter:
+Quote reply
+Contributor
+orpiske
+commented
+Jun 9, 2021
+No description provided.
+orpiske
+requested a review
+from gnodet
+Jun 9, 2021
+Copy link
+Contributor
+Author
+orpiske
+commented
+Jun 9, 2021
+Please don't merge it yet. It may not be enough to solve the problems on CAMEL-16698, and I am opening it to collect more feedback.
+oscerd
+approved these changes
+Jun 9, 2021
+View changes
+Copy link
+Contributor
+gnodet
+commented
+Jun 9, 2021
+I don't really see any change in the maven output:
+➜ camel-couchbase git:(62058128e37) mvn install
+[INFO] BuildTimeEventSpy is registered.
+111 bronze badge
+0
+votes
+0answers
+13 views
+apache-camel
+asked Jun 1 at 10:49
+Shubham Agarwal
+1
+0
+votes
+1answer
+44 views
+Circuit breaker for asynchronous microservices..?
+There is a ActiveMQ queue (QueueA). A service (MyService) subscribes to messages, processes it and sends the message to another ActiveMQ queue (QueueB).
+QueueA -> MyService -> QueueB
+Cosider a ...
+spring-boot apache-camel activemq message-queue eai
+asked Jun 1 at 6:00
+SRaj
+65477 silver badges1717 bronze badges
+0
+votes
+1answer
+15 views
+How do I repair a cxf-codegen-plugin throwing an error in POM
+I want to use cxf-codegen-plugin to generate-sources with wsdl2java in my camel maven project.
+I added the plugin as follows to my pom.
+Andrea Tarocchi
+Votes:
+0
+Vote for this issue
+Watchers:
+2
+Start watching this issue
+Dates
+Created:
+2 days ago 14:07
+Updated:
+Yesterday 08:33
+Resolved:
+Yesterday 08:33
+Atlassian Jira Project Management Software
+(v8.3.4#803005-sha1:1f96e09)
+About Jira
+Report a problem
+Powered by a free Atlassian Jira open source license for Apache Software Foundation. Try Jira - bug tracking software for your team.
+Atlassian
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.apache.camel:camel-couchbase >------------------
+[INFO] Building Camel :: Couchbase 3.11.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ camel-couchbase ---
+[INFO]
+[INFO] --- impsort-maven-plugin:1.6.0:sort (sort-imports) @ camel-couchbase ---
+[INFO] Processed 15 files in 00:00.022 (Already Sorted: 15, Needed Sorting: 0)
+[INFO]
+[INFO] --- maven-checkstyle-plugin:3.1.2:check (default-cli) @ camel-couchbase ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO]
+[INFO] --- camel-bundle-plugin:3.11.0-SNAPSHOT:cleanVersions (versions) @ camel-couchbase ---
+[INFO]
+[INFO] --- formatter-maven-plugin:2.14.0:format (format) @ camel-couchbase ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Formatting is skipped for types: JavaScript, HTML, CSS
+<plugin>
+<groupId>org.apache.cxf</groupId>
+...
+apache-camel cxf cxf-codegen-plugin
+asked Jun 1 at 2:05
+Mike Oliver
+2155 bronze badges
+0
+votes
+1answer
+37 views
+Load a Apache Camel route at runtime from a file
+I am attempting to load an Apache Camel route at runtime from a file. This means
+My "route.yaml" file is as follows.
+- route:
+from: "timer:yaml?period=3s"
+steps:
+- ...
+[INFO] Number of files to be formatted: 15
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format: 0 file(s)
+[INFO] Skipped: 15 file(s)
+[INFO] Read only skipped: 0 file(s)
+[INFO] Approximate time taken: 0s
+[INFO]
+[INFO] --- build-helper-maven-plugin:3.2.0:add-source (default) @ camel-couchbase ---
+[INFO] Source directory: /Users/gnodet/work/git/camel/components/camel-couchbase/src/generated/java added.
+[INFO]
+[INFO] --- build-helper-maven-plugin:3.2.0:add-resource (default) @ camel-couchbase ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ camel-couchbase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/gnodet/work/git/camel/components/camel-couchbase/src/main/resources
+[INFO] Copying 6 resources
+[INFO]
+apache-camel
+asked May 30 at 6:47
+Phil
+33.2k3030 gold badges9999 silver badges154154 bronze badges
+0
+votes
+0answers
+16 views
+Apache camel setHeader in spring xml dsl
+I just have assigned to apache camel project in the company where I work. The project is with spring xml dsl. I'm curious about strange behaviour of the attribute for name in the setHeader element. ...
+spring apache-camel spring-dsl
+asked May 29 at 22:49
+Beyond1337
+344 bronze badges
+0
+votes
+1answer
+31 views
+Apache camel bean state is lost
+[INFO] --- flatten-maven-plugin:1.2.5:flatten (default-cli) @ camel-couchbase ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-couchbase:jar:3.11.0-SNAPSHOT...
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ camel-couchbase ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- camel-package-maven-plugin:3.11.0-SNAPSHOT:generate (generate) @ camel-couchbase ---
+[INFO] Skipping generation, everything is up to date.
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (recompile) @ camel-couchbase ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ camel-couchbase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ camel-couchbase ---
+I have a route
+from("timer://poller?fixedRate=true&period=1500")
+.routeId("db-poller")
+.filter(method(StateBean.class, "doProcess"))
+...
+java spring-boot apache-camel
+asked May 29 at 14:50
+miroana
+14588 bronze badges
+0
+votes
+1answer
+44 views
+Camel Routes - How to return the body response as xml
+First of all, I am new with Spring Boot.
+I am not sure if it is possible, but I would like to return the xml response from the external url.
+I have this code:
+@GetMapping("/myPage")
+public ...
+spring-boot apache-camel spring-camel
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/gnodet/work/git/camel/components/camel-couchbase/target/test-classes
+[WARNING] [options] bootstrap class path not set in conjunction with -source 8
+[WARNING] /Users/gnodet/work/git/camel/components/camel-couchbase/src/test/java/org/apache/camel/component/couchbase/integration/CouchbaseIntegrationTestBase.java:[39,68] [deprecation] getService() in CouchbaseServiceFactory has been deprecated
+[INFO]
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ camel-couchbase ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO] T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.couchbase.CouchbaseComponentTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.555 s - in org.apache.camel.component.couchbase.CouchbaseComponentTest
+[INFO] Running org.apache.camel.component.couchbase.CouchbaseEndpointTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.camel.component.couchbase.CouchbaseEndpointTest
+[INFO] Running org.apache.camel.component.couchbase.CouchbaseProducerTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.752 s - in org.apache.camel.component.couchbase.CouchbaseProducerTest
+asked May 29 at 0:40
+Diego Kunzevich
+1155 bronze badges
+0
+votes
+0answers
+28 views
+Mulitple versions of a kafka clients bundle is not working in OSGi KARAF
+I am using karaf container to deploy my bundles which consists of the following structure.
+external bundle which expects kafka clients 0.9.0.0(strict)
+bundle A(my own bundle) which uses camel kafka(2....
+java apache-kafka apache-camel osgi maven-plugin
+asked May 28 at 7:20
+Shriram
+4,12477 gold badges2828 silver badges5959 bronze badges
+0
+votes
+0answers
+45 views
+Camel K Rest route needs JSON marshalling and commented code executed
+A - Case 1: Rest DSL Example fails
+I'm trying to apply the example written in the Apache Camel Rest DSL component. The simplified version of the same example for Camel K can be seen as below;
+import ...
+java rest apache-camel apache-camel-k camel-rest
+asked May 27 at 23:21
+Levent Divilioglu
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- camel-package-maven-plugin:3.11.0-SNAPSHOT:generate-postcompile (generate-postcompile) @ camel-couchbase ---
+[INFO] Skipping generation, everything is up to date.
+[INFO]
+[INFO] --- camel-bundle-plugin:3.11.0-SNAPSHOT:manifest (bundle-manifest) @ camel-couchbase ---
+[INFO] Skipping manifest generation, everything is up to date.
+[INFO]
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ camel-couchbase ---
+[INFO]
+[INFO] --- maven-failsafe-plugin:3.0.0-M4:integration-test (integration-test) @ camel-couchbase ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO] T E S T S
+[INFO] -------------------------------------------------------
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-failsafe-plugin:3.0.0-M4:verify (integration-test) @ camel-couchbase ---
+[INFO]
+9,18955 gold badges4949 silver badges9696 bronze badges
+1
+vote
+1answer
+31 views
+Path variables in Apache Camel rest route
+I would like to use path variables in my REST route URL in the following way:
+The companyId can be properly retrieved as ...
+rest web-services apache-camel
+asked May 27 at 14:48
+mar3g
+3344 bronze badges
+0
+votes
+0answers
+19 views
+Generate CSV File (Apache Camel BindyCSVDataFormat) with quotes only in non numeric fields
+I'm trying to generate a CSV file using BindyCsvDataFormat and I would like to have quoted only in non-numeric fields. QuoteMode NON_NUMERIC is not available in Bindy , according to this -> (https:/...
+csv apache-camel quotes bindy
+asked May 27 at 12:27
+konstantina_d
+1
+0
+votes
+0answers
+45 views
+Methods in OPC-UA Apache-Camel Milo Client
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ camel-couchbase ---
+[INFO] Installing /Users/gnodet/work/git/camel/components/camel-couchbase/target/camel-couchbase-3.11.0-SNAPSHOT.jar to /Users/gnodet/.m2/repository/org/apache/camel/camel-couchbase/3.11.0-SNAPSHOT/camel-couchbase-3.11.0-SNAPSHOT.jar
+[INFO] Installing /Users/gnodet/work/git/camel/components/camel-couchbase/target/camel-couchbase-3.11.0-SNAPSHOT.pom to /Users/gnodet/.m2/repository/org/apache/camel/camel-couchbase/3.11.0-SNAPSHOT/camel-couchbase-3.11.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.623 s
+[INFO] Finished at: 2021-06-09T08:40:24+02:00
+[INFO] ------------------------------------------------------------------------
+➜
+Copy link
+Contributor
+Author
+orpiske
+commented
+Jun 9, 2021
+@gnodet there is a log file created by failsafe. Within the component directory (ie.: component/camel-couchbase) there should be a file named target/camel-couchbase-test.log which should display something like:
+2021-06-09 07:43:04,569 [main ] ERROR ContainerEnvironmentUtil - Failed to evaluate whether the docker environment is available: <reason >
+<stack trace>
+...
+2021-06-09 07:43:04,572 [main ] WARN ContainerEnvironmentUtil - Turning off container-based tests because docker does not seem to be working correctly
+2021-06-09 07:43:04,573 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.RemoveMessagesIT is disabled because docker is not available
+2021-06-09 07:43:04,577 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ConsumeMessagesWithLimitIT is disabled because docker is not available
+2021-06-09 07:43:04,579 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ProduceMessagesSimpleIT is disabled because docker is not available
+A few months ago I started working on a project that requires the integration of OPC / UA to communicate with an automatic machine. Working with SpringBoot I looked for a library that was well ...
+spring-boot apache-camel opc-ua milo
+asked May 27 at 8:02
+marcello cappelli
+1122 bronze badges
+0
+votes
+1answer
+84 views
+Apache camel Error - cvc-complex-type.3.2.2: Attribute 'headerName' is not allowed to appear in element 'setHeader'."
+Greetings friend when using the component set header in apache camel it throws me the following error when I do the deployment in EAP
+/META-INF/jboss-camel-context.xml] is invalid; nested exception is ...
+xml spring apache-camel
+asked May 26 at 21:08
+Joelvin Chirino
+1
+1
+2
+3
+4
+5
+…
+212
+Next
+The Overflow Blog
+Level Up: Linear Regression in Python – Part 4
+Using low-code tools to iterate products faster
+2021-06-09 07:43:04,581 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ProduceMessagesWithAutoIDIT is disabled because docker is not available
+Do you have that file?
+Copy link
+Contributor
+gnodet
+commented
+Jun 9, 2021
+@gnodet there is a log file created by failsafe. Within the component directory (ie.: component/camel-couchbase) there should be a file named target/camel-couchbase-test.log which should display something like:
+2021-06-09 07:43:04,569 [main ] ERROR ContainerEnvironmentUtil - Failed to evaluate whether the docker environment is available: <reason >
+<stack trace>
+...
+2021-06-09 07:43:04,572 [main ] WARN ContainerEnvironmentUtil - Turning off container-based tests because docker does not seem to be working correctly
+2021-06-09 07:43:04,573 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.RemoveMessagesIT is disabled because docker is not available
+2021-06-09 07:43:04,577 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ConsumeMessagesWithLimitIT is disabled because docker is not available
+Featured on Meta
+Take the 2021 Developer Survey
+Related Tags
+java × 4071
+spring × 1050
+spring-boot × 771
+activemq × 632
+cxf × 471
+jbossfuse × 446
+spring-camel × 418
+jms × 403
+rest × 325
+apache-karaf × 275
+xml × 269
+apache-servicemix × 260
+apache × 256
+web-services × 230
+json × 208
+maven × 188
+blueprint-osgi × 184
+2021-06-09 07:43:04,579 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ProduceMessagesSimpleIT is disabled because docker is not available
+2021-06-09 07:43:04,581 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ProduceMessagesWithAutoIDIT is disabled because docker is not available
+Do you have that file?
+Yes, you're right. The file is here and the reason Could not find a valid Docker environment. too. It seems not really intuitive to not have anything in the maven log somehow.
+I wonder if we could have the tests flagged as if a junit assumption was not met (which is somewhat the case), the problem is that they are simply not listed at all.
+Copy link
+Contributor
+Author
+orpiske
+commented
+Jun 9, 2021
+@gnodet there is a log file created by failsafe. Within the component directory (ie.: component/camel-couchbase) there should be a file named target/camel-couchbase-test.log which should display something like:
+2021-06-09 07:43:04,569 [main ] ERROR ContainerEnvironmentUtil - Failed to evaluate whether the docker environment is available: <reason >
+<stack trace>
+...
+2021-06-09 07:43:04,572 [main ] WARN ContainerEnvironmentUtil - Turning off container-based tests because docker does not seem to be working correctly
+2021-06-09 07:43:04,573 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.RemoveMessagesIT is disabled because docker is not available
+soap × 176
+camel-ftp × 175
+apache-kafka × 165
+fuseesb × 164
+routes × 162
+osgi × 162
+netty × 128
+rabbitmq × 123
+more related tags
+Hot Network Questions
+Collatz's ice cream cone factory
+1990s movie. Aliens infiltrating earth. Protagonist tries to stop them
+Translating fractional coordinates resulting from conventional cell and primitive cell
+Why do escrow services use wire transfer?
+Is reincarnation inevitable?
+A line not intersecting points in the plane
+How to pixelate / blur part of an image in Mac Preview?
+Would there be more decisive games if we began to see stalemates as checkmates? And hence more "interesting" chess?
+Time gap between leaving the Earth's atmosphere and initiation of orbital motion by space shuttle
+How do the inhabitants of my city-wide death trap figure out that nobody will be let out until only 100 people are left alive?
+Is there a common pattern for storing many boolean flags other than adding a ton of columns?
+Are the Nine Hells separate planes or a single plane?
+Can "engine" and "motor" be used interchangeably in spaceflight? Are there any cases where they can't be?
+2021-06-09 07:43:04,577 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ConsumeMessagesWithLimitIT is disabled because docker is not available
+2021-06-09 07:43:04,579 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ProduceMessagesSimpleIT is disabled because docker is not available
+2021-06-09 07:43:04,581 [main ] WARN ContainerService - Test class org.apache.camel.component.couchbase.integration.ProduceMessagesWithAutoIDIT is disabled because docker is not available
+Do you have that file?
+Yes, you're right. The file is here and the reason Could not find a valid Docker environment. too. It seems not really intuitive to not have anything in the maven log somehow.
++1
+I wonder if we could have the tests flagged as if a junit assumption was not met (which is somewhat the case), the problem is that they are simply not listed at all.
+1+. Currently the ContainerService inherits a ExecutionCondition to handle this, but this silent failure behavior could be improved. I need to research what we could do here as I am not entirely sure I can use the assumption at that point.
+orpiske
+force-pushed the
+orpiske:camel-16698
+branch
+from
+6205812
+to
+d0b5b53
+Jun 9, 2021
+Copy link
+Contributor
+Author
+orpiske
+commented
+Jun 9, 2021
+It seems not really intuitive to not have anything in the maven log somehow.
+I was hoping I could come up with a cleaner solution, but I wanted to avoid any more complex solution based on TestExecutionListener for now.
+So, what I end up doing is, I disabled the redirectTestOutputToFile and added and error message when Docker is not available.
+[INFO] -------------------------------------------------------
+[INFO] T E S T S
+Countering the threat posed by a rogue Moon-spanning AI
+In Minecraft, how can you stop items from disappearing?
+Fourier Transform of a short signal
+Since photons are said to be the force carrier of electromagnetic force, does it mean that photons get transferred from golf club to golf ball?
+How to put make multiple tables in a single row
+Missing number in a table
+What is more efficient or recommended for reading output of a command into variables in Bash?
+Do incomplete chords get roman numerals in harmonic analysis?
+Which flight maneuver is better for a takeoff emergency after lifts off, tear drop(180 turn) or 360 turn?
+more hot questions
+Newest apache-camel questions feed
+Subscribe to RSS
+Newest apache-camel questions feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+Stack Overflow
+Questions
+Jobs
+[INFO] -------------------------------------------------------
+Container-based tests were disabled because Docker is NOT available. Check the log files on target/failsafe-reports
+Container-based tests were disabled because Docker is NOT available. Check the log files on target/failsafe-reports
+Container-based tests were disabled because Docker is NOT available. Check the log files on target/failsafe-reports
+Container-based tests were disabled because Docker is NOT available. Check the log files on target/failsafe-reports
+orpiske
+force-pushed the
+orpiske:camel-16698
+branch
+from
+d0b5b53
+to
+2a17611
+Jun 9, 2021
+CAMEL-16698: do log when unable to determine docker availability
+2a17611
+Copy link
+Contributor
+Author
+orpiske
+Developer Jobs Directory
+Salary Calculator
+Help
+Mobile
+Products
+Teams
+Talent
+Advertising
+Enterprise
+Company
+About
+Press
+Work Here
+Legal
+Privacy Policy
+Terms of Service
+Contact Us
+Cookie Settings
+commented
+Jun 10, 2021
+This one should be good to go.
+Hide details
+View details
+orpiske
+merged commit 5b98f84
+into
+apache:main
+Jun 10, 2021
+1 check passed
+1 check passed
+build (1.8)
+Details
+memaskal
+added a commit
+to memaskal/camel
+that referenced
+this pull request
+Cookie Policy
+Stack Exchange Network
+Technology
+Life / Arts
+Culture / Recreation
+Science
+Other
+Stack Overflow
+Server Fault
+Super User
+Web Applications
+Ask Ubuntu
+Webmasters
+Game Development
+TeX - LaTeX
+Software Engineering
+Unix & Linux
+Ask Different (Apple)
+WordPress Development
+Geographic Information Systems
+Electrical Engineering
+Android Enthusiasts
+Jun 10, 2021
+CAMEL-16698: do log when unable to determine docker availability (apa…
+…
+481a2a5
+…che#5634)
+Sign up for free
+to join this conversation on GitHub.
+Already have an account?
+Sign in to comment
+Reviewers
+oscerd
+gnodet
+Assignees
+No one assigned
+Labels
+None yet
+Projects
+None yet
+Milestone
+No milestone
+3 participants
+Add this suggestion to a batch that can be applied as a single commit.
+This suggestion is invalid because no changes were made to the code.
+Suggestions cannot be applied while the pull request is closed.
+Suggestions cannot be applied while viewing a subset of changes.
+Only one suggestion per line can be applied in a batch.
+Information Security
+Database Administrators
+Drupal Answers
+SharePoint
+User Experience
+Mathematica
+Salesforce
+ExpressionEngine® Answers
+Stack Overflow em Português
+Blender
+Network Engineering
+Cryptography
+Code Review
+Magento
+Software Recommendations
+Signal Processing
+Emacs
+Raspberry Pi
+Stack Overflow на русском
+Code Golf
+Add this suggestion to a batch that can be applied as a single commit.
+Applying suggestions on deleted lines is not supported.
+You must change the existing code in this line in order to create a valid suggestion.
+Outdated suggestions cannot be applied.
+This suggestion has been applied or marked resolved.
+Suggestions cannot be applied from pending reviews.
+Suggestions cannot be applied on multi-line comments.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+Stack Overflow en español
+Ethereum
+Data Science
+Arduino
+Bitcoin
+Software Quality Assurance & Testing
+Sound Design
+Windows Phone
+more (29)
+Photography
+Science Fiction & Fantasy
+Graphic Design
+Movies & TV
+Music: Practice & Theory
+Worldbuilding
+Video Production
+Seasoned Advice (cooking)
+Home Improvement
+Personal Finance & Money
+Academia
+Law
+Physical Fitness
+Gardening & Landscaping
+Parenting
+You signed out in another tab or window. Reload to refresh your session.
+more (10)
+English Language & Usage
+Skeptics
+Mi Yodeya (Judaism)
+Travel
+Christianity
+English Language Learners
+Japanese Language
+Chinese Language
+French Language
+German Language
+Biblical Hermeneutics
+History
+Spanish Language
+Islam
+Русский язык
+Russian Language
+Arqade (gaming)
+Bicycles
+Role-playing Games
+Anime & Manga
+Puzzling
+Motor Vehicle Maintenance & Repair
+Board & Card Games
+Bricks
+Homebrewing
+Martial Arts
+The Great Outdoors
+Poker
+Chess
+Sports
+more (16)
+MathOverflow
+Mathematics
+Cross Validated (stats)
+Theoretical Computer Science
+Physics
+Chemistry
+Biology
+Computer Science
+Philosophy
+Linguistics
+Psychology & Neuroscience
+Computational Science
+more (10)
+Meta Stack Exchange
+Stack Apps
+API
+Data
+Blog
+Facebook
+Twitter
+LinkedIn
+Instagram
+site design / logo © 2021 Stack Exchange Inc; user contributions licensed under cc by-sa. rev 2021.6.11.39480
+Stack Overflow works best with JavaScript enabled
+Your privacy
+By clicking “Accept all cookies”, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy.
+Accept all cookies
+Customize settings

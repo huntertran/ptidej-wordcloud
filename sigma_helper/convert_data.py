@@ -2,6 +2,7 @@ import random
 import jsonpickle
 
 from PIL import Image
+from helpers.ProjectHelper import ProjectHelper
 
 jsonpickle.set_preferred_backend('json')
 jsonpickle.set_encoder_options('json', ensure_ascii=False, indent=4)
@@ -128,6 +129,7 @@ def load_linked_result():
 
 
 def save_graph(data):
+    ProjectHelper.create_data_folder('./docs/data/')
     with open('./docs/data/graph.json', 'w', encoding='utf8') as dataFile:
         dataFile.write(jsonpickle.encode(data, unpicklable=False))
 

@@ -41,7 +41,7 @@ def crawl(file_path):
     if reactor.running:
         reactor.stop()
     else:
-        yield runner.crawl(crawler, site_url="http://www.msftconnecttest.com/connecttest.txt", crawl_depth_level=0)
+        yield runner.crawl(crawler, site_url="http://www.msftconnecttest.com/connecttest.txt", project_name="", crawl_depth_level=0)
         reactor.stop()
 
 
