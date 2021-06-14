@@ -1,0 +1,1903 @@
+Wi-Fi Enabled Boards | Microchip Technology
+We detect you are using an unsupported browser. For the best experience, please visit the site using Chrome, Firefox, Safari, or Edge.
+X
+This page requires frames in order to show content
+Products
+Parametric Chart
+Microcontrollers and Microprocessors
+Analog
+Amplifiers and Linear ICs
+Clock and Timing
+Data Converters
+Embedded Controllers and Super I/O
+FPGAs and PLDs
+High-Speed Networking and Video
+Interface and Connectivity
+LED Drivers and Backlighting
+Memory Products
+Power Management
+Power over Ethernet
+Security ICs
+Sensors and Motor Drive
+Services
+Smart Energy/Metering
+Storage
+Synchronization and Timing Systems
+Touch and Gesture
+Wireless Connectivity
+Browse Microcontrollers and Microprocessors
+8-bit MCUs
+PIC® MCUs
+AVR® MCUs
+8051 MCUs
+Peripherals
+Functional Safety
+PIC18 to PIC24 Migration
+16-bit MCUs
+PIC24F MCUs - 16 MIPS
+dsPIC33C Digital Signal Controllers
+dsPIC33E DSCs - 70 MIPS
+Peripherals
+PIC24F MCU and dsPIC33 DSC Applications
+Functional Safety – dsPIC33 DSCs and PIC24 MCUs
+MPLAB Development Ecosystem and Software Tools
+32-bit MCUs
+32-bit PIC Microcontrollers (MCUs)
+32-bit SAM Microcontrollers (MCU)
+CEC 32-bit MCUs
+Legacy 32-bit Microcontrollers (MCUs)
+Applications, Reference Designs and Solutions
+32-bit Embedded Security
+32-bit Functional Safety
+Softpacks
+Third-Party Partners
+32-bit MPUs
+SAMA5
+SAM9
+SiP and SOM
+Security
+Software
+Development Tools
+Applications
+Design Partners
+Browse Amplifiers and Linear ICs
+Comparator ICs
+Current Sense Amplifier ICs
+Current/Voltage/Power Monitor ICs
+Instrumentation Amplifier ICs
+Operational Amplifier ICs
+Programmable Gain Amplifier ICs
+Browse Clock and Timing
+Atomic Clocks
+Precision Time and Frequency for C5ISR
+Embedded Atomic Oscillators
+Buffers
+Clock and Data Distribution
+Clock Generation
+Jitter Attenuation
+MEMS Timing
+Oscillators
+Vectron Oscillators
+PCIe® Timing
+Real-Time Clocks
+SyncE IEEE® 1588
+Applications
+Automotive Timing
+5G Timing
+Product Selection Tool
+ClockWorks® Configurator and Sampling Tool
+Field Programming Kit
+Reference Designs
+Browse Data Converters
+AC/DC Power and Energy Devices
+Analog-to-Digital Converters
+Special-Purpose Analog-to-Digital Converters
+Digital Potentiometers
+Digital-to-Analog Converters
+Voltage References
+Browse Embedded Controllers and Super I/O
+Desktop and Super I/O
+eSPI-to-LPC Bridge
+Embedded and Keyboard Controllers
+Expansion and Legacy I/O
+Browse FPGAs and PLDs
+Antifuse FPGAs
+FPGAs
+PolarFire® FPGAs
+IGLOO® FPGAs
+IGLOO® 2 FPGAs
+ProASIC® 3 FPGAs
+Radiation-Tolerant FPGAs
+RT PolarFire® FPGAs
+RTG4™ Radiation-Tolerant FPGAs
+System-on-Chip FPGAs
+SmartFusion® 2 FPGAs
+FPGA Design Resources
+Clocking FPGAs
+Powering FPGAs
+FPGA Design Partners
+MI-V Partner Ecosystem
+Low Power FPGAs
+VectorBlox™ Accelerator Software Development Kit
+FPGA and SoC Design Tools
+FPGA Configuration Memory
+Mature Products - AT40Kxx Coprocessor Series FPGAs
+SPLD/CPLDs
+PLD Design Resources
+Browse High-Speed Networking and Video
+ARCNET
+Data and Video Transceivers
+High-Speed Data and Video Applications
+Supported Video Protocols
+Ethernet
+Ethernet Bridges
+Ethernet Controllers
+Ethernet Switches
+Ethernet PHYs
+EtherCAT® Slave Controllers
+Ethernet MCUs and MPUs
+Software
+Special Ethernet Technologies
+High-Speed Communications
+Network Processors
+Ecosystem
+Optical Networking
+Browse Interface and Connectivity
+CAN
+CAN Transceivers
+CAN External Controllers
+CAN 2.0 MCUs
+CAN FD MCUs
+32-bit MCUs with CAN Quick Selector Guide
+CAN and CAN FD Functional Safety
+FAQs
+CoaXPress® Technology
+Ethernet
+High-Voltage Interface
+INICnet™ Technology
+LIN
+Transceivers with Voltage Regulator
+Transceivers with Voltage Regulator and Relay Driver
+System-in-Package (SiP) Solutions
+LIN Functional Safety
+Line Circuits
+Line Drivers
+PCIe® Retimers
+PCIe® Retimer Design Resources
+PCIe® Switches
+PCIe® Switch Design Resources
+Serial Peripherals
+USB
+Basic USB Concepts and FAQs
+USB Hubs
+USB-C® Power Delivery Controllers
+USB Bridge Controllers
+USB Switches and Transceivers
+USB Graphics Controllers
+USB Port Power Controllers
+USB MCUs and dsPIC DSCs
+Browse LED Drivers and Backlighting
+Electroluminescent Backlight Drivers
+Browse Memory Products
+MemoryLink Product Selection Tool
+Serial EERAM
+Serial EEPROM
+Single-Wire and UNI/O® Bus Serial EEPROMs
+MAC Address and Unique ID EEPROMs
+Getting Started
+Serial and Parallel Flash Memory
+Flash Memory with Embedded MAC Addresses
+What Is SuperFlash®Technology?
+Getting Started
+Serial SRAM and Serial NVSRAM
+Parallel EEPROM
+OTP EPROM
+Smart Memory Controllers
+Browse Power Management
+AC-DC Power Conversion
+Battery Charger ICs
+DC-DC Controllers
+PWM and COT Controllers
+Digitally Enhanced Power Analog Hybrid Controllers
+DC-DC Converters and Voltage Regulators
+Linear LDO Voltage Regulators
+Switching Regulators
+Charge Pumps
+DDR Termination Regulators
+Radiation-Hardened Isolated DC-DC Converters
+Hot Swap Controllers
+MOSFET Drivers
+PMIC - Power Management ICs
+Power Check Design Service
+Power Modules
+Power Switches
+Reverse Power Feed (RPF)
+Silicon Carbide (SiC) Devices and Power Modules
+Digital Programmable Gate Drivers
+Vienna Power Corrections Reference Design
+Transient Voltage Suppressors
+Voltage Supervisors and References
+Voltage Supervisors
+Browse Power over Ethernet
+PoE Powered Devices (PD) ICs
+PoE PSE ICs
+PoE Systems
+Microchip multi-Power over Ethernet (mPoE)
+PoE Design Partners
+Browse Security ICs
+CryptoAuthentication™ Family
+CryptoAutomotive™ Security ICs
+TPM
+TCG Version 1.2
+Trust Platform
+Trust&GO
+TrustFLEX
+TrustCUSTOM
+Mature Products
+Design Partners
+Partner Solutions
+Browse Sensors and Motor Drive
+CO, Smoke Detector and Horn Driver ICs
+Current Sense Amplifiers
+Current/Voltage/Power Monitor ICs
+Inductive Position Sensors
+Getting Started with Inductive Position Sensors
+Motor Drivers
+3-Phase Brushless Motor and Gate Drivers
+Brushed DC Gate Drivers
+Fan Controllers
+Full-Bridge Stepper Drivers
+MOSFET Drivers
+Multi-Channel Half-Bridge Drivers
+Temperature Sensors
+Thermocouple Conditioning ICs
+Browse Services
+Foundry Services
+Browse Smart Energy/Metering
+Metering
+Power Line Communications
+Wireless Communications
+Browse Storage
+Adaptec® SmartHBA Host Bus Adapters
+Adaptec® SmartRAID RAID Adapters
+Flashtec® NVMe™ Controllers
+Smart Storage Platform
+Building Your Data Center
+SmartIOC I/O Controllers
+SmartROC RAID-on-Chip Controllers
+SXP SAS Expanders
+Tachyon® Protocol Controllers for Storage Systems
+Browse Synchronization and Timing Systems
+Virtual Primary Reference Time Clock
+Power Utilities
+Transportation
+Data Center Timing and Synchronization
+Browse Touch and Gesture
+Capacitive Touch Solutions for Buttons, Sliders, Wheels and Proximity
+Turnkey Capacitive Touch Controllers
+Microcontrollers with Integrated Capacitive Touch Module
+Solutions for Touchpads and Touchscreens
+2D Touchpads with Microcontrollers
+maXTouch Touchscreen Controllers
+Legacy: Analog Resistive
+Touch Development Tools
+Solutions for 3D Gestures
+Colibri Gesture Suite
+Getting Started
+Design Partners
+Browse Wireless Connectivity
+Embedded Wi-Fi®
+PIC32MZ-W1 Wi-Fi® SoC and Module Family
+PIC32MZ-W1 Trust&GO Wi-Fi® Module
+Wi-Fi® Link Controllers
+Wi-Fi® Network Controllers
+Wi-Fi® RF Front End Components
+Get Started with Wi-Fi® for Linux®
+Get Started with Wi-Fi® for MCUs
+Wi-Fi® Smart Devices
+Wi-Fi® Interoperability
+LoRa® Technology
+SAM R34/R35
+Bluetooth® Low Energy
+Bluetooth® Audio and Voice Solutions
+Bluetooth® Audio Applications
+Sub-GHz
+Receiver ICs
+Transceiver ICs
+Transmitter ICs
+SAM R30
+MiWi™ Protocol
+Zigbee®
+Wireless Medical Solutions
+Software Vulnerability Response
+Amnesia Network Stack (TCP/IP) Vulnerability
+ANSSI Bluetooth® Core Vulnerabilities
+BIAS Vulnerability
+BlueBorne Attack Vector
+Key Negotiation of Bluetooth
+Kr00k Wi-Fi Vulnerability
+Sweyntooth BLE Vulnerability
+WPA2 Protocol Vulnerability
+RF Identification
+100-150 kHz OTP
+100-150 kHz Read/Write
+125 kHz Transponder
+IR Control
+Over the Air Updates
+RED Frequently Asked Questions
+Design Partners
+Third-Party Wireless Module Solutions
+Solutions
+Aerospace and Defense
+Automotive and Transportation
+CAN Technology
+Consumer
+Data Centers and Computing
+Displays
+Embedded Security
+Ethernet Technology
+Functional Safety
+High-Temperature Products
+Industrial
+Internet of Things
+LIN Technology
+Low Power
+Machine Learning
+Medical
+MEMS and Piezoelectric Drive
+Motor Control and Drive
+Power Management and Conversion
+Touch and Gesture Technologies
+USB Technology
+Wireless Connectivity
+Browse Aerospace and Defense
+Aviation
+Defense
+Space
+Products
+High-Reliability Discrete and Power Management
+Memory
+Microcontrollers and Microprocessors
+Radiation-Hardened Mixed-Signal ICs
+Design Partners
+Browse Automotive and Transportation
+Automotive Products
+Microcontrollers and Microprocessors
+Analog Products
+Connectivity
+Automotive Touch
+Car Access
+Memory Products
+Automotive High-Temperature Products
+Timing Solutions
+Automotive Security
+Automotive Applications
+Infotainment
+HEV, EV, Powertrain
+Body Electronics
+ADAS
+Functional Safety
+Recommended for Automotive
+Automotive Software
+Browse Consumer
+Audio and Speech
+Digital Audio Basics
+Recording
+Playback
+Communications
+Bluetooth® Audio Applications
+PIC32 Digital Audio
+Products
+Getting Started
+Home Appliances
+Human Interface
+Connectivity
+Motor Control
+Low Power
+Class-B Safety Software
+Connected Home Reference Designs
+Intelligent Lighting and Control
+Browse Data Centers and Computing
+Data Center Solutions
+Machine Learning
+NVMe Endpoints
+Protection and Security
+Storage Servers
+Data Center Timing and Synchronization
+Technologies
+Computing Solutions
+Client Computing
+Industrial Computing
+Protection and Security
+Technologies
+Browse Displays
+Embedded Graphics Solutions
+Embedded Graphics Products
+MCU Guided Selection Tool for Graphics
+Development Boards
+MPLAB® Harmony Graphics Suite (MHGS)
+Third-Party Tools
+Design Partners
+Segmented LCD Solutions
+Microcontrollers for Segmented Displays
+Reference Designs and Application Examples
+Graphical User Interface
+Human Machine Interface (HMI) for Diagnostic Tool
+Browse Embedded Security
+Security ICs
+Secure Data
+32-bit Embedded Security
+Security
+Secure FPGAs and SoC FPGAs
+Security Total System Solutions
+Smart Home Lock
+How to Report Potential Product Security Vulnerabilities
+Design Partners
+Browse Ethernet Technology
+Automotive
+Consumer
+IP Set-Top Box
+STB/OTT Media Player
+Broadband Gateway
+4G/LTE Wireless Gateway
+Ethernet of Everything
+Firmware
+Get Started
+Gigabit Ethernet
+Industrial
+Factory Automation
+Smart Grid
+Building Control
+Transportation
+Security and Automation
+IP Camera
+DVR and NVR
+Home/Building Automation
+Browse Functional Safety
+MPLAB® Development Ecosystem for Functional Safety
+Functional Safety Design Partners
+Industrial Safety Self-Test Library
+Browse Industrial
+Home Appliances
+Intelligent Lighting and Control
+Fluorescent Lighting
+Incandescent Lighting
+LED Lighting
+Lighting Controls
+Communication and Networking Protocols
+Microcontroller Peripherals for Lighting
+Design Partners
+Metering Solutions
+Electric Meters
+Gas, Water and Heat Flow Meters
+Power Monitoring
+Smart Energy
+Motor Control and Drive
+Browse Internet of Things
+AliOS Things
+Products
+Amazon Web Services
+Simple Low-Power Edge Nodes
+Higher-Performance Edge Nodes with FreeRTOS
+Intelligent Gateways
+32-bit MCU-Based Development Platform for Alexa Connect Kit
+Google Cloud IoT
+Wi-Fi Enabled Boards
+Microsoft Azure Cloud Computing
+Azure Intelligent Gateway
+Microsoft Azure Smart Secured Nodes
+Design Partners
+IoT Development Kits
+AVR-BLE and PIC-BLE Development Boards
+AVR MCU IoT Home Automation Kit
+IoT Provisioning Tool
+Partner Kits
+Archived Development Kits
+Browse Low Power
+8-bit Low-Power MCUs
+PIC24F Low-Power Microcontrollers
+32-bit Ultra-Low-Power and Low-Power MCUs
+32-bit Low-Power MPUs
+Applications
+Browse Machine Learning
+Smart Embedded Vision
+Smart Predictive Maintenance
+Machine Learning Workstations, Servers and Appliances
+Design Partners
+Browse Medical
+Clinical Devices
+Continuous Positive Airway Pressure Machine
+Oxygen Concentrator
+Patient Monitor
+Ultrasound
+Drug Delivery Devices
+Glucose Meter
+Iontophoresis
+Medical Drug Delivery Pump
+Nebulizer
+Telehealth and Home Monitoring Devices
+Blood Pressure Meter
+Digital Medical Weight Scale
+Digital Thermometer
+ECG
+Pulse Oximeter
+Wearable Activity Monitor
+Medical Devices for IoT
+Demonstrations and Design Files
+Connected Thermometer
+Connected Wearable Electrocardiogram (ECG)
+Connected Weight Scale
+Low-Power Blood Pressure Meter
+Medical MEMS Micro Pump
+Pedometer
+Pulse Oximeter
+Secure Nebulizer
+Ultra-Low-Power Connected Wearable Activity Monitor
+Vibrating Mesh Nebulizer
+Wearable Heart Rate Monitor
+Design Partners
+Browse MEMS and Piezoelectric Drive
+MEMS Mirror Steering
+High-Voltage Piezoelectric Drivers for Printers
+Browse Motor Control and Drive
+Motor Types
+AC Induction Motor (ACIM) Control
+Brushed DC Motor Control
+Brushless DC (BLDC) Motor Control
+Permanent Magnet Synchronous Motor (PMSM) Control
+Stepper Motors
+Switched Reluctance (SR) Motor Control
+Motor Control Products
+dsPIC33 DSCs for Advanced Motor Control
+32-bit Microcontrollers for Motor Control Applications
+Motor Control Algorithms
+Motor Control Library for dsPIC33 DSCs
+Motor Control Simulation Resources
+MATLAB® and Simulink®
+SciLab® and X2C
+motorBench® Development Suite
+Development Tools for Motor Control
+Motor Control Design Partners
+Applications and Reference Designs
+Air Conditioner Reference Design
+Die Cutting Machine
+Refrigerator Compressor
+Robotic Vacuum Cleaner
+Browse Power Management and Conversion
+Battery Management
+Intelligent Power
+AC-to-DC Converters
+Battery Management and Charging
+DC-to-AC Power Inverter Solutions
+DC-to-DC Converters and Power Supplies
+Digital Lighting Control and Drivers
+SMPS Solar Power
+Wireless Power
+Products
+Digital Power Design Suite
+Power Monitoring
+Best Accuracy (1-Φ, Shunt, CT)
+Good Accuracy (1-Φ, Shunt)
+Power Distribution
+Fixed Function (DC)
+Browse Touch and Gesture Technologies
+maXTouch® Technology
+GestIC® Technology Basics
+Browse Wireless Connectivity
+Healthcare and Fitness
+Home, Industrial and Building Automation
+Wi-Fi® Sensors
+RF Remotes
+Ultimate KeeLoq® Technology
+Tools and Software
+Selection Tools
+Dev Tool Deals
+Development Tools Selector
+Documentation
+Config Tool for Oscillators and Clocks
+Development Boards and Hardware
+Resources
+Programmers and Debuggers
+Embedded Software Center
+MPLAB® X IDE
+Microchip Studio for AVR® and SAM Devices
+Maker and DIY Solutions
+MPLAB® Xpress
+MPLAB® XC Compilers
+AVR and SAM Downloads Archive
+Third-Party Development Tools
+Libraries, Code Examples and More
+MPLAB Ecosystem Downloads Archive
+Browse Selection Tools
+Analog (Treelink) Tools Selector
+Browse Documentation
+Application Notes
+Data Sheets
+Erratas
+Migration Documents
+Package Drawings
+Product Briefs
+Programming Specifications
+Reference Manuals
+User Guides
+Browse Development Boards and Hardware
+8-bit MCU Tools
+16-bit MCU Tools
+Rapid Prototyping with 32-bit MCUs
+32-bit MCU Tools
+32-bit MPU Tools
+Analog Product Tools
+Curiosity Development Boards
+Xplained Boards
+Curiosity Nano Development Platform
+Browse Resources
+Development Tool Repair Service (CiSAR)
+Development Tools Warranty
+Browse Programmers and Debuggers
+MPLAB® ICD 4
+MPLAB® PICkit™ 4
+MPLAB® Snap
+Atmel-ICE
+J-32 Debug Probe
+Power Debugger
+Development Tool Accessories
+8-bit PIC® MCU Emulation Extension Paks
+Socket Modules Request Form
+Browse Embedded Software Center
+Atmel START
+Data Visualizer
+Ensemble Graphics Toolkit
+MPLAB® Analog Designer
+MPLAB® Code Configurator
+Click Into MCC
+MPLAB® Connect Configurator
+MPLAB® Data Visualizer
+MPLAB® Device Blocks for Simulink
+MPLAB Harmony v3
+MPLAB® Harmony v3 Articles and Documentation
+MPLAB® Harmony Graphics Suite (MHGS)
+MPLAB® Integrated Programming Environment (IPE)
+MPLAB® Mindi™ Analog Simulator
+MPLAB® Network Creator
+Browse MPLAB® X IDE
+MPLAB® X IDE Debug Features by Device
+MPLAB® X IDE Downloads Archive
+Browse Microchip Studio for AVR® and SAM Devices
+Atmel Studio Downloads Archive
+Browse MPLAB® XC Compilers
+MPLAB® XC HPA
+MPLAB® XC Compiler Downloads Archive
+Browse Third-Party Development Tools
+Premier Partners
+Third-Party Tools
+Browse Libraries, Code Examples and More
+Advanced Software Framework (ASF) for SAM Devices
+Atmel Gallery
+Boundary Scan (BSDL) Files
+CAD/CAE Symbols
+Code Examples for PIC MCUs
+IBIS Models
+MCU Software Libraries
+Microchip Gallery
+Microchip Libraries for Applications (MLA)
+MLA License
+MPLAB® Mindi™ Software Libraries
+QTouch® Tools
+SPICE Models
+Support
+Customer Stories
+Design Help and Other Services
+Export Control Data
+Forums and AVR Freaks
+New to Microchip
+Package Drawings
+Product Change Notification
+Quality
+Reliability
+Technical Support
+Browse Customer Stories
+Streetlights Get Smart Customer Story
+Medical Things Customer Story
+Wortmann TERRA CLOUD Customer Story
+Predictive Maintenance Customer Story
+Firmware Resiliency Customer Story
+Richnerstutz Customer Story
+Browse Design Help and Other Services
+Client Support Services
+Design Partner Ecosystem
+Design Check Services
+FAST TRACK Design Check Services
+Design Partner Program FAQs
+Education
+Microchip University
+Technical Learning Center
+Academic Program
+Browse Technical Learning Center
+Webinars
+Synchronization and Timing Webinar Series
+FPGA Webinars
+Microchip Livestream Events
+Regional Training Centers
+Developer Help
+About
+Careers
+Corporate Overview
+Corporate Responsibility
+Global Sales and Distribution
+Contact Us
+Investor Relations
+Media Center
+Legal Information
+MicroSolutions Newsletter Archive
+MicroSolutions
+Events
+News Releases
+Browse Corporate Overview
+Notice of Fraudulent Behavior
+Browse Corporate Responsibility
+Business Continuity Management
+Sustainability
+Ethics and Conduct
+Our Practice on Product Longevity
+Responsible Minerals Sourcing
+Environmental Health and Safety
+Browse Investor Relations
+Financial Information
+Annual Reports
+Convertible Debentures
+Financial Press Releases
+Supplemental Financial Information
+Microchip Investors
+Microchip Investors
+Frequently Asked Questions (FAQs)
+Investor Calendar
+Leadership
+Mission statement, Guiding Values, and Corporate Governance
+Stock Information
+Cash Dividend
+IRC §6045B Disclosure Documents
+IRS Form 8937
+SEC Filings
+SEC Filings (XBRL)
+Section 16 Filings
+Stock Split History
+Browse Media Center
+RSS Feeds
+Browse Legal Information
+Copyright Usage Guidelines
+Procedure for Making a Claim of Copyright Infringement
+Microchip Cookie Statement
+General Product Legal Information
+Microchip Patents
+Microchip Terms and Conditions of Sale
+Privacy Policy
+Microchip Trademarks
+Trademark Descriptors and Nouns List
+Third Party Trademark Guidelines
+Website Terms and Conditions
+Secure Document Extranet Privacy Notice
+Browse Events
+Mi-V Virtual Summit Conference
+Order Now
+Products
+Solutions
+Tools and Software
+Support
+Education
+About
+Order Now
+Back
+Browse Products
+Parametric Chart
+Microcontrollers and Microprocessors
+Analog
+Amplifiers and Linear ICs
+Clock and Timing
+Data Converters
+Embedded Controllers and Super I/O
+FPGAs and PLDs
+High-Speed Networking and Video
+Interface and Connectivity
+LED Drivers and Backlighting
+Memory Products
+Power Management
+Power over Ethernet
+Security ICs
+Sensors and Motor Drive
+Services
+Smart Energy/Metering
+Storage
+Synchronization and Timing Systems
+Touch and Gesture
+Wireless Connectivity
+Back
+Browse Microcontrollers and Microprocessors
+8-bit MCUs
+16-bit MCUs
+32-bit MCUs
+32-bit MPUs
+Back
+Browse Amplifiers and Linear ICs
+Comparator ICs
+Current Sense Amplifier ICs
+Current/Voltage/Power Monitor ICs
+Instrumentation Amplifier ICs
+Operational Amplifier ICs
+Programmable Gain Amplifier ICs
+Back
+Browse Clock and Timing
+Atomic Clocks
+Buffers
+Clock and Data Distribution
+Clock Generation
+Jitter Attenuation
+MEMS Timing
+Oscillators
+PCIe® Timing
+Real-Time Clocks
+SyncE IEEE® 1588
+Applications
+Product Selection Tool
+ClockWorks® Configurator and Sampling Tool
+Field Programming Kit
+Reference Designs
+Back
+Browse Data Converters
+AC/DC Power and Energy Devices
+Analog-to-Digital Converters
+Special-Purpose Analog-to-Digital Converters
+Digital Potentiometers
+Digital-to-Analog Converters
+Voltage References
+Back
+Browse Embedded Controllers and Super I/O
+Desktop and Super I/O
+eSPI-to-LPC Bridge
+Embedded and Keyboard Controllers
+Expansion and Legacy I/O
+Back
+Browse FPGAs and PLDs
+Antifuse FPGAs
+FPGAs
+Radiation-Tolerant FPGAs
+System-on-Chip FPGAs
+FPGA Design Resources
+FPGA and SoC Design Tools
+FPGA Configuration Memory
+Mature Products - AT40Kxx Coprocessor Series FPGAs
+SPLD/CPLDs
+Back
+Browse High-Speed Networking and Video
+ARCNET
+Data and Video Transceivers
+Ethernet
+High-Speed Communications
+Network Processors
+Optical Networking
+Back
+Browse Interface and Connectivity
+CAN
+CoaXPress® Technology
+Ethernet
+High-Voltage Interface
+INICnet™ Technology
+LIN
+Line Circuits
+Line Drivers
+PCIe® Retimers
+PCIe® Switches
+Serial Peripherals
+USB
+Back
+Browse LED Drivers and Backlighting
+Electroluminescent Backlight Drivers
+Back
+Browse Memory Products
+MemoryLink Product Selection Tool
+Serial EERAM
+Serial EEPROM
+Serial and Parallel Flash Memory
+Serial SRAM and Serial NVSRAM
+Parallel EEPROM
+OTP EPROM
+Smart Memory Controllers
+Back
+Browse Power Management
+AC-DC Power Conversion
+Battery Charger ICs
+DC-DC Controllers
+DC-DC Converters and Voltage Regulators
+Hot Swap Controllers
+MOSFET Drivers
+PMIC - Power Management ICs
+Power Check Design Service
+Power Modules
+Power Switches
+Reverse Power Feed (RPF)
+Silicon Carbide (SiC) Devices and Power Modules
+Transient Voltage Suppressors
+Voltage Supervisors and References
+Back
+Browse Power over Ethernet
+PoE Powered Devices (PD) ICs
+PoE PSE ICs
+PoE Systems
+Microchip multi-Power over Ethernet (mPoE)
+PoE Design Partners
+Back
+Browse Security ICs
+CryptoAuthentication™ Family
+CryptoAutomotive™ Security ICs
+TPM
+Trust Platform
+Mature Products
+Design Partners
+Back
+Browse Sensors and Motor Drive
+CO, Smoke Detector and Horn Driver ICs
+Current Sense Amplifiers
+Current/Voltage/Power Monitor ICs
+Inductive Position Sensors
+Motor Drivers
+Temperature Sensors
+Thermocouple Conditioning ICs
+Back
+Browse Services
+Foundry Services
+Back
+Browse Smart Energy/Metering
+Metering
+Power Line Communications
+Wireless Communications
+Back
+Browse Storage
+Adaptec® SmartHBA Host Bus Adapters
+Adaptec® SmartRAID RAID Adapters
+Flashtec® NVMe™ Controllers
+Smart Storage Platform
+SmartIOC I/O Controllers
+SmartROC RAID-on-Chip Controllers
+SXP SAS Expanders
+Tachyon® Protocol Controllers for Storage Systems
+Back
+Browse Synchronization and Timing Systems
+Virtual Primary Reference Time Clock
+Back
+Browse Touch and Gesture
+Capacitive Touch Solutions for Buttons, Sliders, Wheels and Proximity
+Solutions for Touchpads and Touchscreens
+Touch Development Tools
+Solutions for 3D Gestures
+Design Partners
+Back
+Browse Wireless Connectivity
+Embedded Wi-Fi®
+LoRa® Technology
+Bluetooth® Low Energy
+Sub-GHz
+Zigbee®
+Wireless Medical Solutions
+Software Vulnerability Response
+RF Identification
+IR Control
+Over the Air Updates
+RED Frequently Asked Questions
+Design Partners
+Third-Party Wireless Module Solutions
+Back
+Browse 8-bit MCUs
+PIC® MCUs
+AVR® MCUs
+8051 MCUs
+Peripherals
+Functional Safety
+PIC18 to PIC24 Migration
+Back
+Browse 16-bit MCUs
+PIC24F MCUs - 16 MIPS
+dsPIC33C Digital Signal Controllers
+dsPIC33E DSCs - 70 MIPS
+Peripherals
+PIC24F MCU and dsPIC33 DSC Applications
+Functional Safety – dsPIC33 DSCs and PIC24 MCUs
+MPLAB Development Ecosystem and Software Tools
+Back
+Browse 32-bit MCUs
+32-bit PIC Microcontrollers (MCUs)
+32-bit SAM Microcontrollers (MCU)
+CEC 32-bit MCUs
+Legacy 32-bit Microcontrollers (MCUs)
+Applications, Reference Designs and Solutions
+32-bit Embedded Security
+32-bit Functional Safety
+Softpacks
+Third-Party Partners
+Back
+Browse 32-bit MPUs
+SAMA5
+SAM9
+SiP and SOM
+Security
+Software
+Development Tools
+Applications
+Design Partners
+Back
+Browse Atomic Clocks
+Precision Time and Frequency for C5ISR
+Embedded Atomic Oscillators
+Back
+Browse Oscillators
+Vectron Oscillators
+Back
+Browse Applications
+Automotive Timing
+5G Timing
+Back
+Browse FPGAs
+PolarFire® FPGAs
+IGLOO® FPGAs
+IGLOO® 2 FPGAs
+ProASIC® 3 FPGAs
+Back
+Browse Radiation-Tolerant FPGAs
+RT PolarFire® FPGAs
+RTG4™ Radiation-Tolerant FPGAs
+Back
+Browse System-on-Chip FPGAs
+SmartFusion® 2 FPGAs
+Back
+Browse FPGA Design Resources
+Clocking FPGAs
+Powering FPGAs
+FPGA Design Partners
+MI-V Partner Ecosystem
+Low Power FPGAs
+VectorBlox™ Accelerator Software Development Kit
+Back
+Browse SPLD/CPLDs
+PLD Design Resources
+Back
+Browse Data and Video Transceivers
+High-Speed Data and Video Applications
+Supported Video Protocols
+Back
+Browse Ethernet
+Ethernet Bridges
+Ethernet Controllers
+Ethernet Switches
+Ethernet PHYs
+EtherCAT® Slave Controllers
+Ethernet MCUs and MPUs
+Software
+Special Ethernet Technologies
+Back
+Browse Network Processors
+Ecosystem
+Back
+Browse CAN
+CAN Transceivers
+CAN External Controllers
+CAN 2.0 MCUs
+CAN FD MCUs
+32-bit MCUs with CAN Quick Selector Guide
+CAN and CAN FD Functional Safety
+FAQs
+Back
+Browse LIN
+Transceivers with Voltage Regulator
+Transceivers with Voltage Regulator and Relay Driver
+System-in-Package (SiP) Solutions
+LIN Functional Safety
+Back
+Browse PCIe® Retimers
+PCIe® Retimer Design Resources
+Back
+Browse PCIe® Switches
+PCIe® Switch Design Resources
+Back
+Browse USB
+Basic USB Concepts and FAQs
+USB Hubs
+USB-C® Power Delivery Controllers
+USB Bridge Controllers
+USB Switches and Transceivers
+USB Graphics Controllers
+USB Port Power Controllers
+USB MCUs and dsPIC DSCs
+Back
+Browse Serial EEPROM
+Single-Wire and UNI/O® Bus Serial EEPROMs
+MAC Address and Unique ID EEPROMs
+Getting Started
+Back
+Browse Serial and Parallel Flash Memory
+Flash Memory with Embedded MAC Addresses
+What Is SuperFlash®Technology?
+Getting Started
+Back
+Browse DC-DC Controllers
+PWM and COT Controllers
+Digitally Enhanced Power Analog Hybrid Controllers
+Back
+Browse DC-DC Converters and Voltage Regulators
+Linear LDO Voltage Regulators
+Switching Regulators
+Charge Pumps
+DDR Termination Regulators
+Radiation-Hardened Isolated DC-DC Converters
+Back
+Browse Silicon Carbide (SiC) Devices and Power Modules
+Digital Programmable Gate Drivers
+Vienna Power Corrections Reference Design
+Back
+Browse Voltage Supervisors and References
+Voltage Supervisors
+Back
+Browse TPM
+TCG Version 1.2
+Back
+Browse Trust Platform
+Trust&GO
+TrustFLEX
+TrustCUSTOM
+Back
+Browse Design Partners
+Partner Solutions
+Back
+Browse Inductive Position Sensors
+Getting Started with Inductive Position Sensors
+Back
+Browse Motor Drivers
+3-Phase Brushless Motor and Gate Drivers
+Brushed DC Gate Drivers
+Fan Controllers
+Full-Bridge Stepper Drivers
+MOSFET Drivers
+Multi-Channel Half-Bridge Drivers
+Back
+Browse Smart Storage Platform
+Building Your Data Center
+Back
+Browse Virtual Primary Reference Time Clock
+Power Utilities
+Transportation
+Data Center Timing and Synchronization
+Back
+Browse Capacitive Touch Solutions for Buttons, Sliders, Wheels and Proximity
+Turnkey Capacitive Touch Controllers
+Microcontrollers with Integrated Capacitive Touch Module
+Back
+Browse Solutions for Touchpads and Touchscreens
+2D Touchpads with Microcontrollers
+maXTouch Touchscreen Controllers
+Legacy: Analog Resistive
+Back
+Browse Solutions for 3D Gestures
+Colibri Gesture Suite
+Getting Started
+Back
+Browse Embedded Wi-Fi®
+PIC32MZ-W1 Wi-Fi® SoC and Module Family
+PIC32MZ-W1 Trust&GO Wi-Fi® Module
+Wi-Fi® Link Controllers
+Wi-Fi® Network Controllers
+Wi-Fi® RF Front End Components
+Get Started with Wi-Fi® for Linux®
+Get Started with Wi-Fi® for MCUs
+Wi-Fi® Smart Devices
+Wi-Fi® Interoperability
+Back
+Browse LoRa® Technology
+SAM R34/R35
+Back
+Browse Bluetooth® Low Energy
+Bluetooth® Audio and Voice Solutions
+Bluetooth® Audio Applications
+Back
+Browse Sub-GHz
+Receiver ICs
+Transceiver ICs
+Transmitter ICs
+SAM R30
+MiWi™ Protocol
+Back
+Browse Software Vulnerability Response
+Amnesia Network Stack (TCP/IP) Vulnerability
+ANSSI Bluetooth® Core Vulnerabilities
+BIAS Vulnerability
+BlueBorne Attack Vector
+Key Negotiation of Bluetooth
+Kr00k Wi-Fi Vulnerability
+Sweyntooth BLE Vulnerability
+WPA2 Protocol Vulnerability
+Back
+Browse RF Identification
+100-150 kHz OTP
+100-150 kHz Read/Write
+125 kHz Transponder
+Back
+Browse Solutions
+Aerospace and Defense
+Automotive and Transportation
+CAN Technology
+Consumer
+Data Centers and Computing
+Displays
+Embedded Security
+Ethernet Technology
+Functional Safety
+High-Temperature Products
+Industrial
+Internet of Things
+LIN Technology
+Low Power
+Machine Learning
+Medical
+MEMS and Piezoelectric Drive
+Motor Control and Drive
+Power Management and Conversion
+Touch and Gesture Technologies
+USB Technology
+Wireless Connectivity
+Back
+Browse Aerospace and Defense
+Aviation
+Defense
+Space
+Products
+Design Partners
+Back
+Browse Automotive and Transportation
+Automotive Products
+Automotive Applications
+Functional Safety
+Recommended for Automotive
+Automotive Software
+Back
+Browse Consumer
+Audio and Speech
+Home Appliances
+Intelligent Lighting and Control
+Back
+Browse Data Centers and Computing
+Data Center Solutions
+Computing Solutions
+Back
+Browse Displays
+Embedded Graphics Solutions
+Segmented LCD Solutions
+Reference Designs and Application Examples
+Back
+Browse Embedded Security
+Security ICs
+Secure Data
+32-bit Embedded Security
+Security
+Secure FPGAs and SoC FPGAs
+Security Total System Solutions
+How to Report Potential Product Security Vulnerabilities
+Design Partners
+Back
+Browse Ethernet Technology
+Automotive
+Consumer
+Ethernet of Everything
+Gigabit Ethernet
+Industrial
+Security and Automation
+Back
+Browse Functional Safety
+MPLAB® Development Ecosystem for Functional Safety
+Functional Safety Design Partners
+Industrial Safety Self-Test Library
+Back
+Browse Industrial
+Home Appliances
+Intelligent Lighting and Control
+Metering Solutions
+Motor Control and Drive
+Back
+Browse Internet of Things
+AliOS Things
+Products
+Amazon Web Services
+Google Cloud IoT
+Microsoft Azure Cloud Computing
+Design Partners
+IoT Development Kits
+Back
+Browse Low Power
+8-bit Low-Power MCUs
+PIC24F Low-Power Microcontrollers
+32-bit Ultra-Low-Power and Low-Power MCUs
+32-bit Low-Power MPUs
+Applications
+Back
+Browse Machine Learning
+Smart Embedded Vision
+Smart Predictive Maintenance
+Machine Learning Workstations, Servers and Appliances
+Design Partners
+Back
+Browse Medical
+Clinical Devices
+Drug Delivery Devices
+Telehealth and Home Monitoring Devices
+Medical Devices for IoT
+Demonstrations and Design Files
+Design Partners
+Back
+Browse MEMS and Piezoelectric Drive
+MEMS Mirror Steering
+High-Voltage Piezoelectric Drivers for Printers
+Back
+Browse Motor Control and Drive
+Motor Types
+Motor Control Products
+Motor Control Algorithms
+Motor Control Library for dsPIC33 DSCs
+Motor Control Simulation Resources
+motorBench® Development Suite
+Development Tools for Motor Control
+Motor Control Design Partners
+Applications and Reference Designs
+Back
+Browse Power Management and Conversion
+Battery Management
+Intelligent Power
+Power Monitoring
+Back
+Browse Touch and Gesture Technologies
+maXTouch® Technology
+GestIC® Technology Basics
+Back
+Browse Wireless Connectivity
+Healthcare and Fitness
+Home, Industrial and Building Automation
+Wi-Fi® Sensors
+RF Remotes
+Back
+Browse Products
+High-Reliability Discrete and Power Management
+Memory
+Microcontrollers and Microprocessors
+Radiation-Hardened Mixed-Signal ICs
+Back
+Browse Automotive Products
+Microcontrollers and Microprocessors
+Analog Products
+Connectivity
+Automotive Touch
+Car Access
+Memory Products
+Automotive High-Temperature Products
+Timing Solutions
+Automotive Security
+Back
+Browse Automotive Applications
+Infotainment
+HEV, EV, Powertrain
+Body Electronics
+ADAS
+Back
+Browse Audio and Speech
+Digital Audio Basics
+Recording
+Playback
+Communications
+Bluetooth® Audio Applications
+PIC32 Digital Audio
+Products
+Getting Started
+Back
+Browse Home Appliances
+Human Interface
+Connectivity
+Motor Control
+Low Power
+Class-B Safety Software
+Connected Home Reference Designs
+Back
+Browse Data Center Solutions
+Machine Learning
+NVMe Endpoints
+Protection and Security
+Storage Servers
+Data Center Timing and Synchronization
+Technologies
+Back
+Browse Computing Solutions
+Client Computing
+Industrial Computing
+Protection and Security
+Technologies
+Back
+Browse Embedded Graphics Solutions
+Embedded Graphics Products
+MCU Guided Selection Tool for Graphics
+Development Boards
+MPLAB® Harmony Graphics Suite (MHGS)
+Third-Party Tools
+Design Partners
+Back
+Browse Segmented LCD Solutions
+Microcontrollers for Segmented Displays
+Back
+Browse Reference Designs and Application Examples
+Graphical User Interface
+Human Machine Interface (HMI) for Diagnostic Tool
+Back
+Browse Security Total System Solutions
+Smart Home Lock
+Back
+Browse Consumer
+IP Set-Top Box
+STB/OTT Media Player
+Broadband Gateway
+4G/LTE Wireless Gateway
+Back
+Browse Ethernet of Everything
+Firmware
+Get Started
+Back
+Browse Industrial
+Factory Automation
+Smart Grid
+Building Control
+Transportation
+Back
+Browse Security and Automation
+IP Camera
+DVR and NVR
+Home/Building Automation
+Back
+Browse Intelligent Lighting and Control
+Fluorescent Lighting
+Incandescent Lighting
+LED Lighting
+Lighting Controls
+Communication and Networking Protocols
+Microcontroller Peripherals for Lighting
+Design Partners
+Back
+Browse Metering Solutions
+Electric Meters
+Gas, Water and Heat Flow Meters
+Power Monitoring
+Smart Energy
+Back
+Browse Amazon Web Services
+Simple Low-Power Edge Nodes
+Higher-Performance Edge Nodes with FreeRTOS
+Intelligent Gateways
+32-bit MCU-Based Development Platform for Alexa Connect Kit
+Back
+Browse Google Cloud IoT
+Wi-Fi Enabled Boards
+Back
+Browse Microsoft Azure Cloud Computing
+Azure Intelligent Gateway
+Microsoft Azure Smart Secured Nodes
+Back
+Browse IoT Development Kits
+AVR-BLE and PIC-BLE Development Boards
+AVR MCU IoT Home Automation Kit
+IoT Provisioning Tool
+Partner Kits
+Archived Development Kits
+Back
+Browse Clinical Devices
+Continuous Positive Airway Pressure Machine
+Oxygen Concentrator
+Patient Monitor
+Ultrasound
+Back
+Browse Drug Delivery Devices
+Glucose Meter
+Iontophoresis
+Medical Drug Delivery Pump
+Nebulizer
+Back
+Browse Telehealth and Home Monitoring Devices
+Blood Pressure Meter
+Digital Medical Weight Scale
+Digital Thermometer
+ECG
+Pulse Oximeter
+Wearable Activity Monitor
+Back
+Browse Demonstrations and Design Files
+Connected Thermometer
+Connected Wearable Electrocardiogram (ECG)
+Connected Weight Scale
+Low-Power Blood Pressure Meter
+Medical MEMS Micro Pump
+Pedometer
+Pulse Oximeter
+Secure Nebulizer
+Ultra-Low-Power Connected Wearable Activity Monitor
+Vibrating Mesh Nebulizer
+Wearable Heart Rate Monitor
+Back
+Browse Motor Types
+AC Induction Motor (ACIM) Control
+Brushed DC Motor Control
+Brushless DC (BLDC) Motor Control
+Permanent Magnet Synchronous Motor (PMSM) Control
+Stepper Motors
+Switched Reluctance (SR) Motor Control
+Back
+Browse Motor Control Products
+dsPIC33 DSCs for Advanced Motor Control
+32-bit Microcontrollers for Motor Control Applications
+Back
+Browse Motor Control Simulation Resources
+MATLAB® and Simulink®
+SciLab® and X2C
+Back
+Browse Applications and Reference Designs
+Air Conditioner Reference Design
+Die Cutting Machine
+Refrigerator Compressor
+Robotic Vacuum Cleaner
+Back
+Browse Intelligent Power
+AC-to-DC Converters
+Battery Management and Charging
+DC-to-AC Power Inverter Solutions
+DC-to-DC Converters and Power Supplies
+Digital Lighting Control and Drivers
+SMPS Solar Power
+Wireless Power
+Products
+Digital Power Design Suite
+Back
+Browse Power Monitoring
+Best Accuracy (1-Φ, Shunt, CT)
+Good Accuracy (1-Φ, Shunt)
+Power Distribution
+Fixed Function (DC)
+Back
+Browse RF Remotes
+Ultimate KeeLoq® Technology
+Back
+Browse Tools and Software
+Selection Tools
+Dev Tool Deals
+Development Tools Selector
+Documentation
+Config Tool for Oscillators and Clocks
+Development Boards and Hardware
+Resources
+Programmers and Debuggers
+Embedded Software Center
+MPLAB® X IDE
+Microchip Studio for AVR® and SAM Devices
+Maker and DIY Solutions
+MPLAB® Xpress
+MPLAB® XC Compilers
+AVR and SAM Downloads Archive
+Third-Party Development Tools
+Libraries, Code Examples and More
+MPLAB Ecosystem Downloads Archive
+Back
+Browse Selection Tools
+Analog (Treelink) Tools Selector
+Back
+Browse Documentation
+Application Notes
+Data Sheets
+Erratas
+Migration Documents
+Package Drawings
+Product Briefs
+Programming Specifications
+Reference Manuals
+User Guides
+Back
+Browse Development Boards and Hardware
+8-bit MCU Tools
+16-bit MCU Tools
+Rapid Prototyping with 32-bit MCUs
+32-bit MPU Tools
+Analog Product Tools
+Curiosity Development Boards
+Xplained Boards
+Curiosity Nano Development Platform
+Back
+Browse Resources
+Development Tool Repair Service (CiSAR)
+Development Tools Warranty
+Back
+Browse Programmers and Debuggers
+MPLAB® ICD 4
+MPLAB® PICkit™ 4
+MPLAB® Snap
+Atmel-ICE
+J-32 Debug Probe
+Power Debugger
+Development Tool Accessories
+Back
+Browse Embedded Software Center
+Atmel START
+Data Visualizer
+Ensemble Graphics Toolkit
+MPLAB® Analog Designer
+MPLAB® Code Configurator
+MPLAB® Connect Configurator
+MPLAB® Data Visualizer
+MPLAB® Device Blocks for Simulink
+MPLAB Harmony v3
+MPLAB® Harmony Graphics Suite (MHGS)
+MPLAB® Integrated Programming Environment (IPE)
+MPLAB® Mindi™ Analog Simulator
+MPLAB® Network Creator
+Back
+Browse MPLAB® X IDE
+MPLAB® X IDE Debug Features by Device
+MPLAB® X IDE Downloads Archive
+Back
+Browse Microchip Studio for AVR® and SAM Devices
+Atmel Studio Downloads Archive
+Back
+Browse MPLAB® XC Compilers
+MPLAB® XC HPA
+MPLAB® XC Compiler Downloads Archive
+Back
+Browse Third-Party Development Tools
+Premier Partners
+Third-Party Tools
+Back
+Browse Libraries, Code Examples and More
+Advanced Software Framework (ASF) for SAM Devices
+Atmel Gallery
+Boundary Scan (BSDL) Files
+CAD/CAE Symbols
+Code Examples for PIC MCUs
+IBIS Models
+MCU Software Libraries
+Microchip Gallery
+Microchip Libraries for Applications (MLA)
+MPLAB® Mindi™ Software Libraries
+QTouch® Tools
+SPICE Models
+Back
+Browse Rapid Prototyping with 32-bit MCUs
+32-bit MCU Tools
+Back
+Browse Development Tool Accessories
+8-bit PIC® MCU Emulation Extension Paks
+Socket Modules Request Form
+Back
+Browse MPLAB® Code Configurator
+Click Into MCC
+Back
+Browse MPLAB Harmony v3
+MPLAB® Harmony v3 Articles and Documentation
+Back
+Browse Microchip Libraries for Applications (MLA)
+MLA License
+Back
+Browse Support
+Customer Stories
+Design Help and Other Services
+Export Control Data
+Forums and AVR Freaks
+New to Microchip
+Package Drawings
+Product Change Notification
+Quality
+Reliability
+Technical Support
+Back
+Browse Customer Stories
+Streetlights Get Smart Customer Story
+Medical Things Customer Story
+Wortmann TERRA CLOUD Customer Story
+Predictive Maintenance Customer Story
+Firmware Resiliency Customer Story
+Richnerstutz Customer Story
+Back
+Browse Design Help and Other Services
+Client Support Services
+Design Partner Ecosystem
+Design Check Services
+Design Partner Program FAQs
+Back
+Browse Design Check Services
+FAST TRACK Design Check Services
+Back
+Browse Education
+Microchip University
+Technical Learning Center
+Academic Program
+Back
+Browse Technical Learning Center
+Webinars
+Microchip Livestream Events
+Regional Training Centers
+Developer Help
+Back
+Browse Webinars
+Synchronization and Timing Webinar Series
+FPGA Webinars
+Back
+Browse About
+Careers
+Corporate Overview
+Corporate Responsibility
+Global Sales and Distribution
+Contact Us
+Investor Relations
+Media Center
+Legal Information
+MicroSolutions Newsletter Archive
+MicroSolutions
+Events
+News Releases
+Back
+Browse Corporate Overview
+Notice of Fraudulent Behavior
+Back
+Browse Corporate Responsibility
+Business Continuity Management
+Sustainability
+Ethics and Conduct
+Our Practice on Product Longevity
+Responsible Minerals Sourcing
+Environmental Health and Safety
+Back
+Browse Investor Relations
+Financial Information
+Microchip Investors
+Stock Information
+Back
+Browse Media Center
+RSS Feeds
+Back
+Browse Legal Information
+Copyright Usage Guidelines
+Procedure for Making a Claim of Copyright Infringement
+Microchip Cookie Statement
+General Product Legal Information
+Microchip Patents
+Microchip Terms and Conditions of Sale
+Privacy Policy
+Microchip Trademarks
+Trademark Descriptors and Nouns List
+Third Party Trademark Guidelines
+Website Terms and Conditions
+Secure Document Extranet Privacy Notice
+Back
+Browse Events
+Mi-V Virtual Summit Conference
+Back
+Browse Financial Information
+Annual Reports
+Convertible Debentures
+Financial Press Releases
+Supplemental Financial Information
+Back
+Browse Microchip Investors
+Microchip Investors
+Frequently Asked Questions (FAQs)
+Investor Calendar
+Leadership
+Mission statement, Guiding Values, and Corporate Governance
+Back
+Browse Stock Information
+Cash Dividend
+IRC §6045B Disclosure Documents
+IRS Form 8937
+SEC Filings
+SEC Filings (XBRL)
+Section 16 Filings
+Stock Split History
+Solutions
+/
+Internet of Things
+/
+Google Cloud IoT
+/
+Wi-Fi Enabled Boards
+myMicrochip
+Dashboard
+My Profile
+Registered Development Tools
+My Trainings
+My Preferences
+Change E-mail Address
+Change Password
+Opt out of myMicrochip Account
+Sign Out
+Search products, tools, resources and more!
+Start typing your search term, your results will display here.
+Create Smart, Secure Nodes for Google IoT Cloud Platforms
+Designing secure, cloud-connected systems does not have to be an overwhelming process. Our AVR-IoT, PIC-IoT and SAM-IoT development boards provide a perfect starting point for creating almost any IoT device, ranging from wireless sensor nodes to intelligent lighting systems. These boards offer a plug-and-play solution that combines a powerful yet simple AVR®, PIC® or SAM (Arm® Cortex®-based) microcontroller (MCU), a CryptoAuthentication™ secure element and a fully-certified Wi-Fi ® network controller module to provide an easy and effective way to connect embedded applications to Google’s Cloud IoT Core platform. These development boards are an ideal foundation for effortlessly creating cloud-connected designs. With a huge installed base of embedded applications using AVR, PIC and SAM MCUs, connecting these designs to the cloud for remote command or control just got easier.
+AVR-IoT, PIC-IoT and SAM-IoT Development Board Key Features
+Go from out-of-the-box to cloud-connected in 30 seconds
+On-board smart MCU brings the processing power and simplicity Core Independent Peripherals (CIPs) that further decrease power consumption
+Secure authentication with hardware-based private key storage
+On-board Wi-Fi module makes it easy to connect your design without requiring prior wireless design experience
+Robust ecosystem to rapidly generate code and develop your application
+Read more
+Select One of These Boards
+AVR-IoT WG Development Board
+Part Number: AC164160
+Control your connected design with the powerful yet efficient ATmega4808 MCU, which features Core Independent Peripherals (CIPs) designed to handle more application tasks with less code.
+Buy Now
+PIC-IoT WG Development Board
+Part Number: AC164164
+Ideal for battery-operated IoT applications, the PIC24FJ128GA705 MCU provides the simplicity of the PIC architecture with added memory and advanced analog integration, designed to handle complex applications with less code and decreased power consumption.
+Buy Now
+SAM-IoT WG Development Board
+Part Number: EV75S95A
+This all-in-one, complete edge solution enables Google Cloud connectivity using a 32-bit, low-power, Arm Cortex-M0+ based ATSAMD21G18A MCU with enhanced performance and larger memory, making it a perfect fit for 32-bit embedded IoT applications.
+Buy Now
+Learn More About Each Board Component
+Smart
+Whether your application is based on an AVR, PIC or SAM MCU, we make it easy to connect to the cloud. Learn more about these devices:
+ATmega4808
+PIC24FJ128GA705
+ATSAMD21G18A
+Connected
+Skip the RF certification headaches with the ATWINC1510 Wi-Fi network controller module – a complete solution for adding wireless connectivity to any design, backed by robust interoperability testing.
+Secure
+Protect your design with the ATECC608B CryptoAuthentication secure element, which securely handles authentication of each device and provides zero-touch provisioning.
+Ready to Get Started with Your IoT Design?
+Once you have your board, you can get connected to the Google IoT Cloud in 30 seconds, flat. The development board is pre-configured to transmit light and temperature data to the cloud, allowing you to start collecting data instantly for your network of sensor nodes.
+Read more
+Get Started with the AVR-IoT Board
+Get Started with the PIC-IoT Board
+Get Started with the SAM-IoT Board
+Documentation
+Other
+Title
+Download
+AVR-IoT and PIC-IoT WG Development Board Overview
+Download
+PIC-IoT Dev Board Pocket Card
+Download
+AVR-IoT WG Development Board Quick Start Guide
+Download
+AVR-IoT Development Board Pinout and Pocket Card
+Download
+AVR-IoT WG Design Documentation
+Download
+AVR-IoT Wx Hardware User Guide
+Download
+PIC-IoT WG Design Documentation
+Download
+PIC-IoT_WG
+Download
+PIC-IoT WG Development Board Quick Start Guide
+Download
+User Guides
+Title
+Download
+AVR-IoT WG Development Board User Guide
+Download
+PIC-IoT WG Development Board User Guide
+Download
+SAM-IoT Wx Hardware User Guide
+Download
+SAM-IOT WG Development Board User Guide
+Download
+Contact
+|
+Legal
+|
+Privacy Policy
+|
+Cookies
+|
+Careers
+Stay on the leading edge with our blog
+MicroSolutions
+© Copyright 1998- Microchip Technology Inc. All rights reserved.
+This website uses cookies for analytics, personalization, and other purposes.
+Click to learn more. By continuing to browse, you agree to our use of cookies
+as described in our Cookies Statement.
+Privacy Policy
+Accept Cookies

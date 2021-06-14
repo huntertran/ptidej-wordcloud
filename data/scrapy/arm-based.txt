@@ -1,0 +1,261 @@
+GitHub - ARM-software/Cloud-IoT-Core-Kit-Examples: Example projects and code are supplied to support the Arm-based IoT Kit for Cloud IoT Core
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+ARM-software
+/
+Cloud-IoT-Core-Kit-Examples
+Notifications
+Star
+58
+Fork
+26
+Example projects and code are supplied to support the Arm-based IoT Kit for Cloud IoT Core
+Apache-2.0 License
+58
+stars
+26
+forks
+Star
+Notifications
+Code
+Issues
+2
+Pull requests
+0
+Actions
+Projects
+0
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+master
+Switch branches/tags
+Branches
+Tags
+View all branches
+View all tags
+4
+branches
+0
+tags
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio Code
+Your codespace will open once ready.
+There was a problem preparing your codespace, please try again.
+Latest commit
+Git stats
+33
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+CPUTemp
+joystick
+pubsub-thermostat
+utility
+.gitignore
+LICENSE.txt
+commands.md
+kit parts list.md
+readme.md
+View code
+Example projects and code are supplied to support the Arm-based IoT Kit for Cloud IoT Core (kit including RasPi3) from Adafruit
+Getting Started
+Network and firmware updates
+Enabling Cloud IoT Core AP, installing the Google Cloud SDK and registering your first device
+Dependencies
+Hello World - Temperature example
+PubSub End-to-end - Thermostat example
+Joystick End-to-end - analog to digital input/servo control example
+readme.md
+Example projects and code are supplied to support the Arm-based IoT Kit for Cloud IoT Core (kit including RasPi3) from Adafruit
+Getting Started
+Network and firmware updates
+Hook up an HDMI monitor, USB keyboard and mouse (plug in an Ethernet cable if you do not intend to use WiFi) then power up your Pi. Once booted, use the WiFi menu in the upper right hand corner of the screen (it should appear with two red 'x's on boot) to connect to the SSID of the wireless network you wish to use. This assumes your network has a DHCP service running on it. If your network has corporate security features, please use another guide appropriate to the type of security required [most require creative use of the wpa_supplicant command and configuration in /etc].
+Use the Raspberry menu to access Preferences->Raspberry Pi Configuration. Under the system tab you can change the hostname to whatever you like and set Boot to CLI (not Desktop); this is optional. Under the Interfaces tab enable "ssh" if you intend to use the Pi without a keyboard and monitor going forward. Under the Localisation tab, set up your Locale, Time Zone and Keyboard preferences. A reboot is required after this.
+Once rebooted and connected to a network we can secure shell into our Pi remotely or use the command line directly to update our Linux distro and Raspberry Pi 3 firmware. The default uersname is "pi", default password is "raspberry ". To get the Pi's IP, use the command "ifconfig" or nmap your subnet for new ssh services. However you connect, update your Pi with the following commands and change your pi's default password with the "passwd" command if you so choose:
+Get root access for updates
+sudo -s
+This step can take a while due to the number of packages installed by default on the Pi, feel free to uninstall the wolfram-engine, browsers, office applications, etc. at your discretion before running the updates
+apt update && apt upgrade && apt dist-upgrade
+Update the pi firmware (most likely requires a reboot after completion)
+rpi-update && reboot
+note: you can change most boot, bus and, interface options with a curses interface as well using sudo raspi-config i.e. enabling the i2c interface
+Enabling Cloud IoT Core AP, installing the Google Cloud SDK and registering your first device
+Before you proceed please ensure you are logged into Google via your browser with the same userid and password you used with gcloud init on your development machine.
+The Google Cloud SDK can be installed on another host machine or the Pi itself. These steps will get the gcloud command installed on the Pi but it can just as easily be done on any machine that you do your development on.
+Create a Cloud Platform project and enable the Cloud IoT Core API using these "Before you begin" directions.
+Install the latest Google Cloud Tools with the included directions. In Linux some of the additions require "sudo gcloud" to be used so you'll need to authorize your root account with sudo in addition to your 'pi' account so instructions from here will diverge from those included here. Simply follow the directions below instead if you are installing gcloud on the Pi rather than another host machine. SSHing into your Pi (headless) is strongly advised in order facilitate authentication of your accounts with your normal desktop browser using copy/paste.
+sudo gcloud components repositories add https://storage.googleapis.com/cloud-iot-gcloud/components-2.json
+Create shell variables with your specific project name from step 1 as well as region, registry, device, subscription and event names. Fill in your project ID from step 1, the rest can remain as is below and used in your .profile or .bashrc. i.e.
+project=my-project-name-1234
+region=us-central1
+registry=example-registry
+device=my-rs256-device
+device2=my-es256-device
+mysub=my-sub
+events=events
+mytopic=events
+Create a new registry using the gcloud command.
+gcloud iot registries create $registry \
+--project=$project \
+--region=$region \
+--event-notification-config=topic=projects/$project/topics/$events
+Create a public/private key pair(s) for your device(s) and create a new device(s) in your project and registry. Or, stretch goal, register one programmatically with these code samples.
+openssl req -x509 -newkey rsa:2048 -keyout rsa_private.pem -nodes -out rsa_cert.pem
+gcloud iot devices create $device \
+--project=$project \
+--region=$region \
+--registry=$registry \
+--public-key path=rsa_cert.pem,type=rs256
+openssl ecparam -genkey -name prime256v1 -noout -out ec_private.pem
+openssl ec -in ec_private.pem -pubout -out ec_public.pem
+gcloud iot devices create $device2 \
+--project=$project \
+--region=$region \
+--registry=$registry \
+--public-key path=ec_public.pem,type=es256
+Create a new pubsub subscription to an event
+gcloud pubsub subscriptions create projects/$project/subscriptions/$mysub --topic=$events
+Download the CA root certificates from pki.google.com into the same directory as the example script you want to use:
+wget https://pki.google.com/roots.pem
+Dependencies
+Our initial examples for this kit will focus on Python but it is entirely possible to use Ruby, Java, C and other languages to work with Google Cloud IoT. Dependencies include a JSON Web Token and MQTT library as well as a SSL/TLS library like OpenSSL. You'll need the following to run any of the examples included in this repository.
+sudo -s
+apt install build-essential libssl-dev libffi-dev python-dev python-pip
+pip install pyjwt paho-mqtt cryptography
+pip install --upgrade google-api-python-client
+pip install --upgrade google-cloud-core
+pip install --upgrade google-cloud-pubsub
+pip install --upgrade google-auth-httplib2 google-auth oauth2client
+exit
+Hello World - Temperature example
+See CPUTemp example's readme.md to verify your device can communicate with your gcloud project.
+PubSub End-to-end - Thermostat example
+Wire up the thermostat and led sensors and create an end to end server and device thermostat system.
+Joystick End-to-end - analog to digital input/servo control example
+Connect a joystick via 10-bit ADC and use the input to control a PWM servo, e.g. the way a rheostat or app might control multiple lights or a an HVAC controls multiple vents and fans.
+Find more samples and documentation at the Google Cloud Platform IoT site.
+About
+Example projects and code are supplied to support the Arm-based IoT Kit for Cloud IoT Core
+Topics
+raspberry-pi
+iot
+arm
+adafruit
+google-cloud
+raspberry-pi-3
+Resources
+Readme
+License
+Apache-2.0 License
+Releases
+No releases published
+Packages 0
+No packages published
+Contributors 3
+Languages
+Python
+100.0%
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.

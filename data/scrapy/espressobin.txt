@@ -1,0 +1,1012 @@
+ESPRESSObin Wiki | Google Cloud IoT Core on ESPRESSObin
+Loading...
+navigation
+Menu
+Home
+Tech Spec
+Support
+Wiki
+Forum
+FAQ
+Partners
+Blog
+Contact
+Order now
+Order your ESPRESSObin on:
+Google Cloud IoT Core on ESPRESSObin
+Introduction
+Google Cloud Platform (read more), offered by Google, is a suite of cloud computing services that run on the same infrastructure that Google uses internally for its end-user products, such as Google Search and YouTube. Alongside a set of management tools, it provides a series of modular cloud services including computing, data storage, data analytics and machine learning.
+One of the services that Google also provides on its Google Cloud Platform and that is used in this tutorial is called Cloud IoT Core (read more). Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices. Cloud IoT Core, in combination with other services on Google Cloud IoT platform, provides a complete solution for collecting, processing, analyzing, and visualizing IoT data in real time to support improved operational efficiency. Cloud IoT Core service is fully supported on ESPRESSObin board.
+Cloud IoT Core
+In order for ESPRESSObin to connect and communicate with the Cloud IoT Core service, the following steps need to be completed:
+Setting up a working Ubuntu filesystem flashed on ESPRESSObin (as shown in Boot from removable storage - Ubuntu).
+Obtaining permission access to Cloud IoT Core service. At the time of writing this tutorial, Cloud IoT Core service is in a public beta state and an application form needs to be filed out to apply for access to the public beta. Getting and setting up the Cloud IoT Core is out of the scope of this tutorial. To obtain the access, click here from where you will be able to access the application form. When access to Cloud IoT Core is granted, please follow the official Cloud IoT Core documentation available here to set up your project and devices. This is needed in order to be able to connect to the Cloud IoT Core using ESPRESSObin.
+MQTT Client
+Now that we have ESPRESSObin with Ubuntu file system and access to Cloud IoT Core with a configured project, the final component is setting up the application that will be run on the ESPRESSObin. This application is called google-iot-mqtt-publisher, a MQTT client which is used to publish messages to a specific topic on Google Cloud IoT.
+In order to use the google-iot-mqtt-publisher, we need to build it out from source code. The google-iot-mqtt-publisher is written in Go programming language, to build it, you need to have a working Go installation. Since the board is running Ubuntu, the recommended way is to install Go onto the board itself using a package manager. Alternative is to follow the official Go instalation instruction. It is also possible to build google-iot-mqtt-publisher on a different Linux machine. Doing this, google-iot-mqtt-publisher needs to be cross-compiled for MACCHIATObin. This is out of scope of this tutorial. Instructions for installing Go onto the board itself using a package manager can be found below.
+Installing Go
+Run the commands listed below to install Go onto the board itself using a package manager:
+First, update the package list:
+# apt-get update
+Then, install Git and Go:
+# apt-get install git golang-go
+Configuring Go
+Next thing we need to do is set correct Go paths. As root open .profile config file:
+# sudo vim ~/.profile
+and in there set Go's root value ($HOME/go will be our Go workspace directory):
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+and refresh your profile with:
+# source ~/.profile
+Make the directory for your Go workspace as you have set it in your .profile:
+# mkdir $HOME/go
+This is where Go will build its files.
+Build Instructions
+After Go is installed on your local machine, we can move to building the google-iot-mqtt-publisher.
+Create a directory which will hold the contents of the google-iot-mqtt-publisher:
+mkdir -p $GOPATH/src/github.com/MarvellEmbeddedProcessors/google-iot-mqtt-publisher-marvell
+Get the google-iot-mqtt-publisher source code via Git or by downloading the ZIP archive containing the source code from here and put the source into the $GOPATH/src/github.com/MarvellEmbeddedProcessors/google-iot-mqtt-publisher-marvell folder.
+Finally, position yourself in the $GOPATH/src/github.com/MarvellEmbeddedProcessors/google-iot-mqtt-publisher-marvell directory and fetch third party libraries:
+$ go get
+after which we can cross-compile for arm64:
+$ go build -o google-iot-mqtt-publisher
+This will generate an executable with the file name of google-iot-mqtt-publisher in the same directory. In order to run the executable on the ESPRESSObin, the certs/ directory must also be installed. The certs directory contains three files:
+roots.pem - A root certificate from Google that must be installed alongside the google-iot-mqtt-publisher executable.
+rsa_cert.pem - Self-signed public key that is used by Cloud IoT Core.
+rsa_private.pem - Self-signed private key used by google-iot-mqtt-publisher to authenticate your device to Cloud IoT Core.
+The keys mentioned here are merely an example. Make sure to use your own self-signed keys for your device. Device authentication must be configured in Cloud IoT Core prior to using google-iot-mqtt-publisher.
+× NoteYou must replace the private key with your own key used during device authentication configuration in Cloud IoT Core. Otherwise, the google-iot-mqtt-publisher will not be able to authenticate your device during initial connection to the Cloud IoT Core service.
+That's it. You have successfully built the google-iot-mqtt-publisher which is ready for usage.
+google-iot-mqtt-publisher usage
+Obtain google-iot-mqtt-publisher help page with:
+$ ./google-iot-mqtt-publisher --help
+google-iot-mqtt-publisher is a MQTT client used to publish messages to a specific topic on Google Cloud IoT.
+Usage:
+google-iot-mqtt-publisher [flags]
+Flags:
+-d, --device-id string Device ID
+-m, --message string A string which will be sent to a topic.
+-p, --project-id string Project ID
+-r, --registry-id string Registry ID
+-t, --topic string A topic to which the message will be sent.
+Example
+To publish a message, run the google-iot-mqtt-publisher tool with the correct values for flags, for example:
+$ ./google-iot-mqtt-publisher --project-id "example-project" --registry-id "example-registry" --device-id "example-device" --topic "events" --message "example-message-containing-telemetry-data"
+Make sure to replace the above values with your own.
+To fetch the published message, you can use the gcloud available from Google Cloud SDK. Follow the Google IoT Cloud Core How-to Guide to install gcloud locally on your Linux machine. After you have installed gcloud, run the following command to fetch the published message (again, replace example values with your own):
+$ gcloud beta pubsub subscriptions pull --auto-ack projects/example-project/subscriptions/example-subscription
+If everything went well, you have successfully sent a MQTT message from your ESPRESSObin to Cloud IoT Core service and were able to fetch this message locally on your Linux machine using the gcloud. Above instructions can also be seen in an asciinema video here.
+Comments
+Wiki Home
+Introduction
+About ESPRESSObin
+About The Package
+Guides
+Quick User Guide
+Software HowTo
+Getting Started Tutorials
+Where to Buy
+Board Distributors
+Kickstarter Project
+Hardware Info
+Ports and Interfaces
+Block Diagram
+Schematics
+Board Layout
+3D Files
+Documentation
+Armada 3700
+Topaz Switch
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+Marvell ESPRESSObin | An SBC Unlike Any Other
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Marvell ESPRESSObin
+A Single Board Computing Platform
+Unlike Any Other
+Order nowWatch videoPowerful set of Networking
+storage interfaces
+Cost efficient
+High performance
+Much more than just another SBC
+Low Power 64-bit Super Storage / Super Networking / Super Compute
+Top ViewBottom ViewTop ViewBottom ViewSee Technical DocumentsThe ESPRESSObin in ActionSecure VPNBuild your own private VPN Tunnel for your home network in order to secure and create private connectionMulti Media Server
+Stream content via Ethernet or Wi-Fi to connected TV in multiple rooms. Stream personal content from your hard drive or USB stick from your personnel network or NAS device.
+NAS-SATA-WI-FI
+Connect the device Sata interface to Hard drives and stream via wireless or Ethernet.
+IOT Gateway
+Control your home from your mobile phone to manage smart appliances, webcam and door locks.
+As strong as espresso and as small as the cup!Order nowCommunity & SupportWiki
+This is the place for sharing useful software and hardware information, tips and guides on various board configuration and network setups, troubleshooting and everything else related to the ESPRESSObin board.
+Forum
+Dont know where to start? Have a problem? Here you can find or start discussions about ESPRESSObin
+FAQ
+We have prepared for you Questions and Answers commonly asked, helping you to get going with your ESPRESSObin
+Recent postsRunning Open Source Softw... The Marvell ESPRESSObin board project, launched by Globalscale Technologies... Read MoreESPRESSObin-powered circu... The ESPRESSObin team designed ESPRESSObin SBC part which can be easily impo... Read MoreEspressobin hardware brie... ESPRESSObin Specs
+Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC c... Read MoreESPRESSObin in mainline L... What does mainline imply? It means that a supported platform, or in ESPRESS... Read MoreESPRESSObin Kickstarter c...
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was lau... Read MoreSee all Articles
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Running Open Source Software on ESPRESSObin - Marvell ESPRESSObin
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Running Open Source Software on ESPRESSObin
+By akrog on 04/04/17
+The Marvell ESPRESSObin board project, launched by Globalscale Technologies on Kickstarter at the beginning of October this year, is a single board computing platform which places emphasis on networking, storage and wireless connectivity. The board is powered by Marvell’s ARMADA 3700 dual-core processor clocking up to 1.2 GHz. Other specs include:
+1x Topaz Networking Switch
+1x uSD card slot with footprint for an optional 4GB EMMC
+1GB DDR3 & 2GB DDR3 options
+2x Gb Ethernet LAN
+1x Ethernet WAN
+1x SATA interface for HDD storage
+1x USB 3.0 and 1x USB 2.0
+1x MiniPCIe for Wireless/BLE peripherals
+2x Row of GPIO headers for accessories and shields
+All of ESPRESSObin’s software is Open Source, and users have a choice of compiling system components themselves or downloading pre-compiled binaries. Considering supported file systems, currently users can boot Buildroot, Ubuntu and Yocto on their boards, with support soon to be added for OpenWrt, Debian
+and Archlinux ARM.
+In line with an Open Source approach, the ESPRESSObin board is perfectly suited for running Open Source Software. So far, the ESPRESSObin wiki features tutorials for libyang – a popular YANG data modelling language parser and toolkit written in C (used in projects such as libnetconf2, Netopeer2 or Sysrepo), MySQL – a renowned, fast, multi-user and multi-threaded SQL database server and OpenSSL – a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.. Additional Open Source Software tutorials are in the making at the time of writing this blog post.
+Furthermore, the OpenSSL tutorial also features a speed test in order to demonstrate how well ESPRESSObin, or to put it differently, how well its 64bit Dual Core ARM53 Armada 3700 SoC (clocking up to 1.2 GHz) fares with executing machine code.
+Read more on respective wiki pages listed below:
+libyang
+MySQL
+OpenSSL
+Related articlesRunning Open Source Softw... The Marvell ESPRESSObin board project, launched by Globalscale Technologies... Read MoreESPRESSObin-powered circu... The ESPRESSObin team designed ESPRESSObin SBC part which can be easily impo... Read MoreEspressobin hardware brie... ESPRESSObin Specs
+Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC c... Read MoreESPRESSObin in mainline L... What does mainline imply? It means that a supported platform, or in ESPRESS... Read MoreESPRESSObin Kickstarter c...
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was lau... Read More
+Order your ESPRESSObin on:
+×
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+ESPRESSObin Kickstarter campaign - Marvell ESPRESSObin
+Partners - Marvell ESPRESSObin
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+ESPRESSObin Kickstarter campaign
+By Maxim on 12/01/16
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was launched in October 2016 aiming to fund the development of a Marvell ARM 64-bit SoC: the Armada 3700. The ESPRESSObin Board is a low-cost, high-performance 64-bit dual core networking computing platform aimed at a variety of use cases and applications, the focus being placed on networking, storage and connectivity space.
+More precisely, the project launched on October 2nd and reached its set goal of $15,000 in just four days on October 6th. The campaign was completed at November 11th, collecting around $53,339 (356% more than the set funding goal) and with 536 backers. Average pledge size revolved around $99 and the project ended with an average of 13 daily backers. The first stretch goal announced at October 28th including an upgraded Wi-Fi & Bluetooth card for all backers pledging more than $69 was also met, so these backers received an upgrade from the standard Realtek-based 802.11N radio to a modern 802.11ac/a/b/g/n Wi-Fi with 4.x Bluetooth. The second stretch goal required over 100K in pledges and would include an enclosure for an ESPRESSObin case, but that goal was not met.
+Along with volume discounts, the ESPRESSObin package price ranged from $39, $49, $69 and $79 where $39 early bird packages start with delivery in January 2017. The $79 Super ESPRESSObin board package was the most wanted package receiving over 133 backers.
+The campaign was a continuation on past successful collaborations between Marvell and Globalscale, including products such as the Armada 370-based GT1MiraBox, Kirkwood-based SheevaPlug, DreamPlug and others.
+Since the ESPRESSObin marked the first Armada 3700 based SoC marketed under $50, the board ignited a lot of interest from the community both due to price and specifications. With the lack of software support after shipment often being an issue with Kickstarter projects of such nature, most pledgers were also happy to see ESPRESSObin offering open source Linux software with mainline Kernel support. The board ships with Buildroot as default root file system, although support has been added for OpenWrt, and further plans include adding support for ArchLinux ARM and Debian. All documentation regarding the board is open with software soon to be available on GitHub (find out more here).
+Related articlesRunning Open Source Softw... The Marvell ESPRESSObin board project, launched by Globalscale Technologies... Read MoreESPRESSObin-powered circu... The ESPRESSObin team designed ESPRESSObin SBC part which can be easily impo... Read MoreEspressobin hardware brie... ESPRESSObin Specs
+Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC c... Read MoreESPRESSObin in mainline L... What does mainline imply? It means that a supported platform, or in ESPRESS... Read MoreESPRESSObin Kickstarter c...
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was lau... Read More
+Order your ESPRESSObin on:
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Linux, U-Boot
+Linux
+Hardware design
+Linux
+Linux, Yocto
+Linux, OpenWrt, LEDE
+UEFI, Linux, FreeBSD DPDK, ODP
+OpenSuse, Suse Enterptise Linux
+Linux
+Google Cloud Platform
+Debian
+ARMbian
+ArchLinux
+Contact us to join our Ecosystem of partners
+ESPRESSObin News - Marvell ESPRESSObin
+Support - Marvell ESPRESSObin
+×
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Forums Archive - Marvell ESPRESSObin
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+ESPRESSObin News
+Running Open Source Software on ESPRESSObin
+By akrog on 04/04/17
+The Marvell ESPRESSObin board project, launched by Globalscale Technologies on Kickstarter at the beginning of October this year, is a single board
+Read More
+ESPRESSObin-powered circuit drawing with Fritzing
+By akrog on 03/28/17
+The ESPRESSObin team designed ESPRESSObin SBC part which can be easily imported into Fritzing, a popular, open source Electronic Design Automation software
+Read More
+ESPRESSObin in mainline Linux - Marvell ESPRESSObin
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Support
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+Espressobin hardware brief outline - Marvell ESPRESSObin
+Frequently Asked Questions - Marvell ESPRESSObin
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Forums
+Search for:
+Home › Forums
+Log In Register Lost Password
+Forum
+Topics
+Posts
+Last Post
+Getting Started
+Share you inputs on what you need to know to get started with your new ESPRESSObin
+ESPRESSObin Wiki | HomePage
+Espressobin hardware brief outline
+By Wayne Yang on 03/15/17
+ESPRESSObin Specs Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC clocked up to 1.2Ghz 1x Topaz Networking Switch 1x
+Read More
+ESPRESSObin in mainline Linux
+By meitalbin on 01/10/17
+What does mainline imply? It means that a supported platform, or in ESPRESSObin’s case the Armada 3700 dual-core SoC, can be booted
+Read More
+ESPRESSObin Kickstarter campaign
+By Maxim on 12/01/16
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was launched in October 2016 aiming to fund the development of a Marvell ARM
+Read More
+1
+2
+»
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+ESPRESSObin in mainline Linux
+By meitalbin on 01/10/17
+What does mainline imply? It means that a supported platform, or in ESPRESSObin’s case the Armada 3700 dual-core SoC, can be booted directly, that is, without requiring any additional patches.
+This state is achieved through several irrefutable qualities of a platform being supported in mainline by the Linux kernel, most notably the quality, scalability and reduced time-to-market which the mainline brings to the table.
+The scalability aspect of mainline implies that any potential changes to the kernel version will not affect currently available features and they will migrate seamlessly between kernel versions. Therefore, the core on which the board’s features are based on will not require any changes, meaning that focus can be then placed on the development of features which differentiate ESPRESSObin from the competition and satisfy requests from the user community.
+Furthermore, mainline support also implies that ESPRESSObin users will benefit from new features and bug fixes which will be present in newer kernel versions, thereby keeping them equipped with the latest stable, robust and high-quality operating system environment.
+Incorporating a stable kernel release in ESPRESSObin minimizes the duration of life cycle stagnation points spent on tracking and implementing kernel updates, maintaining and supporting code patches, stress testing newly added kernel aspects and various other time-consuming activities.
+Avoidance of these constraints also implies reduction of migration costs as well as quicker market releases. In other words, more time will be spent on bringing new features to ESPRESSObin users all the while enabling them to take full advantage of newer kernel editions.
+ESPRESSObin support is merged in Linux mainline part of kernel v4.11
+Firmware releases are available for Ubuntu, and support for ArchLinux ARM, Debian, Yocto and OpenWrt will be added soon as well.
+Related articlesRunning Open Source Softw... The Marvell ESPRESSObin board project, launched by Globalscale Technologies... Read MoreESPRESSObin-powered circu... The ESPRESSObin team designed ESPRESSObin SBC part which can be easily impo... Read MoreEspressobin hardware brie... ESPRESSObin Specs
+Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC c... Read MoreESPRESSObin in mainline L... What does mainline imply? It means that a supported platform, or in ESPRESS... Read MoreESPRESSObin Kickstarter c...
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was lau... Read More
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Espressobin hardware brief outline
+By Wayne Yang on 03/15/17
+ESPRESSObin Specs
+Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC clocked up to 1.2Ghz
+1x Topaz Networking Switch
+1x uSD card slot with footprint for an optional 4GB EMMC
+512MB DDR3, 1GB DDR3 & 2GB DDR3 options
+2x Gb Ethernet LAN
+1x Ethernet WAN
+1x SATA interface for HDD storage
+ESPRESSObin-powered circuit drawing with Fritzing - Marvell ESPRESSObin
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Frequently Asked Questions
+Introduction
+What is the ESPRESSObin platform?
+ESPRESSObin is an open community platform based on Marvell Armada 88F3700 processor. This open platform fully shares its hardware and software with the community.
+Where can someone contribute in the ESPRESSObin Foundation?
+We would like the users to share their user experience and any cool applications or ideas they have.
+General
+Does GlobalScale Technologies sell a self-assembly kit?
+No, the board does not require an assembly kit.
+17
+113
+2 days, 5 hours ago
+NelsonOV
+Hardware discussions
+Hardware discussion, further development ,and Marvell-37xx Serial discussion forum.
+52
+281
+4 months ago
+shirleycathey38
+Shipping Questions
+Global Scale Technologies sells Espressobin via different platforms. This forum is for you to understand the price & how long it may take.
+Amazon (1, 2)KickStarter (1, 1)
+7
+27
+3 years, 3 months ago
+lashawndamcgavin
+Software discussion
+Demo sharing, newer firmware sharing, and more platform are coming soon!!
+Linux Kernel (14, 63)OS – ArchLinux (5, 5)OS – Buildroot (1, 1)OS – ubuntu (6, 48)OS – Yocto (1, 6)
+Loading...
+navigation
+Menu
+Home
+Tech Spec
+Support
+Wiki
+Forum
+FAQ
+Partners
+Blog
+Contact
+Order now
+Order your ESPRESSObin on:
+HomePage
+Welcome to the Marvell ARMADA 3700 Community Board (ESPRESSObin) Wiki site. This Wiki provides everything from initial Marvell ARMADA 3700 Community Board (ESPRESSObin) setup and configuration to more advanced setup tutorials and feature showcases. It is a place for sharing useful software and hardware information, tips and guides on various board configuration and network setups, troubleshooting and everything else related to the ESPRESSObin board.
+Find out how to get your own Marvell ARMADA 3700 Community Board (ESPRESSObin) on our Kickstarter Project or search through our Board Distributors.
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Order your ESPRESSObin on:
+×
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+1x USB 3.0 and 1x USB 2.0
+1x MiniPCIe for Wireless/BLE peripherals
+2x Row of GPIO headers for accessories and shields
+Physical Interfaces
+Board Interface
+GPIO Map
+Armada SOC
+Armada 3700 SOC block diagram
+Topaz Switch Specs
+Topaz Switch
+Related articlesRunning Open Source Softw... The Marvell ESPRESSObin board project, launched by Globalscale Technologies... Read MoreESPRESSObin-powered circu... The ESPRESSObin team designed ESPRESSObin SBC part which can be easily impo... Read MoreEspressobin hardware brie... ESPRESSObin Specs
+Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC c... Read MoreESPRESSObin in mainline L... What does mainline imply? It means that a supported platform, or in ESPRESS... Read MoreESPRESSObin Kickstarter c...
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was lau... Read More
+Order your ESPRESSObin on:
+×
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+ESPRESSObin-powered circuit drawing with Fritzing
+By akrog on 03/28/17
+The ESPRESSObin team designed ESPRESSObin SBC part which can be easily imported into Fritzing, a popular, open source Electronic Design Automation software for everyone interested in physical computing and prototyping. ESPRESSObin users can now draw ESPRESSObin-powered circuits in a drag-n-drop way and share their designs with other users. Below you can see an example drawing with the ESPRESSObin board made in Fritzing:
+For now, the ESPRESSObin part is only available in the form of an .FZPZ file, a standard .ZIP file generated by Fritzing. The .FZPZ file contains all ESPRESSObin SVG images and FPZ part file and can be opened like any other .ZIP archive. You can download the .ZIP archive containing the .FZPZ file from here:
+ESPRESSObin_Fritzing_fzpz
+After downloading and extracting, simply import the .FZPZ into Fritzing by clicking File -> Open and selecting the ESPRESSObin.fzpz file. You can then right-click on the board in breadboard view and select Add to bin -> My Parts after which ESPRESSObin will be stored in your personal bin for future uses. The part is only made for educational purposes and we do not guarantee its correctness.
+Related articlesRunning Open Source Softw... The Marvell ESPRESSObin board project, launched by Globalscale Technologies... Read MoreESPRESSObin-powered circu... The ESPRESSObin team designed ESPRESSObin SBC part which can be easily impo... Read MoreEspressobin hardware brie... ESPRESSObin Specs
+Powered by a 64bit Dual Core ARM A53 Armada 3700 SOC c... Read MoreESPRESSObin in mainline L... What does mainline imply? It means that a supported platform, or in ESPRESS... Read MoreESPRESSObin Kickstarter c...
+ESPRESSObin Wiki | About us
+Does ESPRESSObin ship with a case?
+ESPRESSObin board is shipped without the case. 3D CAD files can be downloaded from the official Globalscale website.
+What are the dimensions of the ESPRESSObin?
+Board dimensions are 100mm x 72mm.
+What hardware documentation is available?
+Available hardware documentation includes block diagram, schematics and layout. Documents are available on our Tech Spec page under Technical Documentation.
+What is the username and password for the ESPRESSObin?
+User is root, no password required.
+Why does nothing happen when I type in my password? Did my ESPRESSObin freeze?
+Linux does not display anything when typing in passwords in the Bash prompt or the terminal. As long as you were able to see the username being typed in.
+What are the differences between ESPRESSObin models?
+The ESPRESSObin board can be ordered in two flavors: base 1 GB DDR3 or optional 2 GB DDR3. Wi-Fi cards, port multipliers, power supplies and other ESPRESSObin accessories can also be purchased separately. See more here.
+How do I connect a mouse and keyboard?
+Additional USB devices such as mice, keyboards, network adapters and external storage can be connected via a USB hub.
+Where is the on / off switch?
+There is no on/off switch, just connect the power supply to the board to power on the board.
+Who or what is NOOBS?
+NOOBS stands for New Out of Box Software.
+What is the SoC you are using?
+Armada 88F3700 – dual Cortex A53 based CPU. More information on the Marvell® ARMADA® 3700 family of devices can be found on the Wiki.
+What is an SoC?
+System on a Chip (SoC) is a method of placing all necessary electronics for having computing, network and fast IOs on a single chip.
+47
+260
+1 month ago
+jeanette80e
+Log In Register Lost Password
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Read more about the board on About ESPRESSObin.
+If you’ve obtained the board and want to get started, check out our Quick User Guide.
+If you've obtained the board and want to build system components from source, see Software HowTo.
+Comments
+9
+Wiki Home
+Introduction
+About ESPRESSObin
+About The Package
+Guides
+Quick User Guide
+Software HowTo
+Getting Started Tutorials
+Where to Buy
+Board Distributors
+Kickstarter Project
+Hardware Info
+Ports and Interfaces
+Block Diagram
+Schematics
+Board Layout
+3D Files
+Documentation
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Kickstarter campaign for Marvell ESPRESSObin board by Globalscale was lau... Read More
+Order your ESPRESSObin on:
+×
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Loading...
+navigation
+Menu
+Home
+Tech Spec
+Support
+Wiki
+Forum
+FAQ
+Partners
+Blog
+Contact
+Order now
+Order your ESPRESSObin on:
+About us
+The ESPRESSObin single board computing platform is the result of an ongoing partnership between Marvell Technology Group and Globalscale Technologies.
+About Marvell
+Marvell first revolutionized the digital storage industry by moving information at speeds never thought possible. Today, that same breakthrough innovation remains at the heart of the company’s storage, network infrastructure, and wireless connectivity solutions. With leading intellectual property and deep system-level knowledge, Marvell's semiconductor solutions continue to transform the enterprise, cloud, automotive, industrial, and consumer markets.
+About Globalscale
+Globalscale is a world class electronic design and manufacturing company. Founded in 2008, Globalscale services silicon vendors, developers, and OEM customers with hardware & software design services, manufacturing, and order fulfilment with post sales support. Globalscale also offers its own line of reference design boards and plug computer products to aid in fast market adoption in the wireless, networking, NAS, and IoT markets.
+Globalscale has facilities in China, Taiwan, and USA. Please find us at www.globalscaletechnologies.com
+Why did you select the ARM Cortex SOC?
+Because it is the best in class regarding performance and power.
+How does it boot?
+The ESPRESSObin board has an on-board SPI flash with U-Boot loaded. Two images in two partitions are enabled to avoid U-Boot corruption. By default, the board will boot from the 1st partition and will boot from the 2nd partition in case the 1st partition is corrupted.
+Performance & Cost Considerations
+How powerful is it?
+The Armada 88F3700 is a very powerful processor which clocks up to 1.2GHz.
+Why is core CPU limit set to 1GHz?
+The Armada 88F3700 currently supports 1GHz CPU clock speed. Support for 1.2GHz will be ready soon.
+Does it overclock?
+No, 1.2GHz is the maximum supported frequency.
+Does it need a heatsink?
+The processor does not need heatsink because it has a very low power dissipation.
+What is its operating temperature?
+0-70 Celsius ambient temperature.
+Can I add extra memory?
+Regarding system memory the ESPRESSObin board comes in fixed 1 GB DDR3 and 2 GB DDR3 flavors. Extra storage capacity can be added via various supported peripherals (SATA, microSD card, USB 2.0 and USB 3.0).
+What hardware interfaces does it have?
+Switch, miniPCIe, SATA, USB2.0, USB3.0 and SD card.
+Why is there no real-time clock (RTC)?
+Contact - Marvell ESPRESSObin
+Armada 3700
+Topaz Switch
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+Comments
+1
+Wiki Home
+Introduction
+About ESPRESSObin
+About The Package
+Guides
+Quick User Guide
+Software HowTo
+Getting Started Tutorials
+Where to Buy
+Board Distributors
+Kickstarter Project
+Hardware Info
+Ports and Interfaces
+Block Diagram
+Schematics
+Board Layout
+3D Files
+When the board connects to the internet, NTP (Network Time Protocol) can be used.
+Software
+Which type of Linux distributions run on the ESPRESSObin?
+Currently the list of supported file systems includes Buildroot (2015.11), Ubuntu (14.04.5 LTS and 16.04.3 LTS), ArchLinux ARM, OpenWrt (DD) and Yocto (Krogoth), with Debian support to be added soon.
+Will ESPRESSObin run Android?
+Since the ESPRESSObin has no HDMI, we do not plan on supporting Android.
+Does ESPRESSObin have an official programming language?
+No, it is an open community board so any open source software can be used.
+Will ESPRESSObin run WINE (or Windows, or other x86 software)?
+No such plan on our end.
+Will ESPRESSObin run the Windows 8 ARM edition?
+No such plan on our end.
+SD Card & Storage
+What minimal size of SD card do I need?
+No size limitation on our end, we will support any SDHC card that meets the specifications.
+What max size of SD card can it support?
+No size limitation on our end, we will support any SDHC card that meets the specifications.
+Video
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Fill in your information below, and we will reply shortly
+United StatesCanadaMexicoUnited Kingdom-----AfghanistanAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua and BarbudaArgentinaArmeniaArmeniaArubaAustraliaAustriaAzerbaijanAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaireBosnia and HerzegovinaBotswanaBouvet Island (Bouvetoya)BrazilBritish Indian Ocean Territory (Chagos Archipelago)British Virgin IslandsBrunei DarussalamBulgariaBurkina FasoBurundiCambodiaCameroonCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCongoCook IslandsCosta RicaCote d'IvoireCroatiaCubaCuraçaoCyprusCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland Islands (Malvinas)Faroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHeard Island and McDonald IslandsHoly See (Vatican City State)HondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKazakhstanKenyaKiribatiKoreaKoreaKuwaitKyrgyz RepublicLao People's Democratic RepublicLatviaLebanonLesothoLiberiaLibyan Arab JamahiriyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMicronesiaMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorthern Mariana IslandsNorwayOmanPakistanPalauPalestinian TerritoryPanamaPapua New GuineaParaguayPeruPhilippinesPitcairn IslandsPolandPortugalPuerto RicoQatarReunionRomaniaRussian FederationRwandaSaint BarthelemySaint HelenaSaint Kitts and NevisSaint LuciaSaint MartinSaint Pierre and MiquelonSaint Vincent and the GrenadinesSamoaSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSint Maarten (Netherlands)Slovakia (Slovak Republic)SloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia & S. Sandwich IslandsSpainSri LankaSudanSurinameSvalbard & Jan Mayen IslandsSwazilandSwedenSwitzerlandSyrian Arab RepublicTaiwanTajikistanTanzaniaThailandTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkeyTurkmenistanTurks and Caicos IslandsTuvaluU.S. Virgin IslandsU.S. Minor Outlying IslandsUgandaUkraineUnited Arab EmiratesUruguayUzbekistanVanuatuVenezuelaVietnamWallis and FutunaWestern SaharaYemenZambiaZimbabwe
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Tech Spec - Marvell ESPRESSObin
+Documentation
+Armada 3700
+Topaz Switch
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+What displays can I use?
+There are PCIe to HDMI cards available, if anyone manages to operate it please share with us.
+Why is there no VGA/HDMI support?
+This is an embedded processor designed primarily for computing, storage and networking, so it does not support VGA or HDMI.
+Can I add a touch-screen?
+There are USB touch-screens with Linux drivers, if anyone manages to operate it please share with us.
+What codecs can it play?
+The ESPRESSObin can play any codec that is supported by mainline Linux.
+Networking, Wireless & USB
+Does ESPRESSObin support device networking?
+ESPRESSObin has 3 network ports – 1 WAN (Wide Area Network) and 2 LANs (Local Area Network).
+Do we have built-in WiFi on ESPRESSObin?
+Yes, the “loaded” version has a WiFi card included.
+Is there built-in Bluetooth on ESPRESSObin?
+No, but there are modules that are supported by mainline Linux, if anyone manage to operate it please share with us.
+Why is there no 2.5 Gbit Ethernet on ESPRESSObin?
+The ESPRESSObin is optimized for price and power so there is no plan to support 2.5Gbit Ethernet, however the 8040 community board supports it – https://www.solid-run.com/marvell-armada-family/armada-8040-community-board/
+What if I want to connect more USB devices?
+In such cases a USB HUB can be used, whereas the 8040 community board supports more USB ports – https://www.solid-run.com/marvell-armada-family/armada-8040-community-board/
+Power
+What are the power requirements? Can I power the ESPRESSObin from a USB hub?
+Yes.
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Order now Menu
+Home
+Tech Spec
+Wiki
+Support
+Forum
+FAQ
+Partners
+Contact
+Blog
+Tech Spec
+ESPRESSObin V7 Board Specifications
+SoC
+Marvell Armada 3700LP (88F3720) dual core ARM Cortex A53 processor up to 1.2GHz
+System Memory
+1 GB DDR4 or optional 2GB DDR4
+Storage
+1x SATA interface
+1x micro SD card slot with footprint for an optional 4GB EMMC
+Network Connectivity
+1x Topaz Networking Switch
+2x GbE Ethernet LAN
+1x Ethernet WAN
+1x MiniPCIe slot for Wireless/BLE periphereals
+USB
+1x USB 3.0
+1x USB 2.0
+What are the specifications of the power supply?
+The ESPRESSObin ships with a 12V 2A Power supply with 5.5mm*2.10mm*10mm connector.
+Can I power the ESPRESSObin from batteries as well as from a wall socket?
+Not currently.
+Is Power over Ethernet (PoE) possible?
+POE is possible as hardware customization but will not have a model supported from stock.
+Buying & Shipping
+Where can I buy ESPRESSObin?
+ESPRESSObin can be purchased via Amazon, Taobao or from the official Globalscale website:
+globalscaletechnologies.com
+amazon.com
+taobao.com
+How much does ESPRESSObin cost?
+The price for the ESPRESSObin board starts at $49. More info on package pricing can be found on the Wiki.
+What is included in the package?
+Base ESPRESSObin 1 GB DDR3 board. More info on package pricing can be found on the Wiki.
+Is this device available internationally?
+Yes.
+Why is the price in US Dollars? Can I buy Internationally?
+$49, Yes.
+Is there a buy-one-give-one program?
+No.
+I want to be a ESPRESSObin reseller.
+Please contact Globalscale directly for reseller and distribution opportunities and pricing at
+1x micro USB port
+Expansion
+2x 46-pin GPIO headers for accessories and shields with I2C, GPIOs, PWM, UART, SPI, MMC, etc.
+Misc
+Reset button, JTAG interface
+Power supply
+12V DC jack or 5V via micro USB port
+Power consumption
+Less than 1W thermal dissipation at 1 GHz
+ESPRESSObin Ultra Board Specifications
+SoC
+Marvell Armada 3720 dual core ARMv8 Cortex-A53 processor up to 1.2GHz
+System Memory
+1 GB DDR4 or optional 2GB DDR4
+Storage
+4MB SPI NOR flash
+8GB eMMC flash
+SATA SSD socket-M.2 -2280
+Network Connectivity
+1x Gb RJ45 WAN with POE input
+4x Gb RJ45 LAN
+802.11 a/b/g/n +ac/ 2T2R wifi+ BT4.2 onboard with mini PCIe interface
+USB
+1x USB 3.0 Type A
+1x USB 2.0 Type A
+1x micro USB UART port for debug console
+sales@globalscaletechnologies.com
+Can't find your answer? contact us:
+contact support
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Expansion
+1x M.2-2280 SSD socket
+1x mini PCIe 2.0 socket with USB 2.0 interface for 3G/4G LTE
+1x SIM card slot
+Debugging
+1x JTAG Cortex port, 10-pin
+1x micro USB UART connector
+MISC.
+DC12V power jack
+30 Watt POE power input through WAN port
+4x software controlled LED
+Power on/off button with LED indication
+Reset button
+Technical Documentation
+Document Name
+Document Version
+Download
+ESPRESSObin Board Layout
+V5
+http://espressobin.net/wp-content/uploads/2017/08/ESPRESSObin_board_layout_V5_pcb.zip
+ESPRESSObin Board Schematics
+V5
+http://espressobin.net/wp-content/uploads/2017/08/ESPRESSObin_V5_Schematics.pdf
+ESPRESSObin Block Diagram
+V7
+http://espressobin.net/wp-content/uploads/2020/05/ESPRESSObin-V7-Hardware-Block-diagram-181204.pdf
+ESPRESSObin Board Schematics
+V7
+http://espressobin.net/wp-content/uploads/2020/05/ESPRESSObin_V7-0_Schematic.pdf
+ESPRESSObin Block Diagram
+Ultra
+http://espressobin.net/wp-content/uploads/2020/05/ESPRESSOBin-Ultra-V1_-Block-diagram_.pdf
+MOCHAbin Block Diagram
+MOCHAbin
+http://espressobin.net/wp-content/uploads/2020/05/MOCHABIN-block-diagram.pdf
+Software
+Component
+Version
+Download
+Github Link
+Wiki page
+Linaro Toolchain
+5.2-2015.11-2
+https://releases.linaro.org/components/toolchain/binaries/5.2-2015.11-2/aarch64-linux-gnu/gcc-linaro-5.2-2015.11-2-x86_64_aarch64-linux-gnu.tar.xz
+Build From Source - Toolchain
+Bootloader
+U-Boot 2017.03-armada-17.06
+http://espressobin.net/wp-content/uploads/2017/11/ebin-bootloader-17.06.zip
+https://github.com/MarvellEmbeddedProcessors/u-boot-marvell/tree/u-boot-2017.03-armada-17.06
+Build From Source - Bootloader
+Bootloader
+U-Boot 2017.03-armada-17.10
+http://espressobin.net/wp-content/uploads/2018/11/ebin-17.10-bootloader.zip
+https://github.com/MarvellEmbeddedProcessors/u-boot-marvell/tree/u-boot-2017.03-armada-17.10
+Build From Source - Bootloader
+Bootloader - UART images
+U-Boot 2017.03-armada-17.10
+http://espressobin.net/wp-content/uploads/2018/11/ebin-17.10-uart.zip
+https://github.com/MarvellEmbeddedProcessors/u-boot-marvell/tree/u-boot-2017.03-armada-17.10
+Bootloader recovery via UART
+Bootloader - SATA images
+U-Boot 2017.03-armada-17.10
+http://espressobin.net/wp-content/uploads/2018/07/ebin-17.10-sata.zip
+https://github.com/MarvellEmbeddedProcessors/u-boot-marvell/tree/u-boot-2017.03-armada-17.10
+Bootloader recovery via SATA
+Linux kernel
+4.4.8-armada-17.02-espressobin
+http://espressobin.net/wp-content/uploads/2018/07/ebin-linux-4.4.8-armada-17.02-espressobin.zip
+https://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.8-armada-17.02-espressobin
+Build From Source - Kernel
+Linux kernel
+4.4.52-armada-17.10
+http://espressobin.net/wp-content/uploads/2019/01/ebin-linux-4.4.52-armada-17.10.zip
+https://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.52-armada-17.10
+Build From Source - Kernel
+Buildroot
+2015.11
+http://espressobin.net/wp-content/uploads/2017/02/buildroot.zip
+https://github.com/MarvellEmbeddedProcessors/buildroot-marvell/tree/buildroot-2015.11-16.08
+Build From Source - Buildroot
+Ubuntu
+14.04.5 LTS
+http://espressobin.net/wp-content/uploads/2018/09/ebin-ubuntu-14.04.5.zip
+Creating Ubuntu filesystem
+Ubuntu
+16.04.4 LTS
+http://espressobin.net/wp-content/uploads/2017/10/ebin-ubuntu-16.04.3.zip
+Creating Ubuntu filesystem
+Yocto
+Yocto project 2.1 (Krogoth)
+http://espressobin.net/wp-content/uploads/2018/09/cb-88f3720-ddr3-espressobin.7z
+https://github.com/MarvellEmbeddedProcessors/marvell-embedded-linux-platform
+Build From Source - Yocto
+OpenWrt
+openwrt-dd-17.02
+http://espressobin.net/wp-content/uploads/2018/01/ebin-openwrt-17.02.zip
+https://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.02_release
+Build From Source - OpenWrt
+OpenWrt
+openwrt-dd-17.06
+http://espressobin.net/wp-content/uploads/2018/01/ebin-openwrt-17.06.zip
+https://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.06_release
+Build From Source - OpenWrt
+OpenWrt
+openwrt-dd-17.10
+http://espressobin.net/wp-content/uploads/2018/01/ebin-openwrt-17.10.zip
+https://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.10_release
+Build From Source - OpenWrt
+ArchLinux
+ArchLinux ARM
+http://os.archlinuxarm.org/os/ArchLinuxARM-espressobin-latest.tar.gz
+Boot from removable storage - ArchLinux
+Order your ESPRESSObin on:
+×
+Signup to our newsletter
+Leave this field empty if you're human:
+Contact Information Globalscale Technologies Inc.
+1200 North Van Buren St. Suite #A,
+Anaheim CA 92807
+(714) 632 9239
+sales@globalscaletechnologies.com
+CompanyAbout
+Blog
+Contact
+SupportForum
+FAQ
+© all rights reserved to espressobin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop

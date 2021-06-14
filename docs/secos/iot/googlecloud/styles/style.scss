@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 1024px) {
+    #container {
+        &.survey_open {
+            width: 65%;
+            float: left;
+        }
+        &.survey_close {
+            width: 100%;
+            float: left;
+        }
+    }
+    #survey {
+        &.survey_open {
+            width: 35%;
+            float: right;
+            display: block;
+        }
+        &.survey_close {
+            display: none;
+        }
+        iframe {
+            width: 100%;
+            height: 98vh;
+            border: none;
+        }
+    }
+}
+
+#container {
+    max-width: 100%;
+    height: 98vh;
+    margin: auto;
+}
+
+#survey {
+    width: 100%;
+    iframe {
+        width: 100%;
+        height: 98vh;
+        border: none;
+    }
+}
+
+#legend {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #000000bf;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 6px;
+    color: white;
+    h3 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+    p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+}
+
+.red-dot {
+    font-size: xx-large;
+    color: red;
+    margin: 6px;
+}
+
+.black-dot {
+    font-size: xx-large;
+    color: black;
+    margin: 6px;
+}
+
+#feedback {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    &.survey_close {
+        button {
+            &.blue {
+                display: block;
+            }
+            &.red {
+                display: none;
+            }
+        }
+    }
+    &.survey_open {
+        button {
+            &.blue {
+                display: none;
+            }
+            &.red {
+                display: block;
+            }
+        }
+    }
+
+    button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+        &.blue {
+            background-color: #008cba;
+            display: block;
+        }
+
+        &.red {
+            background-color: red;
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,1730 @@
+MACCHIATObin Wiki | Google Cloud IoT Core on MACCHIATObin
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Google Cloud IoT Core on MACCHIATObin
+Introduction
+Google Cloud Platform (read more), offered by Google, is a suite of cloud computing services that run on the same infrastructure that Google uses internally for its end-user products, such as Google Search and YouTube. Alongside a set of management tools, it provides a series of modular cloud services including computing, data storage, data analytics and machine learning.
+One of the services that Google also provides on its Google Cloud Platform and that is used in this tutorial is called Cloud IoT Core (read more). Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices. Cloud IoT Core, in combination with other services on Google Cloud IoT platform, provides a complete solution for collecting, processing, analyzing, and visualizing IoT data in real time to support improved operational efficiency. Cloud IoT Core service is fully supported on MACCHIATObin board.
+Cloud IoT Core
+In order for MACCHIATObin to connect and communicate with the Cloud IoT Core service, the following steps need to be completed:
+Setting up a working Ubuntu filesystem with the google-iot-mqtt-publisher MQTT client binary. How to do this will be shown a little later.
+Obtaining permission access to Cloud IoT Core service. At the time of writing this tutorial, Cloud IoT Core service is in a public beta state and an application form needs to be filed out to apply for access to the public beta. Getting and setting up the Cloud IoT Core is out of the scope of this tutorial. To obtain the access, click here from where you will be able to access the application form. When access to Cloud IoT Core is granted, please follow the official Cloud IoT Core documentation available here to set up your project and devices. This is needed in order to be able to connect to the Cloud IoT Core using MACCHIATObin.
+MQTT Client
+Now that we have access to Cloud IoT Core with a configured project, the final component is setting up the application that will be run on the MACCHIATObin. This application is called google-iot-mqtt-publisher, a MQTT client which is used to publish messages to a specific topic on Google Cloud IoT. The application can be obtained by either:
+Downloading a prebuilt Ubuntu 16.04.3 LTS image containing the binary
+Building it from source on a MACCHIATObin board running Ubuntu
+Prebuilt Image
+On our Software page under Ubuntu SD card + Google IoT package you can obtain a prebuilt Ubuntu 16.04.3 LTS image (ubuntu-xenial-mcbin-google-mqtt_u-boot_sd.img.gz) with the google-iot-mqtt-publisher binary stored in /usr/bin/. The image is configured to boot directly from the SD card.
+The image requires a micro SD card or USB flash drive with 4 GB capacity or more.
+After downloading it, flash it on a Linux machine with the following command (replace sdx with your device label):
+$ gunzip -c ubuntu-xenial-mcbin-google-mqtt_u-boot_sd.img.gz | sudo dd of=/dev/sdx
+Alternatively, extract the image first using gzip and flash with dd or some other tool which you prefer.
+× Bigger medium sizeIn case your removable storage medium is larger than 4 GB, resize the partition either with GParted or manually to use all available space. To do it manually:
+1. If mounted, first unmount the partition (replace sdxX with your partition label):
+$ sudo umount /dev/sdxX
+2. Check for free space:
+$ sudo parted /dev/sdx print free
+Model: Generic STORAGE DEVICE (scsi)
+Disk /dev/sdx: 15.9GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+Number Start End Size Type File system Flags
+32.3kB 10.5MB 10.5MB Free Space
+1 10.5MB 45.1MB 34.6MB primary fat16
+2 45.1MB 3880MB 3835MB primary ext3
+3880MB 15.9GB 12.1GB Free Space
+3. Increase the desired partition to the desired size, e.g. to increase the second partition to use all the available space (15.9GB in our case):
+$ sudo parted /dev/sdx resizepart 2 15.9GB
+4. Check the filesystem with:
+$ sudo e2fsck -f -y -v -C 0 /dev/sdxX
+5. Lastly, resize the filesystem
+$ sudo resize2fs -p /dev/sdxX
+Unplug the micro SD card from your Linux machine and plug it into the MACCHIATObin board. Relocate the jumpers (or DIP switches on revisions 1.2 and older) on the MACCHIATObin board to boot from the SD card as instructed in MACCHIATObin Interface list, section Boot Selection. Lastly, plug in the board and you should see Ubuntu booting directly from the SD card.
+Building From Source
+The google-iot-mqtt-publisher can be also built from source on the MACCHIATObin board running Ubuntu. How to build and flash a clean Ubuntu filesystem is shown in Creating Ubuntu filesystem.
+The google-iot-mqtt-publisher is written in Go programming language, and building it requires a working Go installation. Since the board is running Ubuntu, the recommended way is to install Go onto the board itself using a package manager. Alternative is to follow the official Go instalation instruction. It is also possible to build google-iot-mqtt-publisher on a different Linux machine. Doing this, google-iot-mqtt-publisher needs to be cross-compiled for MACCHIATObin. This is out of scope of this tutorial. Instructions for installing Go onto the board itself using a package manager can be found below.
+Installing Go
+Run the commands listed below to install Go onto the board itself using a package manager:
+First, update the package list:
+# apt-get update
+Then, install Git and Go:
+# apt-get install git golang-go
+Configuring Go
+Next thing we need to do is set correct Go paths. As root open .profile config file:
+# sudo vim ~/.profile
+and in there set Go's root value ($HOME/go will be our Go workspace directory):
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+and refresh your profile with:
+# source ~/.profile
+Make the directory for your Go workspace as you have set it in your .profile:
+# mkdir $HOME/go
+This is where Go will build its files.
+Build Instructions
+After Go is installed and configured on your local machine, we can move to building the google-iot-mqtt-publisher.
+Create a directory which will hold the contents of the google-iot-mqtt-publisher:
+mkdir -p $GOPATH/src/github.com/MarvellEmbeddedProcessors/google-iot-mqtt-publisher-marvell
+Get the google-iot-mqtt-publisher source code via Git or by downloading the ZIP archive containing the source code from here and put the source into the $GOPATH/src/github.com/MarvellEmbeddedProcessors/google-iot-mqtt-publisher-marvell folder.
+Finally, position yourself in the $GOPATH/src/github.com/MarvellEmbeddedProcessors/google-iot-mqtt-publisher-marvell directory and fetch third party libraries:
+# go get
+after which we can compile with:
+# go build -o google-iot-mqtt-publisher
+This will generate an executable with the file name of google-iot-mqtt-publisher-marvell in the same directory. In order to run the executable on the MACCHIATObin, the certs/ directory must also be installed. The certs directory contains three files:
+roots.pem - A root certificate from Google that must be installed alongside the google-iot-mqtt-publisher executable.
+rsa_cert.pem - Self-signed public key that is used by Cloud IoT Core.
+rsa_private.pem - Self-signed private key used by google-iot-mqtt-publisher to authenticate your device to Cloud IoT Core.
+The keys mentioned here are merely an example. Make sure to use your own self-signed keys for your device. Device authentication must be configured in Cloud IoT Core prior to using google-iot-mqtt-publisher.
+× NoteYou must replace the private key with your own key used during device authentication configuration in Cloud IoT Core. Otherwise, the google-iot-mqtt-publisher will not be able to authenticate your device during initial connection to the Cloud IoT Core service.
+That's it. You have successfully built the google-iot-mqtt-publisher which is ready for usage.
+google-iot-mqtt-publisher usage
+Obtain google-iot-mqtt-publisher help page with:
+$ ./google-iot-mqtt-publisher --help
+google-iot-mqtt-publisher is a MQTT client used to publish messages to a specific topic on Google Cloud IoT.
+Usage:
+google-iot-mqtt-publisher [flags]
+Flags:
+-d, --device-id string Device ID
+-m, --message string A string which will be sent to a topic.
+-p, --project-id string Project ID
+-r, --registry-id string Registry ID
+-t, --topic string A topic to which the message will be sent.
+Example
+To publish a message, run the google-iot-mqtt-publisher tool with the correct values for flags, for example:
+$ ./google-iot-mqtt-publisher --project-id "example-project" --registry-id "example-registry" --device-id "example-device" --topic "events" --message "example-message-containing-telemetry-data"
+Make sure to replace the above values with your own.
+To fetch the published message, you can use the gcloud available from Google Cloud SDK. Follow the Google IoT Cloud Core How-to Guide to install gcloud locally on your Linux machine. After you have installed gcloud, run the following command to fetch the published message (again, replace example values with your own):
+$ gcloud beta pubsub subscriptions pull --auto-ack projects/example-project/subscriptions/example-subscription
+If everything went well, you have successfully sent a MQTT message from your MACCHIATObin to Cloud IoT Core service and were able to fetch this message locally on your Linux machine using the gcloud. Above instructions can also be seen in an asciinema video here.
+Comments
+2
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+Software - Marvell MACCHIATObin
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Software
+ComponentVersionDownload Github LinkWiki page
+Linaro Toolchain5.2-2015.11-2https://releases.linaro.org/components/toolchain/binaries/5.2-2015.11-2/aarch64-linux-gnu/gcc-linaro-5.2-2015.11-2-x86_64_aarch64-linux-gnu.tar.xzToolchain Installation
+Linux kernel - Single Shot4.4.52http://macchiatobin.net/wp-content/uploads/2018/02/mcbin-single-shot-linux-4.4.52.ziphttps://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.52-armada-17.10Build from source - Kernel
+Linux kernel - Double Shot4.4.52http://macchiatobin.net/wp-content/uploads/2018/02/mcbin-double-shot-linux-4.4.52.ziphttps://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.52-armada-17.10Build from source - Kernel
+BootloaderU-Boot 2017.03-armada-17.10http://macchiatobin.net/wp-content/uploads/2018/07/mcbin-uboot-armada-17.10.ziphttps://github.com/MarvellEmbeddedProcessors/u-boot-marvell/tree/u-boot-2017.03-armada-17.10Build from source - Bootloader
+Buildroot2015.11http://macchiatobin.net/wp-content/uploads/2017/05/buildroot.ziphttps://github.com/MarvellEmbeddedProcessors/buildroot-marvell/tree/buildroot-2015.11-16.08Build from source - Buildroot
+Ubuntu16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2017/10/mcbin-ubuntu-16.04.3.zipCreating Ubuntu filesystem
+Ubuntu SD card image16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2018/02/ubuntu-xenial-mcbin_u-boot_sd.img_.gzCreating Ubuntu filesystem
+Ubuntu SD card + Google IoT package 16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2018/02/ubuntu-xenial-mcbin-google-mqtt_u-boot_sd.img_.gzGoogle Cloud IoT Core on MACCHIATObin
+OpenWrtopenwrt-dd-17.02http://macchiatobin.net/wp-content/uploads/2017/10/mcbin-openwrt-17.02.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.02_releaseBuild from source - OpenWrt
+OpenWrtopenwrt-dd-17.06http://macchiatobin.net/wp-content/uploads/2017/10/mcbin-openwrt-17.06.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.06_releaseBuild from source - OpenWrt
+OpenWrtopenwrt-dd-17.10http://macchiatobin.net/wp-content/uploads/2018/01/mbin-openwrt-17.10.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.10_releaseBuild from source - OpenWrt
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Marvell MACCHIATObin
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Marvell MACCHIATObin Family
+Cost-effective, high-performance ARM64bit networking & storage Community Board
+Watch videoCompare Products
+High performance Networking, Storage and computing Marvell ARMADA 8040 Community board with Quad 1.6GHZ and two SFP+ ports
+Learn More
+High performance Networking, Storage and computing Marvell ARMADA 8040 Community board with Quad 2.0 GHz and dual 10GbE Auto media ports (SFP+ or copper)
+Learn More
+Wiki
+Software and hardware information, tips and guides on various board configuration, network setups and troubleshooting.
+Forum
+Talk about MACCHIATObin, start new or join in on existing threads and find out answers to any MACCHIATObin-related issues.
+FAQ
+Have a question about MACCHIATObin? Check out commonly asked Questions and Answers to help you start with MACCHIATObin.
+Latest NewsNew addition to the MACCH... Building on the success of the MACCHIATObin board and t... Read MoreMarvell MACCHIATObin Comm... Read \"Marvell MACCHIATObin Community Board Now Shippin... Read MoreMACCHIATObin featured at ... The MACCHIATObin was also covered on CXNSoft, read more... Read MoreNFV for the Masses... Read Marvell\'s \"NFV for the Masses\" presentation giv... Read MoreAbout MACCHIATObin... Read more on Marvell\'s Cost-Effective, High-Performanc... Read MoreSee all Articles
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Blog - Marvell MACCHIATObin
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Blog
+New addition to the MACCHIATObin family : MACCHIATObin Single Shot
+By akrog on 02/01/18
+Building on the success of the MACCHIATObin board and the received customer feedback, as of revision 1.3 there is a new addition
+Read More
+Marvell MACCHIATObin Community Board Now Shipping
+By akrog on 06/02/17
+Read “Marvell MACCHIATObin Community Board Now Shipping” blog post on Marvell’s official blog page: http://blogs.marvell.com/2017/05/marvell-macchiatobin-community-board-now-shipping/
+Read More
+MACCHIATObin Single Shot - Marvell MACCHIATObin
+MACCHIATObin featured at CNXSoft
+By akrog on 05/07/17
+The MACCHIATObin was also covered on CXNSoft, read more on the respective blog post here: SolidRun MACCHIATOBin Mini-ITX Networking Board is Now
+Read More
+NFV for the Masses
+By akrog on 05/07/17
+Read Marvell’s “NFV for the Masses” presentation given at last year’s ARM Mini-Summit: Summit 16: ARM Mini-Summit – NFV for the Masses
+Read More
+About MACCHIATObin
+By meitalbin on 05/07/17
+Read more on Marvell’s Cost-Effective, High-Performance ARMADA 8040 Networking Community Board for OpenDataPlane, OpenFastPath and ARM NFV Ecosystems : http://www.marvell.com/company/news/pressDetail.do?releaseID=8317
+Read More
+Recent Posts
+New addition to the MACCHIATObin family : MACCHIATObin Single Shot
+Marvell MACCHIATObin Community Board Now Shipping
+MACCHIATObin featured at CNXSoft
+NFV for the Masses
+About MACCHIATObin
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+MACCHIATObin Single Shot
+The MACCHIATObin Single Shot is an entry-level, budget-minded and balanced development board including all the robust features of the MACCHIATObin with the ARMADA 8040 processor running up to 1.6 GHz processing speed and dual 10GbE SFP connectors. The Single Shot version is available at a much lower price than its predecessor, coming in at just $269.
+Order now
+Compare Products
+Board Specification
+Technical Documentation
+Software
+Board Specification
+SoCMarvell ARMADA 8040
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Find your perfect board - Marvell MACCHIATObin
+ProcessorQuad core Cortex-A72 (up to 1.6GHz)
+AccelerationsPacket Processor
+Security Engine
+DMA engines
+XOR engines for RAID 5/6 acceleration
+Other FeaturesIO virtualization
+SBSA
+MemoryDDR4 DIMM slot with optional ECC and single/dual chip select support
+NetworkingDual 10GbE (1/2.5/10GbE) via SFP
+2.5GbE (1/2.5GbE) via SFP
+1GbE via copper
+FlashSPI Flash
+Storage3 X SATA 3.0 connectors
+MicroSD connector
+eMMC
+High speed expansionPCI x4 3.0 slot
+USB 2.0 Headers (Internal)
+USB 3.0 connector
+Low speed expansionMarvell TDM module header
+Development and Debug interfacesConsole port (UART) over microUSB connector
+20-pin Connector for CPU JTAG debugger
+MACCHIATObin Double Shot - Marvell MACCHIATObin
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Find your perfect board
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+ProcessorQuad core Cortex-A72 (up to 1.6GHz)Quad core Cortex-A72 (up to 2GHz)
+AccelerationsPacket Processor
+Security Engine
+DMA engines
+2 X UART Headers
+Power12V input via DC Jack
+ATX type power connector
+Form FactorMini-ITX (170 mm x 170 mm)
+Optional AccessoriesAdditional DDR4 DIMM options
+12V DC power supply
+ATX power supply
+Standard Mini-ITX Case
+Technical Documentation
+Document NameDocument VersionDownload
+MACCHIATObin Board Layout *V1.3http://macchiatobin.net/wp-content/uploads/2017/11/MACCHIATOBin-V1.3K-pcb.zip
+MACCHIATObin DSN/OrcadV1.3http://macchiatobin.net/wp-content/uploads/2017/11/MACCHIATObin-V1.3-dsn.zip
+MACCHIATObin SchematicsV1.3http://macchiatobin.net/wp-content/uploads/2017/11/MACCHIATOBin-rev-1_3.pdf
+MACCHIATObin Block DiagramV1.3http://macchiatobin.net/wp-content/uploads/2017/12/MB-single-block.png
+* Download the free layout viewer from here
+Software
+ComponentVersionDownload Github LinkWiki page
+Linaro Toolchain5.2-2015.11-2https://releases.linaro.org/components/toolchain/binaries/5.2-2015.11-2/aarch64-linux-gnu/gcc-linaro-5.2-2015.11-2-x86_64_aarch64-linux-gnu.tar.xzToolchain Installation
+NFV for the Masses - Marvell MACCHIATObin
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+MACCHIATObin Double Shot
+The MACCHIATObin Double Shot is the ultimate networking community development board providing robust features and flexibility with high performance network connectivity, ARMADA 8040 quad core 2GHz processor and up to 16GB DDR4 DIMM memory. Coming in at just $369, the MACCHIATObin Double Shot is a considerable upgrade to the original MACCHIATObin boards in regards to price, operational capabilities and extra features.
+Order now
+Compare Products
+Board Specification
+Technical Documentation
+Software
+MACCHIATObin featured at CNXSoft - Marvell MACCHIATObin
+XOR engines for RAID 5/6 accelerationPacket Processor
+Security Engine
+DMA engines
+XOR engines for RAID 5/6 acceleration
+Other FeaturesIO virtualization
+SBSAIO virtualization
+SBSA
+MemoryDDR4 DIMM slot with optional ECC and single/dual chip select supportDDR4 DIMM slot with optional ECC and single/dual chip select support
+NetworkingDual 10GbE (1/2.5/10GbE) via SFP
+2.5GbE (1/2.5GbE) via SFP
+1GbE via copperDual 10GbE (1/2.5/10GbE) via copper or SFP
+2.5GbE (1/2.5GbE) via SFP
+1GbE via copper
+FlashSPI FlashSPI Flash
+Storage3 X SATA 3.0 connectors
+MicroSD connector
+eMMC3 X SATA 3.0 connectors
+MicroSD connector
+eMMC
+High speed expansionPCI x4 3.0 slot
+USB 2.0 Headers (Internal)
+Linux kernel - Single Shot4.4.52http://macchiatobin.net/wp-content/uploads/2018/02/mcbin-single-shot-linux-4.4.52.ziphttps://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.52-armada-17.10Build from source - Kernel
+Linux kernel - Double Shot4.4.52http://macchiatobin.net/wp-content/uploads/2018/02/mcbin-double-shot-linux-4.4.52.ziphttps://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.52-armada-17.10Build from source - Kernel
+BootloaderU-Boot 2017.03-armada-17.10http://macchiatobin.net/wp-content/uploads/2018/07/mcbin-uboot-armada-17.10.ziphttps://github.com/MarvellEmbeddedProcessors/u-boot-marvell/tree/u-boot-2017.03-armada-17.10Build from source - Bootloader
+Buildroot2015.11http://macchiatobin.net/wp-content/uploads/2017/05/buildroot.ziphttps://github.com/MarvellEmbeddedProcessors/buildroot-marvell/tree/buildroot-2015.11-16.08Build from source - Buildroot
+Ubuntu16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2017/10/mcbin-ubuntu-16.04.3.zipCreating Ubuntu filesystem
+Ubuntu SD card image16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2018/02/ubuntu-xenial-mcbin_u-boot_sd.img_.gzCreating Ubuntu filesystem
+Ubuntu SD card + Google IoT package 16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2018/02/ubuntu-xenial-mcbin-google-mqtt_u-boot_sd.img_.gzGoogle Cloud IoT Core on MACCHIATObin
+OpenWrtopenwrt-dd-17.02http://macchiatobin.net/wp-content/uploads/2017/10/mcbin-openwrt-17.02.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.02_releaseBuild from source - OpenWrt
+OpenWrtopenwrt-dd-17.06http://macchiatobin.net/wp-content/uploads/2017/10/mcbin-openwrt-17.06.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.06_releaseBuild from source - OpenWrt
+OpenWrtopenwrt-dd-17.10http://macchiatobin.net/wp-content/uploads/2018/01/mbin-openwrt-17.10.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.10_releaseBuild from source - OpenWrt
+×
+Order your ESPRESSObin on:
+×
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+NFV for the Masses
+By akrog on 05/07/17
+Read Marvell’s “NFV for the Masses” presentation given at last year’s ARM Mini-Summit:
+Summit 16: ARM Mini-Summit – NFV for the Masses – Marvell from OPNFV
+Related articlesNew addition to the MACCH... Building on the success of the MACCHIATObin board and t... Read MoreMarvell MACCHIATObin Comm... Read \"Marvell MACCHIATObin Community Board Now Shippin... Read MoreMACCHIATObin featured at ... The MACCHIATObin was also covered on CXNSoft, read more... Read MoreNFV for the Masses... Read Marvell\'s \"NFV for the Masses\" presentation giv... Read MoreAbout MACCHIATObin... Read more on Marvell\'s Cost-Effective, High-Performanc... Read More
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Board Specification
+SoCMarvell ARMADA 8040
+ProcessorQuad core Cortex-A72 (up to 2GHz)
+AccelerationsPacket Processor
+Security Engine
+DMA engines
+XOR engines for RAID 5/6 acceleration
+Other FeaturesIO virtualization
+SBSA
+MemoryDDR4 DIMM slot with optional ECC and single/dual chip select support
+NetworkingDual 10GbE (1/2.5/10GbE) via copper or SFP
+2.5GbE (1/2.5GbE) via SFP
+1GbE via copper
+FlashSPI Flash
+Storage3 X SATA 3.0 connectors
+MicroSD connector
+eMMC
+High speed expansionPCI x4 3.0 slot
+USB 2.0 Headers (Internal)
+USB 3.0 connector
+Low speed expansionMarvell TDM module header
+Development and Debug interfacesConsole port (UART) over microUSB connector
+20-pin Connector for CPU JTAG debugger
+2 X UART Headers
+Power12V input via DC Jack
+ATX type power connector
+Form FactorMini-ITX (170 mm x 170 mm)
+Optional AccessoriesAdditional DDR4 DIMM options
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+MACCHIATObin featured at CNXSoft
+By akrog on 05/07/17
+The MACCHIATObin was also covered on CXNSoft, read more on the respective blog post here:
+SolidRun MACCHIATOBin Mini-ITX Networking Board is Now Available for $349 and Up
+Related articlesNew addition to the MACCH... Building on the success of the MACCHIATObin board and t... Read MoreMarvell MACCHIATObin Comm... Read \"Marvell MACCHIATObin Community Board Now Shippin... Read MoreMACCHIATObin featured at ... The MACCHIATObin was also covered on CXNSoft, read more... Read MoreNFV for the Masses... Read Marvell\'s \"NFV for the Masses\" presentation giv... Read MoreAbout MACCHIATObin... Read more on Marvell\'s Cost-Effective, High-Performanc... Read More
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+MACCHIATObin Wiki | Toolchain Installation
+MACCHIATObin Wiki | Build from source - Kernel
+New addition to the MACCHIATObin family : MACCHIATObin Single Shot - Marvell MACCHIATObin
+USB 3.0 connectorPCI x4 3.0 slot
+USB 2.0 Headers (Internal)
+USB 3.0 connector
+Low speed expansionMarvell TDM module headerMarvell TDM module header
+Development and Debug interfacesConsole port (UART) over microUSB connector
+20-pin Connector for CPU JTAG debugger
+2 X UART HeadersConsole port (UART) over microUSB connector
+20-pin Connector for CPU JTAG debugger
+2 X UART Headers
+Power12V input via DC Jack
+ATX type power connector12V input via DC Jack
+ATX type power connector
+Form FactorMini-ITX (170 mm x 170 mm)Mini-ITX (170 mm x 170 mm)
+Optional AccessoriesAdditional DDR4 DIMM options
+12V DC power supply
+ATX power supply
+Standard Mini-ITX CaseAdditional DDR4 DIMM options
+12V DC power supply
+ATX power supply
+Standard Mini-ITX Case
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+12V DC power supply
+ATX power supply
+Standard Mini-ITX Case
+Technical Documentation
+Document NameDocument VersionDownload
+MACCHIATObin Board Layout *V1.3http://macchiatobin.net/wp-content/uploads/2017/11/MACCHIATOBin-V1.3K-pcb.zip
+MACCHIATObin DSN/OrcadV1.3http://macchiatobin.net/wp-content/uploads/2017/11/MACCHIATObin-V1.3-dsn.zip
+MACCHIATObin SchematicsV1.3http://macchiatobin.net/wp-content/uploads/2017/11/MACCHIATOBin-rev-1_3.pdf
+MACCHIATObin Block DiagramV1.3http://macchiatobin.net/wp-content/uploads/2017/12/MB-dual-block.png
+* Download the free layout viewer from here
+Software
+ComponentVersionDownload Github LinkWiki page
+Linaro Toolchain5.2-2015.11-2https://releases.linaro.org/components/toolchain/binaries/5.2-2015.11-2/aarch64-linux-gnu/gcc-linaro-5.2-2015.11-2-x86_64_aarch64-linux-gnu.tar.xzToolchain Installation
+Linux kernel - Single Shot4.4.52http://macchiatobin.net/wp-content/uploads/2018/02/mcbin-single-shot-linux-4.4.52.ziphttps://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.52-armada-17.10Build from source - Kernel
+Linux kernel - Double Shot4.4.52http://macchiatobin.net/wp-content/uploads/2018/02/mcbin-double-shot-linux-4.4.52.ziphttps://github.com/MarvellEmbeddedProcessors/linux-marvell/tree/linux-4.4.52-armada-17.10Build from source - Kernel
+BootloaderU-Boot 2017.03-armada-17.10http://macchiatobin.net/wp-content/uploads/2018/07/mcbin-uboot-armada-17.10.ziphttps://github.com/MarvellEmbeddedProcessors/u-boot-marvell/tree/u-boot-2017.03-armada-17.10Build from source - Bootloader
+Buildroot2015.11http://macchiatobin.net/wp-content/uploads/2017/05/buildroot.ziphttps://github.com/MarvellEmbeddedProcessors/buildroot-marvell/tree/buildroot-2015.11-16.08Build from source - Buildroot
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Toolchain Installation
+The MACCHIATObin board uses Linaro toolchain for building binary kernel and file system images, so make sure to set it up first before moving on to building other components.
+Begin by making a directory (in e.g. /home/user/toolchain) where you will download Linaro toolchain:
+mcbin@buildserver:~$ mkdir -p toolchain
+Linaro toolchain can be downloaded from:
+https://releases.linaro.org/components/toolchain/binaries/5.3-2016.05/aarch64-linux-gnu/gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu.tar.xz
+after which it must be placed in the newly made toolchain directory. It can also be obtained via command line:
+mcbin@buildserver:~$ cd toolchain/
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Build from source - Kernel
+MACCHIATObin board currently supports Linux kernel version 4.4.52. The kernel image and dtb file can be either:
+Downloaded from our Software page
+Built manually from source
+Generated kernel files cannot be used interchangeably between Single Shot and Double Shot; make sure to use the files for your particular MACCHIATObin version.
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+New addition to the MACCHIATObin family : MACCHIATObin Single Shot
+By akrog on 02/01/18
+Building on the success of the MACCHIATObin board and the received customer feedback, as of revision 1.3 there is a new addition to the MACCHIATObin family of devices: the MACCHIATObin Single Shot board.
+The MACCHIATObin Single Shot is an entry-level, budget-minded board based on the same PCB as the original Double Shot version. The Single Shot comes with two 10GbE SFP+ connectors but without the option of 10GbE copper connectors present in MACCHIATObin revision 1.2 and older.
+For more on the differences between MACCHIATObin Single Shot and Double Shot, see our Compare page.
+As was the case with older revisions, the Single Shot can be ordered with either 4GB (link) or 16GB (link) DDR4 memory. As stated on respective links, the power adapter is not included and has to be ordered separately.
+The Single Shot version is available at a much lower price than its predecessor, coming in at just $269. This new Arm-based development board addition enables engineers a more flexible choice in regards to price, operational capabilities and extra features. Also, engineers can scale down their existing setup to reduce associated costs.
+Revision 1.3 also brought a series of enhancements to the original MACCHIATObin (Double Shot) board. See the full list of these changes by downloading the official SolidRun PCN from here.
+Regarding software, the MACCHIATObin Single Shot supports mainline Linux 4.14, Linux 4.4.52, Buildroot 2015.11, Ubuntu 16.04.03 LTS and more. Prebuilt images can also be found on our new Software page. Our website and wiki have also received some updates to introduce the new additions to the MACCHIATObin family and help you in ordering, and using the MACCHIATObin boards.
+Related articlesNew addition to the MACCH... Building on the success of the MACCHIATObin board and t... Read MoreMarvell MACCHIATObin Comm... Read \"Marvell MACCHIATObin Community Board Now Shippin... Read MoreMACCHIATObin featured at ... The MACCHIATObin was also covered on CXNSoft, read more... Read MoreNFV for the Masses... Read Marvell\'s \"NFV for the Masses\" presentation giv... Read MoreAbout MACCHIATObin... Read more on Marvell\'s Cost-Effective, High-Performanc... Read More
+PriceFrom $269From $369
+Order NowOrder Now
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+Ubuntu16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2017/10/mcbin-ubuntu-16.04.3.zipCreating Ubuntu filesystem
+Ubuntu SD card image16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2018/02/ubuntu-xenial-mcbin_u-boot_sd.img_.gzCreating Ubuntu filesystem
+Ubuntu SD card + Google IoT package 16.04.03 LTShttp://macchiatobin.net/wp-content/uploads/2018/02/ubuntu-xenial-mcbin-google-mqtt_u-boot_sd.img_.gzGoogle Cloud IoT Core on MACCHIATObin
+OpenWrtopenwrt-dd-17.02http://macchiatobin.net/wp-content/uploads/2017/10/mcbin-openwrt-17.02.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.02_releaseBuild from source - OpenWrt
+OpenWrtopenwrt-dd-17.06http://macchiatobin.net/wp-content/uploads/2017/10/mcbin-openwrt-17.06.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.06_releaseBuild from source - OpenWrt
+OpenWrtopenwrt-dd-17.10http://macchiatobin.net/wp-content/uploads/2018/01/mbin-openwrt-17.10.ziphttps://github.com/MarvellEmbeddedProcessors/openwrt-dd/tree/openwrt_17.10_releaseBuild from source - OpenWrt
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+MACCHIATObin Wiki | Wiki Home
+MACCHIATObin Wiki | Build from source - OpenWrt
+mcbin@buildserver:~/toolchain$ wget https://releases.linaro.org/components/toolchain/binaries/5.3-2016.05/aarch64-linux-gnu/gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu.tar.xz
+Once the toolchain is downloaded to your Linux machine, extract the archive with:
+mcbin@buildserver:~/toolchain$ tar -xvf gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu.tar.xz
+and, depending where you downloaded the archive, set the correct path for the toolchain (compiler path including bin directory):
+mcbin@buildserver:~/toolchain$ export PATH=$PATH:/home/mcbin/toolchain/gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu/bin
+Comments
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+Downloading from Software page
+Note that the kernel binaries for MACCHIATObin Double Shot differ from kernel binaries for MACCHIATObin Single Shot. On the Software page, there are two archives containing kernel binaries:
+For MACCHIATObin Single Shot - under Linux kernel - Single Shot
+For MACCHIATObin Double Shot - under Linux kernel - Double Shot
+Building from source
+Building the kernel from source requires that the toolchain is setup as instructed in Toolchain Installation.
+To build the kernel binary for MACCHIATObin from source, first we need to make the directory into which we will clone the kernel (e.g. /home/mcbin/kernel/4.4.52/) and position into that directory:
+mcbin@buildserver:~$ mkdir -p kernel/4.4.52
+mcbin@buildserver:~$ cd kernel/4.4.52/
+and there we clone linux-marvell repository with:
+mcbin@buildserver:~/kernel/4.4.52$ git clone https://github.com/MarvellEmbeddedProcessors/linux-marvell .
+and the repo contents will be cloned inside your current directory. Now we checkout the proper branch for MACCHIATObin (linux-4.4.52-armada-17.10):
+mcbin@buildserver:~/kernel/4.4.52$ git checkout linux-4.4.52-armada-17.10
+Branch linux-4.4.52-armada-17.10 set up to track remote branch linux-4.4.52-armada-17.10 from origin.
+Switched to a new branch 'linux-4.4.52-armada-17.10'
+Next thing we need to do in order to enable building images for MACCHIATObin is to set correct definitions for ARCH and CROSS_COMPILE:
+mcbin@buildserver:~/kernel/4.4.52$ export ARCH=arm64
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+MACCHIATObin Wiki | Build from source - Buildroot
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Wiki Home
+The Marvell MACCHIATObin is a family of cost-effective and high-performance networking community boards targeting ARM64bit high end networking and storage applications.
+With a offering that include a fully open source software that include U-Boot, UEFI, Linux, Yocto, netmap, ODP and DPDK, the Marvell MACCHIATObin Single Shot and Double Shot are optimal platforms for community developers and Independent Software Vendors (ISVs) to develop networking and storage applications.
+Both MACCHIATObin flavors are powered by Marvell ARMADA 8040 quad-core SoC chipset that runs up to 2GHz.
+Technical Specifications
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Build from source - OpenWrt
+Table of contentsPrerequisites
+Bootloader
+Build Environment
+Kernel
+OpenWrt
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+mcbin@buildserver:~/kernel/4.4.52$ export CROSS_COMPILE=aarch64-linux-gnu-
+mcbin@buildserver:~/kernel/4.4.52$ make mvebu_v8_lsp_defconfig
+and finally start the build with:
+mcbin@buildserver:~/kernel/4.4.52$ make -j$(($(nproc)+1))
+After the build process finishes successfully, you can find the Image (named Image) in arch/arm64/boot/:
+mcbin@buildserver:~/kernel/4.4.52$ ls arch/arm64/boot/
+dts Image Image.gz install.sh Makefile
+The device tree blob for MACCHIATObin Double Shot (named armada-8040-mcbin.dtb) can be found in arch/arm64/boot/dts/marvell/ directory.
+The device tree blob for the MACCHIATObin Single Shot (named armada-8040-mcbin-single-shot.dtb) can also be found in arch/arm64/boot/dts/marvell/ directory. When building the kernel for the MACCHIATObin Single Shot, it is necessary to copy the newly created armada-8040-mcbin-single-shot.dtb device tree file over the armada-8040-mcbin.dtb device tree file for the bootloader to load the correct device tree file:
+mcbin@buildserver:~/kernel/4.4.52$ cd arch/arm64/boot/arch/arm64/boot/dts/marvell/
+mcbin@buildserver:~/kernel/4.4.52/arch/arm64/boot/dts/marvell$ sudo cp armada-8040-mcbin-single-shot.dtb armada-8040-mcbin.dtb
+It is vital that the modified armada-8040-mcbin.dtb device tree file and kernel image are used when booting various supported Linux distributions on the MACCHIATObin Single Shot.
+Comments
+1
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Build from source - Buildroot
+This page will show you how to download and build Buildroot file system for MACCHIATObin.
+The Buildroot file system can be either:
+Contact - Marvell MACCHIATObin
+The MACCHIATObin family was envisioned to bring affordable ARM-based development boards to the community. In line with this objective, MACCHIATObin introduces two new products: the budget-minded MACCHIATObin Single Shot and the high-performance, full-featured MACCHIATObin Double Shot.
+Key technical differences between the two products are shown in the table below.
+ComponentMACCHIATObin Single ShotMACCHIATObin Double Shot SoCMarvell ARMADA 8040Marvell ARMADA 8040 ProcessorQuad core Cortex-A72 (up to 1.6GHz)Quad core Cortex-A72 (up to 2GHz) AccelerationsPacket ProcessorSecurity EngineDMA enginesXOR engines for RAID 5/6 acceleration Packet ProcessorSecurity EngineDMA enginesXOR engines for RAID 5/6 acceleration Other Features IO virtualizationSBSAIO virtualizationSBSA MemoryDDR4 DIMM slot with optional ECC and single/dual chip select supportDDR4 DIMM slot with optional ECC and single/dual chip select support NetworkingDual 10GbE (1/2.5/10GbE) via SFP2.5GbE (1/2.5GbE) via SFP1GbE via copperDual 10GbE (1/2.5/10GbE) via copper or SFP2.5GbE (1/2.5GbE) via SFP1GbE via copper FlashSPI FlashSPI Flash Storage3 X SATA 3.0 connectorsMicroSD connectoreMMC3 X SATA 3.0 connectorsMicroSD connectoreMMC High speed expansionPCI x4 3.0 slotUSB 2.0 Headers (Internal)USB 3.0 connectorPCI x4 3.0 slotUSB 2.0 Headers (Internal)USB 3.0 connector Low speed expansionMarvell TDM module headerMarvell TDM module header Development and Debug interfacesConsole port (UART) over microUSB connector20-pin Connector for CPU JTAG debugger2 X UART HeadersConsole port (UART) over microUSB connector20-pin Connector for CPU JTAG debugger2 X UART Headers Power12V input via DC JackATX type power connector12V input via DC JackATX type power connector Form FactorMini-ITX (170 mm x 170 mm)Mini-ITX (170 mm x 170 mm) Optional AccessoriesAdditional DDR4 DIMM options12V DC power supplyATX power supplyStandard Mini-ITX CaseAdditional DDR4 DIMM options12V DC power supplyATX power supplyStandard Mini-ITX Case PriceFrom $269.00From $369.00
+For a full list of schematics electrical design and layout changes from Revision 1.2 to Revision 1.3, download the official SolidRun PCN on the link below:
+MACCHIATObin PCN
+Comments
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+• Armada 8040
+About us
+Image configuration
+In this page we will show you how to download necessary sources and build OpenWrt binaries for MACCHIATObin.
+Prebuilt OpenWrt images can be downloaded from Software page, under OpenWrt.
+OpenWrt is an open source firmware designed for embedded devices that is highly extensible and enables both users and customers to install a powerful, highly customizable variant of Linux on their routers.
+Prerequisites
+Generating an installable OpenWrt firmware requires:
+ca. 200MB of hard disk space for OpenWrt build system
+ca. 300MB of hard disk space for OpenWrt build system + OpenWrt feeds
+ca. 2.1 GB of hard disk space for source packages downloaded during build from OpenWrt feeds
+ca. 3-4 GB or available hard disk space to build (i.e. cross-compile) OpenWrt and build the firmware image.
+ca. 1-4GB of RAM to build OpenWrt (building x86 images requires 4GB RAM)
+Before proceeding, make sure to install all prerequisites for building OpenWrt:
+subversion
+build-essential
+libncurses5-dev
+zlib1g-dev
+gawk
+git
+ccache
+gettext
+libssl-dev
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+MACCHIATObin Wiki | Creating Ubuntu filesystem
+Downloaded from our Software page, under Buildroot.
+Built manually from source using instructions on this page.
+Downloading prebuilt file system
+In case you downloaded the prebuilt Buildroot file system from our Software page, skip to Boot from MicroSD card/USB stick - Buildroot for instructions on how to transfer the file system to a micro SD card or USB device.
+Building from source
+We will start by downloading the necessary sources to your local Linux machine (e.g. to /home/mcbin/buildroot directory):
+mcbin@buildserver:~$ mkdir buildroot
+mcbin@buildserver:~$ cd buildroot/
+mcbin@buildserver:~/buildroot$ git clone https://github.com/MarvellEmbeddedProcessors/buildroot-marvell .
+Then let's checkout to the proper branch we are going to use: buildroot-2015.11-16.08
+mcbin@buildserver:~/buildroot$ git checkout buildroot-2015.11-16.08
+Branch buildroot-2015.11-16.08 set up to track remote branch buildroot-2015.11-16.08 from origin.
+Switched to a new branch 'buildroot-2015.11-16.08'
+Next we make a default ./.config file using the arch/arm64/configs/mvebu_v8_le_defconfig:
+mcbin@buildserver:~/buildroot$ make mvebu_armv8_le_defconfig
+Now that we have generated a default .config, we need to launch make menuconfig and set the correct external compiler settings:
+mcbin@buildserver:~/buildroot$ make menuconfig
+Once in make menuconfig, we select Toolchain and there configure the following (note that some of these settings might be pre-configured already):
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Need any additional information?We are here to answer any question you might haveFill in your information below, and we will reply shortly
+United StatesCanadaMexicoUnited Kingdom-----AfghanistanAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua and BarbudaArgentinaArmeniaArmeniaArubaAustraliaAustriaAzerbaijanAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaireBosnia and HerzegovinaBotswanaBouvet Island (Bouvetoya)BrazilBritish Indian Ocean Territory (Chagos Archipelago)British Virgin IslandsBrunei DarussalamBulgariaBurkina FasoBurundiCambodiaCameroonCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCongoCook IslandsCosta RicaCote d'IvoireCroatiaCubaCuraçaoCyprusCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland Islands (Malvinas)Faroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHeard Island and McDonald IslandsHoly See (Vatican City State)HondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKazakhstanKenyaKiribatiKoreaKoreaKuwaitKyrgyz RepublicLao People's Democratic RepublicLatviaLebanonLesothoLiberiaLibyan Arab JamahiriyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMicronesiaMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorthern Mariana IslandsNorwayOmanPakistanPalauPalestinian TerritoryPanamaPapua New GuineaParaguayPeruPhilippinesPitcairn IslandsPolandPortugalPuerto RicoQatarReunionRomaniaRussian FederationRwandaSaint BarthelemySaint HelenaSaint Kitts and NevisSaint LuciaSaint MartinSaint Pierre and MiquelonSaint Vincent and the GrenadinesSamoaSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSint Maarten (Netherlands)Slovakia (Slovak Republic)SloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia & S. Sandwich IslandsSpainSri LankaSudanSurinameSvalbard & Jan Mayen IslandsSwazilandSwedenSwitzerlandSyrian Arab RepublicTaiwanTajikistanTanzaniaThailandTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkeyTurkmenistanTurks and Caicos IslandsTuvaluU.S. Virgin IslandsU.S. Minor Outlying IslandsUgandaUkraineUnited Arab EmiratesUruguayUzbekistanVanuatuVenezuelaVietnamWallis and FutunaWestern SaharaYemenZambiaZimbabwe
+×
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+xsltproc
+file
+These packages should be available for installation using your default distribution package manager. A complete list of dependencies and prerequisites can be found on OpenWrt's official Wiki pages.
+Bootloader
+U-Boot 2017.03-armada-17.10.2-g6a6581a for the OpenWrt 17.10 release.
+MACCHIATObin U-Boot binary release armada-17.10 is available on our Software page, under Bootloader.
+To check the current version of U-Boot (platform independent), connect the device over serial port and power on the board. You should see the relevant information in the first few lines:
+BootROM - 2.03
+Starting CP-1 IOROM 1.07
+Booting from SPI NOR flash 1 (0x32)
+Found valid image at boot postion 0x000
+lNOTICE: Starting binary extension
+NOTICE: SVC: SW Revision 0x0. SVC is not supported
+mv_ddr: mv_ddr-armada-17.10.4-gcc280f0 (Feb 02 2018 - 13:57:45)
+mv_ddr: completed successfully
+NOTICE: Cold boot
+NOTICE: Booting Trusted Firmware
+NOTICE: BL1: v1.3(release):armada-17.10.6:84c1c1d
+NOTICE: BL1: Built : 13:57:53, Feb 2 2018
+NOTICE: BL1: Booting BL2
+lNOTICE: BL2: v1.3(release):armada-17.10.6:84c1c1d
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Creating Ubuntu filesystem
+Among one of file systems supported by MACCHIATObin is the Ubuntu file system. To flash Ubuntu on the MACCHIATObin board, you can either build the file system manually or download a prebuilt SD card image.
+Prebuilt image
+On our Software page under Ubuntu SD card image you can obtain a prebuilt Ubuntu 16.04.3 LTS image (ubuntu-xenial-mcbin_u-boot_sd.img_.gz). The image is configured to boot directly from the SD card.
+The image requires a micro SD card or USB flash drive with 4 GB capacity or more.
+Toolchain Type -> External toolchain
+Toolchain -> Custom toolchain
+Toolchain origin -> Pre-installed toolchain
+Toolchain path -> path-to-linaro-toolchain-excluding-bin
+Here set the compiler path as you have configured it when following Toolchain tutorial but not including the /bin directory (in our case the path was /home/mcbin/toolchain/gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu)
+Toolchain prefix -> aarch64-linux-gnu
+Here we set the toolchain prefix excluding the last "-", so this should be aarch64-linux-gnu
+External toolchain gcc version --> 5.x
+External toolchain kernel headers series -> 4.0.x
+Here we set the correct toolchain kernel header series. The toolchain used for building MACCHIATObin Buildroot (as we demonstrated in Toolchain) is Linaro gcc 5.3.1 which uses kernel header 4.0.x
+So after these changes, this is how your make menuconfig should look like:
+We then select Exit and hit Save on our way out to save our newly-made configuration.
+There is one more fix needs to be made before building the Buildroot file system. The package fio2.17 is no longer available from the foosies.org, so please make change like below to use github.com as the repository server for fio:
+diff --git a/package/fio/fio.mk b/package/fio/fio.mk
+index e310d61..39a4d56 100644
+--- a/package/fio/fio.mk
++++ b/package/fio/fio.mk
+@@ -5,7 +5,7 @@
+################################################################################
+FIO_VERSION = 2.17
+-FIO_SITE = https://fossies.org/linux/misc
+MACCHIATObin Wiki | Build from source - Bootloader
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+NOTICE: BL2: Built : 13:57:55, Feb 2 2018
+BL2: Initiating SCP_BL2 transfer to SCP
+NOTICE: SCP_BL2 contains 2 concatenated images
+NOTICE: Load image to CP1 MSS
+NOTICE: Loading MSS image from address 0x4023020 Size 0x1378 to MSS at 0xf4280000
+NOTICE: Done
+NOTICE: Load image to AP MSS
+NOTICE: Loading MSS image from address 0x4024398 Size 0x1f68 to MSS at 0xf0580000
+N
+FreeRTOS 7.3.0 - Marvell cm3 - A8K release armada-17.10.1
+OTICE: Done
+NOTICE: SCP Image doesn't contain PM firmware
+NOTICE: BL1: Booting BL31
+lNOTICE: MSS PM is not supported in this build
+NOTICE: BL31: v1.3(release):armada-17.10.7:4396548
+NOTICE: BL31: Built : 11:36:52, Feb 8 2018
+l
+U-Boot 2017.03-armada-17.10.2-g6a6581a (Feb 08 2018 - 11:33:50 +0000)
+Model: MACCHIATOBin-8040
+Clock: CPU 1800 [MHz]
+DDR 1200 [MHz]
+FABRIC 1200 [MHz]
+MSS 200 [MHz]
+DRAM: 4 GiB
+Alternatively, press any key to stop the booting procedure, and type version in the U-Boot prompt:
+Marvell>> version
+U-Boot 2017.03-armada-17.10.2-g6a6581a (Feb 08 2018 - 11:33:50 +0000)
+After downloading it, flash it on a Linux machine with the following command (replace sdx with your device label):
+$ gunzip -c ubuntu-xenial-mcbin_u-boot_sd.img_.gz | sudo dd of=/dev/sdx
+Alternatively, extract the image first using gzip and flash with dd or some other tool which you prefer.
+× Bigger medium sizeIn case your removable storage medium is larger than 4 GB, resize the partition either with GParted or manually to use all available space. To do it manually:
+1. If mounted, first unmount the partition (replace sdxX with your partition label):
+$ sudo umount /dev/sdxX
+2. Check for free space:
+$ sudo parted /dev/sdx print free
+Model: Generic STORAGE DEVICE (scsi)
+Disk /dev/sdx: 15.9GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+Number Start End Size Type File system Flags
+32.3kB 10.5MB 10.5MB Free Space
+1 10.5MB 45.1MB 34.6MB primary fat16
+2 45.1MB 3880MB 3835MB primary ext3
+3880MB 15.9GB 12.1GB Free Space
+3. Increase the desired partition to the desired size, e.g. to increase the second partition to use all the available space (15.9GB in our case):
+$ sudo parted /dev/sdx resizepart 2 15.9GB
+4. Check the filesystem with:
+$ sudo e2fsck -f -y -v -C 0 /dev/sdxX
+5. Lastly, resize the filesystem
+$ sudo resize2fs -p /dev/sdxX
+Unplug the micro SD card from your Linux machine and plug it into the MACCHIATObin board. Relocate the jumpers (or DIP switches on revisions 1.2 and older) on the MACCHIATObin board to boot from the SD card as instructed in MACCHIATObin Interface list, section Boot Selection. Lastly, plug in the board and you should see Ubuntu booting directly from the SD card.
++FIO_SITE = https://github.com/axboe/fio/archive
+FIO_LICENSE = GPLv2 + special obligations
+FIO_LICENSE_FILES = LICENSE
+Now we can start the build process with:
+mcbin@buildserver:~/buildroot$ make -j4
+Note that during this process Buildroot will download sources from the Internet, so make sure you will have a stable connection throughout the building process. Also note that the building process might take some time to finish first time it is compiled.
+When the build process is done, head into the subdirectory output/image where you will find rootfs.tar.gz rootfs image:
+mcbin@buildserver:~/buildroot$ cd output/images/
+mcbin@buildserver:~/buildroot/output/images$ ls
+Image rootfs.tar rootfs.tar.gz
+Now head to Boot from MicroSD card/USB stick - Buildroot for instructions on how to transfer the file system to a micro SD card or USB device.
+Comments
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+Build from source - Bootloader
+Table of contentsPrerequisites
+Build U-Boot
+Building ATF
+The MACCHIATObin board is preloaded with ARM Trusted Firmware(ATF) + U-Boot as its default bootloader. This page shows a step-by-step tutorial for downloading and building the bootloader for MACCHIATObin. The instructions below assume that you have already setup the toolchain on your build machine. If you have not done so, please refer to the page Toolchain Installation for detail. If you already got a copy of the bootloader image for the MACCHIATObin and want to update your board with the new bootloader, see Update the Bootloader.
+Prerequisites
+aarch64-linux-gnu-gcc (Linaro GCC 5.3-2016.05) 5.3.1 20160412
+GNU ld (Linaro_Binutils-2016.05) 2.25.0 Linaro 2016_02
+Build Environment
+In most cases, the (stable) GNU/Linux distribution of your choice should be sufficient for building the OpenWrt image. Just take care to do everything as non-root user.
+However, if you are using testing repositories, bleeding-edge distros or latest/unstable development packages, you could encounter problems with building OpenWrt's cross-toolchain and/or compiler.
+In these cases, we advise the use of Docker container with one of the stable images, e.g. Ubuntu 16.04. Setting up a running Docker image is outside of the scope of this tutorial.
+Whichever method you require/prefer, take care of the following guidelines:
+Do everything as non-root user!
+Issue all OpenWrt build system commands in directory.
+Make sure to issue all OpenWrt commands in the directory where you have cloned OpenWrt, or in our case this will be the opt/openwrt/openwrt-dd/ directory.
+Changing ownership for working directories to other than root user (this will be covered a little later).
+Kernel
+There are three Marvell LSP kernel versions (with OpenWrt patches on top) available for MACCHIATObin: 17.02, 17.06 and 17.10. The location where we will download the kernel source to is /opt/kernel/openwrt-kernel, so create the directory and position into it:
+user@laptop:~$ mkdir -p /opt/kernel/ && cd /opt/kernel/
+From here clone the kernel source and checkout the desired version:
+for 17.02:
+user@laptop:/opt/kernel$ git clone https://github.com/MarvellEmbeddedProcessors/openwrt-kernel.git -b openwrt_17.02_release
+for 17.06:
+user@laptop:/opt/kernel$ git clone https://github.com/MarvellEmbeddedProcessors/openwrt-kernel.git -b openwrt_17.06_release
+for 17.10:
+Building from Source
+This section will show how to download and create an Ubuntu file system image for MACCHIATObin. Note that you will need a Linux machine to follow the instructions on this page.
+We begin by downloading a copy of Ubuntu Operating System (16.04.3 LTS). Make a directory where you will download the iso image (for example /home/mcbin/ubuntu/):
+mcbin@buildserver:~$ mkdir ubuntu
+mcbin@buildserver:~$ cd ubuntu
+mcbin@buildserver:~/ubuntu$ wget http://cdimage.ubuntu.com/releases/16.04.3/release/ubuntu-16.04.3-server-arm64.iso
+After the iso image has been downloaded, make a new directory to mount the iso image:
+mcbin@buildserver:~/ubuntu$ mkdir temp
+mcbin@buildserver:~/ubuntu$ sudo mount -o loop ubuntu-16.04.3-server-arm64.iso temp/
+The Ubuntu file system is available at the install sub-directory named filesystem.squashfs:
+mcbin@buildserver:~/ubuntu$ ls temp/install/
+filesystem.manifest filesystem.squashfs hwe-initrd.gz hwe-vmlinuz netboot
+filesystem.size filesystem.squashfs.gpg hwe-netboot initrd.gz vmlinuz
+Next step you'll need to unsquash the file system into a directory named rootfs:
+mcbin@buildserver:~/ubuntu$ sudo unsquashfs -d rootfs/ temp/install/filesystem.squashfs
+mcbin@buildserver:~/ubuntu$ ls rootfs/
+bin boot dev etc home lib media mnt opt proc root run sbin srv sys tmp usr var
+Now we have a Ubuntu file system in the sub-directory rootfs. To remove the password required for root login, you'll need to modify the file rootfs/etc/passwd on its first line to remove the 'x' in between root: and :0. Please check the example of this line after the modification:
+mcbin@buildserver:~/ubuntu/rootfs/etc$ cat passwd
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+Install the necessary prerequisites for building the bootloader binaries with:
+mcbin@buildserver:~$ sudo apt-get install device-tree-compiler swig libpython-dev libssl-dev
+Build U-Boot
+First, you need to make the directory into which you will contain all the bootloader-related sources (e.g./home/mcbin/u-boot) and enter into that directory:
+mcbin@buildserver:~$ mkdir u-boot && cd u-boot
+In order to build U-Boot binaries for MACCHIATObin, setup the CROSS_COMPILE variable properly on your build machine:
+mcbin@buildserver:~/u-boot$ export CROSS_COMPILE=aarch64-linux-gnu-
+Now clone the u-boot-marvell repository with the command below and head into the newly created directory:
+mcbin@buildserver:~/u-boot$ git clone https://github.com/MarvellEmbeddedProcessors/u-boot-marvell
+mcbin@buildserver:~/u-boot$ cd u-boot-marvell/
+Checkout the latest working branch for MACCHIATObin (u-boot-2017.03-armada-17.10):
+mcbin@buildserver:~/u-boot/u-boot-marvell$ git checkout -b u-boot-2017.03-armada-17.10 origin/u-boot-2017.03-armada-17.10
+The currently used U-Boot version supports saving U-Boot environment variables in the SPI ROM. To save the desired variables on the micro SD card, download the 0001-mcbin-save-environment-to-the-SD-card.patch and apply it on top of the 17.10 release to fix this issue:
+mcbin@buildserver:~/u-boot/u-boot-marvell$ git apply 0001-mcbin-u-boot-and-env-on-SD-card-mmc-1.patch
+Now you'll need to create the .config file using the default values from one of the default config file in the configs directory. For the MACCHIATObin board we will use mvebu_mcbin-88f8040_defconfig:
+mcbin@buildserver:~/u-boot/u-boot-marvell$ make mvebu_mcbin-88f8040_defconfig
+Once the .config is generated, use make to build the u-boot binary:
+user@laptop:/opt/kernel$ git clone https://github.com/MarvellEmbeddedProcessors/openwrt-kernel.git -b openwrt_17.10_release
+OpenWrt
+OpenWrt version supported for MACCHIATObin is Designated Driver (DD), with additional patches for the boards. We will download OpenWrt sources to /opt/openwrt/openwrt-dd so create that directory and head into it:
+user@laptop:~$ mkdir -p /opt/openwrt/openwrt-dd && cd /opt/openwrt/openwrt-dd
+Depending on your chosen Marvell LSP kernel version, checkout the respective OpenWrt branch:
+for 17.02:
+user@laptop:~$ git clone https://github.com/MarvellEmbeddedProcessors/openwrt-dd.git -b openwrt_17.02_release
+for 17.06:
+user@laptop:~$ git clone https://github.com/MarvellEmbeddedProcessors/openwrt-dd.git -b openwrt_17.06_release
+for 17.10:
+user@laptop:~$ git clone https://github.com/MarvellEmbeddedProcessors/openwrt-dd.git -b openwrt_17.10_release
+× NoteNote that you might need to set the right permissions for the working directories:
+user@laptop:~$ sudo chown -R $(whoami):$(id -gn) /opt/kernel/
+user@laptop:~$ sudo chown -R $(whoami):$(id -gn) /opt/openwrt/openwrt-dd/
+Image configuration
+After we have downloaded necessary repositories, from our OpenWrt directory (/opt/openwrt/openwrt-dd) we update and index the feeds with::
+user@laptop:/opt/openwrt/openwrt-dd$ ./scripts/feeds update -a
+user@laptop:/opt/openwrt/openwrt-dd$ ./scripts/feeds install -a
+Frequently Asked Questions - Marvell MACCHIATObin
+About MACCHIATObin - Marvell MACCHIATObin
+root::0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+[truncated output]
+The root file system you have created here is able to run on the MACCHIATObin board. Lastly, we also need to copy the kernel binary and dtb file over to the Micro SD card. Kernel binary and dtb file are available by either following instructions at Build from source - Kernel or they can be downloaded from the Software page, under Linux kernel. Either way, copy the Image kernel binary and the armada-8040-mcbin.dtb dtb file to the boot directory:
+mcbin@buildserver:/ubuntu$ sudo cp ~/kernel/4.4.52/arch/arm64/boot/Image rootfs/boot/
+mcbin@buildserver:/ubuntu$ sudo cp ~/kernel/4.4.52/arch/arm64/boot/dts/marvell/armada-8040-mcbin.dtb rootfs/boot/
+Now we will zip the folder up to later extract it to a removable media such as micro SD card or USB stick:
+mcbin@buildserver:~/ubuntu$ sudo tar -cjvf rootfs.tar.bz2 -C rootfs/ .
+This root file system with kernel binary and dtb file included can also be downloaded from our Software page, under Ubuntu.
+Please refer to the page Boot from MicroSD card/USB stick - Ubuntu on how to extract the root file system on a removable media for MACCHIATObin.
+Comments
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+• Quick Start Guide
+• BSP HowTo
+mcbin@buildserver:~/u-boot/u-boot-marvell$ make -j4
+Wait for the make command until it finishes, and you will see the binary file u-boot.bin created under the current directory:
+mcbin@buildserver:~/u-boot/u-boot-marvell$ ls u-boot*
+u-boot u-boot-nodtb.bin u-boot.cfg u-boot.dtb u-boot.map u-boot.sym
+u-boot-dtb.bin u-boot.bin u-boot.cfg.configs u-boot.lds u-boot.srec
+The file u-boot.bin will be used in the next step.
+Building ATF
+After you finish building the u-boot, you will need to setup the environment variable on your build machine to make the u-boot binary as the valid payload for the ARM Trusted Firmware. Make sure to adjust the path of the u-boot.bin binary according to your setup.
+mcbin@buildserver:~/u-boot/u-boot-marvell$ export BL33=$(pwd)/u-boot.bin
+Now, setup the SCL_BL2 to point to the MSS firmware image. To download the MSS firmware image, do:
+mcbin@buildserver:~/u-boot/u-boot-marvell$ cd ..
+mcbin@buildserver:~/u-boot$ git clone https://github.com/MarvellEmbeddedProcessors/binaries-marvell
+mcbin@buildserver:~/u-boot$ cd binaries-marvell/
+mcbin@buildserver:~/u-boot/binaries-marvell$ git checkout -b binaries-marvell-armada-17.10 origin/binaries-marvell-armada-17.10
+mcbin@buildserver:~/u-boot/binaries-marvell$ export SCP_BL2=$(pwd)/mrvl_scp_bl2_8040.img
+Now you will need to create the directory where we will clone the atf-marvell source code repository:
+mcbin@buildserver:~/u-boot/binaries-marvell$ cd ..
+mcbin@buildserver:~/u-boot$ git clone https://github.com/MarvellEmbeddedProcessors/atf-marvell.git
+Now we invoke OpenWrt's image configuration dialog:
+user@laptop:/opt/openwrt/openwrt-dd$ make menuconfig
+and in the menu, we select the following:
+Target System --->
+Marvell 64b Boards
+Target Profile --->
+MACHIATOBin (SolidRun Armada 8040 Community Board)
+Target Images --->
+[x] ramdisk --->
+* Root filesystem archives *
+[x] tar.gz
+* Root filesystem images *
+[x] ext4 --->
+[x] Advanced configuration options (for developers) --->
+(/opt/kernel/openwrt-kernel) Use external kernel tree
+× NoteIf you have setup a different kernel path, make sure to replace it when defining external kernel tree variable.
+Save your configuration and exit the make menuconfig interface. Build the image with the make command.
+user@laptop:/opt/openwrt/openwrt-dd$ make -j5
+To speed up the build process, you can utilize multiple cores with the following command:
+Partners - Marvell MACCHIATObin
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Frequently Asked Questions
+Introduction
+What is the MACCHIATObin?
+MACCHIATObin is a family of open community platforms based on Marvell Armada 88F8040 processor. This open platform fully shares its hardware and software with the community.
+What is MACCHIATObin Single Shot and MACCHIATObin Double Shot?
+Starting from revision 1.3, the MACCHIATObin family includes two new and distinct products: the MACCHIATObin Single Shot and MACCHIATObin Double Shot boards. Compare these two products here.
+How do MACCHIATObin Single Shot or Double Shot differ from older MACCHIATObin revisions?
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+About MACCHIATObin
+By meitalbin on 05/07/17
+Read more on Marvell’s Cost-Effective, High-Performance ARMADA 8040 Networking Community Board for OpenDataPlane, OpenFastPath and ARM NFV Ecosystems : http://www.marvell.com/company/news/pressDetail.do?releaseID=8317
+Related articlesNew addition to the MACCH... Building on the success of the MACCHIATObin board and t... Read MoreMarvell MACCHIATObin Comm... Read \"Marvell MACCHIATObin Community Board Now Shippin... Read MoreMACCHIATObin featured at ... The MACCHIATObin was also covered on CXNSoft, read more... Read MoreNFV for the Masses... Read Marvell\'s \"NFV for the Masses\" presentation giv... Read MoreAbout MACCHIATObin... Read more on Marvell\'s Cost-Effective, High-Performanc... Read More
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+mcbin@buildserver:~/u-boot$ cd atf-marvell/
+When the clone is done, checkout the atf-v1.3-armada-17.10, which is a valid working branch for MACCHIATObin:
+mcbin@buildserver:~/u-boot/atf-marvell$ git checkout -b atf-v1.3-armada-17.10 origin/atf-v1.3-armada-17.10
+Marvell uses a separate repository to hold the algorithm for ddr training. It is necessary to download the ddr training code to build the bootloader binary. Exit from the atf-marvell directory, make a directory to keep the ddr training repository and clone the repository to your local build machine. Please see the example instructions below:
+mcbin@buildserver:~/u-boot/atf-marvell$ cd ..
+mcbin@buildserver:~/u-boot$ mkdir mv-ddr && cd mv-ddr/
+mcbin@buildserver:~/u-boot/mv-ddr$ git clone https://github.com/MarvellEmbeddedProcessors/mv-ddr-marvell.git .
+Check out the mv_ddr-armada-17.10 branch:
+mcbin@buildserver:~/u-boot/mv-ddr$ git checkout -b mv_ddr-armada-17.10 origin/mv_ddr-armada-17.10
+Now, go back to your atf-marvell directory and issue the make command:
+mcbin@buildserver:~/u-boot/mv-ddr$ cd ../atf-marvell/
+mcbin@buildserver:~/u-boot/atf-marvell$ make USE_COHERENT_MEM=0 LOG_LEVEL=20 MV_DDR_PATH=/home/mcbin/u-boot/mv-ddr PLAT=a80x0_mcbin all fip
+In the above command change the path of your ddr training code according to your setup. When the build process is done, the bootloader image flash-image.bin will be located at the build/a80x0_mcbin/release/ directory.
+mcbin@buildserver:~/u-boot/atf-marvell$ ls build/a80x0_mcbin/release/
+bl1 bl1.bin bl2 bl2.bin bl31 bl31.bin ble ble.bin boot-image.bin fip.bin flash-image.bin
+× InformationFor a more complete reference of available build parameters for creating MACCHIATObin bootloader images, consult docs/marvell/build.txt in your atf source directory.
+Now head to Update the Bootloader page to see how to update the MACCHIATObin with your new bootloader image.
+Comments
+2
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+user@laptop:/opt/openwrt/openwrt-dd$ make -j$(($(nproc)+1))
+When the build process finishes, the binaries will be generated inside the /bin/mvebu64/ directory. We will need the armada-8040-mcbin.dtb device tree file, openwrt-armada-a8k-MACHIATOBin-Image image and openwrt-mvebu64-armada-a8k-machiatobin-rootfs.tar.gz root file system. Binary names are, of course, identical regardless of the chosen release.
+To see how to flash these files onto a USB device or SD card, see Boot from MicroSD card/USB stick - OpenWrt.
+Comments
+1
+Wiki Home
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Linux, U-Boot
+Linux
+Linux
+Linux, Yocto
+Linux, OpenWrt, LEDE
+UEFI, Linux, FreeBSD DPDK, ODP
+Hardware design
+MACCHIATObin Wiki | About us
+As part of the revision 1.3, both these boards also bring several board layout improvements which aim to further ease and enhance the usage of various connectivity options on the MACCHIATObin.
+To read more on these products, or to download the official Product Change Notification, click here.
+How can someone contribute to the MACCHIATObin Community?
+We would like the users to share their user experience and any cool applications or ideas they have.
+General
+Does SolidRun Technologies sell a self-assembly kit?
+No, the board does not require an assembly kit.
+Does MACCHIATObin ship with a case?
+MACCHIATObin board is mini ATX size so it will fit to any mini ATX case.
+What are the dimensions of the MACCHIATObin?
+Board dimensions are 15 × 15 cm (or 5.9 × 5.9 inches).
+What hardware documentation is available?
+Available hardware documentation includes block diagram, schematics, and layout. Documents for both the MACCHIATObin Single Shot and MACCHIATObin Double Shot are available at their respective Products pages, under Technical Documentation.
+What is the username and password for the MACCHIATObin?
+User is root, no password required.
+Why does nothing happen when I type in my password? Did my MACCHIATObin freeze?
+Linux does not display anything when typing in passwords in the Bash prompt or the terminal. As long as you were able to see the username being typed in.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Software
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+I forgot my password
+Log in
+I forgot my password
+OpenSuse, Suse Enterprise Linux
+Linux
+Google Cloud Platform
+Debian
+ARMbian
+ArchLinux
+Enea
+CentOS
+Contact us to join our Ecosystem of partners
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+Loading...
+Order now
+Order your MACCHIATObin on:
+navigation
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+FAQ
+Partners
+Blog
+Contact
+About us
+About Marvell
+Marvell first revolutionized the digital storage industry by moving information at speeds never thought possible. Today, that same breakthrough innovation remains at the heart of the company’s storage, network infrastructure, and wireless connectivity solutions. With leading intellectual property and deep system-level knowledge, Marvell's semiconductor solutions continue to transform the enterprise, cloud, automotive, industrial, and consumer markets.
+About SolidRun
+Established in 2010, SolidRun is a global leading developer and manufacturer of powerful energy efficient System on Modules (SoMs), Single Board Computers (SBCs) and Industrial PCs. SolidRun’s innovative compact embedded solutions are based on ARM and x86 architecture and include comprehensive software packages, drivers and support for major operating systems. SolidRun is a proud member of the OSS community and strong promoter of the principles behind open source software.
+Comments
+Wiki Home
+How do I connect a mouse and keyboard?
+Additional USB devices such as mice, keyboards, network adapters and external storage can be connected via a USB hub.
+Where is the on / off switch?
+There is no on/off switch, just connect the power supply to the board to power on the board.
+Who or what is NOOBS?
+NOOBS stands for New Out of Box Software.
+What is the SoC used by MACCHIATObin?
+Armada 88F8040 – quad Cortex A72 based CPU.
+What is an SoC?
+System on a Chip (SoC) is a method of placing all necessary electronics for having computing, network and fast IOs on a single chip.
+Why did you select the ARM Cortex SOC?
+Because it is the best in class regarding performance and power.
+How does it boot?
+The MACCHIATObin board has an on-board SPI flash with U-Boot loaded. Two images in two partitions are enabled to avoid U-Boot corruption. By default, the board will boot from the 1st partition and will boot from the 2nd partition in case the 1st partition is corrupted.
+Performance & Cost Considerations
+How powerful is it?
+The Armada 88F8040 is a very powerful processor which clocks up to 2.0GHz. Note that the MACCHIATObin Double Shot utilizes full 2.0GHz of processing capacity from the ARMADA 88F8040, whereas the MACCHIATObin Single Shot clocks up to 1.6GHz.
+Does it overclock?
+No, 2.0GHz is the maximum supported frequency.
+Does it need a heatsink?
+The processor does not need a heatsink in most cases because it has a very low power dissipation. However, we have added a heatsink because the board can be used in different conditions that might require cooling.
+What is its operating temperature?
+0-80 Celsius ambient temperature.
+Can I add extra memory?
+Forums Archive - Marvell MACCHIATObin
+Marvell MACCHIATObin Community Board Now Shipping - Marvell MACCHIATObin
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+Where to Buy
+• Board Distributors
+• MACCHIATObin Package and Pricing
+Software
+• Quick Start Guide
+• BSP HowTo
+• Software User Guide
+HW info
+• Block diagram
+• Ports and Interfaces
+• Schematics
+• Board layout
+• Armada 8040
+About us
+Log in
+Username:
+Password:
+CapsLock is on.
+Log in
+Regarding system memory, the MACCHIATObin Double Shot board comes with the standard 4GB DDR4 DIMM (not included with the MACCHIATObin Single Shot). The MACCHIATObin can also be purchased with 16GB DDR4 DIMM. Extra storage capacity can be added via various supported peripherals (SATA, eMMC, microSD card, USB 2.0 and USB 3.0).
+What hardware interfaces does it have?
+MACCHIATObin’s hardware interfaces include dual SFP+ 10GbE/RJ45 ports (2x copper connectors not mounted on MACCHIATObin Single Shot), SFP+ 2.5GbE port, RJ45 1GbE port, PCIe x4, 3x SATA 3.0, USB2.0, USB3.0, eMMC and SD card. Read more about the specifications here.
+Software
+Which type of Linux distributions run on the MACCHIATObin?
+Currently, the list of supported file systems includes Buildroot, Ubuntu and OpenWrt.
+Prebuilt images or source code archives for various software components are available at the Products pages, under Software table.
+Will MACCHIATObin run Android?
+Since the MACCHIATObin has no HDMI, we do not plan on supporting Android.
+Does MACCHIATObin have an official programming language?
+No, it is an open community board so any open source software can be used.
+Will MACCHIATObin run WINE (or Windows, or other x86 software)?
+No such plan on our end.
+Will MACCHIATObin run the Windows 8 ARM edition?
+No such plan on our end.
+SD Card & Storage
+What minimal size of SD card do I need?
+No size limitation on our end, we will support any SDHC card that meets the specifications.
+What max size of SD card can it support?
+No size limitation on our end, we will support any SDHC card that meets the specifications.
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Forums
+Search for:
+Home › Forum
+Log In Register Lost Password
+Forum
+Topics
+Posts
+Menu
+Home
+Products
+MACCHIATObin Single Shot
+MACCHIATObin Double Shot
+Compare Products
+Wiki
+Support
+Forum
+Frequently Asked Questions
+Partners
+Blog
+Contact
+Marvell MACCHIATObin Community Board Now Shipping
+By akrog on 06/02/17
+Read “Marvell MACCHIATObin Community Board Now Shipping” blog post on Marvell’s official blog page:
+http://blogs.marvell.com/2017/05/marvell-macchiatobin-community-board-now-shipping/
+Related articlesNew addition to the MACCH... Building on the success of the MACCHIATObin board and t... Read MoreMarvell MACCHIATObin Comm... Read \"Marvell MACCHIATObin Community Board Now Shippin... Read MoreMACCHIATObin featured at ... The MACCHIATObin was also covered on CXNSoft, read more... Read MoreNFV for the Masses... Read Marvell\'s \"NFV for the Masses\" presentation giv... Read MoreAbout MACCHIATObin... Read more on Marvell\'s Cost-Effective, High-Performanc... Read More
+×
+I forgot my password
+Video
+What displays can I use?
+There are PCIe to HDMI cards available if anyone manages to operate it please share with us.
+Why is there no VGA/HDMI support?
+This is an embedded processor designed primarily for computing, storage and networking, so it does not support VGA or HDMI.
+Can I add a touch-screen?
+There are USB touch-screens with Linux drivers, if anyone manages to operate it please share with us.
+What codecs can it play?
+The MACCHIATObin can play any codec that is supported by mainline Linux.
+Networking, Wireless & USB
+Does MACCHIATObin support device networking?
+The MACCHIATObin Double Shot and older revisions have 4 network ports – 2x 10GbE ports via copper or SFP, 1x 2.5GbE SFP port and 1GbE RJ45 port. The MACCHIATObin Single Shot has 2x 10GbE SFP ports, 1x 2.5GbE port and 1GbE RJ45 port.
+Do we have built-in WiFi on MACCHIATObin?
+No, but any WiFi card that is supported by Linux can be used..
+Is there built-in Bluetooth on MACCHIATObin?
+No, but there are modules that are supported by mainline Linux, if anyone manage to operate it please share with us.
+What if I want to connect more USB devices?
+In such cases, a USB HUB can be used.
+Power
+Last Post
+Getting Started
+Share you inputs on what you need to know to get started with your new MACCHIATObin
+788
+850
+4 days, 4 hours ago
+elanelur05
+Hardware Discussions
+Hardware discussion, further development ,and Marvell-A8040 Serial discussion forum.
+80
+147
+3 days, 6 hours ago
+gisellewetter
+Shipping Questions
+Solid-Run sells MACCHIATObin via different platforms. This forum is for you to understand the price & how long it may take.
+28
+29
+2 days, 21 hours ago
+marciacilley03
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+What are the power requirements? Can I power the MACCHIATObin from a USB hub?
+Please use the power supply that came together with your MACCHIATObin.
+Can I power the MACCHIATObin from batteries as well as from a wall socket?
+Not currently.
+Is Power over Ethernet (PoE) possible?
+No current plan to support PoE.
+Buying & Shipping
+Where can I buy MACCHIATObin?
+MACCHIATObin Single Shot or Double Shot products can be ordered on SolidRun’s website or at Avnet’s website.
+If I pre-order now, when will I receive MACCHIATObin?
+Pre-orders started, we are already shipping.
+What is included in the package?
+Package contents vary between MACCHIATObin Single Shot and MACCHIATObin Double Shot. Please consult this page.
+How much does MACCHIATObin cost? Can I buy Internationally?
+The MACCHIATObin Single Shot starts at $269, whereas the MACCHIATObin Double Shot starts at $369. Yes, international purchases are available.
+Is there a buy-one-give-one program?
+No.
+I want to be a MACCHIATObin re-seller.
+Please contact SolidRun directly for re-seller and distribution opportunities and pricing at sales@SolidRun.com
+Software discussion
+Demo sharing, newer firmware sharing, and more... coming soon!!
+97
+281
+3 days, 11 hours ago
+shawnahazel9
+Log In Register Lost Password
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+Can't find your answer? contact us:
+contact support
+×
+Order your ESPRESSObin on:
+×
+Contact Information SolidRun Ltd.
+7 HaMada St
+PO Box 320
+Yokne’am Illit
+2069201
+Israel
+CompanyAbout
+Blog
+Partners
+Contact
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop
+SupportMACCHIATObin Wiki
+Forum
+FAQ
+© all rights reserved to MACCHIATObin
+development & design : G-M agency
+Order nowTechnical specification tables can not be displayed on mobile. Please view on desktop

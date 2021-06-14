@@ -1,0 +1,257 @@
+Mongoose OS ESP32 Feather HUZZAH32 for Google IoT Core
+Products
+Mongoose OS
+IoT firmware development framework
+mDash
+IoT Platform
+VCON
+MCU module with OTA and management dashboard
+Pricing
+Company
+About us
+who we are
+Powered by Mongoose OS
+devices and appliances powered by Mongoose OS
+Case Studies
+Read our customers' case studies
+Testimonials
+Hear what our customers say
+Our partners
+proud to partner with
+Blog
+announcements, tech articles
+Contact
+our address, phone, email
+Developers
+Downloads & Docs
+downloads, docs, API reference
+Starter kits
+devboards and tutorials
+Forum
+ask questions, get answers
+Chat
+community chat
+mDash login
+Home
+Starter Kits
+ESP32 Feather HUZZAH32 + Google IoT Core
+Description
+Mongoose OS IoT Starter Kit is
+recommended by Google IoT Core portal
+and provides you with a quick way to start IoT development on microcontrollers.
+This quick start guide and reference materials include the following:
+Components:
+Mongoose OS - an open source IoT Operating System for low-power microcontrollers
+Google IoT Core - an enterprise cloud service
+ESP32 Feather HUZZAH32 Hardware Kit by
+Adafruit
+Tutorials:
+DHT22 Sensor
+Internet Button
+Remote control - LED
+Contact switch (door sensor)
+PIR (motion) sensor
+Micro servo motor
+BUY
+HUZZAH32 KIT FROM ADAFRUIT
+Mongoose OS
+ESP32 Feather
+Google IoT Core
+Kit hardware components
+1x
+Adafruit HUZZAH32 Board (assembled)
+1x
+Micro Servo
+1x
+PIR (motion) Sensor
+1x
+USB Cable - A/Micro B
+1x
+Fast Vibration Switch
+1x
+Magnetic Contact Switch (door sensor)
+1x
+Half-sized Breadboard
+40x
+6" Male/Male Jumper Wires
+1x
+DHT22 Temperature-Humidity Sensor
+1x
+Piezo Buzzer
+1x
+Photo Cell Light Sensor
+1x
+Diffused RGB 3-color LED
+1x
+SPDT Slide Switch
+3x
+Push Buttons
+Device setup
+Connect the device to your computer with a micro-USB cable
+Follow
+installation instructions to install
+mos tool on your computer
+Follow the Quickstart guide and
+finish steps 1-7. That should leave you with the device
+connected to your WiFi network
+Follow the
+Google IoT Core configuration
+instructions
+Troubleshooting: post on
+Mongoose OS forum or talk on
+Mongoose OS chat
+Tutorial 1: DHT22 sensor
+In this tutorial, we'll use the DHT22 temperature/humidity sensor and send measurements to the Google IoT
+Core.
+Mount
+DHT22 sensor to the breadboard:
+Use the black jumper wire to connect GND pin to the HUZZAH32 GND pin
+Use the yellow jumper wire to connect Data pin to the HUZZAH32 GPIO pin 21
+Use the red jumper wire to connect VCC pin to the HUZZAH32 VCC pin
+In the
+mos Web UI, open the
+init.js file
+Copy/paste the following code:
+load('api_config.js');
+load('api_dht.js');
+load('api_mqtt.js');
+load('api_timer.js');
+let topic = '/devices/' + Cfg.get('device.id') + '/events';
+let dht = DHT.create(21, DHT.DHT22);
+let ok = MQTT.pub(topic, msg, 1);
+print(ok, msg);
+}, null);
+Click the "Save and Reboot" button
+Verify that data is sent to the PubSub. Run console command:
+gcloud beta pubsub subscriptions pull --auto-ack iot-subscription --max-messages=999
++---------------+------------+-----------------+-----------------------+
+| DATA | MESSAGE_ID | ATTRIBUTES |
++----------------------------+-----------------+-----------------------+
+...
+Tutorial 2: Internet Button
+In this tutorial, we'll send a message to Google IoT Core on a button press.
+Mount the push button on the breadboard:
+Use the yellow jumper wire to connect the HUZZAH32 GPIO pin 21 to the first button connector
+Use the red jumper wire to connect the 3.3v pin to the second button connector
+In the
+mos Web UI, open the
+init.js file
+Copy/paste the following code:
+load('api_config.js');
+load('api_gpio.js');
+load('api_timer.js');
+load('api_mqtt.js');
+let topic = '/devices/' + Cfg.get('device.id') + '/events';
+let pin = 21;
+GPIO.set_mode(pin, GPIO.MODE_INPUT);
+GPIO.set_pull(pin, GPIO.PULL_DOWN);
+let ok = MQTT.pub(topic, msg, 1);
+print(ok, msg);
+}, null);
+Click the "Save and Reboot" button
+Press on a push button to trigger sending of the message
+You can subscribe to the
+sub1 PubSub subscription programmatically, catch those messages and perform any custom
+action
+Tutorial 3: Remote control - LED
+In this tutorial, we'll demonstrate how to control the device remotely by sending commands from the cloud
+to switch an LED
+on/off.
+Connect an LED by plugging it to the pin 21 and GND.
+Open
+init.js, paste this code, click "Save + Reboot":
+load('api_config.js');
+load('api_gpio.js');
+load('api_timer.js');
+load('api_mqtt.js');
+let topic = '/devices/' + Cfg.get('device.id') + '/config';
+let pin = 21;
+GPIO.set_mode(pin, GPIO.MODE_OUTPUT);
+print('Got config update:', msg.slice(0, 100));
+let obj = JSON.parse(msg);
+if (obj) GPIO.write(pin, obj.on);
+}, null);
+Start terminal, send commands to the cloud to turn the device on:
+gcloud beta iot devices configs update --device $DEVICE_ID \
+--project $PROJECT_ID --region europe-west1 --registry registry1 \
+And to turn the device off:
+gcloud beta iot devices configs update --device $DEVICE_ID \
+--project $PROJECT_ID --region europe-west1 --registry registry1 \
+Read more Google IoT Core docs on
+cloud-to-device
+configuration
+Tutorial 4: Contact switch (door sensor)
+In this tutorial, we'll use a door sensor to generate messages and send them to Google IoT Core.
+Connect door sensor by plugging it to the pin 21 and GND.
+Open
+init.js, paste this code, click "Save + Reboot":
+load('api_config.js');
+load('api_gpio.js');
+load('api_mqtt.js');
+let pin = 21, state = 0;
+let topic = '/devices/' + Cfg.get('device.id') + '/events';
+let value = GPIO.read(pin);
+if (value !== state) {
+state = value;
+let ok = MQTT.pub(topic, msg, 1, true);
+print(ok, topic, msg);
+}
+}, null);
+Move the other part of the door sensor to trigger messages:
+Tutorial 5: PIR (motion) sensor
+In this tutorial, we'll send messages to the cloud when a PIR sensor detects some motion.
+1. Connect the PIR sensor to the breadboard: the black jumper wire to the GND pin, the red jumper wire to
+the 3.3v
+pin, and the yellow jumper wire to the GPIO pin 21.
+2. Open
+init.js, paste this code, click "Save + Reboot":
+load('api_config.js');
+load('api_gpio.js');
+load('api_mqtt.js');
+load('api_timer.js');
+let pin = 21;
+let topic = '/devices/' + Cfg.get('device.id') + '/events';
+let ok = MQTT.pub(topic, msg, 1);
+print(ok, msg);
+}, null);3. Note when a motion sensor detects a motion, it sets the signal pin (in our case, GPIO 21) to
+the high voltage
+state (1), then keeps it high for some time, then drops to low voltage (0). We detect both events:
+Tutorial 6: Micro servo motor
+In this tutorial, we'll drive the servo motor.
+1. Connect the servo to the breadboard: the black jumper wire to the GND pin, the red jumer wire to the
+3.3v pin,
+and the yellow jumpre wire to the GPIO pin 21.
+2. Open
+init.js, paste this code, click "Save + Reboot":
+load('api_pwm.js');
+load('api_rpc.js');
+print('Got RPC:', JSON.stringify(args));
+PWM.set(args.pin, args.freq, args.duty);
+return true;
+});3. This installs a Remote Procedure Call (RPC) handler which you can trigger.
+4. Click on the "Device Services" tab, click on "PWM" service you just created, enter
+{ "pin": 21, "freq": 50, "duty": 7 } and click on the "Call RPC service" button:
+different values of
+duty e.g. from 2 to 15, to rotate the servo at different angles
+CONTACTS
+Cesanta, 13 Edward Place,
+Bloomfield Ave, Dublin 4,
+Ireland
++353 1 592 5476
+support@cesanta.com
+ABOUT
+About Us
+Licensing
+Support
+Contact Us
+Privacy Policy
+Terms of Service
+DEVELOPERS
+Features
+Documentation
+Starter Kits
+Forum
+SOCIAL
+Thank You
+×
+Close
