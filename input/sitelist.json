@@ -1,30 +1,58 @@
 [
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
-        "SiteUrl": "https://camel.apache.org/",
-        "ProjectName": "camel"
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://github.com/MicrochipTech/gcp-iot-core-examples/wiki/Getting-Started",
+        "ProjectName": "gcp-iot-core"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
-        "SiteUrl": "https://ignite.apache.org/",
-        "ProjectName": "ignite"
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://www.microchip.com/en-us/solutions/internet-of-things/google-cloud-iot/wi-fi-enabled-boards",
+        "ProjectName": "AVR-IoTWG"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
-        "SiteUrl": "http://iotdb.apache.org/",
-        "ProjectName": "iotdb"
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://mongoose-os.com/gcp/",
+        "ProjectName": "MongooseOSIoT"
     },
     {
-        "IsCrawled": true,
+        "IsCrawled": false,
         "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": true,
-        "SiteUrl": "https://plc4x.apache.org/",
-        "ProjectName": "plc4x"
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://github.com/ARM-software/Cloud-IoT-Core-Kit-Examples",
+        "ProjectName": "Arm-based"
+    },
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "http://wiki.macchiatobin.net/tiki-index.php?page=Google+Cloud+IoT+Core+on+MACCHIATObin",
+        "ProjectName": "MACCHIATObin"
+    },
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "http://wiki.espressobin.net/tiki-index.php?page=Google+Cloud+IoT+Core+on+ESPRESSObin",
+        "ProjectName": "ESPRESSObin"
+    },
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://github.com/startwithsierra/mangoh-to-gcloud",
+        "ProjectName": "MangOH"
+    },
+    {
+        "IsCrawled": false,
+        "CrawlDepthLevel": 1,
+        "IsWordcloudGenerated": false,
+        "SiteUrl": "https://www.amebaiot.com/en/google-cloud-iot/",
+        "ProjectName": "RTL8195AM"
     }
 ]
