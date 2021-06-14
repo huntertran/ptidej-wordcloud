@@ -20,6 +20,8 @@ class ResultGenerator:
 
     @staticmethod
     def make_image(keywords, project_name):
+        if len(keywords) == 0:
+            return
         mask = np.array(Image.open(
             ResultGenerator.result_dir + project_name + '-mask.png'))
 

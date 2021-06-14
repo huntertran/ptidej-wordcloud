@@ -6,7 +6,7 @@ class ProjectHelper:
     def get_project_name(full_url, existing_project_name):
 
         if(len(existing_project_name)):
-            return existing_project_name
+            return existing_project_name.lower()
 
         result = ''
 
