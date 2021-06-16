@@ -29,7 +29,7 @@ def start_analyze_test():
 
     grammars = []
 
-    keys = ['WoT']
+    keys = ['MQTT']
 
     for simple_namespace in grammar_rules:
         grammar = GrammarRule(simple_namespace.name,
@@ -44,7 +44,7 @@ def start_analyze_test():
     data_folder = './data/nlp/result/test/'
     ProjectHelper.create_data_folder(data_folder)
 
-    sentence = 'Kura Framework Features MQTTGSM/GPRS 3G/4G EVDO SNMP HTTP / REST ServicesWeb ServicesBluetooth / BTLE Wi-Fi 802,15,4 / Zigbee RS485 GPIO RS232 CANbus SMBus Modbus Device Mgmt WatchDog SSLLegacy JNI?s Security SOA Power Mgmt Location Based Services'
+    sentence = 'Only IoTDB and InfluxDB support user using MQTT client to write data.'
 
     # try encode with ascii to eliminate usage of utf-16
     encoded = sentence.encode('ascii','replace').decode()

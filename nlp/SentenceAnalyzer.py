@@ -105,24 +105,24 @@ def parse_with_grammar(tagger, grammars, keys, sentence, index, data_folder):
     cp = RegexpParser(grammar)
     parsed_token = cp.parse(tokens)
 
-    relationships = add_matched_chunk_to_relationships(parsed_token, index)
+    relationships = add_matched_chunk_to_relationships(parsed_token, index, grammars)
 
     return relationships
 
-def add_matched_chunk_to_relationships(parsed_tokens, index):
+def add_matched_chunk_to_relationships(parsed_tokens, index, grammars):
     relationships = []
 
     for chunk in parsed_tokens:
         if type(chunk) is Tree:
-            # print('chunk found: ')
-            # print(chunk)
+            print('chunk found: ')
+            print(chunk)
             for grammar in grammars:
                 matched, rel = grammar.is_matched(chunk)
                 if matched:
                     # chunk.draw()
-                    # print('MATCHED FOUND------------------------\n')
-                    # print(chunk)
-                    # print('-------------------------------------\n')
+                    print('MATCHED FOUND------------------------\n')
+                    print(chunk)
+                    print('-------------------------------------\n')
                     # draw_tree(index, rel, data_folder, chunk)
                     if rel not in relationships:
                         relationships.append(rel)
