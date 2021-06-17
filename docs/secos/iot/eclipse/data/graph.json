@@ -869,7 +869,7 @@
             "target": "1",
             "size": 2,
             "type": "arrow",
-            "color": "#0000ff"
+            "color": "#A90000"
         },
         {
             "id": "e_sensinact_use",
@@ -905,7 +905,7 @@
             "target": "3",
             "size": 2,
             "type": "arrow",
-            "color": "#0000ff"
+            "color": "#A90000"
         },
         {
             "id": "e_tinydtls_interchangeable",
@@ -923,7 +923,7 @@
             "target": "8",
             "size": 2,
             "type": "arrow",
-            "color": "#0000ff"
+            "color": "#A90000"
         },
         {
             "id": "e_cyclonedds_use",
