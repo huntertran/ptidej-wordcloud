@@ -1,12 +1,11 @@
-MQTT,Message Queuing Telemetry Transport Protocol
-OPC UA,OPC Unified Architecture
-DTLS,Datagram Transport Layer Security
-PPMP,Production Performance Management Protocol
-ABAC,Attribute Based Access Control
-APPSTACLE,open standard APplication Platform for carS and TrAnsportation vehiCLEs
-AGL,Automotive Grade Linux
-DDS,Data Distribution Service
-WoT,Web of Thing
-ZMQ,ZeroMQ - high-performance asynchronous messaging library
-RabbitMQ,open-source message-broker software
-Calypso,the standard for contactless tickets and cards
+Keyword ,Is Protocol ,Is Abstract ,Meanings 
+MQTT,YES,,Message Queuing Telemetry Transport
+OPC UA,,YES,Open Platform Communication Unified Architecture
+DTLS,YES,,Datagram Transport Layer Security
+PPMP,YES,,Production Performance Management Protocol
+ABAC,,YES,Attribute-based access control
+APPSTACLE,,YES,open standard APplication Platform for carS and TrAnsportation vehiCLEs
+AGL,,,Automotive Grade Linux
+DDS,,YES,Data Distribution Service
+WoT,YES,YES,Web of Thing
+Calypso,YES,,the standard for contactless tickets and cards
