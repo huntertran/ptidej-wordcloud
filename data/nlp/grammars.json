@@ -9,6 +9,10 @@
                 "relationship": "use"
             },
             {
+                "word": "consum",
+                "relationship": "use"
+            },
+            {
                 "word": "commun",
                 "relationship": "use"
             },
@@ -34,6 +38,42 @@
             },
             {
                 "word": "connect",
+                "relationship": "use"
+            }
+        ],
+        "other_words_position": 0
+    },
+    {
+        "name": "verb_key",
+        "grammar": "{<VB|VBG|VBZ><KEYWORD>}",
+        "key_position": -1,
+        "other_words": [
+            {
+                "word": "connect",
+                "relationship": "use"
+            },
+            {
+                "word": "use",
+                "relationship": "use"
+            },
+            {
+                "word": "consum",
+                "relationship": "use"
+            },
+            {
+                "word": "sent",
+                "relationship": "use"
+            },
+            {
+                "word": "implement",
+                "relationship": "interchangeable"
+            },
+            {
+                "word": "appli",
+                "relationship": "use"
+            },
+            {
+                "word": "support",
                 "relationship": "use"
             }
         ],
@@ -74,6 +114,10 @@
         "other_words": [
             {
                 "word": "connect",
+                "relationship": "use"
+            },
+            {
+                "word": "consum",
                 "relationship": "use"
             },
             {
