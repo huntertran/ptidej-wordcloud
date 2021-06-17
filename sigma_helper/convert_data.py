@@ -87,6 +87,9 @@ class data(object):
                             str(linked_keyword.id),
                             2,
                             '#0000ff')
+            if relationship == 'interchangeable':
+                new_edge.type = "arrow"
+                new_edge.color = '#A90000'
             self.edges.append(new_edge)
 
     def add_projects(self, linked_keyword):
