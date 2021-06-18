@@ -3,8 +3,8 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 20,
-            "y": 8,
+            "x": 8,
+            "y": 1,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -13,8 +13,8 @@
         {
             "id": "camel",
             "label": "camel",
-            "x": 25,
-            "y": 22,
+            "x": 5,
+            "y": 18,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -28,8 +28,8 @@
         {
             "id": "ignite",
             "label": "ignite",
-            "x": 17,
-            "y": 8,
+            "x": 1,
+            "y": 23,
             "size": 5,
             "color": "#000000",
             "image": {
@@ -43,7 +43,7 @@
         {
             "id": "iotdb",
             "label": "iotdb",
-            "x": 12,
+            "x": 8,
             "y": 25,
             "size": 5,
             "color": "#000000",
@@ -58,18 +58,33 @@
         {
             "id": 2,
             "label": "Open Platform Communication Unified Architecture",
-            "x": 24,
-            "y": 17,
+            "x": 15,
+            "y": 21,
             "size": 10,
             "color": "#0000ff",
             "image": null,
             "type": "def"
         },
         {
+            "id": "plc4x",
+            "label": "plc4x",
+            "x": 17,
+            "y": 27,
+            "size": 5,
+            "color": "#000000",
+            "image": {
+                "url": "images/shapes/thumbnails/plc4x.png",
+                "w": 236,
+                "h": 62,
+                "scale": 1
+            },
+            "type": "image"
+        },
+        {
             "id": 3,
             "label": "Datagram Transport Layer Security",
-            "x": 13,
-            "y": 19,
+            "x": 18,
+            "y": 20,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -78,8 +93,8 @@
         {
             "id": 4,
             "label": "Production Performance Management Protocol",
-            "x": 20,
-            "y": 13,
+            "x": 15,
+            "y": 11,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -88,8 +103,8 @@
         {
             "id": 5,
             "label": "Attribute-based access control",
-            "x": 10,
-            "y": 6,
+            "x": 29,
+            "y": 19,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -98,8 +113,8 @@
         {
             "id": 6,
             "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 23,
-            "y": 30,
+            "x": 12,
+            "y": 25,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -108,8 +123,8 @@
         {
             "id": 7,
             "label": "Automotive Grade Linux",
-            "x": 18,
-            "y": 8,
+            "x": 22,
+            "y": 5,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -118,8 +133,8 @@
         {
             "id": 8,
             "label": "Data Distribution Service",
-            "x": 27,
-            "y": 21,
+            "x": 4,
+            "y": 28,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -128,8 +143,8 @@
         {
             "id": 9,
             "label": "Web of Thing",
-            "x": 22,
-            "y": 27,
+            "x": 8,
+            "y": 3,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -138,8 +153,8 @@
         {
             "id": 10,
             "label": "the standard for contactless tickets and cards",
-            "x": 30,
-            "y": 29,
+            "x": 6,
+            "y": 11,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -157,6 +172,24 @@
         }
     ],
     "edges": [
+        {
+            "id": "e_ignite_use",
+            "label": "use",
+            "source": "ignite",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#0000ff"
+        },
+        {
+            "id": "e_iotdb_use",
+            "label": "use",
+            "source": "iotdb",
+            "target": "1",
+            "size": 2,
+            "type": "curvedArrow",
+            "color": "#0000ff"
+        },
         {
             "id": "transparent_1",
             "label": "",
