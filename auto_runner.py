@@ -66,7 +66,7 @@ def nlp(file_path):
 # crawl("./input/sitelist.json")
 # reactor.run()
 
-# nlp("./input/sitelist.json")
+nlp("./input/sitelist.json")
 # create_link("./input/sitelist.json", "./input/link_keyword.json")
 # start_analyze()
-start_convert()
+# start_convert()

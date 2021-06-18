@@ -3,8 +3,8 @@
         {
             "id": 1,
             "label": "Message Queuing Telemetry Transport",
-            "x": 8,
-            "y": 1,
+            "x": 16,
+            "y": 17,
             "size": 10,
             "color": "#0000ff",
             "image": null,
@@ -13,9 +13,9 @@
         {
             "id": "camel",
             "label": "camel",
-            "x": 5,
-            "y": 18,
-            "size": 5,
+            "x": 17,
+            "y": 17,
+            "size": 15,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/camel.png",
@@ -28,9 +28,9 @@
         {
             "id": "ignite",
             "label": "ignite",
-            "x": 1,
-            "y": 23,
-            "size": 5,
+            "x": 16,
+            "y": 18,
+            "size": 15,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/ignite.png",
@@ -43,9 +43,9 @@
         {
             "id": "iotdb",
             "label": "iotdb",
-            "x": 8,
-            "y": 25,
-            "size": 5,
+            "x": 15,
+            "y": 18,
+            "size": 15,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/iotdb.png",
@@ -56,21 +56,11 @@
             "type": "image"
         },
         {
-            "id": 2,
-            "label": "Open Platform Communication Unified Architecture",
-            "x": 15,
-            "y": 21,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
             "id": "plc4x",
             "label": "plc4x",
-            "x": 17,
-            "y": 27,
-            "size": 5,
+            "x": 15,
+            "y": 17,
+            "size": 15,
             "color": "#000000",
             "image": {
                 "url": "images/shapes/thumbnails/plc4x.png",
@@ -81,90 +71,10 @@
             "type": "image"
         },
         {
-            "id": 3,
-            "label": "Datagram Transport Layer Security",
-            "x": 18,
-            "y": 20,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
-            "id": 4,
-            "label": "Production Performance Management Protocol",
-            "x": 15,
-            "y": 11,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
-            "id": 5,
-            "label": "Attribute-based access control",
-            "x": 29,
-            "y": 19,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
-            "id": 6,
-            "label": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
-            "x": 12,
-            "y": 25,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
-            "id": 7,
-            "label": "Automotive Grade Linux",
-            "x": 22,
-            "y": 5,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
-            "id": 8,
-            "label": "Data Distribution Service",
-            "x": 4,
-            "y": 28,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
-            "id": 9,
-            "label": "Web of Thing",
-            "x": 8,
-            "y": 3,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
-            "id": 10,
-            "label": "the standard for contactless tickets and cards",
-            "x": 6,
-            "y": 11,
-            "size": 10,
-            "color": "#0000ff",
-            "image": null,
-            "type": "def"
-        },
-        {
             "id": "trans",
             "label": "",
-            "x": 30,
-            "y": 30,
+            "x": 16,
+            "y": 17,
             "size": 1,
             "color": "#00000000",
             "image": null,
@@ -196,88 +106,25 @@
             "source": "trans",
             "target": "1",
             "size": 0.2,
-            "type": "curvedArrow",
+            "type": "arrow",
             "color": "#00000000"
         },
         {
-            "id": "transparent_2",
+            "id": "transparent_camel",
             "label": "",
             "source": "trans",
-            "target": "2",
+            "target": "camel",
             "size": 0.2,
-            "type": "curvedArrow",
+            "type": "arrow",
             "color": "#00000000"
         },
         {
-            "id": "transparent_3",
+            "id": "transparent_plc4x",
             "label": "",
             "source": "trans",
-            "target": "3",
+            "target": "plc4x",
             "size": 0.2,
-            "type": "curvedArrow",
-            "color": "#00000000"
-        },
-        {
-            "id": "transparent_4",
-            "label": "",
-            "source": "trans",
-            "target": "4",
-            "size": 0.2,
-            "type": "curvedArrow",
-            "color": "#00000000"
-        },
-        {
-            "id": "transparent_5",
-            "label": "",
-            "source": "trans",
-            "target": "5",
-            "size": 0.2,
-            "type": "curvedArrow",
-            "color": "#00000000"
-        },
-        {
-            "id": "transparent_6",
-            "label": "",
-            "source": "trans",
-            "target": "6",
-            "size": 0.2,
-            "type": "curvedArrow",
-            "color": "#00000000"
-        },
-        {
-            "id": "transparent_7",
-            "label": "",
-            "source": "trans",
-            "target": "7",
-            "size": 0.2,
-            "type": "curvedArrow",
-            "color": "#00000000"
-        },
-        {
-            "id": "transparent_8",
-            "label": "",
-            "source": "trans",
-            "target": "8",
-            "size": 0.2,
-            "type": "curvedArrow",
-            "color": "#00000000"
-        },
-        {
-            "id": "transparent_9",
-            "label": "",
-            "source": "trans",
-            "target": "9",
-            "size": 0.2,
-            "type": "curvedArrow",
-            "color": "#00000000"
-        },
-        {
-            "id": "transparent_10",
-            "label": "",
-            "source": "trans",
-            "target": "10",
-            "size": 0.2,
-            "type": "curvedArrow",
+            "type": "arrow",
             "color": "#00000000"
         }
     ]

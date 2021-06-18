@@ -28,7 +28,7 @@ class ResultGenerator:
         wc = WordCloud(background_color="white",
                        max_words=1000,
                        mask=mask,
-                       contour_width=3,
+                       contour_width=9,
                        contour_color='black')
 
         # generate word cloud
@@ -56,7 +56,7 @@ class ResultGenerator:
         image = Image.new('RGB', size, (255, 255, 255))
         draw = ImageDraw.Draw(image)
 
-        space_between_char = -80
+        space_between_char = -35
 
         special_chars = ['a', 'v', 'm' ,'w' ,'o', 'q']
         reduced_space_chars = ['i']

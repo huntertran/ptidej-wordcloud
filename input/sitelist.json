@@ -1,29 +1,29 @@
 [
     {
-        "IsCrawled": false,
-        "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": false,
-        "SiteUrl": "https://camel.apache.org/manual/latest/",
+        "IsCrawled": true,
+        "CrawlDepthLevel": 3,
+        "IsWordcloudGenerated": true,
+        "SiteUrl": "https://camel.apache.org/docs/",
         "ProjectName": "camel"
     },
     {
-        "IsCrawled": false,
-        "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": false,
+        "IsCrawled": true,
+        "CrawlDepthLevel": 3,
+        "IsWordcloudGenerated": true,
         "SiteUrl": "https://ignite.apache.org/docs/latest/",
         "ProjectName": "ignite"
     },
     {
-        "IsCrawled": false,
-        "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": false,
+        "IsCrawled": true,
+        "CrawlDepthLevel": 3,
+        "IsWordcloudGenerated": true,
         "SiteUrl": "https://iotdb.apache.org/UserGuide/Master/QuickStart/QuickStart.html",
         "ProjectName": "iotdb"
     },
     {
-        "IsCrawled": false,
-        "CrawlDepthLevel": 1,
-        "IsWordcloudGenerated": false,
+        "IsCrawled": true,
+        "CrawlDepthLevel": 3,
+        "IsWordcloudGenerated": true,
         "SiteUrl": "https://plc4x.apache.org/users/index.html",
         "ProjectName": "plc4x"
     }

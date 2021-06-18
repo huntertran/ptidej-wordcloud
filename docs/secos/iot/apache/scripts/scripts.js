@@ -13,25 +13,12 @@ var wordcloud = {
             size = node[prefix + 'size'],
             color = node.color || settings('defaultNodeColor'),
             url = node.image.url;
-        w = node.image.w;
-        h = node.image.h;
-        scale = 0.1;
+        let w = node.image.w;
+        let h = node.image.h;
+        let scale = 0.1;
 
         if (wordcloud.rendererArgs._cache[url]) {
             context.save();
-
-            // // Draw the clipping disc:
-            // context.beginPath();
-            // context.arc(
-            //     node[prefix + 'x'],
-            //     node[prefix + 'y'],
-            //     node[prefix + 'size'],
-            //     0,
-            //     Math.PI * 2,
-            //     true
-            // );
-            // context.closePath();
-            // context.clip();
 
             // Draw the image
             context.drawImage(
@@ -41,25 +28,6 @@ var wordcloud = {
                 w * scale * size,
                 h * scale * size
             );
-
-            // console.log("draw image: W" + w + " | H: " + h + " | Size: " + size)
-
-            // // Quit the "clipping mode":
-            // context.restore();
-
-            // // Draw the border:
-            // context.beginPath();
-            // context.arc(
-            //     node[prefix + 'x'],
-            //     node[prefix + 'y'],
-            //     node[prefix + 'size'],
-            //     0,
-            //     Math.PI * 2,
-            //     true
-            // );
-            // context.lineWidth = size / 5;
-            // context.strokeStyle = node.color || settings('defaultNodeColor');
-            // context.stroke();
         } else {
             sigma.canvas.nodes.image.cache(url);
             sigma.canvas.nodes.def.apply(
@@ -110,44 +78,22 @@ var wordcloud = {
     },
 
     config: async function () {
-        // s.refresh();
-
-        // sigma.plugins.relativeSize(s, 5);
-
-        wordcloud.s.startForceAtlas2({
-            worker: true,
-            barnesHutOptimize: false,
-            scalingRatio: 1
-        });
-        await wordcloud.sleep(3000);
-        wordcloud.s.killForceAtlas2();
-
-        var noOverLapListener = wordcloud.s.configNoverlap({
-            nodeMargin: 3.0,
-            scaleNodes: 1.3
-        });
-        wordcloud.s.startNoverlap();
-
-        var dragListener = new sigma.plugins.dragNodes(wordcloud.s, wordcloud.s.renderers[0]);
-        // CustomShapes.init(s);
-        // s.refresh();
+        await wordcloud.sleep(1000);
+        // another refresh to show the word-cloud
+        wordcloud.s.refresh();
     },
 
     addButtonClickEvent: function () {
-        feedbackBtn = document.getElementById('feedback_btn');
+        let feedbackBtn = document.getElementById('feedback_btn');
         feedbackBtn.onclick = this.feedbackClicked;
 
-        closeFeedBackBtn = document.getElementById('close_feedback_btn');
+        let closeFeedBackBtn = document.getElementById('close_feedback_btn');
         closeFeedBackBtn.onclick = this.closeFeedbackClicked;
     },
 
     feedbackClicked: function () {
-        // var container = document.getElementById('container')
-        // var survey = document.getElementById('survey')
-        // var feedback = document.getElementById('feedback')
-
-        var toogle_survey_elements = document.getElementsByClassName('toggle_survey');
-        for (element of toogle_survey_elements) {
+        var toggle_survey_elements = document.getElementsByClassName('toggle_survey');
+        for (element of toggle_survey_elements) {
             element.classList.remove('survey_close');
             element.classList.add('survey_open');
         }
@@ -158,8 +104,8 @@ var wordcloud = {
     },
 
     closeFeedbackClicked: function () {
-        var toogle_survey_elements = document.getElementsByClassName('toggle_survey');
-        for (element of toogle_survey_elements) {
+        var toggle_survey_elements = document.getElementsByClassName('toggle_survey');
+        for (element of toggle_survey_elements) {
             element.classList.add('survey_close');
             element.classList.remove('survey_open');
         }
@@ -177,8 +123,7 @@ var wordcloud = {
                 minArrowSize: 10,
                 enableEdgeHovering: true,
                 edgeHoverSizeRatio: 2,
-                zoomMin: 0.001
-                // defaultEdgeColor: "#ff0000"
+                zoomMin: 0.1
             }
         });
 
@@ -186,6 +131,7 @@ var wordcloud = {
             wordcloud.data,
             wordcloud.s,
             async function () {
+                wordcloud.s.refresh();
                 await wordcloud.config();
             }
         );
