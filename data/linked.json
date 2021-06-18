@@ -1,1 +1,156 @@
-[{"py/object": "model.LinkKeyword.LinkKeyword", "id": 1, "description": "Message Queuing Telemetry Transport", "keys": ["MQTT", "ZMQ", "RabbitMQ"], "projects": [{"py/object": "model.LinkKeyword.LinkProject", "project": "mongooseosiot", "sentences": ["let ok = MQTT.pub(topic, msg, 1);", "let ok = MQTT.pub(topic, msg, 1, true);"], "relationships": []}, {"py/object": "model.LinkKeyword.LinkProject", "project": "arm-based", "sentences": ["Dependencies include a JSON Web Token and MQTT library as well as a SSL/TLS library like OpenSSL."], "relationships": []}, {"py/object": "model.LinkKeyword.LinkProject", "project": "macchiatobin", "sentences": ["If everything went well, you have successfully sent a MQTT message from your MACCHIATObin to Cloud IoT Core service and were able to fetch this message locally on your Linux machine using the gcloud.", "MQTT Client", "Setting up a working Ubuntu filesystem with the google-iot-mqtt-publisher MQTT client binary.", "This application is called google-iot-mqtt-publisher, a MQTT client which is used to publish messages to a specific topic on Google Cloud IoT.", "google-iot-mqtt-publisher is a MQTT client used to publish messages to a specific topic on Google Cloud IoT."], "relationships": []}, {"py/object": "model.LinkKeyword.LinkProject", "project": "espressobin", "sentences": ["If everything went well, you have successfully sent a MQTT message from your ESPRESSObin to Cloud IoT Core service and were able to fetch this message locally on your Linux machine using the gcloud.", "MQTT Client", "This application is called google-iot-mqtt-publisher, a MQTT client which is used to publish messages to a specific topic on Google Cloud IoT.", "google-iot-mqtt-publisher is a MQTT client used to publish messages to a specific topic on Google Cloud IoT."], "relationships": []}, {"py/object": "model.LinkKeyword.LinkProject", "project": "mangoh", "sentences": ["Note 1: You can update the MQTT Client service anytime with the following commands:", "allowing our device to cloud application (MQTT publisher) to communicate.", "here which is the MQTT client", "mqttClient-for-Legato : MQTT client services", "the cloud using MQTT protocol through Google Cloud IoT platform."], "relationships": []}, {"py/object": "model.LinkKeyword.LinkProject", "project": "rtl8195am", "sentences": ["Once the MQTT client is sending data to the endpoint, run the following command on Google Cloud SDK to read the data from your Cloud Pub/Sub topic:", "Realtek’s device- Ameba now supports the Google Cloud IoT MQTT Protocol to connect to the Cloud IoT and then publish the Telemetry."], "relationships": []}]}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 2, "description": "Open Platform Communication Unified Architecture", "keys": ["OPC UA"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 3, "description": "Datagram Transport Layer Security", "keys": ["DTLS"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 4, "description": "Production Performance Management Protocol", "keys": ["PPMP"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 5, "description": "Attribute-based access control", "keys": ["ABAC"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 6, "description": "open standard APplication Platform for carS and TrAnsportation vehiCLEs", "keys": ["APPSTACLE"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 7, "description": "Automotive Grade Linux", "keys": ["AGL"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 8, "description": "Data Distribution Service", "keys": ["DDS"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 9, "description": "Web of Thing", "keys": ["WoT"], "projects": []}, {"py/object": "model.LinkKeyword.LinkKeyword", "id": 10, "description": "the standard for contactless tickets and cards", "keys": ["Calypso"], "projects": []}]
+[
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 1,
+        "description": "Message Queuing Telemetry Transport",
+        "keys": [
+            "MQTT",
+            "ZMQ",
+            "RabbitMQ"
+        ],
+        "projects": [
+            {
+                "py/object": "model.LinkKeyword.LinkProject",
+                "project": "mongooseosiot",
+                "sentences": [
+                    "let ok = MQTT.pub(topic, msg, 1);",
+                    "let ok = MQTT.pub(topic, msg, 1, true);"
+                ],
+                "relationships": []
+            },
+            {
+                "py/object": "model.LinkKeyword.LinkProject",
+                "project": "arm-based",
+                "sentences": [
+                    "Dependencies include a JSON Web Token and MQTT library as well as a SSL/TLS library like OpenSSL."
+                ],
+                "relationships": []
+            },
+            {
+                "py/object": "model.LinkKeyword.LinkProject",
+                "project": "macchiatobin",
+                "sentences": [
+                    "If everything went well, you have successfully sent a MQTT message from your MACCHIATObin to Cloud IoT Core service and were able to fetch this message locally on your Linux machine using the gcloud.",
+                    "MQTT Client",
+                    "Setting up a working Ubuntu filesystem with the google-iot-mqtt-publisher MQTT client binary.",
+                    "This application is called google-iot-mqtt-publisher, a MQTT client which is used to publish messages to a specific topic on Google Cloud IoT.",
+                    "google-iot-mqtt-publisher is a MQTT client used to publish messages to a specific topic on Google Cloud IoT."
+                ],
+                "relationships": []
+            },
+            {
+                "py/object": "model.LinkKeyword.LinkProject",
+                "project": "espressobin",
+                "sentences": [
+                    "If everything went well, you have successfully sent a MQTT message from your ESPRESSObin to Cloud IoT Core service and were able to fetch this message locally on your Linux machine using the gcloud.",
+                    "MQTT Client",
+                    "This application is called google-iot-mqtt-publisher, a MQTT client which is used to publish messages to a specific topic on Google Cloud IoT.",
+                    "google-iot-mqtt-publisher is a MQTT client used to publish messages to a specific topic on Google Cloud IoT."
+                ],
+                "relationships": []
+            },
+            {
+                "py/object": "model.LinkKeyword.LinkProject",
+                "project": "mangoh",
+                "sentences": [
+                    "Note 1: You can update the MQTT Client service anytime with the following commands:",
+                    "allowing our device to cloud application (MQTT publisher) to communicate.",
+                    "here which is the MQTT client",
+                    "mqttClient-for-Legato : MQTT client services",
+                    "the cloud using MQTT protocol through Google Cloud IoT platform."
+                ],
+                "relationships": []
+            },
+            {
+                "py/object": "model.LinkKeyword.LinkProject",
+                "project": "rtl8195am",
+                "sentences": [
+                    "Once the MQTT client is sending data to the endpoint, run the following command on Google Cloud SDK to read the data from your Cloud Pub/Sub topic:",
+                    "Realtek’s device- Ameba now supports the Google Cloud IoT MQTT Protocol to connect to the Cloud IoT and then publish the Telemetry."
+                ],
+                "relationships": []
+            }
+        ]
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 2,
+        "description": "Open Platform Communication Unified Architecture",
+        "keys": [
+            "OPC UA"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 3,
+        "description": "Datagram Transport Layer Security",
+        "keys": [
+            "DTLS"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 4,
+        "description": "Production Performance Management Protocol",
+        "keys": [
+            "PPMP"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 5,
+        "description": "Attribute-based access control",
+        "keys": [
+            "ABAC"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 6,
+        "description": "open standard APplication Platform for carS and TrAnsportation vehiCLEs",
+        "keys": [
+            "APPSTACLE"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 7,
+        "description": "Automotive Grade Linux",
+        "keys": [
+            "AGL"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 8,
+        "description": "Data Distribution Service",
+        "keys": [
+            "DDS"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 9,
+        "description": "Web of Thing",
+        "keys": [
+            "WoT"
+        ],
+        "projects": []
+    },
+    {
+        "py/object": "model.LinkKeyword.LinkKeyword",
+        "id": 10,
+        "description": "the standard for contactless tickets and cards",
+        "keys": [
+            "Calypso"
+        ],
+        "projects": []
+    }
+]

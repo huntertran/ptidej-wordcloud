@@ -20,19 +20,6 @@ var wordcloud = {
         if (wordcloud.rendererArgs._cache[url]) {
             context.save();
 
-            // // Draw the clipping disc:
-            // context.beginPath();
-            // context.arc(
-            //     node[prefix + 'x'],
-            //     node[prefix + 'y'],
-            //     node[prefix + 'size'],
-            //     0,
-            //     Math.PI * 2,
-            //     true
-            // );
-            // context.closePath();
-            // context.clip();
-
             // Draw the image
             context.drawImage(
                 wordcloud.rendererArgs._cache[url],
@@ -41,25 +28,6 @@ var wordcloud = {
                 w * scale * size,
                 h * scale * size
             );
-
-            // console.log("draw image: W" + w + " | H: " + h + " | Size: " + size)
-
-            // // Quit the "clipping mode":
-            // context.restore();
-
-            // // Draw the border:
-            // context.beginPath();
-            // context.arc(
-            //     node[prefix + 'x'],
-            //     node[prefix + 'y'],
-            //     node[prefix + 'size'],
-            //     0,
-            //     Math.PI * 2,
-            //     true
-            // );
-            // context.lineWidth = size / 5;
-            // context.strokeStyle = node.color || settings('defaultNodeColor');
-            // context.stroke();
         } else {
             sigma.canvas.nodes.image.cache(url);
             sigma.canvas.nodes.def.apply(
@@ -146,8 +114,8 @@ var wordcloud = {
         // var survey = document.getElementById('survey')
         // var feedback = document.getElementById('feedback')
 
-        var toogle_survey_elements = document.getElementsByClassName('toggle_survey');
-        for (element of toogle_survey_elements) {
+        var toggle_survey_elements = document.getElementsByClassName('toggle_survey');
+        for (element of toggle_survey_elements) {
             element.classList.remove('survey_close');
             element.classList.add('survey_open');
         }
@@ -158,8 +126,8 @@ var wordcloud = {
     },
 
     closeFeedbackClicked: function () {
-        var toogle_survey_elements = document.getElementsByClassName('toggle_survey');
-        for (element of toogle_survey_elements) {
+        var toggle_survey_elements = document.getElementsByClassName('toggle_survey');
+        for (element of toggle_survey_elements) {
             element.classList.add('survey_close');
             element.classList.remove('survey_open');
         }

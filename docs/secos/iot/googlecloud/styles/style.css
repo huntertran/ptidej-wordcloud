@@ -11,7 +11,6 @@ html {
     width: 100%;
     float: left;
   }
-
   #survey.survey_open {
     width: 35%;
     float: right;
@@ -26,6 +25,7 @@ html {
     border: none;
   }
 }
+
 #container {
   max-width: 100%;
   height: 98vh;
@@ -35,6 +35,7 @@ html {
 #survey {
   width: 100%;
 }
+
 #survey iframe {
   width: 100%;
   height: 98vh;
@@ -51,11 +52,13 @@ html {
   padding: 6px;
   color: white;
 }
+
 #legend h3 {
   margin-top: 2px;
   margin-bottom: 2px;
   text-align: center;
 }
+
 #legend p {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -78,18 +81,23 @@ html {
   top: 0px;
   right: 0px;
 }
+
 #feedback.survey_close button.blue {
   display: block;
 }
+
 #feedback.survey_close button.red {
   display: none;
 }
+
 #feedback.survey_open button.blue {
   display: none;
 }
+
 #feedback.survey_open button.red {
   display: block;
 }
+
 #feedback button {
   border: none;
   color: white;
@@ -101,11 +109,14 @@ html {
   margin: 4px 2px;
   cursor: pointer;
 }
+
 #feedback button.blue {
   background-color: #008cba;
   display: block;
 }
+
 #feedback button.red {
   background-color: red;
   display: none;
 }
+/*# sourceMappingURL=style.css.map */

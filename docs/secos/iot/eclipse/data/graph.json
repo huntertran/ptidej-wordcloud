@@ -742,8 +742,8 @@
             "source": "mosquitto",
             "target": "1",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_mosquitto_use",
@@ -787,8 +787,8 @@
             "source": "ponte",
             "target": "1",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_4diac_use",
@@ -805,8 +805,8 @@
             "source": "4diac",
             "target": "1",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_hono_use",
@@ -859,8 +859,8 @@
             "source": "testware",
             "target": "1",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_sensinact_interchangeable",
@@ -868,8 +868,8 @@
             "source": "sensinact",
             "target": "1",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_sensinact_use",
@@ -895,8 +895,8 @@
             "source": "milo",
             "target": "2",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_leshan_interchangeable",
@@ -904,8 +904,8 @@
             "source": "leshan",
             "target": "3",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_tinydtls_interchangeable",
@@ -913,8 +913,8 @@
             "source": "tinydtls",
             "target": "3",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_cyclonedds_interchangeable",
@@ -922,8 +922,8 @@
             "source": "cyclonedds",
             "target": "8",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_cyclonedds_use",
@@ -940,8 +940,8 @@
             "source": "iceoryx",
             "target": "8",
             "size": 2,
-            "type": "curvedArrow",
-            "color": "#0000ff"
+            "type": "arrow",
+            "color": "#A90000"
         },
         {
             "id": "e_keyple_use",
