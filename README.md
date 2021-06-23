@@ -28,7 +28,8 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
         "IsCrawled": true,
         "CrawlDepthLevel": 1,
         "IsWordcloudGenerated": true,
-        "SiteUrl": "http://www.eclipse.org/paho/"
+        "SiteUrl": "http://www.eclipse.org/paho/",
+        "ProjectName": "paho"
     }
 ]
 ```
@@ -45,12 +46,12 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
     }
 ]
 ```
-2. Crawl the site with re-defined depth level, extract all text into a .txt file (a series of paragraph, we can use this later to find out relationship between projects)
+2. Crawl the site with re-defined depth level, extract all text into a .txt file (a series of the paragraph, we can use this later to find out the relationship between projects)
 3. Preprocessing crawled data
     1. Sentence Tokenize the paragraphs
     2. Word Tokenize the sentences
     3. Stem the words (since at this point, we don’t need the other forms of a word)
-    4. Remove all stop words (with English list of stop words and my own redefined stop word, for example `eclips`, `github`, `project`, etc)
+    4. Remove all stop words (with English list of stop words and our re-defined stop word, for example: `eclips`, `github`, `project`, etc.)
     5. Extract all programming languages (If we want to include the programming languages in wordcloud, we must choose between the language the project is written in/the languages the project support)
 4. Draw the wordcloud
     1. Get frequency distribution of each keywords in step 3, select the 50 most common keywords (can choose any number, not just 50 😃 )
@@ -59,7 +60,7 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
     1. Split sentences and tokenize
     2. Find the sentences containing the keywords
     3. Use Grammar rules to identify the relationship implied by the sentence
-6. Generate graph of the relationship
+6. Generate a graph of the relationship
 7. Draw the graph
 
 > For now, drawing grammar tree only worked on Windows
@@ -67,7 +68,7 @@ Using scrapy, `nltk` library for automatically generate wordcloud for projects l
 # 2. Install package
 <a id="markdown-install-package" name="install-package"></a>
 
-After each run, the `ptidejWordcloud/sitelist.json` file mark the project crawled or wordcloud generated with `true` value. Modify these values if you want to re-run any project
+After each run, the `ptidejWordcloud/sitelist.json` file marks the project crawled or wordcloud generated with `true` value. Modify these values if you want to re-run any project
 
 > Requirement:
 > - python 3.7 or above
@@ -125,7 +126,7 @@ python3
 
 **For Windows Machine**
 
-Using python on Windows machine require Microsoft Visual C++ Build Tools.
+Using Python on Windows machine require Microsoft Visual C++ Build Tools.
 
 > You can get the build tools at [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/).
 
@@ -134,9 +135,9 @@ Using python on Windows machine require Microsoft Visual C++ Build Tools.
 # 3. Config Java VM argument
 <a id="markdown-config-java-vm-argument" name="config-java-vm-argument"></a>
 
-Stanford POS Tagger is resource consuming. You will need to increase Java heap size to avoid `java.lang.OutOfMemoryError` exception
+Stanford POS Tagger is resource-consuming. You will need to increase Java heap size to avoid `java.lang.OutOfMemoryError` exception
 
-Add/modify this parameters in your vscode settings of Java
+Add/modify these parameters in your `vscode` settings of Java
 
 ```bash
 "java.jdt.ls.vmargs": "-Xmx4G -Xms512m [existing settings]"
@@ -159,7 +160,7 @@ For debugging with Visual Studio Code:
 
 ![debug menu](https://i.imgur.com/hnNbMKo.png)
 
-2. Put a break point in any of the python code
+2. Put a breakpoint in any of the python code
 3. Press F5 or debug button to start debugging
 
 ![debug python with vscode](https://i.imgur.com/VIeMJNC.png)
