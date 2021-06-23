@@ -5,7 +5,7 @@ class ProjectHelper:
     @staticmethod
     def get_project_name(full_url, existing_project_name):
 
-        if(len(existing_project_name)):
+        if(existing_project_name is not None):
             return existing_project_name.lower()
 
         result = ''

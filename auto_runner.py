@@ -63,10 +63,10 @@ def nlp(file_path):
         json.dump(site_data_list, data_file, default=Site.encode_object, indent=4)
 
 
-# crawl("./input/sitelist.json")
-# reactor.run()
+crawl("./input/sitelist.json")
+reactor.run()
 
 nlp("./input/sitelist.json")
-# create_link("./input/sitelist.json", "./input/link_keyword.json")
-# start_analyze()
-# start_convert()
+create_link("./input/sitelist.json", "./input/link_keyword.json")
+start_analyze()
+start_convert()

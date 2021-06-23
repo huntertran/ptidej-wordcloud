@@ -11,7 +11,10 @@ class Site(object):
 
     @staticmethod
     def decode_object(dict):
-        return Site(dict['IsCrawled'], dict['CrawlDepthLevel'], dict['IsWordcloudGenerated'], dict['SiteUrl'], dict['ProjectName'])
+        if 'ProjectName' in dict:
+            return Site(dict['IsCrawled'], dict['CrawlDepthLevel'], dict['IsWordcloudGenerated'], dict['SiteUrl'], dict['ProjectName'])
+        else:
+            return Site(dict['IsCrawled'], dict['CrawlDepthLevel'], dict['IsWordcloudGenerated'], dict['SiteUrl'])
 
     @staticmethod
     def encode_object(object):
