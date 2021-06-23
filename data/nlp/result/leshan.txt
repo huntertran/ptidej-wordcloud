@@ -35,6 +35,7 @@ webmaster:8
 mark:8
 development:7
 websites:7
+us:7
 report:7
 discussions:7
 builds:7
@@ -47,4 +48,3 @@ wiki:6
 preferences:6
 understand:6
 top:5
-resources:5

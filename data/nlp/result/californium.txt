@@ -20,7 +20,6 @@ jump:16
 committed:16
 analytics:16
 resources:15
-go:15
 desktop:15
 download:15
 information:15
@@ -48,3 +47,4 @@ starting:11
 also:11
 privacy:11
 depends:11
+community:10

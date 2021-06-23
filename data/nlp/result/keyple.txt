@@ -6,7 +6,7 @@ security:227
 apis:212
 learning:189
 calypso:176
-se:171
+se:174
 selectively:170
 builds:170
 commits:169
@@ -32,7 +32,6 @@ commands:98
 actions:98
 reviews:98
 understand:96
-go:95
 desktop:95
 foundation:93
 tab:90
@@ -48,3 +47,4 @@ windows:82
 stars:82
 contents:79
 try:78
+launching:77

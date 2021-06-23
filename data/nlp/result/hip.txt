@@ -20,12 +20,12 @@ association:18
 research:18
 systems:18
 labs:18
+de:18
 reports:17
 institutions:17
 manager:16
 organize:16
 limited:16
-de:16
 directors:15
 ide:14
 opportunity:14
@@ -43,8 +43,8 @@ laboratory:12
 science:12
 media:12
 public:11
+us:11
 learning:11
 agreement:11
 committers:11
 toggle:10
-navigation:10

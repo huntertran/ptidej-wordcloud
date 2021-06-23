@@ -9,7 +9,6 @@ code:125
 security:122
 informations:121
 repository:116
-go:114
 back:108
 foundations:104
 commits:101
@@ -48,3 +47,4 @@ deployments:63
 status:63
 updating:63
 preferences:63
+better:63

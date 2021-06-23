@@ -1,0 +1,2639 @@
+Eclipse Kapua
+Overview
+Getting Started
+Documentation
+Community
+Latest News
+25/03/2021 - Kapua 1.4.3 has been released!
+Eclipse Kapua™
+Modular IoT cloud platform to manage and integrate devices and their data. A solid integrated foundation of IoT services for any IoT application.
+Connect
+Connect IoT devices to Kapua via MQTT and other protocols.
+Manage
+Manage device applications, configurations, and resources and enable remote administration.
+Store & Analyze
+Store and index the data published by IoT devices for quick analysis and visualization into dashboards.
+Integrate
+Integrate Kapua services with IT applications through flexible message routing and REST API.
+Get Started
+Community
+Join the the growing community around Eclipse Kapua.
+Join the mailing list
+Post your questions and comments on Discussion Forum
+Report an Issue
+Report a Security Vulnerability
+Contribute Code
+Who is Involved
+Acknowledgments
+Thanks to YourKit for providing us an open source license of YourKit Java Profiler!
+YourKit supports open source projects with innovative and intelligent tools
+for monitoring and profiling Java and .NET applications.
+YourKit is the creator of YourKit Java Profiler,
+YourKit .NET Profiler,
+and YourKit YouMonitor.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal
+Security
+Credits
+Copyright © 2016 The Eclipse Foundation. All Rights Reserved.
+Release 1.4.3 · eclipse/kapua · GitHub
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+GitHub - eclipse/kapua
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+kapua
+Notifications
+Star
+173
+Fork
+154
+Code
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Issues
+161
+Pull requests
+17
+Actions
+Projects
+6
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Releases
+Tags
+1.4.3
+9cc32bc
+Compare
+Choose a tag to compare
+Search for a tag
+1.4.3
+1.4.3
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+kapua
+9cc32bc
+Compare
+Choose a tag to compare
+Search for a tag
+lorthirk
+released this
+Mar 26, 2021
+·
+320 commits
+to develop
+since this release
+Bugfixes
+[jobs] Fixed logic that checks for job executions before editing JobStep (#3284)
+Enhancements
+[dependencies] Bumped version of Netty4 to 4.1.60.Final - CVE-2021-21290 - CWE-378 (#3283)
+Assets
+Notifications
+Star
+173
+Fork
+154
+EPL-2.0 License
+173
+stars
+154
+forks
+Star
+Notifications
+Code
+Issues
+161
+2
+Source code (zip)
+Source code (tar.gz)
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+Pull requests
+17
+Actions
+Projects
+6
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+develop
+Switch branches/tags
+Branches
+Tags
+View all branches
+View all tags
+30
+branches
+41
+tags
+Code
+Clone
+HTTPS
+GitHub CLI
+Use Git or checkout with SVN using the web URL.
+Work fast with our official CLI.
+Learn more.
+Open with GitHub Desktop
+Download ZIP
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching GitHub Desktop
+If nothing happens, download GitHub Desktop and try again.
+Go back
+Launching Xcode
+If nothing happens, download Xcode and try again.
+Go back
+Launching Visual Studio Code
+Your codespace will open once ready.
+There was a problem preparing your codespace, please try again.
+Latest commit
+Coduz
+Merge pull request #3303 from MDeLuise/fix-returnedMfaSecretKey
+…
+af541a1
+Jun 18, 2021
+Merge pull request #3303 from MDeLuise/fix-returnedMfaSecretKey
+Don't return mfaSecretKey when activating MFA via REST API
+af541a1
+Git stats
+5,373
+commits
+Files
+Permalink
+Failed to load latest commit information.
+Type
+Name
+Latest commit message
+Commit time
+.github
+assembly
+broker
+build-tools
+client
+commons
+console
+Issues · eclipse/kapua · GitHub
+deployment
+dev-tools
+docs
+extras
+job-engine
+locator
+message
+plug-ins
+qa
+rest-api
+service
+simulator-kura
+src/main/dependency-checker
+translator
+transport
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+.gitignore
+CONTRIBUTING.md
+LICENSE
+PULL_REQUEST_TEMPLATE.md
+README.md
+RunTests.md
+ci-output.sh
+codecov.yml
+pom.xml
+View code
+Eclipse Kapua™
+Quick Start Guide
+Requirements
+Demo Setup
+Access
+The console
+RESTful APIs
+The Broker
+Simulation
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+More deployment info
+User & Developer guides
+Contributing
+Community
+Acknowledgments
+README.md
+Eclipse Kapua™
+Eclipse Kapua™ is a modular platform providing the services required to manage IoT gateways and smart edge devices. Kapua provides a core integration framework and an initial set of core IoT services including a device registry, device management services, messaging services, data management, and application enablement.
+Quick Start Guide
+Running an Eclipse Kapua™ demo instance on your local machine is a simple task.
+Eclipse Kapua™ runs as distributed application that exposes three basic services:
+The Messaging Service
+The RESTful API
+The Web Administration Console
+Two more backend services are required that implement the data tier:
+The Event Bus Service
+The SQL database
+The NoSQL datastore
+Eclipse Kapua™ can be deployed in a variety of modes. A practical way for running a local demo is through Docker containers.
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+Requirements
+Before starting, check that your environment has the following prerequisites:
+64 bit architecture
+Java VM Version 8
+Docker Version 1.2+
+Internet Access (needed to download the artifacts)
+Demo Setup
+The team maintains some docker images in a Docker Hub repository at Kapua Repository. Check the repo to view the list of available images, if you haven't found one fitting your needs you may create your own. Please refer to the paragraph More deployment info to find more about creating your own images and/or alternative demo deployment scenarios.
+Note: the Docker Hub repository mentioned above is not the official project repository from Eclipse Foundation.
+Suppose the target is the current snapshot 1.5.0-SNAPSHOT.
+Clone Eclipse Kapua™ into a local directory
+Open an OS shell and move to Kapua project root directory
+Start Docker runtime
+Start Kapua:
+On Linux/MacOS:
+./deployment/docker/unix/docker-deploy.sh
+On Windows (PowerShell):
+./deployment/docker/win/docker-deploy.ps1
+↵
+Sign in
+Sign up
+eclipse
+/
+kapua
+Notifications
+Star
+173
+Fork
+154
+Code
+Issues
+161
+Pull requests
+17
+Actions
+Projects
+The command starts all the Kapua containers using Docker Compose.
+By default, the latest version of images will be used. If you want to run some other version of Kapua, set the IMAGE_VERSION environment variable, for example:
+export IMAGE_VERSION=0.2.0
+You can check if the containers are running by typing the following command:
+docker ps -as
+Docker will list the containers currently running.
+To stop Kapua, run
+On Linux/MacOS:
+./deployment/docker/unix/docker-undeploy.sh
+On Windows (PowerShell):
+./deployment/docker/win/docker-undeploy.ps1
+Access
+Once the containers are running, the Kapua services can be accessed. Eclipse Kapua™ is a multi tenant
+system. The demo installation comes with one default tenant, called kapua-sys, which is also the root tenant.
+In Eclipse Kapua™ a tenant is commonly referred to as an account.
+The console
+The administration console is available at http://localhost:8080/.
+Copy paste the URL above to a Web browser, as the login screen appears, type the following credentials:
+Mailing list: kapua-dev (96 subscribers) | Eclipse - The Eclipse Foundation open source community website.
+6
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Labels
+28
+Milestones
+3
+Labels
+Username: kapua-sys
+Password: kapua-password
+Press Login button and start working with the console.
+Note: If you are using Docker on Windows the hostname will most likely not be localhost but
+the IP address of your docker instance.
+RESTful APIs
+The documentation of RESTful API is available at http://localhost:8081/doc/ while the mount points are available at http://localhost:8081/v1/.
+The documentation is available through Swagger UI which greatly helps testing and exploring the exposed services.
+In order to get access a REST resource through an API, an authentication token is needed. Fortunately the token can be easily obtained by executing the authentication API. There are several ways to invoke the API, an easy one is by using the Swagger UI:
+Open the URL http://localhost:8081/doc/
+Select item Authentication
+Select item /authentication/user
+Using the test feature run 'POST /authentication/user' by specifying the following body:
+{
+"password" : [ "kapua-password" ],
+"username": "kapua-sys"
+}
+Note: as an alternative to the previous, if curl is available on your machine, execute the following from the shell:
+Google Tag Manager Skip to main content
+Log in
+Manage Cookies
+Eclipse - The Eclipse Foundation open source community website.
+Download
+ProjectsWorking GroupsMembersCommunity MarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipate Report a BugForumsMailing ListsWikiIRCResearchEclipse IDE DownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+More
+CommunityMarketplaceEventsPlanet EclipseNewsletterVideosBlogsParticipateReport a BugForumsMailing ListsWikiIRCResearchEclipse IDEDownloadLearn MoreDocumentationGetting Started / SupportHow to ContributeIDE and ToolsNewcomer Forum
+Toggle navigation
+Log in
+Search
+Mailing list: kapua-dev (96 subscribers)
+kapua developer discussions
+About kapua-dev
+kapua developer discussions
+Using kapua-dev
+To post a message to all the list members,
+send email to kapua-dev@eclipse.org. You must be subscribed
+28
+Milestones
+3
+New issue
+Have a question about this project? Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+Sign up for GitHub
+By clicking “Sign up for GitHub”, you agree to our terms of service and
+privacy statement. We’ll occasionally send you account related emails.
+Already on GitHub?
+Sign in
+to your account
+161 Open
+1,463 Closed
+161 Open
+1,463 Closed
+Author
+Filter by author
+curl -X POST 'http://localhost:8081/v1/authentication/user' --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+"password": [
+"kapua-password"
+],
+"username": "kapua-sys"
+}'
+The system will return a JSON object.
+Copy the value of the field tokenId
+Paste the value in the box labelled api_key at the top of the web page
+Swagger will automatically add the authentication token to each subsequent request done using the Swagger UI. You're ready to try executing the documented APIs.
+Note: If you are using Docker on Windows the hostname will most likely not be localhost but
+the IP address of your docker instance.
+The Broker
+The broker container exposes an Mqtt end point at tcp://localhost:1883/.
+The broker can be accessed through either Eclipse Kura™ or a plain Mqtt client like, for example, Eclipse Paho™.
+In order for a client to establish a Mqtt connection with the broker, a client must provide a valid identity. The kapua-sys account provides the user named kapua-broker which has been pre-seeded and profiled for the purpose.
+The credentials for the user kapua-broker are the following:
+Username: kapua-broker
+to the list before you can post. To access a web archive of this list, visit the kapua-dev Archives or subscribe to this list's RSS feed
+Subscribing kapua-dev
+All contributions you make to our web site
+are governed by our Terms Of Use. Your interactions
+with the Eclipse Foundation web properties and any
+information you may provide us about yourself are governed
+by our Privacy Policy.
+To subscribe to a mailing list, you must have an Eclipse.org account.
+Log in
+- Or -
+Create an account
+Once you’ve are logged in, you can manage your mailing list subscriptions on the Mailing List page.
+View All Mailing Lists
+Mailing List
+View All Mailing Lists
+View Archived Mailing Lists
+Privacy Policy
+Terms of Use
+Mailing list: kapua-devRSS Feed
+author:
+Filter by this user
+Label
+Filter by label
+Use alt + click/return to exclude labels.
+Projects
+Filter by project
+Milestones
+Filter by milestone
+Assignee
+Filter by who’s assigned
+Sort
+Sort by
+Newest
+Oldest
+Most commented
+Password: kapua-password
+Note: do not use the user kapua-sys to establish Mqtt connections.
+Note: If you are using Docker on Windows the hostname will most likely not be localhost but
+the IP address of your docker instance.
+Simulation
+Kapua comes with a framework that you can use to simulate Kura gateways. It can be used to test your Kapua deployments easily. See Simulator documentation for more info.
+More deployment info
+Installing and running a demo using Docker is easy, but it's not the only way. There are other scenarios that the users may be interested in. We provide advanced setup scenarios in the following guides:
+Running with Docker
+Running with OpenShift
+Running with Minishift
+They will provide more advanced deployment scenarios.
+User & Developer guides
+User Manual
+Developer Guide
+Contributing
+If you're interested to get involved in IoT and Eclipse Kapua™ project, join the community and give your contribution to the project, please read how to contribute to Eclipse Kapua™.
+Community
+Eclipse Kapua™ Gitter Room
+Eclipse Kapua™ Forum
+Acknowledgments
+Archive
+Eclipse Foundation
+About UsContact UsDonateMembersGovernanceCode of ConductLogo and ArtworkBoard of Directors
+Legal
+Privacy PolicyTerms of UseCopyright AgentEclipse Public LicenseLegal Resources
+Useful Links
+Report a BugDocumentationHow to ContributeMailing ListsForumsMarketplace
+Other
+IDE and ToolsProjectsWorking GroupsResearch@EclipseReport a VulnerabilityService Status
+Copyright © Eclipse Foundation. All Rights Reserved.
+Back to the top
+Least commented
+Recently updated
+Least recently updated
+Most reactions
+👍
+👎
+😄
+🎉
+😕
+❤️
+🚀
+👀
+500 ERROR code when connecting keycloack to kapua (connection time out)
+#3336
+opened Jun 23, 2021 by
+amelroua
+Build success but no files in the target
+#3333
+opened Jun 18, 2021 by
+Thanks to YourKit for providing us an open source license of YourKit Java Profiler!
+YourKit supports open source projects with innovative and intelligent tools
+for monitoring and profiling Java and .NET applications.
+YourKit is the creator of YourKit Java Profiler,
+YourKit .NET Profiler,
+and YourKit YouMonitor.
+About
+No description or website provided.
+Topics
+internet-of-things
+eclipseiot
+Resources
+Readme
+License
+EPL-2.0 License
+Releases
+41
+1.4.4
+Latest
+amelroua
+Unable to Successfully Run SSO Unit Tests
+#3296
+opened Apr 21, 2021 by
+nezau-ct
+2
+Where would I find my scopeId?
+documentation
+#3286
+opened Mar 27, 2021 by
+phroiland
+5
+Update the MFA POST REST API Swagger example
+documentation
+rest-api
+#3281
+opened Mar 19, 2021 by
+gbarbon
+'static final' use should be avoided in class fields
+Bug
+proposal
+May 10, 2021
++ 40 releases
+Packages 0
+No packages published
+Contributors 32
++ 21 contributors
+Languages
+Java
+87.2%
+Gherkin
+9.7%
+HTML
+1.6%
+SCSS
+0.5%
+Less
+#3266
+opened Mar 8, 2021 by
+gbarbon
+REST API: access token content can be simplified
+Enhancement
+proposal
+rest-api
+#3258
+opened Feb 24, 2021 by
+gbarbon
+QA - JobTargetsServiceI9n.feature tests might never be executed
+Bug
+Test
+#3222
+opened Feb 9, 2021 by
+gbarbon
+1
+0.5%
+Shell
+0.4%
+Other
+0.1%
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+ES Migrator Fails
+#3221
+opened Feb 7, 2021 by
+swiftconnect
+3
+Possible issue with array configuration properties
+#3202
+opened Jan 19, 2021 by
+nicolatimeus
+API REST: Get last position with the device information
+proposal
+#3187
+opened Dec 23, 2020 by
+pintify
+2
+QA - Elasticsearch Embedded Node should be used only in Datastore tests
+Enhancement
+Test
+#3180
+opened Dec 18, 2020 by
+gbarbon
+QA - Elasticsearch Client internal error exception with Datastore logout in Cucumber tests
+Bug
+Test
+#3179
+opened Dec 18, 2020 by
+gbarbon
+QA - Dates in Cucumber Scenarios should be generated dynamically
+Enhancement
+Test
+#3176
+opened Dec 15, 2020 by
+gbarbon
+MFA: unique trust key for each trusted machine
+Enhancement
+#3174
+opened Dec 14, 2020 by
+gbarbon
+API requests POST and PUT differs on credential model
+#3173
+opened Dec 14, 2020 by
+pintify
+REST - PUT password credential does not encrypt the password
+#3172
+opened Dec 14, 2020 by
+pintify
+SSO - Hide the 'Credentials' tab in the Console for 'external' users
+Enhancement
+proposal
+#3171
+opened Dec 10, 2020 by
+gbarbon
+KapuaErrorCodes.SUBJECT_UNAUTHORIZED is never thrown and seems a duplication of the KapuaAuthorizationErrorCodes with the same name.
+Bug
+#3170
+opened Dec 10, 2020 by
+gbarbon
+On Kapua Login Page Username Field Is In Error State
+#3164
+opened Dec 2, 2020 by
+code-incubus
+Investigate Integration Tests Architecture
+Enhancement
+Test
+#3155
+opened Nov 26, 2020 by
+lorthirk
+Replace exec-maven-plugin with maven-antrun-plugin
+Build and test
+Enhancement
+#3153
+opened Nov 24, 2020 by
+lorthirk
+Broker denies new connections
+#3143
+opened Nov 18, 2020 by
+pintify
+4
+Password Field Stays in Error State Although (Confirm) Password Valid
+Bug
+Console GWT
+#3136
+opened Nov 10, 2020 by
+LeoNerdoG
+TLS/SSL protocol version selection for DBMS different than MariaDB
+Enhancement
+#3123
+opened Oct 28, 2020 by
+gbarbon
+Previous 1 2 3 4 5 6 7 Next
+Previous Next
+ProTip!
+Type g i on any issue or pull request to go back to the issue listing page.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+kapua-dev
+http://www.eclipse.org/mhonarc/lists/kapua-dev/maillist.html
+kapua-dev
+en-us
+Thu, 17 Dec 2020 05:09:58 GMT
+Thu, 17 Dec 2020 05:09:58 GMT
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+kapua-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/kapua-dev/maillist.html
+[kapua-dev] PMC Approval required for Committer Election for Gianluca Barbon on Eclipse Kapua
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00611.html
+[kapua-dev] PMC Approval required for Committer Election for Gianluca Barbon on Eclipse Kapua
+Thu, 17 Dec 2020 05:05:20 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00611.html
+emo@xxxxxxx (emo)
+[kapua-dev] Committer Election for Gianluca Barbon on Eclipse Kapua has started
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00610.html
+[kapua-dev] Committer Election for Gianluca Barbon on Eclipse Kapua has started
+Thu, 10 Dec 2020 14:04:48 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00610.html
+emo@xxxxxxx (emo)
+[kapua-dev] Eclipse Kapua - Version 1.3 Released
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00609.html
+[kapua-dev] Eclipse Kapua - Version 1.3 Released
+Wed, 04 Nov 2020 16:27:49 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00609.html
+stefano.morson@xxxxxxx (Morson, Stefano)
+[kapua-dev] Migration to Eclipse Public License 2.0
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00608.html
+[kapua-dev] Migration to Eclipse Public License 2.0
+Tue, 11 Aug 2020 12:11:44 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00608.html
+Claudio.Mezzasalma@xxxxxxx (Mezzasalma, Claudio)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00607.html
+Re: [kapua-dev] API Link not working!
+Tue, 16 Jun 2020 06:42:26 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00607.html
+pedro.arquer@xxxxxxx (Pedro de Arquer)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00606.html
+Re: [kapua-dev] API Link not working!
+Tue, 16 Jun 2020 04:26:45 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00606.html
+Ramraj.Shankar@xxxxxxx (Shankar, Ramraj)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00605.html
+Re: [kapua-dev] API Link not working!
+Mon, 15 Jun 2020 06:38:55 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00605.html
+pedro.arquer@xxxxxxx (Pedro de Arquer)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00604.html
+Re: [kapua-dev] API Link not working!
+Fri, 12 Jun 2020 11:54:40 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00604.html
+Ramraj.Shankar@xxxxxxx (Shankar, Ramraj)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00603.html
+Re: [kapua-dev] API Link not working!
+Fri, 12 Jun 2020 10:07:21 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00603.html
+pedro.arquer@xxxxxxx (Pedro de Arquer)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00602.html
+Re: [kapua-dev] API Link not working!
+Fri, 12 Jun 2020 09:41:38 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00602.html
+Ramraj.Shankar@xxxxxxx (Shankar, Ramraj)
+kapua-dev
+http://www.eclipse.org/mhonarc/lists/kapua-dev/maillist.html
+kapua-dev
+en-us
+Thu, 17 Dec 2020 05:09:58 GMT
+Thu, 17 Dec 2020 05:09:58 GMT
+http://blogs.law.harvard.edu/tech/rss
+MHonArc RSS 2.0 RCFile
+webmaster@eclipse.org (Webmaster)
+webmaster@eclipse.org (Webmaster)
+kapua-dev
+http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg
+http://www.eclipse.org/mhonarc/lists/kapua-dev/maillist.html
+[kapua-dev] PMC Approval required for Committer Election for Gianluca Barbon on Eclipse Kapua
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00611.html
+[kapua-dev] PMC Approval required for Committer Election for Gianluca Barbon on Eclipse Kapua
+Thu, 17 Dec 2020 05:05:20 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00611.html
+emo@xxxxxxx (emo)
+[kapua-dev] Committer Election for Gianluca Barbon on Eclipse Kapua has started
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00610.html
+[kapua-dev] Committer Election for Gianluca Barbon on Eclipse Kapua has started
+Thu, 10 Dec 2020 14:04:48 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00610.html
+emo@xxxxxxx (emo)
+[kapua-dev] Eclipse Kapua - Version 1.3 Released
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00609.html
+[kapua-dev] Eclipse Kapua - Version 1.3 Released
+Wed, 04 Nov 2020 16:27:49 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00609.html
+stefano.morson@xxxxxxx (Morson, Stefano)
+[kapua-dev] Migration to Eclipse Public License 2.0
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00608.html
+[kapua-dev] Migration to Eclipse Public License 2.0
+Tue, 11 Aug 2020 12:11:44 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00608.html
+Claudio.Mezzasalma@xxxxxxx (Mezzasalma, Claudio)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00607.html
+Re: [kapua-dev] API Link not working!
+Tue, 16 Jun 2020 06:42:26 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00607.html
+pedro.arquer@xxxxxxx (Pedro de Arquer)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00606.html
+Re: [kapua-dev] API Link not working!
+Tue, 16 Jun 2020 04:26:45 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00606.html
+Ramraj.Shankar@xxxxxxx (Shankar, Ramraj)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00605.html
+Re: [kapua-dev] API Link not working!
+Mon, 15 Jun 2020 06:38:55 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00605.html
+pedro.arquer@xxxxxxx (Pedro de Arquer)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00604.html
+Re: [kapua-dev] API Link not working!
+Fri, 12 Jun 2020 11:54:40 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00604.html
+Ramraj.Shankar@xxxxxxx (Shankar, Ramraj)
+Index of kapua-dev for December 2020
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00603.html
+Re: [kapua-dev] API Link not working!
+Fri, 12 Jun 2020 10:07:21 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00603.html
+pedro.arquer@xxxxxxx (Pedro de Arquer)
+Re: [kapua-dev] API Link not working!
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00602.html
+Re: [kapua-dev] API Link not working!
+Fri, 12 Jun 2020 09:41:38 GMT
+http://www.eclipse.org/mhonarc/lists/kapua-dev/msg00602.html
+Ramraj.Shankar@xxxxxxx (Shankar, Ramraj)
+Log in | Eclipse - The Eclipse Foundation open source community website.
+Google Tag Manager Skip to main content
+Eclipse - The Eclipse Foundation open source community website.
+Log in
+Skip to main content
+Edit my account
+Manage Cookies
+Donate
+Members
+Working Groups
+Projects
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+Welcome to Eclipse
+Sign in with your Eclipse account Email Address *
+Enter your Eclipse email address. Password *
+Enter the password that accompanies your email address.
+Ask for a new password
+Sign in
+- Or -
+Create new account
+Copyright © Eclipse Foundation. All Rights Reserved.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Back to the top
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+More
+Community
+Marketplace
+Events
+Planet Eclipse
+Newsletter
+Videos
+Blogs
+Participate
+Report a Bug
+Forums
+Mailing Lists
+Wiki
+IRC
+Research
+Eclipse IDE
+Download
+Learn More
+Documentation
+Getting Started / Support
+How to Contribute
+IDE and Tools
+Newcomer Forum
+Search
+Toggle navigation
+Breadcrumbs
+Home
+Contribute
+Source code
+Index of kapua-dev for December 2020
+Index by Thread Index by Year [First Page] [Prev Page][Next Page] [Last Page]December 17, 2020[kapua-dev] PMC Approval required for Committer Election for Gianluca Barbon on Eclipse Kapua Posted 00:05 by emo
+December 10, 2020[kapua-dev] Committer Election for Gianluca Barbon on Eclipse Kapua has started Posted 09:04 by emo
+Mail converted by MHonArc
+Back to the top
+Eclipse Foundation
+About Us
+Contact Us
+Donate
+Governance
+Logo and Artwork
+Board of Directors
+Legal
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal Resources
+Useful Links
+Report a Bug
+Documentation
+How to Contribute
+Mailing Lists
+Forums
+Marketplace
+Other
+IDE and Tools
+Community of Projects
+Working Groups
+Research@Eclipse
+Report a Vulnerability
+Service Status
+Copyright © Eclipse Foundation, Inc. All Rights Reserved.
+Back to the top
+kapua/CONTRIBUTING.md at develop · eclipse/kapua · GitHub
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+Docker Hub
+Introduction · Eclipse Kapua™ Developer Guide
+Introduction
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+Building
+Kapua
+Documentation
+Running
+Docker
+OpenShift
+Vagrant
+Setting up an IDE
+Eclipse IDE
+Configuration
+Single sign-on
+Working with database
+Client generation
+QA process
+Published with GitBook
+Introduction
+Eclipse Kapua™ Developer Guide
+This guide outlines how developers can get involved in contributing to the Eclipse Kapua project.
+results matching ""
+No results matching ""
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+kapua
+Notifications
+Star
+173
+Fork
+154
+Code
+Issues
+161
+Pull requests
+17
+Actions
+Projects
+6
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Permalink
+develop
+Switch branches/tags
+Branches
+Tags
+View all branches
+View all tags
+kapua/CONTRIBUTING.md
+Go to file
+Go to file
+T
+Go to line
+L
+Copy path
+Copy permalink
+Cannot retrieve contributors at this time
+How to contribute to Eclipse Kapua
+Legal Requirements
+Making your Changes
+Submitting the Changes
+After Submitting
+60 lines (39 sloc)
+2.93 KB
+Raw
+Blame
+Open with Desktop
+eclipse/kapua - Gitter
+Introduction · Eclipse Kapua™ User Guide
+Introduction
+REST API
+Community
+Simulator
+View raw
+View blame
+How to contribute to Eclipse Kapua
+First of all, thanks for considering to contribute to Eclipse Kapua. We really appreciate the time and effort you want to
+spend helping to improve things around here. And help we can use :-)
+Here is a (non-exclusive, non-prioritized) list of things you might be able to help us with:
+bug reports
+bug fixes
+improvements regarding code quality e.g. improving readability, performance, modularity etc.
+documentation (Getting Started guide, Examples, Deployment instructions in cloud environments)
+features (both ideas and code are welcome)
+In order to get you started as fast as possible we need to go through some organizational issues first, though.
+Legal Requirements
+Kapua is an Eclipse IoT project and as such is governed by the Eclipse Development process.
+This process helps us in creating great open source software within a safe legal framework.
+For you as a contributor, the following preliminary steps are required in order for us to be able to accept your contribution:
+Sign the Eclipse Foundation Contributor License Agreement.
+In order to do so:
+Obtain an Eclipse Foundation user ID. Anyone who currently uses Eclipse Bugzilla or Gerrit systems already has one of those.
+If you don't already have an account simply register on the Eclipse web site.
+Once you have your account, log in to the projects portal, select My Account and then the Contributor License Agreement tab.
+Add your GiHub username to your Eclipse Foundation account. Log in to Eclipse and go to Edit my account.
+The easiest way to contribute code/patches/whatever is by creating a GitHub pull request (PR). When you do make sure that you Sign-off your commit records using the same email address used for your Eclipse account.
+You do this by adding the -s flag when you make the commit(s), e.g.
+Where communities thrive
+Join over
+1.5M+ people
+Join over
+100K+ communities
+Free
+without limits
+Create
+your own community Explore more communities
+eclipse/kapua
+Main lobby for Eclipse Kapua | Kapua 1.4.3 now available! https://github.com/eclipse/kapua/releases/tag/1.4.3
+People
+Repo info
+Activity
+13:31
+amelroua edited #3336
+12:51
+amelroua edited #3336
+11:45
+Setup JWT security
+Kapua Permissions
+Multi Factor Authentication
+Credentials
+Published with GitBook
+Introduction
+Eclipse Kapua™ User Manual
+The User manual is an in depth manual on all aspects of Eclipse Kapua
+results matching ""
+No results matching ""
+$> git commit -s -m "Shave the yak some more"
+You can find all the details in the Contributing via Git document on the Eclipse web site.
+Making your Changes
+Fork the repository on GitHub
+Create a new branch for your changes
+Make your changes
+Make sure you include test cases for non-trivial features
+Make sure the test suite passes after your changes
+Commit your changes into that branch
+Use descriptive and meaningful commit messages
+If you have a lot of commits squash them into a single commit
+Make sure you use the -s flag when committing as explained above
+Push your changes to your branch in your forked repository
+Submitting the Changes
+Submit a pull request via the normal GitHub UI.
+After Submitting
+Do not use your branch for any other development, otherwise further changes that you make will be visible in the PR.
+Go
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Eclipse Kapua
+codecov[bot] commented #3337
+11:44
+codecov[bot] commented #3330
+11:07
+codecov[bot] commented #3337
+11:06
+codecov[bot] commented #3337
+11:05
+codecov[bot] commented #3337
+11:01
+lorthirk unlabeled #3337
+11:01
+lorthirk edited #3337
+10:59
+codecov[bot] commented #3337
+10:54
+codecov[bot] commented #3330
+10:54
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+Overview
+Getting Started
+Documentation
+Community
+Latest News
+25/03/2021 - Kapua 1.4.3 has been released!
+Eclipse Kapua™
+Modular IoT cloud platform to manage and integrate devices and their data. A solid integrated foundation of IoT services for any IoT application.
+Connect
+Connect IoT devices to Kapua via MQTT and other protocols.
+Manage
+Manage device applications, configurations, and resources and enable remote administration.
+Store & Analyze
+Store and index the data published by IoT devices for quick analysis and visualization into dashboards.
+Integrate
+Integrate Kapua services with IT applications through flexible message routing and REST API.
+Get Started
+Community
+Join the the growing community around Eclipse Kapua.
+lorthirk synchronize #3330
+10:51
+lorthirk review_requested #3337
+10:51
+lorthirk labeled #3337
+10:51
+lorthirk labeled #3337
+10:51
+lorthirk opened #3337
+10:12
+amelroua edited #3336
+10:08
+amelroua edited #3336
+09:33
+amelroua edited #3336
+09:01
+amelroua opened #3336
+Pedro
+@pintify
+Join the mailing list
+Post your questions and comments on Discussion Forum
+Report an Issue
+Report a Security Vulnerability
+Contribute Code
+Who is Involved
+Acknowledgments
+Thanks to YourKit for providing us an open source license of YourKit Java Profiler!
+YourKit supports open source projects with innovative and intelligent tools
+for monitoring and profiling Java and .NET applications.
+YourKit is the creator of YourKit Java Profiler,
+YourKit .NET Profiler,
+and YourKit YouMonitor.
+Privacy Policy
+Terms of Use
+Copyright Agent
+Eclipse Public License
+Legal
+Security
+Credits
+Package download endpoint has this warning:
+However, how could I know the operationId I should look for?
+In case it must be searched in /operations endpoint "manually", which id should I use, for the operation object has two different ids:
+{
+"type": "deviceManagementOperation",
+"id": "LwLogSRx13I",
+...
+"operationId": "SfWNEoZY1FQ",
+},
+Claudio Mezzasalma
+@lorthirk
+nice question. I THINK you should be using operationId
+Pedro
+@pintify
+Great, thanks! And is there a way to achieve the operationId I need without inspecting all the operations?
+Claudio Mezzasalma
+@lorthirk
+uhm... probably @Coduz is the best person to ask :D
+Copyright © 2016 The Eclipse Foundation. All Rights Reserved.
+Laurent Carré
+@sterwen
+Hello, got a very strange phenomenon when trying to connect a gateway with Kura to Kapua
+06:23:03.210 [ActiveMQ NIO Worker 4] INFO o.e.k.b.c.p.KapuaSecurityBrokerFilter - User name newborn-gw - client id: BS184300124, connection id: ID:bdc7ff7e684a-45167-1599078074822-5:4702706:23:03.221 [ActiveMQ NIO Worker 4] WARN o.a.a.broker.TransportConnection - Failed to add Connection id=ID:bdc7ff7e684a-45167-1599078074822-5:47027, clientId=BS184300124 due to {}
+The gateway indicates it is connected, I see a connection in Kapua but nothing in devices
+Pedro
+@pintify
+dusanp795
+@dusanp795
+Does anyone know what the problem is here? The POST request for / authentication / user does not pass.
+dusanp795
+@dusanp795
+kjones-kore
+@kjones-kore
+Hello, I just tried to run docker-deploy.sh from the latest version off github. I'm getting an error when trying to pull kapua/kapua-job-engine. I'm running as a docker permissible user. I do not have extensive docker experience, so it could easily be a noob error. Any assistance wold be greatly appreciated. Here's the error sequence: ./docker-deploy.shDeploying Eclipse Kapua...Creating network "compose_default" with the default driverPulling job-engine (kapua/kapua-job-engine:latest)...ERROR: The image for the service you're trying to recreate has been removed. If you continue, volume data could be lost. Consider backing up your data before continuing.
+kjones-kore
+@kjones-kore
+To add to my previous message. I'm running Ubuntu 20.04. Docker is version 20.10.5, build 55c4c88. docker-compose is version 1.29.0, build 07737305. Thanks all for any assistance / direction you can provide me.
+kjones-kore
+@kjones-kore
+Minor update to my last two messages - I removed the kapua-job-engine image from docker-compose.yml configuration file. Demo instance appears to be at least partially available now. Still interested in the impact removing this container (threading / task mgmt I assume?) will have.
+Claudio Mezzasalma
+@lorthirk
+have you built the images with mvn clean install -Pdocker first?
+kjones-kore @kjones-kore 00:34Minor update to my last two messages - I removed the kapua-job-engine image from docker-compose.yml configuration file. Demo instance appears to be at least partially available now. Still interested in the impact removing this container (threading / task mgmt I assume?) will have.
+without the job engine you won't be able to execute any batch jobs on devices
+Reza
+@rezahili
+Hi @lorthirk , hope you're doing great. I tried to build and Run kapua on ubuntu 20.04 amd64bit.I started with docker (kapua/deployment/docker/unix/docker-deploy.sh) and It was unsuccessful(Image does not exist. Then I found out to build images in my computer using this (https://www.eclipse.org/kapua/docs/1.4.0/developer-guide/en/building.html) and I got many Erros. what can i do to fix it? ( also i have to mention that I've installed jdk8 (sudo apt-get install openjdk-8-jdk), docker, docker compose, and in all processes I was in root(sudo su).
+When I did run (mvn clean install -Pconsole) in root mode. I got some errors:
+[ERROR] Tests run: 17, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.525 s <<< FAILURE! - in org.eclipse.kapua.serv ice.authentication.shiro.utils.AuthenticationUtilsTest[ERROR] decryptAesIncorrectKeyTest(org.eclipse.kapua.service.authentication.shiro.utils.AuthenticationUtilsTest) Time el apsed: 0.009 s <<< FAILURE!java.lang.AssertionError: Expected exception: org.eclipse.kapua.KapuaRuntimeException[ERROR] encryptAesEmptyKeyTest(org.eclipse.kapua.service.authentication.shiro.utils.AuthenticationUtilsTest) Time elapse d: 0 s <<< FAILURE!java.lang.AssertionError: Expected exception: java.lang.IllegalArgumentException[ERROR] decryptAesEmptyKeyTest(org.eclipse.kapua.service.authentication.shiro.utils.AuthenticationUtilsTest) Time elapse d: 0.001 s <<< FAILURE!java.lang.AssertionError: Expected exception: java.lang.IllegalArgumentException[ERROR] cryptCredentialSHAAlgorithmTest(org.eclipse.kapua.service.authentication.shiro.utils.AuthenticationUtilsTest) Ti me elapsed: 0.012 s <<< FAILURE!java.lang.AssertionError: Expected and actual values should be the same. expected:<77> but was:<141> at org.eclipse.kapua.service.authentication.shiro.utils.AuthenticationUtilsTest.cryptCredentialSHAAlgorithmTest(A uthenticationUtilsTest.java:74)[ERROR] encryptAesIncorrectKeyTest(org.eclipse.kapua.service.authentication.shiro.utils.AuthenticationUtilsTest) Time el apsed: 0.001 s <<< FAILURE!java.lang.AssertionError: Expected exception: org.eclipse.kapua.KapuaRuntimeException
+Reza
+@rezahili
+[INFO] kapua-security-registration-api .................... SUCCESS [ 0.303 s][INFO] kapua-security-certificate ......................... SUCCESS [ 0.225 s][INFO] kapua-security-certificate-api ..................... SUCCESS [ 0.421 s][INFO] kapua-security-shiro ............................... FAILURE [01:10 min][INFO] kapua-datastore .................................... SKIPPED[INFO] kapua-datastore-api ................................ SKIPPED[INFO] kapua-message-internal ............................. SKIPPED...
+[INFO] BUILD FAILUR
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.20:test (default-test) on project kapua-s ecurity-shiro: There are test failures.[ERROR][ERROR] Please refer to /root/kapua/service/security/shiro/target/surefire-reports for the individual test results.[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstrea m.[ERROR] -> [Help 1][ERROR][ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.[ERROR] Re-run Maven using the -X switch to enable full debug logging.[ERROR][ERROR] For more information about the errors and possible solutions, please read the following articles:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException[ERROR][ERROR] After correcting the problems, you can resume the build with the command[ERROR] mvn <args> -rf :kapua-security-shiro
+Reza
+@rezahili
+let me open an issue. It's better
+then I could post all errors and steps there
+Claudio Mezzasalma
+@lorthirk
+uhm... in order to build the images you can skip tests
+which JVM are you using?
+Reza
+@rezahili
+sudo apt-get install openjdk-8-jdk
+I used this
+openjdk version "1.8.0_292"OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10)OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
+Claudio Mezzasalma
+@lorthirk
+uhm... it's something about the available SHA algorithms
+our CI doesn't show anything strange, so it should be something on your side
+Reza
+@rezahili
+How to see what version of SHA algorithms is working on my ubuntu ?
+I saw SHA or something like that when I was upgrading ubuntu.
+Claudio Mezzasalma
+@lorthirk
+uhm... I'm not sure
+but why don't you just append -DskipTests to the Maven command?
+Reza
+@rezahili
+lets do it
+Reza
+@rezahili
+It's done
+Reza
+@rezahili
+uhm... I'm not sure
+Thank u. I opened an issue and closed it for other people.
+Reza
+@rezahili
+HiI installed Kapua and Kura and everything is fine. I used this document (https://github.com/eclipse/kapua/pull/780/files) to connect my Kura device to Kapua through MQTT. I received connection status in kapua(Connections), but I couldn't get my connected device in the Devices part of Kapua, and also I didn't get message from my Kura device.
+does anyone know? what is happening? what is the problem?
+@lorthirk did you see that before? thank you
+Reza
+@rezahili
+eclipse/kapua#3327 this is the whole story
+Laurent Carré
+@sterwen
+@rezahili in most of the case you experience that problem when the 'Kapua-account' doas not match between Kura and Kapua. Can be a typo. The user/passord are correct so you can connect on the broker and the connection is green , but nothing in the devices because the account is wrong. Also check you Kapua account settings and user role and authorization.
+Reza
+@rezahili
+@rezahili in most of the case you experience that problem when the 'Kapua-account' doas not match between Kura and Kapua. Can be a typo. The user/passord are correct so you can connect on the broker and the connection is green , but nothing in the devices because the account is wrong. Also check you Kapua account settings and user role and authorization.
+Yes exactly, I fixed it by creating an account again but in a right way.
+Reza
+@rezahili
+eclipse/kapua#3328 SSL communication Kapua and Kura.
+Reza
+@rezahili
+Hi
+Reza
+@rezahili
+after a lot of hair pulling I succeeded to make a communication between kapua and kura. I can configure my devices and I can see my device on devices tab on console. Now, I'm using mqtt publisher example but it doesn't work. should I use something more than this ?
+_
+Sign in to start talking
+Chat via Matrix
+Fixed logic that checks for job executions before editing JobStep by Coduz · Pull Request #3284 · eclipse/kapua · GitHub
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+kapua
+Notifications
+Star
+173
+Fork
+154
+Code
+Issues
+161
+Pull requests
+17
+Actions
+Projects
+6
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+New issue
+Have a question about this project? Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+Pick a username
+Email Address
+Password
+Sign up for GitHub
+By clicking “Sign up for GitHub”, you agree to our terms of service and
+privacy statement. We’ll occasionally send you account related emails.
+Already on GitHub?
+Sign in
+to your account
+Jump to bottom
+Fixed logic that checks for job executions before editing JobStep
+#3284
+Merged
+Coduz
+merged 1 commit into
+eclipse:develop
+from
+Coduz:fix-editJobStepExecutionCheck
+Mar 25, 2021
+Merged
+Fixed logic that checks for job executions before editing JobStep
+#3284
+Coduz
+merged 1 commit into
+eclipse:develop
+from
+Coduz:fix-editJobStepExecutionCheck
+Mar 25, 2021
+Conversation
+0
+Commits
+1
+Checks
+20
+Files changed
+Conversation
+Copy link
+Quote reply
+Contributor
+Coduz
+commented
+Mar 25, 2021
+This PR fixes an issue with the edit job step checks on JobExecutions run.
+Now is not possible to edit job if there is at least one execution in scope.
+Related Issue
+This PR fixes an issue introduced in #3241
+Description of the solution adopted
+The JOB_ID predicate was created but not added.
+Now is added to the query
+Screenshots
+None
+Any side note on the changes made
+None
+Coduz
+added
+the
+Bug
+label
+Mar 25, 2021
+Coduz
+requested a review
+from lorthirk
+Mar 25, 2021
+Coduz
+added this to In Progress
+in 1.5.0
+via automation
+Mar 25, 2021
+Coduz
+added this to Backport
+in 1.4.3
+via automation
+Mar 25, 2021
+Fixed logic that checks for job executions before editing JobStep
+…
+e1b56f7
+Signed-off-by: Alberto Codutti <alberto.codutti@eurotech.com>
+Coduz
+force-pushed the
+Coduz:fix-editJobStepExecutionCheck
+branch
+from
+ca70001
+to
+e1b56f7
+Mar 25, 2021
+Hide details
+View details
+Coduz
+merged commit 8b26b67
+into
+eclipse:develop
+Mar 25, 2021
+21 checks passed
+21 checks passed
+build-kapua
+Details
+test-brokerAcl
+Details
+test-tag
+Details
+test-broker
+Details
+test-device
+Details
+test-connection
+Details
+test-datastore
+Details
+test-user
+Details
+test-security
+Details
+test-jobs
+Details
+test-triggerService
+Details
+test-account
+Details
+test-jobEngineStartOfflineDevice
+Details
+test-jobEngineStartOnlineDevice
+Details
+test-jobEngineRestartOfflineDevice
+Details
+test-jobEngineRestartOnlineDevice
+Details
+test-jobEngineRestartOnlineDeviceSecondPart
+Details
+test-jobEngineServiceStop
+Details
+junit-tests
+Details
+build-javadoc
+Details
+eclipsefdn/eca
+The author(s) of the pull request is covered by necessary legal agreements in order to proceed!
+Details
+1.5.0
+automation
+moved this from In Progress
+to Done
+Mar 25, 2021
+Bumped version of Netty4 to 4.1.60.Final - CVE-2021-21290 - CWE-378 by Coduz · Pull Request #3283 · eclipse/kapua · GitHub
+1.4.3
+automation
+moved this from Backport
+to Backport Ready
+Mar 25, 2021
+Coduz
+moved this from Backport Ready
+to Done
+in 1.4.3
+Mar 25, 2021
+lorthirk
+mentioned this pull request
+Apr 26, 2021
+Batch Job - Reorder steps
+#3025
+Open
+Sign up for free
+to join this conversation on GitHub.
+Already have an account?
+Sign in to comment
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Reviewers
+lorthirk
+Assignees
+No one assigned
+Labels
+Bug
+Projects
+1.5.0
+Done
+1 closed project
+1.4.3
+Done
+Milestone
+No milestone
+Linked issues
+Successfully merging this pull request may close these issues.
+None yet
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+1 participant
+Add this suggestion to a batch that can be applied as a single commit.
+This suggestion is invalid because no changes were made to the code.
+Suggestions cannot be applied while the pull request is closed.
+Suggestions cannot be applied while viewing a subset of changes.
+Only one suggestion per line can be applied in a batch.
+Add this suggestion to a batch that can be applied as a single commit.
+Applying suggestions on deleted lines is not supported.
+You must change the existing code in this line in order to create a valid suggestion.
+Outdated suggestions cannot be applied.
+This suggestion has been applied or marked resolved.
+Suggestions cannot be applied from pending reviews.
+Suggestions cannot be applied on multi-line comments.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+kapua
+Notifications
+Star
+173
+Fork
+154
+Code
+Issues
+161
+Pull requests
+17
+Actions
+Projects
+6
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+New issue
+Have a question about this project? Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+Pick a username
+Email Address
+Password
+Sign up for GitHub
+By clicking “Sign up for GitHub”, you agree to our terms of service and
+privacy statement. We’ll occasionally send you account related emails.
+Already on GitHub?
+Sign in
+to your account
+Jump to bottom
+Bumped version of Netty4 to 4.1.60.Final - CVE-2021-21290 - CWE-378
+#3283
+Merged
+Coduz
+merged 1 commit into
+eclipse:develop
+from
+Coduz:chng-bumpNettyVersionTo4.1.60.Final
+Mar 24, 2021
+Merged
+Bumped version of Netty4 to 4.1.60.Final - CVE-2021-21290 - CWE-378
+#3283
+Coduz
+merged 1 commit into
+eclipse:develop
+from
+Coduz:chng-bumpNettyVersionTo4.1.60.Final
+Mar 24, 2021
+Conversation
+2
+Commits
+1
+Checks
+20
+Files changed
+Conversation
+Copy link
+Quote reply
+Contributor
+Coduz
+commented
+Mar 22, 2021
+Bump version of Netty-* from 4.1.50 to 4.1.60
+Related Issue
+None
+Description of the solution adopted
+Bumped the version.
+There is already a CQ from Vertx project which is under approval.
+23135
+Screenshots
+None
+Any side note on the changes made
+None
+Bumped version of Netty4 to 4.1.60.Final - CVE-2021-21290 - CWE-378
+…
+dfc470a
+Signed-off-by: Alberto Codutti <alberto.codutti@eurotech.com>
+Coduz
+added
+CQ pending
+Dependencies
+labels
+Mar 22, 2021
+Coduz
+requested a review
+from lorthirk
+Mar 22, 2021
+Coduz
+added this to In Progress
+in 1.5.0
+via automation
+Mar 22, 2021
+Coduz
+added this to Backport
+in 1.4.3
+via automation
+Mar 22, 2021
+Copy link
+Contributor
+lorthirk
+commented
+Mar 22, 2021
+CQ has been approved
+👍
+1
+lorthirk
+approved these changes
+Mar 22, 2021
+View changes
+1.5.0
+automation
+moved this from In Progress
+to In Review
+Mar 22, 2021
+Copy link
+codecov
+bot
+commented
+Mar 23, 2021
+•
+edited
+Codecov Report
+Merging #3283 (7bb4ec0) into develop (09cb809) will increase coverage by 15.67%.
+The diff coverage is n/a.
+❗ Current head 7bb4ec0 differs from pull request most recent head dfc470a. Consider uploading reports for the commit dfc470a to get more accurate results
+@@ Coverage Diff @@
+## develop #3283 +/- ##
+==============================================
++ Coverage 25.41% 41.09% +15.67%
+- Complexity 656 749 +93
+==============================================
+Files 1467 1467
+Lines 29943 29943
+Branches 2504 2504
+==============================================
++ Hits 7609 12304 +4695
++ Misses 21733 17004 -4729
+- Partials 601 635 +34
+Impacted Files
+Coverage Δ
+Complexity Δ
+...a/service/device/registry/internal/DeviceImpl.java
+71.11% <0.00%> (+0.74%)
+0.00% <0.00%> (ø%)
+...se/kapua/commons/event/jms/JMSServiceEventBus.java
+23.68% <0.00%> (+0.87%)
+0.00% <0.00%> (ø%)
+...client/transport/TransportElasticsearchClient.java
+1.61% <0.00%> (+1.61%)
+0.00% <0.00%> (ø%)
+...certificate/info/internal/CertificateInfoImpl.java
+17.85% <0.00%> (+1.78%)
+0.00% <0.00%> (ø%)
+...a/org/eclipse/kapua/commons/jpa/EntityManager.java
+70.90% <0.00%> (+1.81%)
+0.00% <0.00%> (ø%)
+...lipse/kapua/commons/metric/MetricsServiceImpl.java
+69.23% <0.00%> (+1.92%)
+0.00% <0.00%> (ø%)
+.../device/registry/internal/DeviceRegistryCache.java
+58.00% <0.00%> (+2.00%)
+0.00% <0.00%> (ø%)
+...a/org/eclipse/kapua/locator/guice/KapuaModule.java
+83.52% <0.00%> (+2.35%)
+0.00% <0.00%> (ø%)
+.../broker/core/plugin/KapuaSecurityBrokerFilter.java
+61.42% <0.00%> (+2.85%)
+0.00% <0.00%> (ø%)
+.../eclipse/kapua/kura/simulator/payload/Metrics.java
+4.28% <0.00%> (+4.28%)
+0.00% <0.00%> (ø%)
+... and 407 more
+Coduz
+removed
+the
+CQ pending
+label
+Mar 24, 2021
+Hide details
+View details
+Coduz
+merged commit 17a5fae
+into
+eclipse:develop
+Mar 24, 2021
+21 checks passed
+21 checks passed
+build-kapua
+Details
+test-brokerAcl
+Details
+test-tag
+Details
+test-broker
+Details
+test-device
+Details
+test-connection
+Details
+test-datastore
+Details
+test-user
+Details
+test-security
+Details
+test-jobs
+Details
+test-triggerService
+Details
+test-account
+Details
+test-jobEngineStartOfflineDevice
+Details
+test-jobEngineStartOnlineDevice
+Details
+test-jobEngineRestartOfflineDevice
+Details
+test-jobEngineRestartOnlineDevice
+Details
+test-jobEngineRestartOnlineDeviceSecondPart
+Details
+test-jobEngineServiceStop
+Details
+junit-tests
+junit-tests
+Details
+build-javadoc
+Details
+eclipsefdn/eca
+The author(s) of the pull request is covered by necessary legal agreements in order to proceed!
+Details
+1.5.0
+automation
+moved this from In Review
+to Done
+Mar 24, 2021
+1.4.3
+automation
+moved this from Backport
+to Backport Ready
+Mar 24, 2021
+Coduz
+deleted the
+Coduz:chng-bumpNettyVersionTo4.1.60.Final
+branch
+Mar 24, 2021
+Coduz
+moved this from Backport Ready
+to Done
+in 1.4.3
+Mar 24, 2021
+Sign up for free
+to join this conversation on GitHub.
+Already have an account?
+Sign in to comment
+Reviewers
+lorthirk
+Assignees
+No one assigned
+Labels
+Dependencies
+Projects
+1.5.0
+Done
+1 closed project
+1.4.3
+Done
+Milestone
+No milestone
+Linked issues
+Successfully merging this pull request may close these issues.
+None yet
+2 participants
+Add this suggestion to a batch that can be applied as a single commit.
+This suggestion is invalid because no changes were made to the code.
+Suggestions cannot be applied while the pull request is closed.
+Suggestions cannot be applied while viewing a subset of changes.
+Only one suggestion per line can be applied in a batch.
+Add this suggestion to a batch that can be applied as a single commit.
+Applying suggestions on deleted lines is not supported.
+You must change the existing code in this line in order to create a valid suggestion.
+Outdated suggestions cannot be applied.
+This suggestion has been applied or marked resolved.
+Suggestions cannot be applied from pending reviews.
+Suggestions cannot be applied on multi-line comments.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+Don't return mfaSecretKey when activating MFA via REST API by MDeLuise · Pull Request #3303 · eclipse/kapua · GitHub
+Skip to content
+Sign up
+Why GitHub?
+Features →
+Mobile →
+Actions →
+Codespaces →
+Packages →
+Security →
+Code review →
+Project management →
+Integrations →
+GitHub Sponsors →
+Customer stories→
+Team
+Enterprise
+Explore
+Explore GitHub →
+Learn and contribute
+Topics →
+Collections →
+Trending →
+Learning Lab →
+Open source guides →
+Connect with others
+The ReadME Project →
+Events →
+Community forum →
+GitHub Education →
+GitHub Stars program →
+Marketplace
+Pricing
+Plans →
+Compare plans →
+Contact Sales →
+Education →
+In this repository
+All GitHub
+↵
+Jump to
+↵
+No suggested jump to results
+In this repository
+All GitHub
+↵
+Jump to
+↵
+In this organization
+All GitHub
+↵
+Jump to
+↵
+In this repository
+All GitHub
+↵
+Jump to
+↵
+Sign in
+Sign up
+eclipse
+/
+kapua
+Notifications
+Star
+173
+Fork
+154
+Code
+Issues
+161
+Pull requests
+17
+Actions
+Projects
+6
+Wiki
+Security
+Insights
+More
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+New issue
+Have a question about this project? Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+Pick a username
+Email Address
+Password
+Sign up for GitHub
+By clicking “Sign up for GitHub”, you agree to our terms of service and
+privacy statement. We’ll occasionally send you account related emails.
+Already on GitHub?
+Sign in
+to your account
+Jump to bottom
+Don't return mfaSecretKey when activating MFA via REST API
+#3303
+Merged
+Coduz
+merged 3 commits into
+eclipse:develop
+from
+MDeLuise:fix-returnedMfaSecretKey
+Jun 18, 2021
+Merged
+Don't return mfaSecretKey when activating MFA via REST API
+#3303
+Coduz
+merged 3 commits into
+eclipse:develop
+from
+MDeLuise:fix-returnedMfaSecretKey
+Jun 18, 2021
+Conversation
+4
+Commits
+3
+Checks
+24
+Files changed
+Conversation
+Copy link
+Quote reply
+MDeLuise
+commented
+May 5, 2021
+Fixes #3279, i.e. the mfaSecretKey was returned by the method findMfa of Users class even if it was not needed.
+For security reasons is better to not return it.
+Description of the solution adopted
+In the findMfa use the method setMfaSecretKey of mfaOption object in order to set the mfaSecretKey to null before returning the result.
+Copy link
+codecov
+bot
+commented
+May 5, 2021
+•
+edited
+Codecov Report
+Merging #3303 (74a146c) into develop (80954ba) will decrease coverage by 21.12%.
+The diff coverage is 0.00%.
+❗ Current head 74a146c differs from pull request most recent head 9dba5c6. Consider uploading reports for the commit 9dba5c6 to get more accurate results
+@@ Coverage Diff @@
+## develop #3303 +/- ##
+==============================================
+- Coverage 55.30% 34.17% -21.13%
++ Complexity 868 525 -343
+==============================================
+Files 1516 1516
+Lines 30463 30464 +1
+Branches 2528 2528
+==============================================
+- Hits 16847 10411 -6436
+- Misses 12687 19233 +6546
++ Partials 929 820 -109
+Impacted Files
+Coverage Δ
+...se/kapua/app/api/resources/v1/resources/Users.java
+0.00% <0.00%> (ø)
+...rc/main/java/org/eclipse/kapua/KapuaException.java
+0.00% <0.00%> (-100.00%)
+⬇️
+...c/main/java/org/eclipse/kapua/KapuaErrorCodes.java
+0.00% <0.00%> (-100.00%)
+⬇️
+...in/java/org/eclipse/kapua/broker/BrokerDomain.java
+0.00% <0.00%> (-100.00%)
+⬇️
+...ain/java/org/eclipse/kapua/event/ServiceEvent.java
+0.00% <0.00%> (-100.00%)
+⬇️
+...n/java/org/eclipse/kapua/broker/BrokerDomains.java
+0.00% <0.00%> (-100.00%)
+⬇️
+...va/org/eclipse/kapua/commons/util/SystemUtils.java
+0.00% <0.00%> (-100.00%)
+⬇️
+...n/java/org/eclipse/kapua/model/domain/Actions.java
+0.00% <0.00%> (-100.00%)
+⬇️
+.../java/org/eclipse/kapua/message/KapuaPosition.java
+0.00% <0.00%> (-100.00%)
+⬇️
+.../java/org/eclipse/kapua/KapuaRuntimeException.java
+0.00% <0.00%> (-100.00%)
+⬇️
+... and 549 more
+MDeLuise
+force-pushed the
+MDeLuise:fix-returnedMfaSecretKey
+branch
+2 times, most recently
+from
+e58b15c
+to
+c7122e7
+May 12, 2021
+MDeLuise
+marked this pull request as ready for review
+May 12, 2021
+lorthirk
+requested changes
+May 13, 2021
+View changes
+rest-api/resources/src/main/resources/openapi/user/user.yaml
+Outdated
+Show resolved
+Hide resolved
+rest-api/resources/src/main/resources/openapi/user/user.yaml
+Outdated
+Show resolved
+Hide resolved
+MDeLuise
+force-pushed the
+MDeLuise:fix-returnedMfaSecretKey
+branch
+2 times, most recently
+from
+bd0fb34
+to
+84b88a9
+May 14, 2021
+Coduz
+approved these changes
+May 17, 2021
+View changes
+Coduz
+added this to In Progress
+in 1.5.0
+via automation
+May 17, 2021
+Coduz
+added this to Backport
+in 1.4.5
+via automation
+May 17, 2021
+Coduz
+added
+the
+Bug
+label
+May 17, 2021
+1.5.0
+automation
+moved this from In Progress
+to In Review
+May 24, 2021
+lorthirk
+approved these changes
+May 24, 2021
+View changes
+MDeLuise
+force-pushed the
+MDeLuise:fix-returnedMfaSecretKey
+branch
+from
+7d7210f
+to
+efa7d4b
+Jun 17, 2021
+MDeLuise
+added 3 commits
+May 12, 2021
+Set the mfaSecretKey to null before returning it via REST API
+6ff760c
+Update the documentation for the "User - Mfa" REST API call
+ce081a5
+Set the mfaSecretKey to null even before returning it when using the …
+…
+9dba5c6
+…console module
+MDeLuise
+force-pushed the
+MDeLuise:fix-returnedMfaSecretKey
+branch
+from
+efa7d4b
+to
+9dba5c6
+Jun 18, 2021
+Hide details
+View details
+Coduz
+merged commit af541a1
+into
+eclipse:develop
+Jun 18, 2021
+23 of 25 checks passed
+23 of 25 checks passed
+build-kapua
+Details
+test-brokerAcl
+Details
+test-tag
+Details
+test-broker
+Details
+test-device
+Details
+test-device-management
+Details
+test-connection
+Details
+test-datastore
+Details
+test-user
+Details
+test-security
+Details
+test-jobs
+Details
+test-triggerService
+Details
+test-account
+Details
+test-jobEngineStepDefinitions
+Details
+test-jobEngineStartOfflineDevice
+Details
+test-jobEngineStartOnlineDevice
+Details
+test-jobEngineRestartOfflineDevice
+Details
+test-jobEngineRestartOnlineDevice
+Details
+test-jobEngineRestartOnlineDeviceSecondPart
+Details
+test-jobEngineServiceStop
+test-jobEngineServiceStop
+Details
+junit-tests
+Details
+build-javadoc
+Details
+codecov/patch
+0.00% of diff hit (target 55.30%)
+Details
+codecov/project
+50.55% (-4.76%) compared to 80954ba
+Details
+eclipsefdn/eca
+The author(s) of the pull request is covered by necessary legal agreements in order to proceed!
+Details
+1.5.0
+automation
+moved this from In Review
+to Done
+Jun 18, 2021
+1.4.5
+automation
+moved this from Backport
+to Backport Ready
+Jun 18, 2021
+Coduz
+moved this from Backport Ready
+to Done
+in 1.4.5
+Jun 18, 2021
+Coduz
+removed this from Done
+in 1.5.0
+Jun 18, 2021
+Coduz
+removed this from Done
+in 1.4.5
+Jun 18, 2021
+Copy link
+Contributor
+Coduz
+commented
+Jun 18, 2021
+Removing from projects since this is tracked by issue
+MDeLuise
+deleted the
+MDeLuise:fix-returnedMfaSecretKey
+branch
+Jun 18, 2021
+Sign up for free
+to join this conversation on GitHub.
+Already have an account?
+Sign in to comment
+Reviewers
+Coduz
+lorthirk
+Assignees
+No one assigned
+Labels
+Bug
+Projects
+None yet
+Milestone
+No milestone
+Linked issues
+Successfully merging this pull request may close these issues.
+MFA: the encrypted mfaSecretKey should be removed when returned with a GET REST API
+3 participants
+Add this suggestion to a batch that can be applied as a single commit.
+This suggestion is invalid because no changes were made to the code.
+Suggestions cannot be applied while the pull request is closed.
+Suggestions cannot be applied while viewing a subset of changes.
+Only one suggestion per line can be applied in a batch.
+Add this suggestion to a batch that can be applied as a single commit.
+Applying suggestions on deleted lines is not supported.
+You must change the existing code in this line in order to create a valid suggestion.
+Outdated suggestions cannot be applied.
+This suggestion has been applied or marked resolved.
+Suggestions cannot be applied from pending reviews.
+Suggestions cannot be applied on multi-line comments.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You can’t perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.

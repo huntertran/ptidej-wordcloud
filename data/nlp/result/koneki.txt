@@ -11,7 +11,7 @@ governments:377
 dropdown:360
 latest:345
 languages:302
-des:244
+des:245
 ides:219
 platforms:171
 technology:165
@@ -24,9 +24,9 @@ links:131
 operations:131
 manager:127
 users:126
+les:113
 web:108
 builds:107
-les:107
 publication:98
 community:97
 main:94
@@ -37,12 +37,12 @@ tags:89
 codes:85
 top:82
 lists:81
+la:80
 services:78
 runtime:78
 editing:77
 back:76
 clients:76
-la:74
 navigator:73
 servers:73
 relation:71
