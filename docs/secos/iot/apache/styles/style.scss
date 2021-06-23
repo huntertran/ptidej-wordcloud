@@ -47,7 +47,7 @@ html {
 
 #legend {
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
     background: #000000bf;
     border-radius: 6px;
@@ -65,9 +65,9 @@ html {
     }
 }
 
-.red-dot {
+.blue-dot {
     font-size: xx-large;
-    color: red;
+    color: blue;
     margin: 6px;
 }
 

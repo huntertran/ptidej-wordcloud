@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
@@ -16,14 +16,15 @@
     <div id="container" class="toggle_survey survey_close"></div>
     <div id="survey" class="toggle_survey survey_close">
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLScr4sexYyBM27NegSEJI7WtKFun_WpwRDuVyzWUJO6PyDD-WA/viewform?embedded=true">Loading…</iframe>
+        src="https://docs.google.com/forms/d/e/1FAIpQLScr4sexYyBM27NegSEJI7WtKFun_WpwRDuVyzWUJO6PyDD-WA/viewform?embedded=true"
+        title="Viewer Feedback">Loading…</iframe>
     </div>
   </div>
 
   <div id="legend">
     <h3>Legend</h3>
     <p>
-      <span class="red-dot">&#8226;</span>
+      <span class="blue-dot">&#8226;</span>
       <span>Protocol</span>
     </p>
     <p>
@@ -32,7 +33,7 @@
     </p>
     <p>
       <span class="red-line">
-        <img src="./images/rel.png" />
+        <img src="./images/legends/rel.png" alt="relationship legend" />
       </span>
       <span>Relationship with protocol</span>
     </p>
@@ -71,11 +72,6 @@
   <!-- drag nodes -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.plugins.dragNodes.min.js"
     integrity="sha512-w9i2zoWU7Te0i+TJoKMyBjHYAptYykPieNa0iT6/ofVbUHvqIhh6f4YVkXV84kAuGbIS+CqvSV/6AHTVt8bUrA=="
-    crossorigin="anonymous"></script>
-
-  <!-- force atlas 2 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.layout.forceAtlas2.min.js"
-    integrity="sha512-RuRd3WCUb6GCaiaEJ2UDkaVblIVAHJNLaDG6Df2OWpzg4kQurQqh/GC/a3eFSopnRiNrwePMFvI13pbYZ1WnAw=="
     crossorigin="anonymous"></script>
 
   <!-- no overlap, require animate plugin -->

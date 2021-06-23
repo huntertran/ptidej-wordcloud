@@ -64,7 +64,7 @@
         "wakaama"
     ],
     "liveServer.settings.port": 5501,
-    "compile-hero.disable-compile-files-on-did-save-code": true,
+    "compile-hero.disable-compile-files-on-did-save-code": false,
     "compile-hero.scss-output-directory": "./",
     "compile-hero.scss-output-toggle": true,
     "compile-hero.jade-output-toggle": false,
