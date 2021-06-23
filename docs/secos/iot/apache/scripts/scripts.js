@@ -81,6 +81,7 @@ var wordcloud = {
         await wordcloud.sleep(1000);
         // another refresh to show the word-cloud
         wordcloud.s.refresh();
+        
     },
 
     addButtonClickEvent: function () {
@@ -102,6 +103,19 @@ var wordcloud = {
             window.scrollTo(0, document.body.scrollHeight);
         }
     },
+
+    // addEventHandlers: function(){
+    //     document.getElementById("container").addEventListener("mousewheel DOMMouseScroll", wordcloud.mouseWheel);
+    //     wordcloud.s.bind('coordinatesUpdated', wordcloud.coordinateUpdatedEventHandler);
+    // },
+
+    // mouseWheel: function(){
+    //     console.log(wordcloud.s.camera);
+    // },
+
+    // coordinateUpdatedEventHandler: function(event) {
+    //     console.log(event);
+    // },
 
     closeFeedbackClicked: function () {
         var toggle_survey_elements = document.getElementsByClassName('toggle_survey');
@@ -131,12 +145,14 @@ var wordcloud = {
             wordcloud.data,
             wordcloud.s,
             async function () {
+                // wordcloud.s.bind('coordinatesUpdated', wordcloud.coordinateUpdatedEventHandler);
                 wordcloud.s.refresh();
                 await wordcloud.config();
             }
         );
 
         wordcloud.addButtonClickEvent();
+        // wordcloud.addEventHandlers();
     }
 }
 

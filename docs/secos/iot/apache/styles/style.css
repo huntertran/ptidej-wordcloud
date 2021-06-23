@@ -60,6 +60,9 @@ html {
   margin-top: 2px;
   margin-bottom: 2px;
 }
+#legend .navigation-icon img {
+  width: 32px;
+}
 
 .blue-dot {
   font-size: xx-large;
