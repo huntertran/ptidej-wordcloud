@@ -64,6 +64,35 @@ html {
   width: 32px;
 }
 
+#wordcloud-fullsize {
+  position: absolute;
+  background: #000000bf;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: white;
+  padding: 6px;
+  width: 70%;
+  height: fit-content;
+  top: 0px;
+  left: 0px;
+  padding: 6px;
+}
+#wordcloud-fullsize #close-fullsize-image-button {
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: 6px;
+}
+#wordcloud-fullsize #selected-wordcloud {
+  width: 100%;
+}
+#wordcloud-fullsize.hide {
+  display: none;
+}
+#wordcloud-fullsize.show {
+  display: block;
+}
+
 .blue-dot {
   font-size: xx-large;
   color: blue;

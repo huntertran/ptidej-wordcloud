@@ -81,7 +81,8 @@ var wordcloud = {
         await wordcloud.sleep(1000);
         // another refresh to show the word-cloud
         wordcloud.s.refresh();
-        
+
+        wordcloud.addNodeEvent();
     },
 
     addButtonClickEvent: function () {
@@ -116,6 +117,28 @@ var wordcloud = {
     // coordinateUpdatedEventHandler: function(event) {
     //     console.log(event);
     // },
+
+    addNodeEvent: function () {
+        wordcloud.s.bind('clickNode', wordcloud.clickNodeEventHandler);
+        let close_fullsize_image_button = document.getElementById('close-fullsize-image-button');
+        close_fullsize_image_button.onclick = wordcloud.closeFullSizeImageButtonClicked;
+    },
+
+    clickNodeEventHandler: function (node) {
+        var image_url = node.data.node.image.url;
+        image_url = image_url.replace('thumbnails', 'fullsize');
+
+        var fullsize_image = document.getElementById('selected-wordcloud');
+        fullsize_image.setAttribute('src', image_url);
+
+        let wordcloud_fullsize = document.getElementById('wordcloud-fullsize');
+        wordcloud_fullsize.setAttribute('class', 'show');
+    },
+
+    closeFullSizeImageButtonClicked: function () {
+        let wordcloud_fullsize = document.getElementById('wordcloud-fullsize');
+        wordcloud_fullsize.setAttribute('class', 'hide');
+    },
 
     closeFeedbackClicked: function () {
         var toggle_survey_elements = document.getElementsByClassName('toggle_survey');

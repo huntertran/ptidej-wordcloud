@@ -11,11 +11,11 @@ var wordcloud = {
         var args = arguments,
             prefix = settings('prefix') || '',
             size = node[prefix + 'size'],
-            color = node.color || settings('defaultNodeColor'),
+            // color = node.color || settings('defaultNodeColor'),
             url = node.image.url;
-        w = node.image.w;
-        h = node.image.h;
-        scale = 0.1;
+        let w = node.image.w;
+        let h = node.image.h;
+        let scale = 0.1;
 
         if (wordcloud.rendererArgs._cache[url]) {
             context.save();
@@ -97,15 +97,16 @@ var wordcloud = {
         wordcloud.s.startNoverlap();
 
         var dragListener = new sigma.plugins.dragNodes(wordcloud.s, wordcloud.s.renderers[0]);
-        // CustomShapes.init(s);
-        // s.refresh();
+
+        wordcloud.addNodeEvent();
+
     },
 
     addButtonClickEvent: function () {
-        feedbackBtn = document.getElementById('feedback_btn');
+        let feedbackBtn = document.getElementById('feedback_btn');
         feedbackBtn.onclick = this.feedbackClicked;
 
-        closeFeedBackBtn = document.getElementById('close_feedback_btn');
+        let closeFeedBackBtn = document.getElementById('close_feedback_btn');
         closeFeedBackBtn.onclick = this.closeFeedbackClicked;
     },
 
@@ -133,6 +134,28 @@ var wordcloud = {
         }
     },
 
+    addNodeEvent: function() {
+        wordcloud.s.bind('clickNode', wordcloud.clickNodeEventHandler);
+        let close_fullsize_image_button = document.getElementById('close-fullsize-image-button');
+        close_fullsize_image_button.onclick = wordcloud.closeFullSizeImageButtonClicked;
+    },
+
+    clickNodeEventHandler: function(node) {
+        var image_url = node.data.node.image.url;
+        image_url = image_url.replace('thumbnails','fullsize');
+
+        var fullsize_image = document.getElementById('selected-wordcloud');
+        fullsize_image.setAttribute('src', image_url);
+
+        let wordcloud_fullsize = document.getElementById('wordcloud-fullsize');
+        wordcloud_fullsize.setAttribute('class','show');
+    },
+
+    closeFullSizeImageButtonClicked: function() {
+        let wordcloud_fullsize = document.getElementById('wordcloud-fullsize');
+        wordcloud_fullsize.setAttribute('class','hide');
+    },
+
     init: function () {
         wordcloud.customRender();
 
@@ -146,7 +169,6 @@ var wordcloud = {
                 enableEdgeHovering: true,
                 edgeHoverSizeRatio: 2,
                 zoomMin: 0.001
-                // defaultEdgeColor: "#ff0000"
             }
         });
 

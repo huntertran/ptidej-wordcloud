@@ -70,6 +70,35 @@ html {
     }
 }
 
+#wordcloud-fullsize {
+    position: absolute;
+    background: #000000bf;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: white;
+    padding: 6px;
+    width: 70%;
+    height: fit-content;
+    top: 0px;
+    left: 0px;
+    padding: 6px;
+    #close-fullsize-image-button {
+        background-color: red;
+        color: white;
+        position: absolute;
+        right: 6px;
+    }
+    #selected-wordcloud {
+        width: 100%;
+    }
+    &.hide{
+        display: none;
+    }
+    &.show{
+        display: block;
+    }
+}
+
 .blue-dot {
     font-size: xx-large;
     color: blue;
