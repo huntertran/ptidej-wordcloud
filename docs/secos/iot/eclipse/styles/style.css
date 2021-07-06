@@ -83,6 +83,7 @@ html {
   position: absolute;
   right: 6px;
 }
+#wordcloud-fullsize #selected-wordcloud-2,
 #wordcloud-fullsize #selected-wordcloud {
   width: 100%;
 }

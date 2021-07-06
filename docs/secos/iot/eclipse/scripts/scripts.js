@@ -1,6 +1,7 @@
 var wordcloud = {
     data: 'data/graph.json',
     s: undefined,
+    reviewStatus: 0,
     rendererArgs: {
         _cache: {},
         _loading: {},
@@ -111,10 +112,6 @@ var wordcloud = {
     },
 
     feedbackClicked: function () {
-        // var container = document.getElementById('container')
-        // var survey = document.getElementById('survey')
-        // var feedback = document.getElementById('feedback')
-
         var toggle_survey_elements = document.getElementsByClassName('toggle_survey');
         for (element of toggle_survey_elements) {
             element.classList.remove('survey_close');
@@ -140,18 +137,41 @@ var wordcloud = {
         close_fullsize_image_button.onclick = wordcloud.closeFullSizeImageButtonClicked;
     },
 
-    clickNodeEventHandler: function(node) {
+    getImageUrl: function (node) {
         var image_url = node.data.node.image.url;
-        image_url = image_url.replace('thumbnails','fullsize');
+        return image_url.replace('thumbnails', 'fullsize');
+    },
 
-        var fullsize_image = document.getElementById('selected-wordcloud');
+    setFullsizeImageForReview: function (image_url, element_id) {
+        var fullsize_image = document.getElementById(element_id);
         fullsize_image.setAttribute('src', image_url);
+    },
+
+    clickNodeEventHandler: function (node) {
+        var image_url = wordcloud.getImageUrl(node);
+
+        switch (wordcloud.reviewStatus) {
+            case 1:
+                // image 1 showed
+                wordcloud.setFullsizeImageForReview(image_url, 'selected-wordcloud-2');
+                wordcloud.reviewStatus = 2;
+                break;
+            default:
+                // nothing showed
+                // OR
+                // both images showed
+                wordcloud.setFullsizeImageForReview(image_url, 'selected-wordcloud');
+                wordcloud.reviewStatus = 1;
+                break;
+        }
 
         let wordcloud_fullsize = document.getElementById('wordcloud-fullsize');
-        wordcloud_fullsize.setAttribute('class','show');
+        wordcloud_fullsize.setAttribute('class', 'show');
     },
 
     closeFullSizeImageButtonClicked: function() {
+        wordcloud.setFullsizeImageForReview('./secos/iot/eclipse/images/legends/drag.png', 'selected-wordcloud');
+        wordcloud.setFullsizeImageForReview('./secos/iot/eclipse/images/legends/drag.png', 'selected-wordcloud-2');
         let wordcloud_fullsize = document.getElementById('wordcloud-fullsize');
         wordcloud_fullsize.setAttribute('class','hide');
     },
