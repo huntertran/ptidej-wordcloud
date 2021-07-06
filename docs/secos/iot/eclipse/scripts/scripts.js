@@ -169,9 +169,14 @@ var wordcloud = {
         wordcloud_fullsize.setAttribute('class', 'show');
     },
 
+    resetImageReview: function() {
+        wordcloud.setFullsizeImageForReview('./images/legends/placeholder.png', 'selected-wordcloud');
+        wordcloud.setFullsizeImageForReview('./images/legends/placeholder.png', 'selected-wordcloud-2');
+        wordcloud.reviewStatus = 0;
+    },
+
     closeFullSizeImageButtonClicked: function() {
-        wordcloud.setFullsizeImageForReview('./secos/iot/eclipse/images/legends/drag.png', 'selected-wordcloud');
-        wordcloud.setFullsizeImageForReview('./secos/iot/eclipse/images/legends/drag.png', 'selected-wordcloud-2');
+        wordcloud.resetImageReview();
         let wordcloud_fullsize = document.getElementById('wordcloud-fullsize');
         wordcloud_fullsize.setAttribute('class','hide');
     },
@@ -201,6 +206,7 @@ var wordcloud = {
         );
 
         wordcloud.addButtonClickEvent();
+        wordcloud.resetImageReview();
     }
 }
 
